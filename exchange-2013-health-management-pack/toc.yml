@@ -1,0 +1,141 @@
+- name: Impostazione di integrità di Management Pack in Exchange 2013
+  href: exchange-2013-management-pack-health-sets.md
+  items:
+  - name: Risoluzione dei problemi di integrità ActiveSync impostare
+    href: troubleshooting-activesync-health-set.md
+  - name: Risoluzione dei problemi Set di integrità ActiveSync.Protocol
+    href: troubleshooting-activesync-protocol-health-set.md
+  - name: Risoluzione dei problemi del set di integrità Troubleshooting ActiveSync.Proxy
+    href: troubleshooting-activesync-proxy-health-set.md
+  - name: Risoluzione dei problemi di Set di integrità di Active Directory
+    href: troubleshooting-ad-health-set.md
+  - name: Risoluzione dei problemi di integrità Antimalware impostare
+    href: troubleshooting-antimalware-health-set.md
+  - name: Risoluzione dei problemi di integrità AntiSpam impostare
+    href: troubleshooting-antispam-health-set.md
+  - name: Impostare la risoluzione dei problemi di integrità di individuazione automatica
+    href: troubleshooting-autodiscover-health-set.md
+  - name: Risoluzione dei problemi Set di integrità Autodiscover.Protocol
+    href: troubleshooting-autodiscover-protocol-health-set.md
+  - name: Risoluzione dei problemi Set di integrità Autodiscover.Proxy
+    href: troubleshooting-autodiscover-proxy-health-set.md
+  - name: Risoluzione dei problemi di integrità classificazione impostare
+    href: troubleshooting-classification-health-set.md
+  - name: Risoluzione dei problemi di Set di integrità ClientAccess.Proxy
+    href: troubleshooting-clientaccess-proxy-health-set.md
+  - name: Risoluzione dei problemi di conformità Health impostare
+    href: troubleshooting-compliance-health-set.md
+  - name: Risoluzione dei problemi di integrità DataProtection impostare
+    href: troubleshooting-dataprotection-health-set.md
+  - name: Risoluzione dei problemi di integrità su disco insufficiente impostare
+    href: troubleshooting-diskspace-health-set.md
+  - name: Risoluzione dei problemi Set di integrità ECP
+    href: troubleshooting-ecp-health-set.md
+  - name: Risoluzione dei problemi di ECP. Set di integrità proxy
+    href: troubleshooting-ecp-proxy-health-set.md
+  - name: Risoluzione dei problemi di integrità ripartizione impostare
+    href: troubleshooting-eds-health-set.md
+  - name: Risoluzione dei problemi di integrità EventAssistants impostare
+    href: troubleshooting-eventassistants-health-set.md
+  - name: Risoluzione dei problemi del set di integrità EWS
+    href: troubleshooting-ews-health-set.md
+  - name: Risoluzione dei problemi di servizi Web Exchange. Set di integrità di protocollo
+    href: troubleshooting-ews-protocol-health-set.md
+  - name: Risoluzione dei problemi di servizi Web Exchange. Set di integrità proxy
+    href: troubleshooting-ews-proxy-health-set.md
+  - name: Risoluzione dei problemi di integrità FfoQuarantine impostare
+    href: troubleshooting-ffoquarantine-health-set.md
+  - name: Risoluzione dei problemi di integrità FfoTransport impostare
+    href: troubleshooting-ffotransport-health-set.md
+  - name: Risoluzione dei problemi di integrità FfoUmc impostare
+    href: troubleshooting-ffoumc-health-set.md
+  - name: Risoluzione dei problemi di integrità FfoWebService impostare
+    href: troubleshooting-ffowebservice-health-set.md
+  - name: Set di integrità FIPS la risoluzione dei problemi
+    href: troubleshooting-fips-health-set.md
+  - name: Risoluzione dei problemi di integrità FreeBusy impostare
+    href: troubleshooting-freebusy-health-set.md
+  - name: Risoluzione dei problemi di integrità FrontendTransport impostare
+    href: troubleshooting-frontendtransport-health-set.md
+  - name: Risoluzione dei problemi di integrità HubTransport impostare
+    href: troubleshooting-hubtransport-health-set.md
+  - name: Risoluzione dei problemi Set di integrità IMAP
+    href: troubleshooting-imap-health-set.md
+  - name: Risoluzione dei problemi IMAP. Set di integrità di protocollo
+    href: troubleshooting-imap-protocol-health-set.md
+  - name: Risoluzione dei problemi IMAP. Set di integrità proxy
+    href: troubleshooting-imap-proxy-health-set.md
+  - name: Risoluzione dei problemi di integrità MailboxMigration impostare
+    href: troubleshooting-mailboxmigration-health-set.md
+  - name: Risoluzione dei problemi di integrità MailboxSpace impostare
+    href: troubleshooting-mailboxspace-health-set.md
+  - name: Risoluzione dei problemi di integrità MailboxTransport impostare
+    href: troubleshooting-mailboxtransport-health-set.md
+  - name: Risoluzione dei problemi di integrità flusso della posta impostare
+    href: troubleshooting-mailflow-health-set.md
+  - name: Risoluzione dei problemi di memoria integrità impostare
+    href: troubleshooting-memory-health-set.md
+  - name: Risoluzione dei problemi di integrità MessageTracing impostare
+    href: troubleshooting-messagetracing-health-set.md
+  - name: Risoluzione dei problemi di monitoraggio dello stato impostato
+    href: troubleshooting-monitoring-health-set.md
+  - name: Risoluzione dei problemi di Set di integrità MRS
+    href: troubleshooting-mrs-health-set.md
+  - name: Risoluzione dei problemi di integrità MSExchangeCertificateDeployment impostare
+    href: troubleshooting-msexchangecertificatedeployment-health-set.md
+  - name: Risoluzione dei problemi di integrità della rete impostare
+    href: troubleshooting-network-health-set.md
+  - name: Risoluzione dei problemi di integrità della Rubrica fuori rete impostare
+    href: troubleshooting-oab-health-set.md
+  - name: Risoluzione dei problemi della Rubrica fuori rete. Set di integrità proxy
+    href: troubleshooting-oab-proxy-health-set.md
+  - name: Risoluzione dei problemi di integrità Outlook impostare
+    href: troubleshooting-outlook-health-set.md
+  - name: Risoluzione dei problemi di Set di integrità Outlook.Protocol
+    href: troubleshooting-outlook-protocol-health-set.md
+  - name: Risoluzione dei problemi Set di integrità Outlook.Proxy
+    href: troubleshooting-outlook-proxy-health-set.md
+  - name: Risoluzione dei problemi Set di integrità OWA
+    href: troubleshooting-owa-health-set.md
+  - name: Risoluzione dei problemi di OWA. Set di integrità di protocollo
+    href: troubleshooting-owa-protocol-health-set.md
+  - name: Risoluzione dei problemi di OWA. Set di integrità Protocol.Dep
+    href: troubleshooting-owa-protocol-dep-health-set.md
+  - name: Risoluzione dei problemi di OWA. Set di integrità proxy
+    href: troubleshooting-owa-proxy-health-set.md
+  - name: Risoluzione dei problemi Set di integrità POP
+    href: troubleshooting-pop-health-set.md
+  - name: Risoluzione dei problemi POP. Set di integrità di protocollo
+    href: troubleshooting-pop-protocol-health-set.md
+  - name: Risoluzione dei problemi POP. Set di integrità proxy
+    href: troubleshooting-pop-proxy-health-set.md
+  - name: Risoluzione dei problemi di integrità PowershellDataProvider impostare
+    href: troubleshooting-powershelldataprovider-health-set.md
+  - name: Risoluzione dei problemi di integrità PublicFolders impostare
+    href: troubleshooting-publicfolders-health-set.md
+  - name: Risoluzione dei problemi di Set di integrità PushNotifications.Protocol
+    href: troubleshooting-pushnotifications-protocol-health-set.md
+  - name: Risoluzione dei problemi di integrità RemoteMonitoring impostare
+    href: troubleshooting-remotemonitoring-health-set.md
+  - name: Risoluzione dei problemi di integrità di richieste al secondo Set
+    href: troubleshooting-rps-health-set.md
+  - name: Risoluzione dei problemi di richieste al secondo. Set di integrità proxy
+    href: troubleshooting-rps-proxy-health-set.md
+  - name: Risoluzione dei problemi di integrità ricerca impostare
+    href: troubleshooting-search-health-set.md
+  - name: Risoluzione dei problemi di integrità SiteMailbox impostare
+    href: troubleshooting-sitemailbox-health-set.md
+  - name: Risoluzione dei problemi di Set di integrità SMTP
+    href: troubleshooting-smtp-health-set.md
+  - name: Risoluzione dei problemi di integrità di archiviazione impostare
+    href: troubleshooting-store-health-set.md
+  - name: Risoluzione dei problemi di integrità trasporto impostare
+    href: troubleshooting-transport-health-set.md
+  - name: Risoluzione dei problemi di messaggistica unificata Set di integrità
+    href: troubleshooting-um-health-set.md
+  - name: Risoluzione dei problemi di messaggistica unificata. Set di integrità CallRouter
+    href: troubleshooting-um-callrouter-health-set.md
+  - name: Risoluzione dei problemi di messaggistica unificata. Set di integrità di protocollo
+    href: troubleshooting-um-protocol-health-set.md
+  - name: Risoluzione dei problemi di integrità UserThrottling impostare
+    href: troubleshooting-userthrottling-health-set.md
