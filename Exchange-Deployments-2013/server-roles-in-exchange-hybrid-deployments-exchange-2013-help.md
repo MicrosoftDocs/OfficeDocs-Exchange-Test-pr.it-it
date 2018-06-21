@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
 È possibile configurare le distribuzioni ibride in base a Exchange 2013 e Exchange 2016. I ruoli da configurare per supportare una distribuzione ibrida dipendono dalla versione di Exchange in uso.
 

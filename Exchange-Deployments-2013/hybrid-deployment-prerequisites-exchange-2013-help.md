@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-07-25_
+_<strong>Ultima modifica dell'argomento:</strong>2017-07-25_
 
 **Riepilogo:** requisiti dell'ambiente Exchange necessari per la configurazione di una distribuzione ibrida.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-10-02_
+_<strong>Ultima modifica dell'argomento:</strong>2017-10-02_
 
 Con la distribuzione ibrida basata su Exchange, è possibile scegliere di spostare le cassette postali locali di Exchange nell'organizzazione di Exchange Online oppure di spostare le cassette postali di Exchange Online nell'organizzazione Exchange. Quando si spostano cassette postali tra le organizzazioni locali e di Exchange Online, per eseguire la richiesta di spostamento remoto delle cassette postali vengono utilizzati i batch di migrazione. Questo approccio consente di spostare le cassette postali esistenti anziché creare nuove cassette postali utente e di importare i dati utente. Si tratta di un approccio diverso rispetto alla migrazione delle cassette postali utente da un'organizzazione di Exchange locale a Exchange Online nell'ambito di una migrazione completa di Exchange nel cloud. Le cassette postali discusse in questo argomento fanno parte della gestione amministrativa di Exchange, in una relazione di coesistenza a lungo termine tra organizzazioni Exchange locali e di Exchange Online.
 

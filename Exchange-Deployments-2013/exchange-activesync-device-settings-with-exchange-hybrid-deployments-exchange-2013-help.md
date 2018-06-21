@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-01-27_
+_<strong>Ultima modifica dell'argomento:</strong>2016-01-27_
 
 I dispositivi Exchange ActiveSync vengono riconfigurati automaticamente quando una cassetta postale viene spostata da un'organizzazione di Exchange locale in Office 365. Exchange ActiveSync troverà il nuovo percorso della cassetta postale in Office 365 e aggiornerà la sua configurazione per rivolgersi direttamente a Office 365. Il dispositivo Exchange ActiveSync non effettuerà tentativi e contatterà il server Exchange locale dopo che è stato reindirizzato a Office 365. Salvo alcune eccezioni (descritte di seguito), l'utente non ha più bisogno di configurare manualmente il dispositivo affinché la posta continui a funzionare.
 

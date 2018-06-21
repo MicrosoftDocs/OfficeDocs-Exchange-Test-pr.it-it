@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
 Esistono varie possibilità per la migrazione di dati da un'organizzazione di posta elettronica locale a Office 365. Una domanda frequente quando si pianifica una migrazione a Office 365 è come migliorare le prestazioni della migrazione di dati e ottimizzare la velocità della migrazione. In questo articolo vengono descritte le prestazioni di migrazione per distribuzioni ibride di Exchange. Per informazioni sulle prestazioni relative ad altri metodi di migrazione, vedere [Prestazioni e procedure consigliate per la migrazione a Office 365](http://go.microsoft.com/fwlink/p/?linkid=623651).
 

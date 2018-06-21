@@ -13,7 +13,7 @@ ms.translationtype: MT
 
  
 
-_**Ultima modifica dell'argomento:**2018-01-30_
+_<strong>Ultima modifica dell'argomento:</strong>2018-01-30_
 
 Le autorizzazioni per cassette postali delegate consentono di gestire parte della cassetta postale di altri utenti. Un esempio comune è quello di un assistente amministrativo che deve gestire le cassette postali e il calendario di un dirigente. Le distribuzioni ibride tra un'organizzazione di Exchange locale e Office 365 supportano le autorizzazioni per cassette postali delegate di tipo **Accesso completo** e **Invia per conto di**. Tuttavia, a seconda della versione di Exchange installata nell'organizzazione locale, è possibile eseguire altre operazioni di configurazione per utilizzare le autorizzazioni per cassette postali delegate in una distribuzione ibrida. Di seguito sono elencate le versioni di Exchange che supportano le autorizzazioni per cassette postali delegate in una distribuzione ibrida ed eventuali ulteriori configurazioni necessarie per tale versione.
 

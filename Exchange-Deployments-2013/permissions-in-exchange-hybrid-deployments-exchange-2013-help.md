@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2018-05-02_
+_<strong>Ultima modifica dell'argomento:</strong>2018-05-02_
 
 L'organizzazione di Exchange Online in Office 365 è basata su Exchange Server e, come le organizzazioni locali, utilizza il controllo delle accessi in base ai ruoli (RBAC, Role Based Access Control) per verificare le autorizzazioni. Le autorizzazioni sono concesse agli amministratori, utilizzando i gruppi di ruoli di gestione, e agli utenti finali, tramite i criteri di assegnazione dei ruoli di gestione.
 

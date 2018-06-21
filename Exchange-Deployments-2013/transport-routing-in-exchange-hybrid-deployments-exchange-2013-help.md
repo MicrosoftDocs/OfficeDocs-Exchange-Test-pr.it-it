@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-07-29_
+_<strong>Ultima modifica dell'argomento:</strong>2016-07-29_
 
 In questo argomento vengono illustrate le opzioni di routing per i messaggi in arrivo da Internet e in uscita verso Internet.
 

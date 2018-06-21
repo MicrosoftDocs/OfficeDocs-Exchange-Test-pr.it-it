@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
 In una distribuzione ibrida i certificati digitali costituiscono un aspetto importante per la protezione delle comunicazioni fra l'organizzazione di Exchange locale e Office 365. I certificati consentono a ciascuna organizzazione di Exchange di considerare attendibile l'identità dell'altra. I certificati assicurano inoltre che ciascuna organizzazione di Exchange comunichi con l'origine corretta.
 
