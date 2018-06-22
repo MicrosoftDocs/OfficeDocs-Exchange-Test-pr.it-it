@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-06-14_
+_<strong>Ultima modifica dell'argomento:</strong>2017-06-14_
 
 Gli ultimi miglioramenti apportati alla procedura guidata di configurazione ibrida semplificano al massimo la configurazione e la gestione delle distribuzioni ibride. Che si desideri connettere l'organizzazione locale di Exchange e l'organizzazione di Exchange Online per la coesistenza a lungo termine o nell'ambito di una strategia di migrazione al cloud, la configurazione di una distribuzione ibrida costituisce il primo passaggio per l'organizzazione di Exchange.
 

@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:**2016-11-11_
+_<strong>Ultima modifica dell'argomento:</strong>2016-11-11_
 
 Informazioni su come configurare un URL per Outlook sul Web (Outlook Web App) dedicato agli utenti della cassetta postale cloud in un ambiente ibrido.
 

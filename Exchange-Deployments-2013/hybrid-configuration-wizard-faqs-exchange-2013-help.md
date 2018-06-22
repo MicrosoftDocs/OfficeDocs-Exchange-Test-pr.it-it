@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
 Microsoft ha rilasciato una nuova procedura guidata per la configurazione ibrida che semplifica la configurazione di una distribuzione ibrida, consente una maggiore flessibilità e offre le versioni più aggiornate. Questa versione della procedura guidata ibrida è incorporata in Exchange 2016 e versioni di Exchange 2013 iniziando dall'aggiornamento cumulativo 10. Tuttavia, è possibile scaricare la nuova procedura guidata anche se si esegue una versione dell'aggiornamento cumulativo di Exchange 2013 meno recente o di Exchange 2010 Service Pack 3 (SP3).
 

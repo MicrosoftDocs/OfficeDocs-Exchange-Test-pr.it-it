@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Questo argomento è in fase di definizione.  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-02-16_
+_<strong>Ultima modifica dell'argomento:</strong>2017-02-16_
 
 Quando si configura una distribuzione ibrida in un'organizzazione Exchange 2010, è necessario installare almeno un server Exchange 2013 con i ruoli server Accesso client e Cassette postali nell'organizzazione Exchange 2010 esistente. I server Accesso client e Cassette postali di Exchange 2013 coordinano le comunicazioni tra l'organizzazione Exchange 2010 locale e l'organizzazione Exchange Online. Queste comunicazioni comprendono le funzionalità di trasporto dei messaggi e messaggistica tra le organizzazioni locali e le organizzazioni Exchange Online.
 

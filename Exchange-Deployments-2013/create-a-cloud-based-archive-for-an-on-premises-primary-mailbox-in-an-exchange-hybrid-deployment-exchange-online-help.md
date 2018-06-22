@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-01-20_
+_<strong>Ultima modifica dell'argomento:</strong>2017-01-20_
 
 In una distribuzione ibrida di Exchange, è possibile configurare una cassetta postale principale locale con una cassetta postale di archiviazione basata sul cloud in Exchange Online.
 

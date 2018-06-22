@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Questo argomento è in fase di definizione.  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
 I server Trasporto Edge di Microsoft Exchange vengono distribuiti nella rete perimetrale locale dell'organizzazione. Sono computer non aggiunti al dominio che gestiscono il flusso di posta elettronica con connessione Internet e fungono da inoltro SMTP e smart host per i server Exchange nella rete interna.
 

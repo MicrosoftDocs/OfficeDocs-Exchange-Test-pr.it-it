@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-04-29_
+_<strong>Ultima modifica dell'argomento:</strong>2016-04-29_
 
 Configurare una distribuzione ibrida in Exchange con la procedura guidata per la configurazione ibrida riduce sensibilmente la possibilità che si verifichino problemi nella distribuzione ibrida. Esistono, tuttavia, alcune aree tipiche che non rientrano nell'ambito della procedura guidata per la configurazione ibrida che, se non configurate correttamente, potrebbero presentare problemi in una distribuzione ibrida. In questo argomento vengono illustrate le seguenti aree comuni in cui potrebbero verificarsi dei problemi e vengono illustrati i passaggi di base per verificare o correggere i problemi:
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Questo argomento è in fase di definizione.  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
 Quando si installa un server che esegue Microsoft Exchange Server 2013 nell'organizzazione Exchange 2010 locale, gli strumenti di gestione di Exchange 2013 vengono automaticamente installati nel server. È possibile utilizzare gli strumenti elencati di seguito per configurare e gestire la funzionalità ibrida dell'organizzazione di Exchange locale e di Exchange Online:
 

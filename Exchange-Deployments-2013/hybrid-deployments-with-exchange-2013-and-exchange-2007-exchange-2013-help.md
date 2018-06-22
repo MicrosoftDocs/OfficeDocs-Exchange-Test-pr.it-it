@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Questo argomento è in fase di definizione.  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-07-07_
+_<strong>Ultima modifica dell'argomento:</strong>2015-07-07_
 
 Gli ultimi miglioramenti apportati alla procedura guidata di configurazione ibrida e le modifiche all'architettura introdotte in Microsoft Exchange Server 2013 semplificano al massimo la configurazione e la gestione delle distribuzioni ibride basate su Exchange 2013 con Exchange 2007. Che si desideri connettere l'organizzazione locale di Exchange 2007 e l'organizzazione di Exchange Online per la coesistenza a lungo termine o nell'ambito di una strategia di migrazione al cloud, è necessario comprendere i concetti relativi alla distribuzione ibrida.
 

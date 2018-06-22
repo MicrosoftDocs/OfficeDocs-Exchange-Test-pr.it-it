@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2018-04-16_
+_<strong>Ultima modifica dell'argomento:</strong>2018-04-16_
 
 **Riepilogo:** informazioni utili per pianificare una distribuzione ibrida di Exchange.
 

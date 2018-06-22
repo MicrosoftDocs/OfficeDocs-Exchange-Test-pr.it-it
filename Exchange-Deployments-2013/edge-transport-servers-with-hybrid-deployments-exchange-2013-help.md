@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2018-04-16_
+_<strong>Ultima modifica dell'argomento:</strong>2018-04-16_
 
 Il ruolo del server Trasporto Edge è un ruolo facoltativo che viene in genere distribuito in un computer che si trova nella rete perimetrale di un'organizzazione di Exchange ed è progettato per ridurre al minimo la superficie soggetta ad attacchi dell'organizzazione. Il ruolo server Trasporto Edge gestisce tutto il flusso di posta Internet che fornisce i servizi di inoltro SMTP e smart host per i server Exchange locali interni all'organizzazione.
 

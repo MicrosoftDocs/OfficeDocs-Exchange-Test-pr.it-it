@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:**2016-12-06_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-06_
 
 In questo articolo vengono riportate informazioni su come consentire agli utenti di Exchange locale di utilizzare i gruppi di Office 365 in ambiente ibrido.
 
@@ -118,8 +118,8 @@ Il dominio SMTP principale di un gruppo di Office 365 viene definito come *domin
     </table>
     
 
-    > [!WARNING]
-    > Se il record MX DNS per il dominio di gruppo è impostato sul server di Exchange locale, il flusso di posta elettronica non funzionerà correttamente tra gli utenti locali dell'organizzazione di Exchange e il gruppo di Office 365.
+   > [!WARNING]  
+   > Se il record MX DNS per il dominio di gruppo è impostato sul server di Exchange locale, il flusso di posta elettronica non funzionerà correttamente tra gli utenti locali dell'organizzazione di Exchange e il gruppo di Office 365.
 
 
 
@@ -128,7 +128,7 @@ Il dominio SMTP principale di un gruppo di Office 365 viene definito come *domin
         Set-SendConnector -Identity "Outbound to Office 365" -AddressSpaces "contoso.mail.onmicrosoft.com","groups.contoso.com"
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Se il connettore di invio non viene aggiornato o se il dominio del gruppo non viene aggiunto come dominio accettato nell'organizzazione di Exchange locale, i messaggi inviati da una cassetta postale locale non verranno recapitati al gruppo, a meno che il gruppo non sia configurato per ricevere la posta da mittenti esterni.
 
 

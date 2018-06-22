@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-01-29_
+_<strong>Ultima modifica dell'argomento:</strong>2016-01-29_
 
 Single Sign-On permette agli utenti di accedere a entrambe le organizzazioni, locali e di Office 365, con una singola combinazione di nome utente e password. Offre agli utenti un'esperienza di accesso familiare e consente agli amministratori di controllare facilmente i criteri di account per le cassette postali dell'organizzazione di Exchange Online utilizzando gli strumenti di gestione di Active Directory locali. Anche se non è necessario configurare una distribuzione ibrida con Single Sign-On abilitato, è consigliabile farlo. Senza Single Sign-On, gli utenti dovranno ricordare due diversi set di credenziali, uno per l'organizzazione locale e uno per Office 365. Ecco alcuni altri vantaggi dell'accesso Single Sign-On:
 

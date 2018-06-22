@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-15_
 
 Microsoft si impegna a rendere i propri prodotti e servizi di facile utilizzo per tutti. Nelle seguenti sezioni vengono fornite informazioni sulle funzionalità, sui prodotti e sui servizi che rendono Microsoft Exchange più accessibile per le persone con disabilità:
 
