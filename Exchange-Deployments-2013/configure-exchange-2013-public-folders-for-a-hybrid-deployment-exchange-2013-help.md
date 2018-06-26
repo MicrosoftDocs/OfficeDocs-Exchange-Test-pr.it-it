@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
 **Riepilogo:** istruzioni per l'abilitazione degli utenti di Exchange Online per accedere alle cartelle pubbliche locali nel proprio ambiente di Exchange 2013.
 

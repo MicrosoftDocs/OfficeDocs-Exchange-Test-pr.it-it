@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Questo argomento è in fase di definizione.  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
 Tramite una distribuzione ibrida è possibile estendere al cloud le numerose funzionalità e il controllo amministrativo disponibili nell'organizzazione di Exchange Server locale. La distribuzione ibrida offre anche supporto per una soluzione di archiviazione basata su cloud per le cassette postali locali, con Archiviazione Exchange Online, e può anche costituire un passaggio intermedio verso la migrazione completa delle cassette postali locali a Exchange Online.
 

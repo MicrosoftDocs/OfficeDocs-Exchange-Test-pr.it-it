@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-04-29_
+_<strong>Ultima modifica dell'argomento:</strong>2016-04-29_
 
 La condivisione delle informazioni sulla disponibilità (disponibilità di calendario) tra gli utenti locali e nell'organizzazione di Exchange Online è uno dei principali vantaggi offerti da una distribuzione ibrida. Gli utenti in entrambe le organizzazioni possono consultare i calendari gli uni degli altri come se fossero ubicati nella stessa organizzazione fisica. Questo rende la pianificazione delle risorse e delle riunioni, facile ed efficiente.
 

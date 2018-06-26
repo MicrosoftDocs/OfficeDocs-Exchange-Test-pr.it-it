@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2018-05-22_
+_<strong>Ultima modifica dell'argomento:</strong>2018-05-22_
 
 **Riepilogo:** utilizzare la procedura descritta in questo articolo per sincronizzare le cartelle pubbliche tra Office 365 e la distribuzione locale di Exchange 2007 o Exchange 2010.
 

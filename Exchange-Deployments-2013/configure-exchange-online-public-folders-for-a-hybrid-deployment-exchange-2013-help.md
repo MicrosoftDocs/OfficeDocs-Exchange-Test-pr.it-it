@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_<strong>Si applica a:</strong>Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-15_
 
 **Riepilogo:** istruzioni per l'attivazione locale Exchange 2013 agli utenti di accedere alle cartelle pubbliche in Exchange Online.
 

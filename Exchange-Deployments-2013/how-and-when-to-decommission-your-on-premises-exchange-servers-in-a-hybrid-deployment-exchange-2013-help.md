@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-07-27_
+_<strong>Ultima modifica dell'argomento:</strong>2017-07-27_
 
 Se si è pronti passare da una distribuzione ibrida di Exchange ibrida a un'implementazione cloud completa, leggere questo articolo.
 

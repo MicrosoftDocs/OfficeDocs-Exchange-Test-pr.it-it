@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Questo argomento è in fase di definizione.  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Si applica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
 In una distribuzione ibrida possono essere presenti cassette postali che risiedono nell'organizzazione locale di Exchange e anche in una organizzazione di Exchange Online. Un componente critico per fare che queste due organizzazioni separate appaiano agli utenti come una organizzazione combinata e che i messaggi siano scambiati tra loro è il trasporto ibrido. Con il trasporto ibrido i messaggi scambiati dagli utenti di qualsiasi organizzazione vengono autenticati, crittografati e trasferiti usando Transport Layer Security (TLS), e appaiono come "interni�? a componenti di Exchange quali i ruoli di trasporto, journal e criteri antispam. Il trasporto ibrido viene configurato automaticamente dalla procedura guidata di configurazione ibrida in Exchange 2013
 
