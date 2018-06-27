@@ -82,7 +82,7 @@ Oltre ad applicare le procedure consigliate descritte in precedenza, sono state 
 
 Ad esempio, in migrazioni di clienti reali è stata registrata una velocità effettiva costante di 30 GB/ora utilizzando la seguente configurazione:
 
-  - **Rete **  Pipe in uscita di 500 MB verso Internet, rete interna su 1 GB con backbone fiber da 10 GB.
+  - **Rete**  Pipe in uscita di 500 MB verso Internet, rete interna su 1 GB con backbone fiber da 10 GB.
 
   - **Hardware**   Le specifiche relative ai due server Accesso client/HUB (fisici) sono:
     
