@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-12_
+_**Ultima modifica dell'argomento:** 2012-10-12_
 
 Numerose organizzazioni sono obbligate da requisiti legali o normativi a mantenere o fornire tutti i messaggi di posta elettronica legittimi. In Microsoft Exchange Server 2013, la quarantena della posta indesiderata è una funzione dell'agente Filtro contenuti che riduce il rischio di perdita di messaggi legittimi. Tale funzionalità fornisce una posizione di archiviazione temporanea per i messaggi identificati come posta indesiderata che non devono essere consegnati alla cassetta postale di un utente all'interno dell'organizzazione.
 

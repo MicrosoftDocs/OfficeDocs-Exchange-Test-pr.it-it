@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 È possibile configurare un dial plan di messaggistica unificata per specificare le informazioni fornite per i chiamanti quando gli utenti possiedono nomi uguali o simili. La messaggistica unificata utilizza questa impostazione per distinguere tra utente che hanno nomi uguali o simili e fornire tale informazioni ai chiamanti. Quando a un chiamante o a un utente di Outlook Voice Access viene richiesto di immettere le lettere per trovare un determinato utente, a volte più nomi corrispondono all'input del chiamante. È possibile utilizzare una delle opzioni disponibili per fornire al chiamante ulteriori informazioni che consentano di individuare l'utente cercato.
 

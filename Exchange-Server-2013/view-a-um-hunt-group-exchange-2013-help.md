@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 Quando vengono visualizzate le proprietà di un gruppo di risposta di messaggistica unificata, è possibile visualizzare le proprietà associate a uno o a tutti i gruppi di risposta di messaggistica unificata associati a un singolo gateway IP di messaggistica unificata. Se non viene specificato alcun parametro, verranno restituiti tutti i gruppi di risposta di messaggistica unificata. Non è possibile utilizzare EAC per visualizzare le proprietà dei gruppi di risposta di messaggistica unificata, è necessario utilizzare Shell.
 

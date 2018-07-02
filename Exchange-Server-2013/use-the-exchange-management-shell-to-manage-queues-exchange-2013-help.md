@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Come nelle versioni precedenti di Exchange, è possibile utilizzare Exchange Management Shell in Microsoft Exchange Server 2013 per visualizzare le informazioni sulle code e i messaggi in tali code e per eseguire azioni di gestione su code e messaggi. In Exchange 2013, le code si trovano nei server Cassette postali e Trasporto Edge. In questo argomento viene fatto riferimento ai *server di trasporto*.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-15_
+_**Ultima modifica dell'argomento:** 2012-11-15_
 
 I criteri cassetta postale di messaggistica unificata sono richiesti quando vengono abilitati utenti al servizio Messaggistica unificata. Vengono creati per applicare un insieme comune di criteri o impostazioni di protezione a un insieme di cassette postali degli utenti delle caselle vocali. I criteri cassetta postale di messaggistica unificata vengono utilizzati per specificare le impostazioni di messaggistica unificata come segue:
 

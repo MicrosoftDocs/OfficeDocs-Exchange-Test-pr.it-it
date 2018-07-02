@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 I ruoli di gestione possono essere elencati in una varietà di modi, a seconda delle informazioni che si desidera. Ad esempio, è possibile scegliere di monitorare solo i ruoli specifici, i ruoli che contengono solo specifici cmdlet e parametri o visualizzare i dettagli di un ruolo specifico di gestione. Per ulteriori informazioni sui ruoli di gestione in Microsoft Exchange Server 2013, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).
 

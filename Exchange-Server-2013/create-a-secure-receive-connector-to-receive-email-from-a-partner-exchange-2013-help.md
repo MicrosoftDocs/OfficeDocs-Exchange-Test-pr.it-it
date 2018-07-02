@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 In questa procedura è spiegato come configurare un connettore di ricezione per ricevere in modo sicuro i messaggi di posta elettronica da un partner. Utilizzare questa procedura quando è necessario crittografare le comunicazioni con un partner attendibile. Il connettore deve essere configurato per accettare le connessioni esclusivamente da server che eseguono l'autenticazione tramite TLS (Transport Layer Security).
 

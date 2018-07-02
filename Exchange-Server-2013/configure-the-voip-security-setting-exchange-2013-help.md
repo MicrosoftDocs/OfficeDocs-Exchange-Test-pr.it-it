@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2014-10-16_
+_**Ultima modifica dell'argomento:** 2014-10-16_
 
 È possibile abilitare Voice over protezione IP (VoIP) per un dial plan di messaggistica unificata (UM). Per impostazione predefinita, quando viene creato un dial plan di messaggistica unificata, utilizza la modalità protetta o Nessuna crittografia. Server di Exchange possono rispondere alle chiamate per un o più dial plan di messaggistica unificata e possono rispondere alle chiamate di dial plan con diverse impostazioni di protezione VoIP. In Office 365 ed Exchange Online protetto modalità è obbligatorio e non può essere disattivata.
 

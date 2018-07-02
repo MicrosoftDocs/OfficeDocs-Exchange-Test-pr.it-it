@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-05-18_
+_**Ultima modifica dell'argomento:** 2016-05-18_
 
 Microsoft Exchange Server 2013 vengono aggiunte nuove e consente di modificare gli attributi e classi degli schemi estesi Active Directory. In questo argomento della Guida di riferimento contiene un riepilogo dei Active Directory le modifiche dello schema apportate quando si installa la versione di produzione (RTM) di Exchange 2013 o dei relativi aggiornamenti cumulativi e service pack. Consultare i file con estensione ldf per ulteriori informazioni sulle modifiche allo schema Active Directory. I file con estensione ldf si trovano nella directory \\amd64\\Setup\\Data\\ nei file di installazione di Exchange.
 

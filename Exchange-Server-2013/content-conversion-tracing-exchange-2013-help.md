@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-09-25_
+_**Ultima modifica dell'argomento:** 2012-09-25_
 
 L'analisi della conversione del contenuto acquisisce gli errori nella conversione del contenuto MAPI eseguita dal servizio di trasporto alle cassette postali nei messaggi in ingresso e in uscita su un server Cassette postali di Microsoft Exchange Server 2013.
 

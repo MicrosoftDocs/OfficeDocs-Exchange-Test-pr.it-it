@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 La *codifica per il trasferimento del contenuto* definisce i metodi di codifica per trasformare i dati dei messaggi di posta elettronica binari nel formato di testo normale US-ASCII. Questa trasformazione consente al messaggio di passare attraverso i server di messaggistica SMTP precedenti che supportano solo messaggi in formato di testo US-ASCII. La codifica per il trasferimento del contenuto viene definita in RFC 2045. Il metodo di codifica è memorizzato nel campo di intestazione **Content-Transfer-Encoding** del messaggio. In Microsoft Exchange Server 2013 sono disponibili i metodi di codifica per il trasferimento del contenuto seguenti:
 

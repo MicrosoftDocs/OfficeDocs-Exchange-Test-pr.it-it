@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'*esecuzione di chiamate esterne* è il processo tramite cui gli utenti chiamano in un dial plan di messaggistica unificata utilizzando un numero di Outlook Voice Access e collocano o trasferiscono una chiamata a un numero telefonica interno o esterno. La messaggistica unificata utilizza le impostazioni di esecuzione di chiamate esterne per comporre le chiamate per gli utenti. Per configurare l'esecuzione di chiamate esterne è necessario configurare regole di composizione, gruppi di regole di composizione e autorizzazioni di composizione nei dial plan di messaggistica unificata e autorizzare quindi l'esecuzione di chiamate esterne in dial plan di messaggistica unificata, criteri cassetta postale di messaggistica unificata e operatori automatici. È possibile, inoltre, configurare i dial plan di messaggistica unificata in modo da disporre di codici di chiamata o di accesso, di un prefisso nazionale e di formati di numeri nazionali e internazionali che consentano di controllare l'esecuzione di chiamate esterne nell'organizzazione. In questo argomento vengono illustrate le regole di composizione, i gruppi di regole di composizione e le autorizzazioni di composizione e il relativo utilizzo per autorizzare e controllare le chiamate esterne per l'organizzazione.
 

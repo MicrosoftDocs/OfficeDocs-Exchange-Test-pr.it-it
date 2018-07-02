@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-07-02_
+_**Ultima modifica dell'argomento:** 2013-07-02_
 
 Il proxy del servizio di replica delle cassette postali (proxy MRS) facilita gli spostamenti di cassette postali tra foreste e le migrazioni di spostamento remote tra l'organizzazione Exchange in locale ed Exchange Online. In Exchange 2013 il proxy MRS è incluso nel ruolo del server Cassette postali (anche noto come *Server Cassette postali*). Durante le migrazioni e gli spostamenti remoti tra le foreste, un server Accesso client agisce come proxy per le richieste di spostamento in arrivo per il server Cassette postali. La capacità del server Accesso client di accettare queste richieste, per impostazione predefinita, è disabilitata. Per consentire al server Accesso client di accettare le richieste di spostamento in arrivo, è necessario abilitare l'endpoint del proxy MRS.
 

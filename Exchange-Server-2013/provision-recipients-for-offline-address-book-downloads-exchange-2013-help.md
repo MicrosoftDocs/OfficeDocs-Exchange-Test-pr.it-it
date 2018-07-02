@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-15_
+_**Ultima modifica dell'argomento:** 2013-02-15_
 
 Se si utilizzano Rubriche offline (OAB) nella propria organizzazione, esistono diversi modi per specificare quali destinatari eseguiranno il download di rubriche offline e di quali rubriche, nell'ambito della propria organizzazione:
 

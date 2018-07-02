@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2014-09-17_
+_**Ultima modifica dell'argomento:** 2014-09-17_
 
 È possibile verificare il funzionamento della messaggistica unificata e delle relative apparecchiature telefoniche connesse. Quando si esegue la procedura riportata di seguito, i server Accesso client e Cassette postali verificano l'intero funzionamento end-to-end del sistema di segreteria telefonica. Sono inclusi i componenti telefonici connessi ai server Accesso client e Cassette postali, tra cui i gateway VoIP, i sistemi PBX (Private Branch eXchanges) e IP PBX e i cavi.
 

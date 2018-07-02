@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Gli Information worker spesso devono collaborare con i destinatari esterni, quali fornitori, partner e clienti, e condividere le informazioni sulla disponibilità. La federazione in Microsoft Exchange Server 2013 contribuisce a tali sforzi di collaborazione. La *Federazione* fa riferimento all'infrastruttura di trust sottostante che supporta la *condivisione federata*, un metodo semplice per gli utenti per condividere le informazioni relative al calendario con i destinatari in altre organizzazioni esterne federate. Per ulteriori informazioni sulla condivisione federata, vedere [Condivisione](sharing-exchange-2013-help.md).
 

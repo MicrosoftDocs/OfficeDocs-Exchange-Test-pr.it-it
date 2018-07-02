@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile configurare codici di chiamata, prefissi numerici e formati dei numeri utilizzati dalla messaggistica unificata per comporre chiamate in ingresso e in uscita per gli utenti abilitati alla messaggistica unificata. Nella maggioranza dei casi si configurerà un dial plan con codici di chiamata, prefissi e formati dei numeri sulla rete telefonica.
 

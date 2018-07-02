@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Impossibile continuare con l'installazione di Exchange Server 2013. Non è possibile contattare un sito del servizio Active Directory valido. Il programma di installazione richiede che il server in cui si sta installando Exchange sia in grado di individare il contesto dei nomi di configurazione in Active Directory.
 

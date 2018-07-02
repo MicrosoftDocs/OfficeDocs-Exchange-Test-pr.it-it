@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-10-22_
+_**Ultima modifica dell'argomento:** 2014-10-22_
 
 Il servizio Disponibilità migliora i dati sulla disponibilità degli Information Worker fornendo informazioni sicure, coerenti e aggiornate ai client che eseguono MicrosoftOutlook. Per impostazione predefinita, questo servizio è installato con Exchange Server 2013. Nelle topologie con più foreste in cui tutti i client connessi eseguono Outlook, il servizio Disponibilità è il solo metodo per recuperare i dati sulla disponibilità. È possibile utilizzare Shell per configurare il Servizio Disponibilità per topologie con più foreste.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile configurare su un intervallo di valori compreso tra 1 e 998 il numero di tentativi di accesso consentiti prima che il PIN venga reimpostato per un utente di Outlook Voice Access. L'impostazione predefinita è 5. Il numero di tentativi di accesso consentiti prima che il PIN venga reimpostato viene configurato nel criterio cassetta postale di messaggistica unificata e applicato a tutti gli utenti di Outlook Voice Access associati a tale criterio.
 

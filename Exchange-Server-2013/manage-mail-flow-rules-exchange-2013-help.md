@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Regole del flusso di posta elettronica, noto anche come regole di trasporto, è possibile utilizzare per cercare le condizioni specifiche nei messaggi che transitano attraverso l'organizzazione ed esegue azioni su di essi. In questo argomento viene illustrato come creare, Copia, modificare l'ordine, abilitare o disabilitare, eliminareo importare o esportare le regole e su come monitorare l'utilizzo regola.
 
@@ -144,9 +144,9 @@ L'interfaccia di amministrazione di Exchange consente di creare regole del fluss
     
     3.  Per specificare le eccezioni, fare clic su **Aggiungi eccezione**, quindi selezionare le eccezioni nell'elenco a discesa **Tranne se...**. Per rimuovere eccezioni dalla regola, fare clic su **Rimuovi X** accanto all'eccezione da eliminare.
     
-    4.  Per rendere effettiva la regola dopo una determinata data, fare clic su **Attiva questa regola in data:** e specificare una data. La regola sarà comunque abilitata in quella data, ma non sarà elaborata.
+    4.  Per rendere effettiva la regola dopo una determinata data, fare clic su **Attiva questa regola in data:**  e specificare una data. La regola sarà comunque abilitata in quella data, ma non sarà elaborata.
         
-        Analogamente, è possibile interrompere l'elaborazione della regola in una certa data. A tale scopo, fare clic su **Disattiva la regola in data:** e specificare una data. La regola rimarrà abilitata, ma non sarà elaborata.
+        Analogamente, è possibile interrompere l'elaborazione della regola in una certa data. A tale scopo, fare clic su **Disattiva la regola in data:**  e specificare una data. La regola rimarrà abilitata, ma non sarà elaborata.
     
     5.  Una volta che la regola ha elaborato un messaggio, è possibile scegliere di non applicare le regole aggiuntive. A tale scopo, fare clic su **Arresta l'elaborazione di altre regole**. Se si seleziona questa opzione e un messaggio viene elaborato dalla regola, non saranno elaborate regole successive per quel messaggio.
     

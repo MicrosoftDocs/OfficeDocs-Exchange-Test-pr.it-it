@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 I filtri di ambito del ruolo di gestione possono essere utilizzati per definire ambiti di gestione altamente personalizzabili. Utilizzando i filtri ambito, è possibile creare un ambito corrispondente alla modalità di segmentazione dei destinatari, dei database e dei server, affinché gli amministratori possano gestire solo quegli oggetti a cui hanno accesso. I filtri ambito possono utilizzare quasi tutte le proprietà dell'oggetto destinatario, database o server.
 

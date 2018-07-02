@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-12-05_
+_**Ultima modifica dell'argomento:** 2012-12-05_
 
 Una Rubrica offline è una copia di una rubrica scaricata in modo tale da consentire a un utente di Outlook di accedere alle informazioni contenute quando è disconnesso dal server. È possibile configurare la frequenza di generazione della rubrica offline utilizzando i parametri *OABGeneratorWorkCycle* e *OABGeneratorWorkCycleCheckpoint* sul cmdlet Set-MailboxServer.
 

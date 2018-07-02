@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Microsoft Exchange messaggistica unificata (UM) consente di messaggi vocali per essere recapitato alla cassetta postale dell'utente e anche consente agli utenti di ricevere fax nella propria cassetta postale. Nella messaggistica unificata, viene inviato un fax cassetta postale dell'utente come messaggio di posta elettronica con un file di immagine con estensione tif collegata. L'utente può aprire il file allegato utilizzando un'applicazione software in grado di aprire e visualizzare i file di immagine con estensione tif. In questo argomento vengono illustrati i fax e del relativo funzionamento nella messaggistica unificata.
 

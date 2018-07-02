@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 I registri di controllo dell'amministratore contengono un record di tutti i cmdlet e parametri eseguiti in Exchange Management Shell e dall'interfaccia di amministrazione di Exchange (EAC). Vengono creati su richiesta quando si esegue il report del registro di controllo dell'amministratore nell'interfaccia di amministrazione di Exchange o quando si esegue il cmdlet **New-AdminAuditLogSearch** nella shell. Per ulteriori informazioni sui registri di controllo, vedere [Registrazione controlli dell'amministratore](administrator-audit-logging-exchange-2013-help.md).
 

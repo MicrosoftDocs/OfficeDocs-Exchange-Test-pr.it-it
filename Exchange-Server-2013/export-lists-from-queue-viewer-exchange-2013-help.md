@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-09-25_
+_**Ultima modifica dell'argomento:** 2012-09-25_
 
 In questo argomento viene descritto come utilizzare il Visualizzatore code nella casella degli strumenti Exchange per esportare elenchi di messaggi o code.
 

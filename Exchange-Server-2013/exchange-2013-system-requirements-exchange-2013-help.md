@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Informazioni sui requisiti di Exchange 2013 da conoscere prima di procedere all'installazione. Ad esempio, verranno fornite informazioni sui requisiti per hardware, rete e sistema operativo.
 

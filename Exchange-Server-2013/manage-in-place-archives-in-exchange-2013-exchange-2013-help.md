@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-02-01_
+_**Ultima modifica dell'argomento:** 2016-02-01_
 
 Archiviazione sul posto consente di riprendere il controllo dei dati di messaggistica dell'organizzazione eliminando la necessità di file di archivio personale (con estensione pst) e consentendo di soddisfare requisiti di conservazione ed eDiscovery messaggi dell'organizzazione. Con l'archiviazione abilitato, gli utenti possono archiviare i messaggi in una cassetta postale di archiviazione, è possibile accedere tramite MicrosoftOutlook e Outlook Web App.
 

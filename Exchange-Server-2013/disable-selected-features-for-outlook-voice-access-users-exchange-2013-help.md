@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 Outlook Voice Access contiene due interfacce: l'interfaccia utente telefonica (TUI) e l'interfaccia utente vocale (VUI). Per impostazione predefinita, quando gli utenti si connettono a Outlook Voice Access, possono accedere al calendario, alla posta elettronica e ai contatti personali ed eseguire ricerche nella directory. È possibile utilizzare Shell per impedire agli utenti di accedere a una o più di queste funzioni quando utilizzano Outlook Voice Access per accedere alla cassetta postale. Quando vengono modificate le funzionalità di Outlook Voice Access nel criterio cassetta postale di messaggistica unificata, le modifiche vengono applicate a tutti gli utenti associati al criterio cassetta postale di messaggistica unificata.
 

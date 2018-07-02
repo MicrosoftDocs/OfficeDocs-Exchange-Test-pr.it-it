@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Generalmente i messaggi di posta elettronica e i documenti sono conservati in due repository univoci e separati. La maggior parte delle organizzazioni collabora utilizzando entrambi i supporti. La sfida è rappresentata dall'esigenza di accedere ai messaggi di posta elettronica e ai documenti utilizzando diversi client. Generalmente questa situazione implica una riduzione della produttività e un'interfaccia meno intuitiva.
 
@@ -87,7 +87,7 @@ Inizio pagina
 
 Il ciclo di vita di una cassetta postale del sito viene gestito tramite SharePoint. È infatti tramite SharePoint che è necessario eseguire tutte le attività legate alle cassette postali del sito, quali la creazione e la rimozione di tutte le cassette postali del sito. Inoltre, è possibile creare un criterio del ciclo di vita di SharePoint per gestire il ciclo di vita di una cassetta postale del sito. Ad esempio, è possibile creare un criterio del ciclo di vita in SharePoint che chiuda automaticamente tutte le cassette postali del sito dopo 6 mesi. Se l'utente dovesse aver bisogno di continuare a utilizzare la cassetta postale del sito, può riattivarla sempre tramite SharePoint. Si consiglia di utilizzare l'applicazione per il ciclo di vita. L'eliminazione manuale da Exchange delle cassette postali del sito attive porterà alla presenza di cassette postali del sito orfane. .
 
-Quando l'applicazione del criterio del ciclo di vita in SharePoint chiude una cassetta postale, questa viene conservata per il periodo impostato nel criterio con stato Chiuso. La cassetta postale può essere riattivata da un utente finale o da un amministratore tramite SharePoint. Una volta terminato il periodo di conservazione, al nome della cassetta postale del sito di Exchange ospitata nel database delle cassette verrà anteposto **MDEL:** ad indicare che la cassetta è stata contrassegnata per l'eliminazione. Sarà necessario rimuovere manualmente queste cassette postali del sito dal database delle cassette postali per liberare lo spazio di archiviazione e l'alias. Se il criterio del ciclo di vita di SharePoint non è abilitato, non sarà possibile possibile individuare le cassette postali del sito contrassegnate per l'eliminazione. Fino a quando la cassetta postale del sito non viene rimossa da un amministratore, il suo contenuto è recuperabile.
+Quando l'applicazione del criterio del ciclo di vita in SharePoint chiude una cassetta postale, questa viene conservata per il periodo impostato nel criterio con stato Chiuso. La cassetta postale può essere riattivata da un utente finale o da un amministratore tramite SharePoint. Una volta terminato il periodo di conservazione, al nome della cassetta postale del sito di Exchange ospitata nel database delle cassette verrà anteposto **MDEL:**  ad indicare che la cassetta è stata contrassegnata per l'eliminazione. Sarà necessario rimuovere manualmente queste cassette postali del sito dal database delle cassette postali per liberare lo spazio di archiviazione e l'alias. Se il criterio del ciclo di vita di SharePoint non è abilitato, non sarà possibile possibile individuare le cassette postali del sito contrassegnate per l'eliminazione. Fino a quando la cassetta postale del sito non viene rimossa da un amministratore, il suo contenuto è recuperabile.
 
 Utilizzando il seguente comando è possibile cercare e rimuovere le cassette postali del sito contrassegnate per l'eliminazione.
 

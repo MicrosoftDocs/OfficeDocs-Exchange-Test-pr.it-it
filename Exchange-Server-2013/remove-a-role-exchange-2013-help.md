@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 È possibile rimuovere dall'organizzazione i ruoli di gestione che non sono più necessari. Ma potranno essere rimossi solo quelli creati. I ruoli di gestione incorporati, infatti, non possono essere rimossi. Per ulteriori informazioni sui ruoli di gestione in Microsoft Exchange Server 2013, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).
 

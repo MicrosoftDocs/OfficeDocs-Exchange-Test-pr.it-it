@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-18_
+_**Ultima modifica dell'argomento:** 2012-11-18_
 
 I server Accesso client su cui è in esecuzione il servizio di routing di chiamate di messaggistica unificata di Microsoft Exchange e i server Cassette postali con il servizio Messaggistica unificata di Microsoft Exchange consentono di distribuire la messaggistica unificata e le funzionalità di segreteria telefonica agli utenti dell'organizzazione.
 

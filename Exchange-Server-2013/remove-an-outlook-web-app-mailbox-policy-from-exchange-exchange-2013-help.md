@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-03-15_
+_**Ultima modifica dell'argomento:** 2013-03-15_
 
 È possibile rimuovere un criterio cassetta postale di MicrosoftOutlook Web App da un'organizzazione Exchange utilizzando EAC o Shell.
 

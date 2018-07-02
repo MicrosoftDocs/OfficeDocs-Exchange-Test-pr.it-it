@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Quando si esegue l'aggiornamento di un'organizzazione di Microsoft Exchange 2007 tramite la messaggistica unificata alla messaggistica unificata di Exchange 2013, è necessario seguire alcuni passaggi e accertarsi che altri siano già completati come parte della distribuzione di messaggistica unificata di Exchange 2007. A seconda dell'ambiente di telefonia e dei componenti di messaggistica unificata creati e configurati per supportare la messaggistica unificata in Exchange 2007, potrebbe essere necessario distribuire ulteriori apparecchiature telefoniche, inclusi gateway VoIP, IP PBX o classici PBX abilitati per SIP in modo da creare e configurare eventuali componenti di messaggistica unificata richiesti per la messaggistica unificata di Exchange 2013.
 

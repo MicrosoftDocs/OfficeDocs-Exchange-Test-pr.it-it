@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-09-19_
+_**Ultima modifica dell'argomento:** 2012-09-19_
 
 I dispositivi mobili, i tablet e altri dispositivi possono archiviare i dati riservati aziendali e consentire l'accesso a molte risorse aziendali. Se un dispositivo mobile viene perso o rubato, tali dati possono essere compromessi. Mediante i criteri cassetta postale per i dispositivi mobili di Exchange Microsoft, è possibile aggiungere la richiesta di una password ai dispositivi mobili. Questa operazione richiede agli utenti di immettere una password per accedere ai loro dispositivi mobili. Oltre alla richiesta di una password, si consiglia di configurare i dispositivi mobili per la richiesta automatica della password dopo un periodo di inattività. La combinazione di password del dispositivo e blocco dopo un periodo di inattività garantisce una maggiore sicurezza dei dati aziendali.
 

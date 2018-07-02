@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2010, Exchange Server 2013_
+_**Si applica a:** Exchange Server 2010, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-04-01_
+_**Ultima modifica dell'argomento:** 2018-04-01_
 
-**Sintesi:** in questo articolo viene descritto il modo in cui password e sicurezza funzionano in Outlook per iOS e Android con Exchange Server.
+**Sintesi:**  in questo articolo viene descritto il modo in cui password e sicurezza funzionano in Outlook per iOS e Android con Exchange Server.
 
 La prima volta che l'app Outlook per iOS e Android viene eseguita in un ambiente Exchange locale, Outlook genera una chiave AES-128 casuale. Questa chiave è nota come la *chiave dispositivo* e viene archiviata solo nel dispositivo dell'utente.
 

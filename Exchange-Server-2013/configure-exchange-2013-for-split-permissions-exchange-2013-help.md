@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Le autorizzazioni suddivise consentono a due gruppi separati, ad esempio gli amministratori di Active Directory e di Microsoft Exchange Server 2013, di gestire i relativi servizi, oggetti e attributi. Gli amministratori di Active Directory gestiscono le entità di sicurezza, ad esempio gli utenti, che forniscono le autorizzazioni per accedere a una foresta di Active Directory. Gli amministratori di Exchange gestiscono gli attributi relativi a Exchange per gli oggetti Active Directory e la creazione e la gestione degli oggetti specifici di Exchange.
 

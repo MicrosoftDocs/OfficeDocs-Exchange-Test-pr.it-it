@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-25_
+_**Ultima modifica dell'argomento:** 2013-02-25_
 
 Una richiesta di spostamento rappresenta il processo di spostamento di una cassetta postale da un database delle cassette postali ad un altro. Una richiesta di spostamento locale è uno spostamento della cassetta postale all'interno di una singola foresta. In Microsoft Exchange Server 2013, le cassette postali e le cassette postali di archiviazione personale possono risiedere in database separati. Utilizzando la funzione di richiesta di spostamento, è possibile spostare la cassetta postale principale e l'archivio associato nello stesso database o in un database separato. Le procedure descritte in questo argomento consentono gli spostamenti delle cassette postali locali.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-15_
+_**Ultima modifica dell'argomento:** 2012-10-15_
 
 In Microsoft Exchange Server 2013, un connettore di invio controlla il flusso dei messaggi in uscita verso il server di ricezione. Questi connettori vengono configurati sui server Cassette postali su cui è in esecuzione il servizio di trasporto. Generalmente, si configura un connettore di invio per l'invio dei messaggi in uscita a uno smart host o direttamente al destinatario tramite DNS.
 

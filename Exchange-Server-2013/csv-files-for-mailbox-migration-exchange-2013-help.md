@@ -13,32 +13,32 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-11-16_
+_**Ultima modifica dell'argomento:** 2017-11-16_
 
 È possibile utilizzare un file CSV per blocco eseguire la migrazione di un numero elevato di cassette postali degli utenti. Quando si utilizza l'interfaccia di amministrazione di Exchange (EAC) o il cmdlet **New-MigrationBatch** in Exchange Management Shell per creare un batch di migrazione, è possibile specificare un file CSV. Utilizzo di un CSV per specificare più utenti per la migrazione di un batch di migrazione è supportato nei seguenti scenari di migrazione:
 
   - **Spostamenti in organizzazioni Exchange locali**
     
-      - **Spostamento locale:**   indica uno spostamento di cassette postali da un database delle cassette postali all'altro. Uno spostamento locale avviene all'interno di una singola foresta.
+      - **Spostamento locale:**    indica uno spostamento di cassette postali da un database delle cassette postali all'altro. Uno spostamento locale avviene all'interno di una singola foresta.
     
-      - **Spostamento aziendale tra foreste:**   indica lo spostamento delle cassette postali in una foresta diversa. Gli spostamenti tra foreste iniziano dalla foresta di destinazione, ossia la foresta in cui si intende spostare le cassette postali, o dalla foresta di origine, ossia quella in cui si trovano le cassette postali.
+      - **Spostamento aziendale tra foreste:**    indica lo spostamento delle cassette postali in una foresta diversa. Gli spostamenti tra foreste iniziano dalla foresta di destinazione, ossia la foresta in cui si intende spostare le cassette postali, o dalla foresta di origine, ossia quella in cui si trovano le cassette postali.
 
   - **Onboarding e offboarding in Exchange Online**
     
-      - **Migrazione con spostamento remoto onboarding:**   in una distribuzione ibrida di Exchange è possibile spostare le cassette postali da un'organizzazione Exchange locale a Exchange Online. Tale migrazione viene chiamata anche migrazione con spostamento remoto *onboarding*.
+      - **Migrazione con spostamento remoto onboarding:**    in una distribuzione ibrida di Exchange è possibile spostare le cassette postali da un'organizzazione Exchange locale a Exchange Online. Tale migrazione viene chiamata anche migrazione con spostamento remoto *onboarding*.
     
-      - **Migrazione con spostamento remoto offboarding:** è anche possibile eseguire una migrazione con spostamento remoto *offboarding*, ossia migrare le cassette postali di Exchange Online nell'organizzazione Exchange locale.
+      - **Migrazione con spostamento remoto offboarding:**  è anche possibile eseguire una migrazione con spostamento remoto *offboarding*, ossia migrare le cassette postali di Exchange Online nell'organizzazione Exchange locale.
         
 
         > [!NOTE]
         > Entrambi i tipo di migrazione di spostamento remoto iniziano dall'organizzazione Exchange Online.
 
     
-      - **Migrazione di Exchange a fasi:**   è anche possibile eseguire la migrazione di un sottoinsieme di cassette postali da un'organizzazione Exchange locale a Exchange Online. Si tratta di un altro tipo di migrazione onboarding. È possibile migrare solo cassette postali di Exchange 2003 e Exchange 2007 usando una migrazione a fasi di Exchange. La migrazione delle cassette postali di Exchange 2010 e Exchange 2013 non è supportata in una migrazione in fasi. Prima di eseguire una migrazione in fasi, è necessario utilizzare la sincronizzazione delle directory o un altro metodo di provisioning degli utenti di posta nell'organizzazione Exchange Online.
+      - **Migrazione di Exchange a fasi:**    è anche possibile eseguire la migrazione di un sottoinsieme di cassette postali da un'organizzazione Exchange locale a Exchange Online. Si tratta di un altro tipo di migrazione onboarding. È possibile migrare solo cassette postali di Exchange 2003 e Exchange 2007 usando una migrazione a fasi di Exchange. La migrazione delle cassette postali di Exchange 2010 e Exchange 2013 non è supportata in una migrazione in fasi. Prima di eseguire una migrazione in fasi, è necessario utilizzare la sincronizzazione delle directory o un altro metodo di provisioning degli utenti di posta nell'organizzazione Exchange Online.
     
-      - **Migrazione IMAP:**   questo tipo di migrazione onboarding consiste nella migrazione dei dati delle cassette postali da un server IMAP (incluso Exchange) a Exchange Online. Per poter migrare i dati delle cassette postali in una migrazione IMAP, è necessario innanzitutto eseguire il provisioning delle cassette postali di Exchange Online.
+      - **Migrazione IMAP:**    questo tipo di migrazione onboarding consiste nella migrazione dei dati delle cassette postali da un server IMAP (incluso Exchange) a Exchange Online. Per poter migrare i dati delle cassette postali in una migrazione IMAP, è necessario innanzitutto eseguire il provisioning delle cassette postali di Exchange Online.
 
 
 > [!NOTE]

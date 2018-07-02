@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 Se nell'organizzazione si verificano problemi di qualità audio per le chiamate di messaggistica unificata e i messaggi vocali, utilizzare il rapporto Statistiche sulle chiamate per cercare di individuare la causa dei problemi.
 

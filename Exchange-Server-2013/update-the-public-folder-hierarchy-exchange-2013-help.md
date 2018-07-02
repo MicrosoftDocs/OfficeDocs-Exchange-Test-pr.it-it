@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2014-04-03_
+_**Ultima modifica dell'argomento:** 2014-04-03_
 
 Per avviare manualmente la sincronizzazione delle cartelle e l'assistente cassette postali, è sufficiente aggiornare la la gerarchia delle cartelle pubbliche. Entrambi vengono avviati almeno una volta ogni 24 ore per ciascuna cassetta postale delle cartelle pubbliche nell'organizzazione. La sincronizzazione della gerarchia viene avviata ogni 15 minuti se esistono utenti che hanno effettuato l'accesso a una cassetta postale secondaria tramite Microsoft Outlook o un client di Servizi Web di Microsoft Exchange.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 Reputazione mittente è fornita dall'agente di analisi del protocollo. Reputazione mittente consente di bloccare i messaggi in base alle diverse caratteristiche del mittente. La reputazione mittente si basa su dati permanenti relativi al mittente per determinare l'eventuale azione da eseguire su un messaggio in arrivo.
 

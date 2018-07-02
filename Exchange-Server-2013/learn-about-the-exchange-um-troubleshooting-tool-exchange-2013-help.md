@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 I Microsoft Exchange 2010 unificata strumento di risoluzione dei problemi di messaggistica è un cmdlet di Management Shell Exchange denominato **Test-ExchangeUMCallFlow**. È possibile utilizzare lo strumento di condurre una serie di test diagnostici per la messaggistica unificata (UM) nella propria organizzazione. Se uno dei test non riesce, lo strumento di report il motivo per le soluzioni possibili e degli errori risolvere il problema. È possibile utilizzare solo la risoluzione dei problemi di strumento di messaggistica UNIFICATA in Exchange 2010 server o versioni successive.
 

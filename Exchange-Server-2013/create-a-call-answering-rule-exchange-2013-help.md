@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile utilizzare la Shell per creare uno o più regole di ricezione per un utente di chiamata. È inoltre possibile utilizzare il cmdlet **New-UMCallAnsweringRule** in uno script di Exchange Management Shell per creare regole di ricezione chiamata per più utenti.
 

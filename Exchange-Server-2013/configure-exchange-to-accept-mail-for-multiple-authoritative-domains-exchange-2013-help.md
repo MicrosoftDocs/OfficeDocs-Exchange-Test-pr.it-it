@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-06-15_
+_**Ultima modifica dell'argomento:** 2016-06-15_
 
 In Microsoft Exchange Server 2013, è semplice aggiungere più domini attendibili all'organizzazione. Tuttavia, dopo aver aggiunto il dominio attendibile, è necessario decidere come utilizzare il dominio attendibile nell'organizzazione. Esempio:
 

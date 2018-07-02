@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-24_
+_**Ultima modifica dell'argomento:** 2014-06-24_
 
 È possibile utilizzare l'interfaccia di amministrazione di Exchange o Shell per configurare le proprietà di un gruppo di disponibilità del database (DAG), inclusi la configurazione dell''indirizzo IP del DAG, il server di controllo e la directory utilizzati dal DAG. Shell consente di configurare le proprietà del gruppo di disponibilità del database non disponibili nell'interfaccia di amministrazione di Exchange, quali il server di controllo alternativo e le informazioni sulla directory di controllo alternativa, la porta TCP utilizzata per la replica e la modalità di coordinamento dell'attivazione del datacenter (DAC).
 

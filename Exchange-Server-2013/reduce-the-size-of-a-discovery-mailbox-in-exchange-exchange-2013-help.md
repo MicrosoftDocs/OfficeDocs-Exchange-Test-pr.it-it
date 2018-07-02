@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Cassetta postale di individuazione che supera il limite di 50 GB Questo problema può essere risolto creando nuove cassette di individuazione e copiando i risultati della ricerca dalla cassetta di individuazione grande alle nuove.
 
@@ -100,23 +100,23 @@ Il passaggio successivo consiste nell'utilizzare il cmdlet **New-MailboxSearch**
 
 2.  Una volta creata la ricerca, avviarla utilizzando la Shell oppure l'interfaccia di amministrazione di Exchange (EAC).
     
-      - **Utilizzo della Shell:** Eseguire il seguente comando per avviare la ricerca creata nel passaggio precedente. Poiché al momento della creazione della ricerca è stato incluso il parametro *EstimateOnly*, i risultati della ricerca non saranno copiati nella cassetta postale di individuazione di destinazione.
+      - **Utilizzo della Shell:**  Eseguire il seguente comando per avviare la ricerca creata nel passaggio precedente. Poiché al momento della creazione della ricerca è stato incluso il parametro *EstimateOnly*, i risultati della ricerca non saranno copiati nella cassetta postale di individuazione di destinazione.
         
             Start-MailboxSearch "Search results from 2010"
     
-      - **Utilizzo di EAC:** Accedere a **Gestione conformità** \> **In-Place eDiscovery e In-Place Hold**. Selezionare la ricerca creata nel passaggio precedente, fare clic su **Cerca**![icona Cerca](images/Dd353189.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "icona Cerca"), quindi fare clic su **Stima dei risultati della ricerca**.
+      - **Utilizzo di EAC:**  Accedere a **Gestione conformità** \> **In-Place eDiscovery e In-Place Hold**. Selezionare la ricerca creata nel passaggio precedente, fare clic su **Cerca**![icona Cerca](images/Dd353189.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "icona Cerca"), quindi fare clic su **Stima dei risultati della ricerca**.
 
 3.  Se necessario, regolare l'intervallo di date in modo da aumentare o ridurre la quantità di risultati della ricerca restituiti. Se si modifica l'intervallo di date, eseguire nuovamente la ricerca per ottenere una nuova stima dei risultati. Provare a modificare il nome della ricerca in modo da riflettere il nuovo intervallo di date.
 
 4.  Una volta terminato il test della ricerca, utilizzare la Shell o EAC per copiare i risultati della ricerca nella cassetta postale di individuazione di destinazione.
     
-      - **Utilizzo della Shell:** Eseguire i seguenti comandi per copiare i risultati della ricerca. È necessario rimuovere il parametro *EstimateOnly* prima di poter copiare i risultati della ricerca.
+      - **Utilizzo della Shell:**  Eseguire i seguenti comandi per copiare i risultati della ricerca. È necessario rimuovere il parametro *EstimateOnly* prima di poter copiare i risultati della ricerca.
         
             Set-MailboxSearch "Search results from 2010" -EstimateOnly $false
         
             Start-MailboxSearch "Search results from 2010"
     
-      - **Utilizzo di EAC:** Accedere a **Gestione conformità** \> **In-Place eDiscovery e In-Place Hold**. Selezionare la ricerca, fare clic su **Cerca**![icona Cerca](images/Dd353189.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "icona Cerca"), quindi fare clic su **Copiare i risultati della ricerca**.
+      - **Utilizzo di EAC:**  Accedere a **Gestione conformità** \> **In-Place eDiscovery e In-Place Hold**. Selezionare la ricerca, fare clic su **Cerca**![icona Cerca](images/Dd353189.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "icona Cerca"), quindi fare clic su **Copiare i risultati della ricerca**.
     
     Per ulteriori informazioni, vedere [Copiare i risultati della ricerca eDiscovery in una cassetta postale di individuazione](copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md).
 
@@ -132,11 +132,11 @@ Prima di eliminare una ricerca, è necessario eseguire il seguente comando per i
 
 È possibile utilizzare la Shell o EAC per eliminare una ricerca di eDiscovery.
 
-  - **Utilizzo della Shell:** Eseguire il comando riportato di seguito.
+  - **Utilizzo della Shell:**  Eseguire il comando riportato di seguito.
     
         Remove-MailboxSearch -Identity <name of search>
 
-  - **Utilizzo di EAC:** Accedere a **Gestione conformità** \> **In-Place eDiscovery e In-Place Hold**. Selezionare la ricerca che si desidera eliminare e fare clic su **Elimina**![Icona Elimina](images/Dd979797.14f639f6-61e8-4418-bbfb-0db14de9d2f5(EXCHG.150).gif "Icona Elimina").
+  - **Utilizzo di EAC:**  Accedere a **Gestione conformità** \> **In-Place eDiscovery e In-Place Hold**. Selezionare la ricerca che si desidera eliminare e fare clic su **Elimina**![Icona Elimina](images/Dd979797.14f639f6-61e8-4418-bbfb-0db14de9d2f5(EXCHG.150).gif "Icona Elimina").
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

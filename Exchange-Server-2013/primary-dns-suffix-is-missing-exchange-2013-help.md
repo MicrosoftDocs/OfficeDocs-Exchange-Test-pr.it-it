@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2014-01-15_
+_**Ultima modifica dell'argomento:** 2014-01-15_
 
 Microsoft Exchange Server 2013 il programma di installazione non può proseguire perché non è stato configurato il primario (DNS) il suffisso DNS per il computer che si sta installando Exchange su.
 

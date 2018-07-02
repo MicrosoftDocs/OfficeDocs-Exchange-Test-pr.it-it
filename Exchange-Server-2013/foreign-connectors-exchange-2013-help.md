@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-09-25_
+_**Ultima modifica dell'argomento:** 2012-09-25_
 
 Un connettore esterno recapita i messaggi a un server o a un sistema esterno che non utilizza SMTP come meccanismo di trasporto principale. Un esempio può essere un server gateway fax. Un connettore esterno utilizza una directory di destinazione locale o condivisa per l'invio, tramite trasferimento file, dei messaggi in uscita al sistema esterno. I connettori esterni vengono creati nel servizio di trasporto di un server Cassette postali di Microsoft Exchange Server 2013.
 

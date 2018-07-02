@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 In Microsoft Exchange Server 2013, i messaggi che non possono essere recapitati correttamente sono soggetti a varie scadenze Riprova, reinvio e scadenza basate su origine e di destinazione del messaggio. *Tentativi* è un tentativo di connessione rinnovato con la destinazione. *Reinvio* è atto di inviare messaggi alla coda di invio classificatore di rielaborare. Il messaggio non *scade* dopo tutti gli sforzi di recapito non riusciti su un determinato periodo di tempo. Dopo la scadenza di un messaggio, il mittente riceve una notifica dell'errore di recapito. Il messaggio viene quindi eliminato dalla coda.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-20_
+_**Ultima modifica dell'argomento:** 2013-04-20_
 
 Dopo aver distribuito tutte le apparecchiature telefoniche necessarie per l'organizzazione, inclusi gateway VoIP, PBX IP e PBX abilitati a SIP o Microsoft Lync Server, è necessario creare tutti i componenti di messaggistica unificata che permettono la comunicazione tra i dispositivi telefonici e i server dell'organizzazione.
 

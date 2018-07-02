@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-23_
+_**Ultima modifica dell'argomento:** 2013-02-23_
 
 È possibile specificare la sede aziendale nell'operatore automatico di messaggistica unificata affinché tale sede venga riprodotta ai chiamanti. Per impostazione predefinita, non è immessa alcuna sede aziendale.
 

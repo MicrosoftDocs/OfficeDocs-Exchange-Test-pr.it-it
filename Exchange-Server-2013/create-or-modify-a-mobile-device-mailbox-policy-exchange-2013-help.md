@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-16_
+_**Ultima modifica dell'argomento:** 2012-10-16_
 
 Un criterio cassetta postale per i dispositivi mobili consente di applicare un set di impostazioni per il dispositivo mobile e la sicurezza a un gruppo di utenti. È possibile creare più criteri cassetta postale per dispositivi mobili. A ciascun destinatario dell'organizzazione deve essere assegnato un criterio cassetta postale per il dispositivo mobile. Quando si installa Microsoft Exchange Server 2013, viene creato un criterio cassetta postale per il dispositivo mobile predefinito a cui vengono automaticamente assegnati i nuovi utenti. Per assegnare utenti specifici a un criterio cassetta postale per il dispositivo mobile, vedere [Aggiungere o rimuovere utenti da un criterio cassetta postale per dispositivi mobili](add-or-remove-users-from-a-mobile-mailbox-policy-exchange-2013-help.md).
 

@@ -17,7 +17,7 @@ _<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange S
 
 _<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
-**Riepilogo:** come funziona IRM in un ambiente ibrido di Exchange e come configurare IRM affinché funzioni tra i server Exchange locali ed Exchange Online.
+**Riepilogo:**  come funziona IRM in un ambiente ibrido di Exchange e come configurare IRM affinché funzioni tra i server Exchange locali ed Exchange Online.
 
 Information Rights Management (IRM) consente di evitare la fuga di informazioni riservate fornendo una protezione continua online e offline dei messaggi di posta elettronica e relativi allegati. IRM è supportato sia dall'organizzazione locale di Exchange sia da Exchange Online in Office 365 per le grandi aziende. Tuttavia, esistono delle differenze tra le due implementazioni ed è necessario configurare IRM nell'organizzazione di Exchange Online prima che gli utenti dell'organizzazione possano utilizzarlo.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 *Limitazione della larghezza di banda della rete per i messaggi* indica un gruppo di limiti impostati sul numero di messaggi e connessioni elaborabili da un computer Microsoft Exchange Server 2013. Tali limiti impediscono l'esaurimento, accidentale o intenzionale, delle risorse di sistema nel server Exchange.
 
@@ -75,13 +75,13 @@ Per supportare tale funzionalità, Exchange 2013 utilizza i meccanismi seguenti:
 
   - **Limitazione delle connessioni simultanee in base all'integrità del database di messaggistica**   Questo meccanismo consente di monitorare l'integrità del database di messaggistica (MDB) di Exchange e limitare le connessioni simultanee ai server di trasporto Exchange in base al valore assegnato per la misura dell'integrità. Il database di messaggistica è monitorato dall'API per il monitoraggio dell'integrità della risorsa nel servizio di trasporto sul server Cassette postali e gli viene assegnato un valore di integrità compreso tra -1 e 100. Questo valore si basa sulle statistiche delle prestazioni RPC incluse con ogni risposta RPC dal processo Store.exe nel servizio di trasporto alle cassette postali. Il framework di integrità delle risorse utilizza sia il contatore delle prestazioni **Richeste/Sec**, sia il contatore delle prestazioni **Latenza media RPC** per calcolare il valore dell'integrità del database. Per assicurare un'esperienza utente interattiva coerente, Exchange riduce il numero delle connessioni simultanee a mano a mano che diminuisce il valore dell'integrità. Sono disponibili i seguenti intervalli di valori di integrità:
     
-      - **-1:** questo valore indica che lo stato di integrità del database di messaggistica è sconosciuto e viene assegnato all'avvio del database. In questo scenario, il database è considerato integro.
+      - **-1:**  questo valore indica che lo stato di integrità del database di messaggistica è sconosciuto e viene assegnato all'avvio del database. In questo scenario, il database è considerato integro.
     
-      - **0:** questo valore viene assegnato quando il database non è integro. Quando il database si trova in questo stato, non deve essere contattato.
+      - **0:**  questo valore viene assegnato quando il database non è integro. Quando il database si trova in questo stato, non deve essere contattato.
     
-      - **Da 1 a 99:** questi valori indicano che il database è abbastanza integro. I valori inferiori rappresentano un livello di integrità inferiore.
+      - **Da 1 a 99:**  questi valori indicano che il database è abbastanza integro. I valori inferiori rappresentano un livello di integrità inferiore.
     
-      - **100:** questo valore indica che il database è completamente integro.
+      - **100:**  questo valore indica che il database è completamente integro.
 
 Il servizio di limitazione di Microsoft Exchange fornisce il framework per la limitazione del flusso di posta. Il servizio di limitazione di Microsoft Exchange tiene traccia delle impostazioni relative al flusso di posta per un utente specifico e memorizza nella cache le informazioni relative alla limitazione. Le impostazioni di limitazione della larghezza di banda della rete sono note anche come *budget*. Al riavvio del servizio di limitazione di Microsoft Exchange i budget di limitazione del flusso di posta vengono reimpostati.
 
@@ -89,9 +89,9 @@ Il servizio di limitazione di Microsoft Exchange fornisce il framework per la li
 
 Le impostazioni di tempo del budget vengono specificate come percentuale di un minuto. Una soglia del 100% rappresenta pertanto un intervallo di 60 secondi. Si supponga ad esempio di voler specificare le impostazioni del criterio Outlook Web App che limitano la quantità di tempo per il quale un utente può eseguire il codice Outlook Web App su un server di accesso client e la quantità di tempo per cui l'utente può comunicare con il server di accesso client, fino a 600 millisecondi su un intervallo di un minuto. A tale scopo, è necessario impostare sull'1% di un minuto (600 millisecondi) entrambi i parametri seguenti:
 
-  - **OWAPercentTimeInCAS:** 1
+  - **OWAPercentTimeInCAS:**  1
 
-  - **OWAPercentTimeInMailboxRPC:** 1
+  - **OWAPercentTimeInMailboxRPC:**  1
 
 Un utente a cui viene applicato questo criterio ha un budget di 600 millisecondi per OWAPercentTimeInCAS e di 600 millisecondi per OWAPercentageTimeInMailboxRPC. In tale scenario, quando l'utente è connesso a Outlook Web App può eseguire il codice di accesso client per un massimo di 600 millisecondi. Dopo 600 millisecondi la connessione supera il budget e il server Exchange non consente ulteriori operazioni di Outlook Web App per un minuto dopo il superamento del limite previsto dal budget. Dopo un minuto l'utente può eseguire il codice di accesso client di Outlook Web App per altri 600 millisecondi.
 

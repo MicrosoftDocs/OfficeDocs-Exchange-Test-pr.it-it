@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Con il rilascio di Windows Phone 8, Windows 8 e Windows RT esistono diversi dispositivi che supportano Exchange ActiveSync e i criteri cassetta postale dei dispositivi mobili. Ogni sistema operativo del dispositivo supporta uno specifico set di impostazioni dei criteri cassetta postale dei dispositivi mobili.
 

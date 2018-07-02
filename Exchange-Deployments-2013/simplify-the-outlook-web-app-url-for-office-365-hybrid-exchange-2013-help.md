@@ -53,7 +53,7 @@ Per evitare questi problemi agli utenti con cassette postali cloud, eseguire que
     
         Set-OrganizationRelationship -TargetOWAUrl http://cloudowa.contoso.com/owa
     
-    **Note:**
+    **Note:** 
     
       - Utilizzare http invece di https.
     
@@ -110,5 +110,5 @@ La procedura di richiesta di autenticazione prevista è descritta nella tabella 
 </table>
 
 
-**Nota:** La federazione delle identità prevede che l'endpoint di AD FS sia configurato nell'area Intranet di Internet Explorer, così come descritto nell'argomento <https://go.microsoft.com/fwlink/p/?linkid=834460>, e che AD FS sia configurato nel rispetto delle istruzioni generali di Office 365.
+**Nota:**  La federazione delle identità prevede che l'endpoint di AD FS sia configurato nell'area Intranet di Internet Explorer, così come descritto nell'argomento <https://go.microsoft.com/fwlink/p/?linkid=834460>, e che AD FS sia configurato nel rispetto delle istruzioni generali di Office 365.
 

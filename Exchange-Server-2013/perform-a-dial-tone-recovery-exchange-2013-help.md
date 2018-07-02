@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-27_
+_**Ultima modifica dell'argomento:** 2014-06-27_
 
 La portabilità consente agli utenti di disporre di una cassetta postale temporanea per l'invio e la ricezione di posta elettronica durante il ripristino o la riparazione della cassetta postale originale. La cassetta postale temporanea può trovarsi sullo stesso server Cassette postali Exchange 2013 o su qualsiasi altro server Cassette postali Exchange 2013 nell'organizzazione. Il procedimento per utilizzare la portabilità è denominato ripristino del segnale di linea, che comporta la creazione di un database vuoto su un server delle cassette postali per sostituire un database danneggiato. Per ulteriori informazioni, vedere [Portabilità temporanea](dial-tone-portability-exchange-2013-help.md).
 

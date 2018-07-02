@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-24_
+_**Ultima modifica dell'argomento:** 2014-02-24_
 
 Le cartelle pubbliche sono progettate per l'accesso condiviso e offrono un metodo semplice ed efficace per raccogliere, organizzare e condividere le informazioni con altre persone del gruppo di lavoro o dell'organizzazione.
 

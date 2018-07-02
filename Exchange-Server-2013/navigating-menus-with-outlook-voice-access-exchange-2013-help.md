@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-23_
+_**Ultima modifica dell'argomento:** 2013-04-23_
 
 Outlook Voice Access è una funzionalità della messaggistica unificata che consente agli utenti di recuperare messaggi di posta elettronica e messaggi di posta vocale nonché di gestire il proprio calendario e i contatti personali utilizzando un telefono analogico, digitale o cellulare. Possono interagire con la propria cassetta postale utilizzando il tastierino del telefono o i comandi vocali, ma devono utilizzare il tastierino del telefono per cercare un utente nella directory per l'organizzazione.
 

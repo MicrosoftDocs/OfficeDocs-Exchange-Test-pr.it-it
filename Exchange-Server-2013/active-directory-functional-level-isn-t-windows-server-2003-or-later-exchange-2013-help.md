@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 La configurazione di Microsoft Exchange Server 2013 non può continuare poiché ha rilevato che il livello di funzionalità di insieme di Active Directory non coincide con Windows Server 2003 nativo o versioni successive. Prima di avviare l'installazione di Exchange 2013, è necessario aumentare il livello di funzionalità di insieme su Windows Server 2003 o versioni successive.
 

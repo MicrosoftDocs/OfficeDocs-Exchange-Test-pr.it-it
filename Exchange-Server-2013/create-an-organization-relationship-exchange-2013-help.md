@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Configurare una relazione tra organizzazioni per condividere le informazioni del calendario con un partner aziendali esterni. È possibile configurare una relazione dell'organizzazione tra due organizzazioni federate Exchange 2013 o tra un'organizzazione federata Exchange 2013 e alle organizzazioni federate Exchange 2010. È inoltre possibile impostare backup di una relazione dell'organizzazione tra l'organizzazione di Exchange locale e un'organizzazione Office 365.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-02_
+_**Ultima modifica dell'argomento:** 2014-12-02_
 
 Un *elenco indirizzi* indica una raccolta di oggetti destinatario e altri oggetti Active Directory. ‎Ogni elenco indirizzi può contenere uno o più tipi di oggetti (ad esempio utenti, contatti, gruppi, cartelle pubbliche, risorse di sala e attrezzature). È possibile utilizzare gli elenchi di indirizzi per organizzare destinatari e risorse, facilitando l'individuazione dei destinatari e delle risorse desiderate. Gli elenchi di indirizzi vengono aggiornati dinamicamente. Pertanto, quando si aggiungono all'organizzazione, i nuovi destinatari vengono aggiunti automaticamente anche agli elenchi indirizzi appropriati.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-09-17_
+_**Ultima modifica dell'argomento:** 2015-09-17_
 
 Con l'aumento delle dimensioni delle cassette postali e della quantità dei dati archiviati sotto forma di messaggi e allegati, è importante per gli utenti essere in grado di cercare e individuare rapidamente i messaggi desiderati. [Archiviazione sul posto di Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md) consente di ridurre o di eliminare l'utilizzo di file .pst spostando in archivio gli elementi visitati precedentemente con scarsa frequenza. Ne consegue l'aumento del numero di dati delle cassette postali che possono essere archiviati dall'utente e l'utilizzo della ricerca tra le cassette postali dell'archivio principale dell'utente uno strumento importante per la produttività. [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md) consente agli utenti autorizzati di cercare contenuti nelle cassette postali tra le organizzazioni Exchange locali e basate su cloud, per essere conformi alle richieste di rilevamento elettronico (eDiscovery), alle verifiche normative o ai controlli interni. eDiscovery in locale utilizza inoltre gli indici di contenuto creati da Ricerca di Exchange.
 

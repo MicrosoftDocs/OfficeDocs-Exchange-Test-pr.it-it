@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-03-27_
+_**Ultima modifica dell'argomento:** 2017-03-27_
 
 Le cartelle pubbliche sono progettate per l'accesso condiviso e offrono un metodo semplice ed efficace per raccogliere, organizzare e condividere le informazioni con altre persone del gruppo di lavoro o dell'organizzazione. Le cartelle pubbliche facilitano l'organizzazione del contenuto in base a una gerarchia diretta facile da sfogliare. Gli utenti visualizzeranno la gerarchia completa in Outlook, che consente loro di sfogliare facilmente il contenuto cui sono interessati.
 

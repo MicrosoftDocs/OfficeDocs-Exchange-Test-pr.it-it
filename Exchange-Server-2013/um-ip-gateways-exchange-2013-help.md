@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2014-06-24_
+_**Ultima modifica dell'argomento:** 2014-06-24_
 
 Un gateway IP di messaggistica unificata rappresenta un gateway Voice over IP (VoIP) fisico, un IP Private Branch eXchange (PBX) o un dispositivo hardware Session Border Controller (SBC). Prima che un gateway VoIP, un IP-PBX o un SBC possa essere utilizzato per rispondere alle chiamate in arrivo e inviare chiamate in uscita per gli utenti della segreteria telefonica, è necessario creare un gateway IP di messaggistica unificata per il servizio directory.
 

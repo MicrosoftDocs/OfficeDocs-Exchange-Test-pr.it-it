@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 È possibile utilizzare lo script RollAlternateServiceAccountPassword.ps1 nell'aggiornamento fto Exchange Server 2013 una credenziale dell'account di servizio alternativo (credenziale ASA) e distribuire l'aggiornamento ai server Accesso Client specificati.
 

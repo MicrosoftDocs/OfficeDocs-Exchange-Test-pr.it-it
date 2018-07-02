@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'impostazione di integrità IMAP controlla la disponibilità dell'infrastruttura proxy IMAP4 sul server CAS (server Accesso client). L'impostazione di integrità IMAP è strettamente correlata alle seguenti impostazioni di integrità:
 

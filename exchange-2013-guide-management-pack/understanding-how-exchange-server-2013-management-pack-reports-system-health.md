@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:** 2013-04-17_
+_**Ultima modifica dell'argomento:**  2013-04-17_
 
 In questo argomento vengono fornite informazioni sul monitoraggio e sulla segnalazione relativa all'integrità del sistema Exchange da parte di Exchange Server 2013 Management Pack. In Exchange 2013 Management Pack, le informazioni sullo stato di integrità vengono riportate semplicemente. Ogni volta che l'integrità risulta danneggiata e che viene attivato il risponditore di inoltro, il seguente evento viene registrato nel registro eventi di Windows:
 

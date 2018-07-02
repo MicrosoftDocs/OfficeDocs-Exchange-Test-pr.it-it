@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-07-31_
+_**Ultima modifica dell'argomento:** 2014-07-31_
 
 Prima di iniziare l'installazione di MicrosoftExchange Server 2013, vedere [Pianificazione e distribuzione](planning-and-deployment-for-exchange-2013-installation-instructions.md) per importanti informazioni sulla pianificazione e informazioni sui prerequisiti e requisiti di sistema.
 

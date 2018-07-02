@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-04-29_
+_**Ultima modifica dell'argomento:** 2013-04-29_
 
 Un database delle cassette postali è un'unità di granularità in cui vengono create e archiviate le cassette postali. Un database delle cassette postali viene archiviato come un file del database di Exchange (con estensione edb). In Microsoft Exchange Server 2013, tutti i database delle cassette postali dispongono di proprie proprietà che possono essere configurate.
 

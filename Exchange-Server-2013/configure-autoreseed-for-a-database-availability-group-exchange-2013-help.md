@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-04-15_
+_**Ultima modifica dell'argomento:** 2013-04-15_
 
 Il reseeding automatico è una funzionalità per il ripristino rapido della ridondanza del database dopo un errore del disco. In caso di errore di un disco, viene eseguito il reseeding automatico delle copie del database archiviate in esso su un disco di riserva preconfigurato del server Cassette postali. È possibile utilizzare la procedura illustrata in questo argomento per configurare il reseeding automatico di un gruppo di disponibilità del database (DAG).
 

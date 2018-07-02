@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-02_
+_**Ultima modifica dell'argomento:** 2012-10-02_
 
 Le assegnazioni del ruolo di gestione consentono di assegnare un ruolo di gestione a un utente o a un gruppo di protezione universale (USG, Universal Security Group). Se si elimina un'assegnazione di ruolo, gli utenti assegnati al ruolo non avranno più accesso ai cmdlet disponibili per quel ruolo. Per ulteriori informazioni sulle assegnazioni del ruolo di gestione in Microsoft Exchange Server 2013, vedere [Informazioni sulle assegnazioni dei ruoli di gestione](understanding-management-role-assignments-exchange-2013-help.md).
 

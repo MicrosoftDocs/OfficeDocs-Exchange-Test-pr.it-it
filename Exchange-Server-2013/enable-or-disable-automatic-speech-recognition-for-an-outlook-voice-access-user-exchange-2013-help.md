@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile configurare il riconoscimento vocale automatico per un utente abilitato alla messaggistica unificata e alla posta vocale. Quando il riconoscimento vocale automatico è abilitato sulla cassetta postale di un utente di Outlook Voice Access, l'utente può spostarsi all'interno dei menu della cassetta postale utilizzando i comandi vocali. Il riconoscimento vocale automatico è abilitato per impostazione predefinita. Se il riconoscimento vocale automatico è disabilitato, l'utente deve utilizzare gli input del segnale multifrequenza DTMF (Dual Tone Multi-Frequency), noti anche come input a toni, per spostarsi all'interno dei menu.
 

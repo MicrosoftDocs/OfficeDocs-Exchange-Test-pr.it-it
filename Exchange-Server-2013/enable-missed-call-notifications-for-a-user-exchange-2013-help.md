@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-12-09_
+_**Ultima modifica dell'argomento:** 2012-12-09_
 
 È possibile attivare o disattivare le notifiche di chiamata senza risposta per un criterio cassetta postale di messaggistica unificata (UM) utilizzando la Shell o EAC. Una notifica di chiamata senza risposta è un messaggio di posta elettronica inviato a un utente quando l'utente non risponde a una chiamata in arrivo e il chiamante non lascia un messaggio della segreteria telefonica. Si tratta di un messaggio di posta elettronica diverso rispetto al messaggio contenente il messaggio vocale lasciato per un utente.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-01-31_
+_**Ultima modifica dell'argomento:** 2013-01-31_
 
 Le funzionalità per la prevenzione della perdita di dati consentono di identificare e monitorare numerose categorie di informazioni riservate. Se si configurano i criteri per la prevenzione della perdita di dati, si ha la possibilità di importare un file da un'origine diversa da Microsoft Exchange al fine di utilizzarlo come modello dei criteri per la prevenzione della perdita dei dati. Le società partner di Microsoft possono sviluppare e distribuire questo tipo di modelli. Questo argomento verrà aggiornato con un collegamento che consentirà di trovare le società, una volta rese disponibili.
 

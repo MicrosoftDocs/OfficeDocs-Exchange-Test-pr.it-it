@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 e Exchange Online, è possibile utilizzare modelli di criteri di prevenzione della perdita di dati (DLP) come punto di partenza per la costruzione di criteri DLP che consentono di soddisfare specifici criteri normativi o necessità aziendali. Per rispondere alle esigenze della propria organizzazione è possibile modificare i modelli.
 

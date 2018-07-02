@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-15_
+_**Ultima modifica dell'argomento:** 2014-02-15_
 
 La condivisione dei criteri consente ai singoli utenti nell'organizzazione di Exchange di condividere le informazioni di disponibilità del calendario con altre organizzazione federate di Exchange, organizzazioni non federate di Exchange e singoli utenti di Internet. Nel corso delle normali operazioni, potrebbe essere necessario modificare alcune proprietà dei criteri di condivisione, come modificare le regole di condivisione, modificare il livello di accesso alla disponibilità del calendario, disattivare temporanemanete un criterio di condivisione o rimuoverlo completamente.
 

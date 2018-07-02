@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-05-10_
+_**Ultima modifica dell'argomento:** 2017-05-10_
 
 Il MAPI (Messaging Application Programming Interface) su HTTP è un nuovo protocollo di trasporto implementato in MicrosoftExchange Server 2013 Service Pack 1 (SP1). Il MAPI su HTTP migliora l'affidabilità e la stabilità delle connessioni Outlook e Exchange spostando il livello di trasporto su modelli HTTP standard. In questo modo si consente un livello di visibilità superiore di errori di trasporto e recuperabilità avanzata. La funzionalità aggiuntiva include supporto per una funzione esplicita Sospendi o Riprendi. In questo modo si abilitano i client supportati a modificare le reti o a riprendere dalla sospensione durante il mantenimento delle stesso contesto di server.
 

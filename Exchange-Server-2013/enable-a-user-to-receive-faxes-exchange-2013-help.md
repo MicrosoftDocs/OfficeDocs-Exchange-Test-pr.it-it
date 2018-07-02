@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile abilitare un utente di messaggistica unificata alla ricezione di fax. Per impostazione predefinita, quando si abilita un utente alla messaggistica unificata, questi sarà in grado di ricevere fax se si consente la ricezione e l'invio di fax e si configura l'URI di un partner fax sul criterio di messaggistica unificata collegato all'utente. L'invio di fax può essere abilitato o disabilitato nei dial plan di messaggistica unificata, nei criteri cassetta postale di messaggistica unificata o nella cassetta postale dell'utente abilitato alla messaggistica unificata.
 

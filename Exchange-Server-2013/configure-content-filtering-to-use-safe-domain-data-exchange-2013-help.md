@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-16_
+_**Ultima modifica dell'argomento:** 2014-12-16_
 
 I dati dei domini attendibili sono un intero dominio (ad esempio, @contoso.com) archiviato nell'elenco Mittenti attendibili di un utente. Per impostazione predefinita, l'agente filtro contenuti non usa dati di domini attendibili per identificare i mittenti a cui è consentito ignorare il filtro contenuti.
 

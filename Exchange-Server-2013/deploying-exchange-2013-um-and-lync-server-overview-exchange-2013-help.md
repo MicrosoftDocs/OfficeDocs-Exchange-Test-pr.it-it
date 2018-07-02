@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 La messaggistica unificata e Microsoft Lync Server possono essere distribuiti insieme per offrire agli utenti dell'organizzazione funzioni di messaggistica vocale e immediata (IM), disponibilità avanzata, conferenza audio e video, nonché un sistema integrato di gestione della messaggistica e della posta elettronica. La messaggistica unificata è utilizzata per fornire un risponditore automatico per la segreteria telefonica, Outlook Voice Access e servizi di operatore automatico. Microsoft Lync Server mette a disposizione funzionalità più avanzate disponibili in VoIP aziendale, quali la messaggistica immediata (IM), le conferenze e le chiamate in ingresso e in uscita. In questo argomento viene descritto come configurare la messaggistica unificata e Microsoft Lync Server per il supporto di queste funzionalità.
 

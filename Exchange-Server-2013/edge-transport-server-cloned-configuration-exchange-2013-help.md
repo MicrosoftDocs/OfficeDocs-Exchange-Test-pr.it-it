@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 I server Trasporto Edge archiviano le informazioni sulla configurazione in Active Directory Lightweight Directory Services (AD LDS). È possibile più di un server Trasporto Edge nella rete perimetrale e utilizzare un round robin DNS per facilitare il bilanciamento del traffico di rete tra i server Trasporto Edge. Il round robin è un semplice meccanismo utilizzato dai server DNS per condividere e distribuire carichi per le risorse di rete.
 

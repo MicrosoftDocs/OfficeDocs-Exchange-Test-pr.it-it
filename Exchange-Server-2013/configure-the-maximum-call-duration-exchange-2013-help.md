@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-09_
+_**Ultima modifica dell'argomento:** 2012-11-09_
 
 È possibile specificare il numero massimo di minuti per cui una chiamata in arrivo può rimanere connessa al sistema senza essere trasferita a un numero di interno valido prima che sia terminata. Per la maggior parte delle organizzazioni, l'impostazione predefinita per questo valore deve essere di: 30 minuti. Questa impostazione viene applicata a tutte le chiamate, incluse le chiamate in ingresso da Outlook Voice Access, le chiamate vocali interne all'organizzazione, le chiamate vocali dirette agli operatori automatici di messaggistica unificata e le chiamate fax provenienti da utenti esterni all'organizzazione.
 

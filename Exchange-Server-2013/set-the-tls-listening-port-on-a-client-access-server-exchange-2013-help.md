@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-17_
+_**Ultima modifica dell'argomento:** 2013-02-17_
 
 È possibile configurare la porta TLS (Transport Layer Security) utilizzata per ascoltare le richieste SIP su un server Accesso client che esegue il servizio di routing delle chiamate della messaggistica unificata di Microsoft Exchange. Per impostazione predefinita, quando si installa un server Accesso client, il numero della porta di ascolto TLS SIP è impostato su 5061.
 

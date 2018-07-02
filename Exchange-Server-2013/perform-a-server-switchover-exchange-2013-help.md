@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013 SP1_
+_**Si applica a:** Exchange Server 2013 SP1_
 
-_**Ultima modifica dell'argomento:**2014-06-23_
+_**Ultima modifica dell'argomento:** 2014-06-23_
 
 L'esecuzione del passaggio server è un'attività che consente di spostare tutte le copie del database delle cassette postali attive dal server Cassette postali corrente a uno o più server Cassette postali in un gruppo di disponibilità del database (DAG, database availability group). Questa attività viene eseguita come parte della preparazione per un'interruzione pianificata del server Cassette postali selezionato.
 

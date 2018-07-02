@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-04-16_
+_**Ultima modifica dell'argomento:** 2018-04-16_
 
 In questo argomento vengono fornite informazioni dettagliate su un'ampia gamma di attività di gestione della sottoscrizione Edge.
 

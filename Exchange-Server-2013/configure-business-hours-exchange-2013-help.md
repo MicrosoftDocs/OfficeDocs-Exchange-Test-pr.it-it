@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-19_
+_**Ultima modifica dell'argomento:** 2013-04-19_
 
 Quando si configura l'orario di ufficio per un operatore automatico di messaggistica unificata, vengono definite le ore del giorno in cui l'organizzazione è aperta e le istruzioni vocali per il menu e i messaggi di saluto relativi all'orario di ufficio che i chiamanti ascolteranno quando chiamano un numero di interno configurato sull'operatore automatico. Se un chiamante si mette in contatto con l'operatore automatico durante le ore non definite come orario di ufficio, ascolterà le istruzioni vocali e i messaggi di saluto relativi all'orario non di ufficio.
 

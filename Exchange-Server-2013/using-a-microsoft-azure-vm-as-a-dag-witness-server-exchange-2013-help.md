@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Exchange Server 2013 modo è possibile configurare i database delle cassette postali in un gruppo di disponibilità del database (DAG) per il failover automatico datacenter. Questa configurazione è necessario tre posizioni fisiche separate: due datacenter per server cassette postali e una terza posizione in cui collocare il server di controllo per il DAG. Le organizzazioni con solo due posizioni fisiche ora possono usufruire di failover automatico datacenter utilizzando una macchina virtuale di Microsoft Azure file server che funga da server di controllo del DAG.
 

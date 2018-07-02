@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-16_
+_**Ultima modifica dell'argomento:** 2012-10-16_
 
 La reputazione mittente è una funzionalità di protezione dalla posta indesiderata di Exchange che blocca i messaggi in base alle caratteristiche del mittente. La reputazione mittente si basa su dati permanenti relativi al mittente per determinare l'eventuale azione da eseguire su un messaggio in arrivo. L'agente di analisi del protocollo è l'agente che si occupa della funzionalità di reputazione mittente.
 

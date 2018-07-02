@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013 SP1_
+_**Si applica a:** Exchange Server 2013 SP1_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Exchange 2013 utilizza i gruppi di disponibilità del database e le copie del database delle cassette postali, insieme ad altre funzionalità come il recupero di un singolo elemento, i criteri di conservazione e le copie del database ritardate, per fornire la disponibilità elevata, la resilienza del sito e la protezione dati nativa di Exchange. La piattaforma a disponibilità elevata, il servizio Archivio informazioni di Exchange ed Extensible Storage Engine (ESE) sono stati migliorati per fornire maggiore disponibilità, semplificare la gestione e ridurre i costi. Questi miglioramenti includono:
 

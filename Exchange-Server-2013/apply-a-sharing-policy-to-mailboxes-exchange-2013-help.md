@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-15_
+_**Ultima modifica dell'argomento:** 2014-02-15_
 
 I criteri di condivisione fanno parte della condivisione federata e consentono la condivisione stabilita dall'utente e tra utenti delle informazioni di calendario con tipi diversi di utenti esterni. Il criterio di condivisione che un amministratore applica alla cassetta postale dell'utente consente di determinare il livello di accesso che un utente può condividere e con chi. Se non vengono modificate impostazioni, il criterio di condivisione predefinito viene applicato a tutti gli utenti. Se si crea un nuovo criterio di condivisione, è necessario applicarlo alle cassette postali prima che diventi effettivo. Il criterio di condivisione può essere applicato alla cassetta postale di un singolo utente o alle cassette postali di più utenti contemporaneamente. Un amministratore può disabilitare il criterio di condivisione di un utente al fine di impedire accessi esterni ai calendari.
 

@@ -17,7 +17,7 @@ _<strong>Si applica a:</strong>Exchange Online, Exchange Server 2010, Exchange S
 
 _<strong>Ultima modifica dell'argomento:</strong>2018-05-22_
 
-**Riepilogo:** utilizzare la procedura descritta in questo articolo per sincronizzare le cartelle pubbliche tra Office 365 e la distribuzione locale di Exchange 2007 o Exchange 2010.
+**Riepilogo:**  utilizzare la procedura descritta in questo articolo per sincronizzare le cartelle pubbliche tra Office 365 e la distribuzione locale di Exchange 2007 o Exchange 2010.
 
 In una distribuzione ibrida, gli utenti possono trovarsi in Exchange Online, in locale o in entrambe le posizioni mentre le cartelle pubbliche possono trovarsi in Exchange Online o in locale. Le cartelle pubbliche possono risiedere in un'unica posizione, pertanto è necessario decidere se devono trovarsi in Exchange Online o in locale, non possono occupare entrambe le posizioni. Le cassette postali delle cartelle pubbliche sono sincronizzate con Exchange Online tramite il servizio Sincronizzazione delle directory. Le cartelle pubbliche abilitate alla posta, però, non sono sincronizzate tra le strutture locali.
 

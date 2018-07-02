@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-16_
+_**Ultima modifica dell'argomento:** 2013-04-16_
 
 Quando si crea un gateway IP di messaggistica unificata, si consente ai server di Exchange di connettersi a un nuovo gateway VoIP, PBX abilitato per SIP, IP PBX o a un session border controller (SBC). Subito dopo aver creato un gateway IP di messaggistica unificata, è necessario creare un nuovo gruppo di risposta di messaggistica unificata e associarlo al gateway IP. È possibile associare il gateway IP di messaggistica unificata a più dial plan di messaggistica unificata creando più gruppi di risposta di messaggistica unificata.
 

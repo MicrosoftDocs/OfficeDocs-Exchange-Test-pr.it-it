@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'impostazione di integrità POP monitora lo stato generale e la disponibilità del servizio e della connettività dei client POP3 di Microsoft Exchange. L'impostazione di integrità POP è strettamente legata alle seguenti impostazioni d'integrità:
 

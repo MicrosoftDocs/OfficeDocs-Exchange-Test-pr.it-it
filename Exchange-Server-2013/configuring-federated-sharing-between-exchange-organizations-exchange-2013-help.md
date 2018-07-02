@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Con la condivisione federata, gli utenti dell'organizzazione di Exchange locale possono condividere le informazioni sulla disponibilità del calendario con i destinatari in altre organizzazioni di Exchange configurate per la condivisione federata. La condivisione delle informazioni sulla disponibilità può essere abilitata tra due organizzazioni di Exchange 2013 e tra organizzazioni con una distribuzione di Exchange mista. Per ulteriori informazioni sulla condivisione federata, vedere [Condivisione](sharing-exchange-2013-help.md).
 

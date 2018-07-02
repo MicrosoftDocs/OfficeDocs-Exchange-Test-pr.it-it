@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Microsoft Exchange Server 2013 utilizza il concetto conosciuto come *distribuzione incrementale* sia per l'elevata disponibilità che per la resilienza del sito. È sufficiente installare due o più server Cassette postali di Exchange 2013 come server autonomi, quindi configurare in modo incrementale i database delle cassette postali per un'elevata disponibilità e resilienza del sito, in base alle necessità.
 

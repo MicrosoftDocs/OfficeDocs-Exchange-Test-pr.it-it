@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-14_
+_**Ultima modifica dell'argomento:** 2012-10-14_
 
 In questo argomento viene descritto come spostare un elenco di indirizzi esistente in un nuovo contenitore nell'elenco di indirizzi radice.
 

@@ -120,9 +120,9 @@ Dal momento che la base clienti delle soluzioni ibride è molto diversificata, �
 
 ## Scenario uno
 
-**Problema:** organizzazione è in esecuzione in una configurazione ibrida e disponibile tutte la cassette postali in Exchange Online. È possibile non è necessario gestire gli utenti in locale e non è più necessario per la sincronizzazione delle directory o la sincronizzazione delle password.
+**Problema:**  organizzazione è in esecuzione in una configurazione ibrida e disponibile tutte la cassette postali in Exchange Online. È possibile non è necessario gestire gli utenti in locale e non è più necessario per la sincronizzazione delle directory o la sincronizzazione delle password.
 
-**Soluzione:** dal momento che tutti gli utenti verranno gestiti in Office 365 e la sincronizzazione della directory non più necessaria, è possibile disattivare questa funzionalità e rimuovere Exchange dall'ambiente locale.
+**Soluzione:**  dal momento che tutti gli utenti verranno gestiti in Office 365 e la sincronizzazione della directory non più necessaria, è possibile disattivare questa funzionalità e rimuovere Exchange dall'ambiente locale.
 
 ![Rimozione di Exchange dall'ambiente locale](images/Dn931280.f9c2a2cb-4c16-4ca3-8244-b89c1cdf0744(EXCHG.150).jpg "Rimozione di Exchange dall'ambiente locale") Per disattivare la sincronizzazione della directory e disinstallare la configurazione ibrida di Exchange
 
@@ -196,9 +196,9 @@ Dal momento che la base clienti delle soluzioni ibride è molto diversificata, �
 
 ## Scenario due
 
-**Problema:** da un anno l'organizzazione esegue una configurazione ibrida e ora anche l'ultima cassetta postale è stata spostata sul cloud. Tuttavia, si pensa di mantenere i servizi AD FS per eseguire l'autenticazione utente delle cassette postali Exchange Online degli utenti (questo scenario è valido per tutti i clienti che intendono mantenere la sincronizzazione della directory).
+**Problema:**  da un anno l'organizzazione esegue una configurazione ibrida e ora anche l'ultima cassetta postale è stata spostata sul cloud. Tuttavia, si pensa di mantenere i servizi AD FS per eseguire l'autenticazione utente delle cassette postali Exchange Online degli utenti (questo scenario è valido per tutti i clienti che intendono mantenere la sincronizzazione della directory).
 
-**Soluzione:** dal momento che il cliente intende mantenere i servizi AD FS, conserverà anche la sincronizzazione della directory poiché è un prerequisito di tali servizi. Per questo motivo, non è possibile rimuovere completamente i server di Exchange dall'ambiente locale. Tuttavia, è possibile rimuovere la maggior parte dei server di Exchange lasciandone qualcuno per la gestione degli utenti. Tenere presente che i server lasciati in esecuzione possono essere eseguiti su macchine virtuali, dal momento che il carico di lavoro passa quasi completamente a Exchange Online.
+**Soluzione:**  dal momento che il cliente intende mantenere i servizi AD FS, conserverà anche la sincronizzazione della directory poiché è un prerequisito di tali servizi. Per questo motivo, non è possibile rimuovere completamente i server di Exchange dall'ambiente locale. Tuttavia, è possibile rimuovere la maggior parte dei server di Exchange lasciandone qualcuno per la gestione degli utenti. Tenere presente che i server lasciati in esecuzione possono essere eseguiti su macchine virtuali, dal momento che il carico di lavoro passa quasi completamente a Exchange Online.
 
 Nell'immagine seguente viene descritto lo stato finale desiderato:
 
@@ -286,7 +286,7 @@ Nell'immagine seguente viene descritto lo stato finale effettivo:
 
 ## Scenario tre
 
-**Problema:** si desidera rimuovere i server locali di Exchange dopo aver spostato tutte le cassette postali in Exchange Online. Tuttavia, si è scoperto che tali cassette postali utilizzano Exchange per altri scopi, ad esempio, per l'inoltro di SMTP (Simple Mail Transfer Protocol) per un'applicazione o per accedere alle cartelle pubbliche. Se si necessita dei server locali di Exchange per soddisfare le esigenze attuali dell'organizzazione, non è consigliabile rimuovere i server locali.
+**Problema:**  si desidera rimuovere i server locali di Exchange dopo aver spostato tutte le cassette postali in Exchange Online. Tuttavia, si è scoperto che tali cassette postali utilizzano Exchange per altri scopi, ad esempio, per l'inoltro di SMTP (Simple Mail Transfer Protocol) per un'applicazione o per accedere alle cartelle pubbliche. Se si necessita dei server locali di Exchange per soddisfare le esigenze attuali dell'organizzazione, non è consigliabile rimuovere i server locali.
 
-**Soluzione:** si consiglia di non rimuovere Exchange e la configurazione ibrida in questa fase. Se si era in procinto di avviare il processo puntando i record di individuazione automatica a Exchange Online, alcune funzionalità sarebbero state interrotte immediatamente, ad esempio, l'accesso alla cartella pubblica ibrida. È possibile modificare il record MX in modo che punti a Exchange Online Protection Se non è stato già fatto, è possibile anche rimuovere alcuni dei server locali di Exchange. Tuttavia, è necessario mantenere un numero sufficiente di server al fine di gestire le funzioni ibride rimanenti. In genere, l'impatto sull'ambiente locale è limitato.
+**Soluzione:**  si consiglia di non rimuovere Exchange e la configurazione ibrida in questa fase. Se si era in procinto di avviare il processo puntando i record di individuazione automatica a Exchange Online, alcune funzionalità sarebbero state interrotte immediatamente, ad esempio, l'accesso alla cartella pubblica ibrida. È possibile modificare il record MX in modo che punti a Exchange Online Protection Se non è stato già fatto, è possibile anche rimuovere alcuni dei server locali di Exchange. Tuttavia, è necessario mantenere un numero sufficiente di server al fine di gestire le funzioni ibride rimanenti. In genere, l'impatto sull'ambiente locale è limitato.
 

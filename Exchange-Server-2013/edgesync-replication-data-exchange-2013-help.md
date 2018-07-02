@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Quando si distribuisce un server Trasporto Edge, non è necessario accedere ad Active Directory. Per l'esecuzione di ricerche dei destinatari e di attività di aggregazione dell'elenco indirizzi attendibili e per l'implementazione della sicurezza del dominio utilizzando l'autenticazione Mutual TLS (Transport Layer Security), il server Trasporto Edge richiede i dati che risiedono in Active Directory. Questi dati vengono replicati sul server Trasporto Edge utilizzando EdgeSync e il server Trasporto Edge memorizza tutte le informazioni replicate in Active Directory Lightweight Directory Services (AD LDS).
 

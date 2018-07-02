@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-02_
+_**Ultima modifica dell'argomento:** 2012-10-02_
 
 Gli ambiti del ruolo di gestione determinano gli oggetti messi a disposizione di un utente, che può così modificare gli oggetti utilizzando i cmdlet e i parametri assegnati all'utente. Se un ambito non è più in uso, è possibile eliminarlo. Per ulteriori informazioni sugli ambiti del ruolo di gestione in Microsoft Exchange Server 2013, vedere [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md).
 

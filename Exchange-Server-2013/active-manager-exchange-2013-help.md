@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Microsoft Exchange Server 2013 include un componente denominato *Active Manager* che gestisce una piattaforma a disponibilità elevata che comprende il gruppo di disponibilità del database (DAG) e le copie del database delle cassette postali. Active Manager viene eseguito all'interno del servizio di replica di Microsoft Exchange (MSExchangeRepl.exe) su tutti i server Cassette postali. Nei server Cassette postali che non sono membri di un gruppo di disponibilità del database (DAG), è disponibile un unico ruolo di Active Manager: *Active Manager autonomo*. Nei server membri di un gruppo di disponibilità del database (DAG), sono disponibili due ruoli di Active Manager: *Active Manager principale* (PAM) e *Active Manager di standby* (SAM). PAM è il ruolo Active Manager in un gruppo di disponibilità del database che decide quali copie sono attive o passive. PAM è responsabile del recupero delle notifiche di cambiamento della tecnologia e della risposta agli errori del server. Il membro del gruppo di disponibilità del database che contiene il ruolo PAM è sempre il membro che possiede attualmente la risorsa quorum del cluster (gruppo di cluster predefinito). Se il server che possiede la risorsa quorum del cluster incontra un errore, il ruolo PAM passa automaticamente a un server ancora attivo, che assume la proprietà della risorsa quorum del cluster. Inoltre, se è necessario scollegare il server che ospita la risorsa quorum del cluster per ragioni di manutenzione o di aggiornamento, è necessario spostare prima il PAM in un altro server del gruppo di disponibilità del database. Il PAM controlla tutti gli spostamenti delle designazioni attive tra le copie di un database. (Può essere attiva una sola copia in un dato momento e può essere montata o smontata.) Il PAM esegue anche le funzioni del ruolo SAM sul sistema locale (rilevamento degli errori del database locale e dell'Archivio informazioni locale).
 

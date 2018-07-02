@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 È possibile utilizzare la registrazione per esaminare le connessioni POP3 e IMAP4 Exchange nell'ambiente in uso del protocollo. Questo può essere utile se si sta risolvendo problemi relativi alle prestazioni POP3 o IMAP4.
 

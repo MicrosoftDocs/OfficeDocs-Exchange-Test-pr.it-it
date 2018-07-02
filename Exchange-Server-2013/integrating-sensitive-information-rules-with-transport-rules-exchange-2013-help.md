@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-14_
+_**Ultima modifica dell'argomento:** 2015-01-14_
 
 In Microsoft Exchange, è possibile creare criteri DLP che contengono le regole per le classificazioni di messaggio tradizionale non solo e regole di trasporto esistenti, ma anche associarle con le regole di informazioni riservate rilevate all'interno di messaggi. Il framework di regole di trasporto esistenti offre funzionalità avanzate per definire i criteri di messaggistica, sulle versioni l'intero spettro dei soft ai controlli di disco rigido. Esempi:
 

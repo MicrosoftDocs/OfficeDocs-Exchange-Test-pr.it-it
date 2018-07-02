@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013 SP1_
+_**Si applica a:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Ultima modifica dell'argomento:**2013-12-02_
+_**Ultima modifica dell'argomento:** 2013-12-02_
 
 È possibile utilizzare i cmdlet integrati per creare report sull'integrità per eseguire un'ampia serie di attività correlate alla disponibilità gestita, tra cui:
 

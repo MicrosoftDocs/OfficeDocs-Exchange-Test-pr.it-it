@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-08-09_
+_**Ultima modifica dell'argomento:** 2016-08-09_
 
 È possibile gestire le informazioni riservate tramite i criteri DLP importando un file che contiene le impostazioni di criteri informazioni. Modelli di criteri DLP possono essere sviluppati indipendentemente dal programma di Exchange come file XML. Tuttavia, è necessario che soddisfino i requisiti di formato specifico per il funzionamento. In alternativa, è possono importare criteri che vengono esportati da una versione precedente di Exchange in Microsoft Exchange Server 2013.
 

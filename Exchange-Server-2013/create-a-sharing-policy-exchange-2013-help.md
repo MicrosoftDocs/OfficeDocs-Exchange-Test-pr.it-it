@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 I criteri di condivisione possono essere utilizzati per controllare il modo in cui gli utenti all'interno dell'organizzazione di Exchange condividono le informazioni del calendario con gli utenti all'esterno dell'organizzazione di . I criteri di condivisione forniscono la condivisione stabilita dall'utente e tra utenti delle informazioni di calendario con tipi diversi di utenti esterni. Supportano la condivisione delle informazioni del calendario con organizzazioni federative esterne (ad esempio, Office 365 o altre organizzazioni locali di Exchange), organizzazioni non federative esterne e con individui che dispongono di accesso a Internet. Per applicare un criterio di condivisione specifico agli utenti, vedere [Applicare un criterio di condivisione alle cassette postali](apply-a-sharing-policy-to-mailboxes-exchange-2013-help.md).
 

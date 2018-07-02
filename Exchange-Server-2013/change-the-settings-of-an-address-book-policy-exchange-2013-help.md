@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-03-30_
+_**Ultima modifica dell'argomento:** 2016-03-30_
 
 Dopo aver creato un criterio della rubrica è possibile visualizzare o modificarne il nome, nonché l'Elenco indirizzi globale, la Rubrica offline, l'elenco sale e gli elenchi di indirizzi assegnati.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2010, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server, Exchange Server 2010, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Se il paese o la regione dove risiedono l'organizzazione o alcuni degli utenti ha modificato il criterio di riconoscimento dell'ora legale (DST), o ha modificato lo spostamento dell'ora locale dall'ora UTC (Coordinated Universal Time), potrebbe essere necessario aggiornare Microsoft Windows, Microsoft Exchange, Microsoft Outlook, o altri programmi per gestire queste modifiche.
 

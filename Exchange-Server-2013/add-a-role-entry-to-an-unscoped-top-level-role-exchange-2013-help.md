@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 È possibile aggiungere script e cmdlet non di Exchange a ruoli di gestione di primo livello senza ambito se si desidera rendere disponibili nuovi script o cmdlet non di Exchange a ruoli senza ambito esistenti. Questi script e cmdlet non di Exchange vengono aggiunti come voci di ruolo di gestione ai ruoli di gestione di primo livello senza ambito. Quindi, possono essere utilizzati dalle voci di ruolo di primo livello senza ambito o da qualsiasi ruolo senza ambito che deriva dai ruoli di primo livello. Per ulteriori informazioni sulle voci di ruolo senza ambito, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-02-03_
+_**Ultima modifica dell'argomento:** 2017-02-03_
 
 È possibile installare o rimuovere componenti aggiuntivi per Outlook per l'organizzazione tramite EAC o Shell.
 

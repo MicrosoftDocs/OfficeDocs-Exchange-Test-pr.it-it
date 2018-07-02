@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-30_
+_**Ultima modifica dell'argomento:** 2013-04-30_
 
 Dopo aver creato un operatore automatico di messaggistica unificata, è possibile visualizzare o configurare diverse impostazioni. Ad esempio, è possibile aggiungere, rimuovere e modificare i numeri degli interni associati all'operatore automatico. Inoltre, è possibile abilitare o disabilitare il riconoscimento vocale automatico per l'operatore automatico e modificare i messaggi di saluto utilizzati per l'orario di ufficio e non di ufficio.
 

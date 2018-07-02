@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-14_
+_**Ultima modifica dell'argomento:** 2012-11-14_
 
 È possibile utilizzare EAC o Shell per abilitare o disabilitare Outlook Web App per la cassetta postale utente. Quando Outlook Web App è abilitato, l'utente può utilizzare Outlook Web App per l'invio e la ricezione della posta elettronica. Quando Outlook Web App è disabilitato, la cassetta postale continuerà a ricevere messaggi di posta elettronica e l'utente vi potrà accedere per inviare e ricevere messaggi utilizzando un client MAPI, quale Microsoft Outlook o un client di posta elettronica POP o IMAP, presupponendo che la cassetta postale sia abilitata a supportare l'accesso da tali client.
 

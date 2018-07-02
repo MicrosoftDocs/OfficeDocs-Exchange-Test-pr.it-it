@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-30_
+_**Ultima modifica dell'argomento:** 2012-10-30_
 
 In questo argomento consente di definire i componenti di base associati messaggistica (MRM) gestione dei record in Microsoft Exchange Server 2013. Gestione record di messaggistica è una tecnologia di gestione dei record in Exchange 2013 che consente alle organizzazioni di ridurre i rischi associati alla posta elettronica e ad altre comunicazioni. Gestione record di messaggistica rende più semplice conservare i messaggi necessari per rispettare politica aziendale, alla normativa in vigore o requisiti legali e rimuovere contenuto che contiene non legali o valore aziendale.
 

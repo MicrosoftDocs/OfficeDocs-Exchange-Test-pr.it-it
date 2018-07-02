@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-14_
+_**Ultima modifica dell'argomento:** 2015-01-14_
 
 È possibile utilizzare modelli di criteri criterio DLP perdita di dati per acquisire familiarità con la soluzione DLP in Microsoft Exchange 2013. Un modello di criterio DLP è un modello per un criterio. È possibile selezionare un modello per iniziare il processo di creazione dei criteri DLP personalizzati. All'interno dei criteri DLP, è possibile personalizzare le regole per garantire che soddisfi le esigenze aziendali per la prevenzione della perdita di dati. Sono disponibili numerosi modelli di criteri da Microsoft, ma non sono l'unico modo per implementare una soluzione di prevenzione della perdita di dati in Exchange.
 

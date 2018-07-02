@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-09-10_
+_**Ultima modifica dell'argomento:** 2012-09-10_
 
 Negli argomenti in questa sezione sono fornite informazioni dettagliate sui controlli di conformità che Microsoft Exchange Server 2013 esegue durante l'installazione di Exchange. Tramite i controlli di conformità è possibile verificare che la foresta di Active Directory e i server Exchange siano pronti per Exchange 2013. Negli argomenti per ciascun controllo di conformità sono descritte le azioni che è necessario intraprendere per risolvere i problemi rilevati dal controllo. I passi da completare sono solo quelli indicati nell'argomento relativo al controllo di conformità se questo è stato visualizzato durante la configurazione.
 

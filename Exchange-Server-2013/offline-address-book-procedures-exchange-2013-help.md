@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-04_
+_**Ultima modifica dell'argomento:** 2012-10-04_
 
 [Creazione di una Rubrica fuori rete](create-an-offline-address-book-exchange-2013-help.md)
 

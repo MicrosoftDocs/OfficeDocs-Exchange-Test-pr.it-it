@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
-Il filtro mittente è fornito dall'agente filtro mittente. L'agente Filtro mittente si basa sull'intestazione **MAIL FROM:** Intestazione SMTP per determinare l'eventuale azione da intraprendere per un messaggio di posta elettronica in ingresso.
+Il filtro mittente è fornito dall'agente filtro mittente. L'agente Filtro mittente si basa sull'intestazione **MAIL FROM:**  Intestazione SMTP per determinare l'eventuale azione da intraprendere per un messaggio di posta elettronica in ingresso.
 
 Quando è abilitata su un server di Exchange, la funzionalità del filtro mittente filtra tutti i messaggi che passano attraverso i connettori di ricezione di quel computer.
 

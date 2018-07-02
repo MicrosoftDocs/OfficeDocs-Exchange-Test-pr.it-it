@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-16_
+_**Ultima modifica dell'argomento:** 2014-12-16_
 
 Il cmdlet **Get-QueueDigest** consente di visualizzare informazioni su alcune o tutte le code presenti nell'organizzazione di Exchange utilizzando un unico comando.
 

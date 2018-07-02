@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Un *criterio di assegnazione del ruolo di gestione* indica un insieme di uno o più ruoli di gestione che consente agli utenti finali di gestire la configurazione della cassetta postale e del gruppo di distribuzione di Microsoft Exchange Server 2013. I criteri di assegnazione dei ruoli, che fanno parte del modello di autorizzazioni Controllo di accesso basato sui ruoli (RBAC) in Exchange 2013, consentono di controllare le specifiche impostazioni della cassetta postale e del gruppo di distribuzione che gli utenti finali possono modificare. Gruppi diversi di utenti possono disporre di criteri di assegnazione dei ruoli specializzati.
 

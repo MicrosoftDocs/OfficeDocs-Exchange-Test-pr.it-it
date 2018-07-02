@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-15_
+_**Ultima modifica dell'argomento:** 2014-02-15_
 
 La modalità di disabilitazione della pubblicazione del calendario Internet dipende dalla modalità di abilitazione. Se è stato creato un criterio di condivisione dedicato nella pubblicazione del calendario Internet, è possibile disabilitare il criterio o eliminarlo. Se è stato configurata la pubblicazione del calendario Internet come regola di condivisione nel criterio di condivisione predefinito, è possibile rimuovere la regola di condivisione per il dominio **anonimo**.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Le regole di trasporto con condizioni di scansione degli allegati eseguono l'estrazione del testo durante l'analisi del contenuto degli allegati. Exchange 2013 può eseguire la scansione dei tipi di allegato più comuni localmente. È possibile aggiungere ulteriori tipi di allegato registrando IFilters con Exchange 2013. In questo argomento, viene illustrato come registrare IFilters rilasciato da Microsoft e da fornitori di terze parti.
 

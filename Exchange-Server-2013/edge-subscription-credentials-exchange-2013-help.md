@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'argomento spiega come la procedura di sottoscrizione Edge fornisce credenziali utilizzate per proteggere il processo di sincronizzazione EdgeSync e il modo in cui tali credenziali vengono utilizzate da EdgeSync per stabilire una connessione LDAP protetta tra un server Cassette postali di Exchange 2013 e un server Trasporto Edge. Per ulteriori informazioni sul processo di sottoscrizione Edge, vedere [Sottoscrizioni Edge](edge-subscriptions-exchange-2013-help.md).
 

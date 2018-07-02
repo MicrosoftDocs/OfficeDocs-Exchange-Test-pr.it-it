@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-05-07_
+_**Ultima modifica dell'argomento:** 2014-05-07_
 
 Per impostazione predefinita, il servizio Ricerca di Exchange è abilitato per tutti i nuovi database delle cassette postali e non necessita di alcuna configurazione aggiuntiva. Tuttavia, se si desidera interrompere l'indicizzazione del contenuto delle cassette postali da parte di Ricerca di Exchange, è possibile disabilitare questo servizio per i singole database delle cassette postali o per l'intero server Cassette postali.
 

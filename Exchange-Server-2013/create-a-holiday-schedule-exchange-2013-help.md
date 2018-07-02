@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-19_
+_**Ultima modifica dell'argomento:** 2013-04-19_
 
 È possibile definire le date e gli orari di chiusura dell'organizzazione per festività e altri eventi. Nell'intervallo compreso tra le date di inizio e di fine specificate, i chiamanti che contattano l'operatore automatico di messaggistica unificata sentiranno il messaggio di saluto impostato durante la configurazione della pianificazione delle festività. Dopo il messaggio di saluto specificato, verranno riprodotti i messaggi di saluto per gli orari non di ufficio e i prompt menu.
 

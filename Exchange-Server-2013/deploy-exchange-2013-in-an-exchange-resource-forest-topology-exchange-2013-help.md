@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In questo argomento viene illustrato come distribuire Microsoft Exchange 2013 in una topologia a foresta risorsa Exchange. Un insieme di strutture dedicato Exchange è l'acronimo di una foresta di risorse Exchange. In questo argomento si presuppone che non si dispone di una topologia Exchange 2013 esistente.
 

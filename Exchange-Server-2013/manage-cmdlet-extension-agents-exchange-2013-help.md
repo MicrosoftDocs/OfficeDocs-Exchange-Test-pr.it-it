@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-19_
+_**Ultima modifica dell'argomento:** 2012-11-19_
 
 In questo argomento vengono illustrate le procedure per abilitare, disabilitare, visualizzare e modificare la priorità degli agenti di estensione cmdlet in Microsoft Exchange Server 2013. Per ulteriori informazioni sugli agenti di estensione cmdlet in Exchange 2013, vedere [Agenti di estensione di cmdlet](cmdlet-extension-agents-exchange-2013-help.md).
 

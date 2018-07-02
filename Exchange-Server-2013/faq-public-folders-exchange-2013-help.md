@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-03-27_
+_**Ultima modifica dell'argomento:** 2017-03-27_
 
 In questo argomento, viene fornito un elenco di domande frequenti sulle cartelle pubbliche in Exchange Server 2013. Per ulteriori informazioni sulle cartelle pubbliche, vedere [Cartelle pubbliche](public-folders-exchange-2013-help.md).
 

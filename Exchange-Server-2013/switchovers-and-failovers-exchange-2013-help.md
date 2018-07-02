@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013 SP1_
+_**Si applica a:** Exchange Server 2013 SP1_
 
-_**Ultima modifica dell'argomento:**2015-12-02_
+_**Ultima modifica dell'argomento:** 2015-12-02_
 
 Switchover e procedure di failover sono le due forme di interruzioni di Microsoft Exchange Server 2013:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-16_
+_**Ultima modifica dell'argomento:** 2012-10-16_
 
 La metrica di gruppo è una raccolta dei seguenti dati relativi ai gruppi di distribuzione e ai gruppi di distribuzione dinamici nell'organizzazione:
 

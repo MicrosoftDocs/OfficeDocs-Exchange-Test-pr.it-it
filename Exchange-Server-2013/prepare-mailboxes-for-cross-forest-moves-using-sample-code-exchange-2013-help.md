@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Microsoft Exchange 2013 supporta spostamenti e migrazioni utilizzando i cmdlet **New-MoveRequest** e **New-MigrationBatch** . È inoltre possibile spostare la cassetta postale tramite l'interfaccia di amministrazione di Exchange (EAC). È possibile spostare una cassetta postale da un insieme di strutture Exchange origine a una foresta di destinazione Exchange 2010.
 

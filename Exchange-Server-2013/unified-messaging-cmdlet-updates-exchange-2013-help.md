@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Molti dei cmdlet di messaggistica unificata esistenti in Exchange Server 2010 sono stati conservati anche in Exchange Server 2013, ma alcuni di questi sono stati modificati. Inoltre, sono stati aggiunti nuovi cmdlet in Exchange 2013.
 

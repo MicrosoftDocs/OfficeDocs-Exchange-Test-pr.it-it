@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Dimensionamento e pianificazione della capacità per Exchange Server 2013 rappresentano un aspetto importante della distribuzione di Exchange 2013. La configurazione di un sistema per ottenere prestazioni ottimali è un processo iterativo. Il tempo di acquisire familiarità con tutte le variabili che influiscono del sistema, quali hardware, l'architettura e profili utente. Grazie a queste informazioni è possibile stabilire la metrica di base per i sistemi e apportare modifiche per migliorare le prestazioni del sistema. Per ulteriori informazioni e istruzioni sulla definizione e pianificazione della capacità per l'organizzazione Exchange, vedere l'articolo del blog del Team di Exchange [chiedere Perf Guy: Sizing Exchange 2013 Deployments](https://go.microsoft.com/fwlink/p/?linkid=301990) e [Suggerimenti relativi alle prestazioni di Exchange Server 2013](exchange-server-2013-performance-recommendations-exchange-2013-help.md).
 

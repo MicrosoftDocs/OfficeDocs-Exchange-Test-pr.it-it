@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-09-25_
+_**Ultima modifica dell'argomento:** 2012-09-25_
 
 L'Editor modelli di informazioni consente di personalizzare la presentazione dell'interfaccia utente grafica (GUI) lato client per le proprietà dell'oggetto a cui si accede utilizzando gli elenchi di indirizzi in MicrosoftOutlook. Ad esempio, quando un elenco di indirizzi viene aperto in Outlook, le proprietà di un determinato oggetto vengono visualizzate in base al modello di informazioni definito nell'organizzazione di Exchange. Gli oggetti possono essere personalizzati modificando le dimensioni del campo, aggiungendo o rimuovendo campi, aggiungendo o rimuovendo schede e riorganizzando i campi. Il layout dei modelli può variare in base alla lingua.
 

@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Gli utenti di posta sono simili ai contatti di posta. Entrambi possiedono indirizzi di posta elettronica esterni e contengono informazioni su persone esterne all'organizzazione Exchange o Exchange Online che possono essere visualizzate nella rubrica condivisa e in altri elenchi di indirizzi. Tuttavia, a differenza di un contatto di posta, un utente di posta dispone delle credenziali di accesso nell'organizzazione Exchange o Office 365 e può accedere alle risorse. Per ulteriori informazioni, vedere [Destinatari](recipients-exchange-2013-help.md).
 

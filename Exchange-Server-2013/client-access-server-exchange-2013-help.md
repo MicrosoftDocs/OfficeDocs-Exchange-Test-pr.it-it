@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-07-02_
+_**Ultima modifica dell'argomento:** 2014-07-02_
 
 In Microsoft Exchange 2013 sono state apportate importanti modifiche architettoniche ai ruoli del server di Exchange. Al posto dei cinque ruoli del server presenti in Exchange 2010 ed Exchange 2007, in Exchange 2013 sono disponibili solo tre ruoli del server: il server Accesso client e il server Cassette postali, e con Service Pack 1, il ruolo del server Trasporto Edge.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Si applica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-14_
+_**Ultima modifica dell'argomento:** 2013-02-14_
 
 Per soddisfare i requisiti, aziendali o IT, potrebbe essere necessario disattivare o sospendere temporaneamente Gestione record di messaggistica per un singolo utente o per un server Cassette postali. Tra i motivi per cui potrebbe essere necessario disattivare o sospendere Gestione record di messaggistica, sono compresi:
 

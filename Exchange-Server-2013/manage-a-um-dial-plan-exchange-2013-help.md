@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2018-04-26_
+_**Ultima modifica dell'argomento:** 2018-04-26_
 
 Dopo aver creato un dial plan di messaggistica unificata, è possibile visualizzare e configurare numerose impostazioni. Ad esempio, è possibile configurare il livello di protezione VoIP (Voice over IP), il codec audio e le restrizioni di composizione. Le impostazioni configurate sul dial plan di messaggistica unificata interessano tutti gli utenti collegati al dial plan per mezzo di un criterio cassetta postale di messaggistica unificata.
 

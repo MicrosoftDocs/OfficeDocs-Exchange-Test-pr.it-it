@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:** 2013-03-30_
+_**Ultima modifica dell'argomento:**  2013-03-30_
 
 Di seguito viene illustrata la procedura di importazione del Management Pack nella distribuzione SCOM.
 

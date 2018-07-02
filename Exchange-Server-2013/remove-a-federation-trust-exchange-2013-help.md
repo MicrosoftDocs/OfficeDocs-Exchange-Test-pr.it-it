@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-04_
+_**Ultima modifica dell'argomento:** 2015-01-04_
 
 Una relazione di trust federativa stabilisce una relazione di trust tra un'organizzazione di Exchange 2013 Microsoft e il sistema di autenticazione Azure Active Directory e supporta la condivisione con altre organizzazioni Exchange federate. Rimozione di una relazione di trust federativa da locale organizzazione di Exchange disabiliterà condivisione federata con altre organizzazioni Exchange federate e con le organizzazioni di Office 365 connessione all'organizzazione come parte di una distribuzione ibrida. Necessario valutare attentamente l'impatto globale dell'organizzazione prima di rimuovere una relazione di trust federativa.
 

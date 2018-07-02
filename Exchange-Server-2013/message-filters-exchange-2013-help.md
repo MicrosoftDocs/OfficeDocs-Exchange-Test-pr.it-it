@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'operazione di filtro genera diverse visualizzazioni dei messaggi nelle code. Specificando i criteri di filtro, è possibile individuare rapidamente i messaggi ed eseguire delle azioni. Quando un messaggio di posta elettronica viene inviato a più destinatari, può essere collocato in più code. Quando si esegue il filtro in base alle proprietà dei messaggi, è possibile individuare i messaggi presenti in diverse code. Di seguito sono illustrati esempi di utilizzo del filtro dei messaggi per gestire il flusso di posta:
 

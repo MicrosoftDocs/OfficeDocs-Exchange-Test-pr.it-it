@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Active Directory Permissions` consente agli amministratori di configurare le autorizzazioni Active Directory in un'organizzazione. Alcune funzionalità che utilizzano le autorizzazioni Active Directory o un elenco di controllo di accesso (ACL) includono i connettori di invio e ricezione del trasporto e le autorizzazioni di invio per conto di altri per le cassette postali.
 

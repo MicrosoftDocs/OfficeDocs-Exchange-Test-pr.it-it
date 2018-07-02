@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-06-04_
+_**Ultima modifica dell'argomento:** 2015-06-04_
 
 Informazioni sulla cassetta postale condivisa di Exchange in Microsoft Exchange Server 2013, sui motivi per utilizzarla e su come convertire una cassetta postale delegata in una cassetta postale condivisa di Exchange.
 
@@ -35,9 +35,9 @@ Le cassette postali condivise non sono supportate sui dispositivi mobili.
 
 Una cassetta postale condivisa è un tipo di cassetta postale utente priva di un suo proprio nome utente e password. Come risultato, gli utenti non possono accedervi direttamente. Per accedere ad una cassetta postale condivisa, agli utenti devono prima essere concesse le autorizzazioni Invia come o Accesso completo per la cassetta postale. Successivamente, gli utenti accedono alla propria cassetta postale poi accedono alla cassetta postale condivisa aggiungendola al proprio profilo Outlook. In Exchange 2003 e versioni precedenti, le cassette postali condivise erano una cassetta postale standard a cui l'amministratore poteva concedere l'accesso delegato. A partire da Exchange 2007, le cassette postali condivise sono diventate un tipo di destinatario a sé stante:
 
-  - **RecipientType:** UserMailbox
+  - **RecipientType:**  UserMailbox
 
-  - **RecipientTypeDetails:** SharedMailbox
+  - **RecipientTypeDetails:**  SharedMailbox
 
 Nelle versioni precedenti di Exchange, la creazione di una cassetta postale condivisa era un processo in più fasi in cui era necessario utilizzare Exchange Management Shell per completare alcune delle attività. In Exchange 2013, si può utilizzare l'interfaccia di amministrazione di Exchange (EAC) per creare una cassetta postale condivisa in un solo passaggio. Per ulteriori informazioni, vedere [Creazione di una cassetta postale condivisa](create-a-shared-mailbox-exchange-2013-help.md). L'interfaccia di amministrazione di Exchange dispone di un'area funzionalità dedicata completamente alle cassette postali condivise. È sufficiente andare a **Destinatari** \> **Cassette postali condivise** per visualizzare tutte le attività relative alle cassette postali condivise.
 

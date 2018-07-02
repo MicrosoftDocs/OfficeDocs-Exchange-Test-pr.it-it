@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-15_
+_**Ultima modifica dell'argomento:** 2012-10-15_
 
 In questa procedura è spiegato come configurare un connettore di ricezione per ricevere i messaggi di posta elettronica da Internet.
 

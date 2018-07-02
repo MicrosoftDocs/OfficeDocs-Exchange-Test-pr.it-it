@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-17_
+_**Ultima modifica dell'argomento:** 2013-02-17_
 
 Outlook Web App supporta l'integrazione di Outlook Web App e Microsoft Lync Server 2013. Quando l'integrazione con Lync Server 2013 è configurata e la messaggistica immediata è abilitata in Outlook Web App, gli utenti possono avviare o rispondere a sessioni di messaggistica immediata utilizzando Outlook Web App.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-09-25_
+_**Ultima modifica dell'argomento:** 2012-09-25_
 
 Visualizzatore code è uno snap-in Microsoft Management Console installato in un server Cassette postali o Trasporto Edge. Visualizzatore code si trova nella sezione **Strumenti flusso di posta** della console Casella degli strumenti di Exchange. È possibile utilizzare questo strumento per visualizzare le informazioni sulle code in un server di trasporto e i messaggi contenuti in tali code, nonché per eseguire azioni di gestione sulle code stesse e sugli elementi di posta. Visualizzatore code è utile per la risoluzione dei problemi relativi al flusso di posta e per l'identificazione della posta indesiderata.
 

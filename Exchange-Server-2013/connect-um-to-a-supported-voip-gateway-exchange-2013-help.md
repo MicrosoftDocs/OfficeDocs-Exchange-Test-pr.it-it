@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-19_
+_**Ultima modifica dell'argomento:** 2013-04-19_
 
 Quando si installa la messaggistica unificata, è necessario configurare in rete i gateway VoIP (Voice over IP), gli IP PBX, i PBX abilitati a SIP o gli SBC (session border controller) per la comunicazione con i server Accesso client su cui è in esecuzione il servizio di routing delle chiamate di messaggistica unificata di Microsoft Exchange e i server Cassette postali su cui è in esecuzione il servizio Messaggistica unificata di Microsoft Exchange nell'organizzazione Exchange. È inoltre necessario configurare i server Accesso client e Cassette postali per la comunicazione con i gateway VoIP, IB PBX, PBX abilitati a SIP o SBC.
 

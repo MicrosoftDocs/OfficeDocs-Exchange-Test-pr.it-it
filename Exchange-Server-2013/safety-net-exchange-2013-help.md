@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 In Microsoft Exchange Server 2013 il meccanismo principale della disponibilità elevata della cassetta postale è il gruppo di disponibilità del database (DAG). Per ulteriori informazioni sui gruppi di disponibilità del database, vedere [Gestione dei gruppi di disponibilità del database](managing-database-availability-groups-exchange-2013-help.md). Il *dumpster di trasporto* è stato introdotto per la prima volta in Exchange 2007 e ulteriormente migliorato in Exchange 2010 per fornire copie ridondanti dei messaggi, una volta recapitati alle cassette postali nei DAG. In Exchange 2010 il dumpster di trasporto offriva una protezione dalla perdita di dati mantenendo una coda di messaggi recapitati correttamente che non erano stati replicati nelle copie passive del database delle cassette postali nel DAG. Quando un errore del database delle cassette postali o del server richiedeva la promozione di una copia obsoleta del database delle cassette postali, i messaggi nel dumpster di trasporto venivano reinviati automaticamente alla nuova copia attiva del database delle cassette postali.
 

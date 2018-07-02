@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_**Ultima modifica dell'argomento:** 2016-12-15_
 
 È possibile proteggere i database delle cassette postali di Exchange Server 2013 e i dati che contengono configurando i database e i server Cassette postali per la disponibilità elevata e la resilienza del sito. Exchange 2013 riduce il costo e la complessità della distribuzione di una soluzione di messaggistica a disponibilità elevata e resilienza del sito fornendo al contempo livelli di servizio e disponibilità dei dati e assistenza per cassette postali di grandi dimensioni.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-15_
+_**Ultima modifica dell'argomento:** 2013-02-15_
 
 [Gestire le impostazioni di messaggistica unificata su un server cassette postali](manage-um-settings-on-a-mailbox-server-exchange-2013-help.md)
 

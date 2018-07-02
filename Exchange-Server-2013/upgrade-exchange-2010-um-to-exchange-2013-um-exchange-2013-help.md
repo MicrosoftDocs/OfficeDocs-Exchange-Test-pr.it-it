@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Quando si esegue l'aggiornamento di un'organizzazione di Microsoft Exchange 2010 con messaggistica unificata (UM, Unified Messaging) alla messaggistica unificata di Exchange 2013, è necessario attenersi a una procedura già eseguita come parte della distribuzione della messaggistica unificata di Exchange 2010. A seconda dell'ambiente di telefonia e dei componenti di messaggistica unificata creati e configurati per supportare la messaggistica unificata in Exchange 2010, potrebbe essere necessario distribuire ulteriori apparecchiature telefoniche, inclusi gateway Voice over IP (VoIP), IP PBX (Private Branch eXchange) o PBX abilitato al SIP di tipo tradizionale, quindi creare e configurare eventuali componenti di messaggistica unificata aggiuntivi richiesti per la messaggistica unificata di Exchange 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-07-26_
+_**Ultima modifica dell'argomento:** 2017-07-26_
 
 Un trust federativo stabilisce una relazione di trust tra una organizzazione Microsoft Exchange 2013 e il sistema di autenticazione di Azure Active Directory. Configurando una relazione di trust federativa, è possibile configurare la condivisione federata con altre organizzazioni Exchange per condividere informazioni sulla disponibilità degli utenti tra i destinatari. La condivisione federata può essere configurata tra due organizzazioni Exchange 2013 federate o tra un'organizzazione Exchange 2013 federata e organizzazioni Exchange 2010 federate. È inoltre possibile impostare la condivisione con un'organizzazione Office 365.
 

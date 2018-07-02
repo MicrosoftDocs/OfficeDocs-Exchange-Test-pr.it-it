@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Quando si abilita il controllo per una cassetta postale, in Microsoft Exchange vengono registrate informazioni nel *registro di controllo della cassetta postale* ogni qualvolta un utente diverso dal proprietario accede alla cassetta postale. Ogni voce del registro include informazioni relative a chi ha effettuato l'accesso alla cassetta postale e quando, alle azioni eseguite dall'utente non proprietario e al fatto che l'azione abbia avuto esito positivo. Le voci nel registro di controllo delle cassette postali vengono conservate per 90 giorni per impostazione predefinita. È possibile utilizzare il registro di controllo della cassetta postale per determinare se un utente diverso dal proprietario ha effettuato l'accesso a una cassetta postale.
 

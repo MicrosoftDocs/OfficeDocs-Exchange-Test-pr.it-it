@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In questo argomento viene illustrato come distribuire Exchange 2013 in una topologia con più foreste, tramite Microsoft Forefront Identity Manager 2010 R2 SP1. Per distribuire Exchange 2013 in una topologia con più foreste, è necessario innanzitutto installare Exchange 2013 in ogni foresta, quindi connettere le foreste affinché sia possibile visualizzare l'indirizzo e i dati di disponibilità tra le stesse.
 

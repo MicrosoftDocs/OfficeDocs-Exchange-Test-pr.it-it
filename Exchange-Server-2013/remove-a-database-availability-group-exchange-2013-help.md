@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-16_
+_**Ultima modifica dell'argomento:** 2012-11-16_
 
 L'eliminazione di un gruppo di disponibilità del database è un'attività rapida e semplice. Per rimuovere un gruppo di disponibilità del database è possibile utilizzare l'interfaccia di amministrazione di Exchange o Shell.
 

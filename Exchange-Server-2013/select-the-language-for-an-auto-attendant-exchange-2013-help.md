@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile configurare le impostazioni della lingua predefinita dell'operatore automatico di messaggistica unificata. L'impostazione della lingua disponibile per un operatore automatico di messaggistica unificata consentono di configurare la lingua predefinita dell'operatore automatico. Quando si utilizzano le istruzioni vocali predefinite di sistema per l'operatore automatico, questo utilizzerà la lingua configurata per rispondere alle chiamate in arrivo. Questa impostazione della lingua riguarda solo le istruzioni predefinite del sistema fornite dopo che sarà stato installato il server Cassette postali su cui viene eseguito il servizio di messaggistica unificata di Microsoft Exchange. Questa impostazione non influisce sulle istruzioni personalizzate che vengono configurate per un operatore automatico. Le lingue disponibili dipendono dai Language Pack di messaggistica unificata installati sul server Cassette postali.
 

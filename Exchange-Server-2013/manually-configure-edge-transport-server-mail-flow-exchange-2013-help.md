@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-21_
+_**Ultima modifica dell'argomento:** 2014-02-21_
 
 Questo argomento descrive le procedure per apportare modifiche manuale alla configurazione relativa alla gestione del flusso di posta da parte del server Trasporto Edge. Tali procedure consentono di risolvere problemi specifici. Se la propria organizzazione non ha bisogno di apportare modifiche di configurazione manuali, si consiglia di utilizzare la configurazione predefinita quando si sottoscrivono i server Trasporto Edge.
 

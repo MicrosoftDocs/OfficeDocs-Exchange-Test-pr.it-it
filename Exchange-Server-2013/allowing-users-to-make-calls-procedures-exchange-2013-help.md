@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-05-03_
+_**Ultima modifica dell'argomento:** 2013-05-03_
 
 [Abilitare le chiamate in uscita sui gateway IP di messaggistica unificata](enable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md)
 

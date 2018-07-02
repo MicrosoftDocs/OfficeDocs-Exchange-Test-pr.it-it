@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-09_
+_**Ultima modifica dell'argomento:** 2012-11-09_
 
 È possibile configurare un gateway IP di messaggistica unificata con un indirizzo IP o un nome di dominio completo (FQDN). Quando si crea un gateway IP di messaggistica unificata, è necessario definire l'indirizzo IP del nome di dominio completo configurato nel gateway VoIP, PBX IP o SBC (Session Border Controller) in uso. È possibile modificare l'indirizzo IP o il nome di dominio completo dopo aver creato il gateway IP di messaggistica unificata.
 

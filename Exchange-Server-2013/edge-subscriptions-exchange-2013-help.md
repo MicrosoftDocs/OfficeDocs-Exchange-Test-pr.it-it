@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 I server Trasporto Edge riducono la superficie di attacco gestendo tutto il flusso di posta Internet e fornendo inoltro SMTP e servizi smart host per l'organizzazione di Exchange. Ulteriori livelli di sicurezza e protezione dei messaggi sono forniti da una serie di agenti eseguiti sul server Trasporto Edge nella rete di perimetro dell'organizzazione. Tali agenti supportano le funzionalità che forniscono protezione contro i virus e la posta indesiderata e applicano le regole di trasporto per controllare il flusso dei messaggi.
 

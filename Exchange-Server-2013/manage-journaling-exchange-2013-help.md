@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Inserimento nel journal consentono alle organizzazioni di rispondere ai requisiti legali, normativi e organizzativi conformità mediante la registrazione di comunicazioni di posta elettronica in ingresso e in uscita. In questo argomento viene illustrato come eseguire attività di base relative alla gestione di inserimento nel journal in Exchange 2013 e Exchange Online.
 

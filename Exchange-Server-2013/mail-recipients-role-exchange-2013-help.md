@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Mail Recipients` consente agli amministratori di gestire contatti, utenti di posta elettronica e cassette postali esistenti in un'organizzazione. Questo ruolo non è in grado di creare questi destinatari. Utilizzare il ruolo `Mail Recipient Creation` per crearli.
 

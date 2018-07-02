@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-10-01_
+_**Ultima modifica dell'argomento:** 2014-10-01_
 
 È possibile utilizzare i criteri di conservazione per raggruppare uno o più tag di conservazione e applicarli alle cassette postali per imporre le impostazioni di conservazione dei messaggi. Una cassetta postale non può avere più di un criterio di conservazione.
 

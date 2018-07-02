@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Gestione dei protocolli client Exchange ActiveSync, Outlook Web App, POP3, IMAP4, il servizio di individuazione automatica, servizi Web Exchange e il servizio disponibilità viene generato in tre aree diverse: l'interfaccia di amministrazione di Exchange (EAC), Exchange Management Shell e Gestione Internet Information Services (IIS). Le impostazioni che vengono gestite in ogni punto variano per ogni protocollo client.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Organization Configuration` consente agli amministratori di gestire le impostazioni a livello di organizzazione. La configurazione dell'organizzazione che può essere controllata con questo ruolo include, tra le altre cose:
 

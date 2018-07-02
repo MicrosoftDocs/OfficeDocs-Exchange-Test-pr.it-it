@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Le informazioni sulle opzioni e i requisiti di archiviazione per il ruolo del server Cassette postali in Microsoft Exchange Server 2013 costituiscono un aspetto importante della soluzione di progettazione per l'archiviazione del server Cassette postali.
 

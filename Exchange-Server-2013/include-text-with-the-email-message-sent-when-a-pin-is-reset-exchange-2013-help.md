@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile immettere testo aggiuntivo nel messaggio di posta elettronica inviato agli utenti quando viene reimpostato il PIN di messaggistica unificata. A tale scopo, immettere il testo personalizzato nella casella **Quando il PIN di Outlook Voice Access di un utente viene reimpostato** in una criterio cassetta postale di messaggistica unificata. Il testo personalizzato può includere, ad esempio, informazioni relative alla protezione per gli utenti abilitati alla messaggistica unificata.
 

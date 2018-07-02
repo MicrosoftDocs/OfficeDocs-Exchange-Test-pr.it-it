@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-01-17_
+_**Ultima modifica dell'argomento:** 2018-01-17_
 
 La funzionalità eDiscovery in locale utilizza una cassetta postale di sistema per archiviare i metadati delle ricerche di eDiscovery in locale. Il nome visualizzato di questa cassetta postale del sistema di individuazione è **SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}**. Poiché le cassette postali di sistema non sono visibili nell'interfaccia di amministrazione di Exchange o negli elenchi indirizzi di Exchange, è raro che vengano eliminate inavvertitamente.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 L'agente ID mittente è un agente di protezione da posta indesiderata disponibile in Microsoft Exchange Server 2013. L'agente ID mittente si basa sull'intestazione RECEIVED SMTP e su una query al servizio DNS del sistema mittente per stabilire l'eventuale azione da intraprendere su un messaggio in ingresso.
 

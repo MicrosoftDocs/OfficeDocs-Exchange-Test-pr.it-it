@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-06-25_
+_**Ultima modifica dell'argomento:** 2013-06-25_
 
 In questo argomento viene descritto come utilizzare Shell per testare il funzionamento del sistema di caselle vocali. Quando vengono eseguite le procedure riportate di seguito, il server Cassette postali che esegue il servizio Messaggistica unificata di Microsoft Exchange avvia una chiamata SIP (Session Initiation Protocol) diagnostica, quindi restituisce una variabile relativa allo stato di integrità dei servizi di messaggistica unifica.
 

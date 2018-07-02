@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Utilizzare la registrazione di controllo per risolvere problemi di configurazione tenendo traccia di modifiche specifiche apportate dagli amministratori e consentire di soddisfare requisiti relativi alle normative, alla conformità e alle controversie. In Microsoft Exchange sono disponibili due tipi di registrazione di controllo:
 

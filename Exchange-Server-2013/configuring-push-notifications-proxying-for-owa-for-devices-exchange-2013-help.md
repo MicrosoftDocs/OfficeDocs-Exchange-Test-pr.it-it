@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Abilitazione delle notifiche push di OWA per i dispositivi (OWA per iPhone e OWA per iPad) per una distribuzione locale di Microsoft Exchange 2013 consente agli utenti di ricevere aggiornamenti sull'icona di Outlook Web App o su OWA per iPhone/iPad, i quali indicano il numero di messaggi non letti presenti nella cartella Posta in arrivo. Se le notifiche push non sono configurate e abilitate, un utente con OWA per i dispositivi non può sapere in alcun modo quanti messaggi non letti sono presenti nella cartella Posta in arrivo, senza avviare l'app. Quando è disponibile un nuovo messaggio, il badge di OWA per i dispositivi viene aggiornato sul dispositivo dell'utente e avrà il seguente aspetto.
 
@@ -218,7 +218,7 @@ Il risultato previsto dovrebbe avere un aspetto analogo al seguente.
 
 Dopo aver effettuato la procedura precedente, le notifiche push devono essere provate in questo modo:
 
-  - **Invio di un messaggio di posta elettronica di testo alla cassetta postale dell'utente:**
+  - **Invio di un messaggio di posta elettronica di testo alla cassetta postale dell'utente:** 
     
     1.  Configurare un account in OWA per dispositivi su un dispositivo mobile al fine di eseguire la sottoscrizione per le notifiche.
     

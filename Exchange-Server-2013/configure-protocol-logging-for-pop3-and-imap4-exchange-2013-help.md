@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-27_
+_**Ultima modifica dell'argomento:** 2012-11-27_
 
 È possibile utilizzare Shell per abilitare, disabilitare o modificare le impostazioni della registrazione di protocollo per POP3 e IMAP4. Per impostazione predefinita, la registrazione del protocollo non è abilitata.
 

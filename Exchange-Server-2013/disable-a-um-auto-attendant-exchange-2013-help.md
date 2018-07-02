@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 Per impostazione predefinita, quando viene creato un operatore automatico di messaggistica unificata (UM), il relativo stato è impostato su disabilitato. Dopo aver creato l'operatore automatico di messaggistica unificata, è possibile modificare lo stato per controllare se è possibile rispondere alle chiamate in arrivo. Ad esempio, è possibile disabilitare l'operatore automatico di messaggistica unificata quando si sta registrando o ripetere la registrazione delle istruzioni personalizzate e i messaggi.
 

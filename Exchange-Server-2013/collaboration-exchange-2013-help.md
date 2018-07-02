@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Exchange 2013 fornisce le funzionalità avanzate seguenti che possono facilitare la collaborazione tra gli utenti finali con la posta elettronica:
 

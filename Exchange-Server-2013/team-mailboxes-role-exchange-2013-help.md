@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione di `Team Mailboxes` consente agli amministratori di definire uno o più criteri di provisioning delle cassette postali del sito e di gestire le cassette postali del sito nell'organizzazione. Gli amministratori assegnati a questo ruolo possono gestire le cassette postali del sito di cui non sono proprietari.
 

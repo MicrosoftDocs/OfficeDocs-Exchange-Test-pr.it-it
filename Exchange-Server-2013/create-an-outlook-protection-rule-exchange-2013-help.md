@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Utilizzando le regole di protezione di Microsoft Outlook è possibile proteggere i messaggi con Information Rights Management (IRM) applicando un modello AD RMS (Active Directory Rights Management Services) in Outlook 2010 prima di inviare i messaggi.
 

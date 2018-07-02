@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-23_
+_**Ultima modifica dell'argomento:** 2015-01-23_
 
 Per impostazione predefinita, Microsoft Exchange Server 2013 non consente di inviare posta di fuori del dominio. Per inviare posta di fuori del dominio, è necessario creare un connettore di invio. Il grafico seguente illustra il flusso della posta quando si crea un connettore di invio per inviare posta a Internet.
 

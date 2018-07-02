@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Distribution Groups` consente agli amministratori di creare, modificare, visualizzare e rimuovere gruppi di distribuzione e di aggiungere o rimuovere i membri dei gruppi di distribuzione in un'organizzazione.
 

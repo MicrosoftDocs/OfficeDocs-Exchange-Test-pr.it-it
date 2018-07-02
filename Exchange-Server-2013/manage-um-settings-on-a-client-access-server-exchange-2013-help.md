@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-09_
+_**Ultima modifica dell'argomento:** 2013-04-09_
 
 Dopo aver installato un server Accesso client su cui è in esecuzione il servizio Router delle chiamate di messaggistica unificata di Microsoft Exchange, è possibile configurare diverse opzioni tra cui il numero di chiamate contemporanee, le porte di ascolto TCP e TLS, lo stato e la modalità di avvio.
 

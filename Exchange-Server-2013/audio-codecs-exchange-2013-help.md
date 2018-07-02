@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Nella messaggistica unificata per l'archiviazione dei messaggi vocali viene utilizzato un codec audio. Un altro codec viene utilizzato tra un gateway VoIP o IP PBX (Private Branch eXchange) e il server per cassette postali che esegue il servizio Messaggistica unificata di Microsoft Exchange oppure il server Accesso client che esegue il servizio Router delle chiamate di messaggistica unificata di Microsoft Exchange. Per creare e archiviare i messaggi vocali, la messaggistica unificata può utilizzare uno dei quattro codec audio seguenti:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-12-12_
+_**Ultima modifica dell'argomento:** 2012-12-12_
 
 È possibile abilitare o disabilitare la funzionalità Ascolta al telefono per gli utenti associati a un criterio cassetta postale di messaggistica unificata. Questa opzione è abilitata per impostazione predefinita e consente agli utenti di ascoltare i propri messaggi vocali tramite un apparecchio telefonico. Questa opzione non è disponibile per gli utenti abilitati alla messaggistica unificata che dispongono di una cassetta postale su un server MicrosoftExchange Server 2007.
 

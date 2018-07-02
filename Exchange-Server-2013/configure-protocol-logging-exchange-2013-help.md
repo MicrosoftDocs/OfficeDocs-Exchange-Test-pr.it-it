@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-03-15_
+_**Ultima modifica dell'argomento:** 2013-03-15_
 
 Con la registrazione protocollo vengono registrate le conversazioni SMTP che si verificano sui connettori di invio e ricezione come parte del recapito di un messaggio.
 

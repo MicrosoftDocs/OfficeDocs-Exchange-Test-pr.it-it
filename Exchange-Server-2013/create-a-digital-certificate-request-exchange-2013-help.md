@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 In Exchange Server 2013,è possibile gestire i certificati tramite EAC o Shell. EAC include una nuova interfaccia utente per la gestione dei certificati. Tramite questa nuova interfaccia è possibile creare un nuovo certificato, modificarne uno esistente o rimuovere un certificato.
 

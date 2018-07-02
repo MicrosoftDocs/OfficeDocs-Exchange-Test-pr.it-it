@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-03-26_
+_**Ultima modifica dell'argomento:** 2018-03-26_
 
-**Riepilogo:** in questo articolo viene illustrato come spostare cartelle pubbliche da Exchange 2007 o Exchange 2010 a Exchange 2013.
+**Riepilogo:**  in questo articolo viene illustrato come spostare cartelle pubbliche da Exchange 2007 o Exchange 2010 a Exchange 2013.
 
 In questo articolo viene descritto come eseguire la migrazione delle cartelle pubbliche da Exchange Server 2010 SP3 RU8 o Exchange 2007 SP3 RU15 a Microsoft Exchange Server 2013 CU7 o versioni successive nella stessa foresta.
 

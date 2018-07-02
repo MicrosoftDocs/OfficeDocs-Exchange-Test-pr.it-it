@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2016, Office 365_
+_**Si applica a:** Exchange Online, Exchange Server 2016, Office 365_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Utilizzare Interfaccia di amministrazione di Exchange (EAC) oppure Exchange Management Shell per creare un nuovo gruppo di distribuzione nell'organizzazione di Exchange o per abilitare alla posta un gruppo esistente in Active Directory.
 

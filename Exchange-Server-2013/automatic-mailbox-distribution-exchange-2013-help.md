@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Si applica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-08-13_
+_**Ultima modifica dell'argomento:** 2013-08-13_
 
 Quando si crea o si sposta una cassetta postale, o si abilita all'uso della posta un utente esistente, tale cassetta postale deve essere archiviata nel database delle cassette postali. In Microsoft Exchange Server 2013 è possibile lasciare la scelta del database a Exchange utilizzando la distribuzione automatica delle cassette postali.
 

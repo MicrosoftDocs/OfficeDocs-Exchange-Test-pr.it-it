@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-29_
+_**Ultima modifica dell'argomento:** 2012-11-29_
 
 Connessione di una cassetta postale eliminata in maniera reversibile a un account utente di Active Directory tramite Shell. Una cassetta postale diventa *eliminata in maniera reversibile* nel database delle cassette postali di origine quando viene spostata su un diverso database delle cassette postali. Exchange non elimina completamente la cassetta postale dal database delle cassette postali di origine quando lo spostamento viene completato. la cassetta postale nel database di origine delle cassette postali passa allo stato di eliminata temporaneamente. Ciò consente di ripristinare la cassetta postale di origine nel caso in cui si verifichino errori durante lo spostamento che provochino un danneggiamento della cassetta postale nel database di destinazione. Se ciò accade, è possibile ripristinare la cassetta postale di origine e tentare di spostarla nuovamente.
 

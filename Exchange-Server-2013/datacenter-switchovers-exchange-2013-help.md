@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013 SP1_
+_**Si applica a:** Exchange Server 2013 SP1_
 
-_**Ultima modifica dell'argomento:**2016-03-17_
+_**Ultima modifica dell'argomento:** 2016-03-17_
 
 In una configurazione con resilienza del sito, in caso di errore a livello di sito può verificarsi il ripristino automatico all'interno del gruppo di disponibilità del database, consentendo al sistema di messaggistica di rimanere in uno stato funzionale. Tale configurazione richiede almeno tre posizioni, dato che richiede la distribuzione dei membri del gruppo di disponibilità del database in due posizioni e del server di controllo del gruppo di disponibilità del database in una terza posizione.
 

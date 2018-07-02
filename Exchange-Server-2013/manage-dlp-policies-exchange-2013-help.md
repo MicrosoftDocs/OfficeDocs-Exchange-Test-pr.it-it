@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-14_
+_**Ultima modifica dell'argomento:** 2015-01-14_
 
 È possibile visualizzare, modificare o rimuovere criteri (DLP) prevenzione della perdita di dati esistenti in Microsoft Exchange, utilizzando l'interfaccia di amministrazione di Exchange (EAC) oppure Exchange Management Shell.
 

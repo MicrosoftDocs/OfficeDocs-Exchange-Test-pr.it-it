@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-02_
+_**Ultima modifica dell'argomento:** 2012-10-02_
 
 La delega del ruolo di gestione consente agli utenti di assegnare un ruolo di gestione specifico ad altri gruppi del ruolo di gestione, a criteri di assegnazione del ruolo di gestione, a utenti o a gruppi di protezione universali (USG). Per impostazione predefinita, solo i membri del gruppo del ruolo di gestione Gestione organizzazione possono delegare le assegnazioni di ruolo. Quando viene distribuita una nuova installazione di Microsoft Exchange Server 2013, solo l'account utente che ha installato Exchange 2013 è membro del gruppo di ruolo Gestione organizzazione.
 

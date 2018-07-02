@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile utilizzare Exchange Management Shell per configurare numerose impostazioni che definiscono il modo in cui vengono utilizzati gli avvisi relativi ai messaggi all'interno dell'organizzazione.
 

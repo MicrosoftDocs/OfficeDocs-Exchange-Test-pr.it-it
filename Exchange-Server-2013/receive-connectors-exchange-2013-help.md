@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 I connettori di ricezione controllano il flusso di messaggi in ingresso nell'organizzazione di Exchange. Sono configurati su computer che utilizzano Microsoft Exchange Server 2013 con il servizio Trasporto oppure nel servizio Front-end su un server Accesso client. Possono essere creati nell'interfaccia di amministrazione di Exchange o in Exchange Management Shell.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-05-04_
+_**Ultima modifica dell'argomento:** 2016-05-04_
 
 Puoi utilizzare Exchange Management Shell per eliminare la cassetta postale di individuazione predefinita, ricrearla e assegnarle autorizzazioni.
 

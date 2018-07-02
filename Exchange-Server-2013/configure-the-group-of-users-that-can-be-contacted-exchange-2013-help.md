@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-12-09_
+_**Ultima modifica dell'argomento:** 2012-12-09_
 
 È possibile specificare il gruppo di utenti che è possibile contattare quando si chiama un operatore automatico di messaggistica unificata. Per impostazione predefinita, i chiamanti possono contattare gli utenti nello stesso dial plan associato all'operatore automatico di messaggistica unificata. Tuttavia, è possibile modificare il gruppo di utenti per consentire ai chiamanti di trasferire le chiamate o inviare messaggi vocali agli utenti che si trovano nell'elenco di indirizzi dell'organizzazione o a un determinato insieme di utenti.
 

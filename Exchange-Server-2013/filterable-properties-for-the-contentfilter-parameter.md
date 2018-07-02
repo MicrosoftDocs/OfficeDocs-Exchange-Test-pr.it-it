@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-09-10_
+_**Ultima modifica dell'argomento:** 2015-09-10_
 
 In questo argomento vengono elencate le proprietà filtrabili del parametro *ContentFilter*. Il parametro *ContentFilter* viene utilizzato per esportare i messaggi in un file PST che corrisponde al filtro. Il parametro *ContentFilter* viene utilizzato nel cmdlet [New-MailboxExportRequest](https://technet.microsoft.com/it-it/library/ff607299\(v=exchg.150\)).
 

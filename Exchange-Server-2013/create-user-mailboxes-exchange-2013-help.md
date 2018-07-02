@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-04-12_
+_**Ultima modifica dell'argomento:** 2013-04-12_
 
 Le cassette postali costituiscono il tipo di destinatario più comune utilizzato dagli Information Worker in un'organizzazione di Exchange. Ciascuna cassetta postale è associata a un account utente di Active Directory. L'utente può utilizzare la cassetta postale per inviare e ricevere messaggi, nonché per archiviare messaggi, appuntamenti, attività, note e documenti. Creazione di cassette postali utente tramite EAC o Shell.
 

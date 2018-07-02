@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-03-18_
+_**Ultima modifica dell'argomento:** 2016-03-18_
 
 Un criterio di criterio DLP perdita di dati personalizzati consente di stabilire le condizioni, le regole e le azioni che consentono di soddisfare le esigenze specifiche dell'organizzazione e che potrebbero non essere incluse in uno dei modelli DLP esistenti.
 

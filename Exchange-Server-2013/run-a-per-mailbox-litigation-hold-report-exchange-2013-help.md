@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-13_
+_**Ultima modifica dell'argomento:** 2012-10-13_
 
 Se l'organizzazione è coinvolta in un'azione legale, potrebbe essere necessario intraprendere i passaggi per conservare i dati rilevanti, ad esempio i messaggi di posta elettronica, che potranno essere utilizzati come prove. In queste situazioni, è possibile utilizzare la conservazione per controversia legale per conservare tutti i messaggi di posta elettronica inviati e ricevuti da utenti specifici o nell'intera organizzazione per un periodo specificato. Per ulteriori informazioni sulla condizione di una cassetta postale in conservazione per controversia legale e sull'abilitazione e la disabilitazione di questa funzionalità, vedere la sezione "Funzionalità delle cassette postali" in [Gestire le cassette postali degli utenti](manage-user-mailboxes-exchange-2013-help.md).
 

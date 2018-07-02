@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-10-20_
+_**Ultima modifica dell'argomento:** 2017-10-20_
 
 Durante l'installazione di Exchange Server 2013, il programma di installazione viene eseguita una serie di attività di installazione di nuovi servizi in Microsoft Windows. Un servizio è un processo in background che può essere avviato durante l'avvio del server da Windows Gestione controllo servizi. I servizi sono file eseguibili stati progettati per funzionare in modo indipendente e senza l'intervento amministrativo. Un servizio può essere eseguito tramite una modalità dell'interfaccia utente grafica o una modalità di console.
 

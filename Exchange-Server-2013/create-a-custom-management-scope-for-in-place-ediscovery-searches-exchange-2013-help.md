@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-21_
+_**Ultima modifica dell'argomento:** 2015-01-21_
 
 È possibile utilizzare un ambito di gestione personalizzato per consentire a particolari persone o gruppi di utilizzare eDiscovery sul posto per eseguire ricerche in un sottoinsieme di cassette postali nell'organizzazione Exchange 2013 o Exchange Online. Ad esempio, è possibile consentire a un responsabile dell'individuazione di cercare solo nelle cassette postali di utenti di una specifica sede o reparto. A tale scopo è possibile creare un ambito di gestione personalizzato. L'ambito di gestione personalizzato utilizza un filtro destinatario per controllare le cassette postali in cui eseguire la ricerca. Gli ambiti del filtro destinatario utilizzano filtri per mirare a specifici destinatari in base al tipo o altre proprietà.
 

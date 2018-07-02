@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:** 2013-05-01_
+_**Ultima modifica dell'argomento:**  2013-05-01_
 
 Il Management Pack di Microsoft Exchange Server 2013 fornisce informazioni complete sull'integrità dei servizi per l'organizzazione di Exchange.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-09_
+_**Ultima modifica dell'argomento:** 2012-11-09_
 
 È possibile specificare il numero consentito di tentativi di accesso non riusciti consecutivi prima della disconnessione di un chiamante. Il valore di questa impostazione può essere compreso tra 1 e 20. L'impostazione di un valore troppo basso può causare alcune difficoltà agli utenti. Per la maggior parte delle organizzazioni, l'impostazione predefinita di questo valore deve essere di tre tentativi.
 

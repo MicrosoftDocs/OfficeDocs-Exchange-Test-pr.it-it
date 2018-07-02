@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'architettura in Microsoft Exchange Server 2013 è diversa dall'architettura in Exchange Server 2007 e Exchange Server 2010. In Exchange 2007 e Exchange 2010, i tipi di server erano separati in più ruoli di server: Accesso client, Cassette postali, Trasporto Hub e Messaggistica unificata. In Exchange 2013, i ruoli dei server sono combinati in due tipi di server e tutti i componenti o servizi di questi ruoli di server vengono eseguiti sullo stesso server fisico o su due server separati chiamati Accesso client e Cassette postali. Nel nuovo modello, il server Accesso client su cui è in esecuzione il servizio di routing delle chiamate di messaggistica unificata di Microsoft Exchange reindirizza il traffico SIP (Session Initialization Protocol) generato da una chiamata entrante verso un server Cassette postali. Quindi viene stabilito un canale di supporto (Realtime Transport Protocol (RTP) o Secure RTP (SRTP)) tra il gateway VoIP o PBX IP (Private Branch eXchange) al server Cassette postali che ospita la cassetta postale utente. In Exchange 2013, il server Cassette postali dispone degli stessi processi dei ruoli server di messaggistica unificata in Exchange 2007 e Exchange 2010. Il server Cassette postali esegue sia il servizio Messaggistica unificata di Microsoft Exchange che il processo di lavoro di messaggistica unificata. Il server Accesso client esegue il servizio di routing delle chiamate di messaggistica unificata di Microsoft Exchange che riceve le chiamate in ingresso e le inoltra al server Cassette postali.
 

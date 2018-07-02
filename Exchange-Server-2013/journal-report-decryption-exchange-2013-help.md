@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-16_
+_**Ultima modifica dell'argomento:** 2012-10-16_
 
 In Microsoft Exchange Server 2013, IRM (Information Rights Management) consente agli utenti di Microsoft Outlook 2010 e versione successiva e Microsoft Office Outlook Web App di proteggere i loro messaggi. È possibile creare regole di protezione di Outlook per applicare automaticamente la protezione IRM ai messaggi prima che vengano inviati da un client Outlook 2010. È inoltre possibile creare regole di protezione di trasporto per applicare la protezione IRM ai messaggi in transito che soddisfano le condizioni della regola.
 

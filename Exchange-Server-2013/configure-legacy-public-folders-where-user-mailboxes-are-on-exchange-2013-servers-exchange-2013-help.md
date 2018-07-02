@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-03-27_
+_**Ultima modifica dell'argomento:** 2017-03-27_
 
 Come consentire agli utenti di Exchange 2013 oppure Exchange 2016 di accesso Exchange 2010 o cartelle pubbliche precedenti (noto anche come delle cartelle pubbliche legacy).
 

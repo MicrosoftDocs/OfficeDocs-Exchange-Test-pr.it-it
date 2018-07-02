@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 In Microsoft Exchange Server 2013, i cinque ruoli del server presenti in Exchange 2010 sono stati sostituiti da due tipi principali di server: server Cassette postali e server Accesso client. Il server Accesso client è un thin server senza stato che funge da elemento proxy per le connessioni client al server Cassette postali. Il server Cassette postali gestisce l'elaborazione di tutte le connessioni client al database delle cassette postali attivo.
 

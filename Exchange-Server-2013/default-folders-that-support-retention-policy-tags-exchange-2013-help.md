@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-04-20_
+_**Ultima modifica dell'argomento:** 2017-04-20_
 
 È possibile utilizzare [Tag di conservazione e criteri di conservazione](retention-tags-and-retention-policies-exchange-2013-help.md) per la gestione del ciclo di vita della posta elettronica. I criteri di conservazione includono tag di conservazione, vale a dire impostazioni da usare per specificare in quale momento un messaggio deve essere spostato automaticamente nell'archivio oppure quando deve essere eliminato.
 

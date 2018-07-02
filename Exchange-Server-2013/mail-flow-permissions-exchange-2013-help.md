@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Le autorizzazioni necessarie per eseguire le attività correlate al flusso di posta dipendono dalla procedura eseguita o dal cmdlet che si intende eseguire. Per ulteriori informazioni sulle funzionalità di trasporto, vedere [Flusso di posta](mail-flow-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 La funzionalità Regole ricezione chiamata è stata inizialmente introdotta in Exchange 2010. Utilizzando questa funzionalità, per gli utenti abilitati all'utilizzo della casella vocale è possibile controllare in che modo dovrebbero essere gestite le chiamate in arrivo. Le regole di ricezione chiamata vengono applicate alle chiamate in arrivo in modo simile a quello in cui le Regole posta in arrivo vengono applicate ai messaggi di posta in arrivo.
 

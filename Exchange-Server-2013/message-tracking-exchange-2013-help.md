@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In Microsoft Exchange Server 2013, il registro di verifica messaggi è un record dettagliato di tutta l'attività relativa ai messaggi trasferiti al/dal servizio di trasporto sui server Cassette postali, alle/dalle cassette postali sui server Cassette postali e ai/dai server Trasporto Edge. I registri di verifica messaggi possono essere utilizzati per le indagini sui messaggi, l'analisi del flusso di posta, le segnalazioni e la risoluzione dei problemi.
 
@@ -103,15 +103,15 @@ Le informazioni vengono scritte su ciascun file di registro fino a quando le dim
 
 I file di registro di verifica messaggi sono file di testo che contengono dati in formato CSV (Comma Separated Value). In ciascun file di registro di verifica messaggi è presente un'intestazione in cui sono contenute le seguenti informazioni:
 
-  - **\#Software:** il nome del software con cui è stato creato il file di registro di verifica messaggi. Generalmente, il valore è Microsoft Exchange Server.
+  - **\#Software:**  il nome del software con cui è stato creato il file di registro di verifica messaggi. Generalmente, il valore è Microsoft Exchange Server.
 
-  - **\#Version:** il numero della versione del software con cui è stato creato il file di registro di verifica messaggi. Il valore corrente è 15.0.0.0.
+  - **\#Version:**  il numero della versione del software con cui è stato creato il file di registro di verifica messaggi. Il valore corrente è 15.0.0.0.
 
-  - **\#Log-Type:**   il valore del tipo di registro, in questo caso Message Tracking Log.
+  - **\#Log-Type:**    il valore del tipo di registro, in questo caso Message Tracking Log.
 
-  - **\#Date:**   Data/ora UTC in cui il file di registro è stato creato. La data/ora UTC viene rappresentata nel formato data/ora ISO 8601: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, dove *yyyy* = anno, *mm* = mese, *dd* = giorno, T indica l'inizio della componente oraria, *hh* = ore, *mm* = minuti, *ss* = secondi, *fff* = frazioni di secondo e Z indica Zulu, un altro modo per denominare UTC.
+  - **\#Date:**    Data/ora UTC in cui il file di registro è stato creato. La data/ora UTC viene rappresentata nel formato data/ora ISO 8601: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, dove *yyyy* = anno, *mm* = mese, *dd* = giorno, T indica l'inizio della componente oraria, *hh* = ore, *mm* = minuti, *ss* = secondi, *fff* = frazioni di secondo e Z indica Zulu, un altro modo per denominare UTC.
 
-  - **\#Fields:**   nomi dei campi delimitati da virgole utilizzati nei file di registro di verifica messaggi.
+  - **\#Fields:**    nomi dei campi delimitati da virgole utilizzati nei file di registro di verifica messaggi.
 
 Inizio pagina
 

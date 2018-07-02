@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-16_
+_**Ultima modifica dell'argomento:** 2013-04-16_
 
 Quando gli utenti di messaggistica unificata si connettono al sistema di caselle vocali dal telefono, utilizzano Outlook Voice Access per accedere al sistema dei menu. Prima che gli utenti possano accedere al sistema di caselle vocali, viene richiesto loro di immettere il PIN. Analogamente all'amministratore, l'utente può configurare le impostazioni e i requisiti relativi al PIN nonché eseguire le attività di gestione del PIN. Dopo che un utente è stato abilitato per la posta vocale e che è stato generato un PIN, il PIN dell'utente viene crittografato e archiviato nella cassetta postale Una dell'utente.
 

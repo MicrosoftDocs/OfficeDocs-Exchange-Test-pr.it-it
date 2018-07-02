@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-14_
+_**Ultima modifica dell'argomento:** 2013-02-14_
 
 In questo argomento viene descritto come recuperare le statistiche su una cartella pubblica, ad esempio il nome visualizzato, la data di creazione, l'ora dell'ultima modifica, l'ultimo accesso da parte dell'utente e la dimensione dell'elemento. È possibile utilizzare queste informazioni per decidere se eliminare o mantenere le cartelle pubbliche.
 

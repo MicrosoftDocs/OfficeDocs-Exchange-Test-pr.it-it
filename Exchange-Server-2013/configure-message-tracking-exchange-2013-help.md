@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-18_
+_**Ultima modifica dell'argomento:** 2013-02-18_
 
 La verifica dei messaggi registra l'attività di trasporto SMTP di tutti i messaggi che vengono trasferiti da e verso il servizio di trasporto o le cassette postali su un server Cassette postali di Exchange Server 2013 Microsoft. I registri di verifica dei messaggi possono essere utilizzati per le indagini sui messaggi, l'analisi del flusso di posta, le segnalazioni e la risoluzione dei problemi.
 

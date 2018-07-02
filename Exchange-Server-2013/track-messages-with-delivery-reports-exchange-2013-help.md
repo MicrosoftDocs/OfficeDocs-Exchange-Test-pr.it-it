@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-13_
+_**Ultima modifica dell'argomento:** 2012-10-13_
 
 I rapporti di recapito sono uno strumento di verifica dei messaggi di Interfaccia di amministrazione di Exchange (EAC) che è possibile utilizzare per conoscere lo stato di recapito dei messaggi di posta elettronica inviati o ricevuti da utenti presenti nella rubrica dell'organizzazione, con un determinato oggetto. È possibile monitorare le informazioni sul recapito dei messaggi inviati o ricevuti da una specifica cassetta postale dell'organizzazione. In un rapporto di recapito non viene restituito il contenuto del corpo del messaggio, ma la riga dell'oggetto viene visualizzata nei risultati. È possibile tener traccia dei messaggi per un massimo di 14 giorni dopo l'invio o la ricezione.
 
@@ -47,7 +47,7 @@ Use the EAC to review a delivery report
 
 2.  Immettere le informazioni seguenti:
     
-      - **\* Cassetta postale di ricerca:** fare clic su **Sfoglia** per selezionare la cassetta postale dalla rubrica e fare clic su **OK**. È obbligatorio scegliere la cassetta postale per la ricerca.
+      - **\* Cassetta postale di ricerca:**  fare clic su **Sfoglia** per selezionare la cassetta postale dalla rubrica e fare clic su **OK**. È obbligatorio scegliere la cassetta postale per la ricerca.
     
       - Selezionare una delle opzioni seguenti:
         

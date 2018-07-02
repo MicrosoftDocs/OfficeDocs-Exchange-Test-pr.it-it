@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-27_
+_**Ultima modifica dell'argomento:** 2012-11-27_
 
 È possibile utilizzare Shell per configurare le impostazioni di accesso di calendario per gli utenti che connettono le proprie cassette postali tramite connessioni POP3. Le impostazioni specificate determinano la modalità di accesso degli utenti di POP3 al calendario e di scambio delle informazioni di calendario (ad esempio, inviare o rispondere a una richiesta di riunione) con altri utenti.
 

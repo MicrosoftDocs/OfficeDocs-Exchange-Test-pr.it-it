@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-13_
+_**Ultima modifica dell'argomento:** 2013-02-13_
 
 È possibile impostare un ID partner di Anteprima casella vocale in un criterio cassetta postale di messaggistica unificata. Una volta effettuata l'operazione, l'impostazione sarà applicata a tutti gli utenti abilitati alla messaggistica unificata collegati al criterio cassetta postale.
 

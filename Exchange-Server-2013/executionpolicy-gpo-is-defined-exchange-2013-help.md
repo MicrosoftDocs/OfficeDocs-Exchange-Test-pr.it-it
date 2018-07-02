@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_**Ultima modifica dell'argomento:** 2016-12-15_
 
 Impossibile proseguire con la configurazione di Microsoft Exchange Server 2013 perché è stato rilevato che l'oggetto criteri di gruppo (GPO) **ExecutionPolicy** definisce uno o entrambi i seguenti criteri:
 

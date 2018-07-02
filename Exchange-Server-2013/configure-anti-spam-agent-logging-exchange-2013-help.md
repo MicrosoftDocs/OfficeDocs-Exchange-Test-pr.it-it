@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 La registrazione agente consente di registrare le azioni eseguite da specifici agenti di protezione dalla posta indesiderata di Exchange. Le informazioni inserite nel registro dipendono dall'agente, dall'evento SMTP e dall'azione eseguita sul messaggio.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 Il filtro degli allegati è fornito dall'agente filtro allegati disponibile solo nei server Trasporto Edge. Il filtro degli allegati consente di impedire ai file allegati ai messaggi di posta elettronica di entrare nell'organizzazione. È possibile configurare più voci del filtro degli allegati per filtrare gli allegati per tipo di contenuto o per nome file.
 

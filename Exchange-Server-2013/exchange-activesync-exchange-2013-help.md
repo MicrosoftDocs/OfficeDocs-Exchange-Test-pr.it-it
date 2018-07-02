@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Informazioni sul protocollo client Exchange ActiveSync per Exchange Server 2013. Verranno fornite informazioni sulle funzionalità di Exchange ActiveSync, tra cui le funzionalità di sicurezza, gli elementi che è possibile gestire, come renderlo sicuro e come evitare problemi durante la sincronizzazione con Windows Phone 7.
 

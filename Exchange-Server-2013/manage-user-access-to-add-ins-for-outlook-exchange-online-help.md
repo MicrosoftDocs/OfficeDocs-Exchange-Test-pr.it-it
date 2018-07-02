@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2018-04-17_
+_**Ultima modifica dell'argomento:** 2018-04-17_
 
 È possibile utilizzare l'interfaccia di amministrazione di Exchange (EAC) o Exchange PowerShell per gestire l'accesso degli utenti ai componenti aggiuntivi per Outlook.
 

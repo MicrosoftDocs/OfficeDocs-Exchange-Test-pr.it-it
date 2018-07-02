@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Una proprietà multivalore è una proprietà che può contenere più valori. Ad esempio, la proprietà **BlockedRecipients** dell'oggetto **RecipientFilterConfig** può accettare più indirizzi di destinatari come nei seguenti esempi:
 

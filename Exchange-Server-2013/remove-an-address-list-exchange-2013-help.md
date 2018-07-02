@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-14_
+_**Ultima modifica dell'argomento:** 2012-10-14_
 
 In questo argomento è spiegato come rimuovere un elenco indirizzi. Non è possibile rimuovere l'elenco indirizzi globale predefinito.
 

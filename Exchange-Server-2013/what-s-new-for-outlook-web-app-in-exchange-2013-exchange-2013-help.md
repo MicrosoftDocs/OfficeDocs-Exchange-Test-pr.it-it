@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-12-20_
+_**Ultima modifica dell'argomento:** 2017-12-20_
 
 Per Microsoft Exchange Server 2013, sono state aggiunte diverse nuove funzionalità a Microsoft Outlook Web App e ne è stata aggiornata la struttura.
 

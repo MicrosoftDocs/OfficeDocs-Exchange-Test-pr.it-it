@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-22_
+_**Ultima modifica dell'argomento:** 2015-01-22_
 
 La cartella elementi ripristinabili contiene gli elementi eliminati da Microsoft Outlook e Microsoft OfficeOutlook Web App utenti o dall'Assistente delle cassette postali. La durata di permanenza degli elementi eliminati in questa cartella è basato sulle impostazioni di mantenimento elementi eliminati configurate per il database delle cassette postali o per la cassetta postale. Per impostazione predefinita, un database delle cassette postali è configurato per conservare gli elementi eliminati 14 giorni e la quota di avviso degli elementi recuperabili e degli elementi recuperabili quote sono impostate su 20 gigabyte (GB) e 30 GB rispettivamente. Tuttavia, se conservazione In locale o conservazione per controversia legale è abilitata per la cassetta postale, gli elementi recuperabili può vengono accumulati cartella Posta eliminata oltre il periodo di conservazione specificato e può inoltre mantenere versioni diverse di elementi della cassetta postale modificata.
 

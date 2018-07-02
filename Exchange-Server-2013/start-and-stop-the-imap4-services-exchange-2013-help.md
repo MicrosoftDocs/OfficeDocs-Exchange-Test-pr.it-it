@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-05_
+_**Ultima modifica dell'argomento:** 2012-10-05_
 
 Per impostazione predefinita, i due servizi IMAP4, il servizio IMAP4 di Microsoft Exchange IMAP4 e il servizio Back-end IMAP4 di Microsoft Exchange, non vengono avviati sui computer su cui è installato MicrosoftExchange Server 2013. È necessario avviare questi due servizi per consentire ai client di posta elettronica di connettersi a Exchange utilizzando IMAP4. Quando questi servizi sono in esecuzione, Exchange 2013 accetta le comunicazioni client IMAP4 non protette sulla porta 143 e sulla porta 993 utilizzando SSL (Secure Sockets Layer).
 

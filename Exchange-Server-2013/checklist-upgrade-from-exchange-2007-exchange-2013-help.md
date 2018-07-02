@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Utilizzare questo elenco di controllo per un aggiornamento da Microsoft Exchange Server 2007 a Exchange Server 2013. Prima di iniziare a lavorare con questo elenco di controllo, verificare di disporre delle nozioni di base illustrate in:
 

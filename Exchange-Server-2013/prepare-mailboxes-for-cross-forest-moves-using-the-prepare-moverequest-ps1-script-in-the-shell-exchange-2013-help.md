@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-11-22_
+_**Ultima modifica dell'argomento:** 2017-11-22_
 
-**Riepilogo:** informazioni su come gestire spostamenti delle cassette postali tra foreste e migrazioni in Exchange 2013 utilizzando lo script Prepare MoveRequest.ps1 in Exchange Management Shell.
+**Riepilogo:**  informazioni su come gestire spostamenti delle cassette postali tra foreste e migrazioni in Exchange 2013 utilizzando lo script Prepare MoveRequest.ps1 in Exchange Management Shell.
 
 Microsoft Exchange 2013 supporta spostamenti e migrazioni utilizzando i cmdlet **New-MoveRequest** e **New-MigrationBatch** . È inoltre possibile spostare la cassetta postale tramite interfaccia di amministrazione di Exchange (EAC). È possibile spostare un Exchange 2010 o mailbox Exchange 2013 da un insieme di strutture Exchange origine a una foresta di destinazione Exchange 2013.
 

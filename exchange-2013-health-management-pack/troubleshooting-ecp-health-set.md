@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Project Server 2013_
+_**Si applica a:** Exchange Server 2013, Project Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'impostazione di integrità del Pannello di controllo di Exchange (ECP, Exchange Control Panel) consente di monitorare l'integrità globale dell'interfaccia di amministrazione di Exchange (EAC) e le impostazioni utente del servizio Outlook Web App (OWA). L'impostazione di integrità ECP è strettamente correlata all'impostazione di integrità riportata di seguito:
 

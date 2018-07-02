@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-07-25_
+_**Ultima modifica dell'argomento:** 2017-07-25_
 
 Dopo aver installato il server Accesso client di Exchange 2013, è possibile eseguire numerose attività di configurazione. Sebbene il server Accesso client di Exchange 2013 non gestisca l'elaborazione dei protocolli client, è necessario applicare a questo server numerose impostazioni, incluse quelle per directory virtuali e certificati.
 

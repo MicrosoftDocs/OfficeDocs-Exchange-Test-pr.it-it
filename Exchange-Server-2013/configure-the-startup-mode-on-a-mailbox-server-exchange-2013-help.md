@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-15_
+_**Ultima modifica dell'argomento:** 2013-02-15_
 
 È possibile specificare la modalità di avvio per il il servizio Messaggistica unificata di Microsoft Exchange su un server Cassette postali. Per impostazione predefinita, il server Cassette postali si avvierà in modalità TCP, ma se si sta utilizzando Transport Layer Security (TLS) per crittografare il traffico VoIP, è necessario configurare il server Cassette postali per la modalità TLS o Doppio. È consigliabile configurare i server Cassette postali per l'utilizzo della modalità Doppio all'avvio. Infatti, tutti i server Accesso client e Cassette postali possono rispondere alle chiamate in ingresso per tutti i dial plan di messaggistica unificata e questi dial plan possono utilizzare diverse impostazioni di sicurezza (Non sicuro, SIP con protezione o Protetto). Se si modifica la modalità di avvio, è necessario riavviare il servizio messaggistica unificata di Microsoft Exchange affinchè le modifiche abbiano effetto.
 

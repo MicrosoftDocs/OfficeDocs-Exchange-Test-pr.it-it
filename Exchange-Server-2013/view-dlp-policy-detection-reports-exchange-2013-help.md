@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-16_
+_**Ultima modifica dell'argomento:** 2016-12-16_
 
 In generale, gestione rilevamento criteri criterio DLP perdita di dati definisce le attività che esegue un'organizzazione per poter identificare, analizzare e risolvere violazioni dei criteri DLP. Per gestire i problemi, è necessario accedere a informazioni che identifica quali è stata rilevata per i criteri DLP. Queste informazioni di rilevamento sono integrate con dati Exchange Server 2013 Microsoft esistenti e registro viene formattato in modo che è possibile utilizzare un sistema esistente avanzato dei dati per la gestione degli interventi di flusso di posta elettronica.
 

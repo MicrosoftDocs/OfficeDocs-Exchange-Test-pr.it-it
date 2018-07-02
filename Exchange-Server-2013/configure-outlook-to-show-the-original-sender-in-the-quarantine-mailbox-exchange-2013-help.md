@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Quarantena della posta indesiderata è una funzionalità dell'agente Filtro contenuti che riduce il rischio di perdita di messaggi legittimi. Tale funzionalità fornisce una posizione di archiviazione temporanea per i messaggi identificati come posta indesiderata che non devono essere consegnati alla cassetta postale di un utente all'interno dell'organizzazione.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Dal momento che le cassette postali possono contenere informazioni riservate sia a livello aziendale che di singolo utente, è fondamentale tenere traccia di chi accede alle cassette postali nell'organizzazione e che attività esegue su di esse. È soprattutto importante controllare gli accessi alle cassette postali eseguiti da utenti che non ne sono i legittimi proprietari. Questi utenti sono definiti *delegati*.
 

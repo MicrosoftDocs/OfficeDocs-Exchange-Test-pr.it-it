@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-05-26_
+_**Ultima modifica dell'argomento:** 2016-05-26_
 
 Di seguito sono vantaggi derivanti dall'utilizzo della protezione anti-spam Exchange nel cloud (Microsoft Exchange Online o Microsoft Exchange Online Protection ) oppure Microsoft Exchange Server 2013, che include la maggior parte delle stesse caratteristiche protezione da posta indesiderate incorporati di Microsoft Exchange Server 2010:
 

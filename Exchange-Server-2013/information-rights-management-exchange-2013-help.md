@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Ogni giorno, gli informatici utilizzano la posta elettronica per lo scambio di informazioni sensibili come le relazioni finanziarie e dei dati, contratti legali, informazioni sui prodotti riservate, relazioni e proiezioni di vendita, analisi della concorrenza, la ricerca e le informazioni sui brevetti e informazioni su clienti e dipendenti. Perché le persone possono accedere alla propria posta elettronica da qualsiasi luogo, le cassette postali si sono trasformate in depositi contenenti grandi quantità di informazioni potenzialmente sensibili. Di conseguenza, la perdita di informazioni può rappresentare una grave minaccia per le organizzazioni. Per impedire la perdita di informazioni, Microsoft Exchange Server 2013 comprende le funzionalità IRM (Information Rights Management), che forniscono una costante protezione online e offline dei messaggi e degli allegati di posta elettronica.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-17_
+_**Ultima modifica dell'argomento:** 2014-02-17_
 
 È probabile che in alcune situazioni si desideri configurare un dominio accettato per un un'unità aziendale indipendente con server di posta elettronica esterni all'organizzazione di Exchange. In scenari simili è possibile configurare il dominio accettato come dominio di inoltro esterno.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-18_
+_**Ultima modifica dell'argomento:** 2014-06-18_
 
 È possibile utilizzare Windows Server Backup per eseguire il backup e il ripristino dei database di Exchange. Exchange include un plug-in per Windows Server Backup che consente di creare backup basati sul servizio Copia Shadow del volume dei dati di Exchange. Per ulteriori informazioni, vedere [Utilizzo di Windows Server Backup per eseguire il backup e il recupero dei dati di Exchange](using-windows-server-backup-to-back-up-and-restore-exchange-data-exchange-2013-help.md).
 

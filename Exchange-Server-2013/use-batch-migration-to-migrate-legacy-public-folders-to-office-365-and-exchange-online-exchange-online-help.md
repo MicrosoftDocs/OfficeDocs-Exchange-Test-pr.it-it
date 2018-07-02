@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-03-26_
+_**Ultima modifica dell'argomento:** 2018-03-26_
 
-**Riepilogo:** utilizzare queste procedure per spostare le cartelle pubbliche di Exchange 2007 ed Exchange 2010 in Office 365.
+**Riepilogo:**  utilizzare queste procedure per spostare le cartelle pubbliche di Exchange 2007 ed Exchange 2010 in Office 365.
 
 In questo argomento viene illustrato come effettuare la migrazione completa o la migrazione a fasi delle cartelle pubbliche dall'aggiornamento cumulativo 8 per Exchange Server 2010 Service Pack 3 (SP3) o dall'aggiornamento cumulativo 15 per Exchange 2007 SP3 a Office 365 o Exchange Online.
 

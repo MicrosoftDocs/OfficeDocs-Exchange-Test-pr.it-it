@@ -13,7 +13,7 @@ ms.translationtype: MT
 
  
 
-_**Ultima modifica dell'argomento:**2017-02-08_
+_**Ultima modifica dell'argomento:** 2017-02-08_
 
 Il ruolo del personale ReadWriteMailbox App consente agli utenti singoli aggiungere componenti aggiuntivi che richiedono l'autorizzazione ReadWriteMailbox nel manifesto del.
 

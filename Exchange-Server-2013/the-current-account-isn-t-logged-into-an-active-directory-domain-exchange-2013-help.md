@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2014-12-02_
+_**Ultima modifica dell'argomento:** 2014-12-02_
 
 Microsoft Exchange Server 2013 non può continuare l'installazione perché è stato rilevato che l'account corrente non è connesso a un dominio di Active Directory. È necessario accedere utilizzando un account di Active Directory con le autorizzazioni necessarie per installare Exchange Server 2013.
 

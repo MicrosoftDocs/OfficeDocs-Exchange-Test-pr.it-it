@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-03-13_
+_**Ultima modifica dell'argomento:** 2017-03-13_
 
-**Riepilogo:** Viene fornita una panoramica dei componenti aggiuntivi per Outlook, compatibili con Outlook su computer Windows e MacIntosh, su dispositivi mobili, in Outlook Web App e in Outlook sul web.
+**Riepilogo:**  Viene fornita una panoramica dei componenti aggiuntivi per Outlook, compatibili con Outlook su computer Windows e MacIntosh, su dispositivi mobili, in Outlook Web App e in Outlook sul web.
 
 I componenti aggiuntivi per Outlook sono applicazioni che estendono l'utilità dei client di Outlook aggiungendo informazioni o strumenti che gli utenti possono utilizzare senza dover uscire da Outlook. I componenti aggiuntivi vengono integrati dagli sviluppatori di terze parti e possono essere installati da un file, da un URL o da Office Store. Per impostazione predefinita, tutti gli utenti possono installare componenti aggiuntivi. Gli amministratori di Exchange possono utilizzare i ruoli per controllare l'installazione di componenti aggiuntivi eseguita dagli utenti.
 

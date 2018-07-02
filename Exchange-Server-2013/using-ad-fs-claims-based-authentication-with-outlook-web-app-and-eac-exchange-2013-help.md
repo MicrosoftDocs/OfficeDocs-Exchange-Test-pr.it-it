@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013 SP1_
+_**Si applica a:** Exchange Server 2013 SP1_
 
-_**Ultima modifica dell'argomento:**2017-04-14_
+_**Ultima modifica dell'argomento:** 2017-04-14_
 
 **Riepilogo**:
 
@@ -372,17 +372,17 @@ In alternativa, è possibile creare trust inoltro party e regole di attestazione
 
 3.  Eseguire i due seguenti cmdlet per creare i trust relying party. In questo esempio, vengono anche configurate le regole attestazione.
 
-**IssuanceAuthorizationRules.txt contiene:**
+**IssuanceAuthorizationRules.txt contiene:** 
 
     @RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");
 
-**IssuanceTransformRules.txt contiene:**
+**IssuanceTransformRules.txt contiene:** 
 
     @RuleName = "ActiveDirectoryUserSID" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"), query = ";objectSID;{0}", param = c.Value); 
     
     @RuleName = "ActiveDirectoryUPN" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"), query = ";userPrincipalName;{0}", param = c.Value);
 
-**Eseguire i comandi seguenti:**
+**Eseguire i comandi seguenti:** 
 
     [string]$IssuanceAuthorizationRules=Get-Content -Path C:\IssuanceAuthorizationRules.txt
     

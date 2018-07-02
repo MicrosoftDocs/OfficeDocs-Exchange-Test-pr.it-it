@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Microsoft Exchange Server 2013 sfrutta il concetto di mobilità del database, corrispondente ai failover a livello di database gestiti da Exchange. La mobilità del database consente di disconnettere i database dai server, di aggiungere il supporto per un massimo di 16 copie di un singolo database e di aggiungere copie di database a un database.
 

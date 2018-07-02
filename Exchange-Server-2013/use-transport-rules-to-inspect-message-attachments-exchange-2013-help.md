@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-27_
+_**Ultima modifica dell'argomento:** 2015-03-27_
 
 È possibile esaminare gli allegati di posta elettronica nell'organizzazione configurando le regole di trasporto. Exchange offre regole di trasporto che consentono la possibilità di esaminare allegati di posta elettronica come parte della protezione dei messaggi e requisiti di conformità. Quando si esaminano gli allegati, è possibile agire sui messaggi esaminati in base al contenuto o alle caratteristiche di tali allegati. Ecco alcune attività relative agli allegati che si possono eseguire tramite l'utilizzo delle regole di trasporto:
 

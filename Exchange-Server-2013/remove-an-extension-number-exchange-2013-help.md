@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-07-21_
+_**Ultima modifica dell'argomento:** 2016-07-21_
 
 Quando si abilita un utente alla messaggistica unificata e lo si collega al dial plan di un numero di interno, viene creato per l'utente un indirizzo proxy di messaggistica unificata di Exchange contenente il numero di interno dell'utente. È necessario definire almeno un numero di interno per la messaggistica unificata in modo tale che la posta vocale possa essere inviata alla cassetta postale dell'utente. Il numero di interno viene inoltre utilizzato quando l'utente chiama un numero di Outlook Voice Access.
 

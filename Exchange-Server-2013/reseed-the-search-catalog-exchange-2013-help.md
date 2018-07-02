@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Se il catalogo di indicizzazione del contenuto per una copia del database delle cassette postali risulta danneggiato, potrebbe essere necessario eseguire il reseeding del catalogo. Gli indici dei contenuti danneggiati vengono indicati nel registro eventi dell'applicazione dal seguente evento.
 

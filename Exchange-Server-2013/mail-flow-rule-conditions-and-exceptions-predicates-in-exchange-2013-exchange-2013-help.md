@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-12-20_
+_**Ultima modifica dell'argomento:** 2017-12-20_
 
 Le condizioni e le eccezioni nelle regole del flusso di posta (note anche come regole di trasporto) identificano i messaggi a cui una regola viene applicata o non viene applicata. Se la regola aggiunge una dichiarazione di non responsabilità ai messaggi, ad esempio, è possibile configurarla perché venga applicata solo ai messaggi contenenti parole specifiche, ai messaggi inviati da utenti specifici o a tutti i messaggi tranne quelli inviati dai membri di un gruppo specifico. Collettivamente, le condizioni e le eccezioni nelle regole del flusso di posta sono anche note come *predicati* poiché per ogni condizione esiste un'eccezione corrispondente che utilizza le stesse esatte impostazioni e sintassi. L'unica differenza è che le condizioni specificano i messaggi da includere mentre le eccezioni specificano i messaggi da escludere.
 
@@ -491,7 +491,7 @@ Se si aggiunge una condizione di destinatario di questa sezione, lo stesso messa
 
 Al contrario, un'eccezione di destinatario di questa sezione *impedisce* l'applicazione dell'azione della regola a *tutti* i destinatari del messaggio, non solo ai destinatari rilevati.
 
-**Nota:** questa condizione non considera i messaggi che vengono inviati all'indirizzo proxy del destinatario. Esegue la corrispondenza solo dei messaggi che vengono inviati all'indirizzo e-mail principale del destinatario.
+**Nota:**  questa condizione non considera i messaggi che vengono inviati all'indirizzo proxy del destinatario. Esegue la corrispondenza solo dei messaggi che vengono inviati all'indirizzo e-mail principale del destinatario.
 
 
 <table>
@@ -540,7 +540,7 @@ Torna all'inizio
 
 Le condizioni in questa sezione tale aspetto per i valori nei campi **To** e **Cc** si comportano come le condizioni nella sezione gli eventuali destinatari (*tutti i* destinatari del messaggio sono interessati dalla regola, non solo la rilevato destinatari).
 
-**Nota:** questa condizione non considera i messaggi che vengono inviati all'indirizzo proxy del destinatario. Esegue la corrispondenza solo dei messaggi che vengono inviati all'indirizzo e-mail principale del destinatario.
+**Nota:**  questa condizione non considera i messaggi che vengono inviati all'indirizzo proxy del destinatario. Esegue la corrispondenza solo dei messaggi che vengono inviati all'indirizzo e-mail principale del destinatario.
 
 
 <table>

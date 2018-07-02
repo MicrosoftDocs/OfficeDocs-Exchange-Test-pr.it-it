@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-17_
+_**Ultima modifica dell'argomento:** 2012-10-17_
 
 Il ruolo di gestione `MyAddressInformation` consente ai singoli utenti di visualizzare e modificare indirizzo civico, numero di telefono dell'ufficio e numero di fax. Si tratta di un ruolo personalizzato creato dal ruolo principale [Ruolo MyContactInformation](mycontactinformation-role-exchange-2013-help.md).
 

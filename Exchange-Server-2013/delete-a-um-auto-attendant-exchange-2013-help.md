@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-30_
+_**Ultima modifica dell'argomento:** 2012-11-30_
 
 Una volta eliminato un operatore automatico di messaggistica unificata, le chiamate in arrivo a cui rispondeva l'operatore automatico di messaggistica unificata ricevono risposta da un operatore. Un operatore automatico di messaggistica unificata non può essere eliminato se è associato a un dial plan di messaggistica unificata come operatore automatico di messaggistica unificata predefinito.
 

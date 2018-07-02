@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `MyDiagnostics` consente ai singoli utenti di eseguire la diagnostica di base sulle cassette postali, ad esempio recuperando le informazioni di diagnostica del calendario.
 

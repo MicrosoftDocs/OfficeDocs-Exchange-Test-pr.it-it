@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 La registrazione protocollo registra le conversazioni SMTP tra i server di messaggistica come parte del recapito di un messaggio. Queste conversazioni SMTP avvengono sui connettori di invio e sui connettori di ricezione esistenti sul servizio di trasporto Front End sui server Accesso client e sul servizio Trasporto sui server Cassette postali. È possibile utilizzare la registrazione del protocollo per individuare eventuali problemi relativi al flusso di posta.
 
@@ -83,7 +83,7 @@ Le informazioni vengono scritte nel file di registro finché le dimensioni del f
 
 I file di registro protocollo sono file di testo contenenti dati nel formato file con valori delimitati da virgole (CSV). In ciascun file di registro del protocollo è presente un'intestazione in cui sono contenute le seguenti informazioni:
 
-  - **\#Software:**   Nome del software con cui è stato creato il file di registro protocollo. Generalmente, il valore è Microsoft Exchange Server.
+  - **\#Software:**    Nome del software con cui è stato creato il file di registro protocollo. Generalmente, il valore è Microsoft Exchange Server.
 
   - **\#Version**   Numero della versione del software con cui è stato creato il file di registro protocollo. Il valore corrente è 15.0.0.0.
 

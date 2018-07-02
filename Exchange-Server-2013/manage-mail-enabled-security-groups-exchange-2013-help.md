@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-10-04_
+_**Ultima modifica dell'argomento:** 2017-10-04_
 
 I gruppi di protezione abilitati all'utilizzo della posta elettronica possono essere utilizzati per distribuire i messaggi e per garantire le autorizzazioni di accesso alle risorse in Active Directory. Per ulteriori informazioni, vedere [Destinatari](recipients-exchange-2013-help.md).
 

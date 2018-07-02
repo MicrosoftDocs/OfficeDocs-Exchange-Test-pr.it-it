@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016, Office 365_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016, Office 365_
 
-_**Ultima modifica dell'argomento:**2017-05-19_
+_**Ultima modifica dell'argomento:** 2017-05-19_
 
-**Riepilogo:** Le topologie supportate di Exchange più recenti che consentono agli utenti di accedere alle cartelle pubbliche con Outlook 2016 per Mac.
+**Riepilogo:**  Le topologie supportate di Exchange più recenti che consentono agli utenti di accedere alle cartelle pubbliche con Outlook 2016 per Mac.
 
 Con le versioni dell'[aggiornamento di aprile 2016](https://go.microsoft.com/fwlink/?linkid=829202) per i client di Outlook 2016 per Mac, l'[aggiornamento cumulativo 14 (CU14)](https://go.microsoft.com/fwlink/p/?linkid=849432) per Exchange 2013 e l'[aggiornamento cumulativo 2 (CU 2)](https://go.microsoft.com/fwlink/p/?linkid=849793) per Exchange 2016, gli utenti di Outlook 2016 per Mac possono ora accedere alle cartelle pubbliche in più tipi di topologie rispetto a prima.
 

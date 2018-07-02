@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-13_
+_**Ultima modifica dell'argomento:** 2015-04-13_
 
 I domini remoti rappresentano i domini SMTP esterni all'organizzazione Microsoft Exchange. È possibile creare voci dei domini remoti per definire le impostazioni per il trasferimento dei messaggi tra l'organizzazione di Exchange e i domini esterni specifici. Le impostazioni della voce di dominio remoto di un dominio esterno specifico sostituiscono le impostazioni del dominio remoto predefinito che normalmente vengono applicate a tutti i destinatari esterni. Le impostazioni di dominio remoto valgono per tutta l'organizzazione di Exchange.
 

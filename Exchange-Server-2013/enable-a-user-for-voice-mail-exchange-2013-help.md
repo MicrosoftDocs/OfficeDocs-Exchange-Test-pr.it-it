@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 Quando si abilita un utente per la messaggistica unificata, all'utente viene applicato un insieme predefinito di proprietà e l'utente potrà utilizzare le funzionalità di posta vocale incluse con la messaggistica unificata. Dopo aver abilitato l'utente alla posta vocale, è possibile aggiungere un indirizzo SIP (Session Initiation Protocol) per l'utente se è stato assegnato a un criterio cassetta postale di messaggistica unificata collegato a un dial plan URI SIP. In alternativa è possibile aggiungere un numero E.164 all'utente se gli è stato assegnato un criterio cassetta postale di messaggistica unificata collegato a un dial plan E.164. In entrambi i casi l'utente deve disporre di un numero di interno configurato.
 

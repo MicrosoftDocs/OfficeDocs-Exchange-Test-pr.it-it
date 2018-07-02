@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-25_
+_**Ultima modifica dell'argomento:** 2013-04-25_
 
 Quando viene ricevuto un messaggio vocale, gli utenti possono scegliere di ascoltarlo tramite gli altoparlanti o le cuffie del computer oppure di utilizzare la funzionalità Ascolta al telefono. Microsoft Outlook e Outlook Web App includono la funzionalità Ascolta al telefono e le relative impostazioni sono disponibili nella sezione **Ascolta al telefono** nelle opzioni **Casella vocale**. In questo argomento viene descritto in che modo un utente abilitato alla messaggistica unificata può utilizzare la funzionalità Ascolta al telefono.
 

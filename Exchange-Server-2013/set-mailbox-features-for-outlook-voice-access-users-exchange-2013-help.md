@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 Outlook Voice Access contiene due interfacce: l'interfaccia utente telefonica (TUI) e l'interfaccia utente vocale (VUI). È possibile configurare le impostazioni°dell'interfaccia telefonica di un utente abilitato alla messaggistica unificata quando l'utente effettua l'accesso a una cassetta postale utilizzando il sistema Messaggistica unificata di Exchange 2013. Quando si modificano le impostazioni dell'interfaccia telefonica di un utente abilitato alla messaggistica unificata in un criterio cassetta postale di messaggistica unificata, le modifiche vengono applicate a tutti gli utenti associati al criterio cassetta postale di messaggistica unificata. È possibile modificare le seguenti impostazioni dell'interfaccia telefonica per un criterio cassetta postale di messaggistica unificata:
 

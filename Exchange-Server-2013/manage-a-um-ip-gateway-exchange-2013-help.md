@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 Una volta creato un gateway IP di messaggistica unificata, è possibile visualizzare o configurare diverse impostazioni. Ad esempio, è possibile configurare l'indirizzo IP o un nome di dominio completo (FQDN), configurare le impostazioni delle chiamate in uscita e abilitare o disabilitare l'indicatore di messaggio in attesa.
 

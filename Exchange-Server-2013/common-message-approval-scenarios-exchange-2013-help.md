@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-09-29_
+_**Ultima modifica dell'argomento:** 2014-09-29_
 
 L'organizzazione potrebbe essere necessario approvare le determinati tipi di messaggi per soddisfare i requisiti legati o di conformità o per implementare un flusso di lavoro aziendali specifici. Di seguito sono riportati alcuni esempi di scenari comuni che è possibile impostare utilizzando Exchange:
 

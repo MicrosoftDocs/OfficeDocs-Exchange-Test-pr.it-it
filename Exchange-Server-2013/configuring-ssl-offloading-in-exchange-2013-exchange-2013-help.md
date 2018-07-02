@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-08-22_
+_**Ultima modifica dell'argomento:** 2016-08-22_
 
 Di seguito viene illustrato come configurare la ripartizione del carico di lavoro SSL per i protocolli e i servizi correlati sui server Accesso client Exchange 2013 con Service Pack 1 (SP1) installato. Se si dispone di più server Accesso client, è necessario effettuare i passaggi necessari per ogni protocollo o servizio su ogni server Accesso client con SP1 installato nell'organizzazione locale. Le configurazioni di tutti i server Accesso client dell'organizzazione devono essere identiche. Se si passa ad aggiornamenti cumulativi o Service Pack più recenti e si desidera continuare a utilizzare la ripartizione del carico di lavoro SSL, è necessario effettuare di nuovo i seguenti passaggi dopo il passaggio o dopo aver applicato gli aggiornamenti ai server Accesso client di Exchange 2013.
 

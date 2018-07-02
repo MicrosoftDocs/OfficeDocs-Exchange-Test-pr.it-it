@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Microsoft si impegna a rendere i propri prodotti e servizi di facile utilizzo per tutti. Nelle seguenti sezioni vengono fornite informazioni sui tasti di scelta rapida che rendono Microsoft Exchange e altri prodotti e servizi Microsoft più accessibili per le persone con disabilità.
 

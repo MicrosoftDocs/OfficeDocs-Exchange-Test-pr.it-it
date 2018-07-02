@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-14_
+_**Ultima modifica dell'argomento:** 2012-11-14_
 
 Quando si abilita un utente alla messaggistica unificata e lo si collega a un dial plan E.164, vengono creati due indirizzi proxy di messaggistica unificata di Exchange. Uno contiene il numero di interno dell'utente e l'altro il numero E.164 dell'utente. Il numero di interno viene utilizzato quando l'utente chiama un numero di Outlook Voice Access.
 

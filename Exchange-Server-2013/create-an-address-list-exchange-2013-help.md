@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-12_
+_**Ultima modifica dell'argomento:** 2012-10-12_
 
 Gli elenchi indirizzi sono una raccolta di oggetti destinatario e altri oggetti Active Directory. ‎Ogni elenco indirizzi può contenere uno o più tipi di oggetti (ad esempio utenti, contatti, gruppi, cartelle pubbliche, conferenze e altre risorse). Gli elenchi indirizzi di forniscono anche un meccanismo per suddividere gli oggetti abilitati alla posta elettronica in Active Directory a vantaggio di gruppi specifici di utenti.
 

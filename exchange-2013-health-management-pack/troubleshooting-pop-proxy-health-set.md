@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-11_
+_**Ultima modifica dell'argomento:** 2013-02-11_
 
 Il set di integrità POP.Proxy monitora la disponibilità dell'infrastruttura proxy POP3 di Microsoft Exchange Anywhere sul server Accesso client. Un avviso che specifica che il set di integrità POP.Protocol non è integro indica un problema che interessa i componenti POP sul server Cassette postali riportato nell'avviso.
 

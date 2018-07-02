@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-04-13_
+_**Ultima modifica dell'argomento:** 2016-04-13_
 
 Dopo aver creato un criterio cassette postali di Outlook Web App, è possibile configurare numerose opzioni per controllare le funzionalità disponibili per gli utenti in Outlook Web App. Ad esempio, è possibile abilitare o disabilitare le regole di Posta in arrivo o creare un elenco di tipi di file consentiti per gli allegati.
 

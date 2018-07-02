@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-01-28_
+_**Ultima modifica dell'argomento:** 2014-01-28_
 
 Una copia del database della cassette postali ritardata è una copia del database delle cassette postali configurata con un valore relativo all'intervallo di riproduzione maggiore di 0. L'attivazione e il recupero di una copia del database delle cassette postali ritardata è un processo semplice se si desidera che il database esegua nuovamente tutti i file di registro e renda attuale la copia del database. Se si desidera, invece, eseguire nuovamente i file di registro fino a un determinato momento, l'operazione può rivelarsi più complicata in quanto è necessario manipolare manualmente i file di registro ed eseguire Eseutil.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Per accedere alle informazioni in una cassetta postale di Microsoft Exchange Server 2013 è possibile utilizzare molti client differenti. Tra di essi figurano programmi desktop quali Microsoft Outlook, Outlook Web App e client mobili come telefoni cellulari, tablet e altri tipi di dispositivi mobili. Ogni client offre una vasta gamma di funzionalità.
 

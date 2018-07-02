@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Una *coda* è una posizione temporanea per i messaggi in attesa di passare alla fase successiva dell'elaborazione. Ogni coda rappresenta un insieme logico di messaggi elaborato da un server di trasporto in base a un ordine specifico.
 

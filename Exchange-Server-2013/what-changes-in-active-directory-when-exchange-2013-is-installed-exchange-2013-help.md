@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server, Exchange Server 2013_
+_**Si applica a:** Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-05-26_
+_**Ultima modifica dell'argomento:** 2014-05-26_
 
 Quando si installa Exchange 2013, vengono apportate modifiche ai domini e alla foresta di Active Directory. Exchange esegue tali modifiche in modo da poter archiviare le informazioni sui server e sulle cassette postali di Exchange e su altri oggetti correlati a Exchange nell'organizzazione. Le modifiche vengono effettuate quando si esegue l'Installazione guidata di Exchange 2013 o quando si eseguono i comandi *PrepareSchema*, *PrepareAD* e *PrepareDomains* (per l'utilizzo di questi comandi, vedere [Preparazione di Active Directory e dei domini](prepare-active-directory-and-domains-exchange-2013-help.md)) durante l'installazione da riga di comando di Exchange 2013. Questo argomento descrive le modifiche apportate da Exchange a Active Directory e illustra cosa fa Exchange a ogni passaggio della preparazione di Active Directory.
 

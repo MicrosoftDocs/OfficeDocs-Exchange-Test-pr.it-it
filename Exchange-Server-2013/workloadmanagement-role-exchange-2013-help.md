@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione di `WorkloadManagement` consente agli amministratori di gestire i criteri di gestione del carico di lavoro. Gli amministratori possono configurare le definizioni di integrità delle risorse e le classificazioni dei carichi di lavoro, nonché abilitare o disabilitare la gestione dei carichi di lavoro. Le modifiche devono essere eseguite solo dietro istruzioni del servizio di assistenza e supporto tecnico di Microsoft.
 

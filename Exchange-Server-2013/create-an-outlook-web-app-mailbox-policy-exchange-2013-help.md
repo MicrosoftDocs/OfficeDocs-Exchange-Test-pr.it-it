@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-05-30_
+_**Ultima modifica dell'argomento:** 2013-05-30_
 
 È possibile creare un criterio cassetta postale di Outlook Web App per applicare un gruppo comune di impostazioni di criteri. I criteri delle cassette postali Outlook Web App sono utili per applicare e standardizzare le impostazioni, quali le impostazioni degli allegati, per un gruppo specifico di utenti.
 

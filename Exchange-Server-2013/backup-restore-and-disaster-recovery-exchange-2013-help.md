@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Per questo, è importante capire in che modo i dati possono essere protetti e determinare il metodo che meglio soddisfa le esigenze dell'organizzazione. La pianificazione della protezione dei dati è un processo complesso basato su molte decisioni prese durante la fase di pianificazione della distribuzione.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-06-25_
+_**Ultima modifica dell'argomento:** 2013-06-25_
 
 Dopo avere installato i server Accesso client e Cassette postali nell'organizzazione, può essere necessario testare il funzionamento della messaggistica unificata. Di seguito vengono indicate alcune situazioni in cui è possibile utilizzare gli strumenti e i cmdlet di diagnostica inclusi in Exchange 2013 oppure lo strumento per la risoluzione dei problemi di messaggistica unificata:
 

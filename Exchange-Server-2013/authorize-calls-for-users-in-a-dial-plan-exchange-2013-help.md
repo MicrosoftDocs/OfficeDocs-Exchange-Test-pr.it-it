@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 È possibile abilitare le autorizzazioni di composizione su un dial plan di messaggistica unificata. Le autorizzazioni di composizione su un dial plan sono utilizzate per impedire a utenti non autenticati di Outlook Voice Access di effettuare chiamate a numeri di telefono nazionali o internazionali oppure *chiamate esterne*. Le chiamate esterne vengono effettuate quando Messaggistica unificata esegue una chiamata esterna per un utente dopo aver chiamato un numero di telefono di Outlook Voice Access configurato su un dial plan di messaggistica unificata. Quando si configura un'impostazione su un dial plan di messaggistica unificata, tale impostazione si applica a tutti gli utenti non autenticati che chiamano un numero di Outlook Voice Access.
 

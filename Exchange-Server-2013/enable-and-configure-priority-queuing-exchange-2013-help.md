@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-16_
+_**Ultima modifica dell'argomento:** 2014-12-16_
 
 *Accodamento priorità* è una funzionalità di Microsoft Exchange Server 2013 che consente alla priorità del messaggio configurata dal mittente in Microsoft Outlook o Outlook Web Access di influenzare l'elaborazione del messaggio dal servizio di trasporto nel server Cassette postali. Quando questa funzionalità è abilitata, i messaggi con Priorità alta vengono trasmessi alle destinazioni appropriate prima di quelli con Priorità normale. Questi ultimi vengono trasmessi alle destinazioni prima dei messaggi con Priorità bassa. Per ulteriori informazioni, vedere [Accodamento prioritario](priority-queuing-exchange-2013-help.md).
 

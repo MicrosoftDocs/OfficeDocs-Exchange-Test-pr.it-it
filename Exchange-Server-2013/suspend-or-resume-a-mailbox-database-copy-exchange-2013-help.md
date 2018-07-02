@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-02_
+_**Ultima modifica dell'argomento:** 2012-11-02_
 
 Potrebbe essere necessario sospendere o riprendere una copia del database per vari motivi, ad esempio per una manutenzione del disco contenente una copia del database o per la sospensione dell'attivazione di una singola copia del database a fini di ripristino di emergenza.
 

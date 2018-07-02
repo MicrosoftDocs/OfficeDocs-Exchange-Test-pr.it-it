@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile configurare la durata del PIN per gli utenti abilitati alla messaggistica unificata. La durata del PIN è il periodo massimo di validità per un PIN di Outlook Voice Access per i destinatari abilitati alla messaggistica unificata. Le impostazioni della durata del PIN sono configurate in un criterio cassetta postale di messaggistica unificata e si applicano a tutti gli utenti abilitati alla messaggistica unificata associati a tale criterio.
 

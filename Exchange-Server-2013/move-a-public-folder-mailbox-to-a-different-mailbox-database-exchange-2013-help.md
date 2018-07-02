@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-07-21_
+_**Ultima modifica dell'argomento:** 2015-07-21_
 
 Potrebbe essere necessario spostare una cassetta postale delle cartelle pubbliche in un diverso database delle cassette postali per bilanciare il carico o per spostare le risorse in modo che siano più coerenti alla relativa collocazione geografica. Affine allo spostamento di una casetta postale normale, si utilizzano i cmdlet **MoveRequest** per spostare una cassetta postale delle cartelle pubbliche. Per ulteriori informazioni sullo spostamento di cassette postali, vedere [Spostamenti di cassette postali di Exchange 2013](mailbox-moves-in-exchange-2013-exchange-2013-help.md).
 

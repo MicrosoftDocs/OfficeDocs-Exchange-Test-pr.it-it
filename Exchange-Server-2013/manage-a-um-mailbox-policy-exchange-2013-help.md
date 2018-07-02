@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 Dopo aver creato un criterio cassetta postale di messaggistica unificata (UM), è possibile visualizzare e configurare diverse impostazioni. Ad esempio, è possibile configurare funzionalità di messaggistica unificata, come Anteprima messaggio vocale o Ascolta al telefono e altre opzioni relative alla protezione, come Sistema di caselle vocali protette e le impostazioni dei criteri del PIN.
 
@@ -102,7 +102,7 @@ Per le attività di gestione aggiuntive relative ai criteri cassetta postale di 
             
             **Esempio 1**   Per eventuali domande o suggerimenti relativi al servizio di posta vocale, chiamare il supporto tecnico all'interno 4200.
             
-            **Esempio 2:**  Per eventuali domande o suggerimenti sul \<b\>servizio delle caselle vocali\</b\>, chiamare il supporto tecnico all'interno 4200 o visitare il sito Web all'indirizzo \<a href=”http://emp.contoso.com/itinfo/vmail”\>\</a\>.
+            **Esempio 2:**   Per eventuali domande o suggerimenti sul \<b\>servizio delle caselle vocali\</b\>, chiamare il supporto tecnico all'interno 4200 o visitare il sito Web all'indirizzo \<a href=”http://emp.contoso.com/itinfo/vmail”\>\</a\>.
         
           - **Quando il PIN di Outlook Voice Access di un utente viene reimpostato**   Il testo immesso in questa casella di testo viene incluso nel messaggio di posta elettronica inviato agli utenti abilitati alla messaggistica unificata quando il PIN di messaggistica unificata viene reimpostato.
             

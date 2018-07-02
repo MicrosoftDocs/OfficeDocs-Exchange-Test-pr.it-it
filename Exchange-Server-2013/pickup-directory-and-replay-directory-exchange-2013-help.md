@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Per impostazione predefinita, le directory di prelievo e di riesecuzione sono presenti in tutti i server Cassette postali o Trasporto Edge di Microsoft Exchange Server 2013. I file dei messaggi di posta elettronica formattati correttamente e copiati nella directory di prelievo o riesecuzione vengono inviati per il recapito. La directory di prelievo viene utilizzata dagli amministratori per la verifica del flusso di posta o dalle applicazioni che devono creare e inviare i propri messaggi. La directory di riesecuzione riceve i messaggi da server gateway esterni e può anche essere utilizzata per inviare nuovamente i messaggi esportati dagli amministratori dalle code dei server Exchange.
 

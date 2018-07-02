@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-07-12_
+_**Ultima modifica dell'argomento:** 2016-07-12_
 
 Sebbene esistano numerosi vantaggi dell'utilizzo delle cartelle pubbliche di Exchange 2013, esistono alcuni aspetti da considerare prima di implementarle nell'organizzazione.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-29_
+_**Ultima modifica dell'argomento:** 2012-11-29_
 
 È possibile utilizzare EAC o Shell per applicare le restrizioni di recapito dei messaggi a singoli destinatari o meno. Le restrizioni di recapito dei messaggi sono utili per controllare chi può inviare messaggi agli utenti dell'organizzazione. Ad esempio, è possibile configurare una cassetta postale per accettare o rifiutare i messaggi inviati da utenti specifici o per accettare i messaggi solo dagli utenti dell'organizzazione di Exchange.
 

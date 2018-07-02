@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 In Microsoft Exchange Server 2013, la gestione record di messaggistica viene eseguita utilizzando i tag e i criteri di conservazione. Il criterio di conservazione è un gruppo di tag di conservazione che può essere applicato a una cassetta postale. Per ulteriori dettagli, vedere [Tag di conservazione e criteri di conservazione](retention-tags-and-retention-policies-exchange-2013-help.md). Le cartelle gestite, ovvero la tecnologia per gestire i record di messaggistica introdotta in Exchange Server 2007, non sono ancora supportate.
 

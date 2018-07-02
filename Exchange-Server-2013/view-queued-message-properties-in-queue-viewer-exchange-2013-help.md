@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-01-17_
+_**Ultima modifica dell'argomento:** 2013-01-17_
 
 È possibile utilizzare Visualizzatore code in Casella degli strumenti di Exchange per visualizzare le proprietà di un messaggio accodato per il recapito.
 

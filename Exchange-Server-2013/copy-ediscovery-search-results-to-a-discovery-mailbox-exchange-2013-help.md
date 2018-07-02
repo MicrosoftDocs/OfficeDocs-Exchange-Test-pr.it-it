@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-24_
+_**Ultima modifica dell'argomento:** 2014-02-24_
 
 Dopo aver creato una ricerca eDiscovery In locale, è possibile utilizzare EAC per copiare i risultati di una cassetta postale di individuazione. È inoltre possibile utilizzare Shell per avviare una ricerca eDiscovery che è stata creata utilizzando il cmdlet **New-MailboxSearch** , che verrà copiato i risultati per la cassetta postale di individuazione che è stata specificata al momento della creazione della ricerca.
 

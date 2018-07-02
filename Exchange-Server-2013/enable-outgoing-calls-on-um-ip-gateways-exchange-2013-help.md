@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-13_
+_**Ultima modifica dell'argomento:** 2012-11-13_
 
 Se disabilitate, le chiamate in uscita possono essere abilitate per un gateway IP di messaggistica unificata. Quando si seleziona l'opzione **Consenti chiamate in uscita tramite questo gateway IP di messaggistica unificata** nelle proprietà per il gateway IP di messaggistica unificata, si configura il gateway IP di messaggistica unificata per accettare e inviare le chiamate in uscita verso gateway VoIP (Voice over IP), PBX (Private Branch eXchange) abilitati per SIP (Session Initiation Protocol), PBX IP o SBC (Session Border Controller). Anche se l'impostazione **Consenti chiamate in uscita tramite questo gateway IP di messaggistica unificata** controlla la capacità del gateway IP di messaggistica unificata di avviare le chiamate in uscita per gli utenti, non influisce sui trasferimenti di chiamata o sulle chiamate in arrivo da gateway VoIP, PBX abilitati per SIP, PBX IP o SBC.
 

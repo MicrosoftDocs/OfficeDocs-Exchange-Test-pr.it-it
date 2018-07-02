@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Un *gruppo di ruoli di gestione* è un gruppo di protezione universale (USG) utilizzato nel modello di autorizzazioni per il controllo di accesso basato sui ruoli (RBAC) in Microsoft Exchange Server 2013. Il gruppo di ruoli di gestione semplifica l'assegnazione dei ruoli di gestione a un gruppo di utenti. A tutti i membri di un gruppo di ruolo viene assegnato lo stesso insieme di ruoli. Ai gruppi di ruolo vengono assegnati ruoli di amministratore ed esperto che definiscono le principali attività amministrative in Exchange 2013, come la gestione dell'organizzazione, la gestione dei destinatari e altre attività. I gruppi di ruolo consentono di assegnare più facilmente una gamma più amplia di autorizzazioni a un gruppo di amministratori o di utenti esperti.
 

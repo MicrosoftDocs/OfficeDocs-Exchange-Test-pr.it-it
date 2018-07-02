@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-17_
+_**Ultima modifica dell'argomento:** 2012-10-17_
 
 Il ruolo di gestione `MyPersonalInformation` consente ai singoli utenti di visualizzare e modificare il proprio sito Web, indirizzo e numero di telefono dell'abitazione. Si tratta di un ruolo personalizzato che dipende dal ruolo principale [Ruolo MyContactInformation](mycontactinformation-role-exchange-2013-help.md).
 

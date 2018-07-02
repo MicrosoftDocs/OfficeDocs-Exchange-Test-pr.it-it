@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 Il filtro destinatario è fornito dall'agente filtro destinatario. Quando il filtro destinatario è abilitato su un server Exchange, vengono filtrati i messaggi in ingresso provenienti da Internet, che tuttavia non vengono autenticati. Questi messaggi vengono gestiti come messaggi esterni.
 

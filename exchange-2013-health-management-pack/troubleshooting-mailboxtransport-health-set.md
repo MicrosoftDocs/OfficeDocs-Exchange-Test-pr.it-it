@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Project Server 2013_
+_**Si applica a:** Exchange Server 2013, Project Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Set di integrità **MailboxTransport** consente di monitorare l'integrità generale dei servizi di invio del trasporto delle cassette postali e il recapito di trasporto delle cassette postali sui server cassette postali. Questi servizi sono responsabili dell'invio di posta da e verso i database delle cassette postali. Per ulteriori informazioni, vedere [Flusso di posta](https://technet.microsoft.com/it-it/library/aa996349\(v=exchg.150\)).
 

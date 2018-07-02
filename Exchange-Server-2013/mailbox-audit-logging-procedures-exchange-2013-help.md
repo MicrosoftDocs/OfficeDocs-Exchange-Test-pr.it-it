@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2010-07-16_
+_**Ultima modifica dell'argomento:** 2010-07-16_
 
 [Abilitare o disabilitare la registrazione per una cassetta postale di controllo delle cassette postali](enable-or-disable-mailbox-audit-logging-for-a-mailbox-exchange-2013-help.md)
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 Per impostazione predefinita, quando un gateway IP di messaggistica unificata viene creato, il suo stato è abilitato. Tuttavia, potrebbe essere necessario disabilitare il gateway IP di messaggistica unificata per metterlo offline e non permettergli di ricevere chiamate in ingresso e in uscita. Dopo aver creato un gateway IP di messaggistica unificata, è possibile controllarne il funzionamento impostando la variabile di stato su abilitato o disabilitato.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-02_
+_**Ultima modifica dell'argomento:** 2012-11-02_
 
 Se necessario, è possibile creare altre reti da utilizzare in un gruppo di disponibilità del database. Per creare una rete del gruppo di disponibilità del database (DAG) è possibile utilizzare l'interfaccia di amministrazione di Exchange o Shell.
 

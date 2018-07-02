@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-19_
+_**Ultima modifica dell'argomento:** 2013-04-19_
 
 È possibile immettere la ragione sociale dell'azienda nella casella **Ragione sociale** in un operatore automatico di messaggistica unificata. Per impostazione predefinita non è immessa nessuna ragione sociale. Se si immette la ragione sociale, verrà riprodotto ai chiamanti il messaggio di saluto predefinito insieme alla ragione sociale quando questi chiameranno l'operatore automatico di messaggistica unificata.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Project Server 2013_
+_**Si applica a:** Exchange Server 2013, Project Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'integrità dei servizi Web di Exchange (EWS, Exchange Web Services) controlla l'impostazione di integrità complessiva del servizio EWS. L'impostazione di integrità di EWS è strettamente correlata alle seguenti impostazioni di integrità:
 

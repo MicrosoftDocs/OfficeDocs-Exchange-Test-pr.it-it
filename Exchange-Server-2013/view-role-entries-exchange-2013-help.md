@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Ogni voce di ruolo di gestione rappresenta un singolo cmdlet o script. I parametri inclusi in una voce di ruolo determinano i parametri del cmdlet o dello script a cui un utente può accedere.
 

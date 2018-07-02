@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Messaggistica unificata consente agli utenti di utilizzare il sistema di caselle vocali e altre funzionalità, incluse Outlook Voice Access e Regole ricezione chiamata. La messaggistica unificata combina la messaggistica vocale e di posta elettronica in una sola cassetta postale accessibile da diversi dispositivi. Gli utenti possono ascoltare i messaggi dalla Posta in arrivo o tramite Outlook Voice Access da qualsiasi telefono. È possibile controllare la modalità con cui gli utenti effettuano chiamate in uscita dalla messaggistica unificata e l'esperienza di chi effettua chiamate nell'organizzazione.
 
