@@ -41,7 +41,7 @@ Lo strumento di risoluzione dei problemi di messaggistica unificata di Microsoft
     
       - Se lo strumento verrà eseguito su un computer con Vista o Windows Server 2008Windows, vedere [aggiornamento Microsoft .NET Framework 3.5 per Windows Server 2008 x64 e Windows Vista x64,](https://go.microsoft.com/fwlink/p/?linkid=178998).
     
-      - Windows Gestione remota Windows (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu). Vedere l'articolo 968930 della Microsoft Knowledge Base [Pacchetto Windows Management Framework Core (Windows PowerShell 2.0 e Gestione remota Windows 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+      - Windows Gestione remota Windows (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu). Vedere l'articolo 968930 della Microsoft Knowledge Base [Pacchetto Windows Management Framework Core (Windows PowerShell 2.0 e Gestione remota Windows 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
     
       - Microsoft Unified Communications Managed API 2.0 Core Runtime (Ucmaruntimewebdownloadx64). Vedere [Unified Communications Managed API 2.0, Core Runtime (64 bit)](https://go.microsoft.com/fwlink/p/?linkid=198175).
 

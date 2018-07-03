@@ -75,7 +75,7 @@ Non è possibile eseguire la migrazione delle cartelle pubbliche direttamente da
 
   - In Exchange 2007, è necessario essere assegnati al ruolo di amministratore dell'organizzazione Exchange o di amministratore server di Exchange. Inoltre, è necessario essere assegnati al ruolo Amministratore cartelle pubbliche e al gruppo Amministratori locale per il server di destinazione. Per i dettagli, vedere [Aggiunta di un utente o di un gruppo a un ruolo di amministratore](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-  - Sul server Exchange 2007, eseguire l'aggiornamento a [Windows PowerShell 2.0 e WinRM 2.0 per Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - Sul server Exchange 2007, eseguire l'aggiornamento a [Windows PowerShell 2.0 e WinRM 2.0 per Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Prima di eseguire la migrazione, è necessario considerare [Limiti per le cartelle pubbliche](limits-for-public-folders-exchange-2013-help.md).
 

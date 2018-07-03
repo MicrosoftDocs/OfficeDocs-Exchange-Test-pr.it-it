@@ -27,7 +27,7 @@ Per ulteriori informazioni sulla preparazione degli spostamenti tra foreste, inc
 
   - Nella pagina [Preparazione per lo spostamento delle cassette postali Online](https://go.microsoft.com/fwlink/p/?linkid=177882) in Microsoft Download Center, scaricare il codice di esempio.
 
-  - Per eseguire il codice di esempio, è necessario ILM 2007 Feature Pack 1 Service Pack 1 (SP1). Per scaricare il Feature Pack, vedere l'articolo 977791 della Microsoft Knowledge Base, [Service Pack 1 (build 3.3.1139.2) è disponibile per Identity Lifecycle Manager 2007 Feature Pack 1](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=977791).
+  - Per eseguire il codice di esempio, è necessario ILM 2007 Feature Pack 1 Service Pack 1 (SP1). Per scaricare il Feature Pack, vedere l'articolo 977791 della Microsoft Knowledge Base, [Service Pack 1 (build 3.3.1139.2) è disponibile per Identity Lifecycle Manager 2007 Feature Pack 1](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=977791).
 
   - È inoltre necessario quanto segue:
     

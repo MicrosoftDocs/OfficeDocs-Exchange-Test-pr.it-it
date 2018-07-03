@@ -29,7 +29,7 @@ Scaricare e installare l'aggiornamento a 64 bit dal seguente URL, quindi fare cl
 
 
 
-Articolo della Microsoft Knowledge Base KB2619234, [è disponibile un hotfix per abilitare i Cookie/GUID di associazione che utilizzate da RPC su HTTP per essere utilizzato anche livello del RPC in Windows 7 e Windows Server 2008 R2)](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2619234)
+Articolo della Microsoft Knowledge Base KB2619234, [è disponibile un hotfix per abilitare i Cookie/GUID di associazione che utilizzate da RPC su HTTP per essere utilizzato anche livello del RPC in Windows 7 e Windows Server 2008 R2)](https://go.microsoft.com/fwlink/?linkid=3052&kbid=2619234)
 
 Problemi? È possibile richiedere supporto nei forum di Exchange. I forum sono disponibili sui seguenti siti: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542) o [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351).
 
