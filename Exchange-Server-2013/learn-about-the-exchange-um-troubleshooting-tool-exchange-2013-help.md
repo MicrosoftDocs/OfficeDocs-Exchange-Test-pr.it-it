@@ -221,7 +221,7 @@ Se si sta utilizzando lo strumento di risoluzione dei problemi di messaggistica 
 
 
 
-  - Windows Gestione remota Windows (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu)   Vedere l'articolo 968930 della Microsoft Knowledge Base [Pacchetto di Windows Management Framework Core (Windows PowerShell 2.0 e 2.0 di gestione remota Windows)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - Windows Gestione remota Windows (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu)   Vedere l'articolo 968930 della Microsoft Knowledge Base [Pacchetto di Windows Management Framework Core (Windows PowerShell 2.0 e 2.0 di gestione remota Windows)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Microsoft Unified Communications Managed API 2.0 Core Runtime (Ucmaruntimewebdownloadx64) vedere [Unified Communications Managed API 2.0, Core Runtime (64 bit)](https://go.microsoft.com/fwlink/p/?linkid=198175).
 

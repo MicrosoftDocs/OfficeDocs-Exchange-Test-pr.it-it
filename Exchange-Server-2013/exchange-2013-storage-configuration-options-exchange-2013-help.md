@@ -109,7 +109,7 @@ Nella tabella seguente viene fornito un elenco dei tipi di disco fisico supporta
 </ul></td>
 <td><p>Supportati: dischi con settore da 512 byte per Windows Server 2008 e Windows Server 2008 R2. Sono inoltre supportati dischi 512e per Windows Server 2008 R2 con quanto indicato di seguito:</p>
 <ul>
-<li><p>Aggiornamento rapido descritto nell'<a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">articolo 982018 della Microsoft Knowledge Base</a> È disponibile un aggiornamento che migliora la compatibilità di Windows 7 e Windows Server 2008 R2 con i dischi di formato avanzato.</p></li>
+<li><p>Aggiornamento rapido descritto nell'<a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">articolo 982018 della Microsoft Knowledge Base</a> È disponibile un aggiornamento che migliora la compatibilità di Windows 7 e Windows Server 2008 R2 con i dischi di formato avanzato.</p></li>
 <li><p>Windows Server 2008 R2 con Service Pack 1 (SP1) ed Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 e versioni successive supporta i dischi con settore da 4 kilobyte (KB) nativi e i dischi 512e. Il supporto richiede che tutte le copie di un database si trovino sullo stesso tipo di disco fisico. Ad esempio, non è supportata una configurazione che ospita una copia di un determinato database su un settore del disco da 512 byte e un'altra copia dello stesso database su un disco 512e o un disco 4K.</p>
@@ -126,7 +126,7 @@ Nella tabella seguente viene fornito un elenco dei tipi di disco fisico supporta
 </ul></td>
 <td><p>Supportati: dischi con settore da 512 byte per Windows Server 2008 e Windows Server 2008 R2. Sono inoltre supportati dischi 512e per Windows Server 2008 R2 con quanto indicato di seguito:</p>
 <ul>
-<li><p>Aggiornamento rapido descritto nell'<a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">articolo 982018 della Microsoft Knowledge Base</a> È disponibile un aggiornamento che migliora la compatibilità di Windows 7 e Windows Server 2008 R2 con i dischi di formato avanzato.</p></li>
+<li><p>Aggiornamento rapido descritto nell'<a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">articolo 982018 della Microsoft Knowledge Base</a> È disponibile un aggiornamento che migliora la compatibilità di Windows 7 e Windows Server 2008 R2 con i dischi di formato avanzato.</p></li>
 <li><p>Windows Server 2008 R2 con Service Pack 1 (SP1) ed Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 e versioni successive supporta i dischi con settore da 4 kilobyte (KB) nativi e i dischi 512e. Il supporto richiede che tutte le copie di un database si trovino sullo stesso tipo di disco fisico. Ad esempio, non è supportata una configurazione che ospita una copia di un determinato database su un settore del disco da 512 byte e un'altra copia dello stesso database su un disco 512e o un disco 4K.</p>
@@ -143,7 +143,7 @@ Nella tabella seguente viene fornito un elenco dei tipi di disco fisico supporta
 </ul></td>
 <td><p>Supportati: dischi con settore da 512 byte per Windows Server 2008 e Windows Server 2008 R2. Sono inoltre supportati dischi 512e per Windows Server 2008 R2 con quanto indicato di seguito:</p>
 <ul>
-<li><p>Aggiornamento rapido descritto nell'<a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">articolo 982018 della Microsoft Knowledge Base</a> È disponibile un aggiornamento che migliora la compatibilità di Windows 7 e Windows Server 2008 R2 con i dischi di formato avanzato.</p></li>
+<li><p>Aggiornamento rapido descritto nell'<a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">articolo 982018 della Microsoft Knowledge Base</a> È disponibile un aggiornamento che migliora la compatibilità di Windows 7 e Windows Server 2008 R2 con i dischi di formato avanzato.</p></li>
 <li><p>Windows Server 2008 R2 con Service Pack 1 (SP1) ed Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 e versioni successive supporta i dischi con settore da 4 kilobyte (KB) nativi e i dischi 512e. Il supporto richiede che tutte le copie di un database si trovino sullo stesso tipo di disco fisico. Ad esempio, non è supportata una configurazione che ospita una copia di un determinato database su un settore del disco da 512 byte e un'altra copia dello stesso database su un disco 512e o un disco 4K.</p>
@@ -159,7 +159,7 @@ Nella tabella seguente viene fornito un elenco dei tipi di disco fisico supporta
 </ul></td>
 <td><p>Supportati: dischi con settore da 512 byte per Windows Server 2008 e Windows Server 2008 R2. Sono inoltre supportati dischi 512e per Windows Server 2008 R2 con quanto indicato di seguito:</p>
 <ul>
-<li><p>Aggiornamento rapido descritto nell'<a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">articolo 982018 della Microsoft Knowledge Base</a> È disponibile un aggiornamento che migliora la compatibilità di Windows 7 e Windows Server 2008 R2 con i dischi di formato avanzato.</p></li>
+<li><p>Aggiornamento rapido descritto nell'<a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">articolo 982018 della Microsoft Knowledge Base</a> È disponibile un aggiornamento che migliora la compatibilità di Windows 7 e Windows Server 2008 R2 con i dischi di formato avanzato.</p></li>
 <li><p>Windows Server 2008 R2 con Service Pack 1 (SP1) ed Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 e versioni successive supporta i dischi con settore da 4 kilobyte (KB) nativi e i dischi 512e. Il supporto richiede che tutte le copie di un database si trovino sullo stesso tipo di disco fisico. Ad esempio, non è supportata una configurazione che ospita una copia di un determinato database su un settore del disco da 512 byte e un'altra copia dello stesso database su un disco 512e o un disco 4K.</p>
@@ -695,7 +695,7 @@ Nella tabella seguente vengono fornite informazioni sulle configurazioni del vol
 <td><p>Windows BitLocker (crittografia del volume)</p></td>
 <td><p>Windows BitLocker indica una funzionalità di protezione dei dati in Windows Server 2008. BitLocker protegge dal furto dei dati o dall'esposizione su computer smarriti o rubati e offre una modalità più sicura di eliminazione dei dati quando i computer vengono rimossi.</p></td>
 <td><p>Procedura supportata: tutti i file di registro e database di Exchange.</p></td>
-<td><p>Procedura supportata: Tutti i file di registro e database di Exchange. I cluster di failover di Windows necessitano di Windows Server 2008 R2 o Windows Server 2008 R2 SP1 e della seguente hotfix: <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2446607">Impossibile abilitare BitLocker su un volume disco in Windows Server 2008 R2 se il computer è un nodo di cluster di failover</a>. I volumi di Exchange con BitLocker abilitato non sono supportati sui cluster di failover di Windows con versioni precedenti di Windows.</p>
+<td><p>Procedura supportata: Tutti i file di registro e database di Exchange. I cluster di failover di Windows necessitano di Windows Server 2008 R2 o Windows Server 2008 R2 SP1 e della seguente hotfix: <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=2446607">Impossibile abilitare BitLocker su un volume disco in Windows Server 2008 R2 se il computer è un nodo di cluster di failover</a>. I volumi di Exchange con BitLocker abilitato non sono supportati sui cluster di failover di Windows con versioni precedenti di Windows.</p>
 <p>Per ulteriori informazioni sulla crittografia BitLocker Windows 7, vedere <a href="https://go.microsoft.com/fwlink/p/?linkid=220898">BitLocker Drive Encryption in Windows 7: domande frequenti</a>.</p></td>
 </tr>
 <tr class="odd">

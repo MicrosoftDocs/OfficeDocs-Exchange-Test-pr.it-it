@@ -191,11 +191,11 @@ Dopo aver installato i ruoli e le funzionalità del sistema operativo, installar
 
 3.  [Microsoft Unified Communications Managed API 4.0, Core Runtime 64-bit](https://go.microsoft.com/fwlink/p/?linkid=258269)
 
-4.  [Articolo della Microsoft Knowledge Base KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=974405)
+4.  [Articolo della Microsoft Knowledge Base KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=974405)
 
-5.  [Articolo della Knowledge Base KB2619234 (È disponibile il cookie/GUID per l’associazione utilizzato da RPC su HTTP che deve essere utilizzato anche al livello RPC in Windows 7 e in Windows Server 2008 R2)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2619234)
+5.  [Articolo della Knowledge Base KB2619234 (È disponibile il cookie/GUID per l’associazione utilizzato da RPC su HTTP che deve essere utilizzato anche al livello RPC in Windows 7 e in Windows Server 2008 R2)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2619234)
 
-6.  [Articolo della Knowledge Base KB2533623 (Possibile esecuzione di codice remoto durante un caricamento della libreria non protetto)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2533623)
+6.  [Articolo della Knowledge Base KB2533623 (Possibile esecuzione di codice remoto durante un caricamento della libreria non protetto)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2533623)
     
 
     > [!NOTE]
@@ -251,7 +251,7 @@ Dopo aver installato le funzionalità del sistema operativo, installare il softw
 
 2.  [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=390234)
 
-3.  [Articolo della Knowledge Base KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=974405)
+3.  [Articolo della Knowledge Base KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=974405)
 
 ## Prerequisiti di Windows 8 e Windows 8.1 (solo strumenti di amministrazione)
 

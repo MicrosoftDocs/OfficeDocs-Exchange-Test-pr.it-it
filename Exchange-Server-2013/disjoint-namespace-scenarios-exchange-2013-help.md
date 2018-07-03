@@ -101,7 +101,7 @@ Inoltre, per assicurarsi che l'elenco di ricerca suffissi DNS contenga tutti gli
 
   - [Domande frequenti (FAQ) dei criteri di gruppo](https://go.microsoft.com/fwlink/p/?linkid=100128)
 
-  - [Nuovi criteri di gruppo per DNS in Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=294785)
+  - [Nuovi criteri di gruppo per DNS in Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=294785)
 
   - [Criteri di gruppo](https://go.microsoft.com/fwlink/p/?linkid=268043)
 

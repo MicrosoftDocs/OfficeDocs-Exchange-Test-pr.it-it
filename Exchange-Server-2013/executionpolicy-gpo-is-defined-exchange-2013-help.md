@@ -29,7 +29,7 @@ Quando si esegue la configurazione di Exchange 2013, Exchange si arresta e disab
 
 Per poter proseguire con la configurazione, è necessario rimuovere temporaneamente tutte le definizioni di **MachinePolicy** o **UserPolicy** nel GPO **ExecutionPolicy**.
 
-Per informazioni su come rimuovere tutte le definizioni di **MachinePolicy** o **UserPolicy** nel GPO **ExecutionPolicy**, vedere [l'articolo della Knowledge Base KB981474](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=981474).
+Per informazioni su come rimuovere tutte le definizioni di **MachinePolicy** o **UserPolicy** nel GPO **ExecutionPolicy**, vedere [l'articolo della Knowledge Base KB981474](https://go.microsoft.com/fwlink/?linkid=3052&kbid=981474).
 
 
 > [!NOTE]

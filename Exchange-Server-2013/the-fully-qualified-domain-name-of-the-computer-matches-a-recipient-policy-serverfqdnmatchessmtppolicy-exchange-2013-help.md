@@ -55,5 +55,5 @@ Per modificare il criterio indirizzo SMTP del destinatario
 
 4.  Fare clic sulla scheda **Indirizzi di posta elettronica** e quindi modificare l'indirizzo SMTP appropriato
 
-Per ulteriori informazioni sui problemi di denominazione criterio destinatario, vedere l'articolo della Microsoft Knowledge Base 288175 "XCON: criterio destinatario non può corrispondere al nome FQDN di un Server nell'organizzazione, 5.4.8 rapporti di mancato recapito" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=288175)).
+Per ulteriori informazioni sui problemi di denominazione criterio destinatario, vedere l'articolo della Microsoft Knowledge Base 288175 "XCON: criterio destinatario non può corrispondere al nome FQDN di un Server nell'organizzazione, 5.4.8 rapporti di mancato recapito" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052&kbid=288175)).
 

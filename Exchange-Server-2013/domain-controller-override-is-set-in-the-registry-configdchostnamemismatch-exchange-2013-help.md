@@ -27,5 +27,5 @@ Installazione di Exchange 2007 è necessario che il controller di dominio specif
 
 Per risolvere questo problema, eseguire l'installazione, specificando il controller di dominio mappato in modo statico per il **/DomainController: \<***FQDN of thestatically mapped domain controller***\>** parametro.
 
-Per ulteriori informazioni su DSAccess e rilevamento servizi directory, vedere l'articolo della Microsoft Knowledge Base 250570 "Directory Service Server Detection and DSAccess Usage" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=250570](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=250570)).
+Per ulteriori informazioni su DSAccess e rilevamento servizi directory, vedere l'articolo della Microsoft Knowledge Base 250570 "Directory Service Server Detection and DSAccess Usage" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=250570](https://go.microsoft.com/fwlink/?linkid=3052&kbid=250570)).
 

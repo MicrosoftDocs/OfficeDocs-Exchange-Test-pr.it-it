@@ -381,7 +381,7 @@ In questa sezione, vengono riportate le funzionalità di Exchange Server 2007 no
 </tr>
 <tr class="odd">
 <td><p>Notifiche UDP (User Datagram Protocol)</p></td>
-<td><p>Il supporto per le notifiche User Datagram Protocol (UDP) è stato rimosso da Exchange 2013. Questo influisce sull'esperienza utente quando i client di Outlook 2003 si connettono alle loro cassette postali su un server di Exchange 2013. Per ulteriori informazioni, vedere l'articolo 2009942 della Knowledge Base di Microsoft relativo all'<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2009942">aggiornamento delle cartelle richiede molto tempo quando un utente di Exchange Server 2010 utilizza Outlook 2003 in modalità in linea</a>.</p></td>
+<td><p>Il supporto per le notifiche User Datagram Protocol (UDP) è stato rimosso da Exchange 2013. Questo influisce sull'esperienza utente quando i client di Outlook 2003 si connettono alle loro cassette postali su un server di Exchange 2013. Per ulteriori informazioni, vedere l'articolo 2009942 della Knowledge Base di Microsoft relativo all'<a href="http://go.microsoft.com/fwlink/?linkid=3052&kbid=2009942">aggiornamento delle cartelle richiede molto tempo quando un utente di Exchange Server 2010 utilizza Outlook 2003 in modalità in linea</a>.</p></td>
 </tr>
 </tbody>
 </table>
