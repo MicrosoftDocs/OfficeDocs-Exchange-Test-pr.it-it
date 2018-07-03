@@ -550,14 +550,11 @@ Quando si esegue l'aggiornamento alla funzionalità di messaggistica unificata d
 
 L'ultimo passaggio della procedura di aggiornamento alla funzionalità di messaggistica unificata di Exchange 2013 consiste nella configurazione dei gateway VoIP, IP PBX e PBX abilitati al SIP affinché inviino le chiamate in arrivo ai server Accesso client di Exchange 2013, inclusi i chiamanti che lasciano messaggi vocali per l'utente, le chiamate di utenti abilitati alla messaggistica unificata che chiamano Outlook Voice Access e le chiamate effettuate nell'operatore automatico di messaggistica unificata. Tutte queste chiamate vengono ricevute in prima istanza dal gateway VoIP, IP PBX o PBX abilitato al SIP e successivamente inoltrate ai server Accesso client di Exchange 2013 dell'organizzazione Exchange 2013. Per ulteriori informazioni, vedere le risorse seguenti:
 
-  -  
-    [Servizi di messaggistica unificata](um-services-exchange-2013-help.md)
+  -  [Servizi di messaggistica unificata](um-services-exchange-2013-help.md)
 
-  -  
-    [Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
 
-  -  
-    [Sistema di telefonia per Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Sistema di telefonia per Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
 
 ## Passaggio 15: Disabilitare la risposta alle chiamate sul server di messaggistica unificata di Exchange 2010
 

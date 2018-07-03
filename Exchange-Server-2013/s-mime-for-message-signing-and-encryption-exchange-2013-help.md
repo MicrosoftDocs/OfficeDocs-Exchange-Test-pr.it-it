@@ -59,14 +59,11 @@ La configurazione di S/MIME per Exchange 2013 SP1 o Exchange Online con Outlook 
 
 Man mano che diventano più importanti della protezione dei messaggi, gli amministratori devono conoscere i principi e concetti di protezione dei messaggi. Questo understanding è particolarmente importante per la crescente varietà di protezione relative tecnologie, ad esempio S/MIME che sono diventati disponibili. Per ulteriori informazioni sui S/MIME e come funziona nel contesto di posta elettronica, vedere [Understanding S/MIME](https://go.microsoft.com/fwlink/?linkid=393948). Diverse tecnologie di crittografia integrati per assicurare la protezione per i messaggi in rest e in transito. S/MIME possono lavorare contemporaneamente con le seguenti tecnologie ma non si basa su di essi:
 
-  -  
-    **Transport Layer Security (TLS)** crittografa il tunnel o la route tra i server di posta elettronica per poter prevenire lo snooping e le intercettazioni telefoniche.
+  -  **Transport Layer Security (TLS)** crittografa il tunnel o la route tra i server di posta elettronica per poter prevenire lo snooping e le intercettazioni telefoniche.
 
-  -  
-    **Secure Sockets Layer (SSL)** consente di crittografare la connessione tra il client di posta elettronica e i server di Office 365.
+  -  **Secure Sockets Layer (SSL)** consente di crittografare la connessione tra il client di posta elettronica e i server di Office 365.
 
-  -  
-    **BitLocker** consente di crittografare i dati su un disco rigido in un centro dati in modo che se qualcuno ottiene accesso non autorizzato, è possibile leggerli.
+  -  **BitLocker** consente di crittografare i dati su un disco rigido in un centro dati in modo che se qualcuno ottiene accesso non autorizzato, è possibile leggerli.
 
 ## Confronto tra S/MIME e crittografia dei messaggi di Office 365
 

@@ -61,17 +61,13 @@ Per configurare la registrazione della connettività, utilizzare il seguente com
 
 In questo esempio vengono definite le impostazioni per il registro della connettività nel servizio di trasporto sul server Cassette postali Mailbox01:
 
-  -  
-    Imposta il percorso dei file di registro della connettività su D:\\Hub Connectivity Log. Notare che se la cartella non esiste, verrà creata automaticamente.
+  -  Imposta il percorso dei file di registro della connettività su D:\\Hub Connectivity Log. Notare che se la cartella non esiste, verrà creata automaticamente.
 
-  -  
-    Imposta la dimensione massima di un file di registro della connettività su 20 MB.
+  -  Imposta la dimensione massima di un file di registro della connettività su 20 MB.
 
-  -  
-    Imposta la dimensione massima della directory del registro della connettività su 1,5 GB.
+  -  Imposta la dimensione massima della directory del registro della connettività su 1,5 GB.
 
-  -  
-    Imposta la durata massima di un file di registro della connettività su 45 giorni.
+  -  Imposta la durata massima di un file di registro della connettività su 45 giorni.
 
 <!-- end list -->
 

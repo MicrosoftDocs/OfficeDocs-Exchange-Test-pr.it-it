@@ -149,17 +149,13 @@ Per configurare le impostazioni di registrazione protocollo, utilizzare il coman
 
 Con questo esempio vengono configurate le impostazioni del registro di protocollo seguenti nel servizio di trasporto sul server Cassette postali denominato Mailbox01:
 
-  -  
-    Imposta il percorso di tutti i registri di protocollo dei connettori di ricezione su D:\\Hub Receive SMTP Log e tutti i registri di protocollo dei connettori di invio su D:\\Hub Send SMTP Log. Notare che se la cartella non esiste, verrà creata automaticamente.
+  -  Imposta il percorso di tutti i registri di protocollo dei connettori di ricezione su D:\\Hub Receive SMTP Log e tutti i registri di protocollo dei connettori di invio su D:\\Hub Send SMTP Log. Notare che se la cartella non esiste, verrà creata automaticamente.
 
-  -  
-    Imposta la dimensione massima di un file di registro di protocollo del connettore di ricezione e di invio su 20 MB.
+  -  Imposta la dimensione massima di un file di registro di protocollo del connettore di ricezione e di invio su 20 MB.
 
-  -  
-    Imposta la dimensione massima di una cartella di registro di protocollo del connettore di ricezione e di invio su 400 MB.
+  -  Imposta la dimensione massima di una cartella di registro di protocollo del connettore di ricezione e di invio su 400 MB.
 
-  -  
-    Imposta la validità massima di un file di registro di protocollo del connettore di ricezione e di invio su 45 giorni.
+  -  Imposta la validità massima di un file di registro di protocollo del connettore di ricezione e di invio su 45 giorni.
 
 <!-- end list -->
 

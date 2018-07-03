@@ -203,8 +203,7 @@ L'elemento Regex ha un attributo "id" che viene utilizzato come riferimento nell
     </Regex>
     ...
     <Regex id="ItinFormatted">
-        (?:^|[\s\,\:])(?:9\d{2})[- ](?:[78]\d[-  
-         ]\d{4})(?:$|[\s\,]|\.\s)
+        (?:^|[\s\,\:])(?:9\d{2})[- ](?:[78]\d[-       ]\d{4})(?:$|[\s\,]|\.\s)
     </Regex>
     ...
     <Regex id="NorthCarolinaDriversLicenseNumber">

@@ -45,17 +45,13 @@ Eseguire il comando indicato di seguito:
 
 In questo esempio vengono realizzate le seguenti impostazioni dei registri degli agenti sul server Cassette postali Mailbox01:
 
-  -  
-    Il percorso dei file di registro degli agenti viene impostato su D:\\Anti-Spam Agente Log. Notare che se la cartella non esiste, verrà creata automaticamente.
+  -  Il percorso dei file di registro degli agenti viene impostato su D:\\Anti-Spam Agente Log. Notare che se la cartella non esiste, verrà creata automaticamente.
 
-  -  
-    La dimensione massima di un file di registro degli agenti viene impostata su 20 MB.
+  -  La dimensione massima di un file di registro degli agenti viene impostata su 20 MB.
 
-  -  
-    La dimensione massima della directory con i registri degli agenti viene impostata su 400 MB.
+  -  La dimensione massima della directory con i registri degli agenti viene impostata su 400 MB.
 
-  -  
-    Il limite massimo di validità dei file di registro degli agenti viene impostato su 14 giorni.
+  -  Il limite massimo di validità dei file di registro degli agenti viene impostato su 14 giorni.
 
 <!-- end list -->
 

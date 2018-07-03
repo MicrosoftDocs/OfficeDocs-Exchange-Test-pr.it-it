@@ -61,17 +61,13 @@ Per configurare la verifica dei messaggi, eseguire il comando seguente:
 
 In questo esempio vengono configurate le seguenti impostazioni del registro di verifica dei messaggi sul server Cassette postali Mailbox01:
 
-  -  
-    Configurare il percorso del file di registro di verifica dei messaggi su D:\\Message Tracking Log. Notare che se la cartella non esiste, verrà creata automaticamente.
+  -  Configurare il percorso del file di registro di verifica dei messaggi su D:\\Message Tracking Log. Notare che se la cartella non esiste, verrà creata automaticamente.
 
-  -  
-    Impostare la dimensione massima del file di registro di verifica dei messaggi su 20 MB.
+  -  Impostare la dimensione massima del file di registro di verifica dei messaggi su 20 MB.
 
-  -  
-    Impostare la dimensione massima della directory del registro di verifica dei messaggi su 1,5 GB.
+  -  Impostare la dimensione massima della directory del registro di verifica dei messaggi su 1,5 GB.
 
-  -  
-    Impostare la durata massima di un file di registro di verifica dei messaggi su 45 giorni.
+  -  Impostare la durata massima di un file di registro di verifica dei messaggi su 45 giorni.
 
 <!-- end list -->
 

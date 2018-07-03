@@ -31,14 +31,11 @@ Per ulteriori informazioni su Exchange Management Shell, vedere [Utilizzo di Pow
 
   - Per i criteri DLP, è possibile selezionare uno dei seguenti tre modi:
     
-      -  
-        **Imponi**   Le regole all'interno del criterio vengono valutate per tutti i messaggi e tipi di file supportati. Il flusso di posta può essere interrotto se vengono rilevati dati che soddisfano le condizioni del criterio. Vengono eseguite tutte le azioni descritte all'interno del criterio.
+      -    **Imponi**   Le regole all'interno del criterio vengono valutate per tutti i messaggi e tipi di file supportati. Il flusso di posta può essere interrotto se vengono rilevati dati che soddisfano le condizioni del criterio. Vengono eseguite tutte le azioni descritte all'interno del criterio.
     
-      -  
-        **Testa criterio DLP con suggerimenti sul criterio**   Le regole all'interno del criterio vengono valutate per tutti i messaggi e tipi di file supportati. Il flusso di posta non verrà interrotto se vengono rilevati dati che soddisfano le condizioni del criterio. Vale a dire, i messaggi non sono bloccati. Se sono stati configurati suggerimenti sul criterio, vengono mostrati agli utenti.
+      -    **Testa criterio DLP con suggerimenti sul criterio**   Le regole all'interno del criterio vengono valutate per tutti i messaggi e tipi di file supportati. Il flusso di posta non verrà interrotto se vengono rilevati dati che soddisfano le condizioni del criterio. Vale a dire, i messaggi non sono bloccati. Se sono stati configurati suggerimenti sul criterio, vengono mostrati agli utenti.
     
-      -  
-        **Testa criterio DLP senza suggerimenti sul criterio**   Le regole all'interno del criterio vengono valutate per tutti i messaggi e tipi di file supportati. Il flusso di posta non verrà interrotto se vengono rilevati dati che soddisfano le condizioni del criterio. Vale a dire, i messaggi non sono bloccati. Se sono stati configurati suggerimenti sul criterio, non vengono mostrati agli utenti.
+      -    **Testa criterio DLP senza suggerimenti sul criterio**   Le regole all'interno del criterio vengono valutate per tutti i messaggi e tipi di file supportati. Il flusso di posta non verrà interrotto se vengono rilevati dati che soddisfano le condizioni del criterio. Vale a dire, i messaggi non sono bloccati. Se sono stati configurati suggerimenti sul criterio, non vengono mostrati agli utenti.
 
   - Una singola regola all'interno di un criterio DLP può avere le proprie impostazioni modalità. Quando la modalità di un criterio è diversa rispetto alla modalità di una regola all'interno del criterio, l'impostazione della regola con priorità e viene valutato secondo le modalità.
 

@@ -19,17 +19,13 @@ _**Ultima modifica dell'argomento:** 2017-02-23_
 
 L'organizzazione potrebbe richiedere che determinati tipi di messaggi vengano bloccati o rifiutati per soddisfare requisiti legali o di conformità o per implementare esigenze aziendali specifiche. Ecco alcuni esempi di scenari comuni per bloccare tutti gli allegati che è possibile impostare utilizzando le regole di trasporto in Exchange:
 
-  -  
-    Esempio 1: Bloccare i messaggi con allegati e comunicarlo al mittente
+  -  Esempio 1: Bloccare i messaggi con allegati e comunicarlo al mittente
 
-  -  
-    Esempio 2: Informare i destinatari interessati quando viene bloccato un messaggio in ingresso
+  -  Esempio 2: Informare i destinatari interessati quando viene bloccato un messaggio in ingresso
 
-  -  
-    Esempio 3: Modificare la riga dell'oggetto per le notifiche
+  -  Esempio 3: Modificare la riga dell'oggetto per le notifiche
 
-  -  
-    Esempio 4: Applicare una regola con un limite di tempo
+  -  Esempio 4: Applicare una regola con un limite di tempo
 
 Per ulteriori esempi che mostrano come bloccare allegati specifici, vedere:
 
