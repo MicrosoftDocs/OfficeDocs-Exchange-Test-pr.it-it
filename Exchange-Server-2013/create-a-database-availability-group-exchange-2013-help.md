@@ -65,9 +65,7 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 
 2.  Fare clic su ![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") per creare un DAG.
 
-3.  
-    
-    Nella pagina **Nuovo gruppo di disponibilità del database** specificare le seguenti informazioni per il DAG:
+3.  Nella pagina **Nuovo gruppo di disponibilità del database** specificare le seguenti informazioni per il DAG:
     
       - **Nome del gruppo di disponibilità del database**   Utilizzare questo campo per digitare un nome valido e univoco per il DAG, utilizzando al massimo 15 caratteri. Il nome è equivalente a un nome di computer, pertanto in Active Directory verrà creato un oggetto di rete cluster (CNO) con quel nome. Il nome corrisponde sia al nome del DAG che al nome del cluster sottostante.
     

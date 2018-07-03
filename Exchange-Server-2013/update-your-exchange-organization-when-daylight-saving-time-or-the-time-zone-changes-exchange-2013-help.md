@@ -39,7 +39,7 @@ Poiché il sistema di autenticazione di Office 365 viene aggiornato quando si mo
 
 2.  Se si sta eseguendo Office 365, aggiornare qualsiasi server che interagisce con il sistema di autenticazione di Office 365, quali DirSync o server AD FS. Questi server devono essere aggiornati per garantire i tempi di attività.
 
-**Nota**   Se si sta aggiornando i cluster di server, assicurarsi di che eseguire il normale processo di aggiornamento i gruppi. Aggiornare prima il server passivo, il failover sul server passivo (che diventa attivo) e quindi aggiornare il server (ora passivo) precedentemente attivo. Per ulteriori informazioni su come aggiornare i cluster di server e i gruppi di server a elevata disponibilità, vedere [Update Exchange Server Clusters and High Availability Servers](https://technet.microsoft.com/it-it/library/hh530052\(v=exchg.150\)) e [come aggiornare i cluster di failover di Windows Server](https://support.microsoft.com/en-us/kb/174799).
+**Nota**   Se si sta aggiornando i cluster di server, assicurarsi di che eseguire il normale processo di aggiornamento i gruppi. Aggiornare prima il server passivo, il failover sul server passivo (che diventa attivo) e quindi aggiornare il server (ora passivo) precedentemente attivo. Per ulteriori informazioni su come aggiornare i cluster di server e i gruppi di server a elevata disponibilità, vedere Update Exchange Server Clusters and High Availability Servers e [come aggiornare i cluster di failover di Windows Server](https://support.microsoft.com/en-us/kb/174799).
 
 ## Passaggio 3: Aggiornamento Exchange e Outlook, se necessario, nei computer client e del desktop
 

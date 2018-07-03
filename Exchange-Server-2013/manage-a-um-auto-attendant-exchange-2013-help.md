@@ -49,9 +49,7 @@ Per altre attività di gestione relative agli operatori automatici di messaggist
 
 2.  Nella pagina **Dial plan di messaggistica unificata**, sotto **Operatore automatico di messaggistica unificata**, selezionare l'operatore automatico di messaggistica unificata che si desidera visualizzare o configurare, quindi fare clic su **Modifica** sulla barra degli strumenti ![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica").
 
-3.  
-    
-    Nella pagina **Operatore automatico di messaggistica unificata**, fare clic su **Generale** per visualizzare le informazioni di sola visualizzazione sull'operatore automatico di messaggistica unificata e per eseguire attività di gestione su un operatore automatico di messaggistica unificata nel seguente modo:
+3.  Nella pagina **Operatore automatico di messaggistica unificata**, fare clic su **Generale** per visualizzare le informazioni di sola visualizzazione sull'operatore automatico di messaggistica unificata e per eseguire attività di gestione su un operatore automatico di messaggistica unificata nel seguente modo:
     
       - **Dial plan di messaggistica unificata**°°°In questa casella viene visualizzato il dial plan di messaggistica unificata associato all'operatore automatico. Una volta creato un operatore automatico, il dial plan associato all'operatore automatico non può essere modificato. Se si desidera associare un operatore automatico a un diverso dial plan, è necessario eliminare il dial plan e associare l'operatore automatico al dial plan corretto dopo averlo creato nuovamente.
     
@@ -81,13 +79,11 @@ Per altre attività di gestione relative agli operatori automatici di messaggist
         
         Sebbene sia possibile selezionare una lingua diversa dalla lingua selezionata sul dial plan di messaggistica unificata associato all'operatore automatico, si consiglia di far corrispondere le impostazioni della lingua sul dial plan con quelle dell'operatore automatico. Se le impostazioni della lingua non corrispondono, quando qualcuno chiama un numero di interno definito sul dial plan, riceverà prompt in una data lingua e, quando chiamerà un numero di interno collegato a un operatore automatico, riceverà prompt in un'altra lingua.
     
-      - **Ragione sociale   **Utilizzare questa casella per immettere la ragione sociale. Per impostazione predefinita non è immessa nessuna ragione sociale. Se viene immessa una ragione sociale in questa casella, ai chiamanti verrà riprodotto un prompt con la ragione sociale, invece del messaggio di saluto predefinito.
+      - **Ragione sociale**   Utilizzare questa casella per immettere la ragione sociale. Per impostazione predefinita non è immessa nessuna ragione sociale. Se viene immessa una ragione sociale in questa casella, ai chiamanti verrà riprodotto un prompt con la ragione sociale, invece del messaggio di saluto predefinito.
     
-      - **Sede aziendale   **Utilizzare questa casella per immettere la sede aziendale. Per impostazione predefinita non è immessa alcuna sede aziendale. Se viene immessa la sede aziendale in questa casella, ai chiamanti verrà riprodotta la sede aziendale.
+      - **Sede aziendale**   Utilizzare questa casella per immettere la sede aziendale. Per impostazione predefinita non è immessa alcuna sede aziendale. Se viene immessa la sede aziendale in questa casella, ai chiamanti verrà riprodotta la sede aziendale.
 
-4.  
-    
-    Utilizzo di **Messaggi di saluto** sull'operatore automatico per gestire i saluti registrati. È possibile selezionare i messaggi di saluto predefiniti o i messaggi di saluto personalizzati registrati in precedenza per l'orario di ufficio e non di ufficio. È possibile configurare quanto segue:
+4.  Utilizzo di **Messaggi di saluto** sull'operatore automatico per gestire i saluti registrati. È possibile selezionare i messaggi di saluto predefiniti o i messaggi di saluto personalizzati registrati in precedenza per l'orario di ufficio e non di ufficio. È possibile configurare quanto segue:
     
       - **Messaggio di saluto Orario di ufficio**°°°Si tratta del messaggio di saluto iniziale riprodotto quando qualcuno chiama l'operatore automatico nell'orario di ufficio dell'organizzazione. Per impostazione predefinita, gli orari d'ufficio sono dalle 12:00 alle 12:00 e non sono impostati orari non di ufficio. Se non si specifica un messaggio di saluti personalizzato, quando qualcuno chiama viene riprodotta un'istruzione di sistema che dice, "Benvenuti nell'operatore automatico di Exchange". Gli orari di ufficio e non di ufficio vengono configurati in **Orario di ufficio**°dell'operatore automatico.
         
@@ -250,9 +246,7 @@ Per altre attività di gestione relative agli operatori automatici di messaggist
         
         È utile abilitare questa opzione in modo che, se un chiamante non riesce a individuare la persona desiderata utilizzando i prompt di menu o la ricerca nella directory dopo l'orario di ufficio, sia possibile lasciare un messaggio vocale o contattare un operatore umano. Dopo aver abilitato questa opzione, è possibile configurare il numero di interno dell'operatore configurato su una cassetta postale abilitata alla messaggistica unificata monitorata. Il chiamante può lasciare un messaggio vocale o può essere collegato al numero di interno di un operatore per ricevere assistenza.
 
-9.  
-    
-    Utilizzo di **Autorizzazione di composizione** per configurare le regole di composizione per i chiamanti che chiamano un operatore automatico di messaggistica unificata. È possibile utilizzare queste impostazioni per controllare i numeri degli interni raggiungibili da un operatore automatico o per controllare i numeri di telefono che possono essere composti dai chiamanti che si sono collegati all'operatore automatico. È possibile configurare quanto segue:
+9.  Utilizzo di **Autorizzazione di composizione** per configurare le regole di composizione per i chiamanti che chiamano un operatore automatico di messaggistica unificata. È possibile utilizzare queste impostazioni per controllare i numeri degli interni raggiungibili da un operatore automatico o per controllare i numeri di telefono che possono essere composti dai chiamanti che si sono collegati all'operatore automatico. È possibile configurare quanto segue:
     
       - **Chiamate a utenti nello stesso dial plan**   Selezionare questa casella di controllo per consentire agli utenti che chiamano un operatore automatico di effettuare o trasferire chiamate a un numero di interno associato a un utente abilitato alla messaggistica unificata nello stesso dial plan dell'operatore automatico. Questa impostazione è abilitata per impostazione predefinita.
         

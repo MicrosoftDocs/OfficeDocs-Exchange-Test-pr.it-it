@@ -63,9 +63,7 @@ Per altre attività di gestione relative agli archivi, vedere:
 
 
 
-3.  
-    
-    In **Tag di conservazione**, visualizzare o modificare le seguenti impostazioni, quindi fare clic su **Salva**:
+3.  In **Tag di conservazione**, visualizzare o modificare le seguenti impostazioni, quindi fare clic su **Salva**:
     
       - **Nome**   Utilizzare questa casella nella parte superiore della pagina per visualizzare o modificare il nome del tag.
     

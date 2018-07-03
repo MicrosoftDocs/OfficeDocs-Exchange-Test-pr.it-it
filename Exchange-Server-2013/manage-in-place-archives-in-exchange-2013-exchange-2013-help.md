@@ -53,9 +53,7 @@ Archiviazione sul posto consente di riprendere il controllo dei dati di messaggi
 
 
 
-4.  
-    
-    Selezionare una delle seguenti opzioni:
+4.  Selezionare una delle seguenti opzioni:
     
       - **Utente esistente**   Fare clic su questo pulsante e scegliere **Sfoglia** per aprire la finestra di dialogo **Seleziona utente - Intera foresta**. Questa finestra di dialogo consente di visualizzare nella foresta un elenco di account utente di Active Directory che non sono abilitati alla posta o che non dispongono di cassette postali di Exchange. Selezionare gli account utente che si desidera abilitare alla posta e fare clic su **OK**. Se si seleziona questa opzione, non è necessario fornire le informazioni sull'account utente perché esistono già in Active Directory.
     
@@ -67,9 +65,7 @@ Archiviazione sul posto consente di riprendere il controllo dei dati di messaggi
 
 
 
-5.  
-    
-    Fare clic su **Altre opzioni** per configurare le seguenti impostazioni.
+5.  Fare clic su **Altre opzioni** per configurare le seguenti impostazioni.
     
       - **Database cassette postali**   Fare clic su **Sfoglia** per selezionare il database nel quale memorizzare la cassetta postale. Se non viene selezionato alcun database, Exchange ne assegnerà automaticamente uno.
     
@@ -81,9 +77,7 @@ Archiviazione sul posto consente di riprendere il controllo dei dati di messaggi
     
       - **Criterio rubrica**   Utilizzare questo elenco per selezionare un criterio per la rubrica per la cassetta postale. I criteri rubrica contengono un elenco di indirizzi globale, una rubrica offline , un elenco di sale e un set di elenchi di indirizzi. Quando un ABP viene assegnato agli utenti di cassette postali, fornisce loro un accesso ad un GAL personalizzato in Outlook e Outlook Web App. Per ulteriori informazioni, vedere [Criteri delle rubriche](address-book-policies-exchange-2013-help.md).
 
-6.  
-    
-    Al termine, scegliere **Salva** per creare la cassetta postale.
+6.  Al termine, scegliere **Salva** per creare la cassetta postale.
 
 ## Utilizzo di Shell
 
