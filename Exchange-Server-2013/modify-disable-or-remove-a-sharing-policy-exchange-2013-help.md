@@ -102,10 +102,13 @@ Per informazioni dettagliate sulla creazione di un criterio di condivisione, ved
         Set-SharingPolicy -Identity "Contoso" -Enabled $False
 
   - In questo esempio viene eliminato il criterio di condivisione Contoso. In questo secondo esempio viene rimosso il criterio di condivisione Contoso e viene eliminata la richiesta di conferma per la rimozione.
-    
-        Remove-SharingPolicy -Identity Contoso
-    
-        Remove-SharingPolicy -Identity Contoso -Confirm
+      
+      ```
+      Remove-SharingPolicy -Identity Contoso
+      ```
+      ```
+      Remove-SharingPolicy -Identity Contoso -Confirm
+      ```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-SharingPolicy](https://technet.microsoft.com/it-it/library/dd297931\(v=exchg.150\)) e [Remove-SharingPolicy](https://technet.microsoft.com/it-it/library/dd351071\(v=exchg.150\)).
 

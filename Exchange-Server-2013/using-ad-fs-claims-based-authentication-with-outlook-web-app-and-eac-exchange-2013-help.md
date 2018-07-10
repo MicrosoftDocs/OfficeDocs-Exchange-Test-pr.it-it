@@ -271,10 +271,12 @@ Per configurare server federativi Active Directory:
 12. Nella pagina **Risultati**, rivedere i risultati, verificare che la configurazione sia stata eseguita correttamente, quindi fare clic su **Passaggi successivi per il completamento della distribuzione del servizio federativo**.
 
 I seguenti comandi di PowerShell Windows eseguire la stessa funzione dei passaggi precedenti.
-
-    Import-Module ADFS
-
-    Install-AdfsFarm -CertificateThumbprint 0E0C205D252002D535F6D32026B6AB074FB840E7 -FederationServiceDisplayName "Contoso Corporation" -FederationServiceName adfs.contoso.com -GroupServiceAccountIdentifier "contoso\FSgmsa`$"
+```
+Import-Module ADFS
+```
+```
+Install-AdfsFarm -CertificateThumbprint 0E0C205D252002D535F6D32026B6AB074FB840E7 -FederationServiceDisplayName "Contoso Corporation" -FederationServiceName adfs.contoso.com -GroupServiceAccountIdentifier "contoso\FSgmsa`$"
+```
 
 Per informazioni dettagliate e sintassi, vedere [Install-AdfsFarm](https://go.microsoft.com/fwlink/?linkid=392704).
 

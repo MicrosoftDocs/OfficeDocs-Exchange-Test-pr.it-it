@@ -88,10 +88,13 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 Per verificare che è stato ripristinato il membro DAG, eseguire le operazioni seguenti:
 
   - Nella Shell, eseguire il comando seguente per verificare l'integrità e lo stato del membro DAG ripristinato.
-    
+
+       ```
         Test-ReplicationHealth <ServerName>
-    
+       ```
+       ```
         Get-MailboxDatabaseCopyStatus -Server <ServerName>
-    
+       ```
+
     Tutti i test dello stato di replica deve hanno esito positivo e lo stato dei database e dei relativi indici contenuti deve essere integro.
 

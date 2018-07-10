@@ -88,14 +88,17 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 **Utilizzo di Shell**
 
 Utilizzare i seguenti comandi per arrestare e disabilitare il servizio Ricerca di Microsoft Exchange.
-
-    Stop-Service MSExchangeFastSearch
-
-    Set-Service MSExchangeFastSearch -StartupType Disabled
+```
+Stop-Service MSExchangeFastSearch
+```
+```
+Set-Service MSExchangeFastSearch -StartupType Disabled
+```
 
 Utilizzare i seguenti comandi per configurare il servizio Ricerca di Microsoft Exchange per l'avvio automatico e quindi avviare il servizio.
-
-    Set-Service MSExchangeFastSearch -StartupType Automatic
-
-    Start-Service MSExchangeFastSearch
-
+```
+Set-Service MSExchangeFastSearch -StartupType Automatic
+```
+```
+Start-Service MSExchangeFastSearch
+```

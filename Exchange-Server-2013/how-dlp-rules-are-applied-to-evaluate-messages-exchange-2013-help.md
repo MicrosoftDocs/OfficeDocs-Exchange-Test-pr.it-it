@@ -146,10 +146,12 @@ Il modo in cui questa regola è impostata da Microsoft impone che perché una co
 ```
 
 L'esempio delle carte di credito illustrato in questo articolo può essere esteso ad altre informazioni sensibili. Per un elenco completo delle regole fornite da Microsoft in Exchange, utilizzare il cmdlet [Get-ClassificationRuleCollection](https://technet.microsoft.com/it-it/library/jj218696\(v=exchg.150\)) in Exchange Management Shell nel modo seguente:
-
-    $rule_collection = Get-ClassificationRuleCollection
-
-    $rule_collection[0].SerializedClassificationRuleCollection | Set-Content oob_classifications.xml -Encoding byte
+```
+$rule_collection = Get-ClassificationRuleCollection
+```
+```
+$rule_collection[0].SerializedClassificationRuleCollection | Set-Content oob_classifications.xml -Encoding byte
+```
 
 ## Ulteriori informazioni
 

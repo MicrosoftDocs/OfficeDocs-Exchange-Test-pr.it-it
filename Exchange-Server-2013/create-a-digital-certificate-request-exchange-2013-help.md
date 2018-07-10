@@ -62,10 +62,12 @@ Se non è stato selezionato un certificato autofirmato, sarà necessario inviare
 ## Creazione di una nuova richiesta di certificato tramite Shell
 
 Eseguire i comandi riportati di seguito.
-
-    $reqfile = New-ExchangeCertificate -GenerateRequest -SubjectName "C=US,o=Contoso,cn=contosotocert" -DomainName "contoso.com" -PrivateKeyExportable $true
-
-    $reqfile | out-file c:\certreq.txt
+  ```
+  $reqfile = New-ExchangeCertificate -GenerateRequest -SubjectName "C=US,o=Contoso,cn=contosotocert" -DomainName "contoso.com" -PrivateKeyExportable $true
+  ```
+  ```
+  $reqfile | out-file c:\certreq.txt
+  ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

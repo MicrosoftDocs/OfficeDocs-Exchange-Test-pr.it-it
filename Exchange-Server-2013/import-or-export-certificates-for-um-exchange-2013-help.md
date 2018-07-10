@@ -78,10 +78,12 @@ Con questo esempio viene effettuato quanto segue:
 3.  Emette il certificato in un file dopo che sono stati immessi nome utente e password.
 
 <!-- end list -->
-
-    $file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
-
-    Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
+```
+$file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
+```
+```
+Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
+```
 
 ## Importazione di un certificato tramite EAC
 

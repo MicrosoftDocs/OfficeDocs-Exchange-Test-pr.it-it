@@ -55,8 +55,7 @@ Le cassette postali costituiscono il tipo di destinatario più comune utilizzato
 
 
 
-4.  
-    
+4.      
     Selezionare una delle seguenti opzioni:
     
       - **Utente esistente**   Selezionare questa opzione per abilitare un utente esistente alla posta e creare una cassetta postale.
@@ -71,8 +70,7 @@ Le cassette postali costituiscono il tipo di destinatario più comune utilizzato
 
 
 
-5.  
-    
+5.      
     Se è stata selezionata l'opzione **Nuovo utente** nel passo 4, riempire le seguenti caselle nella pagina **Nuova cassetta postale utente**. Altrimenti, andare al passo 7.
     
       - **Nome**   Utilizzare questa casella per digitare il nome dell'utente.
@@ -109,8 +107,7 @@ Le cassette postali costituiscono il tipo di destinatario più comune utilizzato
         
         Se si seleziona questa casella di controllo, al primo accesso l'utente visualizzerà una finestra di dialogo in cui potrà modificare la password. L'utente non potrà eseguire alcuna operazione finché la password non viene modificata.
 
-6.  
-    
+6.      
     Fare clic su **Altre opzioni** per configurare le seguenti caselle. Altrimenti, passare direttamente al passo 7 per salvare la nuova cassetta postale utente.
     
       - **Specifica database delle cassette postali**   Utilizzare questa opzione per specificare un database delle cassette postali invece che permettere a Exchange di selezionarlo automaticamente. Fare clic su **Sfoglia** per aprire la finestra di dialogo **Seleziona database delle cassette postali**. In questa finestra di dialogo vengono elencati tutti i database delle cassette postali nell'organizzazione di Exchange. Per impostazione predefinita, i database delle cassette postali sono ordinati per nome. È inoltre possibile fare clic sul titolo della colonna corrispondente per ordinare i database in base al nome o alla versione del server. Selezionare il database delle cassette postali desiderato e fare clic su **OK**.
@@ -125,8 +122,7 @@ Le cassette postali costituiscono il tipo di destinatario più comune utilizzato
         
         Nell'elenco a discesa, selezionare il criterio da associare a questa cassetta postale.
 
-7.  
-    
+7.      
     Al termine, scegliere **Salva** per creare la cassetta postale.
 
 ## Utilizzare Shell per creare una cassetta postale utente

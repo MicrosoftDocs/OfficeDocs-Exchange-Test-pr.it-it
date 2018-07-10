@@ -51,8 +51,7 @@ Diversamente dai gruppi di distribuzione normali che contengono un set definito 
 
 1.  In EAC, individuare **Destinatari** \> **Gruppi** \> **Nuovo** \> **Gruppo di distribuzione dinamico**.
 
-2.  
-    
+2.      
     Nella pagina **Nuovo gruppo di distribuzione dinamico**, completare le seguenti caselle:
     
       - **\* Nome visualizzato**   Utilizzare questa casella per digitare il nome visualizzato. Questo nome verrà visualizzato nella Rubrica condivisa, nella riga A: quando il messaggio di posta elettronica viene inviato a questo gruppo e nell'elenco Gruppi nell'interfaccia di amministrazione di Exchange. Il nome visualizzato è obbligatorio e deve essere un nome descrittivo facilmente riconoscibile dagli utenti. Inoltre, deve essere univoco nella foresta.
@@ -72,8 +71,7 @@ Diversamente dai gruppi di distribuzione normali che contengono un set definito 
     
       - **Proprietario**  Il proprietario di un gruppo di distribuzione dinamico è facoltativo. È possibile aggiungere proprietari facendo clic su **Sfoglia** e selezionando gli utenti dall'elenco.
 
-3.  
-    
+3.      
     Utilizzare la sezione **Membri** per specificare i tipi di destinatari per il gruppo e configurare le regole che determineranno l'appartenenza. Selezionare una delle seguenti caselle:
     
       - **Tutti i tipi di destinatari**   Scegliere questa opzione per inviare messaggi che soddisfano i criteri definiti per questo gruppo a tutti i tipi di destinatario.
@@ -90,8 +88,7 @@ Diversamente dai gruppi di distribuzione normali che contengono un set definito 
         
           - **Gruppi abilitati alla posta**   Selezionare questa casella di controllo se si desidera includere i gruppi di protezione o i gruppi di distribuzione abilitati alla posta elettronica. I gruppi abilitati alla posta sono simili ai gruppi di distribuzione. I messaggi di posta elettronica inviati all'account di un gruppo abilitato alla posta elettronica saranno recapitati a diversi destinatari.
 
-4.  
-    
+4.      
     Fare clic su **Aggiungi regola** per definire i criteri per l'appartenenza a questo gruppo.
 
 5.  Selezionare uno dei seguenti attributi di destinatario dall'elenco a discesa e specificare un valore. Se il valore per l'attributo selezionato corrisponde al valore definito, il destinatario riceve un messaggio inviato a questo gruppo.

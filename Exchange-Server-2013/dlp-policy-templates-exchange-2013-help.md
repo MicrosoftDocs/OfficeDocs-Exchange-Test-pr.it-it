@@ -61,7 +61,7 @@ Le funzionalità di rilevamento DLP possono essere incorporate nelle regole di t
 
   -  [Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md)
     
-    [Cmdlet dei criteri e di conformità](https://technet.microsoft.com/it-it/library/dd298082\(v=exchg.150\))
+  -  [Cmdlet dei criteri e di conformità](https://technet.microsoft.com/it-it/library/dd298082\(v=exchg.150\))
 
 ## Utilizzo dei criteri DLP creati da Microsoft
 

@@ -51,7 +51,7 @@ Esistono due tipi di gruppi che possono essere utilizzati per la distribuzione d
 
 2.  Fare clic su **Nuovo**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") \> **Gruppo di distribuzione**.
 
-3.  > [!TIP]
+3.  > [!TIP]  
     > <IMG title="Nuovi gruppi di Office 365" alt="Nuovi gruppi di Office 365" src="images/Bb124513.3ea82c95-9dda-450f-823b-cd0772249d81(EXCHG.150).png"><BR>È ora possibile creare un gruppo di Office 365 anziché un gruppo di distribuzione, se si dispone di un piano per le aziende di Office 365 o di un piano Exchange Online. I gruppi di Office 365 dispongono delle caratteristiche di un gruppo di distribuzione e molte altre. Con i gruppi di Office 365, è possibile inviare messaggi di posta elettronica a un gruppo, condividere un calendario comune, avere una raccolta per archiviare e utilizzare file e cartelle di gruppo. Fare clic su <STRONG>Nuovo</STRONG><IMG title="Icona Aggiungi" alt="Icona Aggiungi" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif">&nbsp;&gt;&nbsp;<STRONG>Gruppo di Office 365</STRONG> per iniziare e consultare la <A href="https://go.microsoft.com/fwlink/p/?linkid=800653">guida per amministratori sui gruppi di Office 365</A>.<BR>Se si dispone di gruppi di distribuzione esistenti che si desidera migrare ai gruppi di Office 365, consultare la <A href="https://go.microsoft.com/fwlink/p/?linkid=824756">guida per amministratori sulla migrazione delle liste di distribuzione ai gruppi di Office 365</A>.<BR>Se si desidera creare un gruppo di distribuzione, selezionare o toccare la procedura guidata <STRONG>Nuovo gruppo di distribuzione</STRONG>.
 
 

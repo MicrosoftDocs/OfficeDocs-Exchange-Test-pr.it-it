@@ -93,12 +93,15 @@ Per verificare di aver creato correttamente una cartella pubblica, fare quanto s
   - Nell'interfaccia di amministrazione di Exchange, fare clic su **Aggiorna** per aggiornare l'elenco delle cartelle pubbliche. La nuova cartella pubblica verrà visualizzata nell'elenco.
 
   - In Shell, utilizzare uno dei seguenti comandi:
-    
-        Get-PublicFolder -Identity \Marketing\2013\Reports | Format-List
-    
-        Get-PublicFolder -Identity \Marketing\2013 -GetChildren
-    
-        Get-PublicFolder -Recurse
+    ```
+    Get-PublicFolder -Identity \Marketing\2013\Reports | Format-List
+    ```
+    ```
+    Get-PublicFolder -Identity \Marketing\2013 -GetChildren
+    ```
+    ```
+    Get-PublicFolder -Recurse
+    ```
 
 
 > [!TIP]

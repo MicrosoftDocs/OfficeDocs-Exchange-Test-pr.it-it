@@ -38,10 +38,12 @@ I gruppi di distribuzione dinamici sono particolari gruppi di distribuzione nei 
 ## Utilizzare Shell per visualizzare in anteprima l'elenco dei membri di un gruppo di distribuzione dinamico
 
 In questo esempio viene restituito l'elenco dei membri per il gruppo di distribuzione dinamico denominata dipendenti a tempo pieno. Il primo comando viene archiviato l'oggetto gruppo di distribuzione dinamico nella variabile `$FTE`. Il secondo comando utilizza il cmdlet **Get-Recipient** per elencare i destinatari che soddisfano i criteri definiti per il gruppo di distribuzione dinamico.
-
-    $FTE = Get-DynamicDistributionGroup "Full Time Employees"
-
-    Get-Recipient -RecipientPreviewFilter $FTE.RecipientFilter -OrganizationalUnit $FTE.RecipientContainer
+```
+$FTE = Get-DynamicDistributionGroup "Full Time Employees"
+```
+```
+Get-Recipient -RecipientPreviewFilter $FTE.RecipientFilter -OrganizationalUnit $FTE.RecipientContainer
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-DynamicDistributionGroup](https://technet.microsoft.com/it-it/library/bb124762\(v=exchg.150\)) e [Get-Recipient](https://technet.microsoft.com/it-it/library/aa996921\(v=exchg.150\)).
 

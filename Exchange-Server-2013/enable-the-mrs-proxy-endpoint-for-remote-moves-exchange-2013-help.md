@@ -100,10 +100,11 @@ Verificare che il parametro *MRSProxyEnabled* sia impostato su `True`.
 Un altro modo per verificare che l'endpoint del proxy MRS sia abilitato è quello di utilizzare il cmdlet **Test-MigrationServerAvailability** per verificare la capacità di comunicare con il server remoto che ospita le cassette postali da spostare, oppure nel caso di cassette postali Exchange Online off-boarding nell'organizzazione locale, un server nell'organizzazione locale. Per ulteriori informazioni, vedere [Test-MigrationServerAvailability](https://technet.microsoft.com/it-it/library/jj219169\(v=exchg.150\)).
 
 Nell'esempio seguente viene verificata la connessione a un server nella foresta corp.contoso.com.
-
-    $Credentials = Get-Credential
-
-    Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
-
+```
+$Credentials = Get-Credential
+```
+```
+Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
+```
 Per eseguire correttamente il comando, l'endpoint del proxy MRS deve essere abilitato.
 

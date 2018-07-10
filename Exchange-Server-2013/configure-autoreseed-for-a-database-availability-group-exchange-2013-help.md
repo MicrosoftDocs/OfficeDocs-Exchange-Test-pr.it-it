@@ -20,7 +20,7 @@ _**Ultima modifica dell'argomento:** 2013-04-15_
 Il reseeding automatico è una funzionalità per il ripristino rapido della ridondanza del database dopo un errore del disco. In caso di errore di un disco, viene eseguito il reseeding automatico delle copie del database archiviate in esso su un disco di riserva preconfigurato del server Cassette postali. È possibile utilizzare la procedura illustrata in questo argomento per configurare il reseeding automatico di un gruppo di disponibilità del database (DAG).
 
 
-> [!WARNING]
+> [!WARNING]  
 > La funzionalità Reseeding automatico non esegue tutte le attività di configurazione dei prerequisiti per l'utente. Le operazioni di corretta installazione dei dischi, aggiunta di dischi di riserva al sistema, sostituzione di dischi guasti e formattazione dei nuovi dischi devono essere eseguite manualmente da un amministratore.
 
 
@@ -40,7 +40,7 @@ Per altre attività di gestione relative ai gruppi di disponibilità del databas
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Problemi? È possibile richiedere supporto nei forum di Exchange. I forum sono disponibili sui seguenti siti: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -122,13 +122,18 @@ I volumi montati devono essere visualizzati nell'elenco di output.
 
 Successivamente, creare le directory di database nel percorso radice C:\\ExchangeDatabases. In questo esempio viene illustrato come creare directory per la configurazione di archiviazione con 4 database su ogni volume.
 
-    md c:\ExchangeDatabases\db001
-
-    md c:\ExchangeDatabases\db002
-
-    md c:\ExchangeDatabases\db003
-
-    md c:\ExchangeDatabases\db004
+```
+md c:\ExchangeDatabases\db001
+```
+```
+md c:\ExchangeDatabases\db002
+```
+```
+md c:\ExchangeDatabases\db003
+```
+```
+md c:\ExchangeDatabases\db004
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -161,22 +166,30 @@ C:\\\< *NomeCartellaDatabase*\>\\*NomeDatabase*\\\<*NomeDatabase*\>.db
 C:\\\< *NomeCartellaDatabase*\>\\*NomeDatabase*\\\<*NomeDatabase*\>.log
 
 In questo esempio, viene illustrato come creare le directory per 4 database che verranno archiviati sul volume 1:
-
-    md c:\ExchangeDatabases\db001\db001.db
-
-    md c:\ExchangeDatabases\db001\db001.log
-
-    md c:\ExchangeDatabases\db002\db002.db
-
-    md c:\ExchangeDatabases\db002\db002.log
-
-    md c:\ExchangeDatabases\db003\db003.db
-
-    md c:\ExchangeDatabases\db003\db003.log
-
-    md c:\ExchangeDatabases\db004\db004.db
-
-    md c:\ExchangeDatabases\db004\db004.log
+```
+md c:\ExchangeDatabases\db001\db001.db
+```
+```
+md c:\ExchangeDatabases\db001\db001.log
+```
+```
+md c:\ExchangeDatabases\db002\db002.db
+```
+```
+md c:\ExchangeDatabases\db002\db002.log
+```
+```
+md c:\ExchangeDatabases\db003\db003.db
+```
+```
+md c:\ExchangeDatabases\db003\db003.log
+```
+```
+md c:\ExchangeDatabases\db004\db004.db
+```
+```
+md c:\ExchangeDatabases\db004\db004.log
+```
 
 Ripetere i comandi precedenti per i database su ogni volume.
 
@@ -211,8 +224,9 @@ Per verificare la corretta configurazione del reseeding automatico per un gruppo
         Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
 
 2.  Utilizzare il seguente comando per verificare la corretta configurazione della struttura della directory (di seguito, sono riportati i percorsi predefiniti; se necessario, sostituirli con i percorsi utilizzati).
-    
-        Dir c:\ExchangeDatabases /s
-    
-        Dir c:\ExchangeVolumes /s
-
+    ```
+    Dir c:\ExchangeDatabases /s
+    ```
+    ```
+    Dir c:\ExchangeVolumes /s
+    ```

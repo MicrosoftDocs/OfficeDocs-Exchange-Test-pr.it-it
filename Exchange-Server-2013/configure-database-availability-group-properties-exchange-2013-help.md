@@ -38,7 +38,7 @@ _**Ultima modifica dell'argomento:** 2014-06-24_
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Problemi? È possibile richiedere supporto nei forum di Exchange. I forum sono disponibili sui seguenti siti: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A> o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -51,8 +51,7 @@ _**Ultima modifica dell'argomento:** 2014-06-24_
 
 2.  Selezionare il DAG che si desidera configurare e fare clic su ![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica").
 
-3.  
-    
+3.      
     Utilizzare la pagina **Generale** per visualizzare l'appartenenza al DAG e lo stato operativo e configurare il server di controllo del DAG, la directory di controllo e la configurazione automatica della rete:
     
       - **Server di controllo**   Il nome host o il nome di dominio completo (FQDN) del server di controllo per il gruppo di disponibilità del database. Anche se questa è una proprietà richiesta per tutti i DAG, il server di controllo verrà utilizzato quando ci sarà un numero pari di membri del DAG e il modello di quorum in uso da parte del cluster sarà Maggioranza dei nodi e della condivisione file.
@@ -63,8 +62,7 @@ _**Ultima modifica dell'argomento:** 2014-06-24_
     
       - **Configura la rete dei gruppi di database manualmente**   Selezionare questa casella se si desidera configurare tutte le reti dei DAG manualmente. Quando la casella di controllo viene lasciata deselezionata, il sistema configura automaticamente le reti del gruppo di disponibilità del database sulla base della configurazione dell''interfaccia della rete. Se la casella di spunta è deselezionata, i cmdlet **Set-DatabaseAvailabilityGroupNetwork** e **New-DatabaseAvailabilityGroupNetwork** sono disabilitati per l'uso amministrativo rispetto al gruppo di disponibilità del database.
 
-4.  
-    
+4.      
     Utilizzare la pagina **Indirizzi IP** per visualizzare e modificare gli indirizzi IP assegnati al DAG:
     
       - Selezionare un indirizzo IP esistente e fare clic su ![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica") per modificarlo.
@@ -73,8 +71,7 @@ _**Ultima modifica dell'argomento:** 2014-06-24_
     
       - Immettere un indirizzo IP e fare clic su ![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") per aggiungerlo al DAG.
 
-5.  
-    
+5.      
     Fare clic su **Salva** per salvare le modifiche apportate.
 
 ## Configurazione delle proprietà del gruppo di disponibilità del database tramite Shell
@@ -108,7 +105,7 @@ In questo esempio, la porta per la replica per un un gruppo di disponibilità de
     Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
 
 
-> [!NOTE]
+> [!NOTE]  
 > Una volta modificata la porta predefinita per la replica per un DAG, è necessario modificare manualmente le eccezioni Windows Firewall su ogni membro del DAG per consentire le comunicazioni sulla porta specificata.
 
 

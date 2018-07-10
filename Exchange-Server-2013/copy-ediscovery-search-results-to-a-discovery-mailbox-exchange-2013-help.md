@@ -84,10 +84,12 @@ Se si utilizza l'opzione *EstimateOnly* per ottenere una stima dei risultati del
     New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeUnsearchableItems
 
 Per copiare i risultati della ricerca in una cassetta postale di individuazione, eseguire i comandi seguenti:
-
-    Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
-
-    Start-MailboxSearch "FY13 Q2 Financial Results"
+  ```
+  Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
+  ```
+  ```
+  Start-MailboxSearch "FY13 Q2 Financial Results"
+  ```
 
 ## Ulteriori informazioni sulla copia dei risultati di ricerca
 

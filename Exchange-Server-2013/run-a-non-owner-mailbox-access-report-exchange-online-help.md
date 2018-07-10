@@ -49,9 +49,12 @@ Ad esempio, per abilitare il controllo delle cassette postali per un utente deno
 
 Per abilitare il controllo su tutte le cassette postali degli utenti di un'organizzazione, eseguire i comandi riportati di seguito.
 
-    $UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
-
-    $UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
+$UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
+```
+```
+$UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 

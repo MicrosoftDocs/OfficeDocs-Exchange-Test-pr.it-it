@@ -85,10 +85,13 @@ La portabilità consente agli utenti di disporre di una cassetta postale tempora
         Mount-Database -Identity RDB1
 
 13. Utilizzare i cmdlet [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) e [New-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829875\(v=exchg.150\)) per esportare i dati dall'RDB e importarli nel database ripristinato, come mostrato in questo esempio. In questo modo tutti i messaggi inviati e ricevuti verranno importati utilizzando il database del segnale di linea nel database di produzione.
-    
+
+       ```
         $mailboxes = Get-Mailbox -Database DTDB1
-    
+       ```
+       ```
         $mailboxes | %{ New-MailboxRestoreRequest -SourceStoreMailbox $_.ExchangeGuid -SourceDatabase RDB1 -TargetMailbox $_ }
+       ```
 
 14. Quando l'operazione di ripristino sarà stata completata, sarà possibile disinstallare e rimuovere l'RDB, come mostrato nell'esempio seguente.
     

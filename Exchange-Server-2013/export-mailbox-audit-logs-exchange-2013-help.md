@@ -64,10 +64,12 @@ Per abilitare la registrazione di controllo della cassetta postale per una sola 
     Set-Mailbox <Identity> -AuditEnabled $true
 
 per abilitare la registrazione di controllo su tutte le cassette postali degli utenti di un'organizzazione, eseguire i comandi riportati di seguito.
-
-    $UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
-
-    $UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
+$UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
+```
+```
+$UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
 
 ## Passaggio 2: Configurare Outlook Web App per consentire gli allegati XML
 

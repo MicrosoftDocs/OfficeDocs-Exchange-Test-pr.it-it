@@ -111,11 +111,12 @@ Il passaggio successivo consiste nell'utilizzare il cmdlet **New-MailboxSearch**
 4.  Una volta terminato il test della ricerca, utilizzare la Shell o EAC per copiare i risultati della ricerca nella cassetta postale di individuazione di destinazione.
     
       - **Utilizzo della Shell:**  Eseguire i seguenti comandi per copiare i risultati della ricerca. È necessario rimuovere il parametro *EstimateOnly* prima di poter copiare i risultati della ricerca.
-        
-            Set-MailboxSearch "Search results from 2010" -EstimateOnly $false
-        
-            Start-MailboxSearch "Search results from 2010"
-    
+      ```
+      Set-MailboxSearch "Search results from 2010" -EstimateOnly $false
+      ```
+      ```
+      Start-MailboxSearch "Search results from 2010"
+      ```
       - **Utilizzo di EAC:**  Accedere a **Gestione conformità** \> **In-Place eDiscovery e In-Place Hold**. Selezionare la ricerca, fare clic su **Cerca**![icona Cerca](images/Dd353189.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "icona Cerca"), quindi fare clic su **Copiare i risultati della ricerca**.
     
     Per ulteriori informazioni, vedere [Copiare i risultati della ricerca eDiscovery in una cassetta postale di individuazione](copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md).

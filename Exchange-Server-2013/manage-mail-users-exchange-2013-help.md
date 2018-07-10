@@ -58,8 +58,7 @@ Gli utenti di posta sono simili ai contatti di posta. Entrambi possiedono indiri
 
 4.  Nella casella **\* Indirizzo di posta elettronica esterno** digitare l'indirizzo di posta elettronica esterno dell'utente. I messaggi inviati all'utente di posta elettronica vengono inoltrati a questo indirizzo di posta elettronica. Questa casella è obbligatoria.
 
-5.  
-    
+5.      
     Selezionare una delle seguenti opzioni:
     
       - **Utente esistente**   Selezionare questa opzione per abilitare alla posta un utente esistente.
@@ -68,8 +67,7 @@ Gli utenti di posta sono simili ai contatti di posta. Entrambi possiedono indiri
     
       - **Nuovo utente**   Selezionare l'opzione per creare un nuovo account utente in Active Directory e abilitare alla posta l'utente. Se si seleziona questa opzione, sarà necessario fornire le informazioni richieste sull'account utente.
 
-6.  
-    
+6.      
     Se è stata selezionata l'opzione **Nuovo utente** nel passaggio 5, riempire le seguenti caselle nella pagina **Nuovo utente di posta**. Altrimenti, andare al passo 7.
     
       - **Nome**   Utilizzare questa casella per digitare il nome dell'utente di posta.
@@ -116,8 +114,7 @@ Gli utenti di posta sono simili ai contatti di posta. Entrambi possiedono indiri
         
         Se si seleziona questa casella di controllo, al primo accesso l'utente di posta visualizzerà una finestra di dialogo in cui potrà modificare la password. L'utente di posta non potrà eseguire alcuna operazione finché la password non viene modificata.
 
-7.  
-    
+7.      
     Al termine fare clic su **Salva** per creare l'utente di posta.
 
 ## Utilizzo della shell per creare un utente di posta
@@ -234,7 +231,7 @@ Utilizzare la sezione **Informazioni di contatto** per visualizzare o modificare
 
 Utilizzare la sezione **Organizzazione** per registrare informazioni dettagliate sul ruolo dell'utente nell'organizzazione. Queste informazioni vengono visualizzate nella rubrica. Inoltre, è possibile creare il diagramma di un'organizzazione virtuale a cui è possibile accedere dai client di posta elettronica quali Outlook.
 
-  - **Titolo   **Questa casella di testo consente di visualizzare o modificare il titolo del destinatario.
+  - **Titolo** Questa casella di testo consente di visualizzare o modificare il titolo del destinatario.
 
   - **Reparto**   Utilizzare questa casella per visualizzare o modificare il nome del reparto in cui lavora l'utente. È possibile utilizzare questa casella per creare le condizioni relative ai destinatari per i gruppi di distribuzione dinamici, i criteri per gli indirizzi di posta elettronica o gli elenchi di indirizzi.
 
