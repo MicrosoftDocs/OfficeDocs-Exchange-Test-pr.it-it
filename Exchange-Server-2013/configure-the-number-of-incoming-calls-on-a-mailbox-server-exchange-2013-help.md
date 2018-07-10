@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-23_
+_**Ultima modifica dell'argomento:** 2013-02-23_
 
 È possibile configurare il numero di connessioni contemporanee in ingresso che un server Cassette postali con il servizio di messaggistica unificata di Microsoft Exchange può accettare. Questo comprende chiamate in ingresso di Outlook Voice Access, ricezione chiamate, operatore automatico e chiamate fax. Se sul server Cassette postali viene aumentato il numero di connessioni contemporanee, saranno necessarie più risorse di sistema. Ridurre il numero di connessioni contemporanee è particolarmente importante nei computer più lenti su cui sono installati i servizi di messaggistica unificata. L'intervallo del numero di chiamate vocali contemporanee va da 0 e 200. L'impostazione predefinita è 100.
 

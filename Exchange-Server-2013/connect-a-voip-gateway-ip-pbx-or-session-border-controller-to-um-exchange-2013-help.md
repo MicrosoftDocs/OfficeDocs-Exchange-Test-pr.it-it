@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È necessario configurare vocale nel gateway IP (VoIP) e IP Private Branch Scambia (PBX) correttamente durante la distribuzione di messaggistica unificata (UM) per l'organizzazione. Se si distribuisce alla messaggistica UNIFICATA in un ambiente ibrido, sarà inoltre necessario configurare correttamente i session border controller (sbc). A tale scopo, è necessario configurare le interfacce del gateway VoIP, IP PBX e SBC per comunicare con i server Accesso Client che eseguono il servizio Microsoft Exchange Unified Messaging routing delle chiamate e il server cassette postali in esecuzione il servizio messaggistica unificata di Exchange o interfaccia.
 

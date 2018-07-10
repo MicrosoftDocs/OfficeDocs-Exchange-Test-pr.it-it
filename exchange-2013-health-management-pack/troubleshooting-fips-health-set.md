@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Project Server 2013_
+_**Si applica a:** Exchange Server 2013, Project Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Set di integrità **FIPS** esegue il monitoraggio dell'integrità globale delle impostazioni di elaborazione standard FIPS (Federal Information) nei server Exchange. Per ulteriori informazioni su FIPS 140, vedere [FIPS 140 convalida](https://go.microsoft.com/fwlink/p/?linkid=521913).
 

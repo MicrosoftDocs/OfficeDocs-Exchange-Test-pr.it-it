@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Abilitazione delle notifiche push di OWA per i dispositivi (OWA per iPhone e OWA per iPad) per una distribuzione locale di Microsoft Exchange 2013 consente agli utenti di ricevere aggiornamenti sull'icona di Outlook Web App o su OWA per iPhone/iPad, i quali indicano il numero di messaggi non letti presenti nella cartella Posta in arrivo. Se le notifiche push non sono configurate e abilitate, un utente con OWA per i dispositivi non può sapere in alcun modo quanti messaggi non letti sono presenti nella cartella Posta in arrivo, senza avviare l'app. Quando è disponibile un nuovo messaggio, il badge di OWA per i dispositivi viene aggiornato sul dispositivo dell'utente e avrà il seguente aspetto.
 
@@ -63,8 +63,7 @@ Tuttavia, per l'autenticazione tra server locali non è necessario utilizzare se
 
 Al fine di configurare l'autenticazione tra server per un'implementazione locale di Exchange Server 2013 su Office 365, è necessario effettuare due passaggi:
 
-  -  
-    **Passaggio 1: assegnare un certificato all'autorità emittente del token incorporato di Exchange Server.** Innanzitutto, un amministratore locale di Exchange deve utilizzare il seguente script di Exchange Management Shell per creare un certificato, se non è stato creato prima, e assegnarlo all'autorità emittente del token incorporato del server locale di Exchange. Si tratta di un processo di un solo passaggio. Dopo la creazione del certificato, quest'ultimo deve essere utilizzato di nuovo per altre situazioni di autenticazione e non deve essere sostituito. Assicurarsi di aggiornare il valore di *$tenantDomain* sul nome del proprio dominio. A tale scopo, copiare e incollare il codice seguente.
+  - **Passaggio 1: assegnare un certificato all'autorità emittente del token incorporato di Exchange Server.** Innanzitutto, un amministratore locale di Exchange deve utilizzare il seguente script di Exchange Management Shell per creare un certificato, se non è stato creato prima, e assegnarlo all'autorità emittente del token incorporato del server locale di Exchange. Si tratta di un processo di un solo passaggio. Dopo la creazione del certificato, quest'ultimo deve essere utilizzato di nuovo per altre situazioni di autenticazione e non deve essere sostituito. Assicurarsi di aggiornare il valore di *$tenantDomain* sul nome del proprio dominio. A tale scopo, copiare e incollare il codice seguente.
     
 
     > [!WARNING]
@@ -143,8 +142,7 @@ Al fine di configurare l'autenticazione tra server per un'implementazione locale
 
 
 
-  -  
-    **Passaggio 2: configurare Office 365 affinché comunichi con Exchange 2013 locale.** Configurare il server di Office 365 con cui comunica Exchange Server 2013 affinché sia un'applicazione partner. Ad esempio, se Exchange Server 2013 locale deve comunicare con Office 365, è necessario configurare Exchange locale affinché sia un'applicazione partner. Un'applicazione partner rappresenta qualsiasi applicazione con la quale Exchange 2013 può scambiare token di sicurezza in modo diretto, senza necessità di passare attraverso un server di token di sicurezza di terze parti. Un amministratore di Exchange 2013 locale deve utilizzare il seguente script di Exchange Management Shell per configurare il tenant di Office 365 con il quale comunica Exchange 2013 affinché sia un'applicazione partner. Durante l'esecuzione, verrà visualizzato un prompt per inserire il nome utente e la password dell'amministratore del dominio tenant di Office 365, ad esempio administrator@fabrikam.com. Assicurarsi di aggiornare il valore di *$CertFile* sul percorso del certificato, se non è stato creato dallo script precedente. A tale scopo, copiare e incollare il codice seguente.
+  - **Passaggio 2: configurare Office 365 affinché comunichi con Exchange 2013 locale.** Configurare il server di Office 365 con cui comunica Exchange Server 2013 affinché sia un'applicazione partner. Ad esempio, se Exchange Server 2013 locale deve comunicare con Office 365, è necessario configurare Exchange locale affinché sia un'applicazione partner. Un'applicazione partner rappresenta qualsiasi applicazione con la quale Exchange 2013 può scambiare token di sicurezza in modo diretto, senza necessità di passare attraverso un server di token di sicurezza di terze parti. Un amministratore di Exchange 2013 locale deve utilizzare il seguente script di Exchange Management Shell per configurare il tenant di Office 365 con il quale comunica Exchange 2013 affinché sia un'applicazione partner. Durante l'esecuzione, verrà visualizzato un prompt per inserire il nome utente e la password dell'amministratore del dominio tenant di Office 365, ad esempio administrator@fabrikam.com. Assicurarsi di aggiornare il valore di *$CertFile* sul percorso del certificato, se non è stato creato dallo script precedente. A tale scopo, copiare e incollare il codice seguente.
     
         # Make sure to update the following $CertFile with the path to the cert if not using the previous script.
         
@@ -218,7 +216,7 @@ Il risultato previsto dovrebbe avere un aspetto analogo al seguente.
 
 Dopo aver effettuato la procedura precedente, le notifiche push devono essere provate in questo modo:
 
-  - **Invio di un messaggio di posta elettronica di testo alla cassetta postale dell'utente:**
+  - **Invio di un messaggio di posta elettronica di testo alla cassetta postale dell'utente:** 
     
     1.  Configurare un account in OWA per dispositivi su un dispositivo mobile al fine di eseguire la sottoscrizione per le notifiche.
     

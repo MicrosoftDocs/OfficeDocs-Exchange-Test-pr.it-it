@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-02_
+_**Ultima modifica dell'argomento:** 2012-11-02_
 
 Se necessario, è possibile creare altre reti da utilizzare in un gruppo di disponibilità del database. Per creare una rete del gruppo di disponibilità del database (DAG) è possibile utilizzare l'interfaccia di amministrazione di Exchange o Shell.
 
@@ -47,8 +47,7 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 
 2.  Selezionare il DAG che si desidera configurare, quindi fare clic su ![Aggiunta di una rete del gruppo di disponibilità del database](images/Dd298051.befcdc4e-7f7a-451d-a0a8-608c79f5d186(EXCHG.150).gif "Aggiunta di una rete del gruppo di disponibilità del database").
 
-3.  
-    
+3.      
     Nella pagina **Nuova rete gruppo di disponibilità del database**, fornire le seguenti informazioni:
     
       - **Nome della rete per il gruppo di disponibilità del database**   In questo campo digitare un nome per la rete univoco nel gruppo di disponibilità del database.

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Utilizzare questo elenco di controllo per effettuare l'aggiornamento da Messaggistica unificata di Exchange a Messaggistica unificata di Exchange 2013. Assicurarsi di fare riferimento a queste informazioni quando si esegue l'aggiornamento dell'organizzazione Exchange 2007 e della distribuzione di messaggistica unificata a Exchange 2013. Per istruzioni dettagliate relative all'aggiornamento a Messaggistica unificata di Exchange 2013, vedere [Eseguire l'aggiornamento alla messaggistica UNIFICATA di Exchange 2007 a messaggistica UNIFICATA di Exchange 2013](upgrade-exchange-2007-um-to-exchange-2013-um-exchange-2013-help.md).
 

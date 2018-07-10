@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In questo argomento vengono descritte le autorizzazioni necessarie per configurare un'organizzazione di Microsoft Exchange Server 2013. I gruppi di protezione universali (USG) associati ai gruppi del ruolo di gestione e altre entità di sicurezza e gruppi di protezione di Windows vengono aggiunti agli elenchi di controllo degli accessi (ACL) di diversi oggetti Active Directory. Gli ACL controllano le operazioni che possono essere eseguite su ciascun oggetto. Venendo a conoscenza delle autorizzazioni concesse a ogni gruppo di ruoli, gruppo di protezione o entità di sicurezza, è possibile determinare le autorizzazioni minime necessarie per installare Exchange 2013.
 

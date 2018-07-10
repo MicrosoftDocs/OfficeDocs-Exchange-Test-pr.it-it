@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-17_
+_**Ultima modifica dell'argomento:** 2014-02-17_
 
 Viene considerato autorevole il dominio appartenente all'organizzazione che ospita le cassette postali di tutti i destinatari nell'ambito dello spazio dei nomi SMTP. Per impostazione predefinita, viene configurato come autorevole un dominio accettato per l'organizzazione Exchange. Se l'organizzazione dispone di più spazi dei nomi SMTP, è possibile configurare più domini accettati come autorevoli.
 

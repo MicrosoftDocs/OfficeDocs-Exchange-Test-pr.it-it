@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Il programma di installazione di Microsoft Exchange Server 2013 ha rilevato un tentativo di installazione del ruolo del server Accesso client quando il ruolo è già installato nel computer.
 

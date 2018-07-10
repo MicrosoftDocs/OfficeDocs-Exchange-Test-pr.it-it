@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_**Ultima modifica dell'argomento:** 2016-12-15_
 
 L'installazione di Exchange Server 2013 non può proseguire in quanto è necessario un aggiornamento del software nel computer locale. Per poter proseguire con l'installazione di Exchange 2013 è necessario installare questo aggiornamento.
 
@@ -29,7 +29,7 @@ Scaricare e installare l'aggiornamento a 64 bit dal seguente URL, quindi fare cl
 
 
 
-Articolo della Microsoft Knowledge Base KB2619234, [è disponibile un hotfix per abilitare i Cookie/GUID di associazione che utilizzate da RPC su HTTP per essere utilizzato anche livello del RPC in Windows 7 e Windows Server 2008 R2)](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2619234)
+Articolo della Microsoft Knowledge Base KB2619234, [è disponibile un hotfix per abilitare i Cookie/GUID di associazione che utilizzate da RPC su HTTP per essere utilizzato anche livello del RPC in Windows 7 e Windows Server 2008 R2)](https://go.microsoft.com/fwlink/?linkid=3052&kbid=2619234)
 
 Problemi? È possibile richiedere supporto nei forum di Exchange. I forum sono disponibili sui seguenti siti: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542) o [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351).
 

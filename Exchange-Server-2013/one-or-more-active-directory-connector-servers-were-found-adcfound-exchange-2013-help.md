@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_**Ultima modifica dell'argomento:** 2016-12-15_
 
 Il contenuto di questo argomento non è stato aggiornato per Microsoft Exchange Server 2013. Sebbene non sia stato aggiornato, può comunque essere applicabile anche a Exchange 2013. In caso di problemi, consultare le risorse della community riportate di seguito.
 
@@ -60,9 +60,9 @@ Per risolvere questo problema, rimuovere tutti i componenti di ADC e rieseguire 
 
 Per ulteriori informazioni su ADC, vedere gli articoli della Microsoft Knowledge Base seguenti:
 
-  - 325300, "supporto WebCast: Introduzione al connettore di Active Directory" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=325300](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=325300)).
+  - 325300, "supporto WebCast: Introduzione al connettore di Active Directory" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=325300](https://go.microsoft.com/fwlink/?linkid=3052&kbid=325300)).
 
-  - 325221, "Webcast del supporto tecnico: Microsoft Advanced Active Directory Connector" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=325221](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=325221)).
+  - 325221, "Webcast del supporto tecnico: Microsoft Advanced Active Directory Connector" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=325221](https://go.microsoft.com/fwlink/?linkid=3052&kbid=325221)).
 
-  - 312632 "Come installare e configurare il connettore di Active Directory in Exchange 2000 Server" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=312632](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=312632)).
+  - 312632 "Come installare e configurare il connettore di Active Directory in Exchange 2000 Server" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=312632](https://go.microsoft.com/fwlink/?linkid=3052&kbid=312632)).
 

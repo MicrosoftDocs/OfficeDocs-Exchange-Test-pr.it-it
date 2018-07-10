@@ -13,9 +13,9 @@ ms.translationtype: MT
 
 Questo argomento è in fase di definizione. 
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Questa raccolta di argomenti concettuali e procedurali è organizzata in base all'oggetto o alla tecnologia utilizzati da Microsoft Exchange. È possibile accedere ai singoli argomenti direttamente dal Sommario nel riquadro a sinistra, da un collegamento presente all'interno di un altro argomento della Guida, dai risultati di una ricerca o dal proprio elenco di argomenti preferiti.
 

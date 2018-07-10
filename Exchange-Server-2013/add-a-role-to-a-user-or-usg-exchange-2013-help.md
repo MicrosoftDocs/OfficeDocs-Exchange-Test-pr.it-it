@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Le assegnazioni del ruolo di gestione consentono di assegnare un ruolo di gestione a un utente o a un gruppo di protezione universale (USG, Universal Security Group). Assegnando un ruolo a un utente o a un gruppo di protezione universale, gli utenti possono eseguire attività dipendenti dai cmdlet o dagli script e dai relativi parametri definiti nel ruolo di gestione.
 

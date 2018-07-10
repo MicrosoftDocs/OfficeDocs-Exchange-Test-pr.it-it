@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-05_
+_**Ultima modifica dell'argomento:** 2012-10-05_
 
 Utilizzare i criteri cassetta postale di MicrosoftOutlook Web App per creare criteri a livello di organizzazione per la gestione dell'accesso alle funzionalità di Outlook Web App.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Quarantena della posta indesiderata è una funzionalità dell'agente Filtro contenuti che riduce il rischio di perdita di messaggi legittimi. Tale funzionalità fornisce una posizione di archiviazione temporanea per i messaggi identificati come posta indesiderata che non devono essere consegnati alla cassetta postale di un utente all'interno dell'organizzazione.
 
@@ -126,7 +126,7 @@ Per impostazione predefinita, non è possibile selezionare questi campi in Micro
         
           - *\<VersioneOffice\>*   Per Outlook 2007, il valore è `Office12`. Per Outlook 2010 il valore è `Office14`. Per Outlook 2013 il valore è `Office15`.
         
-          - *\<LCID\>*   È il valore dell'ID impostazioni locali (LCID). Ad esempio, il valore LCID per Inglese (Stati Uniti) è 1033. Per ulteriori informazioni, vedere [KB221435: Elenco degli identificatori delle impostazioni locali supportate in Word](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=221435).
+          - *\<LCID\>*   È il valore dell'ID impostazioni locali (LCID). Ad esempio, il valore LCID per Inglese (Stati Uniti) è 1033. Per ulteriori informazioni, vedere [KB221435: Elenco degli identificatori delle impostazioni locali supportate in Word](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=221435).
     
       - **Nome**   Nel resto della procedura si presumerà che il file sia denominato `QTNE.cfg`. Il nome del file non è importante, ma occorre assicurarsi di racchiudere il valore tra virgolette in modo che il file venga salvato come QTNE.cfg e non come QTNE.cfg.txt.
     

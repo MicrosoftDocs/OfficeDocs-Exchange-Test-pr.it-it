@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-13_
+_**Ultima modifica dell'argomento:** 2015-04-13_
 
 È possibile utilizzare gli script di Exchange Management Shell forniti (al percorso %ExchangeInstallPath%Scripts) per duplicare la configurazione di un server Trasporto Edge. Questo processo viene definito *configurazione clonata*. Per *configurazione clonata* si intende la distribuzione dei nuovi server Trasporto Edge in base alle informazioni sulla configurazione di un server di origine configurato in precedenza. Le informazioni sulla configurazione del server di origine precedentemente configurato vengono copiate ed esportate in un file XML, che viene quindi importato nel server di destinazione. Per una panoramica di questo processo, vedere [Configurazione clonata del server Trasporto Edge](edge-transport-server-cloned-configuration-exchange-2013-help.md).
 

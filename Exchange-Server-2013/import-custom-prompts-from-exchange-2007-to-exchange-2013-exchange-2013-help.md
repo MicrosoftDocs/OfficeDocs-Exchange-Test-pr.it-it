@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile importare i file audio file che contengono messaggi di saluto personalizzati, annunci, menu e menu vocali da Messaggistica unificata di Exchange 2007 nella Messaggistica unificata di Exchange 2013. Tramite uno script Shell, i menu vocali vengono importati nella cassetta postale del sistema Exchange denominata {e0dc1c29-89c3-4034-b678-e6c29d823ed9}, che viene creata durante l'installazione di Microsoft Exchange 2013. La cassetta postale del sistema viene utilizzata nella Messaggistica unificata per memorizzare annunci, menu, menu vocali, rapporti di Messaggistica unificata e messaggi di saluto personalizzati di dial plan e operatori automatici.
 

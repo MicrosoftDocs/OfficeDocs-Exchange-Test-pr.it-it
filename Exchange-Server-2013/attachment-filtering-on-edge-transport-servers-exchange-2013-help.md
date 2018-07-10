@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-10_
+_**Ultima modifica dell'argomento:** 2014-02-10_
 
 In Microsoft Exchange Server 2013, è possibile utilizzare la funzionalità di filtro degli allegati sui server Trasporto Edge per controllare gli allegati che gli utenti ricevono nei messaggi di posta elettronica. Il filtro degli allegati viene eseguito dall'agente di filtro degli allegati, che è disponibile soltanto sui server Trasporto Edge.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Utilizzando il cmdlet **MailboxImportRequest** o **MailboxExportRequest** imposta in Exchange Management Shell, è possibile importare dati da o esportare dati nei file. pst. Dopo aver avviare un'importazione delle cassette postali o esportare richiesta, il completamento del processo asincrono dal servizio di replica delle cassette postali (MRS) Microsoft Exchange. MRS si trova in tutti i server Accesso Client Exchange 2010 e del servizio di responsabile per lo spostamento delle cassette postali e importazione ed esportazione di file con estensione pst.
 

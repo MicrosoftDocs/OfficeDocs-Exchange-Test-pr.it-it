@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Per rendere disponibile nell'elenco delle lingue disponibili di messaggistica unificata su un dial plan di messaggistica UNIFICATA o operatore automatico di messaggistica UNIFICATA una lingua, è innanzitutto necessario installare il language pack di messaggistica UNIFICATA appropriato. Installare il language pack in un server delle cassette postali in esecuzione il servizio messaggistica unificata di Exchange utilizzando il file eseguibile autoestraente specifiche del linguaggio o il comando **setup.exe /AddUmLanguagePack** . Prima di installare un language pack di messaggistica UNIFICATA, è innanzitutto necessario scaricarlo in una cartella locale sul server cassette postali. È possibile scaricare language pack di messaggistica UNIFICATA di [Exchange 2013 UM Language Pack Server](https://go.microsoft.com/fwlink/p/?linkid=266542). Non esiste un file eseguibile separato per ogni lingua.
 

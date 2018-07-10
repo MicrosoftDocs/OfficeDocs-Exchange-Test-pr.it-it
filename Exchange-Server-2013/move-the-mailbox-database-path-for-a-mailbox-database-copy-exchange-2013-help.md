@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-05-07_
+_**Ultima modifica dell'argomento:** 2014-05-07_
 
 Dopo aver creato un database delle cassette postali, è possibile spostarlo su un altro volume, in un'altra cartella o in un diverso percorso utilizzando l'interfaccia di amministrazione di Exchange o Shell. Per istruzioni dettagliate su come spostare il percorso di un database delle cassette postali non replicato, vedere [Move a mailbox database path](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md).
 

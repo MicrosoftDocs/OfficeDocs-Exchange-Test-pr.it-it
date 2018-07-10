@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Le autorizzazioni richieste per eseguire le operazioni di configurazione dei ruoli di gestione dipendono dalla procedura eseguita o dal cmdlet che si intende eseguire. Per ulteriori informazioni sui ruoli di gestione, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).
 

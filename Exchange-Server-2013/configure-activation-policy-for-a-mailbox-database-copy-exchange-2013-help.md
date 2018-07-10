@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-02_
+_**Ultima modifica dell'argomento:** 2012-11-02_
 
 L'*attivazione* è il processo di modifica di una copia di database delle cassette postali che da passiva diventa attiva. L'attivazione avviene automaticamente come parte di un'operazione di failover del server o del database e può essere eseguita manualmente da un amministratore come parte di un'operazione di cambiamento del server o del database. Bloccare il database per l'attivazione fa sì che il database non diventi la copia attiva durante un failover del server o del database.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile scoprire tutte le nuove funzionalità in Exchange 2013.
 

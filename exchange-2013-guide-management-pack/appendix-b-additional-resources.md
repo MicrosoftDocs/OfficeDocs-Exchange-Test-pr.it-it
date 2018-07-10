@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:** 2012-11-14_
+_**Ultima modifica dell'argomento:**  2012-11-14_
 
 Le seguenti risorse forniscono informazioni sulle attività comuni associate a Management Pack di System Center:
 

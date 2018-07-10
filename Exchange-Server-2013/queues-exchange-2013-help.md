@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Una *coda* è una posizione di conservazione temporanea per i messaggi in attesa di passare alla fase successiva dell'elaborazione o di essere recapitati a una destinazione. Ogni coda rappresenta un insieme logico di messaggi elaborato da un server Exchange in base a un ordine specifico. In Microsoft Exchange Server 2013, nelle code i messaggi vengono conservati prima, durante e dopo il recapito. Le code esistono sui server Cassette postali e sui server Trasporto Edge. In questo argomento, i server Cassette postali e i server Trasporto Edge sono detti *server di trasporto*.
 

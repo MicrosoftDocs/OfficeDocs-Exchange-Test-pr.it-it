@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Remote and Accepted Domains` consente agli amministratori di gestire i domini remoti e accettati in un'organizzazione.
 

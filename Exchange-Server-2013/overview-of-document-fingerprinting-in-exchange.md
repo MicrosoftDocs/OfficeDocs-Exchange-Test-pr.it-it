@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-09-11_
+_**Ultima modifica dell'argomento:** 2014-09-11_
 
 Gli Information Worker dell'organizzazione gestiscono molti tipi di informazioni riservate durante una giornata. *La creazione impronta digitale documenti* rende più semplice proteggere le informazioni identificando moduli standard utilizzati all'interno dell'organizzazione. In questo argomento vengono forniti i concetti dietro la creazione impronta digitale documenti. Se si desidera imparare a creare un'impronta digitale del documento, vedere [Proteggere i dati del modulo con documento fingerprinting](protect-form-data-with-document-fingerprinting-exchange-2013-help.md).
 

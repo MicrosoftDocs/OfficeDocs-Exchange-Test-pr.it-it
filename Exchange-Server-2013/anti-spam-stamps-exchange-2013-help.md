@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Gli indicatori di protezione da posta indesiderata permettono di effettuare una diagnosi dei problemi relativi alla posta indesiderata applicando i metadati diagnostici o gli indicatori, come le informazioni specifiche sul mittente, i risultati della convalida puzzle e di filtro contenuto, ai messaggi quando passano attraverso le funzionalità di protezione da posta indesiderata che filtrano i messaggi in ingresso da Internet. Ci sono tre contrassegni filtro posta indesiderata: indicatore del livello di probabilità di phishing, indicatore del livello di probabilità di posta indesiderata e indicatore ID mittente.
 

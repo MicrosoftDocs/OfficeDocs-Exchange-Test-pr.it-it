@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 L'amministratore dell'organizzazione di Exchange 2013 e Exchange Online può configurare Outlook Web App affinché consente l'invio e la ricezione di messaggi protetti con S/MIME. Utilizzare il cmdlet `SMIMEConfig` per gestire questa funzionalità tramite l'interfaccia di Exchange Management Shell.
 

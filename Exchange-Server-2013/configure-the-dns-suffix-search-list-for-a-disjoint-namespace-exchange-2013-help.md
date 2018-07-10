@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In questo argomento viene spiegato come utilizzare Group Policy Management Console (GPMC, Group Policy Management Console) per configurare l'elenco di ricerca suffissi DNS. In alcuni scenari di Exchange 2013, se è presente uno spazio dei nomi disgiunto, è necessario configurare l'elenco di ricerca suffissi DNS per includere più suffissi.
 

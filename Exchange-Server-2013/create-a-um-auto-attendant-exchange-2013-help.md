@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-03-08_
+_**Ultima modifica dell'argomento:** 2013-03-08_
 
 Dopo aver creato un operatore automatico di messaggistica unificata (UM), le chiamate in arrivo a un numero di telefono esterno che potrebbe rispondere a un operatore umano sono ha risposto per l'operatore automatico. A differenza con altri componenti di messaggistica unificata, ad esempio messaggistica unificata dial plan e i gateway IP di messaggistica unificata, non sono necessari per creare gli operatori automatici di messaggistica unificata. Tuttavia, gli operatori automatici Guida interno e i chiamanti esterni consente di individuare gli utenti o i reparti che esistono in un'organizzazione e trasferire loro le chiamate.
 

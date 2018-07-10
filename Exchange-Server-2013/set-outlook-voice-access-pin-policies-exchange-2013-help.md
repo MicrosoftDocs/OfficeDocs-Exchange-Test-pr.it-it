@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile impostare i criteri PIN su un criterio cassetta postale di messaggistica unificata. I criteri cassetta postale di messaggistica unificata possono essere configurati in modo da aumentare il livello di sicurezza degli utenti abilitati alla messaggistica unificata che utilizzano Outlook Voice Access chiedendo loro di adeguarsi ai criteri PIN predefiniti dell'organizzazione.
 

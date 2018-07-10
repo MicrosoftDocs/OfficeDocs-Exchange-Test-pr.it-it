@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-05-21_
+_**Ultima modifica dell'argomento:** 2013-05-21_
 
 In Microsoft Exchange Server 2013, i siti Active Directory e i gruppi di disponibilità dei database (DAG, Database Availability Group) vengono riconosciuti come confini di routing. Tuttavia, Exchange 2013 utilizza comunque la topologia dei siti di Active Directory per stabilire la modalità di trasporto dei messaggi dai server di Exchange a diversi gruppi di disponibilità dei database o siti interni all'azienda. Per ulteriori informazioni, vedere [Routing della posta](mail-routing-exchange-2013-help.md).
 

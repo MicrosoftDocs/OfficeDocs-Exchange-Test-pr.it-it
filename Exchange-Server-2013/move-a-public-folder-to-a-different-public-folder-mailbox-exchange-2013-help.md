@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-11-16_
+_**Ultima modifica dell'argomento:** 2016-11-16_
 
 Se il contenuto di una cassetta postale delle cartelle pubbliche inizia a superare le quote delle cassette postali, potrebbe essere necessario spostare le cartelle pubbliche in un'altra cassetta postale. È possibile eseguire questa operazione in due modi. Per spostare una o più cartelle pubbliche che non contengono sottocartelle, è possibile utilizzare i cmdlet **PublicFolderMoveRequest**. Per spostare un intero ramo di cartelle pubbliche, che include la cartella pubblica padre e tutte le sottocartelle, è possibile utilizzare lo script `Move-PublicFolderBranch.ps1` disponibile durante l'installazione di Exchange 2013.
 

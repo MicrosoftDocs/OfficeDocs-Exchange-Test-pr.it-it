@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-16_
+_**Ultima modifica dell'argomento:** 2014-12-16_
 
 Per impostazione predefinita, quando si installa il ruolo del server Cassette postali, viene creata una Rubrica offline predefinita basata su Web denominata Rubrica offline predefinita. È possibile impostare come predefinita qualsiasi Rubrica offline nella propria organizzazione Exchange. La nuova Rubrica offline predefinita viene associata a tutti i nuovi database delle cassette postali creati. Nella propria organizzazione è possibile disporre di un'unica Rubrica offline predefinita. Se si elimina la Rubrica offline predefinita, MicrosoftExchange non assegna automaticamente un'altra Rubrica offline come predefinita. Pertanto, è necessario impostare manualmente una nuova Rubrica offline come predefinita.
 

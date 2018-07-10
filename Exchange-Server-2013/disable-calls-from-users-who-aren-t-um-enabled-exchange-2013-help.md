@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 È possibile abilitare o disabilitare le chiamate effettuate da utenti non abilitati alla messaggistica unificata. Per impostazione predefinita, tramite operatore automatico, la messaggistica unificata consente il trasferimento delle chiamate effettuate da chiamanti non autenticati a utenti abilitati alla messaggistica unificata. Se questa impostazione è abilitata, gli utenti esterni all'organizzazione possono trasferire le chiamate a utenti abilitati alla messaggistica unificata.
 

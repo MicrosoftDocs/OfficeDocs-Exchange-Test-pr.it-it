@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-07-26_
+_**Ultima modifica dell'argomento:** 2017-07-26_
 
 Per stabilire una relazione di trust federativa tra l'organizzazione di Exchange Server 2013 Microsoft e il [sistema di autenticazione di Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=135986), è necessario un certificato digitale installato nel server Exchange utilizzato per creare la relazione di trust. Si consiglia utilizzando un certificato autofirmato. Un certificato autofirmato creato e installato automaticamente quando si utilizza la procedura guidata **abilitare trust federativo** in Interfaccia di amministrazione di Exchange (EAC).
 

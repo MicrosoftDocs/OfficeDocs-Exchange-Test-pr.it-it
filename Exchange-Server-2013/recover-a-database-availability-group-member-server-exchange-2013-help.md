@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Se un server cassette postali che è un membro di un gruppo di disponibilità del database (DAG) si perde o in caso contrario ha esito negativo e non è ripristinabile e debba essere sostituita, è possibile eseguire un'operazione di ripristino server. Microsoft Exchange Server 2013 il programma di installazione include l' opzione */m:RecoverServer* che può essere utilizzato per eseguire l'operazione di ripristino server. Eseguire il programma di installazione con i */m:RecoverServer* fa sì che il programma di installazione per leggere le informazioni di configurazione del server da Active Directory per un server con lo stesso nome del server da cui si sta eseguendo il programma di installazione. Al termine della configurazione di server informazioni raccolte dal Active Directory, i file originali Exchange e servizi vengono installati sul server e i ruoli e le impostazioni archiviate nel Active Directory quindi vengono applicate al server.
 
@@ -88,10 +88,13 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 Per verificare che è stato ripristinato il membro DAG, eseguire le operazioni seguenti:
 
   - Nella Shell, eseguire il comando seguente per verificare l'integrità e lo stato del membro DAG ripristinato.
-    
+
+       ```
         Test-ReplicationHealth <ServerName>
-    
+       ```
+       ```
         Get-MailboxDatabaseCopyStatus -Server <ServerName>
-    
+       ```
+
     Tutti i test dello stato di replica deve hanno esito positivo e lo stato dei database e dei relativi indici contenuti deve essere integro.
 

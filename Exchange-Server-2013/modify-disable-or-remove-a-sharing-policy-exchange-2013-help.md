@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-15_
+_**Ultima modifica dell'argomento:** 2014-02-15_
 
 La condivisione dei criteri consente ai singoli utenti nell'organizzazione di Exchange di condividere le informazioni di disponibilità del calendario con altre organizzazione federate di Exchange, organizzazioni non federate di Exchange e singoli utenti di Internet. Nel corso delle normali operazioni, potrebbe essere necessario modificare alcune proprietà dei criteri di condivisione, come modificare le regole di condivisione, modificare il livello di accesso alla disponibilità del calendario, disattivare temporanemanete un criterio di condivisione o rimuoverlo completamente.
 
@@ -102,10 +102,13 @@ Per informazioni dettagliate sulla creazione di un criterio di condivisione, ved
         Set-SharingPolicy -Identity "Contoso" -Enabled $False
 
   - In questo esempio viene eliminato il criterio di condivisione Contoso. In questo secondo esempio viene rimosso il criterio di condivisione Contoso e viene eliminata la richiesta di conferma per la rimozione.
-    
-        Remove-SharingPolicy -Identity Contoso
-    
-        Remove-SharingPolicy -Identity Contoso -Confirm
+      
+      ```
+      Remove-SharingPolicy -Identity Contoso
+      ```
+      ```
+      Remove-SharingPolicy -Identity Contoso -Confirm
+      ```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-SharingPolicy](https://technet.microsoft.com/it-it/library/dd297931\(v=exchg.150\)) e [Remove-SharingPolicy](https://technet.microsoft.com/it-it/library/dd351071\(v=exchg.150\)).
 

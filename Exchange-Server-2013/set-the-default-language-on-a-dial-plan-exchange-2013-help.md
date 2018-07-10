@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile impostare la lingua predefinita per un dial plan di messaggistica unificata (UM). Ogni dial plan creato utilizzerà l'inglese (en-US) come lingua predefinita. Il Language Pack per l'inglese (en-US) è installato in tutte le versioni di Microsoft Exchange Server 2013 e non può essere rimosso.
 

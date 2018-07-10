@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Office 365 Enterprise_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Office 365 Enterprise_
 
-_**Ultima modifica dell'argomento:**2017-06-19_
+_**Ultima modifica dell'argomento:** 2017-06-19_
 
 Blocco sul posto, blocco per controversia legale e i [criteri di conservazione di Office 365](http://go.microsoft.com/fwlink/?linkid=827811) (creati nel Centro sicurezza e conformità di Office 365) consentono di mantenere i contenuti delle cassette postali per soddisfare i requisiti di eDiscovery e la conformità alle normative. Per impostazione predefinita, le informazioni sui destinatari inseriti direttamente nei campi A e Cc di un messaggio sono incluse in tutti i messaggi, ma l'organizzazione può richiedere la possibilità di cercare e riprodurre i dettagli di tutti i destinatari di un messaggio. Ciò include:
 

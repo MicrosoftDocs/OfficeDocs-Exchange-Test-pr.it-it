@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-03-26_
+_**Ultima modifica dell'argomento:** 2018-03-26_
 
-**Riepilogo:** in questo articolo viene illustrato come spostare cartelle pubbliche da Exchange 2007 o Exchange 2010 a Exchange 2013.
+**Riepilogo:**  in questo articolo viene illustrato come spostare cartelle pubbliche da Exchange 2007 o Exchange 2010 a Exchange 2013.
 
 In questo articolo viene descritto come eseguire la migrazione delle cartelle pubbliche da Exchange Server 2010 SP3 RU8 o Exchange 2007 SP3 RU15 a Microsoft Exchange Server 2013 CU7 o versioni successive nella stessa foresta.
 
@@ -75,7 +75,7 @@ Non è possibile eseguire la migrazione delle cartelle pubbliche direttamente da
 
   - In Exchange 2007, è necessario essere assegnati al ruolo di amministratore dell'organizzazione Exchange o di amministratore server di Exchange. Inoltre, è necessario essere assegnati al ruolo Amministratore cartelle pubbliche e al gruppo Amministratori locale per il server di destinazione. Per i dettagli, vedere [Aggiunta di un utente o di un gruppo a un ruolo di amministratore](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-  - Sul server Exchange 2007, eseguire l'aggiornamento a [Windows PowerShell 2.0 e WinRM 2.0 per Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - Sul server Exchange 2007, eseguire l'aggiornamento a [Windows PowerShell 2.0 e WinRM 2.0 per Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Prima di eseguire la migrazione, è necessario considerare [Limiti per le cartelle pubbliche](limits-for-public-folders-exchange-2013-help.md).
 
@@ -214,10 +214,12 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere:
         > [!NOTE]
         > Quando vengono rimosse le cartelle pubbliche, tutte le informazioni in esse contenute verranno eliminate definitivamente.
 
-        
-            Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
-        
-            Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+        ```
+        Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+        ```
+        ```
+        Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+        ```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti seguenti:
 
@@ -253,7 +255,7 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti 
     
 
     > [!NOTE]
-    > Se il nome di una cartella pubblica contiene una barra rovesciata <STRONG>\</STRONG>, in fase di migrazione le cartelle pubbliche saranno create nella cartella pubblica padre. Si consiglia di esaminare il file CSV e modificare i nomi che contengono una barra rovesciata.
+    > Se il nome di una cartella pubblica contiene una barra rovesciata \, in fase di migrazione le cartelle pubbliche saranno create nella cartella pubblica padre. Si consiglia di esaminare il file CSV e modificare i nomi che contengono una barra rovesciata.
 
     
         .\PublicFolderToMailboxMapGenerator.ps1 <Maximum mailbox size in bytes> <Folder to size map path> <Folder to mailbox map path>
@@ -285,10 +287,13 @@ I passaggi per la migrazione delle cartelle pubbliche di Exchange 2007 sono dive
 **Migrazione delle cartelle pubbliche di Exchange 2007**
 
 1.  Le cartelle pubbliche dei sistemi legacy come OWAScratchPad e la sottostruttura di cartelle schema-root in Exchange 2007 non saranno riconosciute da Exchange 2013 e saranno trattate come elementi "non validi", causando il fallimento della migrazione. Nell'ambito della richiesta di migrazione, è necessario specificare un valore per il parametro `BadItemLimit`. Questo valore varia a seconda del numero di database delle cartelle pubbliche presenti. I seguenti comandi consentono di stabilire il numero di database delle cartelle pubbliche e di calcolare il valore del parametro `BadItemLimit` per la richiesta di migrazione.
-    
-        $PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
-    
-        $BadItemLimitCount = 5 + ($PublicFolderDatabasesInOrg.Count -1)
+
+```        
+$PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
+```
+```
+$BadItemLimitCount = 5 + ($PublicFolderDatabasesInOrg.Count -1)
+```
 
 2.  Sul server Exchange 2013, eseguire il comando riportato di seguito:
     

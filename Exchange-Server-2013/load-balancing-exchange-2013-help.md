@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Il bilanciamento del carico consente di stabilire e gestire i server che devono ricevere traffico. Il bilanciamento del carico consente di distribuire le connessioni client in ingresso tra una varietà di endpoint, ad esempio server Cassette postali, per garantire che nessun endpoint assuma una quota sproporzionata del carico. Il bilanciamento del carico fornisce, inoltre, la ridondanza del failover in caso di errore di uno o più endpoint. Grazie al bilanciamento del carico di Exchange Server 2013, è possibile accertarsi che gli utenti continuino a ricevere il servizio Exchange in caso di guasto di un computer. Il bilanciamento del carico, inoltre, consente all'ambiente di distribuzione di gestire più traffico di quello che potrebbe elaborare un solo server fornendo, allo stesso tempo, un solo nome host per tutti i client.
 

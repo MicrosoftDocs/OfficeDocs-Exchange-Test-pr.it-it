@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 È possibile impostare regole per i dati sensibili nei criteri di prevenzione della perdita di dati (DLP) di Microsoft Exchange per rilevare dati molto specifici nei messaggi di posta elettronica. In questo argomento viene illustrato il modo in cui vengono applicate le regole e valutati i messaggi. Se si comprende il modo in cui vengono applicate le regole è possibile evitare interruzioni del flusso di lavoro per gli utenti di posta elettronica e ottenere un elevato livello di accuratezza dei rilevamenti DLP. Ad esempio, si pensi a una regola relativa ai dati della carta di credito forniti da Microsoft. Quando si attiva una regola di trasporto o un criterio DLP, l'agente regole di trasporto di Exchange confronta tutti i messaggi inviati dagli utenti con i set di regole creati.
 
@@ -146,10 +146,12 @@ Il modo in cui questa regola è impostata da Microsoft impone che perché una co
 ```
 
 L'esempio delle carte di credito illustrato in questo articolo può essere esteso ad altre informazioni sensibili. Per un elenco completo delle regole fornite da Microsoft in Exchange, utilizzare il cmdlet [Get-ClassificationRuleCollection](https://technet.microsoft.com/it-it/library/jj218696\(v=exchg.150\)) in Exchange Management Shell nel modo seguente:
-
-    $rule_collection = Get-ClassificationRuleCollection
-
-    $rule_collection[0].SerializedClassificationRuleCollection | Set-Content oob_classifications.xml -Encoding byte
+```
+$rule_collection = Get-ClassificationRuleCollection
+```
+```
+$rule_collection[0].SerializedClassificationRuleCollection | Set-Content oob_classifications.xml -Encoding byte
+```
 
 ## Ulteriori informazioni
 

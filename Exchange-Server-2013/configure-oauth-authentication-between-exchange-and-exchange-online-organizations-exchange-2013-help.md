@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Quando si utilizza la procedura guidata di configurazione ibrida le distribuzioni ibride esclusive per Exchange 2013 configurano l'autenticazione OAuth. Per le distribuzioni ibride miste Exchange 2013/2010 ed Exchange 2013/2007, la nuova connessione di autenticazione basata su OAuth della distribuzione ibrida tra le organizzazioni Office 365 ed Exchange locali non viene configurata dalla procedura guidata di configurazione ibrida. Tali distribuzioni continuano a utilizzare il processo di trust federativo per impostazione predefinita. Tuttavia, determinate funzionalità di Exchange 2013 sono completamente disponibili all'interno dell'organizzazione solo utilizzando il nuovo protocollo di autenticazione OAuth di Exchange.
 

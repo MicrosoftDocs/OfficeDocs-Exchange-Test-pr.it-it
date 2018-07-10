@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Microsoft Exchange Server 2013 è disponibile in due edizioni server: Standard Edition ed Enterprise Edition. È possibile scalare Enterprise Edition a 50 database montati per server nelle versioni RTM (Release to Manufacturing) e CU1 (Aggiornamento cumulativo 1) e a 100 database montati per server nelle versioni CU2 (Aggiornamento cumulativo 2) e successive. La Standard Edition è limitata a 5 database montati per server. Un database montato è un database in uso. Un database montato può essere un database delle cassette postali attivo montato per essere utilizzato dai client o un database delle cassette postali passivo montato durante il ripristino per la riproduzione e la replica del registro. Anche se è possibile creare più database dei limiti precedentemente indicati, è possibile montare il numero massimo sopra specificato. Il database di ripristino con conta rispetto a questo limite.
 

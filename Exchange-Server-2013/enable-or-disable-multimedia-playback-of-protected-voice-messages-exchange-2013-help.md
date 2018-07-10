@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile spronare gli utenti che ricevono messaggi vocali protetti ad utilizzare la funzionalità Ascolta al telefono per ascoltare i propri messaggi. Oppure, se il software client non supporta la gestione dei diritti, gli utenti devono utilizzare Outlook Voice Access per ascoltare i messaggi.
 

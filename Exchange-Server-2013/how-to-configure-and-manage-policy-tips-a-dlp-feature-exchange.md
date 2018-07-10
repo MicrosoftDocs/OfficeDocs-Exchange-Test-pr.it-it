@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Suggerimenti sui criteri sono avvisi informativi visualizzati per i mittenti di posta elettronica durante la composizione di un messaggio. Lo scopo del suggerimento criteri è formare gli utenti che possono violazione delle procedure commerciali o i criteri vengono applicate con i criteri di criterio DLP perdita di dati che è stato stabilito. Le procedure seguenti consentono di iniziare a utilizzare i suggerimenti sui criteri. Guardare questo video per ulteriori informazioni.
 

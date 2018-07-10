@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-10-04_
+_**Ultima modifica dell'argomento:** 2017-10-04_
 
 I contatti di posta sono oggetti del servizio directory abilitati all'utilizzo della posta che contengono informazioni su persone o organizzazioni esistenti all'esterno dell'organizzazione di Exchange o Exchange Online. Ciascun contatto di posta dispone di un indirizzo di posta elettronica esterno. Per ulteriori informazioni sui contatti di posta, vedere [Destinatari](recipients-exchange-2013-help.md).
 

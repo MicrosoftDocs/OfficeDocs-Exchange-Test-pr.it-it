@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 I suggerimenti messaggio che forniscono informazioni sulla dimensione dei gruppi di distribuzione e dei gruppi di distribuzione dinamici si basano sui dati della metrica di gruppo. I dati della metrica di gruppo vengono generati sui server Cassette postali. Per ulteriori informazioni sulla metrica di gruppo, vedere [Metriche del gruppo e i suggerimenti messaggio](group-metrics-and-mailtips-exchange-2013-help.md).
 

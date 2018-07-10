@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile specificare il testo da inviare a un utente quando riceve un messaggio vocale protetto ma il client di posta elettronica utilizzato non supporta Information Rights Management (IRM) o Windows Rights Management.
 

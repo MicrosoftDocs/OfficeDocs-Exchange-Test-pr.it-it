@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-04_
+_**Ultima modifica dell'argomento:** 2012-10-04_
 
 Se si desidera garantire l'accesso a un cmdlet, è necessario aggiungere la voce del ruolo di gestione associata al ruolo di gestione. Dopo aver aggiunto la voce al ruolo, gli utenti associati al ruolo saranno in grado di accedere al cmdlet. Per ulteriori informazioni sulle voci del ruolo di gestione in Microsoft Exchange Server 2013, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).
 

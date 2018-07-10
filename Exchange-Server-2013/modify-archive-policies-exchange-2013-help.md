@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-02-01_
+_**Ultima modifica dell'argomento:** 2016-02-01_
 
 In Exchange Server 2013 e Exchange Online, è possibile utilizzare i criteri di archiviazione per spostare automaticamente gli elementi della cassetta postale personale (locale) o archivi basata su cloud. I criteri di archiviazione sono i tag di conservazione che utilizzano l'azione di conservazione **Sposta nell'archivio**.
 
@@ -25,9 +25,9 @@ Il programma di installazione di Exchange crea un criterio di conservazione deno
 
 Per altre attività di gestione relative agli archivi, vedere:
 
-  - **Exchange Server 2013:** [Gestione degli archivi In Exchange 2013](manage-in-place-archives-in-exchange-2013-exchange-2013-help.md)
+  - **Exchange Server 2013:**  [Gestione degli archivi In Exchange 2013](manage-in-place-archives-in-exchange-2013-exchange-2013-help.md)
 
-  - **Exchange Online:** [Abilitare o disabilitare una cassetta postale di archiviazione in Exchange Online.](https://technet.microsoft.com/it-it/library/jj984357\(v=exchg.150\))
+  - **Exchange Online:**  [Abilitare o disabilitare una cassetta postale di archiviazione in Exchange Online.](https://technet.microsoft.com/it-it/library/jj984357\(v=exchg.150\))
 
 
 > [!NOTE]
@@ -63,9 +63,7 @@ Per altre attività di gestione relative agli archivi, vedere:
 
 
 
-3.  
-    
-    In **Tag di conservazione**, visualizzare o modificare le seguenti impostazioni, quindi fare clic su **Salva**:
+3.  In **Tag di conservazione**, visualizzare o modificare le seguenti impostazioni, quindi fare clic su **Salva**:
     
       - **Nome**   Utilizzare questa casella nella parte superiore della pagina per visualizzare o modificare il nome del tag.
     

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In Microsoft Exchange Server 2013, la funzionalità Outlook via Internet, conosciuta come RPC su HTTP, consente ai client che usano MicrosoftOutlook 2013, Outlook 2010 o Outlook 2007 di connettersi ai server Exchange dall'esterno della rete aziendale o su Internet utilizzando il componente di rete Windows RPC su HTTP. In questo argomento viene illustrata la caratteristica Outlook via Internet e i vantaggi dell'utilizzo di Outlook via Internet.
 

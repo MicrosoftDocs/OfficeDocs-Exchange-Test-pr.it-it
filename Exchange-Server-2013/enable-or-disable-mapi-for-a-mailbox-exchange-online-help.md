@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-12-31_
+_**Ultima modifica dell'argomento:** 2017-12-31_
 
 È possibile utilizzare Interfaccia di amministrazione di Exchange o Exchange Management Shell per abilitare o disabilitare MAPI per la cassetta postale utente. Quando MAPI è abilitato, la cassetta postale utente può essere accessibile da Outlook o altri client di posta elettronica MAPI. Quando MAPI è disabilitato, non può essere accessibile da Outlook o da altri client MAPI. La cassetta postale continuerà tuttavia a ricevere messaggi di posta elettronica e l'utente vi potrà accedere per inviare e ricevere messaggi utilizzando Outlook Web App, un client di posta elettronica POP o IMAP, presupponendo che la cassetta postale sia abilitata a supportare l'accesso da tali client.
 

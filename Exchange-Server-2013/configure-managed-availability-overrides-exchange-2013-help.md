@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013 SP1_
+_**Si applica a:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Ultima modifica dell'argomento:**2015-11-30_
+_**Ultima modifica dell'argomento:** 2015-11-30_
 
 La disponibilità gestita esegue continuamente il probe per individuare possibili problemi con i componenti di Exchange o le relative dipendenze ed esegue azioni di ripristino per garantire che l'esperienza dell'utente finale non sia influenzata da problemi con nessuno di questi componenti. Tuttavia, potrebbero esistere scenari in cui le impostazioni predefinite non siano adatte all'ambiente dell'utente. Probe, strumenti di monitoraggio e risponditori della disponibilità gestita possono essere personalizzati mediante la creazione di una sostituzione.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `MyDistributionGroups` consente ai singoli utenti di creare, modificare e visualizzare gruppi di distribuzione e di modificare, visualizzare, rimuovere e aggiungere membri ai gruppi di distribuzione di cui sono proprietari.
 

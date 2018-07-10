@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-24_
+_**Ultima modifica dell'argomento:** 2014-02-24_
 
 Dopo aver creato una ricerca eDiscovery In locale, è possibile utilizzare EAC per copiare i risultati di una cassetta postale di individuazione. È inoltre possibile utilizzare Shell per avviare una ricerca eDiscovery che è stata creata utilizzando il cmdlet **New-MailboxSearch** , che verrà copiato i risultati per la cassetta postale di individuazione che è stata specificata al momento della creazione della ricerca.
 
@@ -84,10 +84,12 @@ Se si utilizza l'opzione *EstimateOnly* per ottenere una stima dei risultati del
     New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeUnsearchableItems
 
 Per copiare i risultati della ricerca in una cassetta postale di individuazione, eseguire i comandi seguenti:
-
-    Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
-
-    Start-MailboxSearch "FY13 Q2 Financial Results"
+  ```
+  Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
+  ```
+  ```
+  Start-MailboxSearch "FY13 Q2 Financial Results"
+  ```
 
 ## Ulteriori informazioni sulla copia dei risultati di ricerca
 

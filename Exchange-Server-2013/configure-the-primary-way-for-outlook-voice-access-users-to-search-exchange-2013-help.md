@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 Quando si crea un dial plan di messaggistica unificata, è possibile configurare i canali primari e secondari in cui i chiamanti possono effettuare una ricerca per nome per individuare un utente quando chiamano un numero di Outlook Voice Access o un operatore automatico di messaggistica unificata associato al dial plan. Per individuare un utente abilitato alla messaggistica unificata i chiamanti possono utilizzare gli input a toni.
 

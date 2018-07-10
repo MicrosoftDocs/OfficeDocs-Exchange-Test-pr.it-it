@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Exchange consente di creare il criterio di conservazione dei criteri di gestione record di messaggistica predefinito nel Exchange Online e Exchange organizzazione locale. Il criterio viene applicato automaticamente ai nuovi utenti in Exchange Online. Nelle organizzazioni locali, viene applicato il criterio quando si crea un archivio per la cassetta postale. È possibile modificare il criterio di conservazione applicato a un utente in qualsiasi momento.
 

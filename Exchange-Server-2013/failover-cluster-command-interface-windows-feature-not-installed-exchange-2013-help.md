@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2014-12-03_
+_**Ultima modifica dell'argomento:** 2014-12-03_
 
 L'installazione di Microsoft Exchange Server 2013 non può procedere perché nel computer locale non è presente una funzionalità di Windows necessaria. È necessario installare questa funzionalità di Windows prima che Exchange 2013 possa procedere.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-12_
+_**Ultima modifica dell'argomento:** 2012-10-12_
 
 È possibile applicare un criterio cassetta postale Outlook Web App a uno o più cassette postali o rimuovere uno tramite EAC o Shell.
 
@@ -43,7 +43,7 @@ _**Ultima modifica dell'argomento:**2012-10-12_
 
 2.  Nel riquadro di lavoro, fare clic per selezionare la cassetta postale che si desidera applicare un criterio cassetta postale Outlook Web App. È inoltre possibile selezionare più cassette postali.
 
-3.  **Se sono state selezionate una cassetta postale:**
+3.  **Se sono state selezionate una cassetta postale:** 
     
     1.  Scorrere verso il basso nel riquadro dei dettagli per **La connettività di posta elettronica** e fare clic su **Visualizza dettagli**.
     
@@ -51,7 +51,7 @@ _**Ultima modifica dell'argomento:**2012-10-12_
     
     3.  Fare clic su **Salva** per assegnare il criterio selezionato per la cassetta postale selezionata.
     
-    **Se sono state selezionate più cassette postali:**
+    **Se sono state selezionate più cassette postali:** 
     
     1.  Scorrere verso il basso nel riquadro dei dettagli a **Outlook Web App** e fare clic su **Assegna un criterio**.
     

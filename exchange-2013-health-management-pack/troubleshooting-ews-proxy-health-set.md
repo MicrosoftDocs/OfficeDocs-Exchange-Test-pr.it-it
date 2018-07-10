@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'impostazione di integrità EWS.Proxy controlla la disponibilità dell'infrastruttura proxy dei servizi Web di Exchange sul server Accesso client. L'impostazione di integrità EWS.Proxy è strettamente legata alla seguente impostazione di integrità:
 

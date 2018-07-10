@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-08-08_
+_**Ultima modifica dell'argomento:** 2017-08-08_
 
 È possibile distribuire Microsoft Exchange Server 2013 in un ambiente virtualizzato. In questo argomento sono disponibili informazioni generali sugli scenari supportati per la distribuzione di Exchange 2013 su software di virtualizzazione dell'hardware.
 

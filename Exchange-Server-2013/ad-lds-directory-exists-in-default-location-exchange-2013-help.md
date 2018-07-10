@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 L'installazione di Microsoft Exchange Server 2013 non può proseguire perché il tentativo di installare Active Directory Lightweight Directory Services (AD LDS) non è riuscito.
 

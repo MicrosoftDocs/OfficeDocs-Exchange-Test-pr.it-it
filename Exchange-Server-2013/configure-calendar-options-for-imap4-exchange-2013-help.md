@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-27_
+_**Ultima modifica dell'argomento:** 2012-11-27_
 
 È possibile utilizzare Shell per configurare le impostazioni di accesso al calendario per gli utenti che si connettono alla loro cassetta postale tramite una connessione IMAP4. Dalle impostazioni specificate dipende il modo in cui gli utenti di IMAP4 possono accedere al loro calendario e scambiare informazioni su di esso con altri utenti (ad esempio, inviando o rispondendo a una convocazione di riunione).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-09-28_
+_**Ultima modifica dell'argomento:** 2012-09-28_
 
 In Microsoft Exchange Server 2013, la crittografia Transport Layer Security (TLS) è obbligatoria per tutta la comunicazione SMTP nel servizio di trasporto tra i server Cassette postali. Ciò aumenta la sicurezza complessiva delle comunicazioni del servizio di trasporto tra i server Cassette postali. Tuttavia, in alcune topologie in cui vengono utilizzati dispositivi WAN Optimization Controller (WOC), è consigliabile evitare la crittografia TLS del traffico SMTP. È possibile disabilitare TLS per le comunicazioni tra il servizio di trasporto tra i server Cassette postali per questi scenari specifici.
 

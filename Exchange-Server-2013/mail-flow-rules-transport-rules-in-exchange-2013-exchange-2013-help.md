@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-04-28_
+_**Ultima modifica dell'argomento:** 2017-04-28_
 
 È possibile utilizzare le regole del flusso di posta elettronica (noto anche come regole di trasporto) per identificare ed esegue azioni sui messaggi che passano attraverso l'organizzazione Exchange 2013. Regole del flusso di posta elettronica sono simili alle regole posta in arrivo disponibili in Outlook e Outlook Web App. La differenza principale è regole del flusso di posta elettronica eseguire l'azione necessaria messaggi mentre sono in corso e non dopo che il messaggio viene recapitato alla cassetta postale. Regole del flusso di posta elettronica è incluso un unica offerta più ricca condizioni, eccezioni e azioni, che comprende la flessibilità necessaria per implementare molti altri tipi di criteri di messaggistica.
 

@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:** 2013-04-09_
+_**Ultima modifica dell'argomento:**  2013-04-09_
 
 [Guida introduttiva a Exchange Server 2013 Management Pack](getting-started-with-exchange-server-2013-management-pack.md) fornisce una panoramica del dashboard del Management Pack. In questo argomento viene indicato come può essere utile per risolvere un problema. Per illustrare il processo, viene utilizzato un esempio. Si prenda in considerazione il seguente scenario:
 

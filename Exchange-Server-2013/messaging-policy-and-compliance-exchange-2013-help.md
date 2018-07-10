@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 La posta elettronica è diventata un mezzo di comunicazione affidabile e molto diffuso per gli Information Worker nelle organizzazioni di tutte le dimensioni. Gli archivi di messaggistica e le cassette postali sono diventati repository dei dati importanti. Per le organizzazioni è importante creare dei criteri di messaggistica che definiscono l'utilizzo corretto dei sistemi di messaggistica, forniscono linee guida per l'utilizzo dei criteri e, se necessario, dettagli sui tipi di comunicazione eventualmente non consentiti.
 

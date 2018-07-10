@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-30_
+_**Ultima modifica dell'argomento:** 2012-11-30_
 
 È possibile configurare un operatore automatico di messaggistica unificata abilitato al servizio di sintesi vocale che dispone di un operatore automatico per il fallback del segnale multifrequenza (DTMF). Un operatore automatico per il fallback del segnale multifrequenza (DTMF) viene utilizzato quando un operatore automatico abilitato al servizio di sintesi vocale di messaggistica unificata non è in grado di comprendere o riconoscere gli input vocali del chiamante. Se è stato configurato un operatore automatico per il fallback del segnale multifrequenza, il chiamante deve utilizzare gli input DTMF, denominati anche input a toni, per spostarsi all'interno del sistema di menu dell'operatore automatico, pronunciare un nome utente sillaba per sillaba o utilizzare un'istruzione vocale personalizzata del menu. Se non è stato configurato alcun operatore automatico per il fallback del segnale multifrequenza ed è stato superato il numero massimo di input vocali perché le parole del chiamante non sono state comprese, verrà ricevuta un'istruzione che indica la necessità di riprovare in un momento successivo.
 

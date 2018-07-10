@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-09-13_
+_**Ultima modifica dell'argomento:** 2012-09-13_
 
 Le procedure nelle sezioni seguenti consentono di configurare i modelli delle autorizzazioni avanzate per l'organizzazione. È necessario avere una conoscenza approfondita del controllo di accesso basato sui ruoli (RBAC) prima di eseguire la personalizzazione avanzata del modello delle autorizzazioni.
 

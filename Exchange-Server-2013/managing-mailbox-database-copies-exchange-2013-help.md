@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-08-26_
+_**Ultima modifica dell'argomento:** 2016-08-26_
 
 Dopo la creazione, la configurazione e l'inserimento dei membri del server cassette postali nel gruppo di disponibilità del database, è possibile utilizzare l'interfaccia di amministrazione di Exchange o Exchange Management Shell per aggiungere copie di database delle cassette postali in modo flessibile e granulare.
 

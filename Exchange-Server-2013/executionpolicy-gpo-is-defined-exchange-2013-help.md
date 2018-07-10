@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_**Ultima modifica dell'argomento:** 2016-12-15_
 
 Impossibile proseguire con la configurazione di Microsoft Exchange Server 2013 perché è stato rilevato che l'oggetto criteri di gruppo (GPO) **ExecutionPolicy** definisce uno o entrambi i seguenti criteri:
 
@@ -29,7 +29,7 @@ Quando si esegue la configurazione di Exchange 2013, Exchange si arresta e disab
 
 Per poter proseguire con la configurazione, è necessario rimuovere temporaneamente tutte le definizioni di **MachinePolicy** o **UserPolicy** nel GPO **ExecutionPolicy**.
 
-Per informazioni su come rimuovere tutte le definizioni di **MachinePolicy** o **UserPolicy** nel GPO **ExecutionPolicy**, vedere [l'articolo della Knowledge Base KB981474](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=981474).
+Per informazioni su come rimuovere tutte le definizioni di **MachinePolicy** o **UserPolicy** nel GPO **ExecutionPolicy**, vedere [l'articolo della Knowledge Base KB981474](https://go.microsoft.com/fwlink/?linkid=3052&kbid=981474).
 
 
 > [!NOTE]

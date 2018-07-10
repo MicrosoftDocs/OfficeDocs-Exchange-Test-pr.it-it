@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-13_
+_**Ultima modifica dell'argomento:** 2012-10-13_
 
 Per impostazione predefinita, Exchange contiene un criterio degli indirizzi di posta elettronica in cui l'alias del destinatario viene identificato come parte locale dell'indirizzo di posta elettronica e viene utilizzato il dominio accettato predefinito. La parte locale di un indirizzo di posta elettronica è il nome visualizzato prima della chiocciola (@). Questo criterio dell'indirizzo di posta elettronica si applica a tutti gli utenti dell'organizzazione. Non è possibile rimuovere il criterio dell'indirizzo di posta elettronica.
 

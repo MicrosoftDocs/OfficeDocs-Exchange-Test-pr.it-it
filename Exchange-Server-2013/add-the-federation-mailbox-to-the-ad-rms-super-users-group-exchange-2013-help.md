@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Per le seguenti Microsoft Exchange Server 2013 Information Rights Management (IRM) funzionalità da abilitare, aggiungere la cassetta postale di federazione (una cassetta postale di sistema creata da Exchange 2013 il programma di installazione) al gruppo di utenti con privilegi avanzati in cluster di [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) dell'organizzazione:
 

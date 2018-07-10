@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-19_
+_**Ultima modifica dell'argomento:** 2013-04-19_
 
 È possibile abilitare un messaggio informativo per un operatore automatico di messaggistica unificata. Se abilitato, il messaggio informativo verrà riprodotto immediatamente dopo il messaggio di saluto per l'orario di ufficio o di inattività. Per impostazione predefinita, non è stato configurato alcun messaggio informativo. Per abilitarlo, è necessario creare un file .wav o .wma che verrà utilizzato come messaggio informativo e configurare l'operatore automatico per l'utilizzo del file audio.
 

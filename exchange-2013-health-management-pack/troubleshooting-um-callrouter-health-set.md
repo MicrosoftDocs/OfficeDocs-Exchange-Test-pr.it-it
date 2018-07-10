@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'impostazione di integrità del routing di chiamate di messaggistica unificata di Microsoft Exchange monitora lo stato del servizio di routing di chiamate di messaggistica unificata.
 
@@ -122,7 +122,7 @@ Se il registro eventi non contiene informazioni sufficienti, è necessario impos
 
 Rinnovare il certificato del servizio di routing delle chiamate di messaggistica unificata sul CAS.
 
-**Istruzioni aggiuntive per la risoluzione dei problemi:**
+**Istruzioni aggiuntive per la risoluzione dei problemi:** 
 
 1.  Avviare Gestione Internet Information Services (IIS) e collegare il server sul quale si verifica il problema per stabilire se il pool di applicazioni **MSExchangeServicesAppPool** è in esecuzione.
 

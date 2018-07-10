@@ -13,23 +13,19 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-02-23_
+_**Ultima modifica dell'argomento:** 2017-02-23_
 
 L'organizzazione potrebbe richiedere che determinati tipi di messaggi vengano bloccati o rifiutati per soddisfare requisiti legali o di conformità o per implementare esigenze aziendali specifiche. Ecco alcuni esempi di scenari comuni per bloccare tutti gli allegati che è possibile impostare utilizzando le regole di trasporto in Exchange:
 
-  -  
-    Esempio 1: Bloccare i messaggi con allegati e comunicarlo al mittente
+  -  Esempio 1: Bloccare i messaggi con allegati e comunicarlo al mittente
 
-  -  
-    Esempio 2: Informare i destinatari interessati quando viene bloccato un messaggio in ingresso
+  -  Esempio 2: Informare i destinatari interessati quando viene bloccato un messaggio in ingresso
 
-  -  
-    Esempio 3: Modificare la riga dell'oggetto per le notifiche
+  -  Esempio 3: Modificare la riga dell'oggetto per le notifiche
 
-  -  
-    Esempio 4: Applicare una regola con un limite di tempo
+  -  Esempio 4: Applicare una regola con un limite di tempo
 
 Per ulteriori esempi che mostrano come bloccare allegati specifici, vedere:
 
@@ -51,7 +47,7 @@ Per iniziare a implementare uno di questi scenari per bloccare determinati tipi 
 
 5.  Selezionare le condizioni e le operazioni desiderate.
 
-**Nota:** Nell'interfaccia di amministrazione di Exchange, la dimensione dell'allegato più piccola che è possibile immettere è 1 kilobyte, che dovrebbe rilevare la maggior parte degli allegati. Tuttavia, se si desidera rilevare tutti gli allegati di qualsiasi dimensione possibile, è necessario usare PowerShell per regolare la dimensione dell'allegato a 1 byte dopo aver creato la regola nell''interfaccia di amministrazione di Exchange. Per sapere come aprire Exchange Management Shell nell'organizzazione Exchange locale, vedere [Aprire Shell.](https://technet.microsoft.com/it-it/library/dd638134\(v=exchg.150\)).Per informazioni su come usare Windows PowerShell per connettersi a Exchange Online, vedere [Connessione a Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).Per informazioni su come usare Windows PowerShell per connettersi a Exchange Online Protection, vedere [Connessione a Exchange Online Exchange Online Protection PowerShell](https://go.microsoft.com/fwlink/p/?linkid=627290).
+**Nota:**  Nell'interfaccia di amministrazione di Exchange, la dimensione dell'allegato più piccola che è possibile immettere è 1 kilobyte, che dovrebbe rilevare la maggior parte degli allegati. Tuttavia, se si desidera rilevare tutti gli allegati di qualsiasi dimensione possibile, è necessario usare PowerShell per regolare la dimensione dell'allegato a 1 byte dopo aver creato la regola nell''interfaccia di amministrazione di Exchange. Per sapere come aprire Exchange Management Shell nell'organizzazione Exchange locale, vedere [Aprire Shell.](https://technet.microsoft.com/it-it/library/dd638134\(v=exchg.150\)).Per informazioni su come usare Windows PowerShell per connettersi a Exchange Online, vedere [Connessione a Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).Per informazioni su come usare Windows PowerShell per connettersi a Exchange Online Protection, vedere [Connessione a Exchange Online Exchange Online Protection PowerShell](https://go.microsoft.com/fwlink/p/?linkid=627290).
 
 Sostituire *\<Rule Name\>* con il nome della regola esistente ed eseguire il seguente comando per impostare la dimensione dell'allegato su 1 byte:
 

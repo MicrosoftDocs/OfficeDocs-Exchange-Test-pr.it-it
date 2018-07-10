@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-02_
+_**Ultima modifica dell'argomento:** 2012-11-02_
 
 L'aggiornamento, noto anche come *seeding*, è il processo tramite il quale una copia del database delle cassette postali viene aggiunta a un altro server Cassette postali in un gruppo di disponibilità del database (DAG). La copia aggiunta diventa il database di base per la copia passiva in cui i file di registro copiati dalla copia attiva vengono rieseguiti. Il seeding è necessario nei seguenti casi:
 

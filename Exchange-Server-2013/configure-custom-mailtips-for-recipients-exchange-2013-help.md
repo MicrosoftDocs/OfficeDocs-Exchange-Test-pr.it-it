@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-01_
+_**Ultima modifica dell'argomento:** 2014-06-01_
 
 I *suggerimenti messaggio* sono messaggi informativi visualizzati agli utenti nella barra delle informazioni in Outlook Web App e Microsoft Outlook 2010 o versione successiva quando un utente effettua una delle seguenti operazioni durante la composizione di un messaggio di posta elettronica:
 

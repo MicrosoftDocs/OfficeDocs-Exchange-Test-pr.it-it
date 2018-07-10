@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `POP3 and IMAP4 Protocols` consente agli amministratori di gestire la configurazione POP3 e IMAP4, ad esempio le impostazioni di connessione e autenticazione sui singoli server.
 

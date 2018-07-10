@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 Per definire la posta elettronica Internet attraverso un server Trasporto Edge, sottoscrivere il server Trasporto Edge in un sito Active Directory. In questo modo, vengono creati automaticamente i connettori di invio necessari per il flusso di posta Internet:
 

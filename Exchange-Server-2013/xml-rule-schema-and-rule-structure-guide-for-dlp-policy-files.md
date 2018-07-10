@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Nella seguente panoramica, vengono illustrati i componenti di una definizione dello schema XML per i file modello del criterio di prevenzione della perdita di dati (DLP) e viene fornito anche un file di criteri di esempio in formato XML. Sarà utile comprendere l'architettura DLP generale e il processo di sviluppo delle regole prima di iniziare. Per ulteriori informazioni, vedere [Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) e [Definire modelli DLP e tipi di informazione propri](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 

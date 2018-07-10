@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-11-16_
+_**Ultima modifica dell'argomento:** 2014-11-16_
 
 Un carico di lavoro di Exchange è una funzionalità, un protocollo o un servizio di Exchange Server esplicitamente definito allo scopo di gestire le risorse di sistema di Exchange. Ciascun carico di lavoro di Exchange consuma risorse di sistema, quali CPU, operazioni di database delle cassette postali o richieste Active Directory per eseguire le richieste utente o il lavoro in background. Esempi di carichi di lavoro di Exchange includono Outlook Web App, Exchange ActiveSync, migrazione delle cassette postali e assistenti di cassette postali.
 

@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-04-30_
+_**Ultima modifica dell'argomento:** 2018-04-30_
 
-**Sintesi:** Informazioni su come gli utenti nell'organizzazione di Exchange 2013 possono configurare rapidamente i propri account di Outlook per iOS e Android tramite l'autenticazione di base.
+**Sintesi:**  Informazioni su come gli utenti nell'organizzazione di Exchange 2013 possono configurare rapidamente i propri account di Outlook per iOS e Android tramite l'autenticazione di base.
 
 Outlook per iOS e Android offre agli amministratori di Exchange la possibilità di "distribuire" le configurazioni degli account agli utenti locali che usano l'autenticazione di base tramite il protocollo ActiveSync. Questa funzionalità è compatibile con qualsiasi provider Mobile Device Management (MDM) che utilizza il canale [Managed App Configuration](https://developer.apple.com/library/content/samplecode/sc2279/introduction/intro.html) per iOS o il canale [Android in the Enterprise](https://developer.android.com/samples/apprestrictions/index.html) per Android.
 

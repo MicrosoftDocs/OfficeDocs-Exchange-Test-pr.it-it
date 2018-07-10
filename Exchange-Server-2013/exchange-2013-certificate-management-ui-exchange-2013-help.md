@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-04-21_
+_**Ultima modifica dell'argomento:** 2014-04-21_
 
 La gestione dei certificati in una distribuzione Exchange Server è una delle attività amministrative più importanti. Impostare e configurare correttamente i certificati è fondamentale per offrire un'infrastruttura di messaggistica sicura all'organizzazione. In Exchange 2010, Exchange Management Console (EMC) era il mezzo primario per la gestione dei certificati. In Exchange 2013, la funzionalità di gestione dei certificati è fornita in Interfaccia di amministrazione di Exchange, la nuova interfaccia utente amministratore di Exchange 2013. In Exchange 2013, l'attenzione è incentrata sulla riduzione del numero dei certificati che un amministratore deve gestire, sulla riduzione delle interazioni dell'amministratore con i certificati e sulla possibilità di gestire i certificati da una posizione centrale.
 

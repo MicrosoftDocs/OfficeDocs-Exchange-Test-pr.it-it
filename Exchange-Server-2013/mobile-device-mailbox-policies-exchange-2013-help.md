@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-06-16_
+_**Ultima modifica dell'argomento:** 2016-06-16_
 
 In MicrosoftExchange Server 2013, è possibile creare criteri cassetta postale dei dispositivi mobili per applicare un insieme comune di criteri o impostazioni di protezione a una raccolta di utenti. Dopo aver distribuito Exchange ActiveSync nell'organizzazione di Exchange 2013, è possibile creare nuovi criteri cassetta postale dei dispositivi mobili oppure modificare quelli esistenti. All'installazione di Exchange 2013 viene creato un criterio cassetta postale dei dispositivi mobili predefinito. Questo criterio cassetta postale dei dispositivi mobili predefinito viene assegnato automaticamente a tutti gli utenti.
 

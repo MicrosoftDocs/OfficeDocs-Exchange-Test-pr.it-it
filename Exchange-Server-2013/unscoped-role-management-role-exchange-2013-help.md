@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Unscoped Role Management` consente agli amministratori di creare e gestire i ruoli di gestione di alto livello privi di ambito in un'organizzazione.
 

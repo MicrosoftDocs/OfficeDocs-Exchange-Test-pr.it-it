@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `MyBaseOptions` consente a singoli utenti di visualizzare e modificare la configurazione di base delle relative cassette postali e impostazioni associate.
 

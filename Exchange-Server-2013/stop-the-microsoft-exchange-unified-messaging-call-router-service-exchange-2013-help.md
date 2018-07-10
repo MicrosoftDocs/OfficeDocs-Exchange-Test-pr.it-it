@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-16_
+_**Ultima modifica dell'argomento:** 2012-11-16_
 
 Per arrestare il servizio di routing delle chiamate di messaggistica unificata di MicrosoftExchange su un server Accesso client, è possibile utilizzare lo snap-in Servizi in Microsoft Management Console (MMC) o cmd.exe al prompt dei comandi. In alcune situazioni può essere necessario arrestare questo servizio, ad esempio, quando è indispensabile disconnettere il server Accesso client. Una volta arrestato il servizio di routing delle chiamate di messaggistica unificata di Microsoft Exchange, il server Accesso client non sarà più in grado di accettare ed elaborare le chiamate in arrivo.
 

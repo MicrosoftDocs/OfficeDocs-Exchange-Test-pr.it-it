@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Per eseguire correttamente delle ricerche eDiscovery estese in un'organizzazione Exchange 2013 ibrida, è necessario configurare l'autenticazione OAuth (Open Authorization) tra organizzazioni Exchange in locale e Exchange Online in modo che sia possibile utilizzare eDiscovery in locale per ricercare cassette postali in locale e basate sul cloud. L'autenticazione OAuth supporta i seguenti scenari di eDiscovery in un'implementazione ibrida di Exchange:
 

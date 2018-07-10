@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2012-11-08_
+_**Ultima modifica dell'argomento:** 2012-11-08_
 
 L'installazione di Microsoft Exchange Server 2013 non può proseguire perché è impossibile rimuovere il database delle cassette postali di un utente dal server locale senza provocare una potenziale perdita di dati.
 

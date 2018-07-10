@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `View-Only Configuration` consente agli amministratori di visualizzare tutte le impostazioni di configurazione di Exchange, non legate al destinatario, in un'organizzazione. Esempi di configurazioni visualizzabili sono la configurazione del server, la configurazione di trasporto, la configurazione del database e la configurazione a livello dell'organizzazione.
 

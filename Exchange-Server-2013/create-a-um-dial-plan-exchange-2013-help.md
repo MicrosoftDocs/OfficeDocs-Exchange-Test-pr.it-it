@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-16_
+_**Ultima modifica dell'argomento:** 2013-04-16_
 
 Un dial plan di messaggistica unificata contiene le informazioni di configurazione relative alla rete telefonica. Un dial plan di messaggistica unificata stabilisce un collegamento da un numero di interno telefonico di un utente abilitato alla segreteria telefonica alla relativa cassetta postale. Quando si crea un dial plan di messaggistica unificata, è possibile configurare il numero di cifre di un numero interno, il tipo di URI (Uniform Resource Identifier) e le impostazioni di protezione VoIP (Voice over IP) per il dial plan.
 

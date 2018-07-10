@@ -17,7 +17,7 @@ _<strong>Si applica a:</strong>Exchange Server 2013_
 
 _<strong>Ultima modifica dell'argomento:</strong>2016-12-15_
 
-**Riepilogo:** istruzioni per l'attivazione locale Exchange 2013 agli utenti di accedere alle cartelle pubbliche in Exchange Online.
+**Riepilogo:**  istruzioni per l'attivazione locale Exchange 2013 agli utenti di accedere alle cartelle pubbliche in Exchange Online.
 
 In una distribuzione ibrida, gli utenti possono essere in Exchange Online, locale o entrambe e le cartelle pubbliche sono costituiti in Exchange Online o locale. In alcuni casi gli utenti in linea potrebbe essere necessario per accedere alle cartelle pubbliche nell'ambiente locale di Exchange Server 2013. Analogamente, gli utenti di Exchange 2013 potrebbe essere necessario accedere alle cartelle pubbliche in Office 365 o Exchange Online.
 

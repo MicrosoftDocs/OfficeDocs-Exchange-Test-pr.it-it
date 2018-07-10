@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-16_
+_**Ultima modifica dell'argomento:** 2014-12-16_
 
 In questo argomento è spiegato come creare un elenco indirizzi con i filtri destinatari. Per ulteriori informazioni sugli elenchi di indirizzi, vedere [Elenchi indirizzi](address-lists-exchange-2013-help.md).
 

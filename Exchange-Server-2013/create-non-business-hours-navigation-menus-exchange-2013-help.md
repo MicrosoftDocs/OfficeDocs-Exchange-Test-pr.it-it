@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 È possibile abilitare il mapping dei tasti per l'orario non di ufficio su un operatore automatico di messaggistica unificata. Una volta creato un operatore automatico di messaggistica unificata, verrà utilizzato un menu vocale di sistema predefinito per il messaggio di saluto "Istruzione vocale menu principale Orario non di ufficio" riprodotto per i chiamanti dopo la riproduzione della formula di benvenuto per l'orario non di ufficio. Il prompt di saluto predefinito del menu principale Orario non di ufficio utilizza le parole seguenti: "Operatore automatico Orario non di ufficio di MicrosoftExchange. Dal momento che per impostazione predefinita non sono definiti mapping dei tasti, non sono disponibili voci di menu per i chiamanti, che possono solamente ascoltare il prompt del menu principale Orario non di ufficio.
 

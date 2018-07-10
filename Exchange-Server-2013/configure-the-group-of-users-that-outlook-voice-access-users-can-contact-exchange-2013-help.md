@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-09_
+_**Ultima modifica dell'argomento:** 2012-11-09_
 
 È possibile specificare quali utenti ricevono le chiamate o i messaggi della segreteria telefonica trasferiti dagli utenti di Outlook Voice Access. L'opzione **Solo in questo dial plan** è selezionata per impostazione predefinita. È possibile cambiare questa impostazione per consentire agli utenti di Outlook Voice Access di trasferire le chiamate o inviare messaggi vocali agli utenti nell'intera organizzazione, a un operatore automatico di messaggistica unificata esistente o a un numero di interno specifico.
 

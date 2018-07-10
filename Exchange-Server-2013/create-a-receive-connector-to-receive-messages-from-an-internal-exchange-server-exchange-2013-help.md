@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Un connettore di ricezione di tipo **Interno** viene creato quando si desidera ricevere la posta da un server Exchange. Utilizzare questo tipo di connettore per controllare l'instradamento della posta all'interno dell'organizzazione: ad esempio, se si desidera instradare la posta dal servizio di trasporto su un server Cassette postali a uno specifico server Trasporto Edge oppure da un server Cassette postali a un altro.
 

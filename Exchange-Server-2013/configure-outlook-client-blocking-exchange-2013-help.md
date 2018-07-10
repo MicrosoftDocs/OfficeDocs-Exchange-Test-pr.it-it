@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Si applica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 In Exchange Server 2013, è possibile utilizzare i criteri di conservazione o le cartelle gestite per la messaggistica (MRM) della gestione dei record. Solo gli utenti che eseguono Microsoft Outlook 2010 e versioni successive hanno accesso a tutte le funzionalità client per i criteri di conservazione. Tuttavia, i criteri di conservazione vengono applicati nel server cassette postali dall'Assistente cartelle gestite, indipendentemente dalla versione client Outlook utilizzata dall'utente. Client di Outlook precedenti non devono esporre le funzionalità di gestione record di messaggistica di queste funzionalità. Ad esempio, poiché Outlook 2007 non supporta i criteri di conservazione, gli utenti non possono applicare i tag personali per gli elementi o delle cartelle.
 

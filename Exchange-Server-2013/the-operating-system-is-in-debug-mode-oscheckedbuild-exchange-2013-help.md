@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_**Ultima modifica dell'argomento:** 2016-12-15_
 
 Il contenuto di questo argomento non è stato aggiornato per Microsoft Exchange Server 2013. Sebbene non sia stato aggiornato, può comunque essere applicabile anche a Exchange 2013. In caso di problemi, consultare le risorse della community riportate di seguito.
 
@@ -41,5 +41,5 @@ Per eliminare questo errore, modificare il file Boot. ini e rimuovere il **param
 
 5.  Salvare e chiudere il file e quindi riavviare il computer di Exchange Server rendere effettive le modifiche.
 
-Per ulteriori informazioni sui parametri che possono essere utilizzati nel file Boot. ini, vedere l'articolo della Microsoft Knowledge Base 833721 "opzioni dei parametri disponibili per Windows XP e Windows Server 2003 Boot. ini file" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=833721](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=833721)).
+Per ulteriori informazioni sui parametri che possono essere utilizzati nel file Boot. ini, vedere l'articolo della Microsoft Knowledge Base 833721 "opzioni dei parametri disponibili per Windows XP e Windows Server 2003 Boot. ini file" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=833721](https://go.microsoft.com/fwlink/?linkid=3052&kbid=833721)).
 

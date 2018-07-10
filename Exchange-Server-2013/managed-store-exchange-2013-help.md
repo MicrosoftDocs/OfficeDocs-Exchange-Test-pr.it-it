@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-07-14_
+_**Ultima modifica dell'argomento:** 2014-07-14_
 
 Tutte le versioni precedenti di Exchange Server, da Exchange Server 4.0 per Exchange Server 2010, sono supportati in esecuzione una sola istanza del processo di archivio informazioni (Store.exe) nel ruolo del server cassette postali. Questa istanza archivio unica ospita tutti i database nel server: attiva, passiva, ritardata e il ripristino. In architetture di Exchange precedente, è disponibile, gli interventi di isolamento tra i diversi database ospitati in un server cassette postali. Un problema con un database delle cassette postali singolo è in grado di avere effetti negativi sulla tutti gli altri database e arresti anomali risultante da un danneggiamento delle cassette postali possono influire sulle servizio per tutti gli utenti il cui database sono ospitati su tale server.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-01-23_
+_**Ultima modifica dell'argomento:** 2017-01-23_
 
 Si consiglia di utilizzare il processo sottoscrizione di Edge per stabilire il flusso di posta tra l'organizzazione Exchange e il server Trasporto Edge. Tuttavia, alcune situazioni possono impedire la sottoscrizione al server di Trasporto Edge all'organizzazione Exchange utilizzando il processo di Trasporto Edge. Per stabilire manualmente il flusso di posta tra l'organizzazione di Exchange e un server Trasporto Edge, è necessario creare e configurare i connettori di invio e di ricezione sul server Trasporto Edge e sui server cassette postali dell'organizzazione di Exchange.
 

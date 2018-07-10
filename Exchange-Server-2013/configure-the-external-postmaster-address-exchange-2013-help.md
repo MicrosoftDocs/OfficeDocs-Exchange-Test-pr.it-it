@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 L'indirizzo postmaster esterno viene utilizzato come mittente per i messaggi generati dal sistema e per le notifiche inviate ai mittenti esterni all'organizzazione di Microsoft Exchange Server 2013. Un mittente esterno è qualsiasi mittente con un indirizzo di posta elettronica in un dominio non configurato come dominio accettato nell'organizzazione.
 

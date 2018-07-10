@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Ogni volta che si crea una regola del flusso di posta elettronica Exchange, noto anche come una regola di trasporto, è consigliabile testarlo prima di averla attivata. In questo modo, se si crea accidentalmente una condizione che non è esattamente ciò che desideri o interagisce con altre regole in modo imprevisto, non sarà necessario le conseguenze impreviste.
 

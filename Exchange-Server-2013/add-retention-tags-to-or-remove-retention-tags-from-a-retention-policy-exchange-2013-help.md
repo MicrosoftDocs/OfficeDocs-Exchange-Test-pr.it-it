@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-02_
+_**Ultima modifica dell'argomento:** 2015-03-02_
 
 È possibile aggiungere tag di conservazione a un criterio di conservazione quando il criterio viene creato o in un qualsiasi momento successivo. Per informazioni dettagliate su come creare un criterio di conservazione, incluso come aggiungere contemporaneamente tag di conservazione, vedere [Creare un criterio di conservazione](create-a-retention-policy-exchange-2013-help.md).
 

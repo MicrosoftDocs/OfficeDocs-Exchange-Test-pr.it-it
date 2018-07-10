@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Project Server 2013_
+_**Si applica a:** Exchange Server 2013, Project Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il set di integrità Unified Messaging (UM) monitora lo stato generale del servizio di messaggistica unificata nell'organizzazione.
 
@@ -158,7 +158,7 @@ Esaminare i registri eventi per scoprire quale pool Lync è stato selezionato e 
 
 Rinnovare il certificato di messaggistica unificata sul server Cassette postali.
 
-**Ulteriori passaggi per la risoluzione dei problemi:**
+**Ulteriori passaggi per la risoluzione dei problemi:** 
 
 1.  Avviare Gestione IIS, quindi connettersi al server che segnala l'errore per determinare se il pool di applicazioni **MSExchangeServicesAppPool** è in esecuzione.
 

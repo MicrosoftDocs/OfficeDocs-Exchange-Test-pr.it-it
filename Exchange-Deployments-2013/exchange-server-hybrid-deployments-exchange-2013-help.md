@@ -17,7 +17,7 @@ _<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange S
 
 _<strong>Ultima modifica dell'argomento:</strong>2018-04-16_
 
-**Riepilogo:** informazioni utili per pianificare una distribuzione ibrida di Exchange.
+**Riepilogo:**  informazioni utili per pianificare una distribuzione ibrida di Exchange.
 
 La distribuzione ibrida offre alle organizzazioni la possibilità di estendere al cloud le numerose funzionalità e il controllo amministrativo che hanno nell'organizzazione Microsoft Exchange locale. Una distribuzione ibrida consente di ottenere l'aspetto e l'esperienza di interazione trasparente di una singola organizzazione di Exchange, combinando un'organizzazione di Exchange locale e un'organizzazione di Exchange Online in Microsoft Office 365. Può inoltre essere utilizzata come passaggio intermedio per la transizione completa a un'organizzazione di Exchange Online.
 

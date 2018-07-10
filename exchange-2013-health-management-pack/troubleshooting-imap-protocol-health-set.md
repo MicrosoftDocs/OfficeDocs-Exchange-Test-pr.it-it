@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-07_
+_**Ultima modifica dell'argomento:** 2013-02-07_
 
 Il set di integrità IMAP.Protocol monitora il protocollo IMAP4 sul server Cassette postali. Un avviso che specifica che il set di integrità IMAP.Protocol non è integro indica un problema che interessa il protocollo IMAP4 sul server Cassette postali riportato nell'avviso.
 

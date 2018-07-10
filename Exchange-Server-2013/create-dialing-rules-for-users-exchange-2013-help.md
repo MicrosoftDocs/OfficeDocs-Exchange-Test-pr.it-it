@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 I gruppi di regole di composizione sono costituiti da voci di regole di composizione Le regole di composizione vengono utilizzate per modificare un numero di telefono prima di inviarlo al PBX (sistema di telefonia) locale o IP PBX per le chiamate in uscita. Le regole di composizione consentono di:
 

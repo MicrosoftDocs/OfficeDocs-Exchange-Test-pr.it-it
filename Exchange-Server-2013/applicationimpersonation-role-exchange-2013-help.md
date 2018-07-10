@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-11-30_
+_**Ultima modifica dell'argomento:** 2016-11-30_
 
 Il ruolo di gestione `ApplicationImpersonation` consente alle applicazioni di impersonare gli utenti in un'organizzazione per eseguire attività per conto di tali utenti.
 

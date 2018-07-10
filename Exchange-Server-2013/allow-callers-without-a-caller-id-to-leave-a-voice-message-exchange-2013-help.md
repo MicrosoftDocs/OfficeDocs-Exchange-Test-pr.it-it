@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile consentire o impedire agli utenti abilitati alla messaggistica unificata di ricevere messaggi vocali da chiamanti anonimi. Per impostazione predefinita, gli utenti abilitati alla messaggistica unificata possono ricevere chiamate anonime che non contengono informazioni sull'ID chiamante.
 

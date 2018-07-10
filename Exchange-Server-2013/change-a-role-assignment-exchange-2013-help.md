@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Le assegnazioni del ruolo di gestione consentono di assegnare un ruolo di gestione a un assegnatario di ruolo. Modificando l'assegnazione di ruolo, è possibile controllare gli oggetti modificabili dagli assegnatari associati a un ruolo. Gli ambiti del ruolo di gestione, applicati alle assegnazioni di ruolo, sostituiscono l'ambito di scrittura implicito del ruolo. L'ambito di lettura implicito del ruolo viene comunque applicato. Gli ambiti applicati non possono restituire oggetti esterni all'ambito di lettura implicito del ruolo.
 

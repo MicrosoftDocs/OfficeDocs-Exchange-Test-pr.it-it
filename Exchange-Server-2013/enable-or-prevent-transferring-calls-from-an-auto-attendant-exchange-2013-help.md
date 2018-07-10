@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile consentire o impedire ai chiamanti di trasferire le chiamate agli utenti tramite un operatore automatico. Per impostazione predefinita questa opzione è abilitata e i chiamati possono trasferire le chiamate a utenti abilitati alla messaggistica unificata nel dial plan di messaggistica unificata associato all'operatore automatico di messaggistica unificata.
 

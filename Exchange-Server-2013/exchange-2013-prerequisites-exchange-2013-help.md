@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-03-20_
+_**Ultima modifica dell'argomento:** 2017-03-20_
 
 In questo argomento viene descritta la procedura di installazione dei necessari prerequisiti del sistema operativo Windows Server 2012 R2, Windows Server 2012 and Windows Server 2008 R2 con Service Pack 1 (SP1) per i ruoli del server Cassette postali, Accesso client e Trasporto Edge di Microsoft Exchange 2013. Vengono inoltre indicati i prerequisiti indispensabili per l'installazione degli strumenti di gestione di Exchange 2013 nei computer client Windows 8, Windows 8.1 e Windows 7.
 
@@ -191,11 +191,11 @@ Dopo aver installato i ruoli e le funzionalità del sistema operativo, installar
 
 3.  [Microsoft Unified Communications Managed API 4.0, Core Runtime 64-bit](https://go.microsoft.com/fwlink/p/?linkid=258269)
 
-4.  [Articolo della Microsoft Knowledge Base KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=974405)
+4.  [Articolo della Microsoft Knowledge Base KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=974405)
 
-5.  [Articolo della Knowledge Base KB2619234 (È disponibile il cookie/GUID per l’associazione utilizzato da RPC su HTTP che deve essere utilizzato anche al livello RPC in Windows 7 e in Windows Server 2008 R2)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2619234)
+5.  [Articolo della Knowledge Base KB2619234 (È disponibile il cookie/GUID per l’associazione utilizzato da RPC su HTTP che deve essere utilizzato anche al livello RPC in Windows 7 e in Windows Server 2008 R2)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2619234)
 
-6.  [Articolo della Knowledge Base KB2533623 (Possibile esecuzione di codice remoto durante un caricamento della libreria non protetto)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2533623)
+6.  [Articolo della Knowledge Base KB2533623 (Possibile esecuzione di codice remoto durante un caricamento della libreria non protetto)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2533623)
     
 
     > [!NOTE]
@@ -251,7 +251,7 @@ Dopo aver installato le funzionalità del sistema operativo, installare il softw
 
 2.  [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=390234)
 
-3.  [Articolo della Knowledge Base KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=974405)
+3.  [Articolo della Knowledge Base KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=974405)
 
 ## Prerequisiti di Windows 8 e Windows 8.1 (solo strumenti di amministrazione)
 

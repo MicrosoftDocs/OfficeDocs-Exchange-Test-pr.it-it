@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-11_
+_**Ultima modifica dell'argomento:** 2013-02-11_
 
 Dopo aver installato un server Cassette postali su cui è in esecuzione il servizio di messaggistica unificata di Microsoft Exchange, è possibile configurare diverse opzioni tra cui il numero di chiamate contemporanee, le porte di ascolto TCP e TLS, lo stato e la modalità di avvio per Messaggistica unificata.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-12-04_
+_**Ultima modifica dell'argomento:** 2012-12-04_
 
 Nelle distribuzioni on-premises vengono creati, per impostazione predefinita, archivi locali con quote di archiviazione illimitate. Di conseguenza sarà necessario modificare le proprietà della cassetta postale per impostare le quote di archiviazione. È possibile impostare le quote seguenti per un archivio:
 

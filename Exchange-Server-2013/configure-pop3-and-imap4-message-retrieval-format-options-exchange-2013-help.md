@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 È possibile configurare il recupero del formato dei messaggi per gli utenti che si collegano alla posta elettronica utilizzando POP3 e IMAP4. È possibile configurare le opzioni di recupero dei messaggi al livello di server tramite l'interfaccia di amministrazione di Exchange o Shell e, a livello di utente, tramite Shell.
 

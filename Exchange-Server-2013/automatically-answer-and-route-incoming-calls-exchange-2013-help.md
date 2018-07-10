@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-08-26_
+_**Ultima modifica dell'argomento:** 2013-08-26_
 
 La messaggistica unificata di Microsoft consente di creare uno o più operatori automatici di messaggistica unificata, in base alle esigenze dell'organizzazione. Diversamente dagli altri componenti di messaggistica unificata, quali dial plan e gateway IP, non è necessario creare gli operatori automatici di messaggistica unificata. Tuttavia, gli operatori automatici consentono ai chiamanti interni ed esterni di individuare gli utenti o i reparti presenti in un'organizzazione e di trasferire loro le chiamate. In questo argomento viene descritta la funzionalità degli operatori automatici di messaggistica unificata.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-09_
+_**Ultima modifica dell'argomento:** 2012-10-09_
 
 Un gruppo legato al ruolo di gestione può essere utilizzato per abilitare i membri di un gruppo di protezione universale in una foresta Active Directory esterna al fine di gestire un'organizzazione Microsoft Exchange Server 2013 in una foresta di risorse Active Directory. Associando un gruppo di protezione universale in una foresta esterna con un gruppo legato al ruolo, ai membri del gruppo di protezione universale sono concesse le autorizzazioni fornite dai ruoli di gestione assegnati al gruppo legato al ruolo. Per ulteriori informazioni sui gruppi di ruoli collegati, vedere [Informazioni sui gruppi di ruoli di gestione](understanding-management-role-groups-exchange-2013-help.md).
 

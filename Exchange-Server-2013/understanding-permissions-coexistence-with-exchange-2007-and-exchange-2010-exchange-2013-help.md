@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Si applica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Quando si installa Microsoft Exchange Server 2013 in un'organizzazione di Microsoft Exchange Server 2010 o Microsoft Exchange Server 2007 esistente, è necessario sapere come funzioneranno le autorizzazioni nella nuova organizzazione. Leggere di seguito la sezione relativa alla propria organizzazione.
 

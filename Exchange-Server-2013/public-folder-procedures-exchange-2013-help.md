@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-08-02_
+_**Ultima modifica dell'argomento:** 2017-08-02_
 
-**Riepilogo:** Creare e gestire le cartelle pubbliche con uno o più degli articoli seguenti.
+**Riepilogo:**  Creare e gestire le cartelle pubbliche con uno o più degli articoli seguenti.
 
 Utilizzare uno o più delle procedure elencate di seguito per aggiornare ed eseguire l'infrastruttura delle cartelle pubbliche e per eseguire altre operazioni necessarie per la gestione delle cartelle pubbliche.
 

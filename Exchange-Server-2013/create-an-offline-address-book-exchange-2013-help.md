@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-24_
+_**Ultima modifica dell'argomento:** 2015-04-24_
 
 Una rubrica offline in Exchange Server 2013 è una copia scaricata di una rubrica che consente agli utenti di Outlook di accedere alle informazioni quando sono scollegati dal server. Gli amministratori di Exchange possono scegliere le rubriche da rendere disponibili agli utenti che lavorano in modalità non linea, oltre a poter configurare il metodo di distribuzione delle rubriche (distribuzione basata sul Web o delle cartelle pubbliche).
 

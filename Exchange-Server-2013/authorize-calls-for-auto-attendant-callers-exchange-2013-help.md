@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 È possibile abilitare le autorizzazioni di composizione per un operatore automatico di messaggistica unificata. Le autorizzazioni di composizione su un operatore automatico vengono utilizzate per impedire agli utenti che chiamano l'operatore automatico di effettuare telefonate nazionali o internazionali o *chiamate esterne*. La composizione di chiamate esterne avviene quando la messaggistica unificata effettua una chiama in uscita per un utente dopo che tale utente ha chiamato un numero configurato in un operatore automatico di messaggistica unificata.
 

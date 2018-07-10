@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Microsoft Exchange Server 2013. Prima di utilizzare Exchange 2013 e i contenuti della presente sezione, è necessario considerare alcuni aspetti.
 

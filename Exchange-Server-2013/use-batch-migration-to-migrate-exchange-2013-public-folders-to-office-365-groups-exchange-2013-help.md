@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-03-26_
+_**Ultima modifica dell'argomento:** 2018-03-26_
 
-**Sintesi:** come spostare le cartelle pubbliche di Exchange 2013 nei gruppi di Office 365.
+**Sintesi:**  come spostare le cartelle pubbliche di Exchange 2013 nei gruppi di Office 365.
 
 Tramite un processo noto come *migrazione batch*, è possibile spostare alcune o tutte le cartelle pubbliche di Exchange 2013 nei gruppi di Office 365. I gruppi sono una nuova offerta di collaborazione di Microsoft che garantisce alcuni vantaggi rispetto alle cartelle pubbliche. Vedere [Eseguire la migrazione delle cartelle pubbliche nei gruppi di Office 365](migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md) per una panoramica delle differenze tra le cartelle pubbliche e i gruppi e dei motivi per i quali l'organizzazione potrebbe o non potrebbe trarre vantaggio dal passaggio ai gruppi.
 
@@ -69,7 +69,7 @@ Prima di procedere, verificare di aver scaricato e salvato tutti i seguenti scri
 
   - **LockAndSavePublicFolderProperties.ps1**. Questo script rende le cartelle pubbliche di sola lettura per impedire le modifiche e trasferisce le proprietà delle cartelle pubbliche correlate alla posta (ammesso che nelle cartelle pubbliche siano abilitate per la posta) nei gruppi di destinazione, che reindirizzeranno i messaggi di posta elettronica dalle cartelle pubbliche ai gruppi di destinazione. Questo script inoltre esegue di nuovo il backup delle voci autorizzazione e delle proprietà della posta prima di modificarle.
 
-  - **LockAndSavePublicFolderProperties.strings.psd1:** Questo file di supporto viene utilizzato dallo script `LockAndSavePublicFolderProperties.ps1`.
+  - **LockAndSavePublicFolderProperties.strings.psd1:**  Questo file di supporto viene utilizzato dallo script `LockAndSavePublicFolderProperties.ps1`.
 
   - **UnlockAndRestorePublicFolderProperties.ps1**. Questo script ripristina i diritti di accesso e le proprietà della posta delle cartelle pubbliche utilizzando i file di backup creati da `LockandSavePublicFolderProperties.ps1`.
 
@@ -262,9 +262,9 @@ Per riferimento, in questa sezione vengono fornite descrizioni dettagliate per t
 
 Questo script legge le autorizzazioni delle cartelle pubbliche migrate e quindi aggiunge membri e proprietari ai gruppi di Office 365 nel modo seguente:
 
-  - Gli utenti con i ruoli di autorizzazione seguenti vengono aggiunti come membri a un gruppo in Office 365. **Ruoli di autorizzazione:** Owner, PublishingEditor, Editor, PublishingAuthor, Author
+  - Gli utenti con i ruoli di autorizzazione seguenti vengono aggiunti come membri a un gruppo in Office 365. **Ruoli di autorizzazione:**  Owner, PublishingEditor, Editor, PublishingAuthor, Author
 
-  - Inoltre, anche gli utenti con i diritti di accesso minimi seguenti vengono aggiunti come membri a un gruppo in Office 365. **Diritti di accesso:** ReadItems, CreateItems, FolderVisible, EditOwnedItems, DeleteOwnedItems
+  - Inoltre, anche gli utenti con i diritti di accesso minimi seguenti vengono aggiunti come membri a un gruppo in Office 365. **Diritti di accesso:**  ReadItems, CreateItems, FolderVisible, EditOwnedItems, DeleteOwnedItems
 
   - Gli utenti con il diritto di accesso "Owner" vengono aggiunti come proprietari a un gruppo e gli utenti con altri diritti di accesso idonei vengono aggiunti come membri.
 

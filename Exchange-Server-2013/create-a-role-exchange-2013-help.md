@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-17_
+_**Ultima modifica dell'argomento:** 2012-10-17_
 
 È possibile creare un ruolo di gestione, cambiare le voci del ruolo di gestione, aggiungere un ambito (se necessario) e poi assegnare il ruolo agli utenti. È raramente necessario eseguire questa procedura. Si consiglia di controllare se è possibile utilizzare un ruolo di gestione incorporato, invece di creare un ruolo di gestione. Per un elenco dei ruoli di gestione incorporati, vedere [Ruoli di gestione predefiniti](built-in-management-roles-exchange-2013-help.md).
 

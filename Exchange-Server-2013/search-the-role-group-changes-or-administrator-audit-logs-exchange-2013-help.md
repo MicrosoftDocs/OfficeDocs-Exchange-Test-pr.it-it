@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-12-02_
+_**Ultima modifica dell'argomento:** 2013-12-02_
 
 È possibile effettuare una ricerca nei log di controllo dell'amministratore per individuare chi ha apportato delle modifiche alla configurazione dell'organizzazione, del server e del destinatario. Questa funzionalità può rivelarsi utile quando si cerca di individuare la causa di un comportamento imprevisto, di identificare un amministratore malintenzionato o di verificare se i requisiti di conformità sono stati soddisfatti. Per ulteriori informazioni sulla registrazione dei controlli dell'amministratore, vedere [Registrazione controlli dell'amministratore](administrator-audit-logging-exchange-2013-help.md).
 

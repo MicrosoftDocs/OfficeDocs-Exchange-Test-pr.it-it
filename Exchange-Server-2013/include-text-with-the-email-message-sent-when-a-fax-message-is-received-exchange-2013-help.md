@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile includere altro testo nel messaggio di posta elettronica inviato quando un messaggio fax viene ricevuto dagli utenti abilitati alla posta vocale della messaggistica unificata e al fax e quando il criterio cassetta postale di messaggistica unificata è stato configurato correttamente per l'utilizzo di un provider partner fax. Per impostazione predefinita, il testo incluso in questi casi indica solo che l'utente ha ricevuto un messaggio fax. Tuttavia, è possibile creare un messaggio personalizzato aggiungendo del testo nella casella **Quando un utente riceve un messaggio fax** su un criterio cassetta postale di messaggistica unificata. Ad esempio, possono essere incluse informazioni sui criteri di sicurezza del sistema e descrizioni su come gestire correttamente i messaggi fax nell'organizzazione. Una volta aggiunto, il testo verrà incluso in ogni messaggio di posta elettronica inviato quando gli utenti abilitati alla messaggistica unificata e associati al criterio cassetta postale di messaggistica unificata ricevono un messaggio fax.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-19_
+_**Ultima modifica dell'argomento:** 2013-02-19_
 
 Con la messaggistica unificata, gli utenti in un'organizzazione di Exchange possono ricevere in un'unica cassetta postale tutti i messaggi vocali e di posta elettronica. La funzionalità di messaggistica unificata e le funzionalità del sistema di caselle vocali aumentano notevolmente la produttività degli utenti e consentono una messaggistica più flessibile all'interno dell'organizzazione.
 
@@ -83,7 +83,7 @@ Dopo aver creato una cassetta postale di Exchange per l'utente, è possibile con
     
     È necessario fornire un numero di interno valido per l'utente che contenga lo stesso numero di cifre specificato nel dial plan. È possibile immettere solo caratteri numerici o cifre da 1 a 20. Il numero di interno tipico è lungo da 3 a 7 cifre ed è configurato sul dial plan con cui il criterio cassetta postale di messaggistica unificata è collegato e assegnato all'utente.
 
-3.  **Impostazioni del PIN per l'utente:**
+3.  **Impostazioni del PIN per l'utente:** 
     
       - **Genera automaticamente PIN**    Questa impostazione genera automaticamente un PIN per l'utente abilitato alla messaggistica unificata da utilizzare per l'accesso al sistema di caselle vocali tramite Outlook Voice Access. Questa impostazione è quella predefinita. Quando si fa clic su questo pulsante, viene generato automaticamente un PIN in base ai criteri del PIN configurati nel criterio cassetta postale di messaggistica unificata associato all'utente. È consigliabile utilizzare questa impostazione per proteggere il PIN dell'utente. Il PIN viene inviato all'utente nel messaggio di benvenuto che riceve quando viene abilitato per la messaggistica unificata. Per impostazione predefinita, dovranno modificare questo PIN la prima volta che accedono alla loro cassetta postale per utilizzare la posta vocale.
     

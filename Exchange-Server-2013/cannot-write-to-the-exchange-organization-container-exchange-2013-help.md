@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2014-11-05_
+_**Ultima modifica dell'argomento:** 2014-11-05_
 
 Microsoft Exchange Server 2013 non può proseguire con l'installazione perché l'utente connesso non dispone di autorizzazioni per gli account necessari per scrivere il contenitore dell'organizzazione nel servizio directory Active Directory.
 

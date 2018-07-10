@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Communications Server 2007 R2 e Lync Server forniscono molte funzionalità all'utente finale, incluse la messaggistica immediata (IM), la disponibilità, la messaggistica immediata per più partecipanti e la funzionalità di posta vocale che possono essere integrate con la messaggistica unificata di Exchange. Nelle distribuzioni che si integrano con Lync Server 2010 o 2013 gli utenti abilitati alla posta vocale possono essere abilitati a Enterprice Voice che consente loro di accedere alla posta vocale utilizzando i componenti di Lync Server.
 

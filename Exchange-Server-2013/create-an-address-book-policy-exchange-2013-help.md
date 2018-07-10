@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-16_
+_**Ultima modifica dell'argomento:** 2014-12-16_
 
 I criteri della rubrica consentono di suddividere gli utenti in gruppi specifici per fornire viste personalizzate dell'Elenco indirizzi globale dell'organizzazione. Quando si crea un criterio delle rubriche, si assegna un Elenco indirizzi globale, una Rubrica offline, un elenco di sale e uno o più elenchi indirizzi al criterio. È quindi possibile assegnare il criterio delle rubriche agli utenti delle cassette postali, per consentire l'accesso a un Elenco indirizzi globale personalizzato in Outlook e Outlook Web App. Lo scopo è fornire un meccanismo più semplice per eseguire la segmentazione dell'Elenco indirizzi globale nelle organizzazioni locali che richiedono più Elenchi indirizzi globali. Per ulteriori informazioni sui criteri delle rubriche, vedere [Criteri delle rubriche](address-book-policies-exchange-2013-help.md).
 
@@ -43,15 +43,15 @@ Per gli utenti interessati agli scenari in cui viene utilizzata questa procedura
 
 In questo esempio viene creato un messaggio criterio della rubrica con le seguenti impostazioni:
 
-  - **Nome:** All Fabrikam ABP
+  - **Nome:**  All Fabrikam ABP
 
-  - **Elenco indirizzi globale:** All Fabrikam
+  - **Elenco indirizzi globale:**  All Fabrikam
 
-  - **Rubrica offline:** Fabrikam-All-OAB
+  - **Rubrica offline:**  Fabrikam-All-OAB
 
-  - **Elenco sale:** All Fabrikam Rooms
+  - **Elenco sale:**  All Fabrikam Rooms
 
-  - **Elenchi indirizzi:** All Fabrikam, All Fabrikam Mailboxes, All Fabrikam DLs e All Fabrikam Contacts
+  - **Elenchi indirizzi:**  All Fabrikam, All Fabrikam Mailboxes, All Fabrikam DLs e All Fabrikam Contacts
 
 <!-- end list -->
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-13_
+_**Ultima modifica dell'argomento:** 2012-10-13_
 
 I criteri di denominazione dei gruppi per i gruppi di distribuzione sono applicati solo ai gruppi creati dagli utenti. Quando un amministratore utilizza Interfaccia di amministrazione di Exchange (EAC) per creare gruppi di distribuzione, i criteri di denominazione dei gruppi vengono ignorati e non vengono applicati al nome del gruppo.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 La riscrittura degli indirizzi modifica gli indirizzi di posta elettronica di mittenti e destinatari nei messaggi che entrano o escono dall'organizzazione attraverso i server Trasporto Edge. Due agenti di trasporto nel server Trasporto Edge offrono la funzionalità di riscrittura: l'agente di riscrittura degli indirizzi dei messaggi in ingresso e l'agente di riscrittura degli indirizzi dei messaggi in uscita. Il motivo principale della riscrittura degli indirizzi nei messaggi in uscita è quello di presentare un unico e uniforme dominio di posta elettronica ai destinatari esterni. Il motivo principale della riscrittura degli indirizzi nei messaggi in entrata è quello di recapitare i messaggi al destinatario corretto.
 

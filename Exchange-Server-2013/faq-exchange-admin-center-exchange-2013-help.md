@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 In questo argomento viene fornita con un elenco di domande frequenti per la nuova interfaccia di amministrazione Exchange (EAC) in Microsoft Exchange Server 2013. Sono altre domande relative all'interfaccia di amministrazione Exchange non riceve risposta qui? Inviare un messaggio di posta elettronica in [Ex2013HelpFeedback@microsoft.com](mailto:ex2013helpfeedback@microsoft.com).
 

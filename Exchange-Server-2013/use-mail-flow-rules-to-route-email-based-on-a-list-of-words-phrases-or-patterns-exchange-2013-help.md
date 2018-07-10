@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-10-30_
+_**Ultima modifica dell'argomento:** 2017-10-30_
 
 Per consentire agli utenti di essere conformi ai criteri di posta elettronica dell'organizzazione, è possibile utilizzare le regole di trasporto di Exchange per determinare come vengono instradate le e-mail contenenti parole o motivi specifici. Per un breve elenco di parole o frasi, è possibile utilizzare l'Interfaccia di amministrazione di Exchange. Per un elenco più lungo, è consigliabile utilizzare il modulo Exchange affinché Windows PowerShell legga l'elenco da un file di testo.
 

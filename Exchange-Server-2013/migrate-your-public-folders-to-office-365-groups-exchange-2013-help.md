@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2010, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2010, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-09-25_
+_**Ultima modifica dell'argomento:** 2017-09-25_
 
-**Sintesi:** informazioni sui motivi per cui eseguire o non eseguire la migrazione delle cartelle pubbliche di Exchange ai gruppi di Office 365.
+**Sintesi:**  informazioni sui motivi per cui eseguire o non eseguire la migrazione delle cartelle pubbliche di Exchange ai gruppi di Office 365.
 
 In questo articolo viene fornito un confronto tra le cartelle pubbliche e i gruppi di Office 365 e viene spiegato come l'una o l'altra soluzione potrebbe essere quella migliore per l'organizzazione. Le cartelle pubbliche sono state introdotte con Exchange, mentre i gruppi solo di recente. Se si desidera eseguire la migrazione di alcune o tutte le cartelle pubbliche ai gruppi, in questo articolo viene descritto il funzionamento di questo processo e vengono forniti collegamenti agli articoli che trattano la relativa procedura in modo dettagliato.
 
@@ -89,15 +89,15 @@ I vantaggi principali delle migrazioni batch sono:
 
 Nella seguente procedura viene descritto il processo generale di migrazione dei contenuti delle cartelle pubbliche ai gruppi di Office 365 in una migrazione batch. I dettagli specifici sono contenuti negli articoli elencati di seguito.
 
-1.  **Seleziona origine:** scegliere le cartelle pubbliche che si desidera migrare. È possibile scegliere qualsiasi cartella con contenuti del calendario o della posta elettronica.
+1.  **Seleziona origine:**  scegliere le cartelle pubbliche che si desidera migrare. È possibile scegliere qualsiasi cartella con contenuti del calendario o della posta elettronica.
 
-2.  **Crea destinazione:** creare i gruppi corrispondenti per le cartelle, con le configurazioni desiderate come membri, impostazioni della privacy e classificazione dei dati.
+2.  **Crea destinazione:**  creare i gruppi corrispondenti per le cartelle, con le configurazioni desiderate come membri, impostazioni della privacy e classificazione dei dati.
 
-3.  **Copia dati:** usare i cmdlet di migrazione batch per copiare i dati dalle cartelle pubbliche ai gruppi.
+3.  **Copia dati:**  usare i cmdlet di migrazione batch per copiare i dati dalle cartelle pubbliche ai gruppi.
 
-4.  **Blocca origine:** bloccare le cartelle pubbliche dopo aver verificato i dati nei gruppi.
+4.  **Blocca origine:**  bloccare le cartelle pubbliche dopo aver verificato i dati nei gruppi.
 
-5.  **Completa:** copiare i nuovi dati che sono stati creati tra i passaggi 3 e 4.
+5.  **Completa:**  copiare i nuovi dati che sono stati creati tra i passaggi 3 e 4.
 
 Le cartelle pubbliche e i gruppi corrispondenti rimangono disponibili online per gli utenti durante i passaggi 1-3 sopra descritti. Dopo il passaggio 3, è possibile stabilire se procedere o no con il resto della migrazione, in base all'esperienza dei gruppi, e se tale soluzione è adatta o no agli utenti e all'organizzazione. A questo punto, è possibile eseguire il rollback della migrazione e ripristinare le cartelle pubbliche. Se si procede con la migrazione, dopo aver completato il passaggio 5, è possibile eliminare le cartelle pubbliche originali. Anche dopo la migrazione è possibile eseguire il rollback alle cartelle pubbliche, purché siano stati salvati i file di backup dal processo di migrazione e non siano state eliminate le cartelle pubbliche originali.
 

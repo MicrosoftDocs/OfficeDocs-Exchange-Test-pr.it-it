@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-28_
+_**Ultima modifica dell'argomento:** 2012-11-28_
 
 È possibile utilizzare l'interfaccia di amministrazione di Exchange o Shell per gestire i limiti di connessione POP3 per l'organizzazione.
 

@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2016, Office 365_
+_**Si applica a:** Exchange Online, Exchange Server 2016, Office 365_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Utilizzare Interfaccia di amministrazione di Exchange (EAC) oppure Exchange Management Shell per creare un nuovo gruppo di distribuzione nell'organizzazione di Exchange o per abilitare alla posta un gruppo esistente in Active Directory.
 
@@ -51,27 +51,22 @@ Esistono due tipi di gruppi che possono essere utilizzati per la distribuzione d
 
 2.  Fare clic su **Nuovo**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") \> **Gruppo di distribuzione**.
 
-3.  
-    
-
-    > [!TIP]
+3.  > [!TIP]  
     > <IMG title="Nuovi gruppi di Office 365" alt="Nuovi gruppi di Office 365" src="images/Bb124513.3ea82c95-9dda-450f-823b-cd0772249d81(EXCHG.150).png"><BR>È ora possibile creare un gruppo di Office 365 anziché un gruppo di distribuzione, se si dispone di un piano per le aziende di Office 365 o di un piano Exchange Online. I gruppi di Office 365 dispongono delle caratteristiche di un gruppo di distribuzione e molte altre. Con i gruppi di Office 365, è possibile inviare messaggi di posta elettronica a un gruppo, condividere un calendario comune, avere una raccolta per archiviare e utilizzare file e cartelle di gruppo. Fare clic su <STRONG>Nuovo</STRONG><IMG title="Icona Aggiungi" alt="Icona Aggiungi" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif">&nbsp;&gt;&nbsp;<STRONG>Gruppo di Office 365</STRONG> per iniziare e consultare la <A href="https://go.microsoft.com/fwlink/p/?linkid=800653">guida per amministratori sui gruppi di Office 365</A>.<BR>Se si dispone di gruppi di distribuzione esistenti che si desidera migrare ai gruppi di Office 365, consultare la <A href="https://go.microsoft.com/fwlink/p/?linkid=824756">guida per amministratori sulla migrazione delle liste di distribuzione ai gruppi di Office 365</A>.<BR>Se si desidera creare un gruppo di distribuzione, selezionare o toccare la procedura guidata <STRONG>Nuovo gruppo di distribuzione</STRONG>.
 
 
 
-4.  
+4.  Nella pagina **Nuovo gruppo di distribuzione**, completare le caselle seguenti:
     
-    Nella pagina **Nuovo gruppo di distribuzione**, completare le caselle seguenti:
+      - \* **Nome visualizzato**   Utilizzare questa casella per digitare il nome visualizzato. Questo nome verrà visualizzato nella rubrica dell'organizzazione, nella riga A: quando il messaggio di posta elettronica viene inviato a questo gruppo e nell'elenco Gruppi nell'interfaccia di amministrazione di Exchange. Il nome visualizzato è obbligatorio e deve essere un nome descrittivo facilmente riconoscibile dagli utenti. Inoltre, deve essere univoco nella foresta.
     
-      - **\* Nome visualizzato**   Utilizzare questa casella per digitare il nome visualizzato. Questo nome verrà visualizzato nella rubrica dell'organizzazione, nella riga A: quando il messaggio di posta elettronica viene inviato a questo gruppo e nell'elenco Gruppi nell'interfaccia di amministrazione di Exchange. Il nome visualizzato è obbligatorio e deve essere un nome descrittivo facilmente riconoscibile dagli utenti. Inoltre, deve essere univoco nella foresta.
-    
-      - **\* Alias**   Utilizzare questa casella per digitare il nome dell'alias per il gruppo. L'alias non può contenere più di 64 caratteri e deve essere univoco nella foresta. Quando un utente digita l'alias nella riga A: di un messaggio di posta elettronica, questo si risolve nel nome visualizzato del gruppo.
+      - \* **Alias**   Utilizzare questa casella per digitare il nome dell'alias per il gruppo. L'alias non può contenere più di 64 caratteri e deve essere univoco nella foresta. Quando un utente digita l'alias nella riga A: di un messaggio di posta elettronica, questo si risolve nel nome visualizzato del gruppo.
     
       - **Unità organizzativa**   (opzione disponibile solo in Exchange 2013 locale) È possibile selezionare un'unità organizzativa diversa da quella predefinita (che corrisponde all'ambito dei destinatari). Se l'ambito dei destinatari è impostato a livello di foresta, il valore predefinito è impostato sul contenitore di utenti nel dominio di Active Directory contenente il computer su cui è in esecuzione l'interfaccia di amministrazione di Exchange. Se l'ambito dei destinatari viene impostato su un dominio specifico, per impostazione predefinita verrà selezionato il contenitore di utenti del dominio in questione. Se infine come ambito dei destinatari si sceglie una specifica unità organizzativa, per impostazione predefinita verrà selezionata l'unità organizzativa specificata.
         
         Per selezionare un'unità organizzativa diversa, scegliere il pulsante **Sfoglia**. La finestra di dialogo visualizzerà tutte le unità organizzative presenti nella foresta all'interno dell'ambito specificato. Selezionare l'unità organizzativa desiderata e fare clic su **OK**.
     
-      - **\* Proprietari**   Per impostazione predefinita, l'utente che crea un gruppo ne diventa proprietario. Ogni gruppo deve presentare almeno un proprietario. È possibile aggiungere proprietari facendo clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi").
+      - \* **Proprietari**   Per impostazione predefinita, l'utente che crea un gruppo ne diventa proprietario. Ogni gruppo deve presentare almeno un proprietario. È possibile aggiungere proprietari facendo clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi").
     
       - **Membri**   Utilizzare questa sezione per aggiungere membri e specificare se è necessaria l'approvazione per unirsi al gruppo o abbandonarlo.
         
@@ -91,7 +86,7 @@ Esistono due tipi di gruppi che possono essere utilizzati per la distribuzione d
         
           - **Aperto: qualsiasi utente può lasciare questo gruppo senza l'approvazione dei proprietari**   È l'impostazione predefinita.
         
-          - **Chiuso: i membri possono essere rimossi solo dai proprietari del gruppo. Tutte le richieste di lasciare il gruppo verranno rifiutate automaticamente   **
+          - **Chiuso: i membri possono essere rimossi solo dai proprietari del gruppo. Tutte le richieste di lasciare il gruppo verranno rifiutate automaticamente**
 
 5.  Al termine fare clic su **Salva** per creare il gruppo di distribuzione.
 
@@ -157,11 +152,11 @@ Per verificare la corretta creazione di un gruppo di distribuzione, effettuare u
 
 Utilizzare questa sezione per visualizzare o modificare le informazioni di base sul gruppo.
 
-  - **\* Nome visualizzato**   Questo nome verrà visualizzato nella Rubrica, nei campi A: quando il messaggio di posta elettronica viene inviato a questo gruppo e nell'elenco Gruppi. Il nome visualizzato è obbligatorio e deve essere un nome descrittivo facilmente riconoscibile dagli utenti. Inoltre, deve essere univoco nel dominio in uso.
+  - \* **Nome visualizzato**   Questo nome verrà visualizzato nella Rubrica, nei campi A: quando il messaggio di posta elettronica viene inviato a questo gruppo e nell'elenco Gruppi. Il nome visualizzato è obbligatorio e deve essere un nome descrittivo facilmente riconoscibile dagli utenti. Inoltre, deve essere univoco nel dominio in uso.
     
     Se sono stati implementati criteri di denominazione dei gruppi, il nome visualizzato deve essere conforme al formato di denominazione definito dai criteri.
 
-  - **\* Alias**   Questa è la parte dell'indirizzo di posta elettronica visualizzata a sinistra del simbolo di chiocciola (@). Se si modifica l'alias, verrà modificato anche l'indirizzo SMTP primario del gruppo in modo che contenga il nuovo alias. Inoltre, l'indirizzo di posta elettronica con il precedente alias verrà conservato come indirizzo proxy del gruppo.
+  - \* **Alias**   Questa è la parte dell'indirizzo di posta elettronica visualizzata a sinistra del simbolo di chiocciola (@). Se si modifica l'alias, verrà modificato anche l'indirizzo SMTP primario del gruppo in modo che contenga il nuovo alias. Inoltre, l'indirizzo di posta elettronica con il precedente alias verrà conservato come indirizzo proxy del gruppo.
 
   - **Descrizione**   Utilizzare questa casella per descrivere lo scopo del gruppo. Questa descrizione viene visualizzata nella rubrica e nel riquadro Dettagli dell'interfaccia di amministrazione di Exchange.
 
@@ -197,11 +192,11 @@ Utilizzare questa sezione per specificare se è necessaria l'approvazione per un
     
       - **Approvazione proprietario: tutte le richieste vengono approvate o rifiutate dai proprietari dei gruppi.**   Se si seleziona questa opzione, il proprietario o i proprietari del gruppo ricevono un messaggio di posta elettronica in cui si richiede di approvare la richiesta di aggiunta al gruppo.
 
-  - **Scegliere se il gruppo è aperto per uscire   **Selezionare una delle impostazioni seguenti:
+  - **Scegliere se il gruppo è aperto per uscire**   Selezionare una delle impostazioni seguenti:
     
-      - **Aperto: chiunque può lasciare il gruppo senza l'approvazione dei proprietari del gruppo   **
+      - **Aperto: chiunque può lasciare il gruppo senza l'approvazione dei proprietari del gruppo**
     
-      - **Chiuso: i membri possono essere rimossi solo dai proprietari del gruppo. Tutte le richieste di lasciare il gruppo verranno rifiutate automaticamente   **
+      - **Chiuso: i membri possono essere rimossi solo dai proprietari del gruppo. Tutte le richieste di lasciare il gruppo verranno rifiutate automaticamente**
 
 ## Gestione recapito
 
@@ -231,7 +226,7 @@ Utilizzare questa sezione per impostare le opzioni di moderazione del gruppo. I 
 
   - **Mittenti che non richiedono l'approvazione dei messaggi**    Per aggiungere utenti o gruppi in grado di ignorare la moderazione del gruppo, fare clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi"). Per rimuovere una utente o un gruppo, selezionarlo e fare clic su **Rimuovi**![Icona Rimuovi](images/JJ657492.479b6ced-8d64-4277-a725-f17fea202b28(EXCHG.150).gif "Icona Rimuovi").
 
-  - **Seleziona notifiche di moderazione   **Utilizzare questa sezione per stabilire in che modo gli utenti vengono avvisati dell'approvazione del messaggio.
+  - **Seleziona notifiche di moderazione**   Utilizzare questa sezione per stabilire in che modo gli utenti vengono avvisati dell'approvazione del messaggio.
     
       - **Notificare a tutti i mittenti che i loro messaggi non sono stati approvati**   Questa è l'impostazione predefinita. Consente di notificare qualsiasi mittente, sia esso interno o esterno all'organizzazione, in merito alla non approvazione del messaggio che ha inviato.
     
@@ -243,16 +238,16 @@ Utilizzare questa sezione per impostare le opzioni di moderazione del gruppo. I 
 
 Utilizzare questa sezione per visualizzare o modificare gli indirizzi di posta elettronica associati al gruppo. Ciò include gli indirizzi SMTP primari del gruppo e qualsiasi indirizzo proxy ad esso associato. L'indirizzo SMTP primario (chiamato anche *indirizzo di risposta*) viene visualizzato in grassetto nell'elenco degli indirizzi, con il valore **SMTP** maiuscolo nella colonna **Tipo**.
 
-  - **Aggiungi **  Fare clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") per aggiungere un nuovo indirizzo di posta elettronica per la cassetta postale. Selezionare uno dei seguenti tipi di indirizzo:
+  - **Aggiungi**  Fare clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") per aggiungere un nuovo indirizzo di posta elettronica per la cassetta postale. Selezionare uno dei seguenti tipi di indirizzo:
     
-      - **SMTP**   Questo è il tipo di indirizzo predefinito. Fare clic su questo pulsante e quindi digitare il nuovo indirizzo SMTP nella casella **\* Indirizzo di posta elettronica**.
+      - **SMTP**   Questo è il tipo di indirizzo predefinito. Fare clic su questo pulsante e quindi digitare il nuovo indirizzo SMTP nella casella \* **Indirizzo di posta elettronica**.
         
 
         > [!NOTE]
         > Per impostare il nuovo indirizzo SMTP come primario per il gruppo, selezionare la casella di controllo <STRONG>Imposta questo indirizzo come indirizzo di risposta</STRONG>.
 
     
-      - **Tipo di indirizzo personalizzato**   Fare clic su questo pulsante e digitare uno dei tipi di indirizzi di posta elettronica non SMTP supportati nella casella **\* Indirizzo di posta elettronica**.
+      - **Tipo di indirizzo personalizzato**   Fare clic su questo pulsante e digitare uno dei tipi di indirizzi di posta elettronica non SMTP supportati nella casella \* **Indirizzo di posta elettronica**.
         
 
         > [!NOTE]
@@ -270,7 +265,7 @@ Utilizzare questa sezione per visualizzare o modificare gli indirizzi di posta e
 
   - **Rimuovi**   Per eliminare un indirizzo di posta elettronica associato al gruppo, selezionarlo nell'elenco e fare clic su **Rimuovi**![Icona Rimuovi](images/JJ657492.479b6ced-8d64-4277-a725-f17fea202b28(EXCHG.150).gif "Icona Rimuovi").
 
-  - **Aggiorna automaticamente gli indirizzi sulla base del criterio dell'indirizzo di posta elettronica applicato a questo destinatario   **Selezionare questa casella di controllo per aggiornare automaticamente gli indirizzi di posta elettronica dei destinatari in base alle modifiche apportate ai criteri degli indirizzi di posta elettronica nell'organizzazione. Tale casella è selezionata per impostazione predefinita.
+  - **Aggiorna automaticamente gli indirizzi sulla base del criterio dell'indirizzo di posta elettronica applicato a questo destinatario**   Selezionare questa casella di controllo per aggiornare automaticamente gli indirizzi di posta elettronica dei destinatari in base alle modifiche apportate ai criteri degli indirizzi di posta elettronica nell'organizzazione. Tale casella è selezionata per impostazione predefinita.
 
 ## MailTip
 

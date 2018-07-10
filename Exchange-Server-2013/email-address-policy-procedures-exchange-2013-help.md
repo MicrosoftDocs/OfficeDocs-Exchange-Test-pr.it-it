@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-13_
+_**Ultima modifica dell'argomento:** 2012-10-13_
 
 [Creare un criterio indirizzo di posta elettronica](create-an-email-address-policy-exchange-2013-help.md)
 

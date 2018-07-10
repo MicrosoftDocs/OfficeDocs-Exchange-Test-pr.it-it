@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-29_
+_**Ultima modifica dell'argomento:** 2013-04-29_
 
 È possibile utilizzare la procedura guidata Nuovo certificato di Exchange nell'interfaccia di amministrazione di Exchange o Shell per creare certificati autofirmati o richieste di certificati per una infrastruttura a chiave pubblica interna. Per la messaggistica unificata, è possibile utilizzare uno di questi certificati sia per il servizio di messaggistica unificata che per i servizi Router chiamate di messaggistica unificata di Microsoft Exchange. È possibile utilizzare lo stesso certificato per entrambi i servizi o un certificato diverso per ogni servizio. È inoltre possibile acquistare e importare un certificato commerciale di terze parti per i servizi di messaggistica unificata. Se si utilizza un certificato autofirmato per la messaggistica unificata, potrebbe essere necessario includere nel nome alternativo del soggetto il nome dei server Accesso client e Cassette postali.
 

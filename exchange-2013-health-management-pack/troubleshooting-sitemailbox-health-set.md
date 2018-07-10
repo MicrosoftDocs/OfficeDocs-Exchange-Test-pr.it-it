@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Project Server 2013_
+_**Si applica a:** Exchange Server 2013, Project Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-11_
+_**Ultima modifica dell'argomento:** 2013-02-11_
 
 Il set di integrità SiteMailbox monitora l'integrità generale e l'accessibilità delle cassette postali del sito nell'organizzazione.
 

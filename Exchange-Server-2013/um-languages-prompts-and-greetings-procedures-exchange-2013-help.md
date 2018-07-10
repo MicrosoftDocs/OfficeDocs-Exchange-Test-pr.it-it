@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-17_
+_**Ultima modifica dell'argomento:** 2013-04-17_
 
 [Installare un Language Pack di messaggistica unificata](install-a-um-language-pack-exchange-2013-help.md)
 

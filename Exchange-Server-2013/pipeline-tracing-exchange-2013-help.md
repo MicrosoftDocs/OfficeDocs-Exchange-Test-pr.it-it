@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'analisi della pipeline cattura copie dei messaggi di posta elettronica di uno specifico mittente mentre viaggiano attraverso il servizio di trasporto sui server Cassette postali, il servizio Recapito alle cassette postali sui server Cassette postali e tramite i sever Trasporto Edge. L'analisi della pipeline cattura le informazioni dettagliate sulle modifica applicate da ogni agente di trasporto ai messaggi nella pipeline di trasporto nei file snapshot del messaggio. Esaminando il contenuto dei file snapshot del messaggio, è possibile stabilire se gli agenti di trasporto hanno applicato le modifiche ai messaggi nella pipeline di trasporto come previsto. Per risolvere un problema, è necessario stabilire in quale agente di trasporto si è verificato l'errore. Dopo di che è possibile concentrarsi sull'agente per risolvere il problema. Successivamente i file snapshot del messaggio possono essere visualizzati di nuovo per assicurarsi che il problema sia stato effettivamente risolto.
 

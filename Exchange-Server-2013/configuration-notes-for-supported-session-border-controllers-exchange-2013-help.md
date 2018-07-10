@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-07-25_
+_**Ultima modifica dell'argomento:** 2017-07-25_
 
 I controller SBC (session border controller) abilitano alla connessione della rete di telefonia locale in un datacenter Microsoft tramite una connessione WAN pubblica dedicata. Un SBC si colloca sul perimetro della rete IP locale e si connette a un secondo SBC in un datacenter Microsoft.
 

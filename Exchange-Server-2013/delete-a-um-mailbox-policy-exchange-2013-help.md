@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 Una volta rimosso, il criterio cassetta postale di messaggistica unificata non potrà più essere associato ai destinatari abilitati alla messaggistica unificata. Non è possibile eliminare un criterio cassetta postale di messaggistica unificata se a esso fanno riferimento cassette postali abilitate alla messaggistica unificata. Non è nemmeno possibile eliminare un dial plan di messaggistica unificata se a esso è associato un criterio cassetta postale di messaggistica unificata.
 

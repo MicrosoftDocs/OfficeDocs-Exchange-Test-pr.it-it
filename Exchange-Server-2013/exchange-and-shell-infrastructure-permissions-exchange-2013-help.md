@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Le autorizzazioni necessarie per eseguire attività che consentono la configurazione dei vari componenti di Microsoft Exchange Server 2013 dipendono dalla procedura eseguita o dal cmdlet che si desidera eseguire. Vedere ciascuna delle sezioni in questo argomento per ulteriori informazioni sulle loro rispettive funzionalità.
 

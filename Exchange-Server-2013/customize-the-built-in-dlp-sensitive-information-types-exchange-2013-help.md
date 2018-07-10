@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-05-26_
+_**Ultima modifica dell'argomento:** 2016-05-26_
 
 Durante la ricerca di informazioni riservate nel messaggio di posta elettronica, è necessario descrivere in che cos'è chiamato una *regola di*tali informazioni. Prevenzione della perdita di dati (DLP) include un pacchetto di 51 regole per i tipi più comuni di informazioni riservate che è possibile utilizzare immediatamente. Per utilizzare queste regole, è necessario includerli in un criterio. È possibile che si desidera modificare queste regole predefinite per soddisfare esigenze specifiche della propria organizzazione ed è possibile farlo creando un tipo di informazioni riservate personalizzate. In questo argomento viene illustrato come personalizzare il file XML che contiene l'insieme di regole esistente per rilevare una vasta gamma di possibili informazioni carta di credito.
 

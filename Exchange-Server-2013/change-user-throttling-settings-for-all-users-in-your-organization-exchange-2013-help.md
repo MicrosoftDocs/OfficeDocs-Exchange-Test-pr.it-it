@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-08-05_
+_**Ultima modifica dell'argomento:** 2014-08-05_
 
 È possibile controllare risorse impiegate da singoli utenti nell'organizzazione di Exchange per modificare le impostazioni di limitazione predefinito.
 

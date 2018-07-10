@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-07-31_
+_**Ultima modifica dell'argomento:** 2015-07-31_
 
 È possibile utilizzare MicrosoftOfficeOutlook Web App Web part per specificare la cassetta postale per aprire, nella cartella all'interno di tale cassetta postale per aprire e la visualizzazione del contenuto da utilizzare.
 
@@ -169,13 +169,13 @@ Outlook Web App Web part può essere anche essere immesso manualmente in un Web 
 
 Nell'esempio seguente viene illustrato come accedere direttamente alle visualizzazioni di Outlook Web App comuni:
 
-  - **Cartella Posta in arrivo:** https://*\<server name\>*/owa/?cmd = contenuto & modulo = posta in arrivo
+  - **Cartella Posta in arrivo:**  https://*\<server name\>*/owa/?cmd = contenuto & modulo = posta in arrivo
 
-  - **(Oggi) del calendario:**https://*\<server name\>*/owa/?cmd contenuto & modulo calendario & exsvurl = 1
+  - **(Oggi) del calendario:** https://*\<server name\>*/owa/?cmd contenuto & modulo calendario & exsvurl = 1
 
-  - **(Weekly) del calendario:** https://*\<server name\>*/owa/?cmd = contenuto & modulo = calendario & visualizzazione = settimanale & exsvurl = 1
+  - **(Weekly) del calendario:**  https://*\<server name\>*/owa/?cmd = contenuto & modulo = calendario & visualizzazione = settimanale & exsvurl = 1
 
-  - **Calendario (mensile):** https://*\<server name\>*/owa/?cmd = contenuto & modulo = calendario & visualizzazione mensile & exsvurl = 1
+  - **Calendario (mensile):**  https://*\<server name\>*/owa/?cmd = contenuto & modulo = calendario & visualizzazione mensile & exsvurl = 1
 
 ## Per ulteriori informazioni
 

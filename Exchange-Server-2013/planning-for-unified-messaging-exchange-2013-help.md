@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Quando si pianifica la distribuzione della messaggistica unificata, necessario valutare diversi fattori per avere successo. È necessario comprendere i diversi elementi della messaggistica unificata, nonché ogni componente e funzione, in modo tale da poter pianificare nel modo adeguato l'infrastruttura di messaggistica unificata e la relativa distribuzione. Destinare del tempo alla pianificazione e allo studio di questi fattori consente di evitare eventuali problemi durante la distribuzione della Messaggistica unificata nell'organizzazione.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Office 365_
+_**Si applica a:** Exchange Server 2013, Office 365_
 
-_**Ultima modifica dell'argomento:**2012-10-11_
+_**Ultima modifica dell'argomento:** 2012-10-11_
 
 I domini rappresentano gli spazi dei nomi SMTP per cui sono configurate le cassette postali e le directory di posta elettronica. Configurando i domini che interagiscono con l'organizzazione Microsoft Exchange Server 2013, è possibile configurare in che modo Exchange deve elaborare la posta elettronica ricevuta e inviata da diversi domini.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-03-17_
+_**Ultima modifica dell'argomento:** 2016-03-17_
 
 *Soluzione destinatario* è il processo di espansione e la risoluzione di tutti i destinatari in un messaggio. Atto di risoluzione dei destinatari corrisponde a un destinatario a cui l'oggetto di Active Directory corrispondente nell'organizzazione di Microsoft Exchange. L'azione di espansione destinatari espande tutti i gruppi di distribuzione in un elenco dei destinatari singoli. Risoluzione dei destinatari consente limiti dei messaggi e destinatari alternativi da applicare in modo corretto per ciascun destinatario.
 
@@ -37,7 +37,7 @@ Diagnostica di risoluzione dei destinatari
 
 ## Indirizzi di posta elettronica del destinatario
 
-Soluzione principale inizia con un messaggio e l'elenco non espansa, iniziale dei destinatari dalla *busta del messaggio*. La busta del messaggio contiene i comandi utilizzati per trasmettere i messaggi tra i server di messaggistica SMTP. Indirizzo di posta elettronica del mittente è incluso nel comando **MAIL FROM:** . Indirizzo di posta elettronica di ogni destinatario è contenuta in un comando separato **RCPT TO:** . Il mittente della busta e destinatari busta in genere vengono creati dal mittente e destinatari nei campi dell'intestazione `To:`, `From:`, `Cc:`e `Bcc:` nell'intestazione del messaggio. Tuttavia, questo non è sempre true. I campi dell'intestazione `To:`, `From:`, `Cc:`e `Bcc:` in un messaggio sono integrati e potrebbero non corrispondere effettivo mittente o indirizzi di posta elettronica del destinatario che sono stati utilizzati per trasmettere il messaggio.
+Soluzione principale inizia con un messaggio e l'elenco non espansa, iniziale dei destinatari dalla *busta del messaggio*. La busta del messaggio contiene i comandi utilizzati per trasmettere i messaggi tra i server di messaggistica SMTP. Indirizzo di posta elettronica del mittente è incluso nel comando **MAIL FROM:**  . Indirizzo di posta elettronica di ogni destinatario è contenuta in un comando separato **RCPT TO:**  . Il mittente della busta e destinatari busta in genere vengono creati dal mittente e destinatari nei campi dell'intestazione `To:`, `From:`, `Cc:`e `Bcc:` nell'intestazione del messaggio. Tuttavia, questo non è sempre true. I campi dell'intestazione `To:`, `From:`, `Cc:`e `Bcc:` in un messaggio sono integrati e potrebbero non corrispondere effettivo mittente o indirizzi di posta elettronica del destinatario che sono stati utilizzati per trasmettere il messaggio.
 
 ## Indirizzi di posta elettronica incapsulati
 
@@ -148,11 +148,11 @@ Di seguito viene illustrato il filtro LDAP utilizzato per la risoluzione degli i
 
   - Per tutti gli altri tipi di indirizzi di posta elettronica, viene utilizzato l'attributo di Active Directory del destinatario **proxyAddresses** come filtro LDAP.
 
-Se l'indirizzo di posta elettronica utilizzato nel messaggio non corrisponde l'indirizzo SMTP primario dell'oggetto Active Directory corrispondente, classificatore riscrive l'indirizzo di posta elettronica nel messaggio in modo che corrisponda all'indirizzo SMTP primario. L'indirizzo di posta elettronica originale verrà salvato nella voce `ORCPT=` nel comando **RCPT TO:** la busta del messaggio.
+Se l'indirizzo di posta elettronica utilizzato nel messaggio non corrisponde l'indirizzo SMTP primario dell'oggetto Active Directory corrispondente, classificatore riscrive l'indirizzo di posta elettronica nel messaggio in modo che corrisponda all'indirizzo SMTP primario. L'indirizzo di posta elettronica originale verrà salvato nella voce `ORCPT=` nel comando **RCPT TO:**  la busta del messaggio.
 
 ## Limitazioni dei mittenti messaggio
 
-La dimensione utilizzato per la restrizione della dimensione messaggio mittente è il valore del **X-MS-Exchange-organizzazione-OriginalSize:** campo di intestazione nell'intestazione del messaggio. Exchange utilizza questo campo di intestazione per registrare la dimensione del messaggio originale del messaggio quando immessa l'organizzazione di Exchange. Ogni volta che il messaggio viene confrontato con la dimensione massima dei messaggi specificata, viene utilizzato il valore minore della dimensione messaggio corrente o l'intestazione di dimensione messaggio originale. Per la conversione del contenuto, la codifica e l'elaborazione dell'agente può modificare la dimensione del messaggio. Se questo campo di intestazione non esiste, viene creato utilizzando il valore di dimensione messaggio corrente. Se il messaggio è troppo grande, viene generato un rapporto di mancato recapito e l'elaborazione dei messaggi aggiuntivi viene interrotta.
+La dimensione utilizzato per la restrizione della dimensione messaggio mittente è il valore del **X-MS-Exchange-organizzazione-OriginalSize:**  campo di intestazione nell'intestazione del messaggio. Exchange utilizza questo campo di intestazione per registrare la dimensione del messaggio originale del messaggio quando immessa l'organizzazione di Exchange. Ogni volta che il messaggio viene confrontato con la dimensione massima dei messaggi specificata, viene utilizzato il valore minore della dimensione messaggio corrente o l'intestazione di dimensione messaggio originale. Per la conversione del contenuto, la codifica e l'elaborazione dell'agente può modificare la dimensione del messaggio. Se questo campo di intestazione non esiste, viene creato utilizzando il valore di dimensione messaggio corrente. Se il messaggio è troppo grande, viene generato un rapporto di mancato recapito e l'elaborazione dei messaggi aggiuntivi viene interrotta.
 
 Numero massimo di destinatari mittente viene applicato solo nel servizio di trasporto nel primo server cassette postali che elabora il messaggio. Il numero di destinatari busta messaggio originale e non espansa viene confrontato con il numero massimo di destinatari mittente. Il numero di destinatari busta messaggio originale e non espansa viene utilizzato per evitare i problemi di recapito messaggio parziale che si sono verificati in Microsoft Exchange Server 2003 liste di distribuzione nidificate utilizzati server di espansione remoto.
 
@@ -220,7 +220,7 @@ Nell'elenco seguente vengono descritti i messaggi di report di recapito disponib
 
   - **Notifica stato recapito (DSN)**   In questo report viene descritto il risultato di un tentativo di inviare un messaggio. Per ulteriori informazioni sui messaggi DSN, vedere [DSN e NDR in Exchange 2013](dsns-and-ndrs-in-exchange-2013-exchange-2013-help.md).
 
-  - **Messaggio di notifica di eliminazione (MDN)**   In questo report viene descritto lo stato di un messaggio dopo che è stato inviato a un destinatario. Una notifica di lettura (RN) e una notifica di lettura non (NRN) sono entrambi gli esempi di un messaggio MDN. I messaggi MDN definiti in RFC 2298 e sono controllati dal campo dell'intestazione **Disposition-Notification-To:** nell'intestazione del messaggio. Impostazioni MDN che utilizzano il campo di intestazione `Disposition-Notification-To:` sono compatibili con numerosi server messaggio diverso. Sono inoltre possibile definire impostazioni MDN tramite la proprietà MAPI in Microsoft Outlook ed Exchange.
+  - **Messaggio di notifica di eliminazione (MDN)**   In questo report viene descritto lo stato di un messaggio dopo che è stato inviato a un destinatario. Una notifica di lettura (RN) e una notifica di lettura non (NRN) sono entrambi gli esempi di un messaggio MDN. I messaggi MDN definiti in RFC 2298 e sono controllati dal campo dell'intestazione **Disposition-Notification-To:**  nell'intestazione del messaggio. Impostazioni MDN che utilizzano il campo di intestazione `Disposition-Notification-To:` sono compatibili con numerosi server messaggio diverso. Sono inoltre possibile definire impostazioni MDN tramite la proprietà MAPI in Microsoft Outlook ed Exchange.
 
   - **Rapporto di mancato recapito (NDR)**   Questo rapporto indica al mittente del messaggio che non è stato possibile recapitare il messaggio ai destinatari specificati.
 
@@ -244,7 +244,7 @@ Quando viene inviato un messaggio in cui non è un messaggio di report di recapi
 
   - Se il reindirizzamento dei rapporti è impostato per il mittente del messaggio, non vengono modificate le impostazioni della richiesta di report.
 
-  - Se non viene impostato il reindirizzamento dei rapporti, vengono eliminate tutte le impostazioni di richiesta di report. Viene aggiunta la voce `NOTIFY=NEVER`**RCPT TO:** per ciascun destinatario sulla busta del messaggio.
+  - Se non viene impostato il reindirizzamento dei rapporti, vengono eliminate tutte le impostazioni di richiesta di report. Viene aggiunta la voce `NOTIFY=NEVER`**RCPT TO:**  per ciascun destinatario sulla busta del messaggio.
 
   - Se il reindirizzamento dei rapporti è impostato per il responsabile del gruppo di distribuzione, ad eccezione dei messaggi di rapporto di mancato recapito inviati al manager del gruppo di distribuzione vengono eliminate tutte le impostazioni di richiesta di report.
 
@@ -340,13 +340,13 @@ Perché l'elenco completo dei destinatari del messaggio viene espansa e risolto 
 
 Risoluzione dei destinatari moltiplica un messaggio se si verificano le condizioni seguenti:
 
-  - Se il mittente del messaggio in **MAIL FROM:**sulla busta del messaggio è stato aggiornato. Un esempio è quando il parametro *ReportToManagerEnabled* in un gruppo di distribuzione ha un valore pari a `$true`.
+  - Se il mittente del messaggio in **MAIL FROM:** sulla busta del messaggio è stato aggiornato. Un esempio è quando il parametro *ReportToManagerEnabled* in un gruppo di distribuzione ha un valore pari a `$true`.
 
   - Quando i messaggi di risposta automatica, ad esempio DSN, i messaggi fuori sede e rapporti richiamo devono essere eliminati.
 
   - Quando vengono espansi i destinatari alternativi.
 
-  - Quando un campo di intestazione **Resent-From:** deve essere aggiunto all'intestazione del messaggio. Reinviare intestazione campi sono campi dell'intestazione informativo che possono essere utilizzati per determinare se è stato inoltrato un messaggio da un utente. Reinviare intestazione campi vengono utilizzati in modo che viene visualizzato il messaggio al destinatario come se è stato inviato direttamente dal mittente originale. Il destinatario è possibile visualizzare l'intestazione del messaggio per individuare chi ha inoltrato il messaggio. Reinviare intestazione campi sono definiti nella sezione 3.6.6 di RFC 2822.
+  - Quando un campo di intestazione **Resent-From:**  deve essere aggiunto all'intestazione del messaggio. Reinviare intestazione campi sono campi dell'intestazione informativo che possono essere utilizzati per determinare se è stato inoltrato un messaggio da un utente. Reinviare intestazione campi vengono utilizzati in modo che viene visualizzato il messaggio al destinatario come se è stato inviato direttamente dal mittente originale. Il destinatario è possibile visualizzare l'intestazione del messaggio per individuare chi ha inoltrato il messaggio. Reinviare intestazione campi sono definiti nella sezione 3.6.6 di RFC 2822.
 
   - Se la cronologia di espansione del gruppo di distribuzione deve essere trasmessi.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-01-28_
+_**Ultima modifica dell'argomento:** 2013-01-28_
 
 Con gli strumenti di gestione di Microsoft Exchange Server 2013 è possibile configurare e gestire l'organizzazione di Exchange in remoto. Gli strumenti di gestione di Exchange 2013 comprendono Exchange Management Shell e la casella degli strumenti di Exchange. In questo argomento viene spiegato come utilizzare Setup.exe o la modalità di installazione automatica per installare gli strumenti di gestione di Exchange 2013.
 

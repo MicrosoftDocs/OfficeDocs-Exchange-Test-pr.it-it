@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Ultima modifica dell'argomento:**2018-03-26_
+_**Ultima modifica dell'argomento:** 2018-03-26_
 
-**Sintesi:** in questo articolo viene illustrato come spostare cartelle pubbliche da Exchange 2013 a Office 365.
+**Sintesi:**  in questo articolo viene illustrato come spostare cartelle pubbliche da Exchange 2013 a Office 365.
 
 La migrazione delle cartelle pubbliche di Exchange 2013 a Exchange Online richiede Exchange Server 2013 CU15 o versioni successive in esecuzione nell'ambiente locale.
 

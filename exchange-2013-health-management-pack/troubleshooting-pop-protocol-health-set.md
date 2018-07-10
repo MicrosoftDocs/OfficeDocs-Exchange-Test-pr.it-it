@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Project Server 2013_
+_**Si applica a:** Exchange Server 2013, Project Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-11_
+_**Ultima modifica dell'argomento:** 2013-02-11_
 
 Il protocollo di integrità POP monitora il protocollo POP3 di Microsoft Exchange sul server Cassette postali. Se si riceve un avviso nel quale viene specificato che il protocollo di integrità POP non è integro, significa che si è verificato un problema del protocollo POP3 sul server Cassette postali.
 

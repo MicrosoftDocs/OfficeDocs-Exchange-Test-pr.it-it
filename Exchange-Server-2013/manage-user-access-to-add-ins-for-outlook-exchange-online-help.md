@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2018-04-17_
+_**Ultima modifica dell'argomento:** 2018-04-17_
 
 È possibile utilizzare l'interfaccia di amministrazione di Exchange (EAC) o Exchange PowerShell per gestire l'accesso degli utenti ai componenti aggiuntivi per Outlook.
 
@@ -105,9 +105,12 @@ Per limitare la disponibilità di un componente aggiuntivo a utenti specifici, �
 
 Questo esempio limita il componente aggiuntivo LinkedIn con l'ipotetico **AppId** valore `ac83a9d5-5af2-446f-956a-c583adc94d5e` ai membri del gruppo di distribuzione denominato Marketing.
 
-    $a = Get-DistributionGroupMember Marketing
-
-    Set-App -Identity ac83a9d5-5af2-446f-956a-c583adc94d5e -OrganizationApp -ProvidedTo SpecificUsers -UserList $a.Identity -DefaultStateForUser Enabled
+```
+$a = Get-DistributionGroupMember Marketing
+```
+```
+Set-App -Identity ac83a9d5-5af2-446f-956a-c583adc94d5e -OrganizationApp -ProvidedTo SpecificUsers -UserList $a.Identity -DefaultStateForUser Enabled
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-App](https://technet.microsoft.com/it-it/library/jj218630\(v=exchg.150\)).
 

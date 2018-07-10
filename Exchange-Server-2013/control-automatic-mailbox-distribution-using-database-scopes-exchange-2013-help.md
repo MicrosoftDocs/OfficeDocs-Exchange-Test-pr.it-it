@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Distribuzione automatica delle cassette postali è una funzione di Microsoft Exchange Server 2013 che effettua una selezione casuale del database delle cassette postali per memorizzare una cassetta postale nuova o trasferita quando non viene specificato esplicitamente un database. Questa funzionalità può essere utile quando si desidera consentire agli amministratori junior o al personale del servizio di assistenza di creare delle cassette postali senza che sia necessario sapere su quale database devono essere create.
 

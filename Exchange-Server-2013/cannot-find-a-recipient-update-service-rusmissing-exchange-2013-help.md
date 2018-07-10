@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_**Ultima modifica dell'argomento:** 2016-12-15_
 
 Il contenuto di questo argomento non è stato aggiornato per Microsoft Exchange Server 2013. Sebbene non sia stato aggiornato, può comunque essere applicabile anche a Exchange 2013. In caso di problemi, consultare le risorse della community riportate di seguito.
 
@@ -54,11 +54,11 @@ Per risolvere questo problema, verificare che esista un'istanza del servizio agg
 
 Per ulteriori informazioni sul servizio aggiornamento destinatari, vedere gli articoli della Microsoft Knowledge Base seguenti:
 
-  - "Come il servizio aggiornamento destinatari si applica criteri destinatario" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=328738](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=328738)).
+  - "Come il servizio aggiornamento destinatari si applica criteri destinatario" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=328738](https://go.microsoft.com/fwlink/?linkid=3052&kbid=328738)).
 
-  - "Come il servizio aggiornamento destinatari viene popolato elenchi indirizzi" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253828](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=253828)).
+  - "Come il servizio aggiornamento destinatari viene popolato elenchi indirizzi" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253828](https://go.microsoft.com/fwlink/?linkid=3052&kbid=253828)).
 
-  - "Come verificare lo stato del servizio aggiornamento destinatari di Exchange" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=246127](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=246127)).
+  - "Come verificare lo stato del servizio aggiornamento destinatari di Exchange" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=246127](https://go.microsoft.com/fwlink/?linkid=3052&kbid=246127)).
 
-  - "Attività per il servizio aggiornamento destinatari di Exchange" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253770](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=253770)).
+  - "Attività per il servizio aggiornamento destinatari di Exchange" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253770](https://go.microsoft.com/fwlink/?linkid=3052&kbid=253770)).
 

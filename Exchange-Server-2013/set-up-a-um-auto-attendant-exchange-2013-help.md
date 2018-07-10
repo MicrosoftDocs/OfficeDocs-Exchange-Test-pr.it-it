@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Oltre a consentire l'accesso utente ai messaggi vocali, Messaggistica unificata consente di creare uno o più operatori automatici di messaggistica unificata, in base alle necessità dell'organizzazione. Gli operatori automatici di messaggistica unificata possono essere utilizzati per creare un sistema di menu vocali per un'organizzazione, consentendo in tal modo ai chiamanti interni ed esterni di individuare, eseguire o trasferire chiamate agli utenti dell'azienda o ai reparti dell'organizzazione.
 

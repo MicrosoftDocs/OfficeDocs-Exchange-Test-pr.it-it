@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Per proteggere da eliminazioni accidentali o dolose e facilitare le azioni di individuazione comunemente intraprese prima o durante controversie o indagini, Microsoft Exchange Server 2013 e Exchange Online usano la cartella Elementi ripristinabili. La cartella Elementi ripristinabili sostituisce la funzionalità conosciuta come *dumpster* nelle versioni precedenti di Exchange. La cartella Elementi ripristinabili viene utilizzata dalle seguenti funzionalità di Exchange:
 

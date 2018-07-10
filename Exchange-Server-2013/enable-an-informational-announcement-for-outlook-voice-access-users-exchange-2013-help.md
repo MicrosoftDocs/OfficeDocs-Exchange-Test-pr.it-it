@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile abilitare un messaggio informativo su un dial plan di messaggistica unificata. I messaggi informativi vengono utilizzati per messaggi generici che cambiano con maggior frequenza rispetto alla formula di benvenuto, oppure per messaggi richiesti dai criteri di conformità aziendali.
 

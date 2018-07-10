@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile utilizzare Exchange Management Shell per configurare il modo in cui i messaggi di posta elettronica vengono inviati e ricevuti tramite i domini remoti. Di seguito è spiegato come utilizzare Exchange Management Shell per configurare il modo in cui Exchange gestisce le risposte di fuori sede.
 

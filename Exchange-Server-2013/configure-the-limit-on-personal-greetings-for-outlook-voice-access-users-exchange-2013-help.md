@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 The L'impostazione **Limite per i messaggi di saluto personali (minuti)** consente di immettere il numero massimo di minuti a disposizione degli utenti associati ai criteri cassetta postale di messaggistica unificata per la registrazione di messaggi di saluto del sistema di caselle vocali. Questa impostazione si applica ai messaggi di saluto standard e Fuori sede del sistema di caselle vocali. Per impostazione predefinita, la durata massima del messaggio di saluto è 5 minuti. Tuttavia, è possibile impostare la durata massima del messaggio di saluto su qualsiasi valore compreso tra 1 e 10 minuti.
 

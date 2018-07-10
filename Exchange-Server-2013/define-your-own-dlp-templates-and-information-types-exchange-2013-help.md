@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-14_
+_**Ultima modifica dell'argomento:** 2015-01-14_
 
 I modelli dei criteri di prevenzione per la perdita di dati (DLP) possono essere sviluppati come file XML indipendenti di Microsoft Exchange Server 2013 e quindi importati utilizzando l'interfaccia di amministrazione di Exchange o Exchange Management Shell. In questa sezione vengono descritti il processo e i dettagli della creazione e ottimizzazione dei file XML DLP da utilizzare in una soluzione DLP. Non è necessario sviluppare autonomamente i file XML DLP poiché l'interfaccia di amministrazione di Exchange consente all'utente di iniziare in modo semplice e rapido con i modelli di criteri DLP e le regole di trasporto esistenti per analizzare i messaggi.
 

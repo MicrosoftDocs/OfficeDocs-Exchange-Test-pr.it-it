@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-28_
+_**Ultima modifica dell'argomento:** 2012-11-28_
 
 L'interfaccia di amministrazione di Exchange e la shell consentono di configurare i servizi Microsoft Exchange POP3 e IMAP4 per l'utilizzo di indirizzi IP e porte diverse da quelle stabilite nelle impostazioni predefinite.
 

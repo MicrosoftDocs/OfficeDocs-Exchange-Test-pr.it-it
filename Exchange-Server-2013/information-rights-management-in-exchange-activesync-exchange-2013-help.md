@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Gli Information Worker utilizzano spesso la posta elettronica per scambiare informazioni riservate. Per proteggere queste informazioni, le organizzazioni possono utilizzare Information Rights Management (IRM) per applicare una protezione permanente al contenuto dei messaggi. Poiché i cellulari vengono sempre più utilizzati per accedere alla posta elettronica, è importante che gli utenti di tali apparati siano in grado di creare e utilizzare contenuti protetti tramite IRM.
 

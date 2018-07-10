@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-11-09_
+_**Ultima modifica dell'argomento:** 2015-11-09_
 
-**Riepilogo:** come configurare le cartelle pubbliche, inclusa l'assegnazione delle autorizzazioni a tali in EAC.
+**Riepilogo:**  come configurare le cartelle pubbliche, inclusa l'assegnazione delle autorizzazioni a tali in EAC.
 
 Nel presente argomento viene illustrato come scaricare le cartelle pubbliche configurate e in esecuzione in una nuova organizzazione o in un'organizzazione che non ha mai avuto cartelle pubbliche in precedenza.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-08-06_
+_**Ultima modifica dell'argomento:** 2014-08-06_
 
 In alcuni casi, potrebbe essere opportuno configurare un dominio accettato per una business unit in cui alcuni o tutti i destinatari nel dominio non dispongono di cassette postali nell'organizzazione Exchange. Ciò può verificarsi, ad esempio, quando un'organizzazione condivide lo stesso spazio degli indirizzi SMTP tra due o più sistemi di posta elettronica diversi. In tali scenari, è possibile configurare un dominio accettato come dominio di inoltro interno.
 

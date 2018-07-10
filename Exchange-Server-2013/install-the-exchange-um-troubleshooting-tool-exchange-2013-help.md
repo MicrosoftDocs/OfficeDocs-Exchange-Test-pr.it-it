@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Lo strumento di risoluzione dei problemi di messaggistica unificata di Microsoft Exchange 2010 è un cmdlet di Exchange Management Shell denominato **Test-ExchangeUMCallFlow**. Questo cmdlet può essere utilizzato per diagnosticare gli errori di configurazione specifici degli scenari di ricezione chiamate e per verificare se il sistema di caselle vocali funziona correttamente sia nelle distribuzioni locali che in quelle cross-premise del servizio di messaggistica unificata di Microsoft Exchange Server 2010 Service Pack 1 (SP1) o versione successiva. È possibile utilizzare questo cmdlet nelle distribuzioni con Microsoft Office o Microsoft Lync Server 2010 o versioni successive oppure nelle distribuzioni del servizio di messaggistica unificata con gateway VO IP, PBX IP o session border controller (SBC).
 
@@ -31,7 +31,7 @@ Lo strumento di risoluzione dei problemi di messaggistica unificata di Microsoft
     
       - Se lo strumento verrà eseguito su un computer Windows Vista o Windows Server 2008, vedere [aggiornamento Microsoft .NET Framework 3.5 per Windows Server 2008 x64 e Windows Vista x64,](https://go.microsoft.com/fwlink/p/?linkid=178998).
     
-      - Windows Gestione remota Windows (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu). Vedere l'articolo 968930 della Microsoft Knowledge Base [Pacchetto Windows Management Framework Core (Windows PowerShell 2.0 e Gestione remota Windows 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+      - Windows Gestione remota Windows (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu). Vedere l'articolo 968930 della Microsoft Knowledge Base [Pacchetto Windows Management Framework Core (Windows PowerShell 2.0 e Gestione remota Windows 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
     
       - Microsoft Unified Communications Managed API 2.0 Core Runtime (Ucmaruntimewebdownloadx64). Vedere [Unified Communications Managed API 2.0, Core Runtime (64 bit)](https://go.microsoft.com/fwlink/p/?linkid=198175).
 

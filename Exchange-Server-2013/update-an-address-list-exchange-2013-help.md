@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-14_
+_**Ultima modifica dell'argomento:** 2012-10-14_
 
 Gli elenchi indirizzi sono una raccolta di oggetti destinatario e altri oggetti Active Directory. Applicare un elenco di indirizzi una volta modificata la regola del filtro dell'elenco di indirizzi. Per aggiornare l'appartenenza all'elenco di indirizzi per includere nuovi destinatari e rimuovere i destinatari che non soddisfano più i criteri di filtro, è necessario applicare l'elenco di indirizzi.
 

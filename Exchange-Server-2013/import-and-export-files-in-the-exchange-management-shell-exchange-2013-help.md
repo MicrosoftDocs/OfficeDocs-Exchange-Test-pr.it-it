@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Microsoft Exchange Server 2013 utilizza la modalità remota dell'interfaccia della riga di comando di Windows per stabilire una connessione tra il server o la workstation da cui si amministra Exchange e il server su cui è in esecuzione Exchange 2013 che si sta amministrando. In Exchange 2013 questa funzione viene denominata Exchange Management Shell remota o Shell remota. Anche se si amministra il server Exchange 2013 locale, per effettuare la connessione viene utilizzata la Shell remota. Per ulteriori informazioni sulla Shell locale e remota, vedere [Utilizzo di PowerShell con Exchange 2013 (Exchange Management Shell)](https://technet.microsoft.com/it-it/library/bb123778\(v=exchg.150\)).
 

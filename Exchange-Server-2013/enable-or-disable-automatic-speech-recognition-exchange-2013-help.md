@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-12-12_
+_**Ultima modifica dell'argomento:** 2012-12-12_
 
 È possibile abilitare l'operatore automatico di messaggistica unificata (UM) per il riconoscimento vocale automatico (ASR). Dopo che vocale abilitare un operatore automatico di messaggistica unificata, i chiamanti possono verbalmente risponde alle richieste di operatore automatico e spostarsi all'interno del sistema di menu dell'operatore automatico. Per impostazione predefinita, un operatore automatico non è abilitato quando si crea. Dopo che vocale abilitare l'operatore automatico, i chiamanti possono utilizzare solo i comandi vocali per passare il sistema di menu dell'operatore automatico e non è possibile utilizzare gli input di composizione a toni.
 

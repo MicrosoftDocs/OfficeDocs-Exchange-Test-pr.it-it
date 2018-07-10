@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-19_
+_**Ultima modifica dell'argomento:** 2013-04-19_
 
 È possibile personalizzare le istruzioni vocali del menu utilizzate dall'operatore automatico di messaggistica unificata durante l'orario di ufficio. Una volta creato l'operatore automatico di messaggistica unificata, viene utilizzata un'istruzione vocale predefinita ("Benvenuti nella messaggistica unificata") che i chiamanti ascoltano quando viene riprodotto il messaggio di saluto in orario di ufficio. Anche se non è necessario sostituire o modificare le istruzioni vocali predefinite, è probabile che si desideri personalizzare i messaggi di saluto e le istruzioni vocali del menu utilizzate con gli operatori automatici di messaggistica unificata. Dopo aver creato un file audio con le istruzioni vocali del menu per l'orario di ufficio, è necessario abilitare le voci di spostamento nel menu dell'operatore automatico di messaggistica unificata per l'orario di ufficio.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Disaster Recovery` consente agli amministratori di ripristinare le cassette postali e i database delle cassette postali, creare database delle cassette postali e passare tra i diversi gruppi di disponibilità del database nell'organizzazione.
 

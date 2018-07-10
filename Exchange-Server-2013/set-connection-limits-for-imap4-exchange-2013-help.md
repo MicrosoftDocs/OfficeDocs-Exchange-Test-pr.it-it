@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-28_
+_**Ultima modifica dell'argomento:** 2012-11-28_
 
 Per gestire i limiti di connessione IMAP4 per l'organizzazione, è possibile utilizzare l'interfaccia di amministrazione di Exchange o la shell.
 

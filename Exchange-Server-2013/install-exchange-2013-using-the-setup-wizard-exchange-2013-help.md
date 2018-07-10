@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-19_
+_**Ultima modifica dell'argomento:** 2014-06-19_
 
 L'argomento spiega come utilizzare l'installazione guidata di Microsoft Exchange Server 2013 per installare la cassetta postale Exchange 2013 e il ruolo server Client Access su un computer. Per ulteriori informazioni sulla pianificazione e la distribuzione di Exchange 2013, vedere [Pianificazione e distribuzione](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

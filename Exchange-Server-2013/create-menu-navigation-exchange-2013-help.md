@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 È possibile utilizzare la pagina **nuova voce di menu struttura di spostamento** per creare singolo o più mapping dei tasti per le aziende o menu principale orario non di ufficio viene richiesto di operatori automatici. È possibile definire l'azione che verrà eseguita quando si preme un tasto sulla tastiera del telefono è, ad esempio, trasferire la chiamata a un numero interno o operatore automatico di un'altra.
 

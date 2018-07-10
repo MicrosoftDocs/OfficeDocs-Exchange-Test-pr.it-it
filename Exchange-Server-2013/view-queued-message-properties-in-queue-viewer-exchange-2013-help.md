@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-01-17_
+_**Ultima modifica dell'argomento:** 2013-01-17_
 
 È possibile utilizzare Visualizzatore code in Casella degli strumenti di Exchange per visualizzare le proprietà di un messaggio accodato per il recapito.
 
@@ -49,8 +49,7 @@ _**Ultima modifica dell'argomento:**2013-01-17_
 
 4.  Fare clic con il pulsante destro del mouse sul messaggio di cui si desidera visualizzare le proprietà, quindi selezionare **Proprietà**.
 
-5.  
-    
+5.      
     Nella scheda **Generale**, vengono visualizzate le informazioni dettagliate sul messaggio.
     
       - **Identità**   In questo campo, viene visualizzato il valore intero rappresentante un particolare messaggio. L'identità del messaggio viene assegnata dal database di code quando il messaggio viene ricevuto per l'elaborazione. È possibile includere un server facoltativo e l'identità della coda per identificare un'istanza univoca del messaggio.
@@ -95,8 +94,7 @@ _**Ultima modifica dell'argomento:**2013-01-17_
     
       - **Numero tentativi**   In questo campo, viene visualizzato il numero di tentativi di invio di un messaggio a una destinazione.
 
-6.  
-    
+6.      
     Nella scheda **Informazioni destinatario**, vengono visualizzate le seguenti informazioni sui destinatari del messaggio.
     
       - **Indirizzo**   In questo campo, viene visualizzato l'indirizzo SMTP del destinatario del messaggio. Questo valore viene ricavato da `RCPT TO:` nella busta del messaggio.

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile configurare più indirizzi di posta elettronica per la stessa cassetta postale. Gli indirizzi aggiuntivi sono denominati *indirizzi proxy*. Un indirizzo proxy consente all'utente di ricevere un messaggio di posta elettronica inviato a un indirizzo diverso. Ogni messaggio di posta elettronica inviato all'indirizzo proxy dell'utente viene recapitato all'indirizzo di posta elettronica principale, noto anche come *indirizzo SMTP primario* o *indirizzo di risposta predefinito*.
 

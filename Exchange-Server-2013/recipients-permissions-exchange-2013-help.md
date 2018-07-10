@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Le autorizzazioni richieste per eseguire le attività di gestione dei destinatari dipendono dalla procedura utilizzata o dal cmdlet che si intende eseguire.
 
@@ -28,7 +28,7 @@ Per individuare le autorizzazioni necessarie per eseguire la procedura o il cmdl
 3.  A questo punto, eseguire il cmdlet **Get-ManagementRoleAssignment** per individuare i gruppi di ruoli o i ruoli di gestione a cui si è assegnati e verificare se si dispone delle autorizzazioni necessarie per gestire la funzionalità.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Per eseguire il cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG> è necessario ricevere l'assegnazione del ruolo di gestione dei ruoli. Se non si hanno le autorizzazioni per eseguire il cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>, chiedere all'amministratore di Exchange di recuperare i gruppi di ruoli o i ruoli di gestione assegnati.
 
 
@@ -78,7 +78,7 @@ Gli utenti a cui viene assegnato il gruppo di ruoli di gestione in sola visualiz
 <p><a href="view-only-organization-management-exchange-2013-help.md">Gestione organizzazione sola visualizzazione</a></p>
 <p>Ruolo Support Diagnostics</p>
 
-> [!NOTE]
+> [!NOTE]  
 > Il ruolo Support Diagnostics non viene assegnato a un gruppo di ruoli. Per ulteriori informazioni, vedere <A href="add-a-role-to-a-user-or-usg-exchange-2013-help.md">Aggiungere un ruolo di un utente o gruppo di protezione universale</A>.
 
 
@@ -93,7 +93,7 @@ Gli utenti a cui viene assegnato il gruppo di ruoli di gestione in sola visualiz
 <td><p>Importazione/esportazione</p></td>
 <td><p>Ruolo di importazione\esportazione delle cassette postali</p>
 
-> [!NOTE]
+> [!NOTE]  
 > Il ruolo di importazione\esportazione delle cassette postali non viene assegnato a un gruppo di ruoli. Per ulteriori informazioni, vedere <A href="mailbox-import-export-role-exchange-2013-help.md">Ruolo di importazione\esportazione delle cassette postali</A>.
 
 

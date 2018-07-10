@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 La messaggistica unificata di Exchange consente di fornite servizi di posta vocale agli utenti nell'organizzazione. Quando si distribuisce la messaggistica unificata, è necessario integrare la distribuzione di Exchange Server con il sistema di telefonia esistente nell'organizzazione o con Microsoft Lync Server. Una distribuzione corretta richiede un'attenta analisi dell'infrastruttura telefonica esistente e l'esecuzione della procedura di pianificazione corretta per distribuire e gestire la posta vocale in Messaggistica unificata. Se si sta eseguendo l'integrazione di Exchange con Lync Server, è necessario acquisire familiarità con quel prodotto.
 

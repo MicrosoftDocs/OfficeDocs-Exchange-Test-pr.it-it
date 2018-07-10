@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-30_
+_**Ultima modifica dell'argomento:** 2012-11-30_
 
 È possibile abilitare una formula personalizzata di benvenuto Orario non di ufficio per un operatore automatico di messaggistica unificata. La formula personalizzata di benvenuto Orario non di ufficio è il primo messaggio che i chiamanti ascoltano quando un operatore automatico di messaggistica unificata risponde alla chiamata durante l'orario non di ufficio. È probabile che si desideri personalizzare il messaggio di saluto.
 

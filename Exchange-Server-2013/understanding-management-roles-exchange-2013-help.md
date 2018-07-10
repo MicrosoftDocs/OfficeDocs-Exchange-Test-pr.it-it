@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 I ruoli di gestione fanno parte del modello di autorizzazioni relativo al controllo dell'accesso basato sui ruoli (RBAC) utilizzato in Microsoft Exchange Server 2013. I ruoli funzionano come un raggruppamento logico di cmdlet, combinati per consentire l'accesso alla configurazione dei componenti di Exchange 2013, quali cassette postali, regole di trasporto e destinatari, per la visualizzazione o la modifica. I ruoli di gestione possono essere ulteriormente combinati in grandi raggruppamenti chiamati gruppi di ruoli di gestione e criteri di assegnazione dei ruoli di gestione, che permettono la gestione delle aree di funzionalità e della configurazione dei destinatari. I gruppi di ruoli e i criteri di assegnazione dei ruoli assegnano le autorizzazioni, rispettivamente, agli amministratori e agli utenti finali. Per ulteriori informazioni sulla gestione dei gruppi di ruoli e dei criteri di assegnazione dei ruoli, vedere [Controllo di accesso basato sui ruoli](understanding-role-based-access-control-exchange-2013-help.md).
 

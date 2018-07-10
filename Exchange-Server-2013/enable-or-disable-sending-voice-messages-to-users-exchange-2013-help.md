@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-12-13_
+_**Ultima modifica dell'argomento:** 2012-12-13_
 
 È possibile abilitare o disabilitare i chiamanti all'invio di messaggi vocali agli utenti da un operatore automatico di messaggistica unificata. Per impostazione predefinita, questa opzione è abilitata e consente ai chiamanti di inviare messaggi vocali agli utenti nel dial plan di messaggistica unificata associato all'operatore automatico di messaggistica unificata. Se questa opzione viene disabilitata, l'operatore automatico non inviterà i chiamanti a inviare un messaggio vocale durante un prompt di sistema.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile specificare se si desidera consentire a singoli utenti di creare e gestire le proprie regole ricezione chiamata configurando le proprietà delle relative cassette postali. Per impostazione predefinita, possono creare regole di ricezione chiamata.
 

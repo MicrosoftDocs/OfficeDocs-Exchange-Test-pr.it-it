@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-14_
+_**Ultima modifica dell'argomento:** 2012-11-14_
 
 È possibile disabilitare la posta elettronica per un utente di posta esistente nell'organizzazione di Exchange. Quando si disabilita la posta elettronica per un utente di posta, questo viene rimosso da Exchange e dalla rubrica. Se l'utente di posta elettronica è un membro di un gruppo di distribuzione, non riceverà più la posta inviata al gruppo. Inoltre, gli attrtibuti di Exchange vengono rimossi dall'oggetto utente in Active Directory, ma l'oggetto utente e i relativi attributi non Exchange (come le informazioni relative all'organizzazione e ai contatti) vengono conservate in Active Directory.
 

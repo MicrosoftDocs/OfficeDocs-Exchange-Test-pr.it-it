@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 Dopo aver creato, convalidato e distribuito una soluzione di disponibilità elevata o resilienza del sito di Microsoft Exchange Server 2013, avviene una transizione dalla fase di distribuzione alla fase operativa del ciclo di vita complessivo della soluzione. La fase operativa è costituita da diverse attività, tutte correlate a una delle seguenti aree: gruppi di disponibilità del database (DAG), copie del database delle cassette postali, esecuzione del monitoraggio proattivo e gestione di passaggi e failover.
 

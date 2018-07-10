@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-15_
+_**Ultima modifica dell'argomento:** 2012-10-15_
 
 Per garantire comunicazioni sicure crittografate con un partner, è possibile creare un connettore di invio configurato per l'applicazione della crittografia TLS (Transport Layer Security) per i messaggi inviati a un dominio partner. TLS fornisce comunicazioni sicure in Internet.
 

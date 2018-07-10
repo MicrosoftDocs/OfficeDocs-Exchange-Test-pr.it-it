@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:** 2013-04-17_
+_**Ultima modifica dell'argomento:**  2013-04-17_
 
 Questa sezione contiene le procedure che è possibile utilizzare come riferimento durante l'utilizzo di Exchange Server 2013 Management Pack. Per le procedure successive alla distribuzione, vedere[Procedures related to post-deployment operation](procedures-related-to-post-deployment-operation.md).
 

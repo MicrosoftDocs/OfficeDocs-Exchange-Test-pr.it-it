@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-09_
+_**Ultima modifica dell'argomento:** 2012-11-09_
 
 È possibile specificare il numero massimo di minuti consentiti per ciascuna registrazione vocale quando un chiamante lascia un messaggio vocale. Questo valore può essere impostato su un numero compreso tra 1 e 100. Per la maggior parte delle organizzazioni questo valore deve essere impostato sul valore predefinito di 20 minuti. L'impostazione di questo valore su un numero troppo basso può far sì che un messaggio vocale particolarmente lungo venga disconnesso prima del suo completamento. L'impostazione di un valore troppo alto consente agli utenti di salvare messaggi vocali lunghi nelle proprie cartelle Posta in arrivo.
 

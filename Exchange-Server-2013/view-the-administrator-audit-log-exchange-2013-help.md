@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-05-03_
+_**Ultima modifica dell'argomento:** 2016-05-03_
 
 In Microsoft Exchange Online Protection (EOP), Microsoft Exchange Online e Microsoft Exchange 2013, è possibile utilizzare Interfaccia di amministrazione di Exchange (EAC) per ricercare e visualizzare le voci nel *registro di controllo dell'amministratore*. Il registro di controllo dell'amministratore registra operazioni specifiche, basate sul cmdlet di Exchange Management Shell, eseguite dagli amministratori e dagli utenti a cui sono stati assegnati privilegi amministrativi. Le voci nel registro di controllo dell'amministratore forniscono informazioni sul cmdlet eseguito, sui parametri utilizzati, sull'utente che ha eseguito il cmdlet e sugli oggetti coinvolti.
 

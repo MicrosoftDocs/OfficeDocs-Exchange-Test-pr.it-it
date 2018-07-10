@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-09-22_
+_**Ultima modifica dell'argomento:** 2014-09-22_
 
 Il set di integrità ActiveSync.Proxy monitora l'integrità dell'infrastruttura di Exchange ActiveSync sui server Accesso client. Un avviso che specifica che il set di integrità ActiveSync.Proxy non è integro indica un problema che potrebbe influire sui componenti di Exchange ActiveSync sul server Cassette postali riportato nell'avviso.
 

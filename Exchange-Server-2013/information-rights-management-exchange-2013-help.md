@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Ogni giorno, gli informatici utilizzano la posta elettronica per lo scambio di informazioni sensibili come le relazioni finanziarie e dei dati, contratti legali, informazioni sui prodotti riservate, relazioni e proiezioni di vendita, analisi della concorrenza, la ricerca e le informazioni sui brevetti e informazioni su clienti e dipendenti. Perché le persone possono accedere alla propria posta elettronica da qualsiasi luogo, le cassette postali si sono trasformate in depositi contenenti grandi quantità di informazioni potenzialmente sensibili. Di conseguenza, la perdita di informazioni può rappresentare una grave minaccia per le organizzazioni. Per impedire la perdita di informazioni, Microsoft Exchange Server 2013 comprende le funzionalità IRM (Information Rights Management), che forniscono una costante protezione online e offline dei messaggi e degli allegati di posta elettronica.
 
@@ -323,7 +323,7 @@ Per implementare IRM nell'organizzazione di Exchange 2013, la distribuzione deve
 <tr class="odd">
 <td><p>Cluster AD RMS</p></td>
 <td><ul>
-<li><p><strong>Sistema operativo</strong>   È necessario Windows Server 2012, Windows Server 2008 R2 o Windows Server 2008 SP2 con hotfix <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=973247">ruolo di Active Directory Rights Management Services in Windows Server 2008</a>.</p></li>
+<li><p><strong>Sistema operativo</strong>   È necessario Windows Server 2012, Windows Server 2008 R2 o Windows Server 2008 SP2 con hotfix <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=973247">ruolo di Active Directory Rights Management Services in Windows Server 2008</a>.</p></li>
 <li><p><strong>Punto di connessione del servizio</strong> Exchange 2010 e applicazioni che supportano AD RMS utilizzano il punto di connessione del servizio registrato in Active Directory per individuare un cluster AD RMS e URL. AD RMS consente di registrare il punto di connessione del servizio dal programma di installazione di AD RMS. Se l'account utilizzato per configurare AD RMS non è un membro del gruppo di protezione Enterprise Admins, è possibile eseguire la registrazione punti di connessione del servizio al termine dell'installazione. Punto di connessione di un solo servizio ad RMS in una foresta Active Directory non esiste.   </p></li>
 <li><p><strong>Autorizzazioni</strong>   Le autorizzazioni di lettura e di esecuzione per la pipeline di certificazione dei server AD RMS (file <code>ServerCertification.asmx</code> sui server AD RMS) devono essere assegnate ai seguenti elementi:</p>
 <ul>
@@ -338,7 +338,7 @@ Per implementare IRM nell'organizzazione di Exchange 2013, la distribuzione deve
 <td><p>Exchange</p></td>
 <td><ul>
 <li><p>Exchange 2010 o versione successiva.</p></li>
-<li><p>L'hotfix <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=973136">FIX: ArgumentNullException messaggio di errore di eccezione quando un'applicazione basata su .NET Framework 2.0 SP2 tenta di elaborare una risposta con contenuto di lunghezza zero a una richiesta asincrona del servizio ASP.NET Web: &quot;Valore non può essere null&quot;</a> è consigliato per Microsoft .NET Framework 2.0 SP2.</p></li>
+<li><p>L'hotfix <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=973136">FIX: ArgumentNullException messaggio di errore di eccezione quando un'applicazione basata su .NET Framework 2.0 SP2 tenta di elaborare una risposta con contenuto di lunghezza zero a una richiesta asincrona del servizio ASP.NET Web: &quot;Valore non può essere null&quot;</a> è consigliato per Microsoft .NET Framework 2.0 SP2.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">

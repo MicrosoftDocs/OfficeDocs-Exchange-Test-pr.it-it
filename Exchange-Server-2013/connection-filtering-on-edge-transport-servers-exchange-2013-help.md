@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il filtro delle connessioni è una funzionalità di protezione da posta indesiderata di Microsoft Exchange Server 2013 che consente o blocca la posta elettronica in base all'origine del messaggio. Il filtro delle connessioni è fornito dall'agente Filtro connessioni, disponibile solo nei server Trasporto Edge. L'agente Filtro Connessioni si basa sull'indirizzo IP del server di posta di connessione per determinare quale azione, se disponibile, deve essere eseguita su un messaggio in arrivo.
 

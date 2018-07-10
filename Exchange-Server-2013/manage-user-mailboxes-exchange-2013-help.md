@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-05-27_
+_**Ultima modifica dell'argomento:** 2014-05-27_
 
 Dopo aver creato una cassetta postale utente, è possibile apportare eventuali modifiche e impostare proprietà aggiuntive utilizzando l'interfaccia di amministrazione di Exchange o la shell.
 
@@ -335,7 +335,7 @@ Utilizzare la sezione **Delega cassetta postale** per assegnare ad altri utenti 
 
   - **Invia come**   Questa autorizzazione consente agli utenti, diversi dal proprietario della cassetta postale, di utilizzare la cassetta postale per inviare messaggi. Dopo aver assegnato questa autorizzazione a un delegato, qualunque messaggio inviato da un delegato utilizzando questa cassetta postale apparirà come se fosse stato inviato dal proprietario della cassetta postale. Tuttavia, questa autorizzazione non consente a un delegato di accedere alla cassetta postale dell'utente.
 
-  - **Invia per conto di**   Anche questa autorizzazione consente a un delegato di utilizzare la cassetta postale per inviare messaggi. Tuttavia, dopo l'assegnazione di questa autorizzazione a un delegato, l'indirizzo **Da:** di qualunque messaggio inviato dal delegato indicherà che il messaggio è stato inviato dal delegato per conto del proprietario della cassetta postale.
+  - **Invia per conto di**   Anche questa autorizzazione consente a un delegato di utilizzare la cassetta postale per inviare messaggi. Tuttavia, dopo l'assegnazione di questa autorizzazione a un delegato, l'indirizzo **Da:**  di qualunque messaggio inviato dal delegato indicherà che il messaggio è stato inviato dal delegato per conto del proprietario della cassetta postale.
 
   - **Accesso completo**   Questa autorizzazione consente a un delegato di accedere alla cassetta postale dell'utente e di visualizzare il contenuto della cassetta postale. Tuttavia, dopo l'assegnazione di questa autorizzazione a un delegato, il delegato non potrà inviare messaggi dalla cassetta postale. Per consentire a un delegato di inviare messaggi di posta elettronica dalla cassetta postale dell'utente, è ancora necessario assegnare al delegato l'autorizzazione Invia come o Invia per conto di.
 

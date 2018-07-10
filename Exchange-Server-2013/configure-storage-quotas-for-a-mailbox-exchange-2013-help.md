@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-07-07_
+_**Ultima modifica dell'argomento:** 2015-07-07_
 
-**Riepilogo:** utilizzare l'interfaccia di amministrazione di Exchange (EAC) o Shell per impostare le quote di archiviazione per cassette postali specifiche.
+**Riepilogo:**  utilizzare l'interfaccia di amministrazione di Exchange (EAC) o Shell per impostare le quote di archiviazione per cassette postali specifiche.
 
 Le quote di spazio di archiviazione consentono di controllare la dimensione delle cassette postali e di gestire l'incremento dei database che queste contengono. Quando viene raggiunto o superato il limite specificato delle quote di archiviazione della cassetta postale, Exchange invia una notifica descrittiva al proprietario della cassetta postale.
 

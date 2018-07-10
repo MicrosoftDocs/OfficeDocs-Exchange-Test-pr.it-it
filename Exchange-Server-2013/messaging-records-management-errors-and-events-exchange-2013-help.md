@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Gestione record di messaggistica genera eventi che è possibile visualizzare nel Visualizzatore eventi. Questa operazione consente di risolvere i problemi e di verificare le prestazioni dell'Assistente cartelle gestite. Il Visualizzatore eventi registra i seguenti tipi di eventi, nell'ordine di importanza specificato:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-16_
+_**Ultima modifica dell'argomento:** 2014-12-16_
 
 In Microsoft Exchange Server 2013, è possibile configurare gli intervalli di tentativi, reinvio e scadenza messaggio nel servizio di trasporto sui server cassette postali e nei server Trasporto Edge. Per una descrizione di queste impostazioni, vedere [Intervalli di ripetizione, reinvio e scadenza messaggio](message-retry-resubmit-and-expiration-intervals-exchange-2013-help.md).
 

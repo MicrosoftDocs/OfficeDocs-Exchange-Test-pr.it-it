@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Utilizzo di gruppi di ruoli gestione collegato in Microsoft Exchange Server 2013, è possibile collegare un gruppo di ruoli in una foresta di risorse Exchange 2013 con un gruppo di protezione universale (USG) in una foresta utente esterno. Ciò è utile quando si desidera che gli amministratori di account nella foresta degli utenti per gestire i server che eseguono Exchange nella foresta di risorse. Per ulteriori informazioni sui gruppi di ruoli collegato, vedere [Informazioni sui gruppi di ruoli di gestione](understanding-management-role-groups-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile consentire o impedire agli utenti di Outlook Voice Access di trasferire le chiamate a un utente associato a un dial plan di messaggistica unificata. Per impostazione predefinita questa opzione e l'opzione **Consenti ai chiamanti di lasciare messaggi vocali senza far squillare il telefono dell'utente** sono abilitate, pertanto gli utenti di Outlook Voice Access possono trasferire le chiamate agli utenti nello stesso dial plan di messaggistica unificata e lasciare messaggi per loro. Questa impostazione si applica solo agli utenti di Outlook Voice Access che hanno inserito il PIN e sono stati autenticati.
 

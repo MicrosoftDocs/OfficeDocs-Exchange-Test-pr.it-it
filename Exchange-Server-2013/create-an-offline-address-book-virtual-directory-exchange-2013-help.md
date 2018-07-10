@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-16_
+_**Ultima modifica dell'argomento:** 2012-10-16_
 
 La directory virtuale della Rubrica offline è la distribuzione per la Rubrica offline. Per impostazione predefinita, quando si installa Microsoft Exchange Server 2013, viene creata una nuova directory virtuale denominata Rubrica offline nel sito Web interno predefinito in IIS (Internet Information Services). Se esistono utenti sul lato client che si connettono a Microsoft Outlook esternamente al firewall dell'organizzazione, è possibile aggiungere un sito Web esterno. In alternativa, quando viene eseguito il cmdlet **New-OABVirtualDirectory** in Shell, viene creata una nuova directory virtuale denominata Rubrica offline nel sito Web IIS predefinito sul server Exchange locale.
 

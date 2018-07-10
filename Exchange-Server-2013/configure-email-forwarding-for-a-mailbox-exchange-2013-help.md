@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 L'inoltro della posta elettronica consente di configurare una cassetta postale, affinché i messaggi di posta elettronica inviati da quella cassetta postale vengano inoltrati a un'altra cassetta utente interna o esterna all'organizzazione.
 

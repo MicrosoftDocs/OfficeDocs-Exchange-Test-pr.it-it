@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-01_
+_**Ultima modifica dell'argomento:** 2015-01-01_
 
 Una relazione di organizzazione consente agli utenti nell'organizzazione di Exchange di condividere informazioni sulla disponibilità del calendario con un'organizzazione di Office 365 o un'altra organizzazione di Exchange locale. Potrebbe essere necessario modificare le impostazioni di una relazione organizzativa, come ad esempio, modificare il nome, disattivare temporaneamente la condivisione del calendario, modificare il livello di accesso o cambiare i gruppi di sicurezza che condivideranno i calendari.
 

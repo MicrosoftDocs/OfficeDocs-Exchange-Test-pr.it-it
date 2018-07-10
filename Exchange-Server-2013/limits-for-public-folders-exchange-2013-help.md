@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In Exchange Server 2013, le cartelle pubbliche sono state spostate da un'architettura database tradizionale a una di tipo cassetta postale. Tale cambio consente alle cartelle pubbliche di sfruttare la flessibilità di un gruppo disponibilità database (DAG) e altri miglioramenti della cassetta postale effettuati negli anni. Tuttavia, esistono problemi di prestazioni e nuovi limiti che dovrebbero essere presi in considerazione. Nel presente documento vengono fornite alcune line guida di alto livello per opzioni di configurazione disponibili che potrebbero influire su prestazioni e connettività della cartella pubblica.
 

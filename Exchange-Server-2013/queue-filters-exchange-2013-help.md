@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'operazione di filtro genera diverse visualizzazioni delle code. Le proprietà delle code vengono utilizzate come opzioni del filtro. Specificando i criteri del filtro, è possibile individuare rapidamente le code e agire su di esse. Di seguito sono illustrati esempi di utilizzo del filtro delle code per gestire il flusso di posta:
 

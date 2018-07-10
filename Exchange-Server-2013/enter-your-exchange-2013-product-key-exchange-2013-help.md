@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Un codice product key indica Exchange Server 2013 ha acquistato una licenza Standard o Enterprise Edition. Se il codice "product key" è stato acquistato è di una licenza Enterprise Edition, che consente di installare più di cinque database per ogni server oltre a tutti gli elementi che è disponibile con una licenza Standard Edition. Per ulteriori informazioni sulle licenze di Exchange, vedere [Edizioni e versioni di Exchange 2013](exchange-2013-editions-and-versions-exchange-2013-help.md).
 

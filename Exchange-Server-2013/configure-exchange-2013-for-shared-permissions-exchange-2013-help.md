@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Le autorizzazioni condivise consentono all'utente, in qualità di amministratore di Microsoft Exchange Server 2013, di creare le entità di sicurezza di Active Directory, come gli utenti, quindi di configurarle come destinatari di Exchange. A differenza delle autorizzazioni suddivise, che separano le attività di gestione tra i gruppi di amministratori di Exchange e di amministratori di Active Directory, le autorizzazioni condivise non separano alcuna attività.
 

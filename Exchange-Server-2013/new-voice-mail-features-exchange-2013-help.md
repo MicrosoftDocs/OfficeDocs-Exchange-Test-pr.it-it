@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 La messaggistica unificata (UM) in Microsoft Exchange Server 2013 include lo stesso insieme di funzionalità di Exchange 2010 e Exchange 2007, con alcuni miglioramenti e modifiche architettoniche. Tuttavia, la messaggistica unificata non è più un ruolo del server separato. Ora è un componente delle funzionalità vocali offerte in Exchange 2013.
 

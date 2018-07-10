@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-12-05_
+_**Ultima modifica dell'argomento:** 2012-12-05_
 
 È possibile disabilitare la posta elettronica per un contatto di posta esistente nell'organizzazione di Exchange. Quando si disabilita la posta elettronica per un contatto, questo viene rimosso da Exchange e dalla rubrica dell'organizzazione. Se il contatto di posta è un membro di un gruppo di distribuzione, non riceverà più i messaggi inviati al gruppo. Gli attributi di Exchange verranno inoltre rimossi dall'oggetto contatto abilitato alla posta in Active Directory, ma il contatto e i relativi attributi non di Exchange (quali le informazioni di contatto oppure organizzazione) verranno conservati in Active Directory.
 

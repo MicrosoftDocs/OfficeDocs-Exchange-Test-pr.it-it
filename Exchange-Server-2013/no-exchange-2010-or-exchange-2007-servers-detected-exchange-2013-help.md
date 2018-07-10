@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2012-11-08_
+_**Ultima modifica dell'argomento:** 2012-11-08_
 
 Questo messaggio è stato visualizzato dal programma di installazione di Microsoft Exchange Server 2013 in quanto non esistono ruoli del server Exchange Server 2010 o Exchange Server 2007 nell'organizzazione.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-20_
+_**Ultima modifica dell'argomento:** 2013-02-20_
 
 In questo argomento sono descritte le funzionalità che permettono agli utenti abilitati alla messaggistica unificata di Exchange di accedere ai messaggi di posta e vocali presenti nella loro cassetta postale. Tramite queste funzionalità, gli utenti possono accedere facilmente ai loro messaggi di posta e vocali e migliorare di conseguenza il loro utilizzo del prodotto.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Le richieste di ripristino delle cassette postali sono utilizzate per ripristinare le cassette postali disconnesse. Una cassetta postale disconnessa è una cassetta postale nel database delle cassette postali di Exchange non associata a un account utente in Active Directory. Le cassette postali vengono disconnesse quando vengono disabilitate, eliminate o spostate in un database diverso. Per ulteriori informazioni, vedere [Cassette postali disconnesse](disconnected-mailboxes-exchange-2013-help.md).
 

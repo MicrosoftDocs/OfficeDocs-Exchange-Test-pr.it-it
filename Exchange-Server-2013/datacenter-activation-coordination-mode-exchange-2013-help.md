@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-07-14_
+_**Ultima modifica dell'argomento:** 2014-07-14_
 
 La modalità di coordinamento dell'attivazione del centro dati (DAC) è una proprietà di un gruppo di disponibilità del database (DAG). La modalità DAC è disabilitata per impostazione predefinita, ma deve essere abilitata per tutti i gruppi di disponibilità del database con due o più membri che utilizzano la replica continua. La modalità DAC non deve essere abilitata per i DAG che usano la modalità di replica di terze parti a meno che non sia specificato dal fornitore di terze parti.
 

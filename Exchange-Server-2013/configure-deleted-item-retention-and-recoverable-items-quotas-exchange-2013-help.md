@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Quando un utente elimina elementi dalla cartella Posta eliminata predefinita, premendo CANC o MAIUSC+CANC oppure tramite il comando **Svuota cartella Posta eliminata**, tali elementi vengono spostati nella cartella **Elementi ripristinabili\\Eliminazioni**. Il periodo di tempo per cui gli elementi eliminati rimangono in tale cartella dipende dalle impostazioni di mantenimento degli elementi eliminati configurate per il database delle cassette postali o per la cassetta postale. Per impostazione predefinita, il database delle cassette postali è configurato in modo da conservare gli elementi eliminati per 14 giorni, mentre le opzioni Quota di avviso elementi recuperabili e Quota elementi recuperabili sono impostate, rispettivamente, su 20 GB e 30 GB.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-09-22_
+_**Ultima modifica dell'argomento:** 2012-09-22_
 
 [Creare un criterio cassetta postale di Outlook Web App](create-an-outlook-web-app-mailbox-policy-exchange-2013-help.md)
 

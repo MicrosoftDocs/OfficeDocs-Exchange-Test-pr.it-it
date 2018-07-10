@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-05-03_
+_**Ultima modifica dell'argomento:** 2013-05-03_
 
 [Consenti messaggio in attesa indicatore (MWI) su un gateway IP di messaggistica unificata](allow-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
 

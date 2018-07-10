@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Quando si sposta una cassetta postale, la si sposta da un *database delle cassette postali di origine* a un *database delle cassette postali di destinazione*. Il database delle cassette postali di destinazione può trovarsi sullo stesso server, su un server diverso, in un dominio diverso, in un sito diverso di Active Directory o in un'altra foresta.
 

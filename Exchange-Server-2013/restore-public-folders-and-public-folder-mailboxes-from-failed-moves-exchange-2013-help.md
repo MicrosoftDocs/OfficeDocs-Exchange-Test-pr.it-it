@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-13_
+_**Ultima modifica dell'argomento:** 2013-02-13_
 
 Se una richiesta di spostamento per una cartella pubblica o per una cassetta postale della cartella pubblica non riesce, è possibile ripristinare la cartella o la cassetta postale fintanto che si applicano le condizioni riportate di seguito:
 

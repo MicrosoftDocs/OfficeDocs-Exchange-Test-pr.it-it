@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-13_
+_**Ultima modifica dell'argomento:** 2012-11-13_
 
 Per impostazione predefinita, quando viene creato un gateway IP di messaggistica unificata, lo stato di tale gateway è impostato su abilitato. Una volta creato il gateway IP di messaggistica unificata, è possibile disabilitarlo impostandone lo stato su disabilitato. Una volta disabilitato il gateway IP di messaggistica unificata, il gateway VoIP (Voice over IP), PBX (IP Private Branch eXchange) o SBC (Session Border Controller) configurati per l'utilizzo non saranno più in grado di elaborare le chiamate di messaggistica unificata in arrivo.
 

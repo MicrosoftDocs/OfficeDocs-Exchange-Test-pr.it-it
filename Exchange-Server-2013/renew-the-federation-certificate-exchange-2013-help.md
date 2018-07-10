@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:**2017-02-28_
+_**Ultima modifica dell'argomento:** 2017-02-28_
 
 In questo argomento viene spiegato come aggiornare il certificato di federazione autofirmato utilizzato in un trust federativo:
 
@@ -75,7 +75,7 @@ In questo esempio, il valore `6A99CED2E4F2B5BE96C5D17D662D217EF58B8F73` di ident
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-FederationTrust](https://technet.microsoft.com/it-it/library/dd298034\(v=exchg.150\)).
 
-**Nota:** l'output del comando include un messaggio di avviso in cui viene comunicata la necessità di aggiornare la prova del record TXT relativo alla proprietà del dominio in DNS. Questa operazione viene effettuata nel prossimo passaggio.
+**Nota:**  l'output del comando include un messaggio di avviso in cui viene comunicata la necessità di aggiornare la prova del record TXT relativo alla proprietà del dominio in DNS. Questa operazione viene effettuata nel prossimo passaggio.
 
 ## Passaggio 3: aggiornare la prova di federazione del record TXT relativo alla proprietà del dominio in DNS
 
@@ -111,7 +111,7 @@ Per utilizzare Exchange Management Shell al fine di verificare la distribuzione 
 
     $Servers = Get-ExchangeServer; $Servers | foreach {Get-ExchangeCertificate -Server $_ | Where {$_.Services -match 'Federation'}} | Format-List Identity,Thumbprint,Services,Subject
 
-**Nota:** in Exchange 2010, l'output del cmdlet **Test-FederationCertificate** contiene i nomi dei server. L'output del cmdlet in Exchange 2013 o nelle versione successive non include i nomi dei server.
+**Nota:**  in Exchange 2010, l'output del cmdlet **Test-FederationCertificate** contiene i nomi dei server. L'output del cmdlet in Exchange 2013 o nelle versione successive non include i nomi dei server.
 
 ## Passaggio 5: attivare il nuovo certificato di federazione
 
@@ -121,7 +121,7 @@ Per utilizzare Exchange Management Shell al fine di attivare il nuovo certificat
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-FederationTrust](https://technet.microsoft.com/it-it/library/dd298034\(v=exchg.150\)).
 
-**Nota:** l'output del comando include un messaggio di avviso in cui viene comunicata la necessità di aggiornare la prova del record TXT relativo alla proprietà del dominio in DNS (operazione già eseguita al passaggio 3).
+**Nota:**  l'output del comando include un messaggio di avviso in cui viene comunicata la necessità di aggiornare la prova del record TXT relativo alla proprietà del dominio in DNS (operazione già eseguita al passaggio 3).
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

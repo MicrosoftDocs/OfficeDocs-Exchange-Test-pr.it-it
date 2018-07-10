@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-19_
+_**Ultima modifica dell'argomento:** 2013-04-19_
 
 È possibile abilitare una formula personalizzata di benvenuto Orario di ufficio per un operatore automatico di messaggistica unificata. La formula personalizzata di benvenuto Orario di ufficio è il primo messaggio che i chiamanti ascoltano quando un operatore automatico di messaggistica unificata risponde alla chiamata durante l'orario di ufficio. È probabile che si desideri personalizzare il messaggio di saluto.
 

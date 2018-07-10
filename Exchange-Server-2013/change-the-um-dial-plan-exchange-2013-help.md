@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 Potrebbe essere necessario trasferire un utente abilitato per la messaggistica unificata in un altro dial plan di messaggistica unificata o modificare il dial plan associato a tale utente. Ad esempio, si potrebbe dover trasferire un utente abilitato per la messaggistica unificata dal dial plan impostato sull'interno al dial plan URI SIP.
 

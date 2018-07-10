@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-19_
+_**Ultima modifica dell'argomento:** 2013-02-19_
 
 I messaggi considerati come posta indesiderata dall'agente Filtro contenuto possono essere indirizzati a una cassetta postale di quarantena per la posta indesiderata. Se viene abilitata la soglia di quarantena del livello di probabilità di posta indesiderata (SCL), tutti i messaggi che vengono messi in quarantena vengono inclusi in rapporti di mancato recapito e inviati all'indirizzo SMTP specificato come cassetta postale per la quarantena della posta indesiderata. È quindi possibile rivedere i messaggi in quarantena e, se necessario, inviarli ai destinatari specificati utilizzando la funzionalità Invia di nuovo in Microsoft Outlook.
 

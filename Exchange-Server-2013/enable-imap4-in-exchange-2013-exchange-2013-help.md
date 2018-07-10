@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-06-02_
+_**Ultima modifica dell'argomento:** 2016-06-02_
 
 Informazioni su come abilitare la connettività client IMAP4 in Exchange 2016 utilizzando Microsoft Management Console (MMC) o Exchange Management Shell (EMS).
 

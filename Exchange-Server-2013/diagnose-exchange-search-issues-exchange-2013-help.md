@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Exchange Ricerca indicizza cassette postali e gli allegati è supportato nelle cassette postali Exchange. Con l'aumento volumi di posta elettronica, l'aumento delle dimensioni della cassetta postale e le quote di archiviazione, il provisioning di cassette postali di archiviazione per gli utenti e In-Place eDiscovery per l'esecuzione di ricerche di individuazione, Exchange ricerca è essenziale dei server cassette postali nell'organizzazione Microsoft Exchange Server 2013. Problemi con Exchange ricerca possono influire sulla produttività degli utenti e influire sulle funzionalità eDiscovery sul posto.
 

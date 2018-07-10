@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-01-18_
+_**Ultima modifica dell'argomento:** 2017-01-18_
 
 
 > [!NOTE]
@@ -129,15 +129,21 @@ Nell'esempio viene utilizzato il cmdlet [Get-Mailbox](https://technet.microsoft.
     
     Di seguito sono riportati alcuni esempi di utilizzo dei cmdlet **Get-Mailbox** e **Get-Recipient** per restituire un sottoinsieme delle cassette postali basato su utente comuni o proprietà della cassetta postale. In questi esempi si presuppongono che sono state popolate proprietà delle cassette postali rilevanti (ad esempio *CustomAttributeN* o *Department*).
     
-        Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
-    
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-    
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
-    
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
-    
-        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+    ```
+    Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
+    ```
+    ```
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+    ```
+    ```
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
+    ```
+    ```
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
+    ```
+    ```
+    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+    ```
     
     È possibile utilizzare altre proprietà delle cassette postali utente in un filtro per includere o escludere le cassette postali. Per ulteriori informazioni, vedere [Proprietà filtrabili per il parametro - Filter](https://technet.microsoft.com/it-it/library/bb738155\(v=exchg.150\)).
 

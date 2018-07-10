@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-01_
+_**Ultima modifica dell'argomento:** 2015-01-01_
 
 Una relazione di trust federativa stabilisce una relazione di trust tra un'organizzazione di Exchange 2013 Microsoft e il sistema di autenticazione Azure Active Directory e supporta la condivisione federata con altre organizzazioni Exchange federate. In genere, non è necessario gestire o modificare la relazione di trust federativa dopo averlo creato. Tuttavia, può essere situazioni che richiedono l'aggiunta o rimozione dei domini federati o reimpostare il dominio utilizzato per configurare l'identificatore di organizzazione (OrgID) per la relazione di trust federativa.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-11_
+_**Ultima modifica dell'argomento:** 2012-10-11_
 
 [Creare un criterio della Rubrica](create-an-address-book-policy-exchange-2013-help.md)
 

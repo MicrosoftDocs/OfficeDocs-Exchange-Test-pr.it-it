@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-11-15_
+_**Ultima modifica dell'argomento:** 2017-11-15_
 
 Esistono vari scenari in cui può essere necessario esportare o importare i tag di conservazione, inclusi:
 

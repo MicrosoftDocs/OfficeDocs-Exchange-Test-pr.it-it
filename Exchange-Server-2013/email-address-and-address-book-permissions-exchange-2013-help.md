@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Le autorizzazioni necessarie per configurare le funzionalità relative alla rubrica e agli indirizzi di posta elettronica dipendono dalla procedura in esecuzione o dal cmdlet che si intende eseguire. Per ulteriori informazioni sulle rubriche e sugli indirizzi di posta elettronica, vedere [Indirizzi di posta elettronica e rubriche](email-addresses-and-address-books-exchange-2013-help.md).
 

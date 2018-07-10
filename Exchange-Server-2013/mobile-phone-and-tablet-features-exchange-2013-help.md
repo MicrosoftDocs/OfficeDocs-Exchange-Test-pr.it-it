@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Gli utenti possono accedere loro posta elettronica, calendario, contatti e informazioni sull'attività nel telefoni cellulari, Tablet e altri dispositivi portatili tramite Microsoft Exchange ActiveSync. È inoltre possibile utilizzare per configurare le firme e le risposte automatiche. Un'ampia gamma di telefoni e dispositivi mobili funziona con Exchange ActiveSync.
 

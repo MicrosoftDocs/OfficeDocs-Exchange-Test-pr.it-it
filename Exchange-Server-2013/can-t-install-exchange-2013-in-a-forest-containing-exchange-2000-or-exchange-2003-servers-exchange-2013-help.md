@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Microsoft Exchange Server 2013 non è in grado di continuare l'operazione poiché uno o più computer eseguono Exchange 2000 Server o Exchange Server 2003 se disponibili nella foresta Active Directory. Prima di poter installare Exchange 2013, tutti i server Exchange 2000 e Exchange 2003 devono essere rimossi dalla foresta. È necessario eseguire l'upgrade di cassette postali, cartelle pubbliche e di tutti gli altri i componenti o oggetti Exchange a Exchange Server 2007 o Exchange Server 2010. Non è possibile eseguire l'upgrade da Exchange 2000 o Exchange 2003 direttamente a Exchange 2013.
 

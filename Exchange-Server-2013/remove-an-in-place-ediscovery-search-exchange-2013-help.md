@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-07-14_
+_**Ultima modifica dell'argomento:** 2014-07-14_
 
 In Microsoft Exchange Server 2013, è possibile utilizzare In-Place eDiscovery per la ricerca di contenuto delle cassette postali. È possibile rimuovere una ricerca eDiscovery In locale in qualsiasi momento. Quando si rimuove una ricerca eDiscovery In locale, i risultati della ricerca vengono rimossi dalla cassetta postale di individuazione.
 

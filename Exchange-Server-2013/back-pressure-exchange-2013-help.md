@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 La funzionalità di congestione è una funzionalità di monitoraggio delle risorse di sistema del servizio di trasporto di Microsoft Exchange presente sui server Cassette postali e sui server Trasporto Edge di Exchange 2013.
 

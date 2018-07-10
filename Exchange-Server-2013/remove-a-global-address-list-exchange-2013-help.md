@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-16_
+_**Ultima modifica dell'argomento:** 2014-12-16_
 
 L'elenco indirizzi globale (GAL, Global Address List) è una directory contenente voci per ogni gruppo, utente e contatto all'interno di un'organizzazione di Exchange.
 

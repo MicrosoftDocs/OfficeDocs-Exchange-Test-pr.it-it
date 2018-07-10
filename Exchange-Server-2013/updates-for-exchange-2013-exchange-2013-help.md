@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-03-20_
+_**Ultima modifica dell'argomento:** 2018-03-20_
 
 Informazioni sulle modifiche apportate al processo di aggiornamento per Microsoft Exchange Server 2013. Questo articolo fornisce anche collegamenti a informazioni su funzionalità e miglioramenti che sono stati inclusi negli aggiornamenti cumulativi correnti e precedenti di Exchange 2013.
 
@@ -52,7 +52,7 @@ Nella tabella seguente sono riportati link ai post del blog del team di Exchange
 </tr>
 <tr class="even">
 <td><p>Exchange 2013 CU18</p></td>
-<td><p><a href="https://go.microsoft.com/fwlink/p/?linkid=858936%0d%0a">Rilasciato: Aggiornamenti trimestrali di Exchange: settembre 2017</a></p></td>
+<td><p><a href="https://go.microsoft.com/fwlink/p/?linkid=858936">Rilasciato: Aggiornamenti trimestrali di Exchange: settembre 2017</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Exchange 2013 CU17</p></td>

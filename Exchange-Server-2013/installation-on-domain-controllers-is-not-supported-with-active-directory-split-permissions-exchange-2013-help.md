@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2012-11-12_
+_**Ultima modifica dell'argomento:** 2012-11-12_
 
 Il programma di installazione di Microsoft Exchange Server 2013 ha rilevato il tentativo di eseguire il programma di installazione su un controller di dominio Active Directory e si è verificata una delle seguenti condizioni:
 

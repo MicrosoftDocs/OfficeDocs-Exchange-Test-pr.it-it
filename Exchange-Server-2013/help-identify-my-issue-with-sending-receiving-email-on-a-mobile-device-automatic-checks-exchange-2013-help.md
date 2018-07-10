@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Il controllo in questa pagina consente di identificare alcuni dei problemi di connettività più comuni. È possibile utilizzare il controllo automatico riportata di seguito per convalidare la connettività o consentono di determinare la causa radice.
 

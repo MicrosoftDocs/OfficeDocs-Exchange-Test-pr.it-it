@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-05-04_
+_**Ultima modifica dell'argomento:** 2016-05-04_
 
 È possibile visualizzare o modificare i dettagli relativi all'interno dei criteri DLP senza utilizzare i cmdlet Exchange Management ShellInterfaccia di amministrazione di Exchange (EAC) esportando i criteri, vengono salvati in un file XML e la modifica di file XML. In genere è necessario reimportare il file XML in Exchange. In questo modo, i criteri possono essere modificati indipendenti Exchange. Tuttavia, è necessario che soddisfino i requisiti di formato specifico, anche noto come XML schema per il funzionamento.
 

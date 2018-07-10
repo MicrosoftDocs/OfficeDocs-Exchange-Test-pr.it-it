@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-07_
+_**Ultima modifica dell'argomento:** 2013-02-07_
 
 In alcune situazioni è possibile che si desideri instradare la posta elettronica tramite uno smart host di terzi, ad esempio nel caso in cui si utilizzi un'applicazione di rete per eseguire i controlli dei criteri sui messaggi in uscita.
 

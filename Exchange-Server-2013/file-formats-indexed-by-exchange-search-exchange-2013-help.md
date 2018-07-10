@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-07-21_
+_**Ultima modifica dell'argomento:** 2015-07-21_
 
 In MicrosoftExchange Server 2013 e Exchange Online, Ricerca di Exchange include filtri per l'indicizzazione dei tipi più comuni di formati di file come allegati ai messaggi. È inoltre possibile installare filtri per indicizzare altri tipi di file.
 

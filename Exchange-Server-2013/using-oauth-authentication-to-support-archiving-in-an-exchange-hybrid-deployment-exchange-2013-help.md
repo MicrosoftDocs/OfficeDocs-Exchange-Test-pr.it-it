@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Se ti trovi in una distribuzione ibrida di Exchange 2013 e usi Exchange Online Archiving (EOA) per Exchange Server, devi configurare l'autenticazione OAuth nell'organizzazione locale e in Exchange Online, dopo aver eseguito l'aggiornamento cumulativo 5 di Exchange 2013 (CU5). EOA ti consente di disporre di un archivio basato sul cloud per gli utenti con cassette postali locali. In questa situazione, l'assistente alla gestione record di messaggistica (MRM) del server relativo alla tua cassetta postale locale applica i criteri di archiviazione e sposta automaticamente i messaggi da una cassetta postale dell'utente all'archivio sul cloud. In Exchange 2013 CU5, viene utilizzata l'autenticazione OAuth.
 

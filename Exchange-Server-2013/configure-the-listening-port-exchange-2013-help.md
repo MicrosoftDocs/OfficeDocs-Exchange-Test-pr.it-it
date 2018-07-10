@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile configurare la porta TCP utilizzata in ascolto per le richieste SIP (Session Initiation Protocol) su un gateway IP di messaggistica unificata. Per impostazione predefinita, quando si crea un gateway IP di messaggistica unificata, il numero della porta di ascolto TCP SIP è impostato su 5060. La porta di ascolto TCP SIP non può essere configurata o modificata utilizzando l'interfaccia di amministrazione di Exchange. È necessario configurare il numero della porta di ascolto TCP SIP utilizzando il cmdlet **Set-UMIPGateway**.
 

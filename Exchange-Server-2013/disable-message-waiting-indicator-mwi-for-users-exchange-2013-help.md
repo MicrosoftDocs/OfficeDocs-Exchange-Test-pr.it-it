@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 È possibile abilitare o disabilitare l'indicatore di messaggio in attesa per gli utenti associati a un criterio cassetta postale di messaggistica unificata. Message Waiting Indicator è una funzionalità di molti sistemi di caselle vocali legacy. Nella modalità più comune, sull'apparecchio telefonico del sottoscrittore si accende una luce che indica la presenza di un nuovo messaggio vocale. L'indicatore di messaggio in attesa può anche inviare un messaggio di testo al cellulare di un utente abilitato alla messaggistica unificata. L'impostazione predefinita è Abilitato.
 

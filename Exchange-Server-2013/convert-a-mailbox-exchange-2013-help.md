@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-04-26_
+_**Ultima modifica dell'argomento:** 2017-04-26_
 
 La procedura di conversione di una cassetta postale in una tipologia differente è molto simile a quella prevista per Exchange 2010. È comunque necessario utilizzare il cmdlet Set-Mailbox in Shell per eseguire la conversione.
 

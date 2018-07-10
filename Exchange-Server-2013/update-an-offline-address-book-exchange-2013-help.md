@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-11-15_
+_**Ultima modifica dell'argomento:** 2013-11-15_
 
 Dopo aver creato una Rubrica offline o averne modificato le impostazioni, le modifiche saranno visualizzabili solo al completamento del processo di generazione della Rubrica stessa (OABGen).
 

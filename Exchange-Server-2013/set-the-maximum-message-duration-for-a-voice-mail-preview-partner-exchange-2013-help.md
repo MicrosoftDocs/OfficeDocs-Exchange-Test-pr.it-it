@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-13_
+_**Ultima modifica dell'argomento:** 2013-02-13_
 
 È possibile impostare la durata massima dei messaggi per un partner per l'anteprima della posta vocale su un criterio cassetta postale di messaggistica unificata. Una volta impostata la durata massima dei messaggi, l'impostazione verrà applicata a tutti gli utenti abilitati alla messaggistica unificata associati a tale criterio cassetta postale.
 

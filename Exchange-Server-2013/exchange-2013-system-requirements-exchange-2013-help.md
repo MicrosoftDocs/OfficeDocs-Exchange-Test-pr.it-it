@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Informazioni sui requisiti di Exchange 2013 da conoscere prima di procedere all'installazione. Ad esempio, verranno fornite informazioni sui requisiti per hardware, rete e sistema operativo.
 
@@ -155,7 +155,7 @@ Nella tabella seguente sono elencati i requisiti per i server di rete e di direc
 <li><p>Domini a etichetta singola</p></li>
 <li><p>Indipendente</p></li>
 </ul>
-<p>Per ulteriori informazioni sugli spazi dei nomi DNS supportati da Exchange, vedere l'articolo 2269838 della Microsoft Knowledge Base, <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2269838">Compatibilità di Microsoft Exchange con i domini a etichetta singola, spazi dei nomi disgiunti e spazi dei nomi non contigui</a>.</p></td>
+<p>Per ulteriori informazioni sugli spazi dei nomi DNS supportati da Exchange, vedere l'articolo 2269838 della Microsoft Knowledge Base, <a href="http://go.microsoft.com/fwlink/?linkid=3052&kbid=2269838">Compatibilità di Microsoft Exchange con i domini a etichetta singola, spazi dei nomi disgiunti e spazi dei nomi non contigui</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>Supporto di IPv6</p></td>
@@ -175,7 +175,7 @@ L'utilizzo di controller di dominio di Active Directory a 64 bit migliora le pre
 
 
 > [!NOTE]
-> In ambienti con più domini, sui controller di dominio di Windows Server 2008 con la lingua di Active Directory impostata su giapponese, è possibile che i server non ricevano alcuni attributi archiviati su un oggetto durante la replica in ingresso. Per ulteriori informazioni, vedere l'articolo 949189 della Microsoft Knowledge Base, <A href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=949189">Un controller di dominio di Windows Server 2008 configurato con la lingua giapponese potrebbe non applicare gli aggiornamenti agli attributi su un oggetto durante la replica in ingresso</A>.
+> In ambienti con più domini, sui controller di dominio di Windows Server 2008 con la lingua di Active Directory impostata su giapponese, è possibile che i server non ricevano alcuni attributi archiviati su un oggetto durante la replica in ingresso. Per ulteriori informazioni, vedere l'articolo 949189 della Microsoft Knowledge Base, <A href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=949189">Un controller di dominio di Windows Server 2008 configurato con la lingua giapponese potrebbe non applicare gli aggiornamenti agli attributi su un oggetto durante la replica in ingresso</A>.
 
 
 

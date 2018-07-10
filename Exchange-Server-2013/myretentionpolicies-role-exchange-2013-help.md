@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `MyRetentionPolicies` consente ai singoli utenti di visualizzare tag di conservazione e di visualizzare e modificare i valori predefiniti e le impostazioni relative.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Le autorizzazioni richieste per eseguire attività sui server Accesso client su cui è in esecuzione il servizio di routing delle chiamate di messaggistica unificata di Microsoft Exchange e sui server Cassette postali su cui è in esecuzione il servizio Messaggistica unificata di Microsoft Exchange dipendono dalla procedura di esecuzione o dal cmdlet che si intende eseguire.
 

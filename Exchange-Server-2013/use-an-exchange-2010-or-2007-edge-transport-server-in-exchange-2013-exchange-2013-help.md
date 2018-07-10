@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Il server Trasporto Edge è disponibile in Microsoft Exchange Server 2013 Service Pack 1 (SP1). È tuttavia possibile continuare a utilizzare i server Trasporto Edge Exchange Server 2007 o Exchange Server 2010 esistenti distribuiti nella rete perimetrale. In alternativa è possibile installare un nuovo server Trasporto Edge Exchange 2007 o Exchange 2010 nella rete perimetrale per una nuova organizzazione di Exchange 2013 aggiornata.
 

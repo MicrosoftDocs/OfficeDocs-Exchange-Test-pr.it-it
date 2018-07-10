@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Set di integrità **HubTransport** consente di monitorare l'integrità generale della pipeline di trasporto sui server cassette postali responsabile per il routing della posta nell'organizzazione. Per ulteriori informazioni, vedere [Flusso di posta](https://technet.microsoft.com/it-it/library/aa996349\(v=exchg.150\)).
 

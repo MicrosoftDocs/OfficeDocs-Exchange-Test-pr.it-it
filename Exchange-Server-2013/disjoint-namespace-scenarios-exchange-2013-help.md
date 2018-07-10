@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In questo argomento vengono fornite informazioni sugli spazi dei nomi disgiunti e sugli scenari supportati per la distribuzione di Microsoft Exchange 2013 in un dominio con un nome di spazio disgiunto.
 
@@ -101,7 +101,7 @@ Inoltre, per assicurarsi che l'elenco di ricerca suffissi DNS contenga tutti gli
 
   - [Domande frequenti (FAQ) dei criteri di gruppo](https://go.microsoft.com/fwlink/p/?linkid=100128)
 
-  - [Nuovi criteri di gruppo per DNS in Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=294785)
+  - [Nuovi criteri di gruppo per DNS in Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=294785)
 
   - [Criteri di gruppo](https://go.microsoft.com/fwlink/p/?linkid=268043)
 

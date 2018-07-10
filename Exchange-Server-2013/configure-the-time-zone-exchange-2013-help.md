@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-17_
+_**Ultima modifica dell'argomento:** 2012-11-17_
 
 Per impostazione predefinita, l'operatore automatico di messaggistica unificata utilizza il fuso orario del server Cassette postali su cui viene creato. Tuttavia, in alcuni casi è possibile cambiare il fuso orario dell'operatore automatico di messaggistica unificata. Ad esempio, in presenza di due dial plan di messaggistica unificata in cui ciascuno rappresenta un diverso fuso orario, è necessario configurare un operatore automatico di messaggistica unificata in modo che abbia lo stesso fuso orario del server Cassette postali e l'altro operatore in modo che abbia un fuso orario diverso da quello del server Cassette postali.
 

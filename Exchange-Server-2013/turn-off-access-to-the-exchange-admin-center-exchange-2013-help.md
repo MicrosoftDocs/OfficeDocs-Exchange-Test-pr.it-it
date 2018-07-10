@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-05-20_
+_**Ultima modifica dell'argomento:** 2013-05-20_
 
 Per motivi di sicurezza, alcune organizzazioni potrebbero voler limitare l'accesso all'interfaccia di amministrazione di Exchange da parte di utenti da Internet. Questa procedura illustra come disattivare l'accesso all'interfaccia di amministrazione di Exchange. Questa procedura non impedisce agli utenti di accedere a Opzioni in Outlook Web App.
 

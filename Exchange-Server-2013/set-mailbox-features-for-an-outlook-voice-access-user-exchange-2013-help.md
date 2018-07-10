@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 Le impostazioni dell'interfaccia telefonica di un utente (TUI, Telephone User Interface) vengono utilizzate quando l'utente accede al sistema di messaggistica unificata utilizzando Outlook Voice Access. Quando si modificano le impostazioni della configurazione dell'interfaccia telefonica di un utente abilitato alla messaggistica unificata, si modificano le proprietà e i relativi valori nella cassetta postale dell'utente abilitato alla messaggistica unificata.
 

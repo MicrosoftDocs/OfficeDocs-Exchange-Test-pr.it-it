@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 I rapporti delle chiamate di messaggistica unificata forniscono informazioni sulle chiamate effettuate dalla messaggistica unificata o a essa inoltrate. Tramite questi rapporti è possibile monitorare la messaggistica unificata, risolverne problemi e fornire informazioni su tale funzionalità. È possibile accedere ai rapporti delle statistiche delle chiamate di messaggistica unificata utilizzando lo strumento Statistiche delle chiamate e accedere ai registri delle chiamate per gli utenti abilitati alla messaggistica unificata utilizzando lo strumento Registri chiamate utente.
 

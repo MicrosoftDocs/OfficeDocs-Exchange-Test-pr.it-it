@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-14_
+_**Ultima modifica dell'argomento:** 2013-02-14_
 
 È possibile utilizzare EAC o Shell per gestire le lingue di messaggistica unificata sui server Cassette postali che eseguono il servizio Messaggistica unificata di Microsoft Exchange. Tuttavia, per rimuovere una lingua dall'elenco in un dial plan di messaggistica unificata, è necessario rimuovere il Language Pack di messaggistica unificata appropriato dal server Cassette postali utilizzando il comando **Setup.exe /RemoveUmLanguagePack**. Dopo aver rimosso il Language Pack di messaggistica unificata dal server Cassette postali, la lingua non sarà disponibile in fase di configurazione di un dial plan o un operatore automatico di messaggistica unificata. È possibile visualizzare i Language Pack di messaggistica unificata installati visualizzando le proprietà del server Cassette postali o utilizzando il cmdlet **Get-UMService**.
 

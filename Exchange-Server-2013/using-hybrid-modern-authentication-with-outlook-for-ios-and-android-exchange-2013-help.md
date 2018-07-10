@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-04-19_
+_**Ultima modifica dell'argomento:** 2018-04-19_
 
-**Sintesi:** informazioni su come le amministrazioni possono distribuire le funzioni di autenticazione moderna ibrida ed Enterprise Mobility + Security per le cassette postali locali di Exchange per abilitare il supporto di Outlook per iOS e Android.
+**Sintesi:**  informazioni su come le amministrazioni possono distribuire le funzioni di autenticazione moderna ibrida ed Enterprise Mobility + Security per le cassette postali locali di Exchange per abilitare il supporto di Outlook per iOS e Android.
 
 L'app Outlook per iOS e Android è progettata per ottimizzare l'esperienza di Office 365 su dispositivi mobili sfruttando i servizi Microsoft per consentire agli utenti di individuare, pianificare e definire le priorità in ambito professionale e personale. Outlook fornisce la protezione, la privacy e il supporto necessari garantendo la sicurezza dei dati aziendali tramite funzionalità quali l'accesso condizionale di Azure Active Directory e i criteri di protezione dell'app Intune. Nelle sezioni seguenti viene fornita una panoramica dell'architettura di autenticazione moderna ibrida, dei prerequisiti necessari per la sua implementazione e di come distribuire in modo sicuro Outlook per iOS e Android per le cassette postali di Exchange.
 
@@ -39,15 +39,15 @@ L'elaborazione delle informazioni in Microsoft Cloud abilita funzioni e funziona
 
 In particolare, questa nuova architettura è caratterizzata dai miglioramenti seguenti:
 
-1.  **Supporto di Enterprise Mobility + Security:** I clienti possono trarre vantaggio da Microsoft Enterprise Mobility + Security (EMS), compresi Microsoft Intune e Azure Active Directory Premium, per abilitare l'accesso condizionale e i criteri di protezioni dell'app Intune, che consentono di controllare e proteggere i dati di messaggistica aziendali sul dispositivo mobile.
+1.  **Supporto di Enterprise Mobility + Security:**  I clienti possono trarre vantaggio da Microsoft Enterprise Mobility + Security (EMS), compresi Microsoft Intune e Azure Active Directory Premium, per abilitare l'accesso condizionale e i criteri di protezioni dell'app Intune, che consentono di controllare e proteggere i dati di messaggistica aziendali sul dispositivo mobile.
 
-2.  **Con tecnologia Microsoft Cloud:** I dati delle cassette postali locali sono sincronizzati in Exchange Online, che fornisce i vantaggi di sicurezza, privacy, conformità e operazioni trasparenti garantite da Microsoft nel [Centro protezione di Office 365](https://products.office.com/business/office-365-trust-center-welcome).
+2.  **Con tecnologia Microsoft Cloud:**  I dati delle cassette postali locali sono sincronizzati in Exchange Online, che fornisce i vantaggi di sicurezza, privacy, conformità e operazioni trasparenti garantite da Microsoft nel [Centro protezione di Office 365](https://products.office.com/business/office-365-trust-center-welcome).
 
-3.  **OAuth consente di proteggere le password degli utenti:** Outlook si avvale dell'autenticazione moderna ibrida (OAuth) per la protezione delle credenziali degli utenti. L'autenticazione moderna ibrida fornisce a Outlook un meccanismo sicuro per accedere ai dati di Exchange senza mai toccare o archiviare le credenziali dell'utente. All'accesso, l'utente effettua l'autenticazione direttamente in una piattaforma di identità (Azure Active Directory o un provider di identità locale come ADFS) e riceve un token di accesso, che garantisce l'accesso di Outlook ai file o alle cassette postali dell'utente. Il servizio non ha mai accesso alla password dell'utente.
+3.  **OAuth consente di proteggere le password degli utenti:**  Outlook si avvale dell'autenticazione moderna ibrida (OAuth) per la protezione delle credenziali degli utenti. L'autenticazione moderna ibrida fornisce a Outlook un meccanismo sicuro per accedere ai dati di Exchange senza mai toccare o archiviare le credenziali dell'utente. All'accesso, l'utente effettua l'autenticazione direttamente in una piattaforma di identità (Azure Active Directory o un provider di identità locale come ADFS) e riceve un token di accesso, che garantisce l'accesso di Outlook ai file o alle cassette postali dell'utente. Il servizio non ha mai accesso alla password dell'utente.
 
-4.  **Fornisce ID dispositivo univoci:** Ogni connessione di Outlook è registrata in modo univoco in Microsoft Intune e, pertanto, può essere gestita come una connessione univoca.
+4.  **Fornisce ID dispositivo univoci:**  Ogni connessione di Outlook è registrata in modo univoco in Microsoft Intune e, pertanto, può essere gestita come una connessione univoca.
 
-5.  **Sblocca nuove funzioni su iOS e Android:** Questo aggiornamento consente all'app Outlook di sfruttare le funzionalità di Office 365 native che al momento non sono supportate nell'ambiente locale di Exchange, come l'utilizzo della ricerca completa di Exchange Online e la Posta in arrivo evidenziata. Queste funzionalità saranno disponibili solo quando si utilizza Outlook per iOS e Android.
+5.  **Sblocca nuove funzioni su iOS e Android:**  Questo aggiornamento consente all'app Outlook di sfruttare le funzionalità di Office 365 native che al momento non sono supportate nell'ambiente locale di Exchange, come l'utilizzo della ricerca completa di Exchange Online e la Posta in arrivo evidenziata. Queste funzionalità saranno disponibili solo quando si utilizza Outlook per iOS e Android.
 
 
 > [!NOTE]
@@ -107,7 +107,7 @@ L'architettura di autenticazione moderna ibrida è caratterizzata dai seguenti r
     
       - Intune
 
-3.  **Configurazione ibrida di Exchange:** Richiede una relazione ibrida completa tra Exchange locale ed Exchange Online.
+3.  **Configurazione ibrida di Exchange:**  Richiede una relazione ibrida completa tra Exchange locale ed Exchange Online.
     
       - Il tenant di Office 365 ibrido è configurato in modalità di configurazione ibrida completa e come specificato nell'[Assistente per la distribuzione di Exchange](http://technet.microsoft.com/exdeploy)
     
@@ -123,9 +123,9 @@ L'architettura di autenticazione moderna ibrida è caratterizzata dai seguenti r
     
       - Verificare che l'offload di SSL o TLS non sia in uso tra il bilanciamento del carico e i server di Exchange poiché potrebbe influire sull'utilizzo del token OAuth. È supportato il bridgind SSL e TLS (terminazione e riesecuzione della crittografia).
 
-4.  **Configurazione di Intune:** è supportata sia la distribuzione ibrida sia quella solo cloud di Intune (MDM per Office 365 non è supportato).
+4.  **Configurazione di Intune:**  è supportata sia la distribuzione ibrida sia quella solo cloud di Intune (MDM per Office 365 non è supportato).
 
-5.  **Licenze di Office 365\*:** ogni utente deve avere una delle licenze di Office 365 seguenti:
+5.  **Licenze di Office 365\*:**  ogni utente deve avere una delle licenze di Office 365 seguenti:
     
       - Commercial: licenze Enterprise E3, Enterprise E5, ProPlus o Business
     
@@ -135,7 +135,7 @@ L'architettura di autenticazione moderna ibrida è caratterizzata dai seguenti r
     
     Inoltre, le licenze devono includere le applicazioni client di Office necessarie per l'uso commerciale di Outlook per iOS e Android.
 
-6.  **Licenze di EMS\*:** ogni utente locale deve avere una delle licenze seguenti:
+6.  **Licenze di EMS\*:**  ogni utente locale deve avere una delle licenze seguenti:
     
       - Intune autonomo + Azure Active Directory Premium autonomo
     
@@ -261,9 +261,9 @@ Le funzionalità seguenti non sono supportate per le cassette postali locali che
 
 ## Domande frequenti sul flusso di connessione
 
-**D:** L'organizzazione ha un criterio di sicurezza che richiede che le connessioni Internet in ingresso siano limitate a FQDN e indirizzi IP approvati. È possibile con questa architettura?
+**D:**  L'organizzazione ha un criterio di sicurezza che richiede che le connessioni Internet in ingresso siano limitate a FQDN e indirizzi IP approvati. È possibile con questa architettura?
 
-**R:** È consigliabile che gli endpoint locali per i protocolli di Individuazione automatica e ActiveSync siano aperti e accessibili da Internet senza alcuna limitazione. In alcuni casi potrebbe non essere possibile. Ad esempio, in presenza di un periodo di coesistenza con un'altra soluzione MDM, potrebbe essere necessario applicare delle limitazioni al protocollo ActiveSync per impedire agli utenti di ignorare la soluzione MDM di terze parti durante la migrazione a Intune e Outlook per iOS e Android. Se è necessario applicare limitazioni ai dispositivi gateway o firewall locali, è consigliabile filtrare per endpoint FQDN. Se non è possibile usare gli endpoint FQDN, filtrare per indirizzi IP. Verificare che gli FQDN e le subnet IP seguenti siano nell'elenco elementi consentiti:
+**R:**  È consigliabile che gli endpoint locali per i protocolli di Individuazione automatica e ActiveSync siano aperti e accessibili da Internet senza alcuna limitazione. In alcuni casi potrebbe non essere possibile. Ad esempio, in presenza di un periodo di coesistenza con un'altra soluzione MDM, potrebbe essere necessario applicare delle limitazioni al protocollo ActiveSync per impedire agli utenti di ignorare la soluzione MDM di terze parti durante la migrazione a Intune e Outlook per iOS e Android. Se è necessario applicare limitazioni ai dispositivi gateway o firewall locali, è consigliabile filtrare per endpoint FQDN. Se non è possibile usare gli endpoint FQDN, filtrare per indirizzi IP. Verificare che gli FQDN e le subnet IP seguenti siano nell'elenco elementi consentiti:
 
   - Tutti gli intervalli di subnet IP e gli URL di Exchange Online sono descritti in [URL e intervalli di indirizzi IP di Office 365](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2).
 
@@ -271,9 +271,9 @@ Le funzionalità seguenti non sono supportate per le cassette postali locali che
 
   - Tutte le subnet IP dell'area geografica dei datacenter negli Stati Uniti e in Europa sono definite in [Intervalli IP dei datacenter Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653). Questa operazione è necessaria perché il servizio di rilevamento automatico consente di definire le connessioni all'infrastruttura locale, come illustrato nel Flusso di connessione. Attualmente, il servizio di rilevamento automatico non consente di utilizzare le limitazioni IP in Azure.
 
-**D:** Attualmente, l'organizzazione usa una soluzione MDM di terze parti per gestire la connettività dei dispositivi mobili. Se viene visualizzato lo spazio dei nomi di Exchange ActiveSync su Internet, viene consentito agli utenti di ignorare la soluzione MDM di terze parti durante il periodo di coesistenza. Come è possibile evitarlo?
+**D:**  Attualmente, l'organizzazione usa una soluzione MDM di terze parti per gestire la connettività dei dispositivi mobili. Se viene visualizzato lo spazio dei nomi di Exchange ActiveSync su Internet, viene consentito agli utenti di ignorare la soluzione MDM di terze parti durante il periodo di coesistenza. Come è possibile evitarlo?
 
-**R:** Esistono tre possibili soluzioni per risolvere il problema:
+**R:**  Esistono tre possibili soluzioni per risolvere il problema:
 
 1.  Implementare le regole di accesso ai dispositivi mobili per Exchange per controllare quali dispositivi sono autorizzati alla connessione.
 
@@ -281,9 +281,9 @@ Le funzionalità seguenti non sono supportate per le cassette postali locali che
 
 3.  Implementare limitazioni IP nello spazio dei nomi di Exchange ActiveSync.
 
-**D:** È possibile utilizzare Azure ExpressRoute per gestire il traffico tra Microsoft Cloud e l'ambiente locale?
+**D:**  È possibile utilizzare Azure ExpressRoute per gestire il traffico tra Microsoft Cloud e l'ambiente locale?
 
-**R:** La connettività a Microsoft Cloud richiede una connessione Internet. Tuttavia, un sottoinsieme del traffico di rete di Office 365 potrebbe essere inoltrato tramite Azure ExpressRoute. Per ulteriori informazioni, vedere [Azure ExpressRoute per Office 365](https://support.office.com/article/azure-expressroute-for-office-365-6d2534a2-c19c-4a99-be5e-33a0cee5d3bd).
+**R:**  La connettività a Microsoft Cloud richiede una connessione Internet. Tuttavia, un sottoinsieme del traffico di rete di Office 365 potrebbe essere inoltrato tramite Azure ExpressRoute. Per ulteriori informazioni, vedere [Azure ExpressRoute per Office 365](https://support.office.com/article/azure-expressroute-for-office-365-6d2534a2-c19c-4a99-be5e-33a0cee5d3bd).
 
 Con ExpressRoute, non vi è alcuno spazio IP privato per le connessioni ExpressRoute e non può esserci una risoluzione DNS "privata". Questo significa che qualsiasi endpoint che l'organizzazione vuole usare su ExpressRoute deve essere risolto nel DNS pubblico. Se tale endpoint viene risolto in un IP contenuto nei prefissi annunciati associati al circuito ExpressRoute (l'organizzazione deve configurare tali prefissi nel portale di Azure quando si abilita il peering Microsoft sulla connessione ExpressRoute), la connessione in uscita da Exchange Online all'ambiente locale viene inoltrata tramite il circuito ExpressRoute. L'organizzazione deve verificare che il traffico di ritorno associato a tali connessioni passi attraverso il circuito ExpressRoute (evitando il routing asimmetrico).
 
@@ -293,21 +293,21 @@ Con ExpressRoute, non vi è alcuno spazio IP privato per le connessioni ExpressR
 
 
 
-**D:** Dato che vengono sincronizzati i dati dei messaggi relativi solo a quattro settimane con Exchange Online, questo significa che le query di ricerca eseguite in Outlook per iOS e Android non possono restituire informazioni oltre i dati disponibili sul dispositivo locale?
+**D:**  Dato che vengono sincronizzati i dati dei messaggi relativi solo a quattro settimane con Exchange Online, questo significa che le query di ricerca eseguite in Outlook per iOS e Android non possono restituire informazioni oltre i dati disponibili sul dispositivo locale?
 
-**R:** Quando viene eseguita una query di ricerca in Outlook per iOS e Android, gli elementi che corrispondono alla query di ricerca vengono restituiti se si trovano sul dispositivo. Inoltre, la query di ricerca viene passata a Exchange locale tramite Exchange Online. Exchange locale esegue la query di ricerca nella cassetta postale locale e restituisce i risultati a Exchange Online, che li inoltra al client. I risultati della query locale vengono archiviati in Exchange Online per un giorno prima di essere eliminati.
+**R:**  Quando viene eseguita una query di ricerca in Outlook per iOS e Android, gli elementi che corrispondono alla query di ricerca vengono restituiti se si trovano sul dispositivo. Inoltre, la query di ricerca viene passata a Exchange locale tramite Exchange Online. Exchange locale esegue la query di ricerca nella cassetta postale locale e restituisce i risultati a Exchange Online, che li inoltra al client. I risultati della query locale vengono archiviati in Exchange Online per un giorno prima di essere eliminati.
 
-**D:** Come si può sapere se l'account di posta elettronica è stato aggiunto correttamente in Outlook per iOS e Android?
+**D:**  Come si può sapere se l'account di posta elettronica è stato aggiunto correttamente in Outlook per iOS e Android?
 
-**R:** Le cassette postali locali aggiunte tramite l'autenticazione moderna ibrida sono etichettate come **Exchange (ibrido)** nelle impostazioni dell'account in Outlook per iOS e Android, come riportato nell'esempio seguente:
+**R:**  Le cassette postali locali aggiunte tramite l'autenticazione moderna ibrida sono etichettate come **Exchange (ibrido)** nelle impostazioni dell'account in Outlook per iOS e Android, come riportato nell'esempio seguente:
 
 ![Un esempio di un account Outlook per iOS e Android configurato per l'autenticazione moderna ibrida](images/Mt846639.79887a65-e5e1-4501-a274-008393dbb6c9(EXCHG.150).png "Un esempio di un account Outlook per iOS e Android configurato per l'autenticazione moderna ibrida")
 
 ## Domande frequenti sull'autenticazione
 
-**D:** Quali configurazioni di identità sono supportate con l'autenticazione moderna ibrida e Outlook per iOS e Android?
+**D:**  Quali configurazioni di identità sono supportate con l'autenticazione moderna ibrida e Outlook per iOS e Android?
 
-**R:** Le seguenti configurazioni di identità con Azure Active Directory sono supportate con l'autenticazione moderna ibrida:
+**R:**  Le seguenti configurazioni di identità con Azure Active Directory sono supportate con l'autenticazione moderna ibrida:
 
   - Identità federative con qualsiasi provider di identità locale supportato da Azure Active Directory
 
@@ -315,17 +315,17 @@ Con ExpressRoute, non vi è alcuno spazio IP privato per le connessioni ExpressR
 
   - Autenticazione pass-through tramite Azure Active Directory Connect
 
-**D:** Quale meccanismo di autenticazione viene utilizzato per Outlook per iOS e Android? Le credenziali vengono archiviate in Office 365?
+**D:**  Quale meccanismo di autenticazione viene utilizzato per Outlook per iOS e Android? Le credenziali vengono archiviate in Office 365?
 
-**R:** L'autenticazione basata su Active Directory Authentication Library (ADAL) viene utilizzata da Outlook per iOS e Android per accedere ai dati delle cassette postali locali sincronizzate con Exchange Online. Con l'autenticazione ADAL, usata dalle app di Office sia su dispositivi mobili che su desktop, gli utenti accedono direttamente ad Azure Active Directory, che è il provider di identità di Office 365, anziché fornendo le credenziali ad Outlook.
+**R:**  L'autenticazione basata su Active Directory Authentication Library (ADAL) viene utilizzata da Outlook per iOS e Android per accedere ai dati delle cassette postali locali sincronizzate con Exchange Online. Con l'autenticazione ADAL, usata dalle app di Office sia su dispositivi mobili che su desktop, gli utenti accedono direttamente ad Azure Active Directory, che è il provider di identità di Office 365, anziché fornendo le credenziali ad Outlook.
 
 L'accesso basato su ADAL abilita OAuth per gli account locali di Exchange ibrido e fornisce ad Outlook per iOS e Android un meccanismo sicuro per accedere alla posta elettronica senza richiedere l'accesso alle credenziali dell'utente. All'accesso, l'utente viene autenticato direttamente con Microsoft Cloud e riceve un token di accesso. Il token concede ad Outlook per iOS e Android l'accesso alla cassetta postale appropriata. OAuth fornisce ad Outlook un meccanismo sicuro per accedere a Office 365 e al servizio cloud di Outlook senza richiedere o archiviare le credenziali di un utente.
 
 Per ulteriori informazioni, vedere il post del blog di Office relativo ai [nuovi controlli di sicurezza e accesso per Outlook per iOS e Android](https://blogs.office.com/2015/06/10/new-access-and-security-controls-for-outlook-for-ios-and-android/).
 
-**D:** Outlook per iOS e Android e altre app per dispositivi mobili di Microsoft Office supportano Single Sign-On?
+**D:**  Outlook per iOS e Android e altre app per dispositivi mobili di Microsoft Office supportano Single Sign-On?
 
-**R:** Tutte le app di Microsoft che sfruttano Azure Active Directory Authentication Library (ADAL) supportano l'accesso Single Sign-On. Inoltre, Single Sign-On è supportato anche quando le app sono usate in combinazione con Microsoft Authenticator o con le app del Portale aziendale Microsoft.
+**R:**  Tutte le app di Microsoft che sfruttano Azure Active Directory Authentication Library (ADAL) supportano l'accesso Single Sign-On. Inoltre, Single Sign-On è supportato anche quando le app sono usate in combinazione con Microsoft Authenticator o con le app del Portale aziendale Microsoft.
 
 I token possono essere condivisi e riutilizzati da altre app Microsoft (come Word Mobile) nei seguenti scenari:
 
@@ -335,15 +335,15 @@ I token possono essere condivisi e riutilizzati da altre app Microsoft (come Wor
 
 Per ulteriori informazioni, vedere [Come abilitare l'accesso Single Sign-On tra app in iOS usando ADAL](https://docs.microsoft.com/it-it/azure/active-directory/develop/active-directory-sso-ios).
 
-**D:** Che cos'è la durata dei token generati e usati da Active Directory Authentication Library (ADAL) in Outlook per iOS e Android?
+**D:**  Che cos'è la durata dei token generati e usati da Active Directory Authentication Library (ADAL) in Outlook per iOS e Android?
 
-**R:** Quando un utente locale viene autenticato tramite le app basate su ADAL, come Outlook per iOS e Android, l'app Authenticator o l'app del Portale aziendale, vengono generati più token. La prima coppia di token di accesso e aggiornamento viene utilizzata per accedere ai dati sincronizzati in Exchange Online; la seconda coppia di token di accesso e aggiornamento viene utilizzata da Exchange Online per accedere alla cassetta postale locale tramite il protocollo Exchange ActiveSync. Il token di accesso viene utilizzato per accedere alla risorsa (come i dati dei messaggi di Exchange), mentre il token di aggiornamento viene usato per ottenere una nuova coppia di token di accesso o di aggiornamento alla scadenza del token di accesso corrente.
+**R:**  Quando un utente locale viene autenticato tramite le app basate su ADAL, come Outlook per iOS e Android, l'app Authenticator o l'app del Portale aziendale, vengono generati più token. La prima coppia di token di accesso e aggiornamento viene utilizzata per accedere ai dati sincronizzati in Exchange Online; la seconda coppia di token di accesso e aggiornamento viene utilizzata da Exchange Online per accedere alla cassetta postale locale tramite il protocollo Exchange ActiveSync. Il token di accesso viene utilizzato per accedere alla risorsa (come i dati dei messaggi di Exchange), mentre il token di aggiornamento viene usato per ottenere una nuova coppia di token di accesso o di aggiornamento alla scadenza del token di accesso corrente.
 
 Per impostazione predefinita, la durata del token di accesso è un'ora e la durata del token di aggiornamento è 14 giorni. Questi valori possono essere modificati; per ulteriori informazioni, vedere [Durata dei token configurabili in Azure Active Directory (anteprima pubblica)](https://docs.microsoft.com/azure/active-directory/active-directory-configurable-token-lifetimes). Si noti che riducendo queste durate, è possibile che vengano ridotte anche le prestazioni di Outlook per iOS e Android, perché una durata più breve aumenta il numero di volte che l'applicazione deve acquisire un token di accesso aggiornato.
 
-**D:** Cosa accade al token di accesso quando viene modificata la password dell'utente?
+**D:**  Cosa accade al token di accesso quando viene modificata la password dell'utente?
 
-**R:** Un token di accesso concesso in precedenza è valido fino alla scadenza. Il modello di identità in uso per l'autenticazione influirà su come viene gestita la scadenza della password. Sono disponibili tre scenari:
+**R:**  Un token di accesso concesso in precedenza è valido fino alla scadenza. Il modello di identità in uso per l'autenticazione influirà su come viene gestita la scadenza della password. Sono disponibili tre scenari:
 
 1.  Per un modello di identità federativa, è necessario verificare che il provider di identità locale invii l'attestazione di scadenza della password ad Azure Active Directory; in caso contrario, Azure Active Directory non sarà in grado di gestire la scadenza della password. Per ulteriori informazioni, vedere [Configurare AD FS per l'invio delle attestazioni di scadenza della password](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-to-send-password-expiry-claims).
 
@@ -353,9 +353,9 @@ Per impostazione predefinita, la durata del token di accesso è un'ora e la dura
 
 Alla scadenza del token, il client tenterà di utilizzare il token di aggiornamento per ottenere un nuovo token di accesso, ma poiché è cambiata la password dell'utente, il token di aggiornamento verrà invalidato (presupponendo che si sia verificata la sincronizzazione delle directory tra quella locale e Azure Active Directory). Il token di aggiornamento invalidato impone all'utente di ripetere l'autenticazione per ottenere un nuovo token di accesso e aggiornare la coppia di token.
 
-**D:** Esiste un modo con cui l'utente può ignorare il servizio di rilevamento automatico quando aggiunge il proprio account a Outlook per iOS e Android?
+**D:**  Esiste un modo con cui l'utente può ignorare il servizio di rilevamento automatico quando aggiunge il proprio account a Outlook per iOS e Android?
 
-**R:** Sì, un utente può ignorare il servizio di rilevamento automatico in qualsiasi momento e configurare manualmente la connessione con l'autenticazione di base sul protocollo Exchange ActiveSync. Per far sì che l'utente non stabilisca una connessione al proprio ambiente locale con un meccanismo che non supporta l'accesso condizionale di Azure Active Directory o i criteri di protezione delle app di Intune, l'amministratore di Exchange locale deve configurare una regola di accesso ai dispositivi Exchange che impedisca la connessione ActiveSync. A tale scopo, digitare il comando seguente in Exchange Management Shell:
+**R:**  Sì, un utente può ignorare il servizio di rilevamento automatico in qualsiasi momento e configurare manualmente la connessione con l'autenticazione di base sul protocollo Exchange ActiveSync. Per far sì che l'utente non stabilisca una connessione al proprio ambiente locale con un meccanismo che non supporta l'accesso condizionale di Azure Active Directory o i criteri di protezione delle app di Intune, l'amministratore di Exchange locale deve configurare una regola di accesso ai dispositivi Exchange che impedisca la connessione ActiveSync. A tale scopo, digitare il comando seguente in Exchange Management Shell:
 
 ``` 
  New-ActiveSyncDeviceAccessRule -Characteristic DeviceModel -QueryString "Outlook for iOS and Android" -AccessLevel Block

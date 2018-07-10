@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Gli Information Worker utilizzano sempre di più la posta elettronica per scambiare informazioni riservate. Per proteggere queste informazioni, le organizzazioni possono utilizzare Information Rights Management (IRM) per applicare una protezione permanente al contenuto dei messaggi. Prima di Microsoft Exchange Server 2010, l'utilizzo della protezione IRM era limitato ai client Outlook. In Exchange Server 2007, veniva richiesto agli utenti di Microsoft Outlook Web Access di scaricare il componente aggiuntivo Rights Management per Microsoft Internet Explorer in modo da poter accedere al contenuto protetto con IRM.
 

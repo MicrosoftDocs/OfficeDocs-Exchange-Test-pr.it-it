@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-18_
+_**Ultima modifica dell'argomento:** 2012-11-18_
 
 È possibile scegliere se permettere o meno al servizio di messaggistica unificata di Microsoft Exchange su un server Cassette postali di rispondere alle nuove chiamate. Per impostazione predefinita, un server Cassette postali è abilitato dopo l'installazione. Per impostare il server Cassette postali affinché accetti le chiamate vocali, fax, tramite operatore automatico e Outlook Voice Access in ingresso, utilizzare il cmdlet **Set-ServerComponentState**.
 

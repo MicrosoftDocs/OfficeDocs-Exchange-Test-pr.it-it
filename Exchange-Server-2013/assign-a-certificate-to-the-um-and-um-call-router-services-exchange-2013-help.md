@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-29_
+_**Ultima modifica dell'argomento:** 2013-04-29_
 
 È possibile utilizzare EAC o Shell per assegnare un certificato autofirmato, un certificato di infrastruttura a chiave pubblica (PKI) interna oppure un certificato commerciale di terze parti per servizi specifici di Exchange. Quando si utilizza il cmdlet **New-ExchangeCertificate** per assegnare il certificato ai servizi di Exchange con il parametro *Services*, viene richiesto all'utente di assegnare il certificato ai servizi di Exchange. Se si utilizza EAC per creare un certificato, la procedura guidata Nuovo certificato di Exchange non richiederà all'utente di assegnare il certificato ai servizi di Exchange. È necessario modificare le proprietà del certificato e assegnare il certificato selezionando i servizi a cui si desidera assegnarlo.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-25_
+_**Ultima modifica dell'argomento:** 2013-02-25_
 
 In Microsoft Exchange Server 2013, il registro di verifica messaggi è un record dettagliato di tutta l'attività relativa ai messaggi trasferiti al/dal servizio di trasporto sui server Cassette postali, alle/dalle cassette postali sui server Cassette postali e ai/dai server Trasporto Edge.
 
@@ -91,7 +91,7 @@ In questo esempio viene eseguita la ricerca nei registri di verifica messaggi ut
 
 ## Utilizzo di Shell per cercare nei registri di verifica messaggi le voci dei messaggi su più server
 
-In genere, il valore del campo di intestazione **MessageID:** resta costante mentre il messaggio viaggia nell'organizzazione Exchange. La proprietà è denominata **InternetMessageId** nelle utilità di visualizzazione delle code e **MessageId** nelle utilità di visualizzazione dei registri di verifica messaggi. Dopo aver determinato il valore di `MessageID:` di uno specifico messaggio, è possibile cercare le informazioni sul messaggio nei registri di verifica messaggi su ogni server Cassette postali dell'organizzazione Exchange.
+In genere, il valore del campo di intestazione **MessageID:**  resta costante mentre il messaggio viaggia nell'organizzazione Exchange. La proprietà è denominata **InternetMessageId** nelle utilità di visualizzazione delle code e **MessageId** nelle utilità di visualizzazione dei registri di verifica messaggi. Dopo aver determinato il valore di `MessageID:` di uno specifico messaggio, è possibile cercare le informazioni sul messaggio nei registri di verifica messaggi su ogni server Cassette postali dell'organizzazione Exchange.
 
 Per cercare uno specifico messaggio in tutte le voci dei registri di verifica messaggi in tutti i server Cassette postali, utilizzare la seguente sintassi.
 
@@ -99,7 +99,7 @@ Per cercare uno specifico messaggio in tutte le voci dei registri di verifica me
 
 In questo esempio la ricerca nei registri di verifica messaggi viene eseguita su tutti i server Cassette postali di Exchange 2013 utilizzando i seguenti criteri di ricerca:
 
-  - Trovare tutte le voci correlate a un messaggio con valore di **MessageID:**`<ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com>`. Tenere presente che è possibile omettere le parentesi angolari (`<``>`). In caso contrario, è necessario racchiudere l'intero valore di **MessageID:** tra virgolette.
+  - Trovare tutte le voci correlate a un messaggio con valore di **MessageID:** `<ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com>`. Tenere presente che è possibile omettere le parentesi angolari (`<``>`). In caso contrario, è necessario racchiudere l'intero valore di **MessageID:**  tra virgolette.
 
   - Per ogni voce, visualizzare i campi **date-time**, **server-hostname**, **client-hostname**, **source**, **event-id** e **recipient-address**.
 

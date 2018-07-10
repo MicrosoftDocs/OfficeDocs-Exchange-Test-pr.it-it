@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-08-27_
+_**Ultima modifica dell'argomento:** 2014-08-27_
 
 Dopo aver creato una ricerca eDiscovery In locale, è possibile modificare in modo da modificare i parametri di ricerca. Ad esempio, è possibile modificare le cassette postali di cui viene eseguita la ricerca, gli intervalli di date, parole chiave, le opzioni di registrazione o è possibile specificare una cassetta postale di individuazione diversa per l'archiviazione dei risultati della ricerca. Le modifiche apportate alle proprietà di ricerca da utilizzare quando si riavvia la ricerca.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-16_
+_**Ultima modifica dell'argomento:** 2013-04-16_
 
 [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md)
 

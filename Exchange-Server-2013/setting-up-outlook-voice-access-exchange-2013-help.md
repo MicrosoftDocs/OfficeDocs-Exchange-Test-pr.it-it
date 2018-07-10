@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Microsoft Outlook Voice Access consente agli utenti abilitati alla messaggistica unificata di Exchange di accedere alle proprie cassette postali utilizzando telefoni analogici, digitali o cellulari.
 

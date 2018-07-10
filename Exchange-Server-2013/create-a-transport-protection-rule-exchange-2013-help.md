@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile utilizzare le regole di protezione del trasporto per applicare la protezione dei diritti permanente ai messaggi in base alle proprietà quali mittente, destinatario, oggetto del messaggio e contenuto.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Le organizzazioni che separano la gestione di Microsoft Exchange Server 2013 oggetti e gli oggetti Active Directory utilizzano cosa ha chiamato un modello di *divisione delle autorizzazioni* . Le autorizzazioni diviso consentono alle organizzazioni di assegnare le autorizzazioni necessarie e attività correlate a gruppi specifici all'interno dell'organizzazione. Questa separazione del lavoro consente di mantenere standard e i flussi di lavoro e vengono fornite informazioni utili per controllare la modifica dell'organizzazione.
 

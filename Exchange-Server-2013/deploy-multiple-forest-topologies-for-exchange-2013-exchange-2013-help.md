@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In questo argomento vengono fornite informazioni di carattere generale sulla distribuzione di Exchange Server 2013 in topologie a più foreste. Sono disponibili informazioni sui seguenti argomenti:
 

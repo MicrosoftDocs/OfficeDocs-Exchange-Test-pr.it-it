@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2014-11-05_
+_**Ultima modifica dell'argomento:** 2014-11-05_
 
 Impossibile proseguire l'installazione di Microsoft Exchange Server 2013 perché l'utente collegato non dispone delle autorizzazioni account richieste per installare il primo server Exchange 2013 nell'organizzazione.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-16_
+_**Ultima modifica dell'argomento:** 2014-12-16_
 
 È possibile utilizzare Shell per aggiungere o rimuovere un elenco indirizzi da una rubrica offline. Per impostazione predefinita, esiste una Rubrica offline denominata Rubrica offline predefinita che contiene l'elenco indirizzi globale. Le Rubriche offline vengono generate in base agli elenchi di indirizzi che includono. Per creare Rubriche offline personalizzate scaricabili dagli utenti, è possibile aggiungere o rimuovere elenchi di indirizzi da tali rubriche.
 

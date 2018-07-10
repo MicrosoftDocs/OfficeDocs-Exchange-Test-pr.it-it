@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Microsoft Exchange Server 2013 include funzionalità che interagiscono con Microsoft SharePoint Server 2013 e Microsoft Lync Server 2013, chiamate anche *applicazioni partner*. Affinché queste applicazioni partner possano reciprocamente accedere alle rispettive risorse, è necessario configurare l'autenticazione da server a server.
 

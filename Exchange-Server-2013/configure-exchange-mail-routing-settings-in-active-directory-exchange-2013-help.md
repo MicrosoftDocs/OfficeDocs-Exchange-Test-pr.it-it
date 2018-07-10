@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 Per impostazione predefinita Microsoft Exchange Server 2013 fa riferimento agli oggetti collegamento del sito IP in Active Directory per facilitare la determinazione del percorso di routing più conveniente. Se tuttavia si ritiene che i costi del collegamento del sito IP di Active Directory e i modelli di flusso di traffico non siano ottimali per il routing della posta in Exchange, è possibile configurare le impostazioni in Active Directory che verranno utilizzate soltanto da Exchange per ottimizzare il flusso della posta.
 

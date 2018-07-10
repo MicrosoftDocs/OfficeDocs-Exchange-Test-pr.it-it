@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Exchange Virtual Directories` consente agli amministratori di gestire le directory virtuali di Microsoft Office Outlook Web App, Microsoft ActiveSync, Rubriche fuori rete (OAB), individuazione automatica, Windows PowerShell e dell'interfaccia di amministrazione Web sui singoli server.
 

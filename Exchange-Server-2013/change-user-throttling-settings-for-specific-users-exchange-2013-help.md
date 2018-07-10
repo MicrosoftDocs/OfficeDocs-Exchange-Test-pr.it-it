@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-08-05_
+_**Ultima modifica dell'argomento:** 2014-08-05_
 
 È possibile controllare risorse impiegate da singoli utenti nell'organizzazione di Exchange per modificare le impostazioni di limitazione predefinito.
 
@@ -51,9 +51,13 @@ In questo esempio consente di associare un utente con il nome di utente tonysmit
 
 Non è necessario utilizzare il cmdlet **Set-ThrottlingPolicyAssociation** per associare un utente a un criterio. Il comando seguente mostra un altro modo per associare il criterio di limitazione ITStaffPolicy tonysmith.
 
-    $b = Get-ThrottlingPolicy ITStaffPolicy
+```
+$b = Get-ThrottlingPolicy ITStaffPolicy
+```
 
-    Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
+```
+Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [New-ThrottlingPolicy](https://technet.microsoft.com/it-it/library/dd351045\(v=exchg.150\)) e [Set-ThrottlingPolicyAssociation](https://technet.microsoft.com/it-it/library/ff459231\(v=exchg.150\)).
 

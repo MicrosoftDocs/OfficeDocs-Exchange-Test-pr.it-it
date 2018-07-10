@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-03-22_
+_**Ultima modifica dell'argomento:** 2013-03-22_
 
 È possibile personalizzare le istruzioni di menu che verranno utilizzate da un operatore automatico di messaggistica unificata al di fuori dell'orario di ufficio. Dopo aver creato un operatore automatico di messaggistica unificata, viene utilizzato un prompt di sistema predefinito ("Benvenuti nella messaggistica unificata") come istruzioni di menu che i chiamanti ascoltano dopo la riproduzione dei saluti di benvenuto per l'orario non di ufficio. Anche se i prompt di sistema non devono essere sostituiti o modificati, è possibile personalizzare i messaggi di saluto e le istruzioni vocali del menu utilizzate con gli operatori automatici di messaggistica unificata. Dopo aver creato un file audio personalizzato con le istruzioni vocali del menu per l'orario non di ufficio, è necessario abilitare le opzioni del menu sull'operatore automatico di messaggistica unificata per l'orario non di ufficio.
 

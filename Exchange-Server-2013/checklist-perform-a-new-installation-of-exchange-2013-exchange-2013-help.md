@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Utilizzare questo elenco di controllo per la distribuzione di Microsoft Exchange Server 2013. Prima di iniziare a utilizzare l'elenco di controllo, è necessario acquisire una certa familiarità con i concetti generali illustrati negli argomenti seguenti:
 

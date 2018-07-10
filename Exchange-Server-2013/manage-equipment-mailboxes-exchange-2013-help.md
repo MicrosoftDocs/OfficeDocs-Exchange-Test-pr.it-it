@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-10-09_
+_**Ultima modifica dell'argomento:** 2014-10-09_
 
 Una *cassetta postale apparecchiatura* è una cassetta postale per le risorse assegnata a una risorsa non specifica per un luogo, ad esempio un computer portatile, un proiettore, un microfono o un'auto aziendale. Una volta creata dall'amministratore la cassetta postale attrezzatura, gli utenti possono prenotare facilmente l'attrezzatura includendo la cassetta postale attrezzatura corrispondente in una convocazione di riunione. È possibile creare una cassetta postale attrezzatura o modificarne le proprietà tramite l'interfaccia di amministrazione di Exchange e la shell. Per ulteriori informazioni, vedere [Destinatari](recipients-exchange-2013-help.md).
 

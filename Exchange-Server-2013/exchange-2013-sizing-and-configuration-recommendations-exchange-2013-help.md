@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-03-27_
+_**Ultima modifica dell'argomento:** 2017-03-27_
 
 Exchange 2013 richiede più risorse di sistema rispetto alle versioni precedenti di Exchange. Ridimensionando in modo corretto l'infrastruttura di Exchange 2013, e quindi apportando alcune configurazioni consigliate ai componenti correlati a Exchange all'interno di tale infrastruttura, è possibile porre le basi per una distribuzione con prestazioni ottimali.
 

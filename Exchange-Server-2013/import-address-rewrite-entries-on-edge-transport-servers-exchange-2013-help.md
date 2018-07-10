@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 È possibile creare in blocco o importare le informazioni sulla riscrittura degli indirizzi in un server Trasporto Edge utilizzando un file CSV. Nell'elenco vengono descritte le situazioni comuni che richiedono all'utente di effettuare le seguenti operazioni:
 

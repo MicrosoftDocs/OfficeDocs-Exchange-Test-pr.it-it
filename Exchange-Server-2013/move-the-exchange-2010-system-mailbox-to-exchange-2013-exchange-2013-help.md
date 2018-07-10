@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 In Exchange 2010 la cassetta postale di sistema di Microsoft Exchange è una cassetta postale di arbitraggio utilizzata per archiviare i dati relativi all'intera organizzazione, ad esempio i registri di controllo dell'amministratore, i metadati relativi alle ricerche eDiscovery e i dati di messaggistica unificata quali menu, dial plan e saluti personalizzati. La cassetta postale di sistema di Microsoft Exchange è denominata **SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}** e il nome visualizzato è **Microsoft Exchange**.
 

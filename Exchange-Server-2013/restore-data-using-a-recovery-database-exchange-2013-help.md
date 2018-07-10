@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-10-01_
+_**Ultima modifica dell'argomento:** 2014-10-01_
 
 Un database di ripristino (RDB) è un tipo speciale di database delle cassette postali che consente di montare un database delle cassette postali ripristinato e di estrarre i dati dal database ripristinato durante un'operazione di ripristino. I database di ripristino consentono di ripristinare i dati da un backup o dalla copia di un database senza interferire con l'accesso dell'utente ai dati correnti.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 In Active Directory, la *foresta* rappresenta il limite esterno del servizio directory. È possibile creare connettori di invio per abilitare la comunicazione tra foreste. Nell'esempio riportato, i connettori utilizzano l'autenticazione di base.
 

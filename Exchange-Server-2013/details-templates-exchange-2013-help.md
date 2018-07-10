@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-12_
+_**Ultima modifica dell'argomento:** 2012-10-12_
 
 I modelli di informazioni controllano l'aspetto delle proprietà degli oggetti a cui si accede utilizzando elenchi di indirizzi nelle applicazioni client di posta elettronica come Microsoft Outlook. Ad esempio, quando un utente apre un elenco di indirizzi in Outlook, le proprietà dei destinatari dell'elenco di indirizzi vengono visualizzate in base al modello di informazioni disponibile nell'organizzazione di Exchange. Nella figura seguente sono illustrate le proprietà del destinatario Kim Akers così come si presentano in Outlook 2013. Se si utilizza l'Editor modelli di informazioni in Casella degli strumenti di Exchange 2013, è possibile modificare l'organizzazione e il contenuto dei diversi oggetti visualizzati sulla pagina di queste proprietà.
 

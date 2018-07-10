@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il contenuto di questo argomento non è stato aggiornato per Microsoft Exchange Server 2013. Sebbene non sia stato aggiornato, può comunque essere applicabile anche a Exchange 2013. In caso di problemi, consultare le risorse della community riportate di seguito.
 
@@ -103,7 +103,7 @@ Per risolvere questo problema, verificare che i "Consenti di propagare autorizza
 <li><p>Selezionare la scheda <strong>protezione</strong> e quindi fare clic su <strong>Avanzate</strong>.</p></li>
 <li><p>Selezionare <strong>Consenti propagare dall'elemento padre di propagare a questo oggetto e tutti gli oggetti figlio</strong> per riabilitare l'ereditarietà delle autorizzazioni.</p></li>
 <li><p>Selezionare <strong>Ok</strong> due volte per rendere effettive le modifiche.</p></li>
-<li><p>Attendere la replica di Active Directory propaga le modifiche oppure forzare la replica di Active Directory, seguendo le istruzioni nell'articolo della Microsoft Knowledge Base 232072, &quot;Si avvia la replica tra Active Directory replica partner diretti&quot; (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=232072" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=232072</a>).</p></li>
+<li><p>Attendere la replica di Active Directory propaga le modifiche oppure forzare la replica di Active Directory, seguendo le istruzioni nell'articolo della Microsoft Knowledge Base 232072, &quot;Si avvia la replica tra Active Directory replica partner diretti&quot; (<a href="http://go.microsoft.com/fwlink/?linkid=3052&kbid=232072" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=232072</a>).</p></li>
 </ol></td>
 </tr>
 </tbody>

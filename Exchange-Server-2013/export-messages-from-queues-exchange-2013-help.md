@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-05-05_
+_**Ultima modifica dell'argomento:** 2014-05-05_
 
 Quando viene esportato un messaggio da una coda in un file, il messaggio non viene rimosso dalla coda. Una copia del messaggio viene eseguita nella posizione specificata come un file di testo normale. Il file risultante può essere visualizzato in un'applicazione, ad esempio un editor di testo o un'applicazione client di posta elettronica, oppure è possibile inviare nuovamente il file di messaggio utilizzando la directory di riesecuzione su qualsiasi altro server Cassette postali o Trasporto Edge all'interno o all'esterno dell'organizzazione di Exchange.
 

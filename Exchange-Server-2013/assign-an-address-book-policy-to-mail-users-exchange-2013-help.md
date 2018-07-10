@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-11_
+_**Ultima modifica dell'argomento:** 2012-10-11_
 
 Dopo aver creato un criterio della rubrica è necessario assegnarlo agli utenti delle cassette postali. Agli utenti non viene assegnato un criterio della rubrica predefinito alla creazione dell'account. Se non si assegna un criterio della rubrica a un utente, quest'ultimo potrà accedere all'Elenco indirizzi globale dell'intera organizzazione tramite Outlook e Outlook Web App. Per ulteriori informazioni, vedere [Criteri delle rubriche](address-book-policies-exchange-2013-help.md).
 

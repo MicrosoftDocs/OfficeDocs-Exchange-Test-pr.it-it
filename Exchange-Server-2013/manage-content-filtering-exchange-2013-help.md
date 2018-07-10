@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 Il filtro contenuto è fornito dall'agente filtro contenuto. L'agente filtro contenuto filtra tutti i messaggi che giungono al server Exchange tramite tutti i connettori di ricezione. Sono filtrati solo i messaggi provenienti da origini non autenticate.
 
