@@ -57,16 +57,5 @@ Le seguenti risorse forniscono informazioni sulle attività comuni associate a M
 
   - [Management Pack di Operations Manager 2007 e Risorse di creazione e modifica report](http://go.microsoft.com/fwlink/?linkid=246388)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Dn195905.important(EXCHG.150).gif" title="Importante" alt="Importante" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tutte le informazioni e i contenuti dei siti non Microsoft vengono forniti dal proprietario o dagli utenti del sito Web. Microsoft non garantisce in alcun modo, espresso, implicito o a termini di legge, le informazioni contenute nel presente documento.</td>
-</tr>
-</tbody>
-</table>
-
+> [!IMPORTANT]
+> Tutte le informazioni e i contenuti dei siti non Microsoft vengono forniti dal proprietario o dagli utenti del sito Web. Microsoft non garantisce in alcun modo, espresso, implicito o a termini di legge, le informazioni contenute nel presente documento.
