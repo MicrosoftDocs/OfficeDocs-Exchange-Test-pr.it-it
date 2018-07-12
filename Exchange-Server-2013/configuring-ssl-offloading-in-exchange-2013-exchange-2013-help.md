@@ -118,9 +118,7 @@ Per abilitare la ripartizione del carico di lavoro SSL per EAC, è necessario ri
       - Utilizzando la riga di comando, digitare quanto segue e premere Invio.
         
             appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
-        
-        ``` 
-        ```
+ 
 
   - **Passaggio 2**   È necessario riavviare il pool di applicazioni corretto o Internet Information Services adottando uno dei metodi seguenti:
     
