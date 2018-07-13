@@ -27,39 +27,53 @@ Quindi fa doppio clic sul server per aprire la finestra **Esplora stati**. In ta
 
 Il collegamento fornito sotto External Knowledge Resources porta Rob all'argomento [Risoluzione dei problemi relativi all'impostazione di integrità di OWA.Proxy](https://technet.microsoft.com/it-it/library/jj737712\(v=exchg.150\)). Leggendo l'articolo Rob apprende che la prima cosa da fare è verificare che il problema esista ancora. Seguendo le istruzioni, utilizza il seguente comando per verificare lo stato corrente del set di integrità OWA.Proxy in Shell:
 
+```Powershell
     Get-ServerHealth Server1.contoso.com | ?{$_.HealthSetName -eq "OWA.Proxy"}
+```
 
 L'esecuzione del comando restituisce il seguente output:
 
+```Powershell
     Server          State           Name                 TargetResource       HealthSetName   AlertValue ServerComp
                                                                                                          onent
     ------          -----           ----                 --------------       -------------   ---------- ----------
     Server1         Online          OWAProxyTestMonitor  MSExchangeOWAAppPool OWA.Proxy       Unhealthy  OwaProxy
     Server1         Online          OWAProxyTestMonitor  MSExchangeOWACale... OWA.Proxy       Healthy    OwaProxy
+```
 
 Rob nota che il problema riguarda il pool di applicazioni OWA. Il passaggio successivo è la riesecuzione del probe associato per il monitor in stato non integro. Facendo riferimento alla tabella dell'argomento “Risoluzione dei problemi del set di integrità OWA.Proxy”, stabilisce che il probe da rieseguire è OWAProxyTestProbe. Esegue il comando indicato di seguito:
 
+```Powershell
     Invoke-MonitoringProbe OWA.Proxy\OWAProxyTestProbe -Server Server1.contoso.com | Format-List
+```
 
 Cerca nell'output il valore di ResultType e scopre che il probe non è riuscito:
 
+```Powershell
     ResultType : Failed
+```
 
 Passa alla sezione “Azioni di ripristino di OWAProxyTestMonitor” dell'articolo. Si connette a Server1 tramite Gestione IIS per verificare se MSExchangeOWAAppPool è in esecuzione sul server IIS. Dopo aver verificato che è in esecuzione, riavvia MSExchangeOWAAppPool:
 
+```Powershell
     C:\Windows\System32\Inetsrv\Appcmd recycle APPPOOL MSExchangeOWAAppPool
+```
 
 Dopo il riavvio di MSExchangeOWAAppPool, verifica di nuovo che il problema esista ancora rieseguendo il probe tramite il cmdlet Invoke-MonitoringProbe e questa volta ottiene un risultato di esito positivo. Quindi utilizza il comando seguente per verificare che il set di integrità riporti lo stato **Integro**:
 
+```Powershell
     Get-ServerHealth Server1.contoso.com | ?{$_.HealthSetName -eq "OWA.Proxy"}
+```
 
 Questa volta rileva che il problema si è risolto.
 
+```Powershell
     Server          State           Name                 TargetResource       HealthSetName   AlertValue ServerComp
                                                                                                          onent
     ------          -----           ----                 --------------       -------------   ---------- ----------
     Server1         Online          OWAProxyTestMonitor  MSExchangeOWAAppPool OWA.Proxy       Healthy    OwaProxy
     Server1         Online          OWAProxyTestMonitor  MSExchangeOWACale... OWA.Proxy       Healthy    OwaProxy
+```
 
 Torna alla console SCOM e verifica che il problema è risolto.
 
