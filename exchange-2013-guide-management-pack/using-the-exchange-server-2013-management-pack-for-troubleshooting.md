@@ -1,5 +1,5 @@
 ﻿---
-title: Utilizzo del Management Pack di Exchange Server 2013 per la risoluzione dei problemi
+title: Uso di Exchange Server 2013 Management Pack per la risoluzione dei problemi
 TOCTitle: Utilizzo del Management Pack di Exchange Server 2013 per la risoluzione dei problemi
 ms:assetid: c9672dad-1e67-4f07-bad9-539a67f2ac70
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn195913(v=EXCHG.150)
