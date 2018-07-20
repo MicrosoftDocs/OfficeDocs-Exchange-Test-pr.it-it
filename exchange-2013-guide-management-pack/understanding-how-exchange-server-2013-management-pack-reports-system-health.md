@@ -1,5 +1,5 @@
 ﻿---
-title: Informazioni sulla segnalazione relativa all'integrità del sistema da parte di Exchange Server 2013 Management Pack
+title: Segnalazione per integrità del sistema da Exchange Server 2013 Management Pack
 TOCTitle: Informazioni sulla segnalazione relativa all'integrità del sistema da parte di Exchange Server 2013 Management Pack
 ms:assetid: 6ca8847f-93fe-458d-bd43-7afad7fdd2f4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn195910(v=EXCHG.150)
