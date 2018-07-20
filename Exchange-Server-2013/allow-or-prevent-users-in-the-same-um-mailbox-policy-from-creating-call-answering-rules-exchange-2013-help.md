@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile consentire agli utenti associati a un criterio cassetta postale di messaggistica unificata di configurare le regole di ricezione chiamata oppure impedire loro questa attività. Se l'opzione per la configurazione delle regole di ricezione chiamata è disabilitata su un dial plan di messaggistica unificata, la funzionalità delle regole di ricezione chiamata non sarà disponibile per gli utenti abilitati alla messaggistica unificata associati al criterio cassetta postale di messaggistica unificata. Per impostazione predefinita la funzionalità è abilitata.
 

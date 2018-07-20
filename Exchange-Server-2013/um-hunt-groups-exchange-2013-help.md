@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-18_
+_**Ultima modifica dell'argomento:** 2013-02-18_
 
 Un gruppo di risposta telefonico consente di distribuire le chiamate telefoniche da un singolo numero a più numeri di interno o di telefono. Nella messaggistica unificata, un gruppo di risposta di messaggistica unificata è una rappresentazione logica di un gruppo di risposta telefonico e collega un gateway IP di messaggistica unificata a un dial plan di messaggistica unificata.
 

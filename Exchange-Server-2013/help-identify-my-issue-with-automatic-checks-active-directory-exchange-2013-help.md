@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Assegni in questa pagina consente di identificare alcune delle problematiche correlate alla configurazione più comuni. È possibile utilizzare gli assegni automatici riportata di seguito per convalidare la configurazione e la Guida aggiornare l'ambiente in uso..
 

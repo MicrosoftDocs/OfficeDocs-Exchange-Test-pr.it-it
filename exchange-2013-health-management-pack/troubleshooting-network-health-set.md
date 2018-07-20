@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-11_
+_**Ultima modifica dell'argomento:** 2012-10-11_
 
 Grazie per aver fatto clic sul collegamento a questa pagina. Anche se attualmente non sono disponibili istruzioni per la risoluzione dei problemi per questo set di integrità, il tentativo effettuato di individuare il contenuto è utile per la definizione delle priorità degli articoli della guida Risoluzione dei problemi Management Pack Exchange 2013 Di seguito sono elencate alcune azioni consigliate che potrebbero essere d'aiuto per la risoluzione dei problemi di questo set di integrità:
 

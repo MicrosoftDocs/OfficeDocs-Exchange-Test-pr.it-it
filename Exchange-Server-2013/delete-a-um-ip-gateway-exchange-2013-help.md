@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 Quando viene eliminato un gateway IP di messaggistica unificata, i server di Exchange non sono più in grado di accettare le chiamate in ingresso dai gateway VoIP, PBX abilitato per SIP, IP PBX o session border controller (SBC) associati al gateway IP di messaggistica unificata.
 

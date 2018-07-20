@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile impedire che gli utenti abilitati alla messaggistica unificata associati a un dial plan di messaggistica unificata ricevano messaggi fax. Per impostazione predefinita, gli utenti abilitati alla messaggistica unificata associati a un dial plan di messaggistica unificata possono ricevere messaggi fax. Tuttavia, talvolta è necessario non consentire la ricezione dei fax agli utenti associati a uno specifico dial plan di messaggistica unificata.
 

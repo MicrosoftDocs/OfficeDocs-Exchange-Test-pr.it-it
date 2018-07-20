@@ -124,12 +124,11 @@ Se viene visualizzato un errore durante l'esecuzione della procedura guidata per
 
   - **Messaggio:"Impossibile trovare il connettore di ricezione predefinito nel server \<Nome server\>"**   Questo messaggio viene visualizzato se il connettore di ricezione in qualsiasi server Exchange elencato nel seguente attributo non ascolta la porta TCP 25 per i protocolli IPv4 e IPv6: `(Get-HybridConfiguration).ReceivingTransportServers.`
     
-      -  
-        Per verificare che i connettori di ricezione sui server Exchange elencati durante l'esecuzione di `(Get-HybridConfiguration).ReceivingTransportServers.` presentino i binding corretti, utilizzare il seguente comando in Exchange Management Shell.
+      -    Per verificare che i connettori di ricezione sui server Exchange elencati durante l'esecuzione di `(Get-HybridConfiguration).ReceivingTransportServers.` presentino i binding corretti, utilizzare il seguente comando in Exchange Management Shell.
         
-            Get-ReceiveConnector -Server <Server Name> | FT Identity, Bindings
+      Get-ReceiveConnector -Server <Server Name> | FT Identity, Bindings
         
-        Viene visualizzata la voce seguente elencata per i serverExchange: `{[::]:25, 0.0.0.0:25}`
+      Viene visualizzata la voce seguente elencata per i serverExchange: `{[::]:25, 0.0.0.0:25}`
         
-        Se l'associazione non è elencata, è necessario aggiungerla al connettore di ricezione usando il parametro *Bindings* del cmdlet **Set-ReceiveConnector**. Per informazioni dettagliate, vedere [Set-ReceiveConnector](https://technet.microsoft.com/it-it/library/bb125140\(v=exchg.150\)).
+      Se l'associazione non è elencata, è necessario aggiungerla al connettore di ricezione usando il parametro *Bindings* del cmdlet **Set-ReceiveConnector**. Per informazioni dettagliate, vedere [Set-ReceiveConnector](https://technet.microsoft.com/it-it/library/bb125140\(v=exchg.150\)).
 

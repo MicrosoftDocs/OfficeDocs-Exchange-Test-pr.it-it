@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Sono necessarie indicazioni un'installazione di Exchange in corso. In questo articolo vengono fornite indicazioni per la pianificazione di una distribuzione di Microsoft Exchange Server 2013, nonché collegamenti ad articoli in cui è necessario durante la distribuzione.
 

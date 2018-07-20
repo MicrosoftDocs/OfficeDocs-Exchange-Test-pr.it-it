@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Mail Recipient Creation` consente agli amministratori di creare cassette postali, utenti di posta elettronica, contatti di posta elettronica, gruppi di distribuzione e gruppi di distribuzione dinamici in un'organizzazione. Questo ruolo può essere combinato con il ruolo `Mail Recipients` per abilitare la creazione e la gestione dei destinatari. Per ulteriori informazioni, vedere [Ruolo destinatari di posta elettronica](mail-recipients-role-exchange-2013-help.md).
 

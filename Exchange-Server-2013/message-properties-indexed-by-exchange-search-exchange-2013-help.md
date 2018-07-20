@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-17_
+_**Ultima modifica dell'argomento:** 2015-04-17_
 
 Con il servizio Ricerca di Exchange vengono indicizzate molte proprietà degli elementi, ad esempio mittente, destinatari, corpo del messaggio e allegati dei messaggi di posta elettronica.
 

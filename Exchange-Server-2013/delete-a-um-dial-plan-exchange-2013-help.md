@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-11_
+_**Ultima modifica dell'argomento:** 2012-11-11_
 
 È possibile eliminare un dial plan di messaggistica unificata esistente. Una volta eliminato, il dial plan di messaggistica unificata non sarà più disponibile per i gateway IP, i criteri cassetta postale e i gruppi di risposta di messaggistica unificata. Non è possibile eliminare un dial plan di messaggistica unificata se ad esso fanno riferimento o sono associati criteri cassetta postale, operatori automatici, gateway IP p gruppi di risposta di messaggistica unificata.
 

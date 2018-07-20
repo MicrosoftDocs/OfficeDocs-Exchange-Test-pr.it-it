@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 I messaggi e gli allegati di posta elettronica contengono sempre più importanti informazioni aziendali, quali specifiche di prodotto, documenti sulle strategie aziendali e dati finanziari, o informazioni personali, quali dettagli di contatto, codici fiscali, numeri di carte di credito e record di dipendenti. Esistono una serie di normative locali e specifiche del settore in molte parti del mondo che regolano la raccolta, l'archiviazione e la divulgazione delle informazioni personali.
 

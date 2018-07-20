@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-04_
+_**Ultima modifica dell'argomento:** 2013-02-04_
 
 Dal momento che l'interfaccia di amministrazione di Exchange è una console di gestione basata sul Web in Exchange Server 2013, è possibile accedervi utilizzando l'URL della directory virtuale del Pannello di controllo di Exchange (ECP) in un browser. In questo argomento è spiegato come trovare l'URL della directory virtuale del Pannello di controllo di Exchange.
 

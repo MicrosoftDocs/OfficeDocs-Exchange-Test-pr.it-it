@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-10-02_
+_**Ultima modifica dell'argomento:** 2014-10-02_
 
 Se si desidera che gli utenti siano in grado di utilizzare Microsoft Exchange Server 2013 In-Place eDiscovery, è innanzitutto necessario autorizzare li aggiungendoli al gruppo di ruoli gestione individuazione. Membri del gruppo di ruoli Gestione individuazione dispongono delle autorizzazioni di accesso completo della cassetta postale per la cassetta postale di individuazione che viene creato da Exchange il programma di installazione.
 

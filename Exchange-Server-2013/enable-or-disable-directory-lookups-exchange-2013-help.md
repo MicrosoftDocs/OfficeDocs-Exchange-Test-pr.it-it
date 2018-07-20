@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-05-10_
+_**Ultima modifica dell'argomento:** 2016-05-10_
 
 È possibile abilitare le ricerche nelle directory in modo che i chiamati che chiamano un operatore automatico di messaggistica unificata possa cercare i nomi nella directory utilizzando il tastierino telefonico ma non tramite input vocali. Questa impostazione è abilitata per impostazione predefinita. Se questa impostazione viene disabilitata, i chiamanti non riusciranno a cercare nella directory una specifica persona utilizzando la composizione a toni o i comandi vocali.
 

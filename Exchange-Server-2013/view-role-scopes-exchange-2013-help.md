@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Gli ambiti del ruolo di gestione consentono di determinare gli oggetti disponibili, in modo che l'utente possa modificarli utilizzando i cmdlet e i parametri relativi. È possibile visualizzare gli ambiti per determinare gli ambiti aggiunti all'organizzazione, la configurazione di uno specifico ambito o gli ambiti orfani.
 

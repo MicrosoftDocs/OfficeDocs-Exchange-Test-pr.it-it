@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione per la prevenzione della perdita di dati consente agli amministratori di creare e gestire i criteri per la prevenzione della perdita di dati e le regole ad essi associate, influenzando così il recapito della posta nell'intera organizzazione. Inoltre, questo ruolo consente agli amministratori di configurare i suggerimenti per i criteri che vengono visualizzati nei client di posta elettronica e gestire i rapporti delle violazioni dei criteri per la prevenzione della perdita di dati. Questo ruolo per la prevenzione della perdita di dati consente anche di accedere alle regole di trasporto di Microsoft Exchange. Per ulteriori informazioni sulle regole di trasporto in Exchange, vedere i seguenti argomenti:
 

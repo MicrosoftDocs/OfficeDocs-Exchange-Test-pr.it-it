@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 È possibile abilitare le autorizzazioni di composizione su criteri cassetta postale di messaggistica unificata. È possibile utilizzare le autorizzazioni di composizione su un criterio cassetta postale per impedire a utenti non autenticati di Outlook Voice Access, collegati al criterio cassetta postale di messaggistica unificata, di effettuare chiamate a numeri di telefono nazionali o internazionali oppure *chiamate esterne*. Le chiamate esterne vengono effettuate quando Messaggistica unificata esegue una chiamata esterna per un utente dopo aver chiamato un numero di telefono di Outlook Voice Access configurato su un dial plan di messaggistica unificata. Quando si configura un'impostazione su un criterio cassetta postale di messaggistica unificata, tale impostazione viene applicata a tutti gli utenti abilitati alla messaggistica unificata collegati a tale criterio.
 

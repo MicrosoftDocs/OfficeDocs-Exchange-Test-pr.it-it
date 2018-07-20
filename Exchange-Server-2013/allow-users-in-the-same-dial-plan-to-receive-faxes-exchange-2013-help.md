@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile consentire agli utenti collegati a un dial plan di messaggistica unificata di ricevere messaggi fax nelle loro cassette postali. Per impostazione predefinita, gli utenti abilitati alla messaggistica unificata collegati a un dial plan di messaggistica unificata possono ricevere messaggi fax. Per consentire agli utenti abilitati alla messaggistica unificata di ricevere messaggi fax nelle loro cassette postali, il dial plan deve essere configurato per accettare le chiamate fax in arrivo. È necessario, inoltre, abilitare la funzionalità fax nel criterio cassetta postale di messaggistica unificata e per l'utente. Per impostazione predefinita la funzionalità fax è abilitata nei dial plan, nei criteri cassetta postale di messaggistica unificata e per gli utenti. Talvolta, però, queste impostazioni vengono modificate e gli utenti abilitati alla messaggistica unificata non possono ricevere messaggi fax.
 

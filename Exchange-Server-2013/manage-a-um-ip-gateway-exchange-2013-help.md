@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 Una volta creato un gateway IP di messaggistica unificata, è possibile visualizzare o configurare diverse impostazioni. Ad esempio, è possibile configurare l'indirizzo IP o un nome di dominio completo (FQDN), configurare le impostazioni delle chiamate in uscita e abilitare o disabilitare l'indicatore di messaggio in attesa.
 
@@ -47,8 +47,7 @@ Per altre attività di gestione relative ai gateway IP di messaggistica unificat
 
 1.  Nell'interfaccia di amministrazione di Exchange, accedere a **Messaggistica unificata** \> **Gateway IP di messaggistica unificata**. Nella visualizzazione elenco, selezionare il gateway IP di messaggistica unificata che si desidera gestire, quindi fare clic su **Modifica**![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica").
 
-2.  
-    
+2.      
     Utilizzare la pagina **Gateway IP di messaggistica unificata** per visualizzare e configurare le impostazioni per il gateway IP di messaggistica unificata. È possibile visualizzare o configurare le seguenti impostazioni:
     
       - **Stato**   In questo campo di sola visualizzazione, viene riportato lo stato del gateway IP di messaggistica unificata.

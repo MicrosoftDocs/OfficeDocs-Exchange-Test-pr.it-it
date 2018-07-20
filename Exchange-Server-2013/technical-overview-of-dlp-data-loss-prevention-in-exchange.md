@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Informazioni sui criteri DLP, in Exchange Server 2013 ed Exchange Online, ad esempio il tipo di contenuto e come testarli. Sarà inoltre possibile sulle nuove funzionalità di Exchange DLP.
 

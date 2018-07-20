@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-12-16_
+_**Ultima modifica dell'argomento:** 2012-12-16_
 
 Quando la cassetta postale dell'utente viene abilitata alla posta vocale di messaggistica unificata, all'utente della messaggistica unificata viene inviato un messaggio di posta elettronica di benvenuto. Il messaggio contiene il PIN che l'utente dovrà utilizzare per accedere al sistema di posta vocale.
 

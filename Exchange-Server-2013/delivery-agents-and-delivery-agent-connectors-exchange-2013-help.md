@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Un agente di recapito può recapitare i messaggi dall'ambiente SMTP di Exchange Server a un sistema che non utilizza il protocollo SMTP. Ciascun agente di recapito è associato a un connettore Agente di recapito che accoda i messaggi instradati all'agente di recapito affinché possano essere elaborati e recapitati al dispositivo o sistema non SMTP.
 

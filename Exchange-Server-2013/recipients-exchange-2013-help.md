@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Le persone e le risorse che inviano e ricevono messaggi costituiscono il nucleo di qualsiasi sistema di collaborazione e messaggistica. In un'organizzazione Exchange, tali persone e risorse sono definite *destinatari*. Un destinatario è qualsiasi oggetto abilitato alla posta in Active Directory a cui Microsoft Exchange può recapitare o instradare i messaggi.
 

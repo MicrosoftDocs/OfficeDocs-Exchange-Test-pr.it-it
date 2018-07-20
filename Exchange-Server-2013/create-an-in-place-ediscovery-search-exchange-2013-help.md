@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-01-17_
+_**Ultima modifica dell'argomento:** 2017-01-17_
 
 
 > [!NOTE]
@@ -168,11 +168,15 @@ Torna all'inizio
 
 Ad esempio, è necessario eseguire i comandi seguenti per creare una nuova ricerca eDiscovery e per visualizzare una stima dei risultati di ricerca.
 
-    New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeKeywordStatistics
-
-    Start-MailboxSearch "FY13 Q2 Financial Results"
-
-    Get-MailboxSearch "FY13 Q2 Financial Results"
+```
+New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeKeywordStatistics
+```
+```
+Start-MailboxSearch "FY13 Q2 Financial Results"
+```
+```
+Get-MailboxSearch "FY13 Q2 Financial Results"
+```
 
 Per visualizzare informazioni specifiche sui risultati di ricerca stimati nel precedente esempio, è possibile eseguire il comando seguente:
 

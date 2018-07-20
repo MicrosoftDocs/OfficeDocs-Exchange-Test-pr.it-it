@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-28_
+_**Ultima modifica dell'argomento:** 2012-11-28_
 
 Se alcuni utenti utilizzano POP3 o IMAP4 per collegarsi alle proprie cassette postali di Microsoft Exchange Server 2013, dovrebbero conoscere le impostazioni corrette del server per il collegamento. Dopo l'installazione predefinita di Exchange 2013, gli utenti non possono controllare le impostazioni del server POP3 o IMAP4 in arrivo oppure le impostazioni del server SMTP in uscita. È tuttavia possibile configurare Exchange in modo che gli utenti possano controllare le proprie impostazioni utilizzando MicrosoftOutlook Web App.
 

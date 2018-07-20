@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Una distribuzione di Exchange 2013 multi-tenant (ospitata) viene definita come una distribuzione in cui l'organizzazione di Exchange viene configurata per ospitare più organizzazioni o business unit distinte (i tenant) che normalmente non condividono messaggi di posta elettronica, dati, utenti, elenchi indirizzi globali o altri oggetti di Exchange di uso comune. La condivisione di hardware, software e risorse (mantenendo contemporaneamente una separazione logica tra tenant) consente alle organizzazioni di sfruttare la semplicità di una distribuzione di Exchange standard fornendo nel contempo funzionalità multi-tenant e servizi che soddisfino le esigenze di hosting.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-07-21_
+_**Ultima modifica dell'argomento:** 2016-07-21_
 
 I destinatari (inclusi utenti, risorse, contatti e gruppi) sono costituiti da qualsiasi oggetto abilitati alla posta elettronica in Active Directory a cui Microsoft Exchange possa recapitare o instradare messaggi tramite. Affinché possa inviare o ricevere messaggi di posta elettronica, è necessario che il destinatario disponga di un indirizzo di posta elettronica. I criteri degli indirizzi di posta elettronica consentono di creare gli indirizzi di posta elettronica primario e secondario per i destinatari in modo che siano in grado di inviare e ricevere messaggi di posta elettronica.
 

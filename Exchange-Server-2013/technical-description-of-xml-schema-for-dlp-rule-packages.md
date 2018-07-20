@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-07-28_
+_**Ultima modifica dell'argomento:** 2016-07-28_
 
 Le istruzioni e lo schema XML presenti in questo argomento consentiranno di avviare la creazione dei file XML di base della prevenzione della perdita dati (DLP) che definiscono i tipi di informazioni riservate in un pacchetto di regole di classificazione. Dopo aver creato un file XML con formato corretto, è possibile importarlo utilizzando l'interfaccia di amministrazione di Exchange o Exchange Management Shell per creare una soluzione DLP di Microsoft Exchange Server 2013. Un file XML che è un modello di criteri DLP personalizzato può contenere l'XML, ovvero il pacchetto di regole di classificazione. Per una panoramica sulla definizione dei modelli DLP come file XML, vedere [Definire modelli DLP e tipi di informazione propri](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 

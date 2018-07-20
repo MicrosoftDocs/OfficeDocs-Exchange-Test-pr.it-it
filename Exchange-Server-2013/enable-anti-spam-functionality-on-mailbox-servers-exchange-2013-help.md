@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-01-23_
+_**Ultima modifica dell'argomento:** 2014-01-23_
 
 In Microsoft Exchange Server 2013, nel servizio di trasporto sui server Cassette postali sono disponibili, ma non installati per impostazione predefinita, i seguenti agenti di protezione da posta indesiderata:
 

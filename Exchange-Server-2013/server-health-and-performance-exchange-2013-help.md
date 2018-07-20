@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Informazioni sui server integrità e prestazioni è importante per la progettazione e la gestione di un'infrastruttura di messaggistica ad alte prestazioni. Microsoft Exchange Server 2013 introduce miglioramenti all'integrità del server e delle prestazioni.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-10-04_
+_**Ultima modifica dell'argomento:** 2017-10-04_
 
 Un gruppo di disponibilità del database (DAG) è un insieme di 16 server Cassette postali Microsoft Exchange Server 2013 che fornisce il ripristino automatico a livello di database da un errore del database, del server o della rete. I DAG utilizzano la replica continua ed un sottogruppo di tecnologie clustering di failover di Windows per fornire un'elevata disponibilità e resilienza del sito. I server Cassette postali in un gruppo di disponibilità del database si controllano reciprocamente alla ricerca di errori. Quando un server Cassette postali viene aggiunto a un DAG, funziona con gli altri server del DAG per fornire il ripristino automatico da errori a livello di database.
 

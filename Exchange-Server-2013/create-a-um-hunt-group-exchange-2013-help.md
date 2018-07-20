@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-16_
+_**Ultima modifica dell'argomento:** 2013-04-16_
 
 Un gruppo di risposta di messaggistica unificata è una rappresentazione logica di un gruppo di risposta PBX o IP PBX. Un gruppo di risposta di messaggistica unificata può essere utilizzato come una connessione o collegamento tra un dial plan e un gateway IP di messaggistica unificata.
 

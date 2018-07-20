@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 È possibile aggiungere una dichiarazione di non responsabilità per le e-mail, una dichiarazione di non responsabilità legale, una dichiarazione di trasparenza, una firma o altre informazioni nella parte superiore o inferiore dei messaggi di posta elettronica inviati o ricevuti dall'organizzazione. Ciò potrebbe essere necessario per requisiti legali, aziendali o normativi, per identificare messaggi di posta elettronica potenzialmente non sicuri o per altri motivi specifici per la propria organizzazione.
 

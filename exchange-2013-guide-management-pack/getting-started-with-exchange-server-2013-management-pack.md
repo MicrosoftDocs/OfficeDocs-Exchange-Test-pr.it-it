@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:** 2013-04-08_
+_**Ultima modifica dell'argomento:**  2013-04-08_
 
 Exchange Server 2013 Management Pack aggiunge un contenitore nella sezione **Monitoraggio** della console SCOM. Quando si espande il contenitore Exchange Server 2013, si visualizzeranno solamente tre viste.
 

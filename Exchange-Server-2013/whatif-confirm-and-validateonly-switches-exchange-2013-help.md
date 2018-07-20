@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-04_
+_**Ultima modifica dell'argomento:** 2012-10-04_
 
 Sia gli amministratori e gli autori di script esperti che gli amministratori che non conoscono Exchange e lo scripting possono trarre vantaggio dall'utilizzo delle opzioni *WhatIf*, *Confirm* e *ValidateOnly*. Questi parametri consentono di controllare la modalità di esecuzione dei comandi e indicano esattamente l'effetto di un comando prima che influisca effettivamente sui dati. Questa funzionalità è particolarmente importante quando si passa dall'ambiente di prova all'ambiente di produzione e quando si esegue il roll-out di nuovi script o comandi.
 

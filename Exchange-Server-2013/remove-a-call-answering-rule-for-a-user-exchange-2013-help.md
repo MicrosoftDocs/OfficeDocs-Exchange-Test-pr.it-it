@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile utilizzare la Shell per rimuovere uno o più regole di ricezione per un utente di chiamata. È anche possibile utilizzare il cmdlet **Remove-UMCallAnsweringRule** in uno script di Exchange Management Shell per rimuovere uno o più regole di ricezione per più utenti di chiamata.
 

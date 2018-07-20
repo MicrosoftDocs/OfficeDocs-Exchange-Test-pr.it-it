@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-05-07_
+_**Ultima modifica dell'argomento:** 2014-05-07_
 
 Il filtro destinatari è una funzionalità di protezione dalla posta indesiderata di Microsoft Exchange Server 2013 che fa affidamento sull'intestazione RCPT TO SMTP per determinare l'eventuale azione da eseguire su un messaggio in arrivo. Il filtro destinatari viene eseguito dall'agente Filtro destinatario.
 

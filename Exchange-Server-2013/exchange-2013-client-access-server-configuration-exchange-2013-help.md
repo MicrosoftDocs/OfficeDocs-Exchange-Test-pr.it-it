@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-07-25_
+_**Ultima modifica dell'argomento:** 2017-07-25_
 
 Dopo aver installato il server Accesso client di Exchange 2013, è possibile eseguire numerose attività di configurazione. Sebbene il server Accesso client di Exchange 2013 non gestisca l'elaborazione dei protocolli client, è necessario applicare a questo server numerose impostazioni, incluse quelle per directory virtuali e certificati.
 
@@ -72,10 +72,12 @@ Per configurare le directory virtuali per Exchange 2013, è necessario utilizzar
         Set-OwaVirtualDirectory "<CAS2013>\OWA (Default Web Site)" -ExternalUrl https://mail.contoso.com/OWA
     
     In un prompt dei comandi, immettere i seguenti comandi dopo aver impostato la directory virtuale di Outlook Web App.
-    
-        Net stop IISAdmin /y
-    
-        Net start W3SVC
+      ```
+      Net stop IISAdmin /y
+      ```
+      ```
+      Net start W3SVC
+      ```
 
 2.  Per configurare l'accesso esterno all'interfaccia di amministrazione di Exchange, utilizzare il seguente comando in Exchange Management Shell.
     

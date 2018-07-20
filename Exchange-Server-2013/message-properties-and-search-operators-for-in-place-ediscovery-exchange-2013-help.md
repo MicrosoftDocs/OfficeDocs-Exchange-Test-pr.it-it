@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In questo argomento vengono descritte le proprietà dei messaggi di posta elettronica Exchange che è possibile eseguire la ricerca con In-Place eDiscovery e conservazione in Exchange Server 2013 e Exchange Online. L'argomento descrive inoltre gli operatori di ricerca booleana e altre tecniche di query di ricerca che è possibile utilizzare per filtrare i risultati della ricerca eDiscovery.
 

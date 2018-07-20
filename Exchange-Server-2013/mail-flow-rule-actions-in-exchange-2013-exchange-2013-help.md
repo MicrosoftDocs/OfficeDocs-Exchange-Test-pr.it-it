@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-05-03_
+_**Ultima modifica dell'argomento:** 2017-05-03_
 
 Le azioni nelle regole del flusso di posta elettronica (note anche come regole di trasporto) specificano l'oggetto da eseguire per i messaggi che soddisfano le condizioni della regola. Ad esempio, è possibile creare una regola che inoltra messaggi da mittenti specifici a un moderatore o aggiunge una dichiarazione di non responsabilità o una firma personalizzata a tutti i messaggi in uscita.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-15_
+_**Ultima modifica dell'argomento:** 2013-02-15_
 
 [Impostare il partner fax URI del server a consentire l'invio di fax](set-the-partner-fax-server-uri-to-allow-faxing-exchange-2013-help.md)
 

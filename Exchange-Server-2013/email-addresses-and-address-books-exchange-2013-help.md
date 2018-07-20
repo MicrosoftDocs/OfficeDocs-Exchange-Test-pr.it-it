@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 I destinatari (inclusi utenti, risorse, contatti e gruppi) sono costituiti da qualsiasi oggetto abilitato alla posta elettronica in Active Directory a cui Microsoft Exchange possa recapitare o instradare messaggi. Affinché possa inviare o ricevere messaggi di posta elettronica, è necessario che il destinatario disponga di un indirizzo di posta elettronica. Le rubriche rappresentano il metodo con cui gli utenti trovano altri utenti a cui inviare messaggi di posta elettronica. Esistono diversi metodi per l'organizzazione delle rubriche. Per le descrizioni dettagliate delle funzionalità delle rubriche in Exchange Server 2013, vedere Key terminology.
 

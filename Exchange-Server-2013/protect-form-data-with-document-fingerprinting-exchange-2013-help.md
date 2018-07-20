@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-09-11_
+_**Ultima modifica dell'argomento:** 2014-09-11_
 
 If your organization uses forms to collect sensitive information, users might try emailing those forms to outside contacts, which creates a security risk. Data loss prevention (DLP) in Exchange consente di proteggere le informazioni rilevandole nel [Creazione impronta digitale documenti](overview-of-document-fingerprinting-in-exchange.md). Per utilizzare l'impronta digitale del documento, basta semplicemente caricare un modulo vuoto, ad esempio un documento di proprietà intellettuale, un modulo governativo o un altro modulo standard usato nell'organizzazione. Quindi, aggiungere l'impronta digitale del documento risultante al criterio DLP o alla regola di trasporto. Ecco come fare.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Per distribuire in modo corretto la messaggistica unificata, è necessario avere una buona conoscenza delle nozioni fondamentali e dei componenti della telefonia. Una volta compresi i concetti fondamentali, è possibile integrare la messaggistica unificata in un'organizzazione di Exchange. I concetti e i componenti di base comprendono:
 

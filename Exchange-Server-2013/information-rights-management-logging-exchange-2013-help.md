@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 In Microsoft Exchange Server 2013, vengono registrate le operazioni di Information Rights Management (IRM) nei registri IRM. I registri IRM consentono di monitorare e risolvere i problemi interazioni tra il client Rights Management Services (RMS) su un server Exchange 2013 e il cluster di Rights Management Services (AD RMS) Active Directory all'interno dell'organizzazione.
 
@@ -109,7 +109,7 @@ I file di registro IRM sono file di testo che contengono dati nel formato CSV (C
 
   - **\#Log-type**   Valore del tipo di registro, che è `Rms Client Manager Log`.
 
-  - **\#Date:**   Data/ora UTC in cui il file di registro è stato creato. La data/ora UTC viene rappresentata nel formato data/ora ISO 8601: *aaaa*-*mm*-*gg*T*hh*:*mm*:*ss.fff*Z, dove:
+  - **\#Date:**    Data/ora UTC in cui il file di registro è stato creato. La data/ora UTC viene rappresentata nel formato data/ora ISO 8601: *aaaa*-*mm*-*gg*T*hh*:*mm*:*ss.fff*Z, dove:
     
       - aaaa = anno
     

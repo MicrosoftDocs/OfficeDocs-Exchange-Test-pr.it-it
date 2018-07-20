@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-01-31_
+_**Ultima modifica dell'argomento:** 2014-01-31_
 
 In Microsoft Exchange Server 2013, è possibile utilizzare il Visualizzatore code nella Casella degli strumenti di Exchange o di Exchange Management Shell per gestire le code. Per ulteriori informazioni sull'utilizzo dei cmdlet per la gestione delle code in Exchange Management Shell, vedere [Utilizzare Exchange Management Shell per gestire le code](use-the-exchange-management-shell-to-manage-queues-exchange-2013-help.md).
 

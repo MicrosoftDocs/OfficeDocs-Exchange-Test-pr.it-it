@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 In Microsoft Exchange Server 2013, *il firewall dell'intestazione* è un meccanismo che consente di rimuovere campi di intestazione specifici dai messaggi in arrivo e in uscita. Esistono due tipi diversi di campi dell'intestazione che sono interessati dal firewall dell'intestazione:
 
@@ -49,9 +49,9 @@ I seguenti tipi di X-header e intestazioni di routing sono interessati dal firew
     
     Per esempi sugli X-header dell'organizzazione e della foresta, vedere la sezione Organization X-headers and forest X-headers in Exchange alla fine di questo argomento.
 
-  - **Received: routing headers**   Un'istanza diversa di questo campo di intestazione viene aggiunta all'intestazione del messaggio da ogni server di messaggistica che ha accettato e inoltrato il messaggio al destinatari. L'intestazione **Received:** in genere include il nome del server di messaggistica e il timestamp della data.
+  - **Received: routing headers**   Un'istanza diversa di questo campo di intestazione viene aggiunta all'intestazione del messaggio da ogni server di messaggistica che ha accettato e inoltrato il messaggio al destinatari. L'intestazione **Received:**  in genere include il nome del server di messaggistica e il timestamp della data.
 
-  - **Resent-\*: routing headers**   I campi di intestazione Inviato nuovamente sono campi di intestazione informativi che possono essere utilizzati per determinare se un messaggio è stato inoltrato da un utente. Sono disponibili i seguenti campi di intestazione Inviato nuovamente: **Resent-Date:**, **Resent-From:**, **Resent-Sender:**, **Resent-To:**, **Resent-Cc:**, **Resent-Bcc:** e **Resent-Message-ID:**. I campi **Resent-** nuovamente vengono utilizzati allo scopo di visualizzare il messaggio al destinatario come se fosse stato inviato direttamente dal mittente originale. Il destinatario può visualizzare l'intestazione del messaggio per individuare chi ha inoltrato il messaggio.
+  - **Resent-\*: routing headers**   I campi di intestazione Inviato nuovamente sono campi di intestazione informativi che possono essere utilizzati per determinare se un messaggio è stato inoltrato da un utente. Sono disponibili i seguenti campi di intestazione Inviato nuovamente: **Resent-Date:** , **Resent-From:** , **Resent-Sender:** , **Resent-To:** , **Resent-Cc:** , **Resent-Bcc:**  e **Resent-Message-ID:** . I campi **Resent-** nuovamente vengono utilizzati allo scopo di visualizzare il messaggio al destinatario come se fosse stato inviato direttamente dal mittente originale. Il destinatario può visualizzare l'intestazione del messaggio per individuare chi ha inoltrato il messaggio.
 
 Exchange utilizza due modalità diverse per applicare il firewall intestazioni alle X-header organizzazione e foresta e alle intestazioni di routing presenti nei messaggi:
 
@@ -333,13 +333,13 @@ I messaggi possono entrare nella pipeline di trasporto di un server Cassette pos
     
     Le intestazioni di routing vengono mantenute nei messaggi inviati dalla directory di riesecuzione.
     
-    La rimozione dai messaggi o il mantenimento di X-header dell'organizzazione e della foresta viene controllato dal campo dell'intestazione **X-CreatedBy:** nel file del messaggio:
+    La rimozione dai messaggi o il mantenimento di X-header dell'organizzazione e della foresta viene controllato dal campo dell'intestazione **X-CreatedBy:**  nel file del messaggio:
     
-      - Se il valore di **X-CreatedBy:** è `MSExchange15`, i campi X-header dell'organizzazione e X-header della foresta vengono mantenuti nei messaggi.
+      - Se il valore di **X-CreatedBy:**  è `MSExchange15`, i campi X-header dell'organizzazione e X-header della foresta vengono mantenuti nei messaggi.
     
-      - Se il valore di **X-CreatedBy:** non è `MSExchange15`, i campi X-header dell'organizzazione e X-header della foresta vengono rimossi dai messaggi.
+      - Se il valore di **X-CreatedBy:**  non è `MSExchange15`, i campi X-header dell'organizzazione e X-header della foresta vengono rimossi dai messaggi.
     
-      - Se il campo dell'intestazione **X-CreatedBy:** non esiste nel file dei messaggi, i campi X-header dell'organizzazione e X-header della foresta vengono rimossi dai messaggi.
+      - Se il campo dell'intestazione **X-CreatedBy:**  non esiste nel file dei messaggi, i campi X-header dell'organizzazione e X-header della foresta vengono rimossi dai messaggi.
 
   - **Directory di destinazione**   La directory di destinazione viene utilizzata dai connettori esterni sui server Cassette postali per inviare i messaggi ai server di messaggistica che non utilizzano il protocollo SMTP per il trasferimento dei messaggi. Per ulteriori informazioni sui connettori esterni, vedere [Connettori esterni](foreign-connectors-exchange-2013-help.md).
     

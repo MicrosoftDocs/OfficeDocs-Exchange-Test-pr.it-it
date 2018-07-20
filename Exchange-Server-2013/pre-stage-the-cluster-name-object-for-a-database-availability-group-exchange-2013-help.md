@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-08-14_
+_**Ultima modifica dell'argomento:** 2014-08-14_
 
 In ambienti in cui la creazione dell'account computer è limitato o in cui vengono creati account computer in un contenitore diverso dal contenitore di computer predefinito, è possibile pregestione cluster nome oggetto (CNO) e quindi eseguire il provisioning il CNO mediante l'assegnazione di autorizzazioni a esso. Pregestione il CNO è richiesto anche per Windows Server 2012 e Windows Server 2012 R2 DAG membri a causa di modifiche apportate alle autorizzazioni di Windows per gli oggetti computer. Quando si distribuisce un gruppo di disponibilità del database (DAG) utilizzando server cassette postali che eseguono Windows Server 2012 o Windows Server 2012 R2, è necessario pregestione e fornire il CNO, a meno che non si sta distribuendo un DAG senza un punto di accesso di amministrazione cluster. DAG senza punti di accesso amministrativo cluster inutilizzato CNOs; di conseguenza pregestione non sia necessario per tali DAG.
 

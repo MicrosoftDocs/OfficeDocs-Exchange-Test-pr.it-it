@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 La funzionalità deIl'ID mittente è fornita dall'agente dell'ID mittente. L'ID mittente consente di convalidare l'origine dei messaggi di posta elettronica verificando l'indirizzo IP del mittente in base al proprietario del dominio del mittente. Il filtro dell'ID mittente viene eseguito sui messaggi in entrata che provengono da Internet ma non sono autenticati. Questi messaggi vengono gestiti come messaggi esterni.
 

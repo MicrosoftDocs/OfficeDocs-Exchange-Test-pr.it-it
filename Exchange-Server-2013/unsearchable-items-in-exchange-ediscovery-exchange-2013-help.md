@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In eDiscovery In locale per Exchange Server 2013 e Exchange Online, gli elementi non ricercabili sono elementi delle cassette postali che non possono essere indicizzati da ricerca di Exchange o che sono state indicizzate solo parzialmente. Un elemento non ricercabili in genere contiene un file che non possono essere indicizzato, allegato a un messaggio di posta elettronica. Ecco alcuni motivi per cui i file non possono essere indicizzati per la ricerca e vengono restituiti come un elemento non ricercabili quando associato a un messaggio di posta elettronica:
 

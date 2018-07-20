@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile configurare la messaggistica unificata per rispondere a una chiamata in ingresso e determinare quindi se applicherà la protezione ai messaggi vocali tramite la crittografia. Quando un messaggio vocale è protetto:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 La messaggistica unificata di Exchange Microsoft fornisce una funzionalità denominata Anteprima casella vocale che utilizza il riconoscimento vocale automatico (ASR) per aggiungere ai messaggi vocali una versione di testo del file audio relativo al sistema di caselle vocali. Il riconoscimento vocale automatico non è del tutto preciso, soprattutto quando viene utilizzato per registrare un messaggio audio con voci sconosciute e rumori. Alcune organizzazioni richiedono costantemente trascrizioni di messaggi vocali prive di errori (o quasi). Il programma partner Anteprima casella vocale consente alle organizzazioni di questo tipo di soddisfare tali requisiti.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Se si desidera essere certi di ricevere messaggi specifici, è possibile creare una regola di trasporto di Exchange che assicura che questi messaggi ignorino la cartella di confusione. Estrarre [Confusione utilizzare per ordinare i messaggi con priorità bassa in Outlook Web App](https://go.microsoft.com/fwlink/p/?linkid=528411) per ulteriori informazioni su confusione.
 

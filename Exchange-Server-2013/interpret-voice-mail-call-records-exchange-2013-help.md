@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 Per visualizzare informazioni dettagliate sulle chiamate gestite dai server di Exchange in un giorno specifico, esportare i dati della chiamata per quel giorno dal rapporto sulle statistiche delle chiamate. I dati giornalieri sulle chiamate, disponibili per i 90 giorni precedenti, possono consentire di diagnosticare problemi relativi alla qualità audio o a chiamate rifiutate e forniscono informazioni per i controlli o i rapporti sui server di Exchange della propria organizzazione.
 

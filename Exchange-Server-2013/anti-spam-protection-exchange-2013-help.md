@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-06_
+_**Ultima modifica dell'argomento:** 2015-03-06_
 
 *Invio di posta indesiderata*o messaggi dannosi, utilizzano una serie di tecniche per inviare posta indesiderata nella propria organizzazione. Nessun singolo strumento o processo consente di eliminare tutta la posta indesiderata. Tuttavia, Microsoft Exchange Server 2013 fornisce un approccio più livelli, ramificazioni e articolato riduzione questi messaggi indesiderati. Exchange utilizza gli agenti di trasporto per fornire protezione da posta indesiderata e gli agenti predefiniti disponibili in Exchange 2013 rimangono invariati relativamente da Microsoft Exchange Server 2010.
 

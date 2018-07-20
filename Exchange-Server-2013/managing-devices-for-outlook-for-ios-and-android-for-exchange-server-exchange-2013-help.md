@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010, Exchange Server 2013_
+_**Si applica a:** Exchange Server 2010, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-04-01_
+_**Ultima modifica dell'argomento:** 2018-04-01_
 
-**Riepilogo:** in questo articolo viene illustrato come Exchange Active Sync consente di gestire i dispositivi mobili con Outlook per iOS e Android in Exchange l'organizzazione locale.
+**Riepilogo:**  in questo articolo viene illustrato come Exchange Active Sync consente di gestire i dispositivi mobili con Outlook per iOS e Android in Exchange l'organizzazione locale.
 
 Microsoft consiglia Exchange ActiveSync per la gestione dei dispositivi mobili utilizzati per accedere alle cassette postali di Exchange nell'ambiente locale. Exchange ActiveSync è un protocollo di sincronizzazione di Microsoft Exchange che consenta ai telefoni cellulari di accedere alle informazioni di un'organizzazione in un server che esegue Microsoft Exchange.
 
@@ -53,9 +53,9 @@ Poiché Outlook per iOS e Android viene visualizzato come associazione singola a
 
 Data l'architettura basata sul cloud di Outlook per iOS e Android, le connessioni di Outlook vengono visualizzate come un singolo identificatore (ID) dispositivo mobile per ogni utente in Exchange. Ciò significa che i controlli di accesso dei dispositivi mobili per ogni utente vengono applicati a tutti i dispositivi associati a questo ID dispositivo. L'implementazione crea due condizioni diverse da come funziona il dispositivo Exchange ActiveSync tradizionale.
 
-  - **Blocco:** una regola di blocco blocca Outlook su tutti i dispositivi e sistemi operativi supportati. Non è possibile bloccare i sistemi operativi o dispositivi singoli.
+  - **Blocco:**  una regola di blocco blocca Outlook su tutti i dispositivi e sistemi operativi supportati. Non è possibile bloccare i sistemi operativi o dispositivi singoli.
 
-  - **Quarantena:** il processo di quarantena funziona in base ai singoli utenti, invece che in base ai singoli dispositivi. Dopo che un utente ha rilasciato un dispositivo dalla quarantena, può installare e configurare Outlook in tanti quanti dispositivi desiderati. Poiché l'utente è stato rilasciato dalla quarantena, tutti i nuovi dispositivi associati a quell'utente non verranno messi in quarantena.
+  - **Quarantena:**  il processo di quarantena funziona in base ai singoli utenti, invece che in base ai singoli dispositivi. Dopo che un utente ha rilasciato un dispositivo dalla quarantena, può installare e configurare Outlook in tanti quanti dispositivi desiderati. Poiché l'utente è stato rilasciato dalla quarantena, tutti i nuovi dispositivi associati a quell'utente non verranno messi in quarantena.
 
 Quando i criteri delle cassette postali del dispositivo mobile sono disponibili, vengono applicati a tutti i dispositivi associati. Pertanto, se si applica un blocco PIN per una cassetta postale specifica, tutti i dispositivi che si connettono a tale cassetta postale richiederanno un PIN.
 

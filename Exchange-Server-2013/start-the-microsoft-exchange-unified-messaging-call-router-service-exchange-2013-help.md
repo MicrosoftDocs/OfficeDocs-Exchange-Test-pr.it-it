@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-16_
+_**Ultima modifica dell'argomento:** 2012-11-16_
 
 È possibile utilizzare lo snap-in Servizi in Microsoft Management Console (MMC) o cmd.exe al prompt dei comandi per avviare il servizio di routing delle chiamate di messaggistica unificata di MicrosoftExchange su un server Accesso client. Per impostazione predefinita, il servizio di routing delle chiamate di messaggistica unificata di MicrosoftExchange viene avviato dopo l'installazione del server Accesso client. Tuttavia, può verificarsi la necessità di riavviare manualmente il servizio di routing delle chiamate di messaggistica unificata di MicrosoftExchange quando, ad esempio, è necessario riportare in linea il server Accesso client per cui era stata attivata la modalità non in linea.
 

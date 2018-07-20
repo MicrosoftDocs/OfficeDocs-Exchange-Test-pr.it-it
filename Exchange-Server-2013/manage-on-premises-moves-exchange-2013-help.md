@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-25_
+_**Ultima modifica dell'argomento:** 2013-02-25_
 
 Una richiesta di spostamento rappresenta il processo di spostamento di una cassetta postale da un database delle cassette postali ad un altro. Una richiesta di spostamento locale è uno spostamento della cassetta postale all'interno di una singola foresta. In Microsoft Exchange Server 2013, le cassette postali e le cassette postali di archiviazione personale possono risiedere in database separati. Utilizzando la funzione di richiesta di spostamento, è possibile spostare la cassetta postale principale e l'archivio associato nello stesso database o in un database separato. Le procedure descritte in questo argomento consentono gli spostamenti delle cassette postali locali.
 
@@ -107,9 +107,12 @@ Accedere all'interfaccia di amministrazione di Exchange e attenersi alla procedu
 
 Con questo esempio viene creato un batch di migrazione per uno spostamento locale in cui le cassette postali presenti nel file .csv specificato vengono spostate in un altro database delle cassette postali. Nel file .csv è contenuta una singola colonna con l'indirizzo di posta elettronica per ciascuna delle cassette postali che verrà spostata. L'intestazione di questa colonna deve essere denominata **EmailAddress**. Il batch di migrazione dell'esempio deve essere avviato manualmente utilizzando il cmdlet **Start-MigrationBatch** oppure tramite l'interfaccia di amministrazione di Exchange. In alternativa è possibile utilizzare il parametro *AutoStart* per avviare automaticamente il batch di migrazione.
 
-    New-MigrationBatch -Local -Name LocalMove1 -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\LocalMove1.csv")) -TargetDatabases MBXDB2 -TimeZone "Pacific Standard Time"
-
-    Start-MigrationBatch -Identity LocalMove1
+```
+New-MigrationBatch -Local -Name LocalMove1 -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\LocalMove1.csv")) -TargetDatabases MBXDB2 -TimeZone "Pacific Standard Time"
+```
+```
+Start-MigrationBatch -Identity LocalMove1
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MigrationBatch](https://technet.microsoft.com/it-it/library/jj219166\(v=exchg.150\)) e [Start-MigrationBatch](https://technet.microsoft.com/it-it/library/jj219165\(v=exchg.150\)).
 

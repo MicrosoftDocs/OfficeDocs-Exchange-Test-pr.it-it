@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Le autorizzazioni necessarie per configurare la funzionalità di condivisione e collaborazione variano in base alla procedura utilizzata o i cmdlet che si desidera eseguire. Per ulteriori informazioni sulla condivisione e collaborazione, vedere [Collaborazione](collaboration-exchange-2013-help.md) e [Condivisione](sharing-exchange-2013-help.md).
 

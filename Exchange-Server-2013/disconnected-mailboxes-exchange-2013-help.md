@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Ciascuna cassetta postale di Microsoft Exchange comprende un account utente di Active Directory e i dati della cassetta postale archiviati nel database delle cassette postali di Exchange. Tutti i dati di configurazione di una cassetta postale sono archiviati negli attributi di Exchange dell'oggetto utente di Active Directory. Nel database delle cassette postali sono contenuti i dati di posta presenti nella cassetta postale associata all'account utente. Nella figura seguente, sono riportati i componenti di una cassetta postale.
 

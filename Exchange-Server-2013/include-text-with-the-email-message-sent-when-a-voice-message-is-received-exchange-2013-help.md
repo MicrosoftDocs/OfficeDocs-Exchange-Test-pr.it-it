@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-12-16_
+_**Ultima modifica dell'argomento:** 2012-12-16_
 
 È possibile includere testo aggiuntivo nel messaggio di posta elettronica inviato quando un utente abilitato alla posta vocale della messaggistica unificata riceve un messaggio di posta vocale. Per impostazione predefinita, il testo incluso nel messaggio vocale indica solo che l'utente ha ricevuto un messaggio vocale. Tuttavia, è possibile creare un messaggio personalizzato aggiungendo testo nella casella **Quando un utente riceve un messaggio vocale** di un criterio cassetta postale di messaggistica unificata. Ad esempio, possono essere incluse informazioni sui criteri di protezione del sistema e descrizioni su come gestire correttamente i messaggi vocali nella propria organizzazione. Una volta aggiunto, il testo verrà incluso in ogni messaggio di posta elettronica inviato quando gli utenti abilitati alla messaggistica unificata associati al criterio cassetta postale di messaggistica unificata ricevono un messaggio vocale.
 

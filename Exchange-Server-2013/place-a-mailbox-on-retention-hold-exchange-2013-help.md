@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-14_
+_**Ultima modifica dell'argomento:** 2012-10-14_
 
 La conservazione di una cassetta postale sospende l'elaborazione di un criterio di conservazione o di un criterio cassetta postale per cartelle gestite per tale cassetta postale. La conservazione è progettata per gli scenari in cui, ad esempio, un utente è in vacanza o non è al computer per un breve periodo di tempo.
 

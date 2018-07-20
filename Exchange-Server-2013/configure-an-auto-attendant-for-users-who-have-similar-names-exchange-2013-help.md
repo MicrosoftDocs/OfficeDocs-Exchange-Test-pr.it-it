@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-12-16_
+_**Ultima modifica dell'argomento:** 2012-12-16_
 
 È possibile configurare il metodo di utilizzo per utenti con nomi simili nelle opzioni dell'operatore automatico **Accesso operatore e rubrica** oppure è possibile mantenere le impostazioni predefinite dell'operatore automatico e configurare questa impostazione nel dial plan associato. Per impostazione predefinita, l'operatore automatico non è in grado di distinguere tra due o più utenti che hanno lo stesso nome perché l'impostazione predefinita per l'operatore automatico è **Eredita dal dial plan**.
 

@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-04-02_
+_**Ultima modifica dell'argomento:** 2018-04-02_
 
-**Sintesi:** in questi articoli sono riportate informazioni su architettura e sicurezza rivolte agli amministratori di Outlook per iOS e Android in un ambiente locale di Exchange 2013.
+**Sintesi:**  in questi articoli sono riportate informazioni su architettura e sicurezza rivolte agli amministratori di Outlook per iOS e Android in un ambiente locale di Exchange 2013.
 
 Outlook per iOS e Android supporta due tipi di autenticazione negli ambienti locali di Exchange: l'autenticazione di base e l'autenticazione moderna ibrida.
 

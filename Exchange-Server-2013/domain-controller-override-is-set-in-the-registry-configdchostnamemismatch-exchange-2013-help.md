@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_**Ultima modifica dell'argomento:** 2016-12-15_
 
 Il contenuto di questo argomento non è stato aggiornato per Microsoft Exchange Server 2013. Sebbene non sia stato aggiornato, può comunque essere applicabile anche a Exchange 2013. In caso di problemi, consultare le risorse della community riportate di seguito.
 
@@ -27,5 +27,5 @@ Installazione di Exchange 2007 è necessario che il controller di dominio specif
 
 Per risolvere questo problema, eseguire l'installazione, specificando il controller di dominio mappato in modo statico per il **/DomainController: \<***FQDN of thestatically mapped domain controller***\>** parametro.
 
-Per ulteriori informazioni su DSAccess e rilevamento servizi directory, vedere l'articolo della Microsoft Knowledge Base 250570 "Directory Service Server Detection and DSAccess Usage" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=250570](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=250570)).
+Per ulteriori informazioni su DSAccess e rilevamento servizi directory, vedere l'articolo della Microsoft Knowledge Base 250570 "Directory Service Server Detection and DSAccess Usage" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=250570](https://go.microsoft.com/fwlink/?linkid=3052&kbid=250570)).
 

@@ -17,7 +17,7 @@ _<strong>Si applica a:</strong>Exchange Online, Exchange Server 2013, Exchange S
 
 _<strong>Ultima modifica dell'argomento:</strong>2017-07-25_
 
-**Riepilogo:** requisiti dell'ambiente Exchange necessari per la configurazione di una distribuzione ibrida.
+**Riepilogo:**  requisiti dell'ambiente Exchange necessari per la configurazione di una distribuzione ibrida.
 
 Affinché sia possibile creare e configurare una distribuzione ibrida utilizzando la procedura guidata di configurazione ibrida, è necessario che l'organizzazione locale di Exchange esistente soddisfi determinati requisiti. In caso contrario, non sarà possibile completare i passaggi della procedura guidata di configurazione ibrida e configurare una distribuzione ibrida che include l'organizzazione di Exchange locale ed Exchange Online.
 

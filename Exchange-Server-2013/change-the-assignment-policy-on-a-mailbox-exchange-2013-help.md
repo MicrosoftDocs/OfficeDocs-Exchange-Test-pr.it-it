@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-08_
+_**Ultima modifica dell'argomento:** 2012-10-08_
 
 È possibile modificare il criterio di assegnazione del ruolo di gestione assegnato a una cassetta postale. Quando si modifica un criterio di assegnazione della cassetta postale, la modifica viene applicata non appena l'utente aggiorna la connessione, ad esempio, al successivo accesso alla cassetta postale oppure quando apre la pagina relativa alle opzioni della cassetta postale. Per ulteriori informazioni sui criteri di assegnazione in Microsoft Exchange Server 2013, vedere [Informazioni sui criteri di assegnazione di ruolo di gestione](understanding-management-role-assignment-policies-exchange-2013-help.md).
 

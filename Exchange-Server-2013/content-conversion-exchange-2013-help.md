@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 La *conversione del contenuto* è il processo che consente di formattare correttamente un messaggio in base al destinatario. La decisione di eseguire la conversione del contenuto su un messaggio dipende dalla destinazione e dal formato del messaggio in fase di elaborazione. In Microsoft Exchange Server 2013 sono presenti due diversi tipi di conversione del contenuto:
 

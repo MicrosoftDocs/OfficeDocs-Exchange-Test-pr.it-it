@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile archiviare contenuto Lync Online, ad esempio le conversazioni di messaggistica immediata, alla cassetta postale dell'utente in Exchange Online. Nelle distribuzioni in locale, è possibile archiviare contenuto Lync 2013 alle cassette postali Exchange 2013. In entrambi in linea e ambienti locali, richiede l'immissione di conservazione per controversia legale o an In-Place Hold nella cassetta postale dell'utente. Quando Lync contenuto viene eliminato definitivamente da un utente la cui cassetta postale è in attesa, Lync archiviato il contenuto viene mantenuto nella cartella elementi ripristinabili nella cassetta postale dell'utente. Non è visibile per gli utenti, ma è incluso in ricerche eDiscovery.
 

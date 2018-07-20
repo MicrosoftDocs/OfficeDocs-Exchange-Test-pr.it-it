@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Anteprima casella vocale è una funzionalità disponibile per gli utenti che utilizzano la messaggistica unificata per ricevere i messaggi vocali. L'anteprima della casella vocale migliora le funzionalità esistenti della casella vocale di messaggistica unificata offrendo una versione di testo delle registrazioni audio. Il testo del messaggio vocale viene visualizzato nei messaggi di posta elettronica in MicrosoftOutlook Web App, Outlook 2010 e versioni successive, nonché un altri programmi di posta elettronica supportati. Per ulteriori informazioni, vedere [Microsoft Speech Technologies](http://go.microsoft.com/fwlink/p/?linkid=187348).
 

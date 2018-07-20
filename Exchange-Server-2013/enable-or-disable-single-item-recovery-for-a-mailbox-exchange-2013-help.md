@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-13_
+_**Ultima modifica dell'argomento:** 2015-03-13_
 
 È possibile utilizzare la Shell per abilitare o disabilitare il ripristino di un singolo elemento in una cassetta postale. In Exchange Online, ripristino di singoli elementi è attivato per impostazione predefinita, quando viene creata una nuova cassetta postale. In Exchange 2013, ripristino di singoli elementi è disabilitato quando viene creata una cassetta postale. Se il ripristino di singoli elementi è attivato, i messaggi che vengono eliminati definitivamente (cancellati) dall'utente vengono mantenuti nella cartella elementi recuperabili della cassetta postale fino alla scadenza del periodo di mantenimento elementi eliminati. Ciò consente a un amministratore di recuperare i messaggi eliminati dall'utente prima della scadenza del periodo di mantenimento elementi eliminati. Inoltre, se un messaggio viene modificato da un utente o un processo, copie dell'elemento originale inoltre vengono mantenute quando ripristino di singoli elementi è attivato.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Ultima modifica dell'argomento:**2016-09-15_
+_**Ultima modifica dell'argomento:** 2016-09-15_
 
-**Riepilogo:** limiti delle connessioni archivio gestito e relativa configurazione.
+**Riepilogo:**  limiti delle connessioni archivio gestito e relativa configurazione.
 
 In MicrosoftExchange Server 2013, sono stati inseriti connessione e limiti di utilizzo per l'archivio gestito Exchange per evitare una singola applicazione o un singolo utente di utilizzare tutte le connessioni disponibili per l'archivio gestito. Se un singolo utente o l'applicazione è consentito utilizzare tutte le connessioni, altri utenti o applicazioni non sono in grado di accedere all'archivio gestito che potrebbero causare tempi di inattività.
 

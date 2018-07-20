@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Con la messaggistica unificata viene installato un insieme comune di file audio predefiniti utilizzati per il sistema di caselle vocali, le istruzioni di menu, i messaggi di saluto e gli annunci informativi. Anche se è possibile creare una operatore automatico o un dial plan di messaggistica unificata completamente funzionale che utilizzi solo le istruzioni audio predefinite, per molte aziende tali istruzioni sono troppo generiche per servire da interfaccia pubblica accettabile. In questo argomento vengono descritti i prompt di sistema e le istruzioni di menu, i messaggi di saluto e gli annunci informativi utilizzati dai dial plan e dagli operatori automatici di messaggistica unificata, nonché il loro utilizzo quando i chiamanti accedono al sistema di caselle vocali.
 

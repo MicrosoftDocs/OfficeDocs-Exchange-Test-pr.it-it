@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-19_
+_**Ultima modifica dell'argomento:** 2013-02-19_
 
 In Microsoft Exchange Server 2010, il ruolo Cassette postali ospitava i database delle cassette postali e delle cartelle pubbliche e fungeva anche da archivio per i messaggi di posta elettronica. Ora, in Exchange Server 2013, il ruolo Cassette postali include anche i protocolli Accesso client e i componenti del servizio di trasporto, dei database delle cassette postali e della messaggistica unificata.
 

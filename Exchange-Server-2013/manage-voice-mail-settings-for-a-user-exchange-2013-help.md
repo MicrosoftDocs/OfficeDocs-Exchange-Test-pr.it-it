@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile visualizzare o impostare la Messaggistica unificata (UM), le funzionalità per i messaggi vocali e le impostazioni di configurazione per un utente che è stato abilitato per la messaggistica unificata e i messaggi vocali. Ad esempio, non è possibile eseguire le seguenti operazioni:
 

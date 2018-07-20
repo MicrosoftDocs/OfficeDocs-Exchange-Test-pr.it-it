@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2014-09-17_
+_**Ultima modifica dell'argomento:** 2014-09-17_
 
 È possibile utilizzare Shell per abilitare la registrazione delle istruzioni e dei messaggi di saluto personalizzati per i dial plan e gli operatori automatici di messaggistica unificata utilizzando l'interfaccia telefonica (TUI). Questa possibilità può essere utile quando si desidera modificare un messaggio di saluto o un annuncio personalizzato tramite EAC o Shell oppure quando si verifica un'emergenza, ad esempio la chiusura dell'organizzazione per cattive condizioni meteo. Quando si modifica un messaggio di saluto o un annuncio personalizzato in un operatore automatico di messaggistica unificata, è necessario abilitare la registrazione delle istruzioni dell'interfaccia telefonica nel dial plan a cui è collegato l'operatore automatico di messaggistica unificata.
 

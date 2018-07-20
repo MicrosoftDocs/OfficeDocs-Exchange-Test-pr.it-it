@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-08-21_
+_**Ultima modifica dell'argomento:** 2012-08-21_
 
 Per impostazione predefinita, Microsoft Exchange Server 2013 include molti ruoli di gestione. I seguenti ruoli vengono assegnati a gruppi di ruoli di gestione o criteri di assegnazione di ruolo di gestione in varie combinazioni che concedono le autorizzazioni per gestire e utilizzare le funzionalità fornite da Exchange 2013. Per ulteriori informazioni sui ruoli, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).
 

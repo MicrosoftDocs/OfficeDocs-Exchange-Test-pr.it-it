@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-01_
+_**Ultima modifica dell'argomento:** 2012-11-01_
 
 Tramite i *criteri di denominazione dei gruppi* è possibile standardizzare e gestire i nomi dei gruppi di distribuzione creati dagli utenti nell'organizzazione. È possibile richiedere un prefisso e un suffisso specifici da aggiungere al nome per il gruppo di distribuzione al momento della creazione e bloccare l'utilizzo di parole specifiche. In questo modo, viene ridotto l'utilizzo di parole inadatte nei nomi del gruppo.
 

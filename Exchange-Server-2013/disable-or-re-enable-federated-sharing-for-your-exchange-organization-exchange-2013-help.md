@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-17_
+_**Ultima modifica dell'argomento:** 2014-02-17_
 
 In alcuni casi potrebbe essere necessario disabilitare temporaneamente la condivisione federata per l'organizzazione. Anziché eliminare la relazione di trust federativa esistente o eliminare le relazioni dell'organizzazione e i criteri di condivisione che potrebbero essere necessari in futuro, è sufficiente disabilitare l'identificatore organizzazione (OrgID) per la relazione di trust federativa.
 

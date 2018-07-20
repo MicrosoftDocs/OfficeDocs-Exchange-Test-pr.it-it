@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-09_
+_**Ultima modifica dell'argomento:** 2014-06-09_
 
 È possibile utilizzare un ruolo di gestione senza ambito per fornire ad amministratori ed utenti esperti l'accesso agli script di PowerShell di Windows e ai cmdlet non Exchange. È possibile creare un ruolo di primo livello senza ambito e aggiungere ad esso script o cmdlet non Exchange oppure creare un ruolo basato su un ruolo di primo livello senza ambito esistente. Dopo aver creato e personalizzato un ruolo senza ambito, il ruolo potrà essere assegnato a gruppi di ruoli di gestione, utenti e gruppi di protezione di tipo universale. Non è possibile assegnare ruoli senza ambito a criteri di assegnazione del ruolo di gestione. Per ulteriori informazioni sui ruoli senza ambito, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-07-25_
+_**Ultima modifica dell'argomento:** 2017-07-25_
 
 La messaggistica unificata richiede l'integrazione di Microsoft Exchange con il sistema di telefonia esistente per la propria organizzazione. Una distribuzione corretta richiede un'attenta analisi dell'infrastruttura telefonica esistente e l'esecuzione della procedura di pianificazione corretta per distribuire la messaggistica unificata.
 

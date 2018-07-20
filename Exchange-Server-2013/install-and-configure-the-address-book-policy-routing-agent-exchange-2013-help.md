@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-01-09_
+_**Ultima modifica dell'argomento:** 2014-01-09_
 
 L'agente di routing del criterio della rubrica è un agente di trasporto eseguito sul server Cassette postali che controlla il modo in cui i destinatari vengono risolti nell'organizzazione. Quando l'agente di routing ABP viene installato e configurato, gli utenti assegnati a diversi GAL vengono visualizzati come destinatari esterni in quanto non possono visualizzare le schede contatto dei destinatari esterni.
 

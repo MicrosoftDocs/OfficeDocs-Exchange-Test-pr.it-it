@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Messaggistica unificata di Microsoft Exchange si basa su soluzioni del partner fax certificate per funzionalità avanzate, come i fax o il routing dei fax in uscita. Per impostazione predefinita, i server di Exchange non sono configurati per recapitare i fax in arrivo ad un utente abilitato per messaggistica unificata. Al contrario, un server di Exchange reindirizza le chiamate fax in arrivo a una soluzione del partner fax certificata. Il server del partner fax riceve i dati e li invia alla cassetta postale dell'utente tramite un messaggio di posta elettronica con allegato il fax in formato .tif.
 

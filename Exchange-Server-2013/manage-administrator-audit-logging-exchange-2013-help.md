@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-05-17_
+_**Ultima modifica dell'argomento:** 2013-05-17_
 
 La registrazione controlli dell'amministratore in Microsoft Exchange Server 2013 consente di creare una voce di registro ogni volta che si esegue un cmdlet specificato. Le voci di registro forniscono informazioni sul cmdlet eseguito, sui parametri utilizzati, sull'utente che ha eseguito il cmdlet e sugli oggetti coinvolti. Per ulteriori informazioni sulla registrazione dei controlli dell'amministratore, vedere [Registrazione controlli dell'amministratore](administrator-audit-logging-exchange-2013-help.md).
 

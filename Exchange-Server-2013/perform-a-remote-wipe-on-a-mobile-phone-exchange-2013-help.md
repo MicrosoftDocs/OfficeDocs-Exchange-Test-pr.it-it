@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-06_
+_**Ultima modifica dell'argomento:** 2013-02-06_
 
 Gli utenti possono accedere alle informazioni sensibili dell'azienda ogni giorno dal proprio dispositivo. Se un utente smarrisce il cellulare, i dati in esso contenuti potrebbero essere visualizzati da altre persone. In caso di smarrimento del cellulare, è possibile utilizzare l'interfaccia di amministrazione di Exchange o Exchange Management Shell per cancellare dal telefono tutti i dati aziendali e relativi all'utente.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-06_
+_**Ultima modifica dell'argomento:** 2013-02-06_
 
 L'impostazione di integrità ActiveSync.Protocol monitora l'integrità complessiva del protocollo di comunicazione Exchange ActiveSync sui server Cassette postali. Se si riceve un avviso che specifica che l'impostazione di integrità ActiveSync.Protocol non è integra, significa che potrebbe verificarsi un problema con i componenti di ActiveSync sul server Cassette postali indicato nell'avviso.
 

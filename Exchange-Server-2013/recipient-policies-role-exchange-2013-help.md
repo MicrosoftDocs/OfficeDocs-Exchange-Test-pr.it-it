@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Recipient Policies` consente agli amministratori di gestire i criteri dei destinatari, ad esempio i criteri di limitazione delle richieste, i criteri delle cassette postali di Microsoft Office Outlook Web App e i criteri dei dispositivi mobili in un'organizzazione.
 

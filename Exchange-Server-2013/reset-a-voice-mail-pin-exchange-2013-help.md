@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 Quando un utente della posta vocale abilitato alla messaggistica unificata blocca la propria cassetta postale di Oulook Voice Access tentando di accedervi più volte mediante un PIN non corretto o dimenticando il proprio PIN, è possibile utilizzare le seguenti procedure per reimpostare il PIN dell'utente. Quando si reimposta il PIN di Outlook Voice Access di un utente, è possibile configurare la messaggistica unificata in modo da generare automaticamente un PIN oppure si può specificare manualmente il PIN. Il nuovo PIN viene inviato all'utente tramite posta elettronica. È possibile specificare le opzioni per il PIN aggiuntive come la richiesta all'utente di reimpostare il PIN al primo accesso. Gli utenti possono inoltre reimpostare il PIN di messaggistica unificata utilizzando Outlook o Outlook Web App.
 

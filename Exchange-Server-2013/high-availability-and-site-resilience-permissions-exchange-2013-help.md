@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-11-12_
+_**Ultima modifica dell'argomento:** 2015-11-12_
 
 Le autorizzazioni richieste per configurare l'alta disponibilità dipendono dalla procedura eseguita o dal cmdlet che si intende eseguire. Per ulteriori informazioni sull'alta disponibilità, vedere [Disponibilità elevata e resilienza del sito](high-availability-and-site-resilience-exchange-2013-help.md).
 

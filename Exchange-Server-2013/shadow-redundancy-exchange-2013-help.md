@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 La ridondanza shadow è stata introdotta in Microsoft Exchange Server 2010 per fornire copie ridondanti dei messaggi prima che siano recapitati alle cassette postali. In Exchange 2010, la ridondanza shadow ritardava l'eliminazione di un messaggio dal database di trasporto su un server di trasporto fino a quando il server non aveva verificato che l'hop successivo avesse completato il percorso di recapito del messaggio. Se l'hop successivo restituiva un errore prima di segnalare l'effettivo recapito al server di trasporto, quest'ultimo rinviava il messaggio a tale hop successivo. I server Exchange 2010 utilizzavano il verbo XSHADOW per annunciare il loro supporto per la ridondanza shadow. Se un server SMTP non supportava la ridondanza shadow, Exchange 2010 utilizzava una conferma ritardata basata su un intervallo di tempo configurato sul connettore di ricezione per creare una copia ridondante del messaggio.
 

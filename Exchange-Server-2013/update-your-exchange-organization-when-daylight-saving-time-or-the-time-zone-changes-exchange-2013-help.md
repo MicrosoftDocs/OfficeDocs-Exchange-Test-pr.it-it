@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2010, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server, Exchange Server 2010, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Se il paese o la regione dove risiedono l'organizzazione o alcuni degli utenti ha modificato il criterio di riconoscimento dell'ora legale (DST), o ha modificato lo spostamento dell'ora locale dall'ora UTC (Coordinated Universal Time), potrebbe essere necessario aggiornare Microsoft Windows, Microsoft Exchange, Microsoft Outlook, o altri programmi per gestire queste modifiche.
 
@@ -31,7 +31,7 @@ Installare gli aggiornamenti per il fuso orario al più presto possibile minimiz
 
 Poiché il sistema di autenticazione di Office 365 viene aggiornato quando si modifica il fuso orario o l'ora legale, tutti i computer client di Office 365 devono essere aggiornati o si potrebbero verificare problemi di connettività.
 
-  - Verificare che tutti i computer client e del desktop sono installato l'aggiornamento Windows dell'ora legale. Per ulteriori informazioni, vedere [come configurare dell'ora legale per i sistemi operativi Microsoft Windows](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=914387).
+  - Verificare che tutti i computer client e del desktop sono installato l'aggiornamento Windows dell'ora legale. Per ulteriori informazioni, vedere [come configurare dell'ora legale per i sistemi operativi Microsoft Windows](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=914387).
 
 ## Passaggio 2: Installare l'aggiornamento di Windows DST su tutti i server
 
@@ -39,7 +39,7 @@ Poiché il sistema di autenticazione di Office 365 viene aggiornato quando si mo
 
 2.  Se si sta eseguendo Office 365, aggiornare qualsiasi server che interagisce con il sistema di autenticazione di Office 365, quali DirSync o server AD FS. Questi server devono essere aggiornati per garantire i tempi di attività.
 
-**Nota**   Se si sta aggiornando i cluster di server, assicurarsi di che eseguire il normale processo di aggiornamento i gruppi. Aggiornare prima il server passivo, il failover sul server passivo (che diventa attivo) e quindi aggiornare il server (ora passivo) precedentemente attivo. Per ulteriori informazioni su come aggiornare i cluster di server e i gruppi di server a elevata disponibilità, vedere [Update Exchange Server Clusters and High Availability Servers](https://technet.microsoft.com/it-it/library/hh530052\(v=exchg.150\)) e [come aggiornare i cluster di failover di Windows Server](https://support.microsoft.com/en-us/kb/174799).
+**Nota**   Se si sta aggiornando i cluster di server, assicurarsi di che eseguire il normale processo di aggiornamento i gruppi. Aggiornare prima il server passivo, il failover sul server passivo (che diventa attivo) e quindi aggiornare il server (ora passivo) precedentemente attivo. Per ulteriori informazioni su come aggiornare i cluster di server e i gruppi di server a elevata disponibilità, vedere Update Exchange Server Clusters and High Availability Servers e [come aggiornare i cluster di failover di Windows Server](https://support.microsoft.com/en-us/kb/174799).
 
 ## Passaggio 3: Aggiornamento Exchange e Outlook, se necessario, nei computer client e del desktop
 
@@ -47,7 +47,7 @@ Poiché il sistema di autenticazione di Office 365 viene aggiornato quando si mo
 
 2.  Inviare un messaggio agli utenti per i quali è necessario aggiornare i computer fornendo loro un collegamento allo strumento appropriato.
 
-Nella tabella seguente quando gli utenti devono eseguire [Strumento di aggiornamento del calendario di Exchange](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879) o [Strumento di aggiornamento dei dati di fuso orario per Microsoft Office Outlook](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667). Individuare quale versione dei server dell'organizzazione siano in esecuzione e quindi determinare quali programmi client degli utenti sono in esecuzione.
+Nella tabella seguente quando gli utenti devono eseguire [Strumento di aggiornamento del calendario di Exchange](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879) o [Strumento di aggiornamento dei dati di fuso orario per Microsoft Office Outlook](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667). Individuare quale versione dei server dell'organizzazione siano in esecuzione e quindi determinare quali programmi client degli utenti sono in esecuzione.
 
 
 <table>
@@ -69,45 +69,45 @@ Nella tabella seguente quando gli utenti devono eseguire [Strumento di aggiornam
 </tr>
 <tr class="odd">
 <td><p><strong>Exchange 2003 locale</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879">Strumento di calendario di Exchange</a> o</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Aggiornare i dati del fuso orario strumento per Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Strumento di calendario di Exchange</a> o</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario strumento per Microsoft Office Outlook</a></p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Exchange 2007 locale</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879">Strumento di calendario di Exchange</a> o</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Aggiornare i dati del fuso orario strumento per Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Strumento di calendario di Exchange</a> o</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario strumento per Microsoft Office Outlook</a></p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Exchange 2010 locale</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879">Strumento di calendario di Exchange</a> o</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Strumento di calendario di Exchange</a> o</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Exchange 2013 in locale</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BPOS-S (Exchange 2007)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BPOS-S (Exchange 2010)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Office 365 (Exchange 2010)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a> (non è supportata con Outlook 2003)</p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a> (non è supportata con Outlook 2003)</p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Office 365 (Exchange 2013)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a> (non è supportata con Outlook 2003)</p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a> (non è supportata con Outlook 2003)</p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="odd">

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-12_
+_**Ultima modifica dell'argomento:** 2012-10-12_
 
 [Creazione di un elenco di indirizzi](create-an-address-list-exchange-2013-help.md)
 

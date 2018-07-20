@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile verificare la connettività di Outlook Anywhere su client end-to-end tramite Shell o Analizzatore connettività remota di Exchange (ExRCA). Questo test include la verifica della connettività attraverso il servizio di individuazione automatica, la creazione di un profilo utente e l'accesso alla cassetta postale utente. Tutti i valori necessari vengono recuperati dal servizio di individuazione automatica.
 

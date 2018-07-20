@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Utilizzare questo elenco di controllo per effettuare l'aggiornamento da Messaggistica unificata di Exchange a Messaggistica unificata di Exchange 2010. Assicurarsi di fare riferimento a queste informazioni quando si esegue l'aggiornamento dell'organizzazione Exchange 2010 e della distribuzione di messaggistica unificata a Exchange 2013. Per istruzioni dettagliate relative all'aggiornamento a Messaggistica unificata di Exchange 2013, vedere [Aggiornamento dalla messaggistica unificata di Exchange 2007 alla messaggistica unificata di Exchange 2010](upgrade-exchange-2010-um-to-exchange-2013-um-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-10-13_
+_**Ultima modifica dell'argomento:** 2012-10-13_
 
 Dopo aver connesso la rete telefonica o Microsoft Lync Server integrato a Messaggistica unificata di Exchange e aver creato e configurato i componenti di messaggistica unificata richiesti, sarà necessario configurare il sistema di caselle vocali per gli utenti.
 

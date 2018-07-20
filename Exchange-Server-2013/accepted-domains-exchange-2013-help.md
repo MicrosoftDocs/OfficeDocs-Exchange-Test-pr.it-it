@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-06-16_
+_**Ultima modifica dell'argomento:** 2016-06-16_
 
 Un dominio accettato è uno spazio dei nomi SMTP per conto del quale un'organizzazione di Microsoft Exchange Server 2013 invia o riceve posta elettronica. I domini accettati includono quei domini per i quali l'organizzazione di Exchange è autorevole. Un'organizzazione di Exchange è autorevole quando gestisce il recapito della posta elettronica per i destinatari nel dominio accettato. I domini accettati includono anche i domini per i quali l'organizzazione di Exchange riceve la posta e la inoltra a un server di posta elettronica esterno all'organizzazione per eseguirne il recapito al destinatario.
 

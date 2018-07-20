@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-30_
+_**Ultima modifica dell'argomento:** 2012-10-30_
 
 Quando si aggiunge una copia di un database delle cassette postali, la replica continua tra il database esistente e la copia del database viene abilitata automaticamente. Alle copie del database viene assegnata automaticamente un'identità nel formato di \<*DatabaseName*\>\\\<*HostMailboxServerName*\>. Ad esempio, un copia del database DB1 ospitata sul server MBX3 verrebbe denominata DB1\\MBX3.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile utilizzare lo script **ConfigureAdam.ps1** (al percorso $env:ExchangeInstallPath\\Scripts) per modificare la configurazione predefinita dei servizi Active Directory Lightweight Directory Services (AD LDS) nei server Trasporto Edge prima di sottoscrivere il server Trasporto Edge nell'organizzazione di Exchange.
 

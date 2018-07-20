@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-16_
+_**Ultima modifica dell'argomento:** 2012-11-16_
 
 È possibile utilizzare lo snap-in Servizi in Microsoft Management Console (MMC) o cmd.exe al prompt dei comandi per avviare il servizio Messaggistica unificata di MicrosoftExchange su un server Cassette postali. Per impostazione predefinita, il servizio Messaggistica unificata di MicrosoftExchange viene avviato dopo l'installazione di un server Cassette postali. Tuttavia, può verificarsi la necessità di riavviare il servizio Messaggistica unificata di MicrosoftExchange manualmente quando, ad esempio, si deve riportare in linea il server Cassette postali per cui era stata attivata la modalità non in linea.
 

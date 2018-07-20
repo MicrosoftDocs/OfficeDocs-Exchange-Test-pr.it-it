@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-16_
+_**Ultima modifica dell'argomento:** 2014-06-16_
 
 È possibile utilizzare la portabilità del database per spostare un database delle cassette postali di Microsoft Exchange Server 2013 tra i server Cassette postali di Exchange 2013 nella stessa organizzazione. Ciò consente di ridurre tempi di ripristino complessivo per alcuni scenari di errore. Per ulteriori informazioni, vedere [Portabilità del database](database-portability-exchange-2013-help.md).
 

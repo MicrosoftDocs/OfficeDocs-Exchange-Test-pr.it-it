@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile utilizzare la Shell per creare uno o più regole di ricezione per un utente di chiamata. È inoltre possibile utilizzare il cmdlet **New-UMCallAnsweringRule** in uno script di Exchange Management Shell per creare regole di ricezione chiamata per più utenti.
 
@@ -71,14 +71,11 @@ In questo esempio viene creata di regola ricezione chiamata `MyCallAnsweringRule
 
 In questo esempio viene creata di regola ricezione chiamata `MyCallAnsweringRule` nella cassetta postale di Tony Smith ed esegue le operazioni seguenti:
 
-  -  
-    La priorità della regola di ricezione chiamata viene impostata su 2.
+  -  La priorità della regola di ricezione chiamata viene impostata su 2.
 
-  -  
-    Crea il mapping dei tasti per la regola di ricezione chiamata.
+  -  Crea il mapping dei tasti per la regola di ricezione chiamata.
 
-  -  
-    Se il chiamante raggiunge la segreteria telefonica dell'utente e lo stato dell'utente è Non disponibile, il chiamante può:
+  -  Se il chiamante raggiunge la segreteria telefonica dell'utente e lo stato dell'utente è Non disponibile, il chiamante può:
     
       - Premere il tasto 1 per essere trasferito a un operatore all'interno 45678.
     

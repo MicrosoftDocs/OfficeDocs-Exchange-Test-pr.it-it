@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-03-05_
+_**Ultima modifica dell'argomento:** 2018-03-05_
 
 Quando un utente o un amministratore apporta una modifica all'organizzazione, per eseguire l'accesso è possibile utilizzare la funzionalità di registrazione controlli di amministrazione disponibile in Microsoft Exchange Server 2013. Grazie ai registri delle modifiche, è possibile associare ciascuna modifica all'utente che l'ha effettivamente effettuata, inserire nei registri stessi informazioni dettagliate sulle modifiche al momento della relativa implementazione, agire in conformità ai requisiti normativi e alle richieste di produzione di documenti, e altro ancora.
 

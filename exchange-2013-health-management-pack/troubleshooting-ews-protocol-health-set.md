@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Project Server 2013_
+_**Si applica a:** Exchange Server 2013, Project Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'impostazione di integrità EWS.Protocol controlla il protocollo delle comunicazioni dei Servizi Web Exchange sul server Cassette postali. L'impostazione di integrità di EWS.Protocol è strettamente correlata alle seguenti impostazioni di integrità:
 

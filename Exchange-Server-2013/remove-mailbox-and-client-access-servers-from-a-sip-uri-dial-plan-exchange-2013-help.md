@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-16_
+_**Ultima modifica dell'argomento:** 2013-04-16_
 
 È possibile rimuovere i server Accesso client e Cassette postali dai dial plan URI SIP. Affinché le chiamate in uscita vengano abilitate correttamente durante la distribuzione di Microsoft Lync Server, è necessario aggiungere manualmente tutti i server Accesso client e Cassette postali ai dial plan URI SIP creati con Lync Server. Tuttavia, se si sta eseguendo la manutenzione o disconnettendo il server, è necessario rimuovere il server Accesso client o Cassette postali dalla distribuzione Lync.
 

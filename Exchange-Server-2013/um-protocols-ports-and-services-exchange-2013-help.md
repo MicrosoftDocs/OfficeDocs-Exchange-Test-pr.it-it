@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Microsoft Exchange 2013 Messaggistica unificata (UM) è necessario che le porte TCP e protocollo UDP (User Datagram) diverse da utilizzare per stabilire la comunicazione tra server che eseguono Exchange 2013 e altri dispositivi. Concessione dell'accesso a queste porte IP, si consente la messaggistica unificata per il corretto funzionamento. In questo argomento vengono illustrate le porte TCP e UDP utilizzate in Exchange 2013 la messaggistica unificata.
 

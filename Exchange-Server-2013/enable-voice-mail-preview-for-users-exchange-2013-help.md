@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 È possibile abilitare la funzionalità Anteprima casella vocale per gli utenti associati al criterio cassetta postale di messaggistica unificata se è stata disabilitata. L'abilitazione di questa impostazione consente agli utenti di ricevere il testo di un messaggio vocale nel corpo di un messaggio di posta elettronica o di testo. Per impostazione predefinita la funzionalità è abilitata.
 

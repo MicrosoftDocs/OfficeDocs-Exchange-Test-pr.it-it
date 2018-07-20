@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-05-04_
+_**Ultima modifica dell'argomento:** 2016-05-04_
 
 Talvolta è opportuno avere un secondo insieme di infrarouges in un messaggio prima che il messaggio viene recapitato. Amministratore Exchange, è possibile impostare questo. Questo processo è noto come *moderazione*e al responsabile approvazione viene chiamato *moderatore*. In base al quali i messaggi necessaria l'approvazione, è possibile utilizzare uno dei due approcci:
 

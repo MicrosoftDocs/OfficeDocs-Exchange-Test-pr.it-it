@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-23_
+_**Ultima modifica dell'argomento:** 2013-02-23_
 
 È possibile permettere o impedire l'invio agli utenti delle notifiche tramite posta vocale per le chiamate ricevute tramite un gateway IP di messaggistica unificata. Se abilitata, questa impostazione consente al gateway IP di messaggistica unificata di ricevere e inviare messaggi SIP NOTIFY per gli utenti. L'indicatore di messaggio in attesa (MWI) è abilitato per impostazione predefinita e consente l'invio delle notifiche di messaggio in attesa gli utenti, ma questo indicatore può essere disabilitato a seconda delle proprio esigenze.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-17_
+_**Ultima modifica dell'argomento:** 2012-10-17_
 
 È possibile che si operi in uno scenario in cui si desidera inviare e ricevere messaggi di posta elettronica da un server gateway fax che non utilizza SMTP come meccanismo di trasporto principale. Seguire i passi di questa procedura per creare un connettore esterno che possa recapitare e ricevere i messaggi dal sistema esterno.
 

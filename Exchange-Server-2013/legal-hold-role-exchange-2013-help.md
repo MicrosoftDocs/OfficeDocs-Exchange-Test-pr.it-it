@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Legal Hold` consente agli amministratori di stabilire se i dati in una cassetta postale devono essere conservati per ragioni di gestione delle controversie in un'organizzazione.
 

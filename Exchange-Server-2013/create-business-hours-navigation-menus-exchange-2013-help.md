@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 È possibile abilitare il mapping dei tasti orario di ufficio su un operatore automatico di messaggistica unificata. Una volta creato un operatore automatico di messaggistica unificata, verrà utilizzata un'istruzione di sistema predefinita per il messaggio di saluto per l'istruzione del menu principale dell'orario di ufficio riprodotto per il chiamante dopo la formula di benvenuto. L'istruzione predefinita del menu principale dell'orario di ufficio riproduce il messaggio, "Benvenuti nell'operatore automatico di Microsoft Exchange." Poiché, per impostazione predefinita, non è definito alcun mapping dei tasti, i chiamanti non hanno a disposizione alcuna opzione di menu e ascoltano soltanto l'istruzione di menu principale predefinita.
 

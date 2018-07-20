@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-29_
+_**Ultima modifica dell'argomento:** 2013-04-29_
 
 È possibile utilizzare TLS (Transport Layer Security) reciproca per abilitare Messaggistica unificata per crittografare i dati inviati tra server Microsoft Exchange 2013 e gateway VoIP, IP PBX, session border controller (SBC) e Microsoft Lync Server. I certificati associano l'identità del proprietario del certificato a una coppia di chiavi elettroniche (pubblica e privata) utilizzate per crittografare e firmare le informazioni con firma digitale.
 

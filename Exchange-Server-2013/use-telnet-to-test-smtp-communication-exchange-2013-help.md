@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In questo argomento viene descritto come utilizzare Telnet per eseguire la verifica della comunicazione SMTP (Simple Mail Transfer Protocol) tra i server di messaggistica. Per impostazione predefinita, SMTP è in ascolto sulla porta 25. Se si utilizza Telnet sulla porta 25, è possibile immettere i comandi SMTP utilizzati per connettersi a un server SMTP e inviare un messaggio esattamente come se la sessione Telnet si trovasse in un server di messaggistica SMTP. È possibile visualizzare l'esito positivo o negativo di ogni passaggio del processo di connessione e invio del messaggio.
 

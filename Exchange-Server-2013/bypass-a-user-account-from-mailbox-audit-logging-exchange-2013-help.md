@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-05-21_
+_**Ultima modifica dell'argomento:** 2013-05-21_
 
 Quando si abilita la registrazione dei controlli in una cassetta postale, determinati eventi di accesso che interessano la cassetta postale (ad esempio, l'accesso a una cartella o un messaggio oppure l'eliminazione permanente di un messaggio) vengono registrati. È però necessario tenere presente che gli accessi eseguiti da alcuni account autorizzati (ad esempio, quelli utilizzati da strumenti di terzi o per il monitoraggio a fini legali) potrebbero creare un numero notevole di voci nel registro di controllo e tuttavia non essere di alcun interesse per l'organizzazione.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Quando si utilizza Visualizzatore code nella Casella degli strumenti di Exchange su un server Microsoft Exchange Server 2013 che si trova all'interno dell'organizzazione Exchange, è possibile connettersi agli altri server Cassette postali. Per impostazione predefinita, quando si apre Vista code su un server Cassette postali, Visualizzatore code si connette al database delle code sul server locale. È possibile avviare più di una istanza del Visualizzatore code in modo che ciascuna istanza faccia riferimento a un server diverso. Le finestre del Visualizzatore code possono essere affiancate per poter facilmente controllare più server Cassette postali contemporaneamente.
 

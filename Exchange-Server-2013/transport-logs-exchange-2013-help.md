@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-01-28_
+_**Ultima modifica dell'argomento:** 2013-01-28_
 
 I registri di trasporto forniscono informazioni su ciò che accade nella pipeline di trasporto. In Microsoft Exchange Server 2013 sono disponibili i seguenti registri di trasporto:
 

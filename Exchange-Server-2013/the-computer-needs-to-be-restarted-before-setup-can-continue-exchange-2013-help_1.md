@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Microsoft Exchange Server 2013 non può continuare l'installazione perché è stato rilevato che nel computer locale deve essere riavviato per completare l'installazione di altri programmi o gli aggiornamenti di Windows.
 

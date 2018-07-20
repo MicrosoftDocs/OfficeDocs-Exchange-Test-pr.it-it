@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Microsoft Exchange Server 2010 e Exchange Server 2007 hanno vari ruoli di server: Accesso client, Cassette postali, Trasporto Hub, Messaggistica unificata e Trasporto Edge. Con Exchange Server 2013, il numero di ruoli server è stato ridotto da cinque a tre: Accesso client, Cassetta postale e Trasporto Edge. La messaggistica unificata viene ora considerata un componente o funzionalità secondaria delle funzionalità vocali offerte in Exchange 2013. (Per ulteriori informazioni sulle modifiche, vedere "Architettura Exchange 2013" su [Novità di Exchange 2013](what-s-new-in-exchange-2013-exchange-2013-help.md).)
 

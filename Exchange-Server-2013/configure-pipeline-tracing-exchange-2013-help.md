@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 L'analisi della pipeline acquisisce copie dei messaggi di posta elettronica quando si spostano attraverso la pipeline di trasporto nel servizio di trasporto o nel servizio di trasporto di cassette postali sul server Cassette postali e sui server Trasporto Edge.
 

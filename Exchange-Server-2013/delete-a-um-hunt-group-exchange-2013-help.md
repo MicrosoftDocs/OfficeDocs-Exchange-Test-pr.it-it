@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 Una volta eliminato il gruppo di risposta di messaggistica unificata (UM), il gateway IP di messaggistica unificata associato al gruppo di risposta non gestirà né risponderà più alle chiamate in arrivo. Se l'eliminazione del gruppo di risposta di messaggistica unificata lascia il gateway IP di messaggistica unificata senza gruppi di risposta rimanenti configurati, il gateway IP non sarà più in grado di gestire o di elaborare le chiamate di messaggistica unificata.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Per impostazione predefinita, gli utenti non sono abilitati a effettuare chiamate in uscita. Per specificare i tipi di chiamate che gli utenti possono effettuare, creare prima le regole di composizione, quindi autorizzare i gruppi di queste regole di composizione per i dial plan di messaggistica unificata, per i criteri cassette postali di messaggistica unificata o per gli operatori automatici di messaggistica unificata. Per poter autorizzare gruppi di regole di composizione, è innanzitutto necessario definire le regole di composizione per il dial plan di messaggistica unificata. Per ulteriori informazioni, vedere [Creare regole di composizione per gli utenti](create-dialing-rules-for-users-exchange-2013-help.md).
 

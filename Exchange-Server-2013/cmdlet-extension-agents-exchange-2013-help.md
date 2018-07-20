@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Gli agenti di estensione cmdlet sono componenti di Microsoft Exchange Server 2013 richiamati dai cmdlet di Exchange 2013 quando vengono eseguiti. Come suggerisce il nome, gli agenti di estensione cmdlet estendono le funzionalità dei cmdlet che li richiamano semplificando l'elaborazione dei dati o eseguendo ulteriori azioni in base ai requisiti del cmdlet. Gli agenti di estensione cmdlet sono disponibili in qualsiasi ruolo del server.
 

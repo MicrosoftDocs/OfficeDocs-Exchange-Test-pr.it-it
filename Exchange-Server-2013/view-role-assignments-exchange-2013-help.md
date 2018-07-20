@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Le assegnazioni del ruolo di gestione consentono di assegnare un ruolo di gestione a un assegnatario di ruolo. Per ulteriori informazioni sulle assegnazioni del ruolo di gestione in Microsoft Exchange Server 2013, vedere [Informazioni sulle assegnazioni dei ruoli di gestione](understanding-management-role-assignments-exchange-2013-help.md).
 

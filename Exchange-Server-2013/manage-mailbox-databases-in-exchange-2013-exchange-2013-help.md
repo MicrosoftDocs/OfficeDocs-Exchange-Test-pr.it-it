@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-04-29_
+_**Ultima modifica dell'argomento:** 2013-04-29_
 
 Un database delle cassette postali è un'unità di granularità in cui vengono create e archiviate le cassette postali. Un database delle cassette postali viene archiviato come un file del database di Exchange (con estensione edb). In Microsoft Exchange Server 2013, tutti i database delle cassette postali dispongono di proprie proprietà che possono essere configurate.
 
@@ -85,8 +85,7 @@ In Shell, verificare che tutte le informazioni sul database delle cassette posta
 
 3.  Fare clic su **Modifica** ![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica")per configurare gli attributi di un database delle cassette postali.
 
-4.  
-    
+4.      
     Utilizzare la scheda **Generale** per visualizzare lo stato del database delle cassette postali, incluso il percorso del database delle cassette postali, l'ultimo backup e lo stato del database:
     
       - **Percorso database**   In questo campo di sola lettura viene visualizzato il percorso completo per il database (EDB) di Exchange 2013  per il database delle cassette postali selezionato. Per visualizzare il percorso completo, selezionare il percorso e premere la freccia destra. Non è possibile utilizzare questo campo per modificare il percorso. Per modificare il percorso dei file di database, utilizzare il cmdlet [Move-DatabasePath](https://technet.microsoft.com/it-it/library/bb124742\(v=exchg.150\)).

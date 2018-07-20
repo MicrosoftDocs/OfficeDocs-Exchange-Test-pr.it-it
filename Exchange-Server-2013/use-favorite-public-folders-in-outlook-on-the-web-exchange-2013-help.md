@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-06-24_
+_**Ultima modifica dell'argomento:** 2016-06-24_
 
 Nel client di Outlook, gli utenti dell'organizzazione possono aggiungere cartelle pubbliche nelle cartelle **Preferiti**. Quindi, a seconda dei criteri dell'organizzazione, è possibile utilizzare Outlook sul Web per aggiungere le stesse cartelle pubbliche a quelle Preferiti ed eseguire determinate funzioni in Outlook sul Web che vengono utilizzate nel client di Outlook.
 

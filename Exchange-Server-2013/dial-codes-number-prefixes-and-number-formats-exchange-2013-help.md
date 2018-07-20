@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-05-04_
+_**Ultima modifica dell'argomento:** 2016-05-04_
 
 È possibile configurare diversi codici di chiamata utilizzati da un server Messaggistica unificata per effettuare chiamate interne ed esterne per utenti abilitati alla messaggistica unificata. Spesso, è necessario configurare un dial plan con codici di accesso o di chiamata, un prefisso nazionale o formati di numeri nazionali e internazionali in modo da poter controllare le chiamate esterne per gli utenti nell'organizzazione. In questo argomento vengono descritti i codici di chiamata, i prefissi e i formati di numeri e viene illustrato come utilizzarli per controllare le chiamate esterne per l'organizzazione.
 

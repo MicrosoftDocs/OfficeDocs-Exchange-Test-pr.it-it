@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-11-10_
+_**Ultima modifica dell'argomento:** 2015-11-10_
 
 Le autorizzazioni richieste per eseguire attività su client e dispositivi mobili dipendono dalla procedura in esecuzione o dal cmdlet che si intende eseguire. Per ulteriori informazioni sulle funzionalità per client e dispositivi mobili, vedere [Client e dispositivi mobili](clients-and-mobile-exchange-2013-help.md).
 

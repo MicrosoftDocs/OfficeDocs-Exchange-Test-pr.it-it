@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Messaggistica unificata (UM) di Microsoft si basa su soluzioni partner fax certificate per funzionalità avanzate, come i fax in uscita o il routing dei fax. Per impostazione predefinita, gli utenti non vengono configurati per il recapito di messaggi fax a utenti abilitati alla messaggistica unificata. I server Exchange inviano richieste fax a una soluzione partner fax certificata. Il server del partner fax riceve i dati e li invia alla cassetta postale del destinatario tramite un messaggio di posta elettronica con allegato il fax in formato TIFF. Per dettagli, vedere [Consentire agli utenti di posta vocale di ricevere fax](enable-voice-mail-users-to-receive-faxes-exchange-2013-help.md).
 

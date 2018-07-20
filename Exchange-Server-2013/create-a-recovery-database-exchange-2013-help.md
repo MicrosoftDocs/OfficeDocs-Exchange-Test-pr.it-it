@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-01-21_
+_**Ultima modifica dell'argomento:** 2013-01-21_
 
 È possibile utilizzare Shell per creare un database di ripristino, cioè un particolare database delle cassette postali utilizzato per montare ed estrarre i dati dal database ripristinato nel corso di un'operazione di ripristino. Dopo aver creato un database di ripristino, è possibile spostare un database di cassette postali ripristinato nel database di ripristino e utilizzare il cmdlet [New-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829875\(v=exchg.150\)) per estrarre i dati dal database ripristinato. Una volta completata l'estrazione, i dati possono essere esportati in una cartella o uniti in una cassetta postale esistente. Utilizzando i database di ripristino è possibile ripristinare i dati da un backup o dalla copia di un database senza interferire con l'accesso ai dati correnti da parte dell'utente.
 

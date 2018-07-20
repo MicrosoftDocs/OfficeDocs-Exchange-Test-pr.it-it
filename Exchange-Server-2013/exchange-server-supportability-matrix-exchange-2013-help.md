@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2007, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2007, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2018-03-20_
+_**Ultima modifica dell'argomento:** 2018-03-20_
 
 La matrice di supporto per Exchange Server è una fonte centrale in cui gli amministratori di Microsoft Exchange possono ricercare con facilità informazioni sul livello di supporto disponibile per qualsiasi configurazione o componente richiesto per le versioni supportate di Microsoft Exchange.
 

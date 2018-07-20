@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile importare ed esportare i file audio registrati da usare con dia plan di messaggistica unificata e operatori automatici. Ad esempio, è possibile esportare e salvare una copia di un file audio se si esegue l'aggiornamento da una versione precedente di Exchange. Oppure, potrebbe essere necessario importare una copia di un'istruzione audio registrata prima di configurare un dial plan o un operatore automatico.
 

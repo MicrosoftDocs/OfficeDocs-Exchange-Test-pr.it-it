@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Outlook Voice Access consente agli utenti abilitati alla messaggistica unificata di accedere alla cassetta postale utilizzando telefoni analogici, digitali o cellulari. Utilizzando il sistema di menu di Outlook Voice Access, gli utenti abilitati alla messaggistica unificata possono leggere messaggi di posta elettronica, ascoltare messaggi vocali, interagire con il proprio calendario di Outlook, accedere ai contatti personali e gestire opzioni personali quali la configurazione del PIN di Outlook Voice Access o la registrazione dei messaggi vocali. Questo argomento contiene un elenco dei comandi di Outlook Voice Access e una descrizione di come questi possano essere utilizzati dagli utenti che accedono alla propria cassetta postale chiamando un numero Outlook Voice Access.
 

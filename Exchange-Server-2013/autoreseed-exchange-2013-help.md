@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013 SP1_
+_**Si applica a:** Exchange Server 2013 SP1_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Reseeding automatico o reseeding automatico, è una funzionalità che è la sostituzione per le quali è normalmente gestito dall'amministratore di azione in risposta a un errore del disco, evento danneggiamento dei database o altro problema che richiede un reseeding di una copia del database. Reseeding automatico è progettato per il ripristino automatico ridondanza del database dopo un errore del disco con dischi di riserva sottoposti a provisioning nel sistema.
 

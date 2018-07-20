@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 È possibile identificare un messaggio di notifica sullo stato del recapito (DSN) personalizzato in base alla sua sintassi. L'identità è costituita dal GUID (Globally Unique Identifier, identificatore univoco globale) del messaggio DSN (Delivery Status Notification) personalizzato o da una stringa costituita dai seguenti valori:
 

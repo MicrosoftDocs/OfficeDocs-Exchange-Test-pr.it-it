@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Gli ambiti del ruolo di gestione consentono di determinare gli oggetti disponibili, in modo che l'utente possa modificarli utilizzando i cmdlet e i parametri relativi. Aggiungendo un ambito di gestione, è possibile configurare le assegnazioni dei ruoli di gestione, in modo che gli utenti possano amministrare specifici server, database, destinatari e altri oggetti nell'organizzazione pur rimanendo soggetti a restrizioni per la modifica di altri oggetti.
 

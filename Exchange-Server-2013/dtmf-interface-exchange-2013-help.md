@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Nella messaggistica unificata, i chiamanti possono utilizzare la multifrequenza (DTMF), nota anche come composizione a toni, e input vocali per interagire con il sistema. I metodi utilizzati dai chiamanti dipendono dalla configurazione dei dial plan e degli operatori automatici di messaggistica unificata.
 

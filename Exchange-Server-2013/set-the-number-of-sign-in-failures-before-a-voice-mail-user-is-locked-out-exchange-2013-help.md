@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile configurare il numero di tentativi di accesso non riusciti prima che agli utenti di Outlook Voice Access non venga più consentito l'accesso alle proprie cassette postali. Il numero di tentativi di accesso non riusciti consentiti prima che una cassetta postale venga bloccata è configurato in un criterio cassetta postale di messaggistica unificata e si applica a tutti gli utenti abilitati alla messaggistica unificata associati a tale criterio. L'impostazione predefinita è 15.
 

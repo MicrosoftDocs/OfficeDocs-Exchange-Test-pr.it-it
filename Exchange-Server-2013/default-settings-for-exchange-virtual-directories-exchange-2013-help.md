@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Exchange Server 2013 configura automaticamente più directory virtuali IIS (Internet Information Services) durante l'installazione. Questo argomento contiene informazioni relative alle impostazioni di autenticazione IIS e alle impostazioni predefinite di SSL (Secure Sockets Layer) per i server Accesso client e Cassette postali.
 

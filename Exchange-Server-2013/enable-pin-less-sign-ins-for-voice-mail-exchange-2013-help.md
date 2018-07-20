@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile impostare la Messaggistica unificata in modo che gli utenti possano accedere alla propria casella vocale senza l'utilizzo di un PIN. Per impostazione predefinita, agli utenti di Outlook Voice Access viene richiesto di immettere un PIN per accedere alla propria cassetta postale e di accedere alla posta vocale, alla posta elettronica, al calendario, ai contatti personali, alla directory e alle opzioni personali.
 

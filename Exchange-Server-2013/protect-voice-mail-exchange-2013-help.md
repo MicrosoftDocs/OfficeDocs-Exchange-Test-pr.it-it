@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Alcuni sistemi di telefonia IP PBX e il legacy Private Branch eXchange (PBX) consentono al chiamante di contrassegnare un messaggio della segreteria telefonica come privato, bloccare il destinatario del messaggio di inoltro ad altri utenti. In sistemi di segreteria telefonica integrata, un messaggio vocale è possibile accedere in diversi modi, che rende più complessa per evitare messaggi vocali contrassegnati come privati dall'esposizione a listener impreviste.
 

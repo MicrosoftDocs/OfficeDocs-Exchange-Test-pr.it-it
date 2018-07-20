@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-16_
+_**Ultima modifica dell'argomento:** 2014-12-16_
 
 È possibile utilizzare Shell per aggiornare un elenco di indirizzi globale. Un elenco di indirizzi globale è una directory che contiene voci per ogni gruppo, utente e contatto che fa parte dell'implementazione di Microsoft Exchange nell'organizzazione.
 

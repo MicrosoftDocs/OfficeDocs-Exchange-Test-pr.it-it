@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-15_
+_**Ultima modifica dell'argomento:** 2016-12-15_
 
 Quando si configurano le reti di telefonia e dati per la messaggistica unificata in Microsoft Exchange Server 2013, è necessario configurare i gateway VoIP in modo che comunichino con i server Accesso client su cui è in esecuzione il servizio di routing delle chiamate di messaggistica unificata di Microsoft Exchange e con i server Cassette postali su cui è in esecuzione il servizio Messaggistica unificata di Microsoft Exchange. È necessario anche configurare i gateway VoIP per la comunicazione con i sistemi PBX (Private Branch eXchanges) dell'organizzazione. Per configurare un gateway VoIP affinché comunichi con un centralino, è possibile utilizzare le informazioni e i collegamenti descritti in questo argomento.
 

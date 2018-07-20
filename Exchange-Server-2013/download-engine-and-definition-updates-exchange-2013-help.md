@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 Microsoft gli amministratori Exchange Server 2013 possono scaricare manualmente motore antimalware e gli aggiornamenti delle definizioni (firma). Si consiglia di scaricare il motore e alle definizioni degli aggiornamenti nel server Exchange prima dell'immissione nell'ambiente di produzione.
 

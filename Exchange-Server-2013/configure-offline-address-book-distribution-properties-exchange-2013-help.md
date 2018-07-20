@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-14_
+_**Ultima modifica dell'argomento:** 2012-10-14_
 
 Per ogni punto di distribuzione della rubrica offline (OAB) in Exchange, è possibile configurare due URL: un URL interno a cui è possibile accedere solo dalla rete aziendale interna e un URL esterno a cui si può accedere da Internet.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Durante la fase di pianificazione, gli architetti e gli amministratori di sistema, nonché le altre figure professionali coinvolte, devono identificare i requisiti aziendali e architetturali per la distribuzione e in particolare i requisiti di elevata disponibilità e resilienza del sito.
 

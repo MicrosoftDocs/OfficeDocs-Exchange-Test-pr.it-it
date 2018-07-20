@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Utilizzare questo elenco di controllo per l'aggiornamento da Microsoft Exchange 2010 a Exchange 2013. Prima di iniziare a utilizzare questo elenco di controllo, assicurarsi che si ha familiarità con i concetti illustrati in:
 

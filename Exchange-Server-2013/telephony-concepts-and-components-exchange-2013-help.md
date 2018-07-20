@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-25_
+_**Ultima modifica dell'argomento:** 2013-04-25_
 
 Se si sta pianificazione e distribuzione MicrosoftExchange 2013 della messaggistica unificata (UM) in rete, è necessario comprendere le reti di messaggistica unificata e telefonia. In questo argomento viene fornita una panoramica della telefonia concetti dell'infrastruttura e i componenti che consentono di piano e distribuire server che eseguono Exchange 2013 la messaggistica unificata.
 

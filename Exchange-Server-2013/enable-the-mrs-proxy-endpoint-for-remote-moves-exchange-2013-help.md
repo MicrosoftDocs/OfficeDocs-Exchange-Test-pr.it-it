@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-07-02_
+_**Ultima modifica dell'argomento:** 2013-07-02_
 
 Il proxy del servizio di replica delle cassette postali (proxy MRS) facilita gli spostamenti di cassette postali tra foreste e le migrazioni di spostamento remote tra l'organizzazione Exchange in locale ed Exchange Online. In Exchange 2013 il proxy MRS è incluso nel ruolo del server Cassette postali (anche noto come *Server Cassette postali*). Durante le migrazioni e gli spostamenti remoti tra le foreste, un server Accesso client agisce come proxy per le richieste di spostamento in arrivo per il server Cassette postali. La capacità del server Accesso client di accettare queste richieste, per impostazione predefinita, è disabilitata. Per consentire al server Accesso client di accettare le richieste di spostamento in arrivo, è necessario abilitare l'endpoint del proxy MRS.
 
@@ -100,10 +100,11 @@ Verificare che il parametro *MRSProxyEnabled* sia impostato su `True`.
 Un altro modo per verificare che l'endpoint del proxy MRS sia abilitato è quello di utilizzare il cmdlet **Test-MigrationServerAvailability** per verificare la capacità di comunicare con il server remoto che ospita le cassette postali da spostare, oppure nel caso di cassette postali Exchange Online off-boarding nell'organizzazione locale, un server nell'organizzazione locale. Per ulteriori informazioni, vedere [Test-MigrationServerAvailability](https://technet.microsoft.com/it-it/library/jj219169\(v=exchg.150\)).
 
 Nell'esempio seguente viene verificata la connessione a un server nella foresta corp.contoso.com.
-
-    $Credentials = Get-Credential
-
-    Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
-
+```
+$Credentials = Get-Credential
+```
+```
+Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
+```
 Per eseguire correttamente il comando, l'endpoint del proxy MRS deve essere abilitato.
 

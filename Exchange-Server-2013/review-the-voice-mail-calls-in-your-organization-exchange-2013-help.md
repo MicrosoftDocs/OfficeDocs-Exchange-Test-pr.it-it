@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile utilizzare il rapporto Statistiche chiamate per visualizzare le informazioni sul tipo e lo stato delle chiamate in ingresso gestite dai server Exchange dell'organizzazione. Il rapporto contiene informazioni statistiche sulle chiamate inoltrate alla messaggistica unificata o effettuate da essa per l'organizzazione. È possibile utilizzare le informazioni per tenere traccia dell'utilizzo della pianificazione delle capacità, del monitoraggio e della risoluzione dei problemi di disponibilità e qualità audio della messaggistica unificata, nonché la risoluzione dei problemi delle chiamate con errori.
 

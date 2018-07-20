@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In Exchange Online e Exchange Server 2013, è possibile utilizzare i criteri di conservazione per la gestione del ciclo di vita di posta elettronica. Creare i tag di conservazione, aggiungendoli a un criterio di conservazione e applicare il criterio agli utenti di cassette postali vengono applicati i criteri di conservazione.
 

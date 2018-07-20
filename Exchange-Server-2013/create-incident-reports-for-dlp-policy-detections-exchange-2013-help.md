@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 In Exchange Server 2013, è possibile definire un'azione per creare un rapporto sull'incidente all'interno di un set di regole dei criteri DLP. Inoltre, è possibile indicare a cui inviare il report e si desidera procedere con il messaggio originale. Rapporto operazioni non consentite può contenere le informazioni seguenti.
 

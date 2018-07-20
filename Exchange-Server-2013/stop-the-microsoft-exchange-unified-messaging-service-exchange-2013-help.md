@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-16_
+_**Ultima modifica dell'argomento:** 2012-11-16_
 
 È possibile utilizzare lo snap-in Servizi in Microsoft Management Console (MMC) o cmd.exe nel prompt dei comandi per arrestare il servizio di messaggistica unificata di MicrosoftExchange su un server Cassette postali. In alcune situazioni è necessario arrestare il servizio. Ad esempio, quando è indispensabile disconnettere il server Cassette postali. Una volta arrestato il servizio di messaggistica unificata di MicrosoftExchange, il server Cassette postali non è più in grado di accettare ed elaborare le chiamate in arrivo.
 

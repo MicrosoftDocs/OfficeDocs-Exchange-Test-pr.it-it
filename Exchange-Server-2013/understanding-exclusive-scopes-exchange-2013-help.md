@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Gli *ambiti esclusivi* sono un tipo speciale di ambiti di gestione espliciti che possono essere associati alle assegnazioni dei ruoli di gestione. Gli ambiti esclusivi sono progettati per le situazioni in cui si desidera controllare in modo rigoroso l'accesso a un gruppo di oggetti particolarmente preziosi, come, ad esempio, la cassetta postale di un amministratore delegato.
 

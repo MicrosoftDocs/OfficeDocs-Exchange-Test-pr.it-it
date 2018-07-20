@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-09_
+_**Ultima modifica dell'argomento:** 2012-11-09_
 
 [Esaminare le chiamate di posta vocale all'interno dell'organizzazione](review-the-voice-mail-calls-in-your-organization-exchange-2013-help.md)
 

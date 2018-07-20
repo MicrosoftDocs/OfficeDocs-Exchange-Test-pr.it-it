@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-08_
+_**Ultima modifica dell'argomento:** 2012-10-08_
 
 In questo argomento è spiegato come aggiungere, rimuovere, copiare e visualizzare i gruppi di ruoli di gestione in Microsoft Exchange Server 2013. Viene inoltre mostrato come aggiungere, rimuovere e gestire i ruoli di gestione nei gruppi di ruoli e come cambiare gli ambiti di gestione e i delegati nei gruppi di ruoli. Per ulteriori informazioni sui gruppi di ruoli in Exchange 2013, vedere [Informazioni sui gruppi di ruoli di gestione](understanding-management-role-groups-exchange-2013-help.md).
 

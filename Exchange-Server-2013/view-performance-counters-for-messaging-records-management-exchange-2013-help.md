@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2009-12-09_
+_**Ultima modifica dell'argomento:** 2009-12-09_
 
 È possibile utilizzare Monitoraggio affidabilità e prestazioni di Windows (Perfmon.exe) per selezionare e visualizzare i contatori delle prestazioni per la gestione dei record di messaggistica (MRM). Utilizzando i contatori delle prestazioni è possibile monitorare l'Assistente cartelle gestite mentre esegue processi della gestione record di messaggistica che impiegano molte risorse.
 

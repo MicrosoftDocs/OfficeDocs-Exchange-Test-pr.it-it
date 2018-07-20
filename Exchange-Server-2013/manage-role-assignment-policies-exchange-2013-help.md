@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-09_
+_**Ultima modifica dell'argomento:** 2012-10-09_
 
 Se si desidera personalizzare le autorizzazioni assegnate a un gruppo di utenti finali, è possibile creare un nuovo criterio di assegnazione del ruolo di gestione personalizzato. Il criterio di assegnazione creato può essere personalizzato in base alle esigenze specifiche dell'utente finale. Per ulteriori informazioni sui criteri di assegnazione in Microsoft Exchange Server 2013, vedere [Informazioni sui criteri di assegnazione di ruolo di gestione](understanding-management-role-assignment-policies-exchange-2013-help.md).
 

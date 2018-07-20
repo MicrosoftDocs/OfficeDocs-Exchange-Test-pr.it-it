@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-19_
+_**Ultima modifica dell'argomento:** 2014-06-19_
 
 Per eseguire un'installazione automatica, è necessario installare Microsoft Exchange Server 2013 dal prompt dei comandi. Per ulteriori informazioni sulla pianificazione e la distribuzione di Exchange 2013, vedere [Pianificazione e distribuzione](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

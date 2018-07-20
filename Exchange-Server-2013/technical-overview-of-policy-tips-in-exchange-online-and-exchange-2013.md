@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-07-22_
+_**Ultima modifica dell'argomento:** 2015-07-22_
 
 È possibile ottenere per impedire l'organizzazione Microsoft Outlook, Outlook Web App (OWA) e OWA per gli utenti di posta elettronica di dispositivi in modo improprio l'invio di informazioni riservate mediante la creazione di criteri di criterio DLP perdita di dati che includono i messaggi di notifica *Suggerimento del criterio* . Analogamente ai suggerimenti messaggio che sono stati introdotti in Microsoft Exchange Server 2010, i messaggi di notifica suggerimento sul criterio vengono visualizzati agli utenti in Outlook durante la creazione di un messaggio di posta elettronica. Messaggi di notifica suggerimento criterio visualizzata solo se un elemento sui messaggi di posta elettronica del mittente sembra violano i criteri DLP contenenti sul posto e che criterio sono inclusi una regola per ricevere una notifica al mittente quando vengono soddisfatte le condizioni che si stabilisce. Guardare questo video per ulteriori informazioni.
 

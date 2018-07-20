@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 In questo articolo sono descritti i caratteri che non è possibile utilizzare come nomi degli oggetti in Exchange 2013. Quando si creano nomi per oggetti o componenti in Exchange 2013, i nomi non possono contenere caratteri non supportati, anche se può essere possibile creare un oggetto utilizzando un carattere non supportato. Inoltre, se si cerca di importare o collegare oggetti i cui nomi contengono caratteri non supportati, potrebbe essere visualizzato un messaggio di errore oppure potrebbero verificarsi comportamenti imprevisti.
 

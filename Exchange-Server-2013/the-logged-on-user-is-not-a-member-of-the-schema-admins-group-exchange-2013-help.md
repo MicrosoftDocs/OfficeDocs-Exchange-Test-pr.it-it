@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2014-12-02_
+_**Ultima modifica dell'argomento:** 2014-12-02_
 
 Microsoft Exchange Server 2013 il programma di installazione non può proseguire perché l'account utente che esegue lo schema di Active Directory aggiornare processo non sia membro del gruppo Schema Admins ed Enterprise Admins.
 

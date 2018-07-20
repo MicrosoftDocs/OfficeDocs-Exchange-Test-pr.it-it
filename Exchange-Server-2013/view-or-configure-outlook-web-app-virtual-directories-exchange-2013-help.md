@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-08-12_
+_**Ultima modifica dell'argomento:** 2013-08-12_
 
 È possibile utilizzare EAC o Shell per visualizzare o configurare le proprietà di una directory virtuale di Outlook Web App.
 
@@ -61,8 +61,7 @@ Se si utilizza EAC per visualizzare le proprietà di una directory virtuale di O
 
 2.  Nel riquadro dei risultati, selezionare la directory virtuale da visualizzare o modificare, quindi fare clic su **Modifica**.
 
-3.  
-    
+3.      
     Nella scheda **Generale** è possibile visualizzare le proprietà del sito Web predefinito di Outlook Web App e specificare un URL esterno e uno interno. Visualizzare o selezionare le seguenti opzioni:
     
       - **Server**   (Di sola lettura.) **Server** visualizza il nome del server che ospita la directory virtuale di Outlook Web App.
@@ -79,8 +78,7 @@ Se si utilizza EAC per visualizzare le proprietà di una directory virtuale di O
     
       - **URL esterno**   Utilizzare questa casella di testo per specificare l'URL utilizzato per accedere al sito Web da Internet. Per impostazione predefinita, **URL esterno** è vuoto. Per i server Accesso client connessi a Internet, **URL esterno** deve essere impostato sul valore pubblicato nel DNS per quel sito Active Directory. Per i server di Exchange 2013 non connessi a Internet, l'impostazione **URL esterno** deve restare vuota.
 
-4.  
-    
+4.      
     Sulla scheda **Autenticazione**, specificare i metodi di autenticazione, il formato di accesso e il dominio di accesso.
     
       - **Utilizza uno o più metodi di autenticazione standard**   Selezionare tale opzione per utilizzare uno o più dei seguenti metodi di autenticazione standard:
@@ -106,8 +104,7 @@ Se si utilizza EAC per visualizzare le proprietà di una directory virtuale di O
         
         **Solo nome utente**   L'utente deve immettere soltanto il nome utente, senza il nome di dominio, ad esempio Kweku. Se si utilizza il prompt di accesso **Solo nome utente** per l'autenticazione basata su moduli, è necessario specificare anche la proprietà **Dominio di accesso**. La proprietà **Dominio di accesso** determina il dominio predefinito da utilizzare quando un utente tenta di accedere a Outlook Web App. Ad esempio, se il dominio predefinito è Contoso e un utente del dominio denominato Kweku esegue l'accesso a Outlook Web App, è necessario immettere soltanto Kweku come nome utente. Il server utilizzerà il dominio predefinito Contoso. Se l'utente non è un membro del dominio Contoso, è necessario specificare il dominio e il nome utente.
 
-5.  
-    
+5.      
     Sulla scheda **Funzionalità**, specificare le funzionalità che si desidera abilitare o disabilitare per gli utenti di Outlook Web App su una directory virtuale.
     
 
@@ -123,8 +120,7 @@ Se si utilizza EAC per visualizzare le proprietà di una directory virtuale di O
 
 
 
-6.  
-    
+6.      
     Nella scheda **Accesso ai file**, utilizzare le caselle di controllo per configurare le opzioni di visualizzazione e accesso ai file per gli utenti. L'accesso ai file consente a un utente di aprire o visualizzare il contenuto dei file allegati a un messaggio di posta elettronica.
     
     L'accesso ai file può essere controllato valutando se un utente ha effettuato l'accesso su un computer pubblico o privato. L'opzione destinata agli utenti per l'accesso a un computer privato o pubblico è disponibile solo se si utilizza l'autenticazione basata su moduli. Tutte le altre forme di autenticazione corrispondono, per impostazione predefinita, all'accesso a un computer privato.

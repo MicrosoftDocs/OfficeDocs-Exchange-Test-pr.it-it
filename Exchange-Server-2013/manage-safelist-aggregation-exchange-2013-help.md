@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 *Aggregazione dell'elenco indirizzi attendibili* fa riferimento a una funzionalità di protezione da posta indesiderata condivisa da Microsoft Outlook e Microsoft Exchange Server 2013. Questa funzionalità raccoglie i dati dagli elenchi Mittenti attendibili, elenchi Destinatari attendibili, elenchi Mittenti bloccati e i dati dei contatti configurati dagli utenti di Outlook e rende questi dati disponibili per gli agenti di protezione da posta indesiderata di Exchange. L'aggregazione dell'elenco indirizzi attendibili consente di ridurre le istanze di falsi positivi durante l'esecuzione del filtro di protezione dalla posta indesiderata da parte dei server di Exchange in cui sono in esecuzione gli agenti di protezione di posta indesiderata.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-15_
+_**Ultima modifica dell'argomento:** 2012-10-15_
 
 In Microsoft Exchange Server 2013 l'elevata disponibilità del trasporto è responsabile della conservazione delle copie ridondanti dei messaggi prima e dopo l'avvenuto recapito. Le prestazioni di Exchange 2013 risultano migliorate dopo l'introduzione delle funzionalità ad alta disponibilità in Exchange Server 2010, ad esempio, la ridondanza shadow e il dumpster di trasporto, che garantiscono che i messaggi non vadano persi nel transito.
 

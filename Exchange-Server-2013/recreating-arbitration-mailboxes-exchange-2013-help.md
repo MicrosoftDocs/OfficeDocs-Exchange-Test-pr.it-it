@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Ultima modifica dell'argomento:**2018-01-17_
+_**Ultima modifica dell'argomento:** 2018-01-17_
 
-**Sintesi:** Informazioni sulle cassette postali di arbitrato in Exchange 2013 e su come ricrearle.
+**Sintesi:**  Informazioni sulle cassette postali di arbitrato in Exchange 2013 e su come ricrearle.
 
 Exchange 2013 include cinque cassette postali di sistema chiamate *cassette postali di arbitrato*. Le cassette postali di arbitrato vengono usate per l'archiviazione di diversi tipi di dati di sistema e per la gestione del flusso di lavoro di approvazione dei messaggi. Nel seguente grafico viene elencato ogni tipo di cassetta postale di arbitrato con le rispettive responsabilità.
 

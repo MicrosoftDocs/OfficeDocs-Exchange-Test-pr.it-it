@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Per impostazione predefinita, ciascun dial plan di messaggistica unificata utilizza un file WAV standard per la formula di benvenuto riprodotta ai chiamanti, inclusi gli utenti di Outlook Voice Access che chiamano il numero di Outlook Voice Access configurato. È tuttavia possibile creare un file WAV o WMA per la formula di benvenuto, quindi abilitarlo nel dial plan di messaggistica unificata.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010, Exchange Server 2013_
+_**Si applica a:** Exchange Server 2010, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-11-16_
+_**Ultima modifica dell'argomento:** 2014-11-16_
 
 Una rubrica offline è la copia di una raccolta di indirizzi di posta elettronica scaricata in modo tale da consentire a un utente di Microsoft Outlook di accedere alla rubrica quando è disconnesso dal server. Microsoft Exchange genera i nuovi file della rubrica offline, li comprime e li archivia in una condivisione locale. È possibile scegliere quali elenchi di indirizzi rendere disponibili agli utenti che lavorano offline e configurare il metodo di distribuzione di tali rubriche.
 

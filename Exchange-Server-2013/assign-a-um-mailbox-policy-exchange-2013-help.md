@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-30_
+_**Ultima modifica dell'argomento:** 2012-11-30_
 
 Quando si abilita un utente alla messaggistica unificata e alla posta vocale, è necessario selezionare il criterio cassetta postale di messaggistica unificata che verrà associato alla cassetta postale dell'utente. È possibile modificare tale criterio dopo che l'utente è stato abilitato alla messaggistica unificata.
 

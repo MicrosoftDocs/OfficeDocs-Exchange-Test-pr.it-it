@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Post-installazione delle attività per il flusso di posta e l'accesso client di Exchange Server 2013, nonché informazioni su come configurare un certificato SSL.
 

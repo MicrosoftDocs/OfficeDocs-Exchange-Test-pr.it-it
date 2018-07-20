@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 I dial plan di messaggistica unificata sono i componenti principali della messaggistica unificata e sono necessari per una corretta distribuzione della messaggistica unificata nella rete. Nelle seguenti sezioni vengono descritti i dial plan di messaggistica unificata e il loro utilizzo nella distribuzione.
 

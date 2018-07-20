@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Molte organizzazioni distribuiscono più foreste per creare confini di protezione al loro interno. L'utilizzo di più foreste consente agli amministratori di definire questi confini di protezione in modo più adeguato ai loro requisiti, assicurando che abbia accesso alle risorse il minor numero possibile di persone oppure segmentando i reparti dell'organizzazione.
 

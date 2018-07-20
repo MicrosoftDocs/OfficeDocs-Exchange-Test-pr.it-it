@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-08-13_
+_**Ultima modifica dell'argomento:** 2014-08-13_
 
 Quando si aggiunge un server a un gruppo di disponibilità del database (DAG), il server collabora con gli altri server nel DAG per fornire il ripristino automatico a livello di database da errori di database, server e rete. Quando si rimuove un server da un DAG, il server non viene più protetto automaticamente dagli errori.
 

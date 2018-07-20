@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 È possibile impostare le opzioni nel Visualizzatore di code per regolare il numero di elementi visualizzati nella pagina e modificare l'intervallo di aggiornamento automatico. L'intervallo di aggiornamento automatico determina la frequenza con cui vengono aggiornati i risultati nel Visualizzatore di code.
 

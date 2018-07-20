@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-18_
+_**Ultima modifica dell'argomento:** 2013-02-18_
 
 La verifica dei messaggi registra l'attività di trasporto SMTP di tutti i messaggi che vengono trasferiti da e verso il servizio di trasporto o le cassette postali su un server Cassette postali di Exchange Server 2013 Microsoft. I registri di verifica dei messaggi possono essere utilizzati per le indagini sui messaggi, l'analisi del flusso di posta, le segnalazioni e la risoluzione dei problemi.
 
@@ -61,17 +61,13 @@ Per configurare la verifica dei messaggi, eseguire il comando seguente:
 
 In questo esempio vengono configurate le seguenti impostazioni del registro di verifica dei messaggi sul server Cassette postali Mailbox01:
 
-  -  
-    Configurare il percorso del file di registro di verifica dei messaggi su D:\\Message Tracking Log. Notare che se la cartella non esiste, verrà creata automaticamente.
+  -  Configurare il percorso del file di registro di verifica dei messaggi su D:\\Message Tracking Log. Notare che se la cartella non esiste, verrà creata automaticamente.
 
-  -  
-    Impostare la dimensione massima del file di registro di verifica dei messaggi su 20 MB.
+  -  Impostare la dimensione massima del file di registro di verifica dei messaggi su 20 MB.
 
-  -  
-    Impostare la dimensione massima della directory del registro di verifica dei messaggi su 1,5 GB.
+  -  Impostare la dimensione massima della directory del registro di verifica dei messaggi su 1,5 GB.
 
-  -  
-    Impostare la durata massima di un file di registro di verifica dei messaggi su 45 giorni.
+  -  Impostare la durata massima di un file di registro di verifica dei messaggi su 45 giorni.
 
 <!-- end list -->
 

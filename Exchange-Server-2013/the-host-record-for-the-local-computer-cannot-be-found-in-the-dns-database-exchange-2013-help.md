@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 L'installazione di Microsoft Exchange Server 2013 non può continuare. Impossibile trovare il record Host (A) per il computer nel database DNS (Domain Name System).
 

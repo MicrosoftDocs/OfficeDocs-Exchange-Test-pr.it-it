@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-03-26_
+_**Ultima modifica dell'argomento:** 2014-03-26_
 
 La rubrica gerarchica consente agli utenti finali di cercare i destinatari nella propria rubrica tramite una gerarchia organizzativa. In genere gli utenti sono limitati all'elenco indirizzi globale predefinito e relative proprietà dei destinatari, ma struttura dell'elenco indirizzi globale spesso non rispecchia accuratamente le relazioni o l'anzianità di lavoro dei destinatari presenti nell'organizzazione. La capacità di personalizzare una rubrica gerarchica associata alla struttura aziendale univoca dell'organizzazione offre agli utenti un metodo efficace per l'individuazione dei destinatari interni.
 

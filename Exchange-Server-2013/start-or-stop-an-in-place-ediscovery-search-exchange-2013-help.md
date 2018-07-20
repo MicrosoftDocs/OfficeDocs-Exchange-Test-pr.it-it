@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-07-14_
+_**Ultima modifica dell'argomento:** 2014-07-14_
 
 Consente di arrestare o riavviare una ricerca eDiscovery In locale in qualsiasi momento. Ad esempio, se si desidera modificare le proprietà di ricerca come cercare parole chiave o le cassette postali, è necessario arrestare una ricerca. È quindi possibile riavviare la ricerca dopo aver apportato le modifiche necessarie.
 

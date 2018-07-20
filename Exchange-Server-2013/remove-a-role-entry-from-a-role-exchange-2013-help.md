@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Le voci di un ruolo di gestione determinano quali cmdlet e parametri sono disponibili in un ruolo di gestione. Eliminando le voci di ruolo o i parametri di una voce di ruolo è possibile limitare le operazioni che gli utenti assegnati al ruolo di gestione possono eseguire. Per ulteriori informazioni sulle voci del ruolo di gestione in Microsoft Exchange Server 2013, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).
 

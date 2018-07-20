@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-18_
+_**Ultima modifica dell'argomento:** 2012-11-18_
 
 È possibile abilitare il servizio di routing delle chiamate di messaggistica unificata di Microsoft Exchange su un server Accesso client per rispondere alle nuove chiamate o, al contrario, per non consentire tale operazione. Per impostazione predefinita, il server Accesso client è abilitato dopo l'installazione. Quando si configura il server Accesso client per l'accettazione di chiamate vocali, fax, dell'operatore automatico e di Outlook Voice Access, viene utilizzato il cmdlet **Set-ServerComponentState**.
 

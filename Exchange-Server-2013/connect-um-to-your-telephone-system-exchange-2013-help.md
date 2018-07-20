@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-30_
+_**Ultima modifica dell'argomento:** 2012-11-30_
 
 La messaggistica unificata combina la messaggistica vocale e di posta elettronica in una sola cassetta postale accessibile da diversi dispositivi. Gli utenti possono ascoltare i messaggi della segreteria telefonica dalla Posta in arrivo o tramite Outlook Voice Access da qualsiasi telefono.
 

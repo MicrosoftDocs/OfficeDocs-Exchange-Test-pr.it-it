@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 È possibile utilizzare i dettagli in questo argomento per monitorare l'integrità e lo stato delle copie del database delle cassette postali per gruppi di disponibilità del database (DAG) per la raccolta delle informazioni di diagnostica e per configurare lo spazio su disco insufficiente soglia di monitoraggio.
 

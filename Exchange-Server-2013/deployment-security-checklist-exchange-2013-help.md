@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Le funzionalità di Microsoft Exchange Server 2013 sono state concepite allo scopo di migliorare la protezione dell'ambiente di messaggistica. Generalmente, con Exchange 2013 valgono le seguenti condizioni:
 

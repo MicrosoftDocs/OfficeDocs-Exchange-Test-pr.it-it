@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 I criteri di provisioning della cassetta postale del sito si applicano solamente ai messaggi di posta elettronica inviati e ricevuti dalla cassetta del sito e alla dimensione della cassetta del sito sul server Exchange.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Exchange Server Deployment Assistant è uno strumento basato su Web che consentono la distribuzione di Microsoft Exchange Server 2016 e Exchange Server 2013. L'Assistente per la distribuzione richiede alcune domande sull'ambiente corrente e quindi genera un elenco di controllo personalizzato e le procedure che consentono di semplificare la distribuzione. Per accedere all'Assistente per la distribuzione, vedere [Exchange Server Deployment Assistant](https://go.microsoft.com/fwlink/p/?linkid=277105).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-27_
+_**Ultima modifica dell'argomento:** 2014-06-27_
 
 La portabilità consente agli utenti di disporre di una cassetta postale temporanea per l'invio e la ricezione di posta elettronica durante il ripristino o la riparazione della cassetta postale originale. La cassetta postale temporanea può trovarsi sullo stesso server Cassette postali Exchange 2013 o su qualsiasi altro server Cassette postali Exchange 2013 nell'organizzazione. Il procedimento per utilizzare la portabilità è denominato ripristino del segnale di linea, che comporta la creazione di un database vuoto su un server delle cassette postali per sostituire un database danneggiato. Per ulteriori informazioni, vedere [Portabilità temporanea](dial-tone-portability-exchange-2013-help.md).
 
@@ -85,10 +85,13 @@ La portabilità consente agli utenti di disporre di una cassetta postale tempora
         Mount-Database -Identity RDB1
 
 13. Utilizzare i cmdlet [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) e [New-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829875\(v=exchg.150\)) per esportare i dati dall'RDB e importarli nel database ripristinato, come mostrato in questo esempio. In questo modo tutti i messaggi inviati e ricevuti verranno importati utilizzando il database del segnale di linea nel database di produzione.
-    
+
+       ```
         $mailboxes = Get-Mailbox -Database DTDB1
-    
+       ```
+       ```
         $mailboxes | %{ New-MailboxRestoreRequest -SourceStoreMailbox $_.ExchangeGuid -SourceDatabase RDB1 -TargetMailbox $_ }
+       ```
 
 14. Quando l'operazione di ripristino sarà stata completata, sarà possibile disinstallare e rimuovere l'RDB, come mostrato nell'esempio seguente.
     

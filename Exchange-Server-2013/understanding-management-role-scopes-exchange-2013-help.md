@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Gli *ambiti dei ruoli di gestione* consentono di definire lo specifico ambito di impatto o influenza di un ruolo di gestione quando viene creata un'assegnazione dei ruoli di gestione. Quando si applica un ambito, l'assegnatario dei ruoli può modificare solo gli oggetti contenuti all'interno di quell'ambito. Un assegnatario dei ruoli può indicare un gruppo dei ruoli di gestione, un ruolo di gestione, un criterio di assegnazione dei ruoli di gestione, un utente o un gruppo di protezione universale. Per ulteriori informazioni sui ruoli di gestione, vedere [Controllo di accesso basato sui ruoli](understanding-role-based-access-control-exchange-2013-help.md).
 

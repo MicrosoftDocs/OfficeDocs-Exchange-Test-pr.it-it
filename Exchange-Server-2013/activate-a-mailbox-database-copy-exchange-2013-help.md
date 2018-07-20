@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-01_
+_**Ultima modifica dell'argomento:** 2012-11-01_
 
 L'attivazione di una copia del database delle cassette postali è il processo con cui una specifica copia passiva viene designata come nuova copia attiva di un database delle cassette postali. Questo processo viene definito *passaggio di database*. Un passaggio di database richiede lo smontaggio del database attivo corrente e il montaggio della copia del database sul server specificato come nuova copia attiva del database delle cassette postali. La copia del database che diverrà il database delle cassette postali attivo deve essere integra e aggiornata.
 

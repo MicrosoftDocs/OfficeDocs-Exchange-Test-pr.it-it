@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Le voci di ruolo di gestione nei ruoli di gestione di primo livello senza ambito si riferiscono agli script e ai cmdlet non Exchange, nonché ai relativi parametri, che si desidera rendere disponibili a chi è assegnato al ruolo. Modificando i parametri disponibili in una voce di ruolo, è possibile controllare le attività che gli utenti assegnati al ruolo possono eseguire con lo script o il cmdlet non Exchange. Per ulteriori informazioni sulle voci di ruolo senza ambito, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).
 

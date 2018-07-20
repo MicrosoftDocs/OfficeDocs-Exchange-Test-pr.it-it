@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-09_
+_**Ultima modifica dell'argomento:** 2012-10-09_
 
 Le autorizzazioni in Microsoft Exchange Server 2013 vengono concesse per mezzo di ruoli di gestione assegnati a gruppi di ruoli di gestione, criteri di assegnazione del ruolo di gestione, gruppi di protezione universale (USG) o direttamente agli utenti. Gli utenti ricevono le autorizzazioni se sono membri dei gruppi di ruolo o dei gruppi di protezione universali, oppure se sono stati loro assegnati criteri di assegnazione del ruolo.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile utilizzare Exchange Management Shell per visualizzare un elenco di agenti di trasporto nella pipeline di trasporto sui server Cassette postali e Accesso client di Microsoft Exchange Server 2013. Nello specifico, il cmdlet **Get-TransportPipeline** mostra le informazioni sui seguenti tipi di agenti di trasporto nella pipeline di trasporto:
 

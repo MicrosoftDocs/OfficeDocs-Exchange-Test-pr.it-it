@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-08-20_
+_**Ultima modifica dell'argomento:** 2015-08-20_
 
 È possibile applicare dei limiti di dimensioni ai messaggi che transitano attraverso l'organizzazione di Microsoft Exchange Server 2013. È possibile limitare la dimensione complessiva di un messaggio o dei singoli componenti di esso come, ad esempio, l'intestazione, gli allegati e il numero dei destinatari. È possibile applicare i limiti in modo globale per l'intera organizzazione Exchange oppure per un oggetto utente o connettore.
 

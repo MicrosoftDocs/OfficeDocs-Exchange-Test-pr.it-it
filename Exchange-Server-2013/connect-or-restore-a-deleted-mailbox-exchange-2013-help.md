@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-05-04_
+_**Ultima modifica dell'argomento:** 2015-05-04_
 
 È possibile utilizzare EAC o Shell per connettere una cassetta postale eliminata a un account utente di Active Directory. Quando si elimina una cassetta postale, Exchange la conserva nel database relativo e la imposta sullo stato di disabilitato. Viene eliminato anche l'account utente di Active Directory associato. La cassetta postale viene conservata fino alla scadenza del periodo di conservazione delle cassette postali eliminate, che, per impostazione predefinita, equivale a 30 giorni, quindi viene rimossa permanentemente (o *eliminata definitivamente*) dal database delle cassette postali.
 

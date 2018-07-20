@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 È possibile creare le voci di dominio remoto per definire le impostazioni per il trasferimento dei messaggi tra l'organizzazione di Microsoft Exchange Server 2013 e i domini esterni all'organizzazione Exchange. Quando si crea una voce del dominio remoto, controllare i tipi di messaggi inviati a tale dominio. È inoltre possibile applicare criteri di formato di messaggio e set di caratteri accettabile per i messaggi inviati dagli utenti all'interno dell'organizzazione al dominio remoto. Le impostazioni per i domini remoti sono le impostazioni di configurazione globali per l'organizzazione Exchange.
 

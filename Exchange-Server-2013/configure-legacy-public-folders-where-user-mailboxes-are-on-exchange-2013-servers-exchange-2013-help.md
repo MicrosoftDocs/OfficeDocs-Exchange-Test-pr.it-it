@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2017-03-27_
+_**Ultima modifica dell'argomento:** 2017-03-27_
 
 Come consentire agli utenti di Exchange 2013 oppure Exchange 2016 di accesso Exchange 2010 o cartelle pubbliche precedenti (noto anche come delle cartelle pubbliche legacy).
 
@@ -56,10 +56,12 @@ Gli utenti le cui cassette postali si trovano in Exchange Server 2013 o Exchange
 
 
 3.  Creare una cassetta postale proxy nel nuovo database delle cassette postali e nascondere la cassetta postale dalla rubrica. L'SMTP di questa cassetta postale sarà restituito da Individuazione automatica come SMTP di *DefaultPublicFolderMailbox*, cosicché risolvendo questo SMTP il client può raggiungere il server Exchange legacy per l'accesso alle cartelle pubbliche.
-    
-        New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
-    
-        Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+    ```
+    New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
+    ```
+    ```
+    Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+    ```
 
 4.  Per Exchange 2010, abilitare Individuazione automatica per la restituzione delle cassette postali delle cartelle pubbliche proxy. Questo passaggio non è necessario per Exchange 2007.
     

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-06-25_
+_**Ultima modifica dell'argomento:** 2013-06-25_
 
 Dopo avere installato i server Cassette postali e Accesso client e configurato la messaggistica unificata, è possibile utilizzare diversi test diagnostici e un'applicazione telefonica basata su software per testare la connettività telefonica e il funzionamento dei servizi di messaggistica unificata.
 

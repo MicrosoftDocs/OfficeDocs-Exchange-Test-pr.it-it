@@ -17,7 +17,7 @@ _<strong>Si applica a:</strong>Exchange Server 2016_
 
 _<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
-**Riepilogo:** Come consentire agli utenti di Exchange Server 2016 locali di trarre vantaggio dalla collaborazione dei documenti con OneDrive for Business e SharePoint Online in una configurazione ibrida.
+**Riepilogo:**  Come consentire agli utenti di Exchange Server 2016 locali di trarre vantaggio dalla collaborazione dei documenti con OneDrive for Business e SharePoint Online in una configurazione ibrida.
 
 Recentemente, in Office 365 è stata resa disponibile una nuova opzione per gli allegati. In Exchange 2016, questa opzione, nota come *Collaborazione dei documenti*, consente agli utenti locali di integrare allegati archiviati in OneDrive for Business direttamente nel propri client di Outlook sul web.
 

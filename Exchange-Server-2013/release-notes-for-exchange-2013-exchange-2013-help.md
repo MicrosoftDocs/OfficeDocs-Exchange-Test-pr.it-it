@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-04-16_
+_**Ultima modifica dell'argomento:** 2018-04-16_
 
 Welcome to Microsoft Exchange Server 2013 \! In questo argomento è riportate informazioni importanti che è necessario conoscere per distribuire correttamente Exchange 2013. Leggere questo argomento completamente prima dell'inizio della distribuzione.
 

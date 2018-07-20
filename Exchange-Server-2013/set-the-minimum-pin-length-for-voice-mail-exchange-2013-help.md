@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile configurare la lunghezza minima del PIN per gli utenti di Outlook Voice Access abilitati alla messaggistica unificata. Le impostazioni del PIN configurate su un criterio cassetta postale di messaggistica unificata vengono applicate a tutti gli utenti associati a tale criterio.
 

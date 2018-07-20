@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
-**Sintesi:** Viene descritto come utilizzare l'autenticazione Kerberos con i server Accesso client con carico bilanciato in Exchange 2013.
+**Sintesi:**  Viene descritto come utilizzare l'autenticazione Kerberos con i server Accesso client con carico bilanciato in Exchange 2013.
 
 Per utilizzare l'autenticazione Kerberos con i server Accesso client con carico bilanciato, è necessario completare la procedura di configurazione illustrata in questo articolo.
 
@@ -59,7 +59,7 @@ Durante l'impostazione della credenziale ASA, tenere presenti le indicazioni seg
     
         New-ADComputer [-Name] <string> [-AccountPassword <SecureString>] [-AllowReversiblePasswordEncryption <System.Nullable[boolean]>] [-Description <string>] [-Enabled <System.Nullable[bool]>]
     
-    **Esempio:**
+    **Esempio:** 
     
         New-ADComputer -Name EXCH2013ASA -AccountPassword (Read-Host 'Enter password' -AsSecureString) -Description 'Alternate Service Account credentials for Exchange' -Enabled:$True -SamAccountName EXCH2013ASA
     
@@ -69,7 +69,7 @@ Durante l'impostazione della credenziale ASA, tenere presenti le indicazioni seg
     
         Set-ADComputer [-Name] <string> [-add @{<attributename>="<value>"]
     
-    **Esempio:**
+    **Esempio:** 
     
         Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
     

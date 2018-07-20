@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 La registrazione della connettività registra l'attività di connessione in uscita utilizzata per trasmettere i messaggi da un servizio di trasporto sul server Exchange. Lo scopo del registro di connettività non è quello di verificare la trasmissione dei singoli messaggi di posta elettronica, bensì di verificare l'attività di connessione dall'origine alla destinazione indipendentemente dalla quantità di messaggi trasmessi. La registrazione della connettività è disponibile nel servizio di trasporto front-end dei server Accesso client, nel servizio di trasporto dei server Cassette postali e nel servizio di trasporto delle cassette postali nei server Cassette postali. Nel seguente elenco vengono descritti i tipi di informazioni registrati nel registro di connettività:
 

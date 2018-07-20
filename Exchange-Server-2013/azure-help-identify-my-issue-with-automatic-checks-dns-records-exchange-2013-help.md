@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Uno dei problemi relativi all'installazione di configurazione più comuni in modo non corretto è rappresentata dalla configurazione record DNS. È possibile utilizzare le verifiche automatiche elencate di seguito per convalidare la configurazione e la Guida aggiornare l'ambiente in uso.
 

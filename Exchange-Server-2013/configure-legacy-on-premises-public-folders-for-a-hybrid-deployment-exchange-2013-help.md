@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2018-05-22_
+_**Ultima modifica dell'argomento:** 2018-05-22_
 
-**Riepilogo:** utilizzare la procedura descritta in questo articolo per sincronizzare le cartelle pubbliche tra Office 365 e la distribuzione locale di Exchange 2007 o Exchange 2010.
+**Riepilogo:**  utilizzare la procedura descritta in questo articolo per sincronizzare le cartelle pubbliche tra Office 365 e la distribuzione locale di Exchange 2007 o Exchange 2010.
 
 In una distribuzione ibrida, gli utenti possono trovarsi in Exchange Online, in locale o in entrambe le posizioni mentre le cartelle pubbliche possono trovarsi in Exchange Online o in locale. Le cartelle pubbliche possono risiedere in un'unica posizione, pertanto è necessario decidere se devono trovarsi in Exchange Online o in locale, non possono occupare entrambe le posizioni. Le cassette postali delle cartelle pubbliche sono sincronizzate con Exchange Online tramite il servizio Sincronizzazione delle directory. Le cartelle pubbliche abilitate alla posta, però, non sono sincronizzate tra le strutture locali.
 
@@ -104,7 +104,7 @@ La configurazione ibrida con le cartelle pubbliche di Exchange 2013 non è suppo
 
 7.  In Exchange 2007, è necessario essere assegnati al ruolo di amministratore dell'organizzazione Exchange o di amministratore server di Exchange. Inoltre, è necessario essere assegnati al ruolo Amministratore cartelle pubbliche e al gruppo Amministratori locale per il server di destinazione. Per i dettagli, vedere [Aggiunta di un utente o di un gruppo a un ruolo di amministratore](https://go.microsoft.com/fwlink/p/?linkid=81779)
 
-8.  Se Exchange Server 2007 è in esecuzione su Windows Server 2008 x64, è necessario eseguire l'aggiornamento a [Windows PowerShell 2.0 e WinRM 2.0 per Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930). Se Exchange Server 2007 è in esecuzione su Windows Server 2003 x64, è necessario eseguire l'aggiornamento a Windows PowerShell 2.0. Per ulteriori informazioni, vedere [Aggiornamento per Windows Server 2003 x64 Edition (KB968930)](https://www.microsoft.com/it-it/download/details.aspx?id=10512)..
+8.  Se Exchange Server 2007 è in esecuzione su Windows Server 2008 x64, è necessario eseguire l'aggiornamento a [Windows PowerShell 2.0 e WinRM 2.0 per Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930). Se Exchange Server 2007 è in esecuzione su Windows Server 2003 x64, è necessario eseguire l'aggiornamento a Windows PowerShell 2.0. Per ulteriori informazioni, vedere [Aggiornamento per Windows Server 2003 x64 Edition (KB968930)](https://www.microsoft.com/it-it/download/details.aspx?id=10512)..
 
 9.  Per accedere alle cartelle pubbliche in più strutture locali, è necessario aggiornare i relativi client Outlook con l'aggiornamento pubblico di Outlook di novembre 2012 o successivo.
     
@@ -144,9 +144,12 @@ La configurazione ibrida con le cartelle pubbliche di Exchange 2013 non è suppo
 
 3.  Creare una cassetta postale proxy nel nuovo database delle cassette postali e nascondere la cassetta postale dalla rubrica. L'SMTP di questa cassetta postale sarà restituito da Individuazione automatica come SMTP di *DefaultPublicFolderMailbox*, cosicché risolvendo questo SMTP il client può raggiungere il server Exchange legacy per l'accesso alle cartelle pubbliche.
     
-        New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs>
-    
-        Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+    ```
+    New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs>
+    ```
+    ```
+    Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+    ```
 
 4.  Per Exchange 2010, abilitare Individuazione automatica per la restituzione delle cassette postali delle cartelle pubbliche proxy. Questo passaggio non è necessario per Exchange 2007.
     

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-09_
+_**Ultima modifica dell'argomento:** 2013-04-09_
 
 È possibile configurare la porta TCP utilizzata per l'ascolto delle richieste SIP in un server Accesso Client che eseguono il servizio Microsoft Exchange Unified Messaging routing delle chiamate. Per impostazione predefinita, quando si installa un server Accesso Client, il numero di porta in attesa SIP TCP è impostato su 5060 e il server Accesso Client viene avviato in modalità TCP. La porta di attesa TCP SIP non può essere configurata tramite l'interfaccia di amministrazione di Exchange. È necessario configurare il numero di porta in attesa SIP TCP utilizzando il cmdlet **Set-UMCallRouterSettings** .
 

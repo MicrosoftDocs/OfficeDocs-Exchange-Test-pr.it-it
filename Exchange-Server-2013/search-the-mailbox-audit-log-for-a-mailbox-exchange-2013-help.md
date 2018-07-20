@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 È possibile ricercare in modo sincrono voci del registro di controllo delle cassette postali per una cassetta postale e visualizzare i risultati della ricerca in Shell.
 

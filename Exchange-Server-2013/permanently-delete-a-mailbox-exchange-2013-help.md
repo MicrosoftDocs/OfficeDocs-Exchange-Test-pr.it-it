@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-16_
+_**Ultima modifica dell'argomento:** 2012-11-16_
 
 Quando si eliminano in maniera definitiva le cassette postali attive e quelle disconnesse, tutto il contenuto relativo viene eliminato dal database delle cassette postali di Exchange con perdita di dati permanente. Quando si elimina definitivamente una cassetta postale attiva, viene eliminato l'account utente di Active Directory associato.
 

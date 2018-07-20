@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-19_
+_**Ultima modifica dell'argomento:** 2013-02-19_
 
 Microsoft Exchange Server 2013 supporta la disabilitazione di TLS per le comunicazioni SMTP tra i server Cassette postali in alcune topologie in cui vengono utilizzati i dispositivi WOC che comprimono il traffico SMTP.
 

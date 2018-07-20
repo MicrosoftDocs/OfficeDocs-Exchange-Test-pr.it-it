@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Informazioni sul servizio Individuazione automatica per Microsoft Exchange 2013. Vengono fornite informazioni sulle funzioni e sul funzionamento del servizio Individuazione automatica di Exchange, nonché sulle opzioni di sviluppo.
 

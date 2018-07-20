@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-17_
+_**Ultima modifica dell'argomento:** 2012-10-17_
 
 Il ruolo di gestione `MyMobileInformation` consente ai singoli utenti di visualizzare e modificare le impostazioni dei numeri del telefono cellulare e del cercapersone. Si tratta di un ruolo personalizzato creato dal ruolo principale di [Ruolo MyContactInformation](mycontactinformation-role-exchange-2013-help.md).
 

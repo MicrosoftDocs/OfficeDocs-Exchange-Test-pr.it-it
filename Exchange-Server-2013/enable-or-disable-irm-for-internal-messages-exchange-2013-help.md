@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-12_
+_**Ultima modifica dell'argomento:** 2012-10-12_
 
 In Microsoft Exchange Server 2013, Information Rights Management (IRM) è abilitato ai messaggi interni per impostazione predefinita. In tal modo sarà possibile creare le regole di protezione del trasporto e le regole di protezione di Microsoft Outlook per i messaggi protetti da IRM nel trasporto e nei client Microsoft Outlook 2010 e versioni successive. L'abilitazione di IRM per i messaggi interni è un prerequisito per tutte le altre funzionalità IRM di Exchange Server 2013, come la decrittografia del trasporto, la decrittografia della regola del journal, IRM in Microsoft Office Outlook Web App e IRM in Microsoft Exchange ActiveSync.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013 SP1_
+_**Si applica a:** Exchange Server 2013 SP1_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 È possibile utilizzare EAC o un'istanza di Shell per disabilitare o eliminare una cassetta postale in Exchange 2013. Quando si disabilita o elimina una cassetta postale, Exchange la conserva nel database delle cassette postali imposta lo stato disabilitato per la cassetta postale. Le cassette postali disabilitate ed eliminate vengono mantenute nel relativo database fino alla scadenza del periodo di conservazione, che equivale a 30 giorni per impostazione predefinita. Una volta trascorso il periodo di conservazione, la cassetta postale viene *eliminata* definitivamente.
 

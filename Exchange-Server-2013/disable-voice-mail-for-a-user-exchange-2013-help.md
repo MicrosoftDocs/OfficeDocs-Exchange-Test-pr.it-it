@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 È possibile disabilitare la messaggistica unificata per un utente abilitato alla messaggistica unificata. A tale scopo, l'utente non è più possibile utilizzare le funzionalità posta vocale di messaggistica unificata. Se si preferisce, quando si disabilita messaggistica unificata per un utente, è possibile mantenere le impostazioni di messaggistica unificata per l'utente.
 

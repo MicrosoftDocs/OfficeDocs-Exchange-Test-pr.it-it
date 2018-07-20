@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-04-28_
+_**Ultima modifica dell'argomento:** 2017-04-28_
 
 I suggerimenti messaggio sono messaggi informativi visualizzati agli utenti mentre compongono un messaggio. Microsoft Exchange Server 2013 analizza il messaggio, incluso l'elenco di destinatari a cui è indirizzato e, se rileva un potenziale problema, lo notifica all'utente con i suggerimenti messaggio prima di inviare il messaggio. Con l'aiuto delle informazioni fornite dai suggerimenti messaggio, i mittenti possono adattare il messaggio che stanno componendo per evitare situazioni indesiderate o rapporti di mancato recapito.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-24_
+_**Ultima modifica dell'argomento:** 2014-06-24_
 
 Quando si abilita la registrazione circolare per un database di cassette postali, il tipo di registrazione circolare che si ottiene dipende dalla replica o meno del database di cassette postali tramite replica continua:
 

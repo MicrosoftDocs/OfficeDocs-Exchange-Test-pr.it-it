@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-07-27_
+_**Ultima modifica dell'argomento:** 2016-07-27_
 
 L'Assistente cartelle gestite (MFA, Managed Folder Assistant) è uno dei numerosi processi per *assistente cassette postali* eseguito sui server Cassette postali. Il suo lavoro consiste nel processare le cassette postali con criterio di conservazione applicato, aggiungere i tag di conservazione inclusi nel criterio alla cassetta postale ed elaborare gli elementi nella cassetta postale. Se gli elementi hanno un tag di conservazione, l'assistente verifica la validità di tali elementi. Se un elemento ha superato il *periodo di conservazione*, esegue l'*azione di conservazione* specificata. Le azioni di conservazione includono lo spostamento di un elemento nell'archivio dell'utente, l'eliminazione dell'elemento e l'autorizzazione di ripristino o l'eliminazione permanente dell'elemento.
 

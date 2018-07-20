@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 La messaggistica unificata può utilizzare uno dei quattro codec per la creazione di messaggi vocali: MP3, Windows Media Audio (WMA), Group System Mobile (GSM) 06.10 e G.711 Pulse Code Modulation (PCM) Linear. Per impostazione predefinita, quando si crea un dial plan di messaggistica unificata, questo utilizza il codec audio MP3 per registrare i messaggi vocali. Il formato MP3 è un formato audio particolarmente diffuso utilizzato tra più sistemi operativi, client di posta elettronica e lettori MP3. Dopo aver creato il dial plan di messaggistica unificata, è possibile configurarlo per l'uso di uno degli altri formati codec audio (WMA, GSM 06.10 o G.711 PCM Linear). Per ascoltare un messaggio vocale, è necessario che sul telefono cellulare o sul computer sia installata un'applicazione audio compatibile.
 

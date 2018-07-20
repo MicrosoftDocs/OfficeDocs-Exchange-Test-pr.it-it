@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2018-04-20_
+_**Ultima modifica dell'argomento:** 2018-04-20_
 
 È possibile utilizzare EAC o Shell per assegnare autorizzazioni a utenti o gruppi (denominati *delegati*) per consentire loro di aprire o inviare messaggi da altre cassette postali. Le autorizzazioni possono essere assegnate a cassette postali utente, cassette postali collegate, cassette postali per le risorse e cassette postali condivise. È inoltre possibile assegnare autorizzazioni a gruppi di distribuzione, gruppi di distribuzione dinamici e gruppi di protezione abilitati alla posta, in modo da consentire ai delegati di inviare messaggi per conto del gruppo. È possibile assegnare ai delegati le seguenti autorizzazioni per accedere alle cassette postali o per inviare messaggi per conto di gruppi o cassette postali:
 

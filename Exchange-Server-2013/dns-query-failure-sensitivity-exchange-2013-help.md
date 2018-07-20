@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-12-02_
+_**Ultima modifica dell'argomento:** 2014-12-02_
 
 In Microsoft Exchange Server 2013, è possibile modificare la riservatezza query DNS per il recapito dei messaggi leggermente più veloce quando si verificano errori DNS per il dominio di destinazione. Tuttavia, a seconda degli errori DNS questa modifica può causare errori di recapito in determinate circostanze.
 

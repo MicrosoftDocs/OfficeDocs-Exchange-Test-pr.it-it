@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-06-15_
+_**Ultima modifica dell'argomento:** 2016-06-15_
 
 Cartelle pubbliche sono progettate per l'accesso condiviso e offrono un modo semplice ed efficace per raccogliere, organizzare e condividere informazioni con altre persone del gruppo di lavoro o dell'organizzazione. Abilitare alla posta una cartella pubblica consente agli utenti di inserire nella cartella pubblica inviando un messaggio di posta elettronica. Quando una cartella pubblica è abilitato alla posta ulteriori impostazioni saranno disponibili per la cartella pubblica nell'interfaccia di amministrazione Exchange (EAC), ad esempio gli indirizzi di posta elettronica e le quote di posta elettronica. In Shell, prima di una cartella pubblica è abilitati alla posta elettronica, è utilizzare il cmdlet **Set-PublicFolder** per gestire impostazioni delle relative. Dopo la cartella pubblica è abilitato alla posta, utilizzare cmdlet **Set-MailPublicFolder** e **Set-PublicFolder** per gestire le impostazioni.
 

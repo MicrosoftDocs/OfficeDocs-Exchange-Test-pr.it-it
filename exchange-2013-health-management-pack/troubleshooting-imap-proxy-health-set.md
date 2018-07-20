@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-07_
+_**Ultima modifica dell'argomento:** 2013-02-07_
 
 L'impostazione di integrità IMAP.Proxy consente di monitorare la disponibilità dell'infrastruttura proxy IMAP4 sul server Accesso client (CAS, Client Access Server). Se viene visualizzato un avviso in cui è indicato lo stato di errore dell'impostazione di integrità IMAP.Proxy, significa che è presente un problema che influisce sui componenti IMAP nel server Accesso client indicato nell'avviso.
 

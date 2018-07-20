@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 È possibile abilitare o disabilitare i criteri PIN comuni della messaggistica unificata per gli utenti di Outlook Voice Access. Se si abilita o disabilita l'impostazione dei criteri comuni del PIN in un criterio cassetta postale di messaggistica unificata, tale impostazione verrà applicata a tutti gli utenti abilitati alla messaggistica unificata che sono associati al criterio cassetta postale di messaggistica unificata. Per impostazione predefinita, gli utenti abilitati alla messaggistica unificata non possono utilizzare i criteri comuni durante la creazione di un PIN.
 

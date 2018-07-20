@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-12-20_
+_**Ultima modifica dell'argomento:** 2017-12-20_
 
 Gli amministratori possono utilizzare il cmdlet **Search-Mailbox** per cercare cassette postali utente ed eliminare messaggi da una cassetta postale.
 

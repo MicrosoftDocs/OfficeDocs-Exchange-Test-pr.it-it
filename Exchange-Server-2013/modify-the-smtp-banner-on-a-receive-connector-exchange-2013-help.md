@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 Il *banner SMTP* è la risposta alla connessione SMTP ricevuta da un server di messaggistica SMTP remoto dopo il collegamento a un connettore di ricezione configurato su un computer su cui viene eseguito Microsoft Exchange Server 2013.
 

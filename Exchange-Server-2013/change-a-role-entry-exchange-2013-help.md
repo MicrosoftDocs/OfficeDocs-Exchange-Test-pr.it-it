@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Ogni voce di ruolo di gestione contenuta in un ruolo di gestione rappresenta un cmdlet. Aggiungendo o rimuovendo determinati parametri da una voce di ruolo, che poi verrà aggiunta a un ruolo di gestione, si può stabilire se tali parametri debbano essere disponibili in quel dato cmdlet. Per ulteriori informazioni sulle voci del ruolo di gestione in Microsoft Exchange Server 2013, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).
 

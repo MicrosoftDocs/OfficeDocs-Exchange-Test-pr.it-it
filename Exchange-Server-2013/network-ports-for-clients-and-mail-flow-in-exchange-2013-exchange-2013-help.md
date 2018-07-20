@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In questo argomento vengono fornite informazioni relative alle porte di rete che vengono utilizzate da MicrosoftExchange Server 2013 per le comunicazioni con i client di posta elettronica, server di posta Internet e altri servizi esterni all'organizzazione Exchange locale. Prima di approfondire l'argomento, comprendere le regole di base riportate di seguito:
 
@@ -41,7 +41,7 @@ Porte di rete necessarie per la Messaggistica unificata
 
 Le porte di rete necessarie ai client di posta elettronica per accedere alle cassette postali e ad altri servizi nell'organizzazione Exchange sono descritte nel diagramma e nella tabella seguenti.
 
-**Note:**
+**Note:** 
 
   - La destinazione per i client e i servizi è un server Accesso client. Può trattarsi di un server Accesso client autonomo o di un server Accesso client e un server Cassette postali installato nello stesso computer.
 

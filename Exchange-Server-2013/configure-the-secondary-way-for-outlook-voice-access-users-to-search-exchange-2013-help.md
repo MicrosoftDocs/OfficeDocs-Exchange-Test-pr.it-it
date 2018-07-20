@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-22_
+_**Ultima modifica dell'argomento:** 2013-02-22_
 
 Quando viene creato un dial plan, è possibile configurare i metodi o le modalità principali e secondari *di composizione per nome* con cui i chiamanti eseguono la ricerca per nomi. Questi metodi di composizione per nome vengono utilizzati dai chiamanti per la ricerca dei nomi quando intendono individuare e contattare un utente durante la chiamata a un numero di Outlook Voice Access oppure durante la chiamata a un operatore automatico di messaggistica unificata associato al dial plan. I chiamanti possono utilizzare gli input a toni per individuare gli utenti abilitati per messaggistica unificata.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-14_
+_**Ultima modifica dell'argomento:** 2015-01-14_
 
 È possibile utilizzare modelli di criteri criterio DLP perdita di dati per acquisire familiarità con la soluzione DLP in Microsoft Exchange 2013. Un modello di criterio DLP è un modello per un criterio. È possibile selezionare un modello per iniziare il processo di creazione dei criteri DLP personalizzati. All'interno dei criteri DLP, è possibile personalizzare le regole per garantire che soddisfi le esigenze aziendali per la prevenzione della perdita di dati. Sono disponibili numerosi modelli di criteri da Microsoft, ma non sono l'unico modo per implementare una soluzione di prevenzione della perdita di dati in Exchange.
 
@@ -47,26 +47,21 @@ For more information
 
 È possibile creare un file di modello del criterio DLP indipendentemente da Exchange che soddisfi lo schema XML specifico fornito da Microsoft, quindi impostare il file nel sistema così da creare i criteri DLP partendo da esso. La creazione dei file dei modelli personalizzati consente di definire il proprio modello per i criteri DLP non ancora forniti da Microsoft. Non equivale alla creazione di un criterio DLP utilizzando Interfaccia di amministrazione di Exchange, come accade di solito una volta che i modelli del criterio sono disponibili. Se si crea un modello del criterio indipendente da Exchange, sarà necessario importarlo prima di poterlo utilizzare per analizzare i messaggi. È inoltre possibile creare le definizioni delle informazioni riservate indipendentemente da quelle definite da Microsoft in Exchange. È disponibile una definizione dello schema XML separata per i file del modello del criterio DLP e i pacchetti delle regole di classificazione. Per iniziare, vedere le seguenti informazioni:
 
-  -  
-    [Definire modelli DLP e tipi di informazione propri](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
+  -  [Definire modelli DLP e tipi di informazione propri](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 
-  -  
-    [Importare un modello di criteri DLP personalizzato da un file](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
+  -  [Importare un modello di criteri DLP personalizzato da un file](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
 
 ## Inclusione della funzionalità DLP nelle regole di trasporto esistenti
 
 Le funzionalità di rilevamento DLP possono essere incorporate nelle regole di trasporto tradizionali senza creare un nuovo criterio DLP. Se è già stato creato un set complesso di regole in una versione precedente di Exchange e si desidera duplicarle o aggiungere il rilevamento di informazioni riservate in Exchange 2013, utilizzare l'editor delle regole di trasporto in Interfaccia di amministrazione di Exchange o Exchange Management Shell per incorporare queste due nuove funzionalità. Per iniziare, vedere le seguenti informazioni:
 
-  -  
-    [Regole del flusso di posta o di trasporto](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md) (Exchange Server 2013)
+  -  [Regole del flusso di posta o di trasporto](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md) (Exchange Server 2013)
 
-  -  
-    [Regole del flusso (regole di trasporto) di posta in Exchange Online](https://technet.microsoft.com/it-it/library/jj919238\(v=exchg.150\)) (Exchange Online)
+  -  [Regole del flusso (regole di trasporto) di posta in Exchange Online](https://technet.microsoft.com/it-it/library/jj919238\(v=exchg.150\)) (Exchange Online)
 
-  -  
-    [Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md)
+  -  [Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md)
     
-    [Cmdlet dei criteri e di conformità](https://technet.microsoft.com/it-it/library/dd298082\(v=exchg.150\))
+  -  [Cmdlet dei criteri e di conformità](https://technet.microsoft.com/it-it/library/dd298082\(v=exchg.150\))
 
 ## Utilizzo dei criteri DLP creati da Microsoft
 

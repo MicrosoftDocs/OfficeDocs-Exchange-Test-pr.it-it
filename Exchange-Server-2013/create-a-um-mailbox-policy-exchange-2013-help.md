@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-03-08_
+_**Ultima modifica dell'argomento:** 2013-03-08_
 
 È possibile creare un criterio cassetta postale di messaggistica unificata per applicare una serie comune di impostazioni di messaggistica unificata, come le impostazioni dei criteri del PIN o le restrizioni di composizione, a un gruppo di cassette postali abilitate per la messaggistica unificata. I criteri cassetta postale di messaggistica unificata collegano un utente abilitato alla messaggistica unificata a un dial plan di messaggistica unificata e applicano un insieme di criteri o di impostazioni di protezione comune a un gruppo di cassette postali abilitate alla messaggistica unificata. I criteri cassetta postale di messaggistica unificata sono utili per l'applicazione e la standardizzazione delle impostazioni di configurazione della messaggistica unificata per utenti abilitati alla messaggistica unificata.
 

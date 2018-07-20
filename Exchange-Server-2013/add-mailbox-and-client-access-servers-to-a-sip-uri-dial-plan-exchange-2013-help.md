@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-16_
+_**Ultima modifica dell'argomento:** 2013-04-16_
 
 È possibile aggiungere i server Accesso client e Cassette postali ai dial plan SIP. I server Accesso client e Cassette postali non possono essere associati con dial plan Telephone Extension o E.164, ma i server risponderanno alle chiamate in arrivo.
 

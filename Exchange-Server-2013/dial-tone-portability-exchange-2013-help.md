@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-01-28_
+_**Ultima modifica dell'argomento:** 2013-01-28_
 
 La portabilità temporanea è una caratteristica di Microsoft Exchange Server 2013 che fornisce una soluzione di continuità aziendale limitata in caso di errori relativi a un database delle cassette postali, a un server o a un intero sito. La portabilità temporanea consente agli utenti di disporre di una cassetta postale temporanea per l'invio e la ricezione di posta elettronica durante il ripristino o la riparazione della cassetta postale originale. La cassette postale temporanea può trovarsi sullo stesso server Cassette postali di Exchange 2013 o su un altro server Cassette postali di Exchange 2013 dell'organizzazione che ha i database con la stessa versione dello schema del database. In questo modo un server alternativo può ospitare le cassette postali di utenti precedentemente su un server non più disponibile. I client che supportano l'individuazione automatica vengono automaticamente reindirizzati al nuovo server senza dover aggiornare manualmente il profilo desktop dell'utente. Una volta ripristinati i dati della cassetta postale originale dell'utente, un amministratore può unire la cassetta postale ripristinata e la cassetta postale temporanea dell'utente in una singola cassetta postale aggiornata.
 

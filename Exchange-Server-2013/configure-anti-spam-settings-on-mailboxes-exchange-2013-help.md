@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-11-17_
+_**Ultima modifica dell'argomento:** 2016-11-17_
 
 È possibile configurare su singole cassette postali impostazioni di protezione dalla posta indesiderata specifiche e diverse dalle impostazioni di protezione dalla posta indesiderata applicate alle altre cassette postali nell'organizzazione di Exchange. Quando si configura un'impostazione di protezione dalla posta indesiderata su una cassetta postale, tale impostazione sostituisce l'impostazione di protezione dalla posta indesiderata configurata per l'organizzazione o l'impostazione di filtraggio del contenuto a livello di organizzazione.
 

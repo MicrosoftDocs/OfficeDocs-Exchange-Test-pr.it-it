@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 La condivisione federata in Exchange Server 2013 consente agli utenti di condividere le informazioni con i destinatari delle organizzazioni federate esterne. È compresa la condivisione delle informazioni sulla disponibilità, nota anche come disponibilità di calendario per scopi di pianificazione oppure, in base alla natura della relazione di organizzazione, la condivisione di informazioni di calendario più dettagliate. Per ulteriori informazioni sulla condivisione federata, vedere [Condivisione](sharing-exchange-2013-help.md).
 

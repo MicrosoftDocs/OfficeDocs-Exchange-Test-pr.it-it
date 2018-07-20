@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 Potrebbe verificarsi una situazione in cui si desidera ricevere messaggi da un sistema che non utilizza Exchange. Ad esempio, potrebbe essere disponibile un dispositivo di rete che esegue i controlli sui criteri e poi instrada i messaggi al server di Exchange. In questo caso si presume che il dispositivo utilizzi SMTP. In caso contrario, è opportuno utilizzare un connettore esterno o un connettore dell'agente di recapito.
 

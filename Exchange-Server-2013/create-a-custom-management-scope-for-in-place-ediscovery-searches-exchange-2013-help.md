@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-01-21_
+_**Ultima modifica dell'argomento:** 2015-01-21_
 
 È possibile utilizzare un ambito di gestione personalizzato per consentire a particolari persone o gruppi di utilizzare eDiscovery sul posto per eseguire ricerche in un sottoinsieme di cassette postali nell'organizzazione Exchange 2013 o Exchange Online. Ad esempio, è possibile consentire a un responsabile dell'individuazione di cercare solo nelle cassette postali di utenti di una specifica sede o reparto. A tale scopo è possibile creare un ambito di gestione personalizzato. L'ambito di gestione personalizzato utilizza un filtro destinatario per controllare le cassette postali in cui eseguire la ricerca. Gli ambiti del filtro destinatario utilizzano filtri per mirare a specifici destinatari in base al tipo o altre proprietà.
 
@@ -138,30 +138,39 @@ Di seguito sono indicati alcuni modi per verificare se gli ambiti di gestione pe
       - Nascondere il gruppo di distribuzione dalla rubrica condivisa dell'organizzazione. Utilizzare EAC o il cmdlet **Set-DistributionGroup** dopo aver creato il gruppo. Se si utilizza Shell, utilizzare la sintassi `HiddenFromAddressListsEnabled $true`.
     
     Nell'esempio seguente, il primo comando crea un gruppo di distribuzione con appartenenza chiusa e moderazione abilitata. Il secondo comando nasconde il gruppo dalla rubrica condivisa.
-    
-        New-DistributionGroup -Name "Vancouver Users eDiscovery Scope" -Alias VancouverUserseDiscovery -MemberJoinRestriction closed -MemberDepartRestriction closed -ModerationEnabled $true
-    
-        Set-DistributionGroup "Vancouver Users eDiscovery Scope" -HiddenFromAddressListsEnabled $true
-    
+    ```
+    New-DistributionGroup -Name "Vancouver Users eDiscovery Scope" -Alias VancouverUserseDiscovery -MemberJoinRestriction closed -MemberDepartRestriction closed -ModerationEnabled $true
+    ```
+    ```
+    Set-DistributionGroup "Vancouver Users eDiscovery Scope" -HiddenFromAddressListsEnabled $true
+    ```
+
     Per ulteriori informazioni sulla creazione e sulla gestione dei gruppi di distribuzione, vedere [Creazione e gestione dei gruppi di distribuzione](create-and-manage-distribution-groups-exchange-2013-help.md).
 
   - Anche se è possibile utilizzare solo l'appartenenza al gruppo di distribuzione come filtro destinatario per un ambito di gestione personalizzato per eDiscovery, è possibile utilizzare altre proprietà del destinatario per aggiungere membri a tale gruppo di distribuzione. Di seguito sono forniti alcuni esempi di utilizzo dei cmdlet **Get-Mailbox** e**Get-Recipient** per restituire uno specifico gruppo di utenti in base all'utente comune o agli attributi della cassetta postale.
-    
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-    
-        Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "VancouverSubsidiary"'
-    
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
-    
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
-    
-        Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -OrganizationalUnit "namsr01a002.sdf.exchangelabs.com/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com"
+    ```
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+    ```
+    ```
+    Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "VancouverSubsidiary"'
+    ```
+    ```
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
+    ```
+    ```
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
+    ```
+    ```
+    Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -OrganizationalUnit "namsr01a002.sdf.exchangelabs.com/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com"
+    ```
 
   - È possibile utilizzare gli esempi del punto precedente per creare una variabile da usare con il cmdlet **Add-DistributionGroupMember** per aggiungere un gruppo di utenti a un gruppo di distribuzione. Nell'esempio seguente, il primo comando crea una variabile che contiene tutte le cassette postali degli utenti con il valore **Vancouver** per la proprietà *Department* nell'account utente. Il secondo comando aggiunge tali utenti al gruppo di distribuzione Vancouver Users.
-    
-        $members = Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "Vancouver"'
-    
-        $members | ForEach {Add-DistributionGroupMember "Ottawa Users" -Member $_.Name}
+    ```
+    $members = Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "Vancouver"'
+    ```
+    ```
+    $members | ForEach {Add-DistributionGroupMember "Ottawa Users" -Member $_.Name}
+    ```
 
   - È possibile utilizzare il cmdlet **Add-RoleGroupMember** per aggiungere un membro a un gruppo di ruoli esistente utilizzato per definire l'ambito delle ricerche di eDiscovery. Ad esempio, il comando seguente aggiunge l'utente admin@ottawa.contoso.com al gruppo di ruoli Ottawa Discovery Management.
     

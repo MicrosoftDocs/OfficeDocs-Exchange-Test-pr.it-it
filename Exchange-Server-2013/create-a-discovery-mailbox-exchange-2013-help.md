@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Microsoft Exchange Server 2013 il programma di installazione consente di creare una cassetta postale di individuazione per impostazione predefinita. In Exchange Online, per impostazione predefinita viene creata anche una cassetta postale di individuazione. Cassette postali di individuazione vengono utilizzate come cassette postali di destinazione per le ricerche [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md) in Interfaccia di amministrazione di Exchange (EAC). È possibile creare cassette postali di individuazione aggiuntive in base alle esigenze. Dopo aver creato una nuova cassetta postale di individuazione, è necessario assegnare le autorizzazioni accesso completo per gli utenti appropriati in modo che possano accedere i risultati della ricerca eDiscovery che vengono copiati nella cassetta postale di individuazione.
 

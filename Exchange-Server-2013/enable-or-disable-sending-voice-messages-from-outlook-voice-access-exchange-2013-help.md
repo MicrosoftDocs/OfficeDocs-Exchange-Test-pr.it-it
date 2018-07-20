@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-12-13_
+_**Ultima modifica dell'argomento:** 2012-12-13_
 
 È possibile abilitare gli utenti di Outlook Voice Access per l'invio di messaggi vocali verso altri utenti abilitati alla messaggistica unificata associati allo stesso dial plan oppure impedire loro di eseguire tale operazione.
 

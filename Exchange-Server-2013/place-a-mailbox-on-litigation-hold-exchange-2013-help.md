@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-10-18_
+_**Ultima modifica dell'argomento:** 2016-10-18_
 
 Attivare un blocco per controversia legale in una cassetta postale per conservare tutto il contenuto della cassetta postale, tra cui elementi eliminati e versioni originali degli elementi modificati. Quando si attiva un blocco per controversia legale nella cassetta postale di un utente, anche il contenuto della cassetta postale di archiviazione dell'utente (se abilitata) viene messo in attesa. Gli elementi eliminati o modificati vengono conservati per un periodo specificato o fino a quando non viene rimosso il blocco per controversia legale dalla cassetta postale. Tutti questi elementi delle cassette postali vengono restituiti in una ricerca di [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md).
 
@@ -148,17 +148,22 @@ Per verificare la corretta attivazione di un blocco per controversia legale in u
   - Il comando precedente per attivare un blocco in tutte e cassette postali utilizza un filtro destinatario che restituisce tutte le cassette postali utente. È possibile utilizzare altre proprietà dei destinatari per un elenco delle cassette postali specifiche che è quindi possibile restituire al cmdlet **Set-Mailbox** per attivare un blocco per controversia legale in tali cassette postali.
     
     Ecco alcuni esempi sull'utilizzo dei cmdlet **Get-Mailbox** e **Get-Recipient** per restituire un set secondario di cassette postali in base alle proprietà comuni di utenti o cassette postali. Tali esempi presumono che le proprietà della cassetta postale rilevante (ad esempio, *CustomAttributeN* o *Department*) siano state popolate.
-    
-        Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
-    
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-    
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
-    
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
-    
-        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
-    
+    ```
+    Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
+    ```
+    ```
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+    ```
+    ```
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
+    ```
+    ```
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
+    ```
+    ```
+    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+    ```
+
     È possibile utilizzare altre proprietà della cassetta postale utente in un filtro per escludere o includere le cassette postali. Per ulteriori dettagli, vedere [Proprietà filtrabili per il parametro - Filter](https://technet.microsoft.com/it-it/library/bb738155\(v=exchg.150\)).
 
 Torna all'inizio

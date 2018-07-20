@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-07-05_
+_**Ultima modifica dell'argomento:** 2012-07-05_
 
 Anteprima messaggio vocale è una funzionalità disponibile per gli utenti che utilizzano la messaggistica unificata di Exchange Server 2010 o Exchange Server 2013 per ricevere i messaggi vocali. Anteprima messaggio vocale migliora le funzionalità esistenti della casella vocale di messaggistica unificata offrendo una versione di testo delle registrazioni audio. Il testo del messaggio vocale viene visualizzato in un messaggio di posta elettronica in Microsoft Office Outlook Web App, Outlook 2010 e altri programmi di posta.
 

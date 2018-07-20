@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-15_
+_**Ultima modifica dell'argomento:** 2013-02-15_
 
 È possibile specificare la modalità di avvio per il servizio di routing delle chiamate di messaggistica unificata di Microsoft Exchange su un server Accesso client. Per impostazione predefinita, il server Accesso client si avvierà in modalità TCP, ma se si sta utilizzando Transport Layer Security (TLS) per crittografare il traffico VoIP è necessario configurare il server Accesso client per la modalità TLS o Dual. È preferibile configurare i server Accesso client per l'utilizzo di Dual in modalità di avvio. Questa situazione si verifica perché i server Accesso client e Cassette postali rispondono alle chiamate in arrivo per tutti i dial plan di messaggistica unificata, ma tali dial plan possono avere impostazioni di protezione diverse. Se si modifica la modalità di avvio, è necessario riavviare il servizio di routing delle chiamate di messaggistica unificata di Microsoft Exchange per rendere effettive le modifiche.
 

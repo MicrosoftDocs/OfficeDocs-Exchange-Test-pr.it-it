@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Un numero di Outlook Voice Access consente ad un utente abilitato alla messaggistica unificata e ai messaggi vocali di accedere alla cassetta postale utilizzando Outlook Voice Access. Una volta configurato un numero di accesso del sottoscrittore o di Outlook Voice Access su un dial plan, gli utenti abilitati alla messaggistica unificata potranno chiamare il numero, accedere alla loro cassetta postale, alla posta elettronica, alla casella vocale, al calendario e alle informazioni personali sui contatti.
 

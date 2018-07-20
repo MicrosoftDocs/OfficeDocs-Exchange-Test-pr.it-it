@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-05_
+_**Ultima modifica dell'argomento:** 2013-02-05_
 
 [Disabilitazione e abilitazione di Ricerca di Exchange](disable-or-enable-exchange-search-exchange-2013-help.md)
 

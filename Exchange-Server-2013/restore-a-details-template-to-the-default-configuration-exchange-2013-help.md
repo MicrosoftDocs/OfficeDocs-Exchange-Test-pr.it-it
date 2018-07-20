@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-12_
+_**Ultima modifica dell'argomento:** 2012-10-12_
 
 L'Editor modelli di informazioni non contiene un pulsante **Annulla** e non è possibile utilizzare i tasti di scelta rapida per annullare un'azione. Per annullare un'aggiunta al modello, utilizzare il tasto CANC. Per annullare un'eliminazione, riapplicare l'impostazione. È possibile ripristinare le impostazioni originali anche chiudendo l'Editor modelli di informazioni senza salvare le modifiche. Se si desidera annullare le modifiche dopo aver salvato, ripristinare il modello. Quando si ripristina un modello, tutta la personalizzazione viene persa e viene ripristinata la configurazione originale del modello.
 

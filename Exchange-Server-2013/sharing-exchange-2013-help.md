@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013, Outlook 2013_
+_**Si applica a:** Exchange Server 2013, Outlook 2013_
 
-_**Ultima modifica dell'argomento:**2015-02-27_
+_**Ultima modifica dell'argomento:** 2015-02-27_
 
 Potrebbe essere necessario coordinare pianificazioni con persone in diverse organizzazioni o con amici e parenti per poter lavorare insieme a progetti o pianificare eventi sociali. Con Exchange 2013, gli amministratori possono configurare diversi livelli di accesso al calendario per consentire alle aziende di collaborare con altre aziende e agli utenti di condividere con altri le proprie pianificazioni. La condivisione dei calendari tra aziende è configurata mediante la creazione di *relazioni organizzative*. La condivisione del calendario tra utenti è configurata mediante l'applicazione di *criteri di condivisione*.
 

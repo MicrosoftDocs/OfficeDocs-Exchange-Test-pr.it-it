@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-07_
+_**Ultima modifica dell'argomento:** 2015-04-07_
 
 Il ruolo server Trasporto Edge Transport è stato reintrodotto in Exchange Service Pack 1. Trasporto Edge fornisce protezione da posta indesiderata migliorata per l'organizzazione Exchange. Il server Trasporto Edge, inoltre, applica criteri ai messaggi in transito tra le organizzazioni. Questo ruolo del server viene distribuito nella rete perimetrale e all'esterno della foresta di Active Directory. I server Trasporto Edge non dispongono dell'accesso diretto a Active Directory per informazioni sulla configurazione e sui destinatari come invece accade per i server Accesso client o Cassette postali. Il server Trasporto Edge usa Active Directory Lightweight Directory Service (AD LDS) per archiviare localmente le informazioni relativi alla configurazione e ai destinatari.
 

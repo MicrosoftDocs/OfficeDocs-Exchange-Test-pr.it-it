@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-16_
+_**Ultima modifica dell'argomento:** 2012-11-16_
 
 In Microsoft Exchange Server 2013, si può configurare IRM (Information Rights Management) in modo che il servizio di ricerca di Exchange può indicizzare i contenuti dei messaggi protetti tramite IRM.
 

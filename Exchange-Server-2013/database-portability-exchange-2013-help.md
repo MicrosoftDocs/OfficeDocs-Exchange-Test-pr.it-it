@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2017-01-30_
+_**Ultima modifica dell'argomento:** 2017-01-30_
 
 La portabilità del database è una funzionalità che consente di spostare o installare il database di cassette postali di Microsoft Exchange Server 2013 su un altro server Cassette postali nella stessa organizzazione di Exchange 2013 che dispone di database con la stessa versione dello schema. Non è possibile spostare i database di cassette postali di precedenti versioni di Exchange su un server Cassette postali con Exchange 2013. Utilizzando la portabilità del database, è possibile migliorare l'affidabilità perché si eliminano dalle procedure di ripristino numerose operazioni manuali facilmente soggette a errore. Inoltre, la portabilità riduce i tempi totali di ripristino a fronte di diversi scenari di errore.
 

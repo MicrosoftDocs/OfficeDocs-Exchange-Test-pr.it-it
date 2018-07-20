@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-27_
+_**Ultima modifica dell'argomento:** 2015-03-27_
 
 È possibile esaminare gli allegati di posta elettronica nell'organizzazione configurando le regole di trasporto. Exchange offre regole di trasporto che consentono la possibilità di esaminare allegati di posta elettronica come parte della protezione dei messaggi e requisiti di conformità. Quando si esaminano gli allegati, è possibile agire sui messaggi esaminati in base al contenuto o alle caratteristiche di tali allegati. Ecco alcune attività relative agli allegati che si possono eseguire tramite l'utilizzo delle regole di trasporto:
 
@@ -72,11 +72,9 @@ Si possono utilizzare le condizioni di regole di trasporto nella tabella seguent
 
 I nomi Exchange Management Shell per le condizioni qui elencate sono parametri che richiedono il cmdlet `TransportRule`
 
-  -  
-    Per ulteriori informazioni sul cmdlet, vedere [New-TransportRule](https://technet.microsoft.com/it-it/library/bb125138\(v=exchg.150\)).
+  -  Per ulteriori informazioni sul cmdlet, vedere [New-TransportRule](https://technet.microsoft.com/it-it/library/bb125138\(v=exchg.150\)).
 
-  -  
-    Per ulteriori informazioni sui tipi di proprietà per queste condizioni su [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
+  -  Per ulteriori informazioni sui tipi di proprietà per queste condizioni su [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
 
 Le regole di trasporto possono esaminare solo il contenuto dei tipi di file supportati. Se l'agente delle regole di trasporto rileva un allegato non incluso nell'elenco dei tipi di file supportati, viene attivata la condizione `AttachmentIsUnsupported`. I tipi di file supportati sono elencati nella sezione seguente. I file non elencati attiveranno la condizione `AttachmentIsUnsupported`.
 
@@ -213,11 +211,9 @@ La seguente condizione di regola di trasporto esamina le proprietà di un file a
 
 I nomi Exchange Management Shell per le condizioni qui elencate sono parametri che richiedono il cmdlet `TransportRule`
 
-  -  
-    Per ulteriori informazioni sul cmdlet, vedere [New-TransportRule](https://technet.microsoft.com/it-it/library/bb125138\(v=exchg.150\)).
+  -  Per ulteriori informazioni sul cmdlet, vedere [New-TransportRule](https://technet.microsoft.com/it-it/library/bb125138\(v=exchg.150\)).
 
-  -  
-    Per ulteriori informazioni sui tipi di proprietà per queste condizioni su [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
+  -  Per ulteriori informazioni sui tipi di proprietà per queste condizioni su [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
 
 ## Tipi di file eseguibili supportati per esaminare le regole di trasporto
 

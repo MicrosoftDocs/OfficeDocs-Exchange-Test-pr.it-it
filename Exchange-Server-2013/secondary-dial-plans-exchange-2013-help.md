@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Quando si abilita un utente per la messaggistica unificata, è necessario assegnare un numero di interno e un criterio cassetta postale di messaggistica unificata che collegherà l'utente a un dial plan di messaggistica unificata. Quando l'utente è abilitato alla messaggistica unificata, è possibile assegnare ulteriori numeri di interno per tale utente nello stesso dial plan, ma tali numeri devono essere univoci. In alcune distribuzioni, a un utente potrebbe essere assegnato lo stesso numero di interno in due dial plan separati. In questo caso, è possibile collegare l'utente a un dial plan di messaggistica unificata secondario. Questo collegamento può risultare utile, ad esempio, se l'utente dispone di due telefoni fisici o si sposta tra posizioni diverse.
 

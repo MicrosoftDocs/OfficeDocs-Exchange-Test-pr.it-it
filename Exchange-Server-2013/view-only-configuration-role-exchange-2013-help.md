@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `View-Only Configuration` consente agli amministratori di visualizzare tutte le impostazioni di configurazione di Exchange, non legate al destinatario, in un'organizzazione. Esempi di configurazioni visualizzabili sono la configurazione del server, la configurazione di trasporto, la configurazione del database e la configurazione a livello dell'organizzazione.
 
@@ -139,7 +139,7 @@ Questo ruolo ha assegnazioni di ruolo a uno o più assegnatari di ruolo. La tabe
 <tr class="even">
 <td><p><a href="delegated-setup-exchange-2013-help.md">Installazione delegata</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>
@@ -148,7 +148,7 @@ Questo ruolo ha assegnazioni di ruolo a uno o più assegnatari di ruolo. La tabe
 <tr class="odd">
 <td><p><a href="hygiene-management-exchange-2013-help.md">Gestione di Hygiene</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>
@@ -166,7 +166,7 @@ Questo ruolo ha assegnazioni di ruolo a uno o più assegnatari di ruolo. La tabe
 <tr class="odd">
 <td><p><a href="view-only-organization-management-exchange-2013-help.md">Gestione organizzazione sola visualizzazione</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>

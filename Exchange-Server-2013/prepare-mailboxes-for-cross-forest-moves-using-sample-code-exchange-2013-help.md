@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Microsoft Exchange 2013 supporta spostamenti e migrazioni utilizzando i cmdlet **New-MoveRequest** e **New-MigrationBatch** . È inoltre possibile spostare la cassetta postale tramite l'interfaccia di amministrazione di Exchange (EAC). È possibile spostare una cassetta postale da un insieme di strutture Exchange origine a una foresta di destinazione Exchange 2010.
 
@@ -27,7 +27,7 @@ Per ulteriori informazioni sulla preparazione degli spostamenti tra foreste, inc
 
   - Nella pagina [Preparazione per lo spostamento delle cassette postali Online](https://go.microsoft.com/fwlink/p/?linkid=177882) in Microsoft Download Center, scaricare il codice di esempio.
 
-  - Per eseguire il codice di esempio, è necessario ILM 2007 Feature Pack 1 Service Pack 1 (SP1). Per scaricare il Feature Pack, vedere l'articolo 977791 della Microsoft Knowledge Base, [Service Pack 1 (build 3.3.1139.2) è disponibile per Identity Lifecycle Manager 2007 Feature Pack 1](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=977791).
+  - Per eseguire il codice di esempio, è necessario ILM 2007 Feature Pack 1 Service Pack 1 (SP1). Per scaricare il Feature Pack, vedere l'articolo 977791 della Microsoft Knowledge Base, [Service Pack 1 (build 3.3.1139.2) è disponibile per Identity Lifecycle Manager 2007 Feature Pack 1](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=977791).
 
   - È inoltre necessario quanto segue:
     

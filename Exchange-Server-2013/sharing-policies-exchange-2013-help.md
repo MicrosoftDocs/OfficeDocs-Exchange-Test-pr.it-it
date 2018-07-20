@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-15_
+_**Ultima modifica dell'argomento:** 2014-02-15_
 
 I criteri di condivisione, che sono parte della condivisione federata, consentono la condivisione stabilita dall'utente e tra utenti delle informazioni del calendario con tipi diversi di utenti esterni. I criteri di condivisione vengono assegnati all'utente delle cassette postali e consente agli utenti di gestire autonomamente e condividere le informazioni di disponibilità (tra cui la cartella Calendario) con destinatari in organizzazioni Office 365 esterne o altre organizzazioni Exchange locali federate. Se si desidera condividere i calendari con i destinatari non presenti in uno di questi tipi di organizzazione, i criteri di condivisione consentono la condivisione people-to-people delle informazioni del calendario con gli altri destinatari di posta elettronica tramite l'utilizzo di Internet Calendar Publishing.
 

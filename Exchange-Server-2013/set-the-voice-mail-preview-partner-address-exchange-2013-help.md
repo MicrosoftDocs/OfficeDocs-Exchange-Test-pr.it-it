@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-13_
+_**Ultima modifica dell'argomento:** 2013-02-13_
 
 È possibile impostare un indirizzo del partner per l'anteprima di casella vocale su un criterio cassetta postale di messaggistica unificata. Una volta configurate le impostazioni dell'indirizzo partner per l'anteprima della casella vocale su un criterio cassetta postale di messaggistica unificata, le impostazioni configurate vengono applicate a tutti gli utenti abilitati alla messaggistica unificata che risultano associati a quel criterio cassetta postale.
 

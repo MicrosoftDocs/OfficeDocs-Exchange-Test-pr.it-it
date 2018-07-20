@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-07-28_
+_**Ultima modifica dell'argomento:** 2016-07-28_
 
 In questo argomento vengono descritte le tecniche per associare criteri e elementi in evidenza per la prevenzione della perdita di dati in un file XML progettato per contenere un pacchetto personalizzato di regole per i tipi di informazioni sensibili. Dopo aver formattato il file XML, è possibile importare il file utilizzando l'interfaccia di amministrazione di Exchange o Exchange Management Shell come aiuto nella creazione della propria soluzione DLP di Microsoft Exchange Server 2013. Prima di poter utilizzare uno dei metodi di corrispondenza descritti, è necessario avere già avviato un file XML DLP. Per ulteriori informazioni relative alla definizione dei propri modelli DLP e file XML, vedere [Definire modelli DLP e tipi di informazione propri](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 
@@ -203,8 +203,7 @@ L'elemento Regex ha un attributo "id" che viene utilizzato come riferimento nell
     </Regex>
     ...
     <Regex id="ItinFormatted">
-        (?:^|[\s\,\:])(?:9\d{2})[- ](?:[78]\d[-  
-         ]\d{4})(?:$|[\s\,]|\.\s)
+        (?:^|[\s\,\:])(?:9\d{2})[- ](?:[78]\d[-       ]\d{4})(?:$|[\s\,]|\.\s)
     </Regex>
     ...
     <Regex id="NorthCarolinaDriversLicenseNumber">

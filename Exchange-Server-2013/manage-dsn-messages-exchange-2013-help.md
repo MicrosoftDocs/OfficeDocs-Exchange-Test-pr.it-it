@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-02-20_
+_**Ultima modifica dell'argomento:** 2013-02-20_
 
 Microsoft Exchange Server 2013 utilizza le notifiche dello stato del recapito per fornire ai mittenti dei rapporti di mancato recapito e altri messaggi di stato. È possibile utilizzare le notifiche predefinite dello stato del recapito oppure crearne di personalizzate per soddisfare le esigenze della propria organizzazione.
 

@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:**2013-05-17_
+_**Ultima modifica dell'argomento:** 2013-05-17_
 
 Exchange Server 2013 Management Pack si basa sulla funzionalità Disponibilità gestita in Microsoft Exchange Server 2013. In Disponibilità gestita, ogni componente di Exchange Server 2013 controlla se stesso tramite l'utilizzo di probe, monitor e risponditori. Eventuali componenti che implementano la Disponibilità gestita, sono denominati *impostazione di integrità*. Nell'elenco seguente vengono fornite le istruzioni per la risoluzione dei problemi per tutte le impostazioni di integrità disponibili in Exchange 2013:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Abilitazione la decrittografia di trasporto consente l'agente delle regole di trasporto in Microsoft Exchange Server 2013 server delle cassette postali per accedere al contenuto nei messaggi protetti da Information Rights Management (IRM). Di conseguenza, altri agenti di trasporto possono accedere a contenuto del messaggio ed eventualmente apportarvi modifiche. L'agente delle regole di trasporto, ad esempio, potrebbe essere necessario esaminare il contenuto del messaggio e applicare le regole di trasporto (ad esempio le regole che riguardano il messaggio una dichiarazione di non responsabilità). Per decrittografare correttamente i messaggi protetti tramite IRM, è necessario aggiungere la cassetta postale federata recapito per il gruppo di utenti con privilegi avanzati configurato sul server di [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) .
 

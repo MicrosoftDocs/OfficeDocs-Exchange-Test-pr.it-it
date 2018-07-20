@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-02-20_
+_**Ultima modifica dell'argomento:** 2014-02-20_
 
 Impostare una relazione organizzativa per condividere le informazioni del calendario con un partner commerciale esterno. Gli amministratori di Exchange possono impostare una relazione organizzativa con un'organizzazione di Office 365 o con un'altra organizzazione di Exchange in locale. Se si desidera condividere i calendari con un'altra organizzazione di Exchange in locale, gli amministratori di Exchange in locale devono impostare una relazione di autenticazione con il cloud (denominato inoltre "federazione") e devono soddisfare i requisiti software minimi.
 

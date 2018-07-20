@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-01-30_
+_**Ultima modifica dell'argomento:** 2013-01-30_
 
 [Configurare un operatore automatico di messaggistica unificata](set-up-a-um-auto-attendant-exchange-2013-help.md)
 

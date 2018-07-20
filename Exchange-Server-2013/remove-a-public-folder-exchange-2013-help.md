@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-11-16_
+_**Ultima modifica dell'argomento:** 2016-11-16_
 
 Potrebbe essere necessario rimuovere le cartelle pubbliche che non vengono più utilizzate nell'organizzazione. Per stabilire quali cartelle pubbliche devono essere rimosse, vedere [Visualizzare le statistiche per le cartelle pubbliche e gli elementi della cartella pubblica](view-statistics-for-public-folders-and-public-folder-items-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-12_
+_**Ultima modifica dell'argomento:** 2012-10-12_
 
 Il filtro mittente si basa sull'intestazione MAIL FROM: Intestazione SMTP per determinare l'eventuale azione da intraprendere per un messaggio di posta elettronica in ingresso. Il filtro mittente viene fornito dall'agente filtro mittente.
 

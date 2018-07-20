@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-12_
+_**Ultima modifica dell'argomento:** 2012-11-12_
 
 È possibile utilizzare EAC e Shell per configurare i limiti di dimensione dei messaggi per la cassetta postale utente. Tali limiti controllano la dimensione dei messaggi che un utente può inviare e ricevere. Per impostazione predefinita, quando viene creata una cassetta postale, non sono presenti limiti di dimensione per i messaggi inviati e ricevuti.
 

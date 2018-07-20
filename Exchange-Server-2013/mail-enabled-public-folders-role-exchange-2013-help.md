@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il ruolo di gestione `Mail Enabled Public Folders` consente agli amministratori di stabilire se le singole cartelle pubbliche di un'organizzazione sono abilitate o disabilitate alla posta.
 

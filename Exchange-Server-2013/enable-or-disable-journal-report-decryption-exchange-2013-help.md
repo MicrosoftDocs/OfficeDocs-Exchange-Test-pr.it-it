@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Decrittografia dei rapporti del journal abilitazione consente l'agente di Journaling collegare una copia di un messaggio protetto con RMS decrittografata al rapporto del journal. Prima di abilitare decrittografia dei rapporti del journal, è necessario aggiungere la cassetta postale di recapito federato per il gruppo di utenti con privilegi avanzati configurato sul server di [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) .
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Il compito principale del servizio di trasporto disponibile su tutti i server Cassette postali in un'organizzazione Microsoft Exchange Server 2013 è l'instradamento dei messaggi ricevuti da utenti e fonti esterne alla destinazione finale. Le decisioni relative al routing vengono effettuate durante la classificazione dei messaggi. Il classificatore è un componente del servizio di trasporto su un server Cassette postali che elabora tutti i messaggi in arrivo e stabilisce come gestirli in base alle informazioni sulle loro destinazioni.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 L'indicatore di messaggi in attesa è una funzionalità presente nella maggior parte dei sistemi di casella vocale legacy. Consente agli utenti di essere informati sulla presenza di messaggi di casella vocale nuovi o non ascoltati. Nella modalità più comune, tale funzionalità comporta l'accensione di una spia sul telefono dell'utente che indica la presenza di un messaggio vocale nuovo o non ascoltato.
 

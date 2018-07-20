@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-16_
+_**Ultima modifica dell'argomento:** 2012-10-16_
 
 Non è possibile creare un criterio dell'indirizzo di posta elettronica utilizzando i filtri destinatario nella shell. Per ulteriori informazioni sui criteri degli indirizzi di posta elettronica, vedere [Criteri degli indirizzi di posta elettronica](email-address-policies-exchange-2013-help.md).
 

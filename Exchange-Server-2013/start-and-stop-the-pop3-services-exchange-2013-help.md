@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2013-03-13_
+_**Ultima modifica dell'argomento:** 2013-03-13_
 
 Per impostazione predefinita, i due servizi POP3, il servizio Microsoft Exchange POP3 e il servizio back-end POP3 di Microsoft Exchange, non vengono avviati sui computer in cui è in esecuzione MicrosoftExchange Server 2013. È necessario avviare questi due servizi per consentire ai client della posta elettronica di connettersi a Exchange utilizzando POP3. Quando questi servizi sono in esecuzione, Exchange 2013 accetta le comunicazioni client POP3 non protette sulla porta 110 e sulla porta 995 utilizzando SSL (Secure Sockets Layer).
 

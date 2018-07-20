@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-01_
+_**Ultima modifica dell'argomento:** 2012-11-01_
 
 Ogni copia del database delle cassette postali dispone di proprietà configurabili. che comprendono l'intervallo di riesecuzione e troncamento e il numero di preferenza di attivazione. Per ulteriori informazioni sull'intervallo di riesecuzione e troncamento e sul numero di preferenza di attivazione, vedere [Gestione delle copie del database delle cassette postali](managing-mailbox-database-copies-exchange-2013-help.md).
 

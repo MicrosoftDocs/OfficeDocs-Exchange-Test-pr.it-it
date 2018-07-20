@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 I rapporti di recapito per gli amministratori consentono di tenere traccia delle informazioni sul recapito dei messaggi inviati o ricevuti da una specifica cassetta postale dell'organizzazione. Nello specifico, i rapporti di recapito per gli amministratori utilizzano l'interfaccia di amministrazione di Exchange (EAC) per eseguire una ricerca mirata dei registri di verifica messaggi. L'ambito della ricerca è sempre una specifica cassetta postale. È possibile cercare i messaggi inviati dalla cassetta postale oppure inviati alla cassetta postale nonché filtrare i risultati della ricerca in base all'oggetto del messaggio.
 

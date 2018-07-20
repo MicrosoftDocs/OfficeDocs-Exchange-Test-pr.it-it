@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 In Microsoft Exchange Server 2013 e Exchange Online, la funzione Gestione record di messaggistica permette alle organizzazioni di gestire il ciclo di vita dei messaggi di posta elettronica e ridurre i rischi legali associati alla posta elettronica e ad altre forme di comunicazione. Con Gestione record di messaggistica diventa più facile conservare i messaggi necessari per soddisfare criteri aziendali, normative o esigenze legali così come rimuovere i contenuti che non hanno alcun valore legale o aziendale.
 

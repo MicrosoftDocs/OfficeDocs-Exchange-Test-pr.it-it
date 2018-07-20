@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Ultima modifica dell'argomento:**2017-03-20_
+_**Ultima modifica dell'argomento:** 2017-03-20_
 
-**Riepilogo:** Seguire questa procedura affinché l'infrastruttura di cartelle pubbliche torni allo stato precedente alla migrazione nell'organizzazione di Exchange 2013 in locale.
+**Riepilogo:**  Seguire questa procedura affinché l'infrastruttura di cartelle pubbliche torni allo stato precedente alla migrazione nell'organizzazione di Exchange 2013 in locale.
 
 Se si riscontrano problemi con la migrazione delle cartelle pubbliche in Exchange Online o per qualsiasi altro motivo è necessario riattivare le cartelle pubbliche di Exchange 2013, seguire la procedura seguente.
 

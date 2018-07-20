@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server, Exchange Server 2013_
+_**Si applica a:** Exchange Server, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2014-06-19_
+_**Ultima modifica dell'argomento:** 2014-06-19_
 
 In questo argomento viene descritto come utilizzare l'installazione guidata di Microsoft Exchange Server 2013 per installare il ruolo del server Trasporto Edge di Exchange 2013 in un computer. Il ruolo Trasporto Edge è disponibile con Exchange 2013 Service Pack 1 (SP1) o versione successiva. Per ulteriori informazioni sulla pianificazione e la distribuzione di Exchange 2013, vedere [Pianificazione e distribuzione](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

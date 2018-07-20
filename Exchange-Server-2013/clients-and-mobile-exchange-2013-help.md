@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Per accedere alle informazioni in una cassetta postale di Microsoft Exchange Server 2013 è possibile utilizzare molti client differenti. Tra di essi figurano programmi desktop quali Microsoft Outlook, Outlook Web App e client mobili come telefoni cellulari, tablet e altri tipi di dispositivi mobili. Ogni client offre una vasta gamma di funzionalità.
 
@@ -51,7 +51,7 @@ La tabella seguente contiene collegamenti agli argomenti utili per saperne di pi
 <td><p>Ulteriori informazioni su come gli utenti possono accedere alla posta elettronica di Exchange 2013 tramite programmi di posta elettronica che utilizzano POP3 o IMAP4.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://technet.microsoft.com/it-it/library/jj150495(v=exchg.150)">Integrazione di Office Web Apps Server</a></p></td>
+<td><p>Integrazione di Office Web Apps Server</p></td>
 <td><p>Informazioni sull'integrazione di Microsoft Office Web Apps Server che fornisce un'efficace funzionalità di anteprima degli allegati in Outlook Web App.</p></td>
 </tr>
 <tr class="odd">

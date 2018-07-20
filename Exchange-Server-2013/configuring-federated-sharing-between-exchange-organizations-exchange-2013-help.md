@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Con la condivisione federata, gli utenti dell'organizzazione di Exchange locale possono condividere le informazioni sulla disponibilità del calendario con i destinatari in altre organizzazioni di Exchange configurate per la condivisione federata. La condivisione delle informazioni sulla disponibilità può essere abilitata tra due organizzazioni di Exchange 2013 e tra organizzazioni con una distribuzione di Exchange mista. Per ulteriori informazioni sulla condivisione federata, vedere [Condivisione](sharing-exchange-2013-help.md).
 
@@ -111,7 +111,7 @@ Completare la procedura in [Configurare la condivisione federata](configure-fede
         
 
         > [!WARNING]
-        > Affinché le informazioni sulla disponibilità funzionino correttamente tra le organizzazioni di Exchange 2013 ed Exchange 2003, nella gerarchia delle cartelle pubbliche deve esistere la cartella pubblica <STRONG>OU=EXTERNAL (FYDIBOHF25SPDLT)</STRONG>. Questa cartella viene creata automaticamente nel server Cassette postali di Exchange 2010 nell'organizzazione di Exchange 2003 solo se si seleziona l'opzione per creare le cartelle pubbliche come parte della configurazione delle impostazioni client per il supporto di Outlook 2003 durante l'installazione di Exchange 2010. Inoltre, questa opzione viene presentata durante il processo di installazione solo se il server Cassette postali di Exchange 20120 è il primo server Cassette postali installato nell'organizzazione. Se la cartella pubblica <STRONG>OU=EXTERNAL (FYDIBOHF25SPDLT)</STRONG> non è stata creata durante l'installazione, sarà necessario crearla manualmente. Per ulteriori informazioni sulla creazione della cartella pubblica, vedere <A href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2555008">Come risolvere i problemi di disponibilità quando si utilizza la federazione di Exchange in Microsoft Office 365 per l'ambiente aziendale</A>.
+        > Affinché le informazioni sulla disponibilità funzionino correttamente tra le organizzazioni di Exchange 2013 ed Exchange 2003, nella gerarchia delle cartelle pubbliche deve esistere la cartella pubblica <STRONG>OU=EXTERNAL (FYDIBOHF25SPDLT)</STRONG>. Questa cartella viene creata automaticamente nel server Cassette postali di Exchange 2010 nell'organizzazione di Exchange 2003 solo se si seleziona l'opzione per creare le cartelle pubbliche come parte della configurazione delle impostazioni client per il supporto di Outlook 2003 durante l'installazione di Exchange 2010. Inoltre, questa opzione viene presentata durante il processo di installazione solo se il server Cassette postali di Exchange 20120 è il primo server Cassette postali installato nell'organizzazione. Se la cartella pubblica <STRONG>OU=EXTERNAL (FYDIBOHF25SPDLT)</STRONG> non è stata creata durante l'installazione, sarà necessario crearla manualmente. Per ulteriori informazioni sulla creazione della cartella pubblica, vedere <A href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=2555008">Come risolvere i problemi di disponibilità quando si utilizza la federazione di Exchange in Microsoft Office 365 per l'ambiente aziendale</A>.
 
     
     2.  **Configurare la delega federata**.

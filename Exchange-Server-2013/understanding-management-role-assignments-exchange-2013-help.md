@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-04_
+_**Ultima modifica dell'argomento:** 2012-10-04_
 
 Un'*assegnazione del ruolo di gestione*, che fa parte del modello di autorizzazioni Controllo di accesso basato sui ruoli (RBAC) in Microsoft Exchange Server 2013, indica il collegamento tra un ruolo di gestione e un assegnatario di ruolo. Un *assegnatario di ruolo* indica un gruppo di ruolo, un criterio di assegnazione dei ruoli, un utente o un gruppo di protezione universale. Un ruolo deve essere associato a un assegnatario per essere applicato. Per ulteriori informazioni su RBAC, vedere [Controllo di accesso basato sui ruoli](understanding-role-based-access-control-exchange-2013-help.md).
 

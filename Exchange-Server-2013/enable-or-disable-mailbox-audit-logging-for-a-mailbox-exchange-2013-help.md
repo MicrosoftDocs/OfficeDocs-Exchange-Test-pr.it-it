@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-09-30_
+_**Ultima modifica dell'argomento:** 2015-09-30_
 
 Grazie alla registrazione di controllo delle cassette postali, è possibile tenere traccia degli accessi a una cassetta postale, nonché delle azioni effettuate dall'utente durante la connessione. Quando si abilita la registrazione di controllo per una cassetta postale, alcune azioni effettuate dagli amministratori e dai delegati vengono registrate per impostazione predefinita. Nessuna delle operazioni eseguite dal proprietario della cassetta postale viene registrata. Per ulteriori informazioni sulla registrazione di controllo delle cassette postali, vedere [Registrazione di controllo delle cassette postali](mailbox-audit-logging-exchange-2013-help.md).
 

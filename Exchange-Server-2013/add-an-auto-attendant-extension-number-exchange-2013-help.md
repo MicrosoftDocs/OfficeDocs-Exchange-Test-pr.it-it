@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 È possibile configurare uno o più numeri di interno a un operatore automatico di messaggistica unificata (UM). Quando un numero di interno viene aggiunto a un operatore automatico di messaggistica unificata, il numero può essere utilizzato dai chiamanti per accedere all'operatore automatico. È anche possibile aggiungere numeri di interno nel caso in cui si desidera che più numeri di interno siano utilizzati dai chiamanti per accedere all'operatore automatico. Per impostazione predefinita, nessun numero di interno viene configurato quando si crea un operatore automatico.
 

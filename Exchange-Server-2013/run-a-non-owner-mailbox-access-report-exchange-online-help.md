@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online_
+_**Si applica a:** Exchange Online_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Non-proprietario della cassetta postale accesso Report nell'interfaccia di amministrazione di Exchange (EAC) sono elencate le cassette postali che sono state eseguite da un utente diverso da persona proprietario della cassetta postale. Quando si accede a una cassetta postale di un utente non proprietario, Microsoft Exchange registra informazioni su questa azione in un registro di controllo delle cassette postali che viene archiviato come messaggio di posta elettronica in una cartella nascosta nella cassetta postale da controllare. Le voci di registro verranno visualizzate come risultati di ricerca e includere un elenco delle cassette postali a cui si accede a un utente non proprietario, che ha accesso alla cassetta postale e, le azioni eseguite l'utente non proprietario, e l'azione è stata eseguita correttamente. Per impostazione predefinita, le voci nel Registro di controllo delle cassette postali vengono conservate per 90 giorni.
 
@@ -49,9 +49,12 @@ Ad esempio, per abilitare il controllo delle cassette postali per un utente deno
 
 Per abilitare il controllo su tutte le cassette postali degli utenti di un'organizzazione, eseguire i comandi riportati di seguito.
 
-    $UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
-
-    $UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
+$UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
+```
+```
+$UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 

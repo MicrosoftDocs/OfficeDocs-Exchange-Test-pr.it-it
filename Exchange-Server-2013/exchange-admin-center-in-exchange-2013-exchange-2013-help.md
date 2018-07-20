@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-17_
+_**Ultima modifica dell'argomento:** 2015-03-17_
 
 L'interfaccia di amministrazione di Exchange (EAC) è una console di gestione basata sul Web in Microsoft Exchange Server 2013, ottimizzata per le distribuzioni locali, online e ibride di Exchange. EAC sostituisce Exchange Management Console (EMC) e il Pannello di controllo di Exchange (ECP), ovvero le interfacce utilizzate per la gestione di Exchange Server 2010.
 
@@ -185,11 +185,11 @@ Per un'esperienza ottimale con l'interfaccia di amministrazione di Exchange, uti
 
 
 
-  - **Premium:** tutte le caratteristiche funzionali sono supportate e completamente testate.
+  - **Premium:**  tutte le caratteristiche funzionali sono supportate e completamente testate.
 
-  - **Supportata:** supporta le stesse caratteristiche funzionali della combinazione Premium. ma nei browser supportati mancano le funzionalità non supportate dalla combinazione di sistema operativo e browser.
+  - **Supportata:**  supporta le stesse caratteristiche funzionali della combinazione Premium. ma nei browser supportati mancano le funzionalità non supportate dalla combinazione di sistema operativo e browser.
 
-  - **Non supportata:** la combinazione di sistema operativo e browser non è supportata o testata.
+  - **Non supportata:**  la combinazione di sistema operativo e browser non è supportata o testata.
 
 
 <table style="width:100%;">

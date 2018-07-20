@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 Si usa Exchange Management Shell in un server Trasporto Edge per tutte le attività di gestione correlate alla riscrittura degli indirizzi e agli agenti di riscrittura degli indirizzi. Per ulteriori informazioni sulla riscrittura degli indirizzi, vedere [Indirizzo riscrittura su server Trasporto Edge](address-rewriting-on-edge-transport-servers-exchange-2013-help.md).
 

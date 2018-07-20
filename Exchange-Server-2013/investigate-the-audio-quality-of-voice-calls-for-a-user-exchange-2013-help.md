@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-02-21_
+_**Ultima modifica dell'argomento:** 2013-02-21_
 
 Se un utente segnala problemi relativi alla qualità audio delle chiamate di messaggistica unificata (UM), utilizzare il rapporto Registri chiamate utente per individuare la causa di tali problemi.
 

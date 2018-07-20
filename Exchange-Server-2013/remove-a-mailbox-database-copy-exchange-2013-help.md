@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-11-06_
+_**Ultima modifica dell'argomento:** 2012-11-06_
 
 Tali procedure mostrano come rimuovere una copia di un database delle cassette postali. Non è possibile utilizzare tali procedure per rimuovere l'ultima copia di un database delle cassette postali. Per la procedura dettagliata su come rimuovere l'ultima copia di un database delle cassette postali, vedere [Remove a mailbox database](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md) o [Remove-MailboxDatabase](https://technet.microsoft.com/it-it/library/aa997931\(v=exchg.150\)).
 

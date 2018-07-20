@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server_
+_**Si applica a:** Exchange Server_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Il contenuto di questo argomento non è stato aggiornato per Microsoft Exchange Server 2013. Sebbene non sia stato aggiornato, può comunque essere applicabile anche a Exchange 2013. In caso di problemi, consultare le risorse della community riportate di seguito.
 
@@ -55,5 +55,5 @@ Per modificare il criterio indirizzo SMTP del destinatario
 
 4.  Fare clic sulla scheda **Indirizzi di posta elettronica** e quindi modificare l'indirizzo SMTP appropriato
 
-Per ulteriori informazioni sui problemi di denominazione criterio destinatario, vedere l'articolo della Microsoft Knowledge Base 288175 "XCON: criterio destinatario non può corrispondere al nome FQDN di un Server nell'organizzazione, 5.4.8 rapporti di mancato recapito" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=288175)).
+Per ulteriori informazioni sui problemi di denominazione criterio destinatario, vedere l'articolo della Microsoft Knowledge Base 288175 "XCON: criterio destinatario non può corrispondere al nome FQDN di un Server nell'organizzazione, 5.4.8 rapporti di mancato recapito" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052&kbid=288175)).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2013-04-03_
+_**Ultima modifica dell'argomento:** 2013-04-03_
 
 È possibile recuperare le informazioni sul PIN per un utente che è abilitato per la messaggistica unificata. Dopo aver abilitato un utente per la messaggistica unificata e dopo aver generato o creato un PIN, quest'ultimo viene crittografato e archiviato nella cassetta postale dell'utente.
 

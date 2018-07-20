@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-12-10_
+_**Ultima modifica dell'argomento:** 2012-12-10_
 
 I criteri degli indirizzi di posta elettronica generano gli indirizzi di posta elettronica principali e secondari per i destinatari, inclusi utenti, contatti e gruppi, in modo che siano in grado di inviare e ricevere posta elettronica.
 

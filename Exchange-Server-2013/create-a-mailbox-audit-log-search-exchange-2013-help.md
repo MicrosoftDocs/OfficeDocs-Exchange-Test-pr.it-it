@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-11_
+_**Ultima modifica dell'argomento:** 2012-10-11_
 
 È possibile creare una ricerca nel registro di controllo di una cassetta postale in modo che una ricerca asincrona venga eseguita in una o più cassette postali e i risultati ottenuti vengano inviati sotto forma di file XML agli indirizzi di posta elettronica specificati.
 

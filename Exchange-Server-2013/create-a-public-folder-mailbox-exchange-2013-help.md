@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2014-10-23_
+_**Ultima modifica dell'argomento:** 2014-10-23_
 
 Prima di creare una cartella pubblica, dapprima è necessario creare una cassetta postale della cartella pubblica. Le cassette postali della cartella pubblica contengono le informazioni gerarchiche oltre al contenuto per le cartelle pubbliche. La prima cassetta postale della cartella pubblica che si crea è rappresentata dalla principale cassetta postale in base alla gerarchia e contiene l'unica copia scrivibile della gerarchia. Ulteriori casette postali della cartelle pubbliche create sono di ordine secondario e contengono una copia di sola lettura della gerarchia.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-03_
+_**Ultima modifica dell'argomento:** 2012-10-03_
 
 È possibile utilizzare Microsoft Outlook per visualizzare gli indicatori di protezione da posta indesiderata applicati da Microsoft Exchange a un messaggio di posta elettronica. Gli indicatori di protezione da posta indesiderata permettono di effettuare una diagnosi dei problemi relativi alla posta indesiderata applicando i metadati diagnostici o gli indicatori, come le informazioni specifiche sul mittente, i risultati della convalida puzzle e di filtro contenuto, ai messaggi quando passano attraverso gli agenti di protezione da posta indesiderata che filtrano i messaggi in ingresso da Internet.
 

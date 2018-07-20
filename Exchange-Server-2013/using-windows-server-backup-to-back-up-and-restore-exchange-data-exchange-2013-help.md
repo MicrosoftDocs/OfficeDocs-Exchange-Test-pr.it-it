@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Microsoft [architettura preferito](https://blogs.technet.com/b/exchange/archive/2014/04/21/the-preferred-architecture.aspx) per Exchange Server 2013 utilizza il concetto di Exchange Native Data Protection. Exchange Protezione dei dati nativi basato sulle funzionalità native Exchange per proteggere i dati delle cassette postali, senza l'utilizzo dei backup tradizionale. Ma se si desidera creare i backup, Exchange include un plug-in per Windows Server Backup (WSB) che consente di creare i backup compatibile con Exchange basate sul Volume del servizio Copia shadow del Exchange dati. Per sfruttare i backup compatibile con Exchange, è necessario disporre della funzionalità WSB installata.
 

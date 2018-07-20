@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2012-10-12_
+_**Ultima modifica dell'argomento:** 2012-10-12_
 
 I connettori vengono utilizzati per controllare il flusso di posta in ingresso e in uscita in Microsoft Exchange Server 2013. Con i connettori, è possibile instradare e ricevere un messaggio di posta da destinatari esterni all'organizzazione, da un partner attraverso un canale sicuro o da accessori per l'elaborazione dei messaggi.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-03-09_
+_**Ultima modifica dell'argomento:** 2015-03-09_
 
 Nei registri degli agenti vengono registrate le azioni eseguite su un messaggio da specifici agenti di protezione dalla posta indesiderata in Microsoft Exchange Server 2013. Solo i seguenti agenti possono scrivere informazioni nel registro dell'agente:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 L'*archivio locale* consente di controllare i dati di messaggistica dell'organizzazione eliminando la necessità di utilizzare file di archivio personale (PST) e permettendo agli utenti di archiviare i messaggi in una *cassetta postale di archiviazione* accessibile in MicrosoftOutlook 2010 e versioni successive e Microsoft OfficeOutlook Web App.
 

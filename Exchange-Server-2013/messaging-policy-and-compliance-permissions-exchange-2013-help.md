@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 Le autorizzazioni richieste per configurare i criteri di messaggistica e la conformità dipendono dalla procedura in esecuzione o dal cmdlet che si intende eseguire. Per ulteriori informazioni sui criteri di messaggistica e sulla conformità, vedere [Criteri di messaggistica e conformità](messaging-policy-and-compliance-exchange-2013-help.md).
 

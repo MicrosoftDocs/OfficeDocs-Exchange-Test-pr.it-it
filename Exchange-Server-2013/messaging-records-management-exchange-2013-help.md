@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-02-01_
+_**Ultima modifica dell'argomento:** 2016-02-01_
 
 Gli utenti inviano e ricevono messaggi di posta elettronica ogni giorno. Se non viene gestito, il volume di messaggi generati e ricevuti giornalmente può "sommergere" gli utenti, influenzare negativamente la loro produttività ed esporre l'organizzazione a dei rischi. Di conseguenza, la gestione del ciclo di vita dei messaggi di posta elettronica è una componente fondamentale per la maggior parte delle organizzazioni.
 
@@ -47,9 +47,9 @@ Quando un messaggio raggiunge il termine del periodo di conservazione specificat
 
 **Spostare i messaggi nelle cassette postali di archiviazione**   In questa strategia, si implementano i criteri di Gestione record di messaggistica che spostano gli elementi sulla cassetta postale di archiviazione dell'utente. Una cassetta postale di archiviazione fornisce agli utenti uno spazio di archiviazione aggiuntivo dove conservare contenuti non aggiornati o a cui si accede di rado. I tag di conservazione che spostano gli elementi sono chiamati anche *criteri di conservazione*. Nello stesso criterio di conservazione, è possibile combinare un tag del criterio predefinito con dei tag personali per spostare gli elementi e un tag del criterio predefinito con dei tag dei criteri di conservazione e dei tag personali per eliminare gli elementi. Per ulteriori informazioni sui criteri di archiviazione, vedere:
 
-  - **Exchange Server 2013:** [Archiviazione sul posto di Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md)
+  - **Exchange Server 2013:**  [Archiviazione sul posto di Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md)
 
-  - **Exchange Online:** [Cassette postali di archiviazione in Exchange Online](https://technet.microsoft.com/it-it/library/dn922147\(v=exchg.150\))
+  - **Exchange Online:**  [Cassette postali di archiviazione in Exchange Online](https://technet.microsoft.com/it-it/library/dn922147\(v=exchg.150\))
 
 
 > [!NOTE]

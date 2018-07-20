@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Server 2013_
+_**Si applica a:** Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2015-04-08_
+_**Ultima modifica dell'argomento:** 2015-04-08_
 
 La registrazione nella tabella di routing registra periodicamente un'istantanea della tabella di routing utilizzata da Microsoft Exchange Server 2013 per instradare i messaggi alle loro destinazioni finali.
 

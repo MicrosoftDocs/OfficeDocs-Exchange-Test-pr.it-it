@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2012-11-05_
+_**Ultima modifica dell'argomento:** 2012-11-05_
 
 Per impostazione predefinita, al momento della creazione, lo stato di un operatore automatico di messaggistica unificata è disabilitato. Dopo aver creato l'operatore automatico di messaggistica unificata, è possibile modificarne lo stato affinché possa rispondere alle chiamate in ingresso.
 

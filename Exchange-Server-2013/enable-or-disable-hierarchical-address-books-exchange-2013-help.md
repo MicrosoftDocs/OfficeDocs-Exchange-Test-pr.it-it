@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013_
+_**Si applica a:** Exchange Online, Exchange Server 2013_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile configurare una rubrica gerarchica, una funzionalità disponibile agli utenti finali in Microsoft Outlook 2010 o versioni successive. Con una rubrica gerarchica gli utenti possono cercare i destinatari nella propria organizzazione Exchange utilizzando una gerarchia organizzativa basata sull'anzianità o sulla struttura di gestione. Per ulteriori informazioni sulle rubriche gerarchiche, vedere [Rubriche gerarchiche](hierarchical-address-books-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Si applica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Si applica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Ultima modifica dell'argomento:**2016-12-09_
+_**Ultima modifica dell'argomento:** 2016-12-09_
 
 È possibile disabilitare i fax in entrata per gli utenti associati a un criterio cassetta postale di messaggistica unificata. Per impostazione predefinita, quando si abilitano utenti alla messaggistica unificata, gli utenti non possono ricevere fax finché non viene specificato l'URI del server partner fax, distribuito il server partner fax per l'organizzazione e abilitato il fax su un criterio cassetta postale di messaggistica unificata. Se questa opzione viene disabilitata sul dial plan di messaggistica unificata, non sarà possibile la ricezione dei fax da parte degli utenti abilitati alla messaggistica unificata associati al criterio cassetta postale di messaggistica unificata. Allo stesso modo, se l'opzione per consentire a un singolo utente di ricevere i fax in entrata viene disabilitata, tale utente non potrà ricevere fax.
 
