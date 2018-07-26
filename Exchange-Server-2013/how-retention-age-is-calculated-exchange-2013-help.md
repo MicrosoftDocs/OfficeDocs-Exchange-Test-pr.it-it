@@ -94,7 +94,7 @@ Gli elementi nella cartella Elementi eliminati e gli elementi che hanno una data
 <ol>
 <li><p>Un'attività non ricorrente scade in base alla <code>message-received date</code>, se presente.</p></li>
 <li><p>Se un'attività non possiede una <code>message-received date</code>, la scadenza viene stabilita in base alla <code>message-creation date</code>.</p></li>
-<li><p>Se un'attività non ricorrente non possiede una <code>message-received date</code> né una <code></code><code>message-creation date</code>, non ha scadenza.</p></li>
+<li><p>Se un'attività non ricorrente non possiede una <code>message-received date</code> né una <code>message-creation date</code>, non ha scadenza.</p></li>
 </ol></li>
 <li><p>Un'attività ricorrente scade in base alla <code>end date</code> dell'ultima occorrenza. Se un'attività ricorrente non ha una <code>end date</code>, non scade.</p></li>
 <li><p>Un'attività rigenerante (ovvero un'attività ricorrente che viene rigenerata una volta trascorso un tempo specificato dal completamento dell'istanza precedente dell'attività) non scade.</p></li>
