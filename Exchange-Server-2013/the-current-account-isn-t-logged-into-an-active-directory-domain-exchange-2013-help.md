@@ -1,5 +1,5 @@
 ﻿---
-title: 'L'account non accede a un dominio di Active Directory: Exchange 2013 Help'
+title: "L'account non accede a un dominio di Active Directory: Exchange 2013 Help"
 TOCTitle: Nell'account corrente non viene effettuato l'accesso a un dominio di Active Directory
 ms:assetid: 0e229d10-605a-420f-bf8b-58a7fcb5b259
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.loggedontodomain(v=EXCHG.150)

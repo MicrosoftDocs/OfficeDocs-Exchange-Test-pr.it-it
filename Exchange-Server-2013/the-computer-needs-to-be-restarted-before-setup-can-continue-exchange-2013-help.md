@@ -1,5 +1,5 @@
 ﻿---
-title: 'Per proseguire l'installazione, riavviare il computer: Exchange 2013 Help'
+title: "Per proseguire l'installazione, riavviare il computer: Exchange 2013 Help"
 TOCTitle: Per poter proseguire con l'installazione, è necessario riavviare il computer
 ms:assetid: d5c73280-4e54-473a-b328-9673af11e2c0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.rebootpending(v=EXCHG.150)
