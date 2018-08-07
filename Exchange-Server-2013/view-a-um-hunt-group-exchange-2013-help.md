@@ -1,5 +1,5 @@
 ﻿---
-title: 'Visualizzare un gruppo di risposta di messaggistica unificata: Exchange 2013 Help'
+title: 'Visualizza gruppo risposta messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Visualizzare un gruppo di risposta di messaggistica unificata
 ms:assetid: f038f7b4-4de9-4373-bd58-09d49e37a3ed
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb125167(v=EXCHG.150)

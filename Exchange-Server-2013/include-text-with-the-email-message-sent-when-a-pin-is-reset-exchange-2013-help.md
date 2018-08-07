@@ -1,5 +1,5 @@
 ﻿---
-title: 'Includi testo con il messaggio di posta elettronica inviato quando una reimpostazione pin: Exchange 2013 Help'
+title: 'Includi testo e messaggio inviato alla reimpostaz. PIN: Exchange 2013 Help'
 TOCTitle: Includi testo con il messaggio di posta elettronica inviato quando una reimpostazione pin
 ms:assetid: f7a4d775-a588-412f-ac2c-11ab1a5c67eb
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb201750(v=EXCHG.150)

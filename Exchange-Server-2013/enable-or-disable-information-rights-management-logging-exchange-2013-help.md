@@ -1,5 +1,5 @@
 ﻿---
-title: 'Enable or Disable Information Rights Management registrazione: Exchange 2013 Help'
+title: 'Abilita/disabilita registrazione IRM: Exchange 2013 Help'
 TOCTitle: Enable or Disable Information Rights Management registrazione
 ms:assetid: 6933bc65-4d98-4878-9167-0e9eaac68b6b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff686962(v=EXCHG.150)

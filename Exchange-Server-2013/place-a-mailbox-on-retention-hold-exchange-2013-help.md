@@ -1,5 +1,5 @@
 ﻿---
-title: 'Archiviazione sul posto una cassetta postale di conservazione: Exchange 2013 Help'
+title: 'Archivia sul posto cassetta postale di conservazione: Exchange 2013 Help'
 TOCTitle: Archiviazione sul posto una cassetta postale di conservazione
 ms:assetid: 2baac4a7-3402-4142-bfb3-1649a950e677
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd335168(v=EXCHG.150)

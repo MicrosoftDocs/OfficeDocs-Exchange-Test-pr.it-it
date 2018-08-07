@@ -1,5 +1,5 @@
 ﻿---
-title: 'Eseguire la migrazione delle cartelle pubbliche nei gruppi di Office 365: Exchange 2013 Help'
+title: 'Esegue migrazione cartelle pubbl. in gruppi Office 365: Exchange 2013 Help'
 TOCTitle: Eseguire la migrazione delle cartelle pubbliche nei gruppi di Office 365
 ms:assetid: d89e727b-675a-4623-b572-260f8b44b966
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Mt843872(v=EXCHG.150)

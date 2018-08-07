@@ -1,5 +1,5 @@
 ﻿---
-title: 'Autorizzazioni infrastruttura Exchange ed Exchange Management Shell: Exchange 2013 Help'
+title: 'Autorizzaz. infrastr. Exchange/Exchange Management Shell: Exchange 2013 Help'
 TOCTitle: Autorizzazioni infrastruttura Exchange ed Exchange Management Shell
 ms:assetid: 3646a4e8-36b2-41fb-89a4-79b0963fcb11
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd638114(v=EXCHG.150)

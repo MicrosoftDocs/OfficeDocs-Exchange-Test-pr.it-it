@@ -1,5 +1,5 @@
 ﻿---
-title: "Visualizzare il registro di controllo dell'amministratore: Exchange Online Protection Help"
+title: 'Visualizza registro controllo amministratore: Exchange Online Protection Help'
 TOCTitle: Visualizzare il registro di controllo dell'amministratore
 ms:assetid: 5c62072a-556d-4fea-9973-d668c6b9fd57
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn342832(v=EXCHG.150)

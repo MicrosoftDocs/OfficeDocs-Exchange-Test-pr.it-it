@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importare un modello di criteri DLP personalizzato da un file: Exchange 2013 Help'
+title: 'Importa modello di criteri DLP personalizzato da un file: Exchange 2013 Help'
 TOCTitle: Importare un modello di criteri DLP personalizzato da un file
 ms:assetid: 83f49dbd-f9b1-498e-b548-1529c5e1ccdb
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ150531(v=EXCHG.150)

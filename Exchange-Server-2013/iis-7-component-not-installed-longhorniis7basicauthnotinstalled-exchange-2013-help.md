@@ -1,5 +1,5 @@
 ﻿---
-title: 'Componente di IIS 7 non installed_LonghornIIS7BasicAuthNotInstalled: Exchange 2013 Help'
+title: 'Comp. IIS 7 non install._LonghornIIS7BasicAuthNotInstalled: Exchange 2013 Help'
 TOCTitle: Componente di IIS 7 non installed_LonghornIIS7BasicAuthNotInstalled
 ms:assetid: 2eb3290c-9ce2-4c01-ad47-a26ef60bddb5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.longhorniis7basicauthnotinstalled(v=EXCHG.150)

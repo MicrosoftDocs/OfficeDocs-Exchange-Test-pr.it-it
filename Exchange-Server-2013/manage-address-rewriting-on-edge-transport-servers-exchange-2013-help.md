@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gestire la riscrittura degli indirizzi nei server Trasporto Edge: Exchange 2013 Help'
+title: 'Gestire riscrittura indirizzi server Trasporto Edge: Exchange 2013 Help'
 TOCTitle: Gestire la riscrittura degli indirizzi nei server Trasporto Edge
 ms:assetid: 323a0b55-f921-425d-b1b0-18ad0fac315c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997185(v=EXCHG.150)

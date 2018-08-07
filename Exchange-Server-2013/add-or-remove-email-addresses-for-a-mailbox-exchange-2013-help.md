@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aggiunta o rimozione di indirizzi di posta elettronica per una cassetta postale: Exchange 2013 Help'
+title: 'Aggiunta/rimozione indirizzi posta per cassetta postale: Exchange 2013 Help'
 TOCTitle: Aggiunta o rimozione di indirizzi di posta elettronica per una cassetta postale
 ms:assetid: 93e2d9a4-7558-4509-8641-8381a7eb674f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123794(v=EXCHG.150)

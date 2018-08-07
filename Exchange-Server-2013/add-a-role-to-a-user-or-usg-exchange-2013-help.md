@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aggiungere un ruolo di un utente o gruppo di protezione universale: Exchange 2013 Help'
+title: 'Aggiunge ruolo utente o gruppo di protezione universale: Exchange 2013 Help'
 TOCTitle: Aggiungere un ruolo di un utente o gruppo di protezione universale
 ms:assetid: ae5608de-a141-4714-8876-bce7d2a22cb5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351056(v=EXCHG.150)

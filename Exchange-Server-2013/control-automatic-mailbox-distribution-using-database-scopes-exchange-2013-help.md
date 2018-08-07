@@ -1,5 +1,5 @@
 ﻿---
-title: 'Controllare la distribuzione automatica delle cassette postali tramite gli ambiti dei database: Exchange 2013 Help'
+title: 'Controlla distr. autom. cassette postali ambiti database: Exchange 2013 Help'
 TOCTitle: Controllare la distribuzione automatica delle cassette postali tramite gli ambiti dei database
 ms:assetid: 8eaff177-2251-4c8b-8570-c91a77d0a6fc
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff628332(v=EXCHG.150)

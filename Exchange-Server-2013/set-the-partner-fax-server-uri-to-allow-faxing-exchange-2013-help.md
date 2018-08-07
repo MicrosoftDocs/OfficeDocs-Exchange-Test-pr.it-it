@@ -1,5 +1,5 @@
 ﻿---
-title: "Impostare il partner fax URI del server a consentire l'invio di fax: Exchange 2013 Help"
+title: 'Imposta partner fax URI server invio fax: Exchange 2013 Help'
 TOCTitle: Impostare il partner fax URI del server a consentire l'invio di fax
 ms:assetid: 77a9013b-d76b-4af2-8b2c-cef435cf67af
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ650873(v=EXCHG.150)

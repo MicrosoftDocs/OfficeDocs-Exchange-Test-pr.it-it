@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creazione di un gruppo di risposta di messaggistica unificata: Exchange 2013 Help'
+title: 'Crea gruppo di risposta di messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Creazione di un gruppo di risposta di messaggistica unificata
 ms:assetid: 43ecb1ec-5f82-4516-9010-de8f954d3758
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997679(v=EXCHG.150)

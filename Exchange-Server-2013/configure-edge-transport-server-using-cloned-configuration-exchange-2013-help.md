@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il server Trasporto Edge utilizzando una configurazione clonata: Exchange 2013 Help'
+title: 'Configura server Trasporto Edge con config. clonata: Exchange 2013 Help'
 TOCTitle: Configurare il server Trasporto Edge utilizzando una configurazione clonata
 ms:assetid: 0bbc83e3-e5e8-4480-a8a6-15f035360856
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa996008(v=EXCHG.150)

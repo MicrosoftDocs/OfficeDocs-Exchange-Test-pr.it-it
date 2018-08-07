@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizzo di Windows Server Backup per eseguire il backup e il recupero dei dati di Exchange: Exchange 2013 Help'
+title: 'Windows Server Backup esegue backup/recupero dati Exchange: Exchange 2013 Help'
 TOCTitle: Utilizzo di Windows Server Backup per eseguire il backup e il recupero dei dati di Exchange
 ms:assetid: 0fac891a-5713-42b6-afd5-c91b2b88f966
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd876851(v=EXCHG.150)

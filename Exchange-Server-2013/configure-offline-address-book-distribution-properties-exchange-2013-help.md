@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurazione delle proprietà di distribuzione della Rubrica offline: Exchange 2013 Help'
+title: 'Configura proprietà distribuzione della Rubrica offline: Exchange 2013 Help'
 TOCTitle: Configurazione delle proprietà di distribuzione della Rubrica offline
 ms:assetid: 8df985e9-75ba-47ea-9cc3-aa98a5d8acf4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123710(v=EXCHG.150)

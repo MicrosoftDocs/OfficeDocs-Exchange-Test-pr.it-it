@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agenti di trasporto di visualizzazione nella pipeline di trasporto: Exchange 2013 Help'
+title: 'Agenti trasporto visualizzaz. pipeline trasporto: Exchange 2013 Help'
 TOCTitle: Agenti di trasporto di visualizzazione nella pipeline di trasporto
 ms:assetid: bd715d8e-7b21-48de-8f68-d425d8506e4c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124395(v=EXCHG.150)

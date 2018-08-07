@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ripristino di un backup di Exchange tramite Windows Server Backup: Exchange 2013 Help'
+title: 'Ripristino backup Exchange con Windows Server Backup: Exchange 2013 Help'
 TOCTitle: Ripristino di un backup di Exchange tramite Windows Server Backup
 ms:assetid: 2d0f31dc-eb32-451a-8852-591269026506
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd876864(v=EXCHG.150)

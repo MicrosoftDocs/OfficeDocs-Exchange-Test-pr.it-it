@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il periodo di mantenimento degli elementi eliminati e delle quote di elementi ripristinabili: Exchange 2013 Help'
+title: 'Config. periodo mantenimento eliminati e ripristinabili: Exchange 2013 Help'
 TOCTitle: Configurare il periodo di mantenimento degli elementi eliminati e delle quote di elementi ripristinabili
 ms:assetid: de7d667a-1c93-4364-a4f9-2aa5e3678b12
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee364752(v=EXCHG.150)

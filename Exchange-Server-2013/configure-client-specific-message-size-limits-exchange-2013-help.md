@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare la dimensione massima dei messaggi specifici del client: Exchange 2013 Help'
+title: 'Configura dimensione max messaggi specifici del client: Exchange 2013 Help'
 TOCTitle: Configurare la dimensione massima dei messaggi specifici del client
 ms:assetid: fef9ca78-b68f-4342-ada0-881ab985ce3c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Hh529949(v=EXCHG.150)

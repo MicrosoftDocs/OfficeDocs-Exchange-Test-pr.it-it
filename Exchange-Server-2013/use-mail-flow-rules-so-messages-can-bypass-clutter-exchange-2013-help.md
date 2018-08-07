@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizzare le regole di flusso di posta elettronica in modo che i messaggi possono ignorare confusione: Exchange 2013 Help'
+title: 'Regole flusso posta per ignorare messaggi secondari: Exchange 2013 Help'
 TOCTitle: Utilizzare le regole di flusso di posta elettronica in modo che i messaggi possono ignorare confusione
 ms:assetid: 58e413f0-aa27-4307-bffd-4df03090a15e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn896639(v=EXCHG.150)

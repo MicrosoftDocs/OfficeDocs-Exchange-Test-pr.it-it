@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare la registrazione circolare per un database di cassette postale: Exchange 2013 Help'
+title: 'Configura registrazione circolare database cassette postale:Exchange 2013 Help'
 TOCTitle: Configurare la registrazione circolare per un database di cassette postale
 ms:assetid: 29cbd7cd-382b-4e0d-8368-2e49e75df2fc
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn756374(v=EXCHG.150)

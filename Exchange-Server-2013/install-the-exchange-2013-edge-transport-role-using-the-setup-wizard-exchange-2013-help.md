@@ -1,5 +1,5 @@
 ﻿---
-title: "Installazione del ruolo Trasporto Edge di Exchange 2013 tramite l'installazione guidata: Exchange 2013 Help"
+title: 'Conf. guid. installa ruolo Trasporto Edge di Exchange 2013: Exchange 2013 Help'
 TOCTitle: Installazione del ruolo Trasporto Edge di Exchange 2013 tramite l'installazione guidata
 ms:assetid: b8e51b0b-201e-4c64-92c8-3ac0db04b6e2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn635117(v=EXCHG.150)

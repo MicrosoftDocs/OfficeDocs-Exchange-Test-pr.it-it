@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creare una ricerca dei registri di controllo delle cassette postali: Exchange 2013 Help'
+title: 'Crea ricerca registri di controllo cassette postali: Exchange 2013 Help'
 TOCTitle: Creare una ricerca dei registri di controllo delle cassette postali
 ms:assetid: 48ba22cf-b1f2-4dbc-98fc-fed22d97db14
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff461929(v=EXCHG.150)

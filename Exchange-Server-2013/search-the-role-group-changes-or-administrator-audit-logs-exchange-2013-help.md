@@ -1,5 +1,5 @@
 ﻿---
-title: "Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore: Exchange 2013 Help"
+title: 'Ricerca modifiche a gruppo ruoli/registri di controllo amm.:Exchange 2013 Help'
 TOCTitle: Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore
 ms:assetid: c7188d53-e672-492b-b57d-cd711379ddb3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff459262(v=EXCHG.150)

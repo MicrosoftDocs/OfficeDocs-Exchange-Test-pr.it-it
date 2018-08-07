@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare le impostazioni di protezione da posta indesiderata per cassette postali: Exchange 2013 Help'
+title: 'Config. imp. protez. posta indes. cassette postali: Exchange 2013 Help'
 TOCTitle: Configurare le impostazioni di protezione da posta indesiderata per cassette postali
 ms:assetid: 868d7fd8-e817-46ba-9b67-edf2f50b9494
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123559(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Opzioni di configurazione di archiviazione di Exchange 2013: Exchange 2013 Help'
+title: 'Opzioni configurazione archiviazione Exchange 2013: Exchange 2013 Help'
 TOCTitle: Opzioni di configurazione di archiviazione di Exchange 2013
 ms:assetid: 37cdeacf-74f9-4399-9860-4d1dbec12bb1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee832792(v=EXCHG.150)

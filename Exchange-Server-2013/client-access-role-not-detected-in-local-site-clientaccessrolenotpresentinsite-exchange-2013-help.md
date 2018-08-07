@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ruolo accesso client non rilevato in site_ClientAccessRoleNotPresentInSite locale: Exchange 2013 Help'
+title: 'Acc. client non ril. site_ClientAccessRoleNotPresentInSite: Exchange 2013 Help'
 TOCTitle: Ruolo accesso client non rilevato in site_ClientAccessRoleNotPresentInSite locale
 ms:assetid: b5bfc6af-9c55-46c0-a293-6078b64e87dd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.clientaccessrolenotpresentinsite(v=EXCHG.150)

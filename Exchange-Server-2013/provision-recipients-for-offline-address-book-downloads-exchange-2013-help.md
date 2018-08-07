@@ -1,5 +1,5 @@
 ﻿---
-title: 'Destinatari di provisioning per i download della Rubrica offline: Exchange 2013 Help'
+title: 'Destinatari provisioning download Rubrica offline: Exchange 2013 Help'
 TOCTitle: Destinatari di provisioning per i download della Rubrica offline
 ms:assetid: 141751ac-16d3-4e3c-b70c-004aeedcb5a0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa996345(v=EXCHG.150)

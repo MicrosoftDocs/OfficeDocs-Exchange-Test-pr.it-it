@@ -1,5 +1,5 @@
 ﻿---
-title: 'Solo il ruolo cassette postali può essere installato in un cluster server_ClusSvcInstalledRoleBlock: Exchange 2013 Help'
+title: 'Ruolo cass. post. cluster server_ClusSvcInstalledRoleBlock:Exchange 2013 Help'
 TOCTitle: Solo il ruolo cassette postali può essere installato in un cluster server_ClusSvcInstalledRoleBlock
 ms:assetid: 3e20f408-2b8d-47c2-a402-07232ab9f234
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.clussvcinstalledroleblock(v=EXCHG.150)

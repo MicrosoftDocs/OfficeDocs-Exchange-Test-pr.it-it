@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare o disabilitare una regola di ricezione chiamata di un utente: Exchange 2013 Help'
+title: 'Abilita/disabilita regola ricezione chiamata utente: Exchange 2013 Help'
 TOCTitle: Abilitare o disabilitare una regola di ricezione chiamata di un utente
 ms:assetid: f9e40ac3-117f-44f6-9ab1-dc9f4c72e8ac
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn140252(v=EXCHG.150)

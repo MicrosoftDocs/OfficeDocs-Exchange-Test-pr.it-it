@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aggiungere la cassetta postale di federazione per il gruppo di utenti con privilegi avanzati di AD RMS: Exchange 2013 Help'
+title: 'Agg. cass. post. feder. gruppo utenti privilegi av. AD RMS: Exchange 2013 Help'
 TOCTitle: Aggiungere la cassetta postale di federazione per il gruppo di utenti con privilegi avanzati di AD RMS
 ms:assetid: 44618df9-54f0-4474-a450-dcba48a02901
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee424431(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Copiare i risultati della ricerca eDiscovery in una cassetta postale di individuazione: Exchange 2013 Help'
+title: 'Copia risult. ricerca eDiscovery cassetta postale individ.: Exchange 2013 Help'
 TOCTitle: Copiare i risultati della ricerca eDiscovery in una cassetta postale di individuazione
 ms:assetid: bff2ce89-9e6f-494a-bd6a-2f2011507845
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn624163(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurazione del flusso della posta Internet tramite un server Trasporto Edge sottoscritto: Exchange 2013 Help'
+title: 'Config. posta Internet server Trasporto Edge sottoscritto: Exchange 2013 Help'
 TOCTitle: Configurazione del flusso della posta Internet tramite un server Trasporto Edge sottoscritto
 ms:assetid: d12ea770-99ce-4ab4-a373-96f2554641fa
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb738158(v=EXCHG.150)

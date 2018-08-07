@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consentire o impedire risponditore automatico in un server cassette postali: Exchange 2013 Help'
+title: 'Consente o meno risponditore auto. server cassette postali: Exchange 2013 Help'
 TOCTitle: Consentire o impedire risponditore automatico in un server cassette postali
 ms:assetid: 4b860c09-6669-4e3d-b3dc-17b8018b3860
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997908(v=EXCHG.150)

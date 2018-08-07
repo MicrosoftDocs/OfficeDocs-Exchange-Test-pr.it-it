@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creare un criterio indirizzo di posta elettronica utilizzando i filtri destinatari: Exchange 2013 Help'
+title: 'Crea criterio indirizzo posta con i filtri destinatari: Exchange 2013 Help'
 TOCTitle: Creare un criterio indirizzo di posta elettronica utilizzando i filtri destinatari
 ms:assetid: e3f446bd-1511-479c-8d87-2dfce5547c90
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232194(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il limite nel messaggio di saluto personale per gli utenti di Outlook Voice Access: Exchange 2013 Help'
+title: 'Config. limite nel saluto per utenti Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Configurare il limite nel messaggio di saluto personale per gli utenti di Outlook Voice Access
 ms:assetid: d400f250-0f55-45f5-9918-5f1d7819fbdf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb201731(v=EXCHG.150)

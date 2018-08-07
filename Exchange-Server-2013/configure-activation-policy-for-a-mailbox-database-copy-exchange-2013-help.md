@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare i criteri di attivazione per una copia del database delle cassette postali: Exchange 2013 Help'
+title: 'Config. criteri attiv. per copia database cassette postali: Exchange 2013 Help'
 TOCTitle: Configurare i criteri di attivazione per una copia del database delle cassette postali
 ms:assetid: 6b37ed6e-2e36-4688-b485-8fdbb8193ec8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd298046(v=EXCHG.150)

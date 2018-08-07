@@ -1,5 +1,5 @@
 ﻿---
-title: 'Contatori delle prestazioni per la gestione dei record di messaggistica: Exchange 2013 Help'
+title: 'Contatori prestazioni per gestione record messaggistica: Exchange 2013 Help'
 TOCTitle: Contatori delle prestazioni per la gestione dei record di messaggistica
 ms:assetid: b59def6f-4249-4e0c-8057-8ae6eb7c5676
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb310790(v=EXCHG.150)

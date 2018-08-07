@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impostare la porta di attesa TCP su un server Accesso Client: Exchange 2013 Help'
+title: 'Imposta porta attesa TCP su un server Accesso Client: Exchange 2013 Help'
 TOCTitle: Impostare la porta di attesa TCP su un server Accesso Client
 ms:assetid: 5f48f21a-d8d4-48b2-868f-9a3647693841
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673530(v=EXCHG.150)

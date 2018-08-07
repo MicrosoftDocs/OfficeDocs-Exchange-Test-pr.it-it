@@ -1,5 +1,5 @@
 ﻿---
-title: 'Contatori delle prestazioni di visualizzazione per la gestione dei record di messaggistica: Exchange 2013 Help'
+title: 'Contatori prestaz. visualizz. per gestione record mess.: Exchange 2013 Help'
 TOCTitle: Contatori delle prestazioni di visualizzazione per la gestione dei record di messaggistica
 ms:assetid: ec374d31-2797-4f8b-8c96-3839d01a662c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb397227(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'I server Exchange 2007 devono essere aggiornati al Service Pack 3, aggiornamento cumulativo 10: Exchange 2013 Help'
+title: 'Aggiorna server Exchange 2007 a SP3, CU10: Exchange 2013 Help'
 TOCTitle: I server Exchange 2007 devono essere aggiornati al Service Pack 3, aggiornamento cumulativo 10
 ms:assetid: b8028a00-c451-412e-86f2-1669f6eee8fc
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.e15e12coexistenceminversionrequirement(v=EXCHG.150)

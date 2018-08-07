@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il mezzo principale per Outlook Voice Access la ricerca: Exchange 2013 Help'
+title: 'Config. mezzo principale ricerca in Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Configurare il mezzo principale per Outlook Voice Access la ricerca
 ms:assetid: 3d93a037-5820-41d3-9206-69f534414daf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997563(v=EXCHG.150)

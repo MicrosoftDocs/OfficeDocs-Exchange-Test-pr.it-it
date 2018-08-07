@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare una richiesta di menu personalizzate orario di ufficio: Exchange 2013 Help'
+title: 'Abilita richiesta menu personalizz. orario ufficio: Exchange 2013 Help'
 TOCTitle: Abilitare una richiesta di menu personalizzate orario di ufficio
 ms:assetid: 89053e84-3490-4dc6-ade3-9b6c5dbf4020
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232116(v=EXCHG.150)

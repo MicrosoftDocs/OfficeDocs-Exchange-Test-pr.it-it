@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il servizio disponibilità per topologie con più foreste: Exchange 2013 Help'
+title: 'Conf. disponibilità per topologie con più foreste: Exchange 2013 Help'
 TOCTitle: Configurare il servizio disponibilità per topologie con più foreste
 ms:assetid: f1e7d407-f0d3-47a7-8cc3-03c5980445d5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb125182(v=EXCHG.150)

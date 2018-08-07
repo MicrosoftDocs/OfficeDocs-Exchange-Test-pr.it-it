@@ -1,5 +1,5 @@
 ﻿---
-title: "Configurare un dominio accettato per una business unit con cassette postali all'esterno dell'organizzazione di Exchange: Exchange 2013 Help"
+title: 'Config. dom. acc. BU cass. post. fuori organizz. Exchange: Exchange 2013 Help'
 TOCTitle: Configurare un dominio accettato per una business unit con cassette postali all'esterno dell'organizzazione di Exchange
 ms:assetid: ff46310b-5392-4eac-97bc-d39d397e1ce1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ657737(v=EXCHG.150)

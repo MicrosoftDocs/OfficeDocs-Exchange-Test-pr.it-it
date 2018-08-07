@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurazione di Suggerimenti messaggio personalizzati per i destinatari: Exchange 2013 Help'
+title: 'Config. Suggerimenti mess. personalizzati per destinatari: Exchange 2013 Help'
 TOCTitle: Configurazione di Suggerimenti messaggio personalizzati per i destinatari
 ms:assetid: df8ee7ae-2486-4890-b057-cda87b4cb1ec
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd638199(v=EXCHG.150)

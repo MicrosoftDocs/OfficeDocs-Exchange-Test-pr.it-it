@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ridurre le dimensioni di una cassetta postale di individuazione in Exchange: Exchange 2013 Help'
+title: 'Ridurre dimens. cassetta postale individuaz. in Exchange: Exchange 2013 Help'
 TOCTitle: Ridurre le dimensioni di una cassetta postale di individuazione in Exchange
 ms:assetid: fa762d14-f942-4728-8813-887d11441a68
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn750895(v=EXCHG.150)

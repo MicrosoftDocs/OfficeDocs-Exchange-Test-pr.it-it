@@ -1,5 +1,5 @@
 ﻿---
-title: 'Suggerimenti relativi alle prestazioni di Exchange Server 2013: Exchange 2013 Help'
+title: 'Suggerimenti su prestazioni di Exchange Server 2013: Exchange 2013 Help'
 TOCTitle: Suggerimenti relativi alle prestazioni di Exchange Server 2013
 ms:assetid: 6d0aea68-10d5-4a18-b632-a814ce3daa43
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn879084(v=EXCHG.150)

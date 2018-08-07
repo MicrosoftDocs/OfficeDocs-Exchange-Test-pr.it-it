@@ -1,5 +1,5 @@
 ﻿---
-title: 'Specifica unità del database delle cassette postali è missing_MailboxEDBDriveDoesNotExist: Exchange 2013 Help'
+title: 'Database cassette postali manca_MailboxEDBDriveDoesNotExist:Exchange 2013 Help'
 TOCTitle: Specifica unità del database delle cassette postali è missing_MailboxEDBDriveDoesNotExist
 ms:assetid: 0e487aa1-3194-4a14-b255-a8b9f9afbf0e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.mailboxedbdrivedoesnotexist(v=EXCHG.150)

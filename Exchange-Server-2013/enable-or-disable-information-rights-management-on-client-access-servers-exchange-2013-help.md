@@ -1,5 +1,5 @@
 ﻿---
-title: 'Attivare o disattivare Information Rights Management sui server Accesso Client: Exchange 2013 Help'
+title: 'Attiva/disattiva IRM su server Accesso Client: Exchange 2013 Help'
 TOCTitle: Attivare o disattivare Information Rights Management sui server Accesso Client
 ms:assetid: c7ce069b-a572-4755-90a3-7105472e4c83
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd876938(v=EXCHG.150)

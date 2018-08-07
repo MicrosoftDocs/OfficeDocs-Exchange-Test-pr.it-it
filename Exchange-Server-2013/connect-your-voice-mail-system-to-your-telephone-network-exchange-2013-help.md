@@ -1,5 +1,5 @@
 ﻿---
-title: 'Connettere il sistema di segreteria telefonica alla rete telefonica: Exchange 2013 Help'
+title: 'Connette segreteria telefonica a rete telefonica: Exchange 2013 Help'
 TOCTitle: Connettere il sistema di segreteria telefonica alla rete telefonica
 ms:assetid: b606b49d-5bd3-4321-ae77-99fa4604c875
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673554(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare i messaggi in attesa indicatore (MWI) per gli utenti: Exchange 2013 Help'
+title: 'Abilita messaggi in attesa indicatore (MWI): Exchange 2013 Help'
 TOCTitle: Abilitare i messaggi in attesa indicatore (MWI) per gli utenti
 ms:assetid: 3d0ca657-00b6-4108-a850-b092fede1f75
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd335216(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare Exchange affinché accetti posta per più domini autorevoli: Exchange 2013 Help'
+title: 'Config. Exchange affinché accetti posta più dom. autorevoli:Exchange 2013 Help'
 TOCTitle: Configurare Exchange affinché accetti posta per più domini autorevoli
 ms:assetid: 11801f73-4934-4025-a1c1-3935dada7e9b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa996314(v=EXCHG.150)

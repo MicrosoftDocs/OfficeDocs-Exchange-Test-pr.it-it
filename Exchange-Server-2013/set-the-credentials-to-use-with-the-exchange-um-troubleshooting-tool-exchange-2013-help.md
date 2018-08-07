@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impostare le credenziali da utilizzare con la messaggistica UNIFICATA di risoluzione dei problemi di strumento di Exchange: Exchange 2013 Help'
+title: 'Imposta cred. mess. unificata strum. risol. prob. Exchange: Exchange 2013 Help'
 TOCTitle: Impostare le credenziali da utilizzare con la messaggistica UNIFICATA di risoluzione dei problemi di strumento di Exchange
 ms:assetid: 542b7718-9345-40cc-bcb2-e307e70a1fa2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff630916(v=EXCHG.150)

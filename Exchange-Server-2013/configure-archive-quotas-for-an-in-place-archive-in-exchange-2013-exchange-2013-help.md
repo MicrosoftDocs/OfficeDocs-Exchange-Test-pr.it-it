@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare quote di archiviazione per un archivio sul posto di Exchange 2013: Exchange 2013 Help'
+title: 'Config. quote archiviazione sul posto di Exchange 2013: Exchange 2013 Help'
 TOCTitle: Configurare quote di archiviazione per un archivio sul posto di Exchange 2013
 ms:assetid: f10e77c7-e1d4-415a-bef9-cb3f00e74c34
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee633489(v=EXCHG.150)

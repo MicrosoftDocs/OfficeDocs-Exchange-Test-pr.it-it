@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ereditarietà (ACL) elenco di controllo accesso è blocked_InhBlockPublicFolderTree: Exchange 2013 Help'
+title: 'Ereditarietà ACL bloccata_InhBlockPublicFolderTree: Exchange 2013 Help'
 TOCTitle: Ereditarietà (ACL) elenco di controllo accesso è blocked_InhBlockPublicFolderTree
 ms:assetid: e3b89c8a-d6f8-4864-8bf0-35a78ce87cc4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.inhblockpublicfoldertree(v=EXCHG.150)

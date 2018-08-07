@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedure relative al criterio cassetta postale messaggistica unificata: Exchange 2013 Help'
+title: 'Procedure criterio cassetta postale mess. unificata: Exchange 2013 Help'
 TOCTitle: Procedure relative al criterio cassetta postale messaggistica unificata
 ms:assetid: 37db12de-109f-4e81-9e6a-effab2c2171d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ851061(v=EXCHG.150)

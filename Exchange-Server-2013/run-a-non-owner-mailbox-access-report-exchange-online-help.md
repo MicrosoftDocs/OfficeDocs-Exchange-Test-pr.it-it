@@ -1,5 +1,5 @@
 ﻿---
-title: 'Eseguire un rapporto di accesso non proprietario della cassetta postale: Exchange 2013 Help'
+title: 'Eseguire rapporto accesso non proprietario cassetta postale:Exchange 2013 Help'
 TOCTitle: Eseguire un rapporto di accesso non proprietario della cassetta postale
 ms:assetid: dbbef170-e726-4735-abf1-2857db9bb52d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ150575(v=EXCHG.150)

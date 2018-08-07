@@ -1,5 +1,5 @@
 ﻿---
-title: 'Connettere un controller dei confini VoIP gateway, IP PBX o della sessione di messaggistica UNIFICATA: Exchange 2013 Help'
+title: 'Conn. controller VoIP gateway/IP PBX/sess. mess. unificata: Exchange 2013 Help'
 TOCTitle: Connettere un controller dei confini VoIP gateway, IP PBX o della sessione di messaggistica UNIFICATA
 ms:assetid: a7cecf59-b93a-413b-bb88-29f2669ef2cf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124084(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impostare il ritardo massimo recapito di un partner di anteprima messaggio vocale: Exchange 2013 Help'
+title: 'Imposta ritardo max recapito partner anteprima mess. voc.: Exchange 2013 Help'
 TOCTitle: Impostare il ritardo massimo recapito di un partner di anteprima messaggio vocale
 ms:assetid: c9a07f6d-6f7f-4036-9a4a-d668d21e2c76
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff630928(v=EXCHG.150)

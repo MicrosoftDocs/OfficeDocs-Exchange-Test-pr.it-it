@@ -1,5 +1,5 @@
 ﻿---
-title: 'Disabilitare le chiamate in uscita sui gateway IP di messaggistica unificata: Exchange 2013 Help'
+title: 'Disabilita chiamate in uscita su gateway IP mess. unificata:Exchange 2013 Help'
 TOCTitle: Disabilitare le chiamate in uscita sui gateway IP di messaggistica unificata
 ms:assetid: a3777cc6-37e4-4359-ada3-a962ac0ef0c3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232153(v=EXCHG.150)

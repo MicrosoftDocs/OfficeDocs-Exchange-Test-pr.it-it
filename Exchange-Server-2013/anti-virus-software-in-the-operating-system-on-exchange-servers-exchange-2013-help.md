@@ -1,5 +1,5 @@
 ﻿---
-title: 'Software antivirus nel sistema operativo dei server Exchange: Exchange 2013 Help'
+title: 'Software antivirus in sistema operativo di server Exchange: Exchange 2013 Help'
 TOCTitle: Software antivirus nel sistema operativo dei server Exchange
 ms:assetid: 7cef6017-7a55-41f3-a636-1ca4fce575b1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb332342(v=EXCHG.150)

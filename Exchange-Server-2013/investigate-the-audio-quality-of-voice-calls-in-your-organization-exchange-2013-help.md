@@ -1,5 +1,5 @@
 ﻿---
-title: "Esaminare la qualità dell'audio delle chiamate vocali all'interno dell'organizzazione: Exchange 2013 Help"
+title: 'Esamina qualità audio chiamate vocali dell'organizzazione: Exchange 2013 Help'
 TOCTitle: Esaminare la qualità dell'audio delle chiamate vocali all'interno dell'organizzazione
 ms:assetid: 8a87694b-1678-4a01-859f-5ad3b2c73db5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ659069(v=EXCHG.150)

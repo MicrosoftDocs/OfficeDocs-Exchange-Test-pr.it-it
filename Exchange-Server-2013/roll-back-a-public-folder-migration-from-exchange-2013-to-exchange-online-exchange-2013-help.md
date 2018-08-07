@@ -1,5 +1,5 @@
 ﻿---
-title: 'Eseguire il rollback di una migrazione di cartella pubblica da Exchange 2013 a Exchange 2016: Exchange 2013 Help'
+title: 'Rollback migraz. cart. pubbl. Exchange 2013-Exchange 2016: Exchange 2013 Help'
 TOCTitle: Eseguire il rollback di una migrazione di cartella pubblica da Exchange 2013 a Exchange 2016
 ms:assetid: bcd54aa0-aa45-4c68-b504-1475842d4b96
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Mt798259(v=EXCHG.150)

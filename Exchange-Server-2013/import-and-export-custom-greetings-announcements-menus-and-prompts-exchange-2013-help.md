@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importazione ed esportazione istruzioni, gli annunci, menu e messaggi di saluto personalizzati: Exchange 2013 Help'
+title: 'Imp./esp. istruz., annunci, menu, messaggi saluto person.: Exchange 2013 Help'
 TOCTitle: Importazione ed esportazione istruzioni, gli annunci, menu e messaggi di saluto personalizzati
 ms:assetid: e82da5d5-625f-4d8b-8d31-ac45513aacfd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee681667(v=EXCHG.150)

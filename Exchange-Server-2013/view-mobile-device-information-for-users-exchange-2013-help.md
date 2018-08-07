@@ -1,5 +1,5 @@
 ﻿---
-title: 'Visualizzare informazioni sui dispositivi mobili per gli utenti: Exchange 2013 Help'
+title: 'Visualizza info. su dispos. mobili per utenti: Exchange 2013 Help'
 TOCTitle: Visualizzare informazioni sui dispositivi mobili per gli utenti
 ms:assetid: 4fd263c0-ad61-416c-bd68-339bf66605cf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997974(v=EXCHG.150)

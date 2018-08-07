@@ -1,5 +1,5 @@
 ﻿---
-title: "Abilitare la registrazione di prompt personalizzata utilizzando l'interfaccia utente di telefono: Exchange 2013 Help"
+title: 'Abilita reg. prompt personal. con interfaccia utente tel.: Exchange 2013 Help'
 TOCTitle: Abilitare la registrazione di prompt personalizzata utilizzando l'interfaccia utente di telefono
 ms:assetid: f2e5c636-2be9-4d48-b5e7-37913ded62d1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb691404(v=EXCHG.150)

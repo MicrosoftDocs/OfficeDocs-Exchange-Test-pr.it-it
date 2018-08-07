@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ripristinare un modello di dettagli per la configurazione predefinita: Exchange 2013 Help'
+title: 'Ripristina modello dettagli config. predefinita: Exchange 2013 Help'
 TOCTitle: Ripristinare un modello di dettagli per la configurazione predefinita
 ms:assetid: 84c5f49b-614d-4f0e-8701-0979a2eb90bf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232102(v=EXCHG.150)

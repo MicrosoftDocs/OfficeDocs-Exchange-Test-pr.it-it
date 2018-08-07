@@ -1,5 +1,5 @@
 ﻿---
-title: 'Azure: Consentono di identificare il problema con verifica automatica - record DNS: Exchange 2013 Help'
+title: 'Azure: identificare problemi - verifica autom - record DNS: Exchange 2013 Help'
 TOCTitle: 'Azure: Consentono di identificare il problema con verifica automatica - record DNS'
 ms:assetid: 1ef42cde-4df4-401a-b8f2-494630996ca8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn793619(v=EXCHG.150)

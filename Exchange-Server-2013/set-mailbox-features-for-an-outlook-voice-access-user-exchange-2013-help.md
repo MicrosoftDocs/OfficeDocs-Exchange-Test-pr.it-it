@@ -1,5 +1,5 @@
 ﻿---
-title: 'Set di funzionalità delle cassette postali per un utente di Outlook Voice Access: Exchange 2013 Help'
+title: 'Set funzionalità cassette postali per Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Set di funzionalità delle cassette postali per un utente di Outlook Voice Access
 ms:assetid: a56bfd75-7bc5-49b9-b098-06855a720dcd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124030(v=EXCHG.150)

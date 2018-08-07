@@ -1,5 +1,5 @@
 ﻿---
-title: "Eseguire l'aggiornamento alla messaggistica UNIFICATA di Exchange 2007 a messaggistica UNIFICATA di Exchange 2013: Exchange 2013 Help"
+title: 'Esegue aggiorn. mess. unif. Exchange 2007 a Exchange 2013: Exchange 2013 Help'
 TOCTitle: Eseguire l'aggiornamento alla messaggistica UNIFICATA di Exchange 2007 a messaggistica UNIFICATA di Exchange 2013
 ms:assetid: 642c922d-7e85-40f0-bb9b-0f20da692be3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn169227(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impostare il numero di errori di accesso prima che venga bloccato un utente di posta vocale: Exchange 2013 Help'
+title: 'Imp. num. err. accesso prima di blocc. utente posta vocale: Exchange 2013 Help'
 TOCTitle: Impostare il numero di errori di accesso prima che venga bloccato un utente di posta vocale
 ms:assetid: 855e1980-2868-4983-b097-0b5f63f202b8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123544(v=EXCHG.150)

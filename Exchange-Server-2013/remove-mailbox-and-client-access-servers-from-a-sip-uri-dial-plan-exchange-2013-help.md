@@ -1,5 +1,5 @@
 ﻿---
-title: 'Rimuovere i server cassette postali e accesso Client da un dial plan URI SIP: Exchange 2013 Help'
+title: 'Rim. server cass. post./accesso Client da dial plan URI SIP:Exchange 2013 Help'
 TOCTitle: Rimuovere i server cassette postali e accesso Client da un dial plan URI SIP
 ms:assetid: 367441e1-1a0f-42c8-9fa8-8abe80b3d015
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997238(v=EXCHG.150)

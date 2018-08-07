@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ripristinare un server membro di database availability group: Exchange 2013 Help'
+title: 'Ripristina server membro gruppo disponibilità database: Exchange 2013 Help'
 TOCTitle: Ripristinare un server membro di database availability group
 ms:assetid: eccd8f61-9706-4bb7-a62a-ec7c166f8019
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd638206(v=EXCHG.150)

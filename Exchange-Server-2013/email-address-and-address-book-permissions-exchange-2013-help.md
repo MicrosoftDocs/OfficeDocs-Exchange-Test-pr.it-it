@@ -1,5 +1,5 @@
 ﻿---
-title: 'Autorizzazioni per le rubriche e gli indirizzi di posta elettronica: Exchange 2013 Help'
+title: 'Autorizzazioni rubriche/indirizzi posta: Exchange 2013 Help'
 TOCTitle: Autorizzazioni per le rubriche e gli indirizzi di posta elettronica
 ms:assetid: 1c1de09d-16ef-4424-9bfb-eb7edffbc8c2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ150492(v=EXCHG.150)

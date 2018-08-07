@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impedire a messaggi in attesa indicatore (MWI) su un gateway IP di messaggistica unificata: Exchange 2013 Help'
+title: 'Imp. mess. attesa indic. (MWI) su gateway IP  mess. unif.: Exchange 2013 Help'
 TOCTitle: Impedire a messaggi in attesa indicatore (MWI) su un gateway IP di messaggistica unificata
 ms:assetid: 7af6d094-199f-4134-a25d-9fc7e9c05fe1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673536(v=EXCHG.150)

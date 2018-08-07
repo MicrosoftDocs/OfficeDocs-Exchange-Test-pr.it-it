@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare un operatore automatico di messaggistica unificata: Exchange 2013 Help'
+title: 'Configura operatore automatico messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Configurare un operatore automatico di messaggistica unificata
 ms:assetid: 0a3492f8-8aba-4904-96fd-6e023175012a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673508(v=EXCHG.150)

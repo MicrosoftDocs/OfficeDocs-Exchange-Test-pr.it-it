@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mode_LocalDomainModeMixed combinazione di dominio Active Directory: Exchange 2013 Help'
+title: 'Dominio AD modalità mista Mode_LocalDomainModeMixed: Exchange 2013 Help'
 TOCTitle: Mode_LocalDomainModeMixed combinazione di dominio Active Directory
 ms:assetid: a6affcfe-7264-455b-8e5c-683fa87383f1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.localdomainmodemixed(v=EXCHG.150)

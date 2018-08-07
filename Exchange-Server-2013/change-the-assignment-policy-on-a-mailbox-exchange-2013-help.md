@@ -1,5 +1,5 @@
 ﻿---
-title: 'Modificare il criterio di assegnazione di una cassetta postale: Exchange 2013 Help'
+title: 'Modifica criterio assegnaz. cassetta postale: Exchange 2013 Help'
 TOCTitle: Modificare il criterio di assegnazione di una cassetta postale
 ms:assetid: 011690a5-233a-4c03-8842-92276f899a89
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd638076(v=EXCHG.150)

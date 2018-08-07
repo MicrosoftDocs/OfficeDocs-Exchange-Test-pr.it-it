@@ -1,5 +1,5 @@
 ﻿---
-title: 'Esportazione dei risultati della ricerca eDiscovery in un file PST: Exchange 2013 Help'
+title: 'Esporta risultati ricerca eDiscovery in un file PST: Exchange 2013 Help'
 TOCTitle: Esportazione dei risultati della ricerca eDiscovery in un file PST
 ms:assetid: bc47f5f9-d056-4b69-b669-ae65fad541c8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn440164(v=EXCHG.150)

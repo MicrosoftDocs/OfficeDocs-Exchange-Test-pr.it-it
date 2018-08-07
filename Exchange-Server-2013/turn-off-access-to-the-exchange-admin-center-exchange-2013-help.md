@@ -1,5 +1,5 @@
 ﻿---
-title: "Disattivare l'accesso all'interfaccia di amministrazione di Exchange: Exchange 2013 Help"
+title: 'Disattiva accesso  interfaccia amministrazione di Exchange: Exchange 2013 Help'
 TOCTitle: Disattivare l'accesso all'interfaccia di amministrazione di Exchange
 ms:assetid: 49f4fa77-1722-4703-81c9-8724ae0334fb
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ218639(v=EXCHG.150)

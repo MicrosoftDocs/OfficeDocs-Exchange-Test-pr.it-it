@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consente di visualizzare o configurare le directory virtuali di Outlook Web App: Exchange 2013 Help'
+title: 'Visualizza/configura directory virtuali Outlook Web App: Exchange 2013 Help'
 TOCTitle: Consente di visualizzare o configurare le directory virtuali di Outlook Web App
 ms:assetid: 90babcf6-4486-4e01-9819-6d3ca4ed756c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd298140(v=EXCHG.150)

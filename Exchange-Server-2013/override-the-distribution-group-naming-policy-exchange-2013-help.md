@@ -1,5 +1,5 @@
 ﻿---
-title: "Eseguire l'override del gruppo di distribuzione dei criteri di denominazione: Exchange 2013 Help"
+title: 'Override gruppo distribuzione criteri denominazione: Exchange 2013 Help'
 TOCTitle: Eseguire l'override del gruppo di distribuzione dei criteri di denominazione
 ms:assetid: 9eb23fc9-3f59-4d09-9077-85c89a051ee0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ218685(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Elenco di controllo: Effettuare l'aggiornamento della Messaggistica unificata di Exchange 2010 alla Messaggistica unificata di Exchange 2013.: Exchange 2013 Help"
+title: 'Elenco contr.: Aggiorna mess. unif. Exchange 2010 a 2013.: Exchange 2013 Help'
 TOCTitle: "Elenco di controllo: Effettuare l'aggiornamento della Messaggistica unificata di Exchange 2010 alla Messaggistica unificata di Exchange 2013."
 ms:assetid: 799bd1b1-a918-4bd8-911e-e6ca08bd7b52
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn169228(v=EXCHG.150)

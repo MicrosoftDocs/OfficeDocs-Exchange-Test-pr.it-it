@@ -1,5 +1,5 @@
 ﻿---
-title: "Intestazioni, piè di pagina, firme o dichiarazioni di non responsabilità per tutta l'organizzazione: Exchange 2013 Help"
+title: 'Intest./piè di pagina/firme/dichiar. non respons. per org.:Exchange 2013 Help'
 TOCTitle: Intestazioni, piè di pagina, firme o dichiarazioni di non responsabilità per tutta l'organizzazione
 ms:assetid: e45e33c9-e53b-427c-ada5-70901bc399b8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn600437(v=EXCHG.150)

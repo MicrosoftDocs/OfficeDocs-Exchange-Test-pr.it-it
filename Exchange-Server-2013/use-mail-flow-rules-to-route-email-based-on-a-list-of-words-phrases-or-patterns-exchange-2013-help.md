@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizzare regole del flusso di posta per instradare le e-mail in base a un elenco di parole, frasi o motivi: Exchange 2013 Help'
+title: 'Reg. flusso posta instrada e-mail per parole, frasi/motivi: Exchange 2013 Help'
 TOCTitle: Utilizzare regole del flusso di posta per instradare le e-mail in base a un elenco di parole, frasi o motivi
 ms:assetid: 4c5bee1b-58b5-4152-baef-86fa103050ae
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn951131(v=EXCHG.150)

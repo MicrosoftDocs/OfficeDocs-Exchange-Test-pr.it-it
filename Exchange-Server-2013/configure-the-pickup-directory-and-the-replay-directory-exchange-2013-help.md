@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare la directory di prelievo e la directory di riesecuzione: Exchange 2013 Help'
+title: 'Configura directory prelievo/directory riesecuzione: Exchange 2013 Help'
 TOCTitle: Configurare la directory di prelievo e la directory di riesecuzione
 ms:assetid: c9ca7358-9a08-4f57-89d0-910e4438df8a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124549(v=EXCHG.150)

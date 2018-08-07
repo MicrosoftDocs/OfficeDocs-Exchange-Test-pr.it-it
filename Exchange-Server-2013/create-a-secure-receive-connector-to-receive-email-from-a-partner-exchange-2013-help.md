@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creare un connettore di ricezione protetto per la ricezione di posta elettronica da un partner: Exchange 2013 Help'
+title: 'Crea connett. ricez. protetto per ricez. posta da partner: Exchange 2013 Help'
 TOCTitle: Creare un connettore di ricezione protetto per la ricezione di posta elettronica da un partner
 ms:assetid: 06aa692c-7940-4a14-a722-058c47440f85
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673037(v=EXCHG.150)

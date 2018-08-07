@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il numero di chiamate in arrivo in un server cassette postali: Exchange 2013 Help'
+title: 'Config. num. chiamate in arrivo in server cassette postali: Exchange 2013 Help'
 TOCTitle: Configurare il numero di chiamate in arrivo in un server cassette postali
 ms:assetid: 419e1de9-2bf8-48a8-824d-2a536b0a6d90
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997637(v=EXCHG.150)

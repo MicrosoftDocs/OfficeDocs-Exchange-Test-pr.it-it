@@ -1,5 +1,5 @@
 ﻿---
-title: 'Attivare o disattivare Outlook Web App per una cassetta postale: Exchange 2013 Help'
+title: 'Att./dis. Outlook Web App per cassetta postale: Exchange 2013 Help'
 TOCTitle: Attivare o disattivare Outlook Web App per una cassetta postale
 ms:assetid: abc19646-6211-4f18-a060-e347452dcc53
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124124(v=EXCHG.150)

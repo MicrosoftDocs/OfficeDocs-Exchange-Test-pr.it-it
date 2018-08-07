@@ -1,5 +1,5 @@
 ﻿---
-title: "L'utente connesso non è un membro del group_NotLocalAdmin Administrators locale: Exchange 2013 Help"
+title: 'Utente non membro del gruppo_NotLocalAdmin Administrators: Exchange 2013 Help'
 TOCTitle: L'utente connesso non è un membro del group_NotLocalAdmin Administrators locale
 ms:assetid: d06f0894-b139-49ba-afe3-f58d3bd28e32
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.notlocaladmin(v=EXCHG.150)

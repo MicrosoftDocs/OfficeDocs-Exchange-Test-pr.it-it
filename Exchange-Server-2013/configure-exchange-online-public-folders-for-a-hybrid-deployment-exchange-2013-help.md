@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida: Exchange 2013 Help'
+title: 'Config. cartelle pubb. Exchange Online per distrib. ibrida: Exchange 2013 Help'
 TOCTitle: Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida
 ms:assetid: d979edb3-967b-4431-8beb-0c236bf7f56d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Mt729076(v=EXCHG.150)

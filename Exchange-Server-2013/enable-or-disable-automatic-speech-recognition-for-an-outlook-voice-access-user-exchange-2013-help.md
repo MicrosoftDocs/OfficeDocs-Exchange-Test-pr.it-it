@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare o disabilitare il riconoscimento vocale automatico per un utente di Outlook Voice Access: Exchange 2013 Help'
+title: 'Abilita/disab. ric. voc. auto. utente Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Abilitare o disabilitare il riconoscimento vocale automatico per un utente di Outlook Voice Access
 ms:assetid: 58f41016-e725-432b-953e-415d61e0664c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232062(v=EXCHG.150)

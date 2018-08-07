@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consentire o impedire a un utente di creare regole di ricezione chiamata: Exchange 2013 Help'
+title: 'Consente o meno di creare regole di ricezione chiamata: Exchange 2013 Help'
 TOCTitle: Consentire o impedire a un utente di creare regole di ricezione chiamata
 ms:assetid: 81863440-8b21-4523-bdab-6a2311889a0d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd298097(v=EXCHG.150)

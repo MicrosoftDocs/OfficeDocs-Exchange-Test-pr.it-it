@@ -1,5 +1,5 @@
 ﻿---
-title: "Disabilitare o riabilitare la condivisione federata per l'organizzazione di Exchange: Exchange 2013 Help"
+title: 'Disabilita/riabilita condivis. feder. organizzaz. Exchange: Exchange 2013 Help'
 TOCTitle: Disabilitare o riabilitare la condivisione federata per l'organizzazione di Exchange
 ms:assetid: d36490d8-0268-47b9-a6d4-e56427f1b02e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ657497(v=EXCHG.150)

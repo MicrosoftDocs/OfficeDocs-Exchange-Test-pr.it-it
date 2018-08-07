@@ -1,5 +1,5 @@
 ﻿---
-title: "Impostare l'indirizzo di partner Anteprima messaggio vocale: Exchange 2013 Help"
+title: 'Imposta indirizzo partner Anteprima messaggio vocale: Exchange 2013 Help'
 TOCTitle: Impostare l'indirizzo di partner Anteprima messaggio vocale
 ms:assetid: 57fbed1e-1b14-4939-95e6-ef7c072f32a9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff630917(v=EXCHG.150)

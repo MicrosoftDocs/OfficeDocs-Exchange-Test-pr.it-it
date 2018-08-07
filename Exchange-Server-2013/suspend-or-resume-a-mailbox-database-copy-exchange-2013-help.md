@@ -1,5 +1,5 @@
 ﻿---
-title: 'Sospendere o riprendere una copia del database delle cassette postali: Exchange 2013 Help'
+title: 'Sospende/riprende copia database cassette postali: Exchange 2013 Help'
 TOCTitle: Sospendere o riprendere una copia del database delle cassette postali
 ms:assetid: 96aa1b82-3e15-4215-843e-3d583af9504b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd298159(v=EXCHG.150)

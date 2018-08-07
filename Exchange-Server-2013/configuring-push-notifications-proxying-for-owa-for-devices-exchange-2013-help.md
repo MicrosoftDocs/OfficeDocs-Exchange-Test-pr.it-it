@@ -1,5 +1,5 @@
 ﻿---
-title: "Configurazione delle notifiche push che eseguono l'inoltro di OWA per i dispositivi: Exchange 2013 Help"
+title: 'Configu. notifiche push per inoltro OWA dispositivi: Exchange 2013 Help'
 TOCTitle: Configurazione delle notifiche push che eseguono l'inoltro di OWA per i dispositivi
 ms:assetid: c0f4912d-8bd3-4a54-9097-03619c645c6a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn511017(v=EXCHG.150)

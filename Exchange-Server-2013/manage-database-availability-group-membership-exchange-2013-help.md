@@ -1,5 +1,5 @@
 ﻿---
-title: "Gestire l'appartenenza al gruppo di disponibilità del database: Exchange 2013 Help"
+title: 'Gestire appartenenza gruppo disponibilità del database: Exchange 2013 Help'
 TOCTitle: Gestire l'appartenenza al gruppo di disponibilità del database
 ms:assetid: fb2ea15e-96d5-4045-b75b-b0aa5fc60479
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351278(v=EXCHG.150)

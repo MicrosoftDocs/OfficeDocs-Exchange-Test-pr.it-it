@@ -1,5 +1,5 @@
 ﻿---
-title: "Configurare gli indirizzi IP e porte per l'accesso POP3 e IMAP4: Exchange 2013 Help"
+title: 'Configura indirizzi IP/porte accesso POP3 e IMAP4: Exchange 2013 Help'
 TOCTitle: Configurare gli indirizzi IP e porte per l'accesso POP3 e IMAP4
 ms:assetid: 8292747b-6626-4d7f-ba73-1e17f5d99fa4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123530(v=EXCHG.150)

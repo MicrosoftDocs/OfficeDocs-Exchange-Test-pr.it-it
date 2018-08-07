@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creare gruppi di ruoli collegato il mirroring di gruppi di ruoli incorporati: Exchange 2013 Help'
+title: 'Crea gruppi ruoli collegati come gruppi ruoli incorporati: Exchange 2013 Help'
 TOCTitle: Creare gruppi di ruoli collegato il mirroring di gruppi di ruoli incorporati
 ms:assetid: 89dfcbb3-0568-4bbf-a885-746b91ba307e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd876918(v=EXCHG.150)

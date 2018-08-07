@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creare un connettore esterno per il recapito di messaggi a un gateway fax non SMTP: Exchange 2013 Help'
+title: 'Crea connett. est. recapito messaggi gateway fax non SMTP: Exchange 2013 Help'
 TOCTitle: Creare un connettore esterno per il recapito di messaggi a un gateway fax non SMTP
 ms:assetid: 589db487-3c4c-409a-92e3-c78dd8f639b6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ710163(v=EXCHG.150)

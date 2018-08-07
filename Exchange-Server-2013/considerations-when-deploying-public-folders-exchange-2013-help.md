@@ -1,5 +1,5 @@
 ﻿---
-title: 'Considerazioni sulla distribuzione delle cartelle pubbliche: Exchange 2013 Help'
+title: 'Considerazioni su distribuzione delle cartelle pubbliche: Exchange 2013 Help'
 TOCTitle: Considerazioni sulla distribuzione delle cartelle pubbliche
 ms:assetid: 2e416eed-b88f-45db-a482-1232fd2610fa
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn957481(v=EXCHG.150)

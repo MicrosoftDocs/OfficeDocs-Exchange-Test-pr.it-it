@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creare un elenco di indirizzi utilizzando filtri destinatario: Exchange 2013 Help'
+title: 'Crea elenco indirizzi utilizzando filtri destinatario: Exchange 2013 Help'
 TOCTitle: Creare un elenco di indirizzi utilizzando filtri destinatario
 ms:assetid: 8eabea64-97c6-40af-b61c-9b6a125cbdf1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123718(v=EXCHG.150)

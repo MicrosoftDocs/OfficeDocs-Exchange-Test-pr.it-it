@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare gli accessi meno PIN per la segreteria telefonica: Exchange 2013 Help'
+title: 'Abilita accessi meno PIN per la segreteria telefonica: Exchange 2013 Help'
 TOCTitle: Abilitare gli accessi meno PIN per la segreteria telefonica
 ms:assetid: 54133753-317c-42ef-9b0d-ca9f2d2d6bd7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg602127(v=EXCHG.150)

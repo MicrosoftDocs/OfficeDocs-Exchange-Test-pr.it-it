@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il valore di timeout di inattività di registrazione: Exchange 2013 Help'
+title: 'Configura timeout di inattività di registrazione: Exchange 2013 Help'
 TOCTitle: Configurare il valore di timeout di inattività di registrazione
 ms:assetid: a7fb9a09-fde9-447d-ad2c-95598405e99b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee423550(v=EXCHG.150)

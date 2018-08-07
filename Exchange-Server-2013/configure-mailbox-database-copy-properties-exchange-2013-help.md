@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurazione delle proprietà della copia del database delle cassette postali: Exchange 2013 Help'
+title: 'Configura proprietà copia database cassette postali: Exchange 2013 Help'
 TOCTitle: Configurazione delle proprietà della copia del database delle cassette postali
 ms:assetid: cf186561-ab2c-45c0-90f5-8d3ecfabeeac
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351151(v=EXCHG.150)

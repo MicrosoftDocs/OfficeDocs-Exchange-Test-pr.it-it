@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gestione di filtro degli allegati nei server Trasporto Edge: Exchange 2013 Help'
+title: 'Gestione filtro allegati in server Trasporto Edge: Exchange 2013 Help'
 TOCTitle: Gestione di filtro degli allegati nei server Trasporto Edge
 ms:assetid: 2ec91cc6-6ade-48ee-88bb-66153874393d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997139(v=EXCHG.150)

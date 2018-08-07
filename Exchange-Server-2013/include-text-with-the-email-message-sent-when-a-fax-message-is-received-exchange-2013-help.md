@@ -1,5 +1,5 @@
 ﻿---
-title: 'Includi testo con il messaggio di posta elettronica inviato quando si riceve un messaggio di fax: Exchange 2013 Help'
+title: 'Includi testo e messaggio inviato alla ric. messaggio fax: Exchange 2013 Help'
 TOCTitle: Includi testo con il messaggio di posta elettronica inviato quando si riceve un messaggio di fax
 ms:assetid: 48244e58-b7d6-4f0e-bbae-d22bf0fc11ff
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb201684(v=EXCHG.150)

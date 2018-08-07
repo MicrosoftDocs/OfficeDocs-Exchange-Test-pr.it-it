@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare la registrazione agente di protezione da posta indesiderata: Exchange 2013 Help'
+title: 'Configura registraz. agente protezione posta indesiderata: Exchange 2013 Help'
 TOCTitle: Configurare la registrazione agente di protezione da posta indesiderata
 ms:assetid: df157ca3-ad8e-4302-acbc-5fbb8570c21d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb691337(v=EXCHG.150)

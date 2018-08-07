@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare una cassetta postale di quarantena della posta indesiderata: Exchange 2013 Help'
+title: 'Configura cassetta postale quarantena posta indesiderata: Exchange 2013 Help'
 TOCTitle: Configurare una cassetta postale di quarantena della posta indesiderata
 ms:assetid: 907d2f90-2a62-4d59-a4cf-945fef2e963f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123746(v=EXCHG.150)

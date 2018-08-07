@@ -1,5 +1,5 @@
 ﻿---
-title: 'Includi testo con il messaggio di posta elettronica inviato quando viene ricevuto un messaggio vocale: Exchange 2013 Help'
+title: 'Includi testo e mess. inviato se ricevuto mess. vocale: Exchange 2013 Help'
 TOCTitle: Includi testo con il messaggio di posta elettronica inviato quando viene ricevuto un messaggio vocale
 ms:assetid: b2eec29c-e5eb-4263-80d8-0b9813dd56dc
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb201718(v=EXCHG.150)

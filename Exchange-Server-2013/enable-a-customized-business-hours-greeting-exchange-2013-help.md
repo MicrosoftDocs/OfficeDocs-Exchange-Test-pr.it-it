@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare un orario di ufficio personalizzato messaggio di saluto: Exchange 2013 Help'
+title: 'Abilita messaggio di saluto personal. in orario ufficio: Exchange 2013 Help'
 TOCTitle: Abilitare un orario di ufficio personalizzato messaggio di saluto
 ms:assetid: a2272b7d-de88-4d3f-81e6-ad81f0ee6c5e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232152(v=EXCHG.150)

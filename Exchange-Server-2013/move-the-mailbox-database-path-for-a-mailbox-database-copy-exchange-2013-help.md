@@ -1,5 +1,5 @@
 ﻿---
-title: 'Spostamento del percorso del database delle cassette postali per una copia del database delle cassette postali: Exchange 2013 Help'
+title: 'Sposta percorso database cassette postali per copia: Exchange 2013 Help'
 TOCTitle: Spostamento del percorso del database delle cassette postali per una copia del database delle cassette postali
 ms:assetid: 324f255c-d95d-4a8a-a134-c8cee5c5b9cb
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd979782(v=EXCHG.150)

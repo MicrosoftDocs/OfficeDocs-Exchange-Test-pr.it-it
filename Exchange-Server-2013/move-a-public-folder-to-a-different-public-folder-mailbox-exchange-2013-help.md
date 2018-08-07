@@ -1,5 +1,5 @@
 ﻿---
-title: 'Spostare una cartella pubblica in una cassetta postale di cartelle pubbliche diversi: Exchange 2013 Help'
+title: 'Sposta cart. pubb. in cass. postale cartelle pubb. diverse: Exchange 2013 Help'
 TOCTitle: Spostare una cartella pubblica in una cassetta postale di cartelle pubbliche diversi
 ms:assetid: b8744934-a3cb-443e-acce-a9a6ca5d88f6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ906435(v=EXCHG.150)

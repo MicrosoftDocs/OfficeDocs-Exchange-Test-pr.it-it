@@ -1,5 +1,5 @@
 ﻿---
-title: "Pregestione dell'oggetto nome cluster per un gruppo di disponibilità del database: Exchange 2013 Help"
+title: 'Oggetto nome cluster per gruppo disponibilità del database: Exchange 2013 Help'
 TOCTitle: Pregestione dell'oggetto nome cluster per un gruppo di disponibilità del database
 ms:assetid: 51ebf2f6-8a02-44ef-a489-ca361cb0f63a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff367878(v=EXCHG.150)

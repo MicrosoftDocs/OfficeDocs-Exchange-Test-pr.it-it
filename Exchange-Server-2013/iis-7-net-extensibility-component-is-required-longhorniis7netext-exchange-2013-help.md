@@ -1,5 +1,5 @@
 ﻿---
-title: 'Estendibilità .NET di IIS 7 componente è required_LonghornIIS7NetExt: Exchange 2013 Help'
+title: 'Comp. estendibil. .NET IIS 7 richiesto_LonghornIIS7NetExt: Exchange 2013 Help'
 TOCTitle: Estendibilità .NET di IIS 7 componente è required_LonghornIIS7NetExt
 ms:assetid: 8b481626-b68a-4fba-b66e-a02c03856bfd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.longhorniis7netext(v=EXCHG.150)

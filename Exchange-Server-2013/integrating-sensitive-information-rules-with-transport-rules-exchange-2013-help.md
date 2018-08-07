@@ -1,5 +1,5 @@
 ﻿---
-title: 'Integrazione di regole di informazioni sensibili con le regole di trasporto: Exchange 2013 Help'
+title: 'Integraz. regole dati sensibili con regole di trasporto: Exchange 2013 Help'
 TOCTitle: Integrazione di regole di informazioni sensibili con le regole di trasporto
 ms:assetid: feb014a7-89dd-4f2d-a06d-52806ce435d4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ150583(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare i formati comuni PIN per la segreteria telefonica: Exchange 2013 Help'
+title: 'Abilita formati PIN comuni per segreteria telefonica: Exchange 2013 Help'
 TOCTitle: Abilitare i formati comuni PIN per la segreteria telefonica
 ms:assetid: 9940a8c2-f576-4089-ab96-8b318ad3da0f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673546(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aggiungere un elenco di indirizzi o rimuovere un elenco di indirizzi di una Rubrica fuori rete: Exchange 2013 Help'
+title: 'Aggiungere/rimuovere elenco indirizzi di Rubrica fuori rete:Exchange 2013 Help'
 TOCTitle: Aggiungere un elenco di indirizzi o rimuovere un elenco di indirizzi di una Rubrica fuori rete
 ms:assetid: 86bd5651-ad41-4516-bf23-6579f4e4da03
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123563(v=EXCHG.150)

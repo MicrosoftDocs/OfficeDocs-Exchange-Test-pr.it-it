@@ -1,5 +1,5 @@
 ﻿---
-title: 'Messaggistica unificata e vocale terminologia di posta elettronica: Exchange 2013 Help'
+title: 'Terminologia messaggistica unificata e vocale: Exchange 2013 Help'
 TOCTitle: Messaggistica unificata e vocale terminologia di posta elettronica
 ms:assetid: 3a6d93f2-1802-4aed-8b83-35c7fd004d0c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee633462(v=EXCHG.150)

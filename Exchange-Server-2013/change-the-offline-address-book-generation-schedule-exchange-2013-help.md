@@ -1,5 +1,5 @@
 ﻿---
-title: 'Modificare la pianificazione di generazione della Rubrica offline: Exchange 2013 Help'
+title: 'Modifica pianificazione generazione Rubrica offline: Exchange 2013 Help'
 TOCTitle: Modificare la pianificazione di generazione della Rubrica offline
 ms:assetid: d2b4d527-311e-442d-9f1f-54fac8371b80
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124719(v=EXCHG.150)

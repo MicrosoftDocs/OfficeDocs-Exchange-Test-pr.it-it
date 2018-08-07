@@ -1,5 +1,5 @@
 ﻿---
-title: 'Rimozione di un ruolo da un utente o gruppo di protezione universale: Exchange 2013 Help'
+title: 'Rimozione ruolo da utente/gruppo protezione universale: Exchange 2013 Help'
 TOCTitle: Rimozione di un ruolo da un utente o gruppo di protezione universale
 ms:assetid: df3510ef-e0c2-4d3c-81b0-7dc3e70c01a0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351196(v=EXCHG.150)

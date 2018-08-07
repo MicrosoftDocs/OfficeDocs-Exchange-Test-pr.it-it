@@ -1,5 +1,5 @@
 ﻿---
-title: 'Modalità di applicazione delle regole DLP per la valutazione dei messaggi: Exchange 2013 Help'
+title: 'Modalità applicazione regole DLP per valutazione messaggi: Exchange 2013 Help'
 TOCTitle: Modalità di applicazione delle regole DLP per la valutazione dei messaggi
 ms:assetid: 1ac77020-26ff-410c-ab09-4f28a99d67a1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn329050(v=EXCHG.150)

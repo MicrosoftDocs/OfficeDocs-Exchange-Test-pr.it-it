@@ -1,5 +1,5 @@
 ﻿---
-title: 'Attivare una copia del database delle cassette postali ritardata: Exchange 2013 Help'
+title: 'Attiva copia database cassette postali ritardata: Exchange 2013 Help'
 TOCTitle: Attivare una copia del database delle cassette postali ritardata
 ms:assetid: 493d9c40-644d-49d6-9291-949acbcfdcb6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd979786(v=EXCHG.150)

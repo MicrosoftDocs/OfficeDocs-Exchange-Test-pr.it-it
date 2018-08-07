@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizzare le regole di trasporto per esaminare messaggi con allegati: Exchange 2013 Help'
+title: 'Regole trasporto per esaminare messaggi con allegati: Exchange 2013 Help'
 TOCTitle: Utilizzare le regole di trasporto per esaminare messaggi con allegati
 ms:assetid: c0de687e-e33c-4e8a-b253-771494678795
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ674307(v=EXCHG.150)

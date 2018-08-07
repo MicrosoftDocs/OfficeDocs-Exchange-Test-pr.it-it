@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare un personalizzata non di ufficio messaggio di saluto: Exchange 2013 Help'
+title: 'Abilita saluto in orario non lavorativo: Exchange 2013 Help'
 TOCTitle: Abilitare un personalizzata non di ufficio messaggio di saluto
 ms:assetid: d4743805-bab0-4735-a1e0-2cea4e088e8c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232183(v=EXCHG.150)

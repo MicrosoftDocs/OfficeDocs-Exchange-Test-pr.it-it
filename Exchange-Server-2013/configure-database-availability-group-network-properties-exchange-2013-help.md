@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurazione delle proprietà rete gruppo di disponibilità del database: Exchange 2013 Help'
+title: 'Configuraz. proprietà rete gruppo disponibilità database: Exchange 2013 Help'
 TOCTitle: Configurazione delle proprietà rete gruppo di disponibilità del database
 ms:assetid: 41197639-988f-476c-9788-51d5191a7dce
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd297927(v=EXCHG.150)

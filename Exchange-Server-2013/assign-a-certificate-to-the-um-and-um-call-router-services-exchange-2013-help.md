@@ -1,5 +1,5 @@
 ﻿---
-title: 'Assegnare un certificato per i servizi di messaggistica unificata e routing delle chiamate di messaggistica unificata: Exchange 2013 Help'
+title: 'Assegna certificato mess. unif./routing chiamate: Exchange 2013 Help'
 TOCTitle: Assegnare un certificato per i servizi di messaggistica unificata e routing delle chiamate di messaggistica unificata
 ms:assetid: 8a900e5f-9779-4213-92d7-ec157b15fbc5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn205140(v=EXCHG.150)

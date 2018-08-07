@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consentire o impedire il trasferimento di chiamate da Outlook Voice Access: Exchange 2013 Help'
+title: 'Consenti o meno trasfer. chiamate da Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Consentire o impedire il trasferimento di chiamate da Outlook Voice Access
 ms:assetid: b80c57f1-394c-4608-8ad3-52a3e6d697db
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee423554(v=EXCHG.150)

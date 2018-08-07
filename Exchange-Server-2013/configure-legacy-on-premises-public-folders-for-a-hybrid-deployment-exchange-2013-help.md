@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare cartelle pubbliche locali legacy per una distribuzione ibrida: Exchange 2013 Help'
+title: 'Config. cartelle pubb. loc. legacy per distrib. ibrida: Exchange 2013 Help'
 TOCTitle: Configurare cartelle pubbliche locali legacy per una distribuzione ibrida
 ms:assetid: bcb0ac98-2949-486b-a8ab-8549c021651b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn249373(v=EXCHG.150)

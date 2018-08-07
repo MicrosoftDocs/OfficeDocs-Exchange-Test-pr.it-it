@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creare un connettore di ricezione per la ricezione di posta elettronica da un sistema non è in esecuzione Exchange: Exchange 2013 Help'
+title: 'Crea connet. ricez. posta da sistema non in esec. Exchange: Exchange 2013 Help'
 TOCTitle: Creare un connettore di ricezione per la ricezione di posta elettronica da un sistema non è in esecuzione Exchange
 ms:assetid: 85f0864a-6502-49db-8804-16755a7292b4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ657467(v=EXCHG.150)

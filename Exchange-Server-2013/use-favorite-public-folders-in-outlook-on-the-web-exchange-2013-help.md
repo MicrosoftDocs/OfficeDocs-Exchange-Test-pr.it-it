@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizzare le cartelle pubbliche preferite in Outlook sul web: Exchange 2013 Help'
+title: 'Utilizza cartelle pubbliche preferite in Outlook sul web: Exchange 2013 Help'
 TOCTitle: Utilizzare le cartelle pubbliche preferite in Outlook sul web
 ms:assetid: f6f1db72-4465-4eb8-b525-ac2c1fa10a69
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn948177(v=EXCHG.150)

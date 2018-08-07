@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurazione di restrizioni di recapito messaggi per una cassetta postale: Exchange 2013 Help'
+title: 'Configura restriz. recapito messaggi per cassetta postale: Exchange 2013 Help'
 TOCTitle: Configurazione di restrizioni di recapito messaggi per una cassetta postale
 ms:assetid: c4b8b89f-3dbe-4cb8-8839-9a4e8067e00c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb397214(v=EXCHG.150)

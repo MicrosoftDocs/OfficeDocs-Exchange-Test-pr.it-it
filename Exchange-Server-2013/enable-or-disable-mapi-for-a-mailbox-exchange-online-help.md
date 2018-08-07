@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitazione o disabilitazione della rete MAPI per una cassetta postale: Exchange 2013 Help'
+title: 'Abilita/disabilita rete MAPI per cassetta postale: Exchange 2013 Help'
 TOCTitle: Abilitazione o disabilitazione della rete MAPI per una cassetta postale
 ms:assetid: c2c6718c-a2c0-4ed2-b4ed-364c3cb1f592
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124497(v=EXCHG.150)

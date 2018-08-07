@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consentire o impedire il trasferimento di chiamate da un operatore automatico: Exchange 2013 Help'
+title: 'Consenti o meno trasfer. chiamate da operat. automatico: Exchange 2013 Help'
 TOCTitle: Consentire o impedire il trasferimento di chiamate da un operatore automatico
 ms:assetid: ca961cc8-cc24-4e05-b72d-79979c155cf9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee423558(v=EXCHG.150)

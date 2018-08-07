@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il flusso della posta Internet tramite un server Trasporto Edge senza utilizzare EdgeSync: Exchange 2013 Help'
+title: 'Config. posta Internet con Trasporto Edge senza EdgeSync: Exchange 2013 Help'
 TOCTitle: Configurare il flusso della posta Internet tramite un server Trasporto Edge senza utilizzare EdgeSync
 ms:assetid: 6bb98d10-6f12-4b08-a58e-36375f605d65
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232082(v=EXCHG.150)

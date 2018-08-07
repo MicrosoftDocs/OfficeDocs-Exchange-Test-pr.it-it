@@ -1,5 +1,5 @@
 ﻿---
-title: 'Record di messaggistica terminologia relativa alla gestione di Exchange 2013: Exchange 2013 Help'
+title: 'Record messaggistica terminologia gestione Exchange 2013: Exchange 2013 Help'
 TOCTitle: Record di messaggistica terminologia relativa alla gestione di Exchange 2013
 ms:assetid: de3e3503-6de3-4666-aeb9-cd877efb93bb
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb408414(v=EXCHG.150)

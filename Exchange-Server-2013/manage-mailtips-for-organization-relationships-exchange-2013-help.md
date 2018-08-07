@@ -1,5 +1,5 @@
 ﻿---
-title: "Gestire i suggerimenti per le relazioni dell'organizzazione: Exchange 2013 Help"
+title: 'Gestire suggerimenti per relazioni organizzazione: Exchange 2013 Help'
 TOCTitle: Gestire i suggerimenti per le relazioni dell'organizzazione
 ms:assetid: 6e6b48ef-c41c-47ad-8063-66901765c2a5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ649324(v=EXCHG.150)

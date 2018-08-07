@@ -1,5 +1,5 @@
 ﻿---
-title: 'Identificare il problema di posta elettronica di invio/ricezione di un dispositivo Mobile (verifiche automatiche): Exchange 2013 Help'
+title: 'Identif. probl. invio/ricezione disp. mobile (automatica): Exchange 2013 Help'
 TOCTitle: Identificare il problema di posta elettronica di invio/ricezione di un dispositivo Mobile (verifiche automatiche)
 ms:assetid: 7400a7c8-1e45-4e73-a642-b7d79d997462
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn793610(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Prepara le cassette postali per gli spostamenti tra foreste utilizzando lo script Prepare MoveRequest.ps1 in Shell: Exchange 2013 Help'
+title: 'Sposta cass. con script Prepare MoveRequest.ps1 in Shell: Exchange 2013 Help'
 TOCTitle: Prepara le cassette postali per gli spostamenti tra foreste utilizzando lo script Prepare MoveRequest.ps1 in Shell
 ms:assetid: 2cea59fb-69b7-4a2f-833f-de4d93cf1810
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee861103(v=EXCHG.150)

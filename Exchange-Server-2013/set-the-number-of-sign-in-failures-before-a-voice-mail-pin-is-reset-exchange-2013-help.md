@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impostare il numero di errori di accesso prima di una segreteria telefonica che è reimpostazione del PIN: Exchange 2013 Help'
+title: 'Imposta num. errori accesso prima di reimp. PIN segr. tel.: Exchange 2013 Help'
 TOCTitle: Impostare il numero di errori di accesso prima di una segreteria telefonica che è reimpostazione del PIN
 ms:assetid: 4de38499-0a6f-4f00-8697-eeff805d7266
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997939(v=EXCHG.150)

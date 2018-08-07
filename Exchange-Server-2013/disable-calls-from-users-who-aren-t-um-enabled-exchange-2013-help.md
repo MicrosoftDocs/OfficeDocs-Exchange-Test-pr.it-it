@@ -1,5 +1,5 @@
 ﻿---
-title: 'Disabilitare le chiamate provenienti da utenti che non sono abilitati alla messaggistica unificata: Exchange 2013 Help'
+title: 'Disab. chiamate da utenti non abilitati a mess. unif.: Exchange 2013 Help'
 TOCTitle: Disabilitare le chiamate provenienti da utenti che non sono abilitati alla messaggistica unificata
 ms:assetid: 272ff4ab-b4d9-4647-98e2-7c171f9dfc3f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673516(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Modificare una voce di ruolo in un ruolo di primo livello senza ambito: Exchange 2013 Help'
+title: 'Modifica voce di ruolo in primo livello senza ambito: Exchange 2013 Help'
 TOCTitle: Modificare una voce di ruolo in un ruolo di primo livello senza ambito
 ms:assetid: 65c0bfb3-aafd-4c64-8429-7616c57adf1c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd876896(v=EXCHG.150)

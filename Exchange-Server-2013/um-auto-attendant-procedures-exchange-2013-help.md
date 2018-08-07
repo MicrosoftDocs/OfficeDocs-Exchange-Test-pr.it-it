@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedure di operatore automatico di messaggistica unificata: Exchange 2013 Help'
+title: 'Procedure operatore automatico messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Procedure di operatore automatico di messaggistica unificata
 ms:assetid: 9e59d68f-e11a-49b0-ac6b-88061761fd45
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ822155(v=EXCHG.150)

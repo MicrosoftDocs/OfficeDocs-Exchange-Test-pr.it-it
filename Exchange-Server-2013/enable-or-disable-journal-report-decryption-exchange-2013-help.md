@@ -1,5 +1,5 @@
 ﻿---
-title: 'Attivare o disattivare la decrittografia dei rapporti del Journal: Exchange 2013 Help'
+title: 'Attiva/disattiva decrittografia rapporti del Journal: Exchange 2013 Help'
 TOCTitle: Attivare o disattivare la decrittografia dei rapporti del Journal
 ms:assetid: 1dedbe73-2c1a-4b14-8799-5091aaec7965
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd638092(v=EXCHG.150)

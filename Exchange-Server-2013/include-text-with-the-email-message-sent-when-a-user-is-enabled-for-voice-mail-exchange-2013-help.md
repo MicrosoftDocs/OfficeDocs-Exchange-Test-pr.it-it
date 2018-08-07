@@ -1,5 +1,5 @@
 ﻿---
-title: 'Includi testo con il messaggio di posta elettronica inviato quando un utente è abilitato per la segreteria telefonica: Exchange 2013 Help'
+title: 'Incl. testo e mess. inviato utente abil. segr. telefonica: Exchange 2013 Help'
 TOCTitle: Includi testo con il messaggio di posta elettronica inviato quando un utente è abilitato per la segreteria telefonica
 ms:assetid: 3e8292fb-0cdb-445d-8048-a59af7c38d63
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb201679(v=EXCHG.150)

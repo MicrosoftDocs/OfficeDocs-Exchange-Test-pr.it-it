@@ -1,5 +1,5 @@
 ﻿---
-title: 'Identificare il problema di posta elettronica di invio/ricezione in Office Outlook (verifiche automatiche): Exchange 2013 Help'
+title: 'Identif. probl. invio/ricez. Office Outlook (ver. autom.): Exchange 2013 Help'
 TOCTitle: Identificare il problema di posta elettronica di invio/ricezione in Office Outlook (verifiche automatiche)
 ms:assetid: 0de16c79-807a-4cae-9097-22dd61a157b4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn793609(v=EXCHG.150)

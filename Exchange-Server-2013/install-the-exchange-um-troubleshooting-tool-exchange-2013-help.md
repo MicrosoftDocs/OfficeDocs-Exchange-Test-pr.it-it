@@ -1,5 +1,5 @@
 ﻿---
-title: 'Installazione dello strumento di risoluzione dei problemi di messaggistica unificata di Exchange: Exchange 2013 Help'
+title: 'Installa strum. risoluz. problemi mess. unificata Exchange: Exchange 2013 Help'
 TOCTitle: Installazione dello strumento di risoluzione dei problemi di messaggistica unificata di Exchange
 ms:assetid: 84223af0-a717-49ee-add6-86313bb30d17
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff844714(v=EXCHG.150)

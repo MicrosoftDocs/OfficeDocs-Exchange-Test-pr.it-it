@@ -1,5 +1,5 @@
 ﻿---
-title: "Installazione di Exchange 2013 utilizzando l'installazione guidata: Exchange 2013 Help"
+title: 'Installa Exchange 2013 con installazione guidata: Exchange 2013 Help'
 TOCTitle: Installazione di Exchange 2013 utilizzando l'installazione guidata
 ms:assetid: da690d47-3384-4430-a69e-0cd4d3bf80a7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124778(v=EXCHG.150)

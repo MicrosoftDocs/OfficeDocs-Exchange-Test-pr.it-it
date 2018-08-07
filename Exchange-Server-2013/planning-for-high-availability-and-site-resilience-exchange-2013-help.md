@@ -1,5 +1,5 @@
 ﻿---
-title: 'Pianificazione della disponibilità elevata e della resilienza del sito: Exchange 2013 Help'
+title: 'Pianifica disponibilità elevata e resilienza del sito: Exchange 2013 Help'
 TOCTitle: Pianificazione della disponibilità elevata e della resilienza del sito
 ms:assetid: 29bb0358-fc8e-4437-8feb-d2959ed0f102
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd638104(v=EXCHG.150)

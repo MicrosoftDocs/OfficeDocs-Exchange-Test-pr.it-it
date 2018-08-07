@@ -1,5 +1,5 @@
 ﻿---
-title: "Pianificazione dell'utilizzo di siti di Active Directory per il routing della posta: Exchange 2013 Help"
+title: 'Pianifica utilizzo siti AD per routing della posta: Exchange 2013 Help'
 TOCTitle: Pianificazione dell'utilizzo di siti di Active Directory per il routing della posta
 ms:assetid: 0f697cee-bcaa-4c69-b80c-7a2afd1817d2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa996299(v=EXCHG.150)

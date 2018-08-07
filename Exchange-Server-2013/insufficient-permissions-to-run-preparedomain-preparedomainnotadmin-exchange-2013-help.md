@@ -1,5 +1,5 @@
 ﻿---
-title: 'Autorizzazioni sufficienti per eseguire /PrepareDomain_PrepareDomainNotAdmin: Exchange 2013 Help'
+title: 'Autorizz. insuff. per /PrepareDomain_PrepareDomainNotAdmin: Exchange 2013 Help'
 TOCTitle: Autorizzazioni sufficienti per eseguire /PrepareDomain_PrepareDomainNotAdmin
 ms:assetid: c33a2bc0-5b07-49b8-a1c1-53baa4933d44
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.preparedomainnotadmin(v=EXCHG.150)

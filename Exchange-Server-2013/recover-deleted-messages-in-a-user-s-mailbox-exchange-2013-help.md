@@ -1,5 +1,5 @@
 ﻿---
-title: "Recuperare i messaggi eliminati nella cassetta postale dell'utente: Exchange 2013 Help"
+title: 'Recupera messaggi eliminati nella cassetta postale utente: Exchange 2013 Help'
 TOCTitle: Recuperare i messaggi eliminati nella cassetta postale dell'utente
 ms:assetid: 9e0e34ce-efc5-454e-8d15-57b4da867f12
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff660637(v=EXCHG.150)

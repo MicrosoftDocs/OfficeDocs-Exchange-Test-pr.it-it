@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ruolo Trasporto hub non rilevato in site_BridgeheadRoleNotPresentInSite locale: Exchange 2013 Help'
+title: 'Ruolo Trasp. hub non ril. _BridgeheadRoleNotPresentInSite: Exchange 2013 Help'
 TOCTitle: Ruolo Trasporto hub non rilevato in site_BridgeheadRoleNotPresentInSite locale
 ms:assetid: f318c947-81a8-4c18-975a-0f1e7868042a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.bridgeheadrolenotpresentinsite(v=EXCHG.150)

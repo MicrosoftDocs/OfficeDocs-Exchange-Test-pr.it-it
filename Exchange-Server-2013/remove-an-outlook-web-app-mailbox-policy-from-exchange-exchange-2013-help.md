@@ -1,5 +1,5 @@
 ﻿---
-title: 'Rimuovere un criterio cassetta postale di Outlook Web App da Exchange: Exchange 2013 Help'
+title: 'Rimuove criterio cass. post. Outlook Web App da Exchange: Exchange 2013 Help'
 TOCTitle: Rimuovere un criterio cassetta postale di Outlook Web App da Exchange
 ms:assetid: edab7bac-b62c-4b82-8f21-dcac77cf0e8f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351239(v=EXCHG.150)

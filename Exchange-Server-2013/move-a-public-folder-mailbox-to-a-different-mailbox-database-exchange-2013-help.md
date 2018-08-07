@@ -1,5 +1,5 @@
 ﻿---
-title: 'Spostare una cassetta postale di cartelle pubbliche a un database delle cassette postali diverse: Exchange 2013 Help'
+title: 'Sposta cassetta postale cartelle pubb. in altro database: Exchange 2013 Help'
 TOCTitle: Spostare una cassetta postale di cartelle pubbliche a un database delle cassette postali diverse
 ms:assetid: 67601d45-4824-4ae6-9a7e-b645ec3af4d3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ906434(v=EXCHG.150)

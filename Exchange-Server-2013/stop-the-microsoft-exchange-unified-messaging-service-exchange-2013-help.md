@@ -1,5 +1,5 @@
 ﻿---
-title: 'Arrestare il servizio di messaggistica unificata di Exchange: Exchange 2013 Help'
+title: 'Arresta messaggistica unificata Exchange: Exchange 2013 Help'
 TOCTitle: Arrestare il servizio di messaggistica unificata di Exchange
 ms:assetid: 64fa5535-8150-45c6-82e6-d2346892a031
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa998595(v=EXCHG.150)

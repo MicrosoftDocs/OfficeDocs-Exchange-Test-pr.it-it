@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare o disabilitare Outlook Voice Access per gli utenti: Exchange 2013 Help'
+title: 'Abilita/disabilita Outlook Voice Access per gli utenti: Exchange 2013 Help'
 TOCTitle: Abilitare o disabilitare Outlook Voice Access per gli utenti
 ms:assetid: c0c244a0-ad2f-4adf-bc1f-1d55fd7ea2d5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351106(v=EXCHG.150)

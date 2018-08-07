@@ -1,5 +1,5 @@
 ﻿---
-title: 'Interfaccia utente per la gestione dei certificati in Exchange 2013: Exchange 2013 Help'
+title: 'Interfaccia utente per gestione certificati Exchange 2013: Exchange 2013 Help'
 TOCTitle: Interfaccia utente per la gestione dei certificati in Exchange 2013
 ms:assetid: 8975848d-07f0-4643-9eac-20aece69945f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ984582(v=EXCHG.150)

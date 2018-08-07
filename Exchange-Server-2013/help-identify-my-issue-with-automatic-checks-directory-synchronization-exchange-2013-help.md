@@ -1,5 +1,5 @@
 ﻿---
-title: 'Identificare i problemi verifiche automatiche - sincronizzazione della Directory: Exchange 2013 Help'
+title: 'Identifica problemi verifiche autom.-sincronizz. Directory: Exchange 2013 Help'
 TOCTitle: Identificare i problemi verifiche automatiche - sincronizzazione della Directory
 ms:assetid: e6ea900a-c382-444c-a8ce-54d392bfeca3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn793977(v=EXCHG.150)

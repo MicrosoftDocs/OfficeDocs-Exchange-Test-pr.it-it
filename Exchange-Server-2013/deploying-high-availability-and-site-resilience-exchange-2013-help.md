@@ -1,5 +1,5 @@
 ﻿---
-title: 'Distribuzione di elevata disponibilità e resilienza del sito: Exchange 2013 Help'
+title: 'Distribuzione elevata disponibilità e resilienza del sito: Exchange 2013 Help'
 TOCTitle: Distribuzione di elevata disponibilità e resilienza del sito
 ms:assetid: 4c4e00a4-1f57-4fdb-b9b2-2779abf381a9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd638129(v=EXCHG.150)

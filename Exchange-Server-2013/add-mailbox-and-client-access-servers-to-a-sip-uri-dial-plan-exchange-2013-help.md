@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aggiungere server cassette postali e accesso Client a un dial plan URI SIP: Exchange 2013 Help'
+title: 'Agg. cassette postali/accesso Client a dial plan URI SIP:Exchange 2013 Help'
 TOCTitle: Aggiungere server cassette postali e accesso Client a un dial plan URI SIP
 ms:assetid: 17fed308-ff0d-4e61-b9f9-e6680b6eccaa
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa996399(v=EXCHG.150)

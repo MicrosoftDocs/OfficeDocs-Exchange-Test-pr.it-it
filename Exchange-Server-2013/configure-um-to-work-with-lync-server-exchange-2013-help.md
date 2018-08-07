@@ -1,5 +1,5 @@
 ﻿---
-title: "Configurare la messaggistica unificata per l'utilizzo con Lync Server: Exchange 2013 Help"
+title: 'Configura messagg. unificata con Lync Server: Exchange 2013 Help'
 TOCTitle: Configurare la messaggistica unificata per l'utilizzo con Lync Server
 ms:assetid: 29bdddbf-75d5-4c92-988e-c8506ecc7a1c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ966276(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Informazioni sui criteri di assegnazione di ruolo di gestione: Exchange 2013 Help'
+title: 'Info. su criteri di assegnazione di ruolo di gestione: Exchange 2013 Help'
 TOCTitle: Informazioni sui criteri di assegnazione di ruolo di gestione
 ms:assetid: 25913e43-326a-4371-90b5-021a35f100fe
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd638100(v=EXCHG.150)

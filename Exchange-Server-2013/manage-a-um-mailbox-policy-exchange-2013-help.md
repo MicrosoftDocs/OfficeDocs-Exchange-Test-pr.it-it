@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gestire i criteri cassetta postale di messaggistica unificata: Exchange 2013 Help'
+title: 'Gestire criteri cassetta postale messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Gestire i criteri cassetta postale di messaggistica unificata
 ms:assetid: 704b001c-3e6f-4ed5-bbe5-42a778f6ac0d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa998829(v=EXCHG.150)

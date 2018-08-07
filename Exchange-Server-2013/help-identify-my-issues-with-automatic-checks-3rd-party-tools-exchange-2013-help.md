@@ -1,5 +1,5 @@
 ﻿---
-title: 'Identificare i problemi relativi alle verifiche automatiche - 3rd strumenti di terze parti: Exchange 2013 Help'
+title: 'Identifica problemi verifiche autom.-strumenti terze parti: Exchange 2013 Help'
 TOCTitle: Identificare i problemi relativi alle verifiche automatiche - 3rd strumenti di terze parti
 ms:assetid: 83b71e35-892e-44e3-9fce-c608b49bbc61
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn793974(v=EXCHG.150)

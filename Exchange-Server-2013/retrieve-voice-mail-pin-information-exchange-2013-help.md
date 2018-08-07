@@ -1,5 +1,5 @@
 ﻿---
-title: 'Recuperare le informazioni sul PIN di segreteria telefonica: Exchange 2013 Help'
+title: 'Recupera info. su PIN segreteria telefonica: Exchange 2013 Help'
 TOCTitle: Recuperare le informazioni sul PIN di segreteria telefonica
 ms:assetid: 01517cca-99fe-46b2-b586-19e8d2707728
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa995900(v=EXCHG.150)

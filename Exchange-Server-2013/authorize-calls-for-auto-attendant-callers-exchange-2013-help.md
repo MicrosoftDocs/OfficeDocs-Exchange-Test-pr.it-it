@@ -1,5 +1,5 @@
 ﻿---
-title: "Autorizzare chiamate per i chiamanti dell'operatore automatico: Exchange 2013 Help"
+title: 'Autorizza chiamate dell'operatore automatico: Exchange 2013 Help'
 TOCTitle: Autorizzare chiamate per i chiamanti dell'operatore automatico
 ms:assetid: c6c94fad-64df-44aa-a198-980f017ef716
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb691238(v=EXCHG.150)

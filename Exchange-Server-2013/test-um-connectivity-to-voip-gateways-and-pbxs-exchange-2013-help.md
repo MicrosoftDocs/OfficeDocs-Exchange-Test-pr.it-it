@@ -1,5 +1,5 @@
 ﻿---
-title: 'Verificare la connettività per messaggistica unificata ai gateway VoIP e PBX: Exchange 2013 Help'
+title: 'Verifica connettività mess. unif. a gateway VoIP/PBX: Exchange 2013 Help'
 TOCTitle: Verificare la connettività per messaggistica unificata ai gateway VoIP e PBX
 ms:assetid: 2aca8631-a99a-4e29-aff0-e462385f03b2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa996906(v=EXCHG.150)

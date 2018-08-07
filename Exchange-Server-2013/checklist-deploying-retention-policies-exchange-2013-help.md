@@ -1,5 +1,5 @@
 ﻿---
-title: 'Elenco di controllo: Distribuzione di criteri di conservazione: Exchange 2013 Help'
+title: 'Elenco di controllo: Distribuzione criteri conservazione: Exchange 2013 Help'
 TOCTitle: 'Elenco di controllo: Distribuzione di criteri di conservazione'
 ms:assetid: 59e299fd-b6a8-48f5-88ae-dc20dbe32e90
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee364743(v=EXCHG.150)

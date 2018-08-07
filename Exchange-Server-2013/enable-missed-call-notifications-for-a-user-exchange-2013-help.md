@@ -1,5 +1,5 @@
 ﻿---
-title: 'Attivare le notifiche di chiamata senza risposta a un utente: Exchange 2013 Help'
+title: 'Attiva notifiche di chiamata senza risposta a un utente: Exchange 2013 Help'
 TOCTitle: Attivare le notifiche di chiamata senza risposta a un utente
 ms:assetid: aa0cbb60-5422-474f-af16-621aade31c1f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232159(v=EXCHG.150)

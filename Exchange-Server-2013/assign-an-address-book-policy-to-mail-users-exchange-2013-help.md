@@ -1,5 +1,5 @@
 ﻿---
-title: 'Assegnare un criterio della Rubrica per gli utenti di posta: Exchange 2013 Help'
+title: 'Assegna criterio Rubrica per gli utenti di posta: Exchange 2013 Help'
 TOCTitle: Assegnare un criterio della Rubrica per gli utenti di posta
 ms:assetid: bdfe6575-24c0-47d0-9cfb-ece910db248b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Hh529942(v=EXCHG.150)

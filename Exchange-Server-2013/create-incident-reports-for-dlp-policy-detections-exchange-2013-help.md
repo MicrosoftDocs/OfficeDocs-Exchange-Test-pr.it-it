@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creare i rapporti operazioni non consentite per i rilevamenti di criteri DLP: Exchange 2013 Help'
+title: 'Crea rapp. operaz. non consentite rilevamenti criteri DLP: Exchange 2013 Help'
 TOCTitle: Creare i rapporti operazioni non consentite per i rilevamenti di criteri DLP
 ms:assetid: 8e807f94-384c-43f5-be6f-06c5587175a0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ150534(v=EXCHG.150)

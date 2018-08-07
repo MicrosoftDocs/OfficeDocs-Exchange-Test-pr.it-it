@@ -1,5 +1,5 @@
 ﻿---
-title: 'Funzionalità di failover Cluster comando interfaccia Windows non è installato: Exchange 2013 Help'
+title: 'Failover Cluster comando interfaccia Windows non installato:Exchange 2013 Help'
 TOCTitle: Funzionalità di failover Cluster comando interfaccia Windows non è installato
 ms:assetid: 0d839514-5ab7-497d-8945-41392b4c3980
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.rsatclusteringcmdinterfaceinstalled(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gestire e risolvere i problemi di approvazione del messaggio: Exchange 2013 Help'
+title: 'Gestire/risolvere problemi di approvazione del messaggio: Exchange 2013 Help'
 TOCTitle: Gestire e risolvere i problemi di approvazione del messaggio
 ms:assetid: 860df43f-a05b-4da3-83f1-68d3123a923d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd298110(v=EXCHG.150)

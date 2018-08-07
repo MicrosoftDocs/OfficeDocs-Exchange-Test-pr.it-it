@@ -1,5 +1,5 @@
 ﻿---
-title: "Utilizzo dell'autenticazione OAuth per supportare eDiscovery in un'implementazione ibrida di Exchange: Exchange 2013 Help"
+title: 'Autent. OAuth supporta eDiscovery implem. ibrida Exchange: Exchange 2013 Help'
 TOCTitle: Utilizzo dell'autenticazione OAuth per supportare eDiscovery in un'implementazione ibrida di Exchange
 ms:assetid: b069f8db-fbe1-4047-ad97-d00172ee6a12
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn497703(v=EXCHG.150)
