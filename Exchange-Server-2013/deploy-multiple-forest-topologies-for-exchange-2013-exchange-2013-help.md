@@ -1,5 +1,5 @@
 ﻿---
-title: 'Distribuire più topologie a foresta di Exchange Server 2013: Exchange 2013 Help'
+title: 'Distrib. più topologie a foresta di Exchange Server 2013: Exchange 2013 Help'
 TOCTitle: Distribuire più topologie a foresta di Exchange Server 2013
 ms:assetid: d51f2b7d-9045-40cf-8b9f-43787a6fff6d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124734(v=EXCHG.150)

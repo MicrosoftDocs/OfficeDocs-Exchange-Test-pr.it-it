@@ -1,5 +1,5 @@
 ﻿---
-title: "Modificare le impostazioni per tutti gli utenti nell'organizzazione di limitazione: Exchange 2013 Help"
+title: 'Modificaree impostazioni utenti organizz. limitazione: Exchange 2013 Help'
 TOCTitle: Modificare le impostazioni per tutti gli utenti nell'organizzazione di limitazione
 ms:assetid: c45cacfc-768d-4605-9bb0-53e30273fe4d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ863578(v=EXCHG.150)

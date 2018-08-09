@@ -1,5 +1,5 @@
 ﻿---
-title: "Configurare l'elenco ricerca suffissi DNS per un spazio dei nomi disgiunto: Exchange 2013 Help"
+title: 'Config. elenco ricerca suffissi DNS spazio nomi disgiunto: Exchange 2013 Help'
 TOCTitle: Configurare l'elenco ricerca suffissi DNS per un spazio dei nomi disgiunto
 ms:assetid: cfa715ac-7b69-47c3-b206-933ec2cf677b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb847901(v=EXCHG.150)

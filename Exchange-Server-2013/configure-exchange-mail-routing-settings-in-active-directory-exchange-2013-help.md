@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare impostazioni di routing della posta di Exchange in Active Directory: Exchange 2013 Help'
+title: 'Config. imp. routing posta Exchange-Active Directory: Exchange 2013 Help'
 TOCTitle: Configurare impostazioni di routing della posta di Exchange in Active Directory
 ms:assetid: d01f8545-c201-4a96-be39-ed4c7008afcf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ674705(v=EXCHG.150)

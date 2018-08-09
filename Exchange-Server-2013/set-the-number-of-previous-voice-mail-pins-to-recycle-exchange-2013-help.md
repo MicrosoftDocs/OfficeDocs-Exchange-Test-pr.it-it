@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impostare il numero di precedente segreteria telefonica PIN riciclo: Exchange 2013 Help'
+title: 'Imposta numero prec. PIN segreteria telefonica: Exchange 2013 Help'
 TOCTitle: Impostare il numero di precedente segreteria telefonica PIN riciclo
 ms:assetid: b094e68e-c493-4576-a6b1-4c780e635405
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124254(v=EXCHG.150)

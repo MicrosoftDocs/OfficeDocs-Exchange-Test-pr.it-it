@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consentire agli utenti di posta elettronica di inoltrare le chiamate vocali: Exchange 2013 Help'
+title: 'Consente di inoltrare chiamate vocali: Exchange 2013 Help'
 TOCTitle: Consentire agli utenti di posta elettronica di inoltrare le chiamate vocali
 ms:assetid: 1f8e0a53-3d9d-4f8c-9be3-9f1e2a4347a3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd335138(v=EXCHG.150)

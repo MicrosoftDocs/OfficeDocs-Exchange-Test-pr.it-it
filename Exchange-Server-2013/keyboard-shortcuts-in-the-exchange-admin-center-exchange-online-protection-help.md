@@ -1,5 +1,5 @@
 ﻿---
-title: "Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange: Exchange Online Protection Help"
+title: 'Tasti di scelta rapida in EAC: Exchange Online Protection Help'
 TOCTitle: Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange
 ms:assetid: 146b2b52-1ef8-4606-991a-4cf4da694970
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ150484(v=EXCHG.150)

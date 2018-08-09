@@ -1,5 +1,5 @@
 ﻿---
-title: "L'installazione del primo server Exchange dell'organizzazione non può essere delegata: Exchange 2013 Help"
+title: 'Prima instal. Exchange server org. non può essere delegata: Exchange 2013 Help'
 TOCTitle: L'installazione del primo server Exchange dell'organizzazione non può essere delegata
 ms:assetid: d451581b-6161-4e95-99f1-03dac8313fae
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.delegatedmailboxfirstinstall(v=EXCHG.150)

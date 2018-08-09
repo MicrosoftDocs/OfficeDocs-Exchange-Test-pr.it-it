@@ -1,5 +1,5 @@
 ﻿---
-title: "Errore di installazione si sono verificati durante l'installazione di un server role_InstallWatermark: Exchange 2013 Help"
+title: 'Errore di installazione ruolo server_InstallWatermark: Exchange 2013 Help'
 TOCTitle: Errore di installazione si sono verificati durante l'installazione di un server role_InstallWatermark
 ms:assetid: ad89ebd5-f9bb-40c1-8811-09b145c2b341
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.installwatermark(v=EXCHG.150)

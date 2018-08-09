@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare IRM per la ricerca di Exchange e In-Place eDiscovery: Exchange 2013 Help'
+title: 'Configura IRM per ricerca Exchange/In-Place eDiscovery: Exchange 2013 Help'
 TOCTitle: Configurare IRM per la ricerca di Exchange e In-Place eDiscovery
 ms:assetid: d96790e9-93ad-4a56-b90f-2dbfa2f2073c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg588319(v=EXCHG.150)

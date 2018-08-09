@@ -1,5 +1,5 @@
 ﻿---
-title: 'Disabilitare i formati comuni PIN per la segreteria telefonica: Exchange 2013 Help'
+title: 'Disabilita formati PIN comuni per segr. telef.: Exchange 2013 Help'
 TOCTitle: Disabilitare i formati comuni PIN per la segreteria telefonica
 ms:assetid: eecc40ae-fac7-41e4-a1e1-16330f4462a3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb125160(v=EXCHG.150)

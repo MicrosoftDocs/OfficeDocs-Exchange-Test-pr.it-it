@@ -1,5 +1,5 @@
 ﻿---
-title: 'Disattivare le notifiche di chiamata senza risposta a un utente: Exchange 2013 Help'
+title: 'Disattiva notifiche chiamata senza risposta: Exchange 2013 Help'
 TOCTitle: Disattivare le notifiche di chiamata senza risposta a un utente
 ms:assetid: e54937d5-3074-454f-b561-e601fecfc6ad
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673570(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mantenere Ccn e i destinatari del gruppo di destinazione espanso per eDiscovery: Exchange 2013 Help'
+title: 'Mantieni Ccn e destinatari gruppo espanso per eDiscovery: Exchange 2013 Help'
 TOCTitle: Mantenere Ccn e i destinatari del gruppo di destinazione espanso per eDiscovery
 ms:assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn770225(v=EXCHG.150)

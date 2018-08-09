@@ -1,5 +1,5 @@
 ﻿---
-title: 'Master schema non è in esecuzione Windows Server 2003 Service Pack 1 o later_DomainControllerIsOutOfSite: Exchange 2013 Help'
+title: 'Non es. Windows Server 2003 SP1_DomainControllerIsOutOfSite:Exchange 2013 Help'
 TOCTitle: Master schema non è in esecuzione Windows Server 2003 Service Pack 1 o later_DomainControllerIsOutOfSite
 ms:assetid: 5edbe0b8-7610-4a52-aaaa-38c6a99e7e53
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.domaincontrollerisoutofsite(v=EXCHG.150)

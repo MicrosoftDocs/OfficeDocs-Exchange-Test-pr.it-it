@@ -1,5 +1,5 @@
 ﻿---
-title: 'Attivare la funzionalità di protezione dalla posta indesiderata sui server cassette postali: Exchange 2013 Help'
+title: 'Attiva protez. da posta indes. su server cassette postali: Exchange 2013 Help'
 TOCTitle: Attivare la funzionalità di protezione dalla posta indesiderata sui server cassette postali
 ms:assetid: 59d22c5e-64bc-4879-8ad1-364862b6ba11
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb201691(v=EXCHG.150)

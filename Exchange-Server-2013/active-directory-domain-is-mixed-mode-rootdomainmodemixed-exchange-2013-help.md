@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mode_RootDomainModeMixed combinazione di dominio Active Directory: Exchange 2013 Help'
+title: 'Dominio AD modalità mista_RootDomainModeMixed: Exchange 2013 Help'
 TOCTitle: Mode_RootDomainModeMixed combinazione di dominio Active Directory
 ms:assetid: 9f60096e-3eaa-40d8-bde5-13ada5855702
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.rootdomainmodemixed(v=EXCHG.150)

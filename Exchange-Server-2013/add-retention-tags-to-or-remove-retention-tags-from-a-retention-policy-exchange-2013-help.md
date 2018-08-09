@@ -1,5 +1,5 @@
 ﻿---
-title: 'I tag di conservazione per aggiungere o rimuovere i tag di conservazione da un criterio di conservazione: Exchange 2013 Help'
+title: 'Tag conservazione da aggiungere/rimuovere da criterio: Exchange 2013 Help'
 TOCTitle: I tag di conservazione per aggiungere o rimuovere i tag di conservazione da un criterio di conservazione
 ms:assetid: 3a5196ce-2764-453d-9bc1-5ec22d06b40d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd362328(v=EXCHG.150)

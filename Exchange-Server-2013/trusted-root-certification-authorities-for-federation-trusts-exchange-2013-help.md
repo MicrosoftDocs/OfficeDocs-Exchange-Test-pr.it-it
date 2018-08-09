@@ -1,5 +1,5 @@
 ﻿---
-title: "Autorità di certificazione radice disponibile nell'elenco locale per le relazioni di trust federative: Exchange 2013 Help"
+title: 'Autor. cert. radice elenco loc. per relaz. trust federative:Exchange 2013 Help'
 TOCTitle: Autorità di certificazione radice disponibile nell'elenco locale per le relazioni di trust federative
 ms:assetid: d4224bf5-69b3-484c-8a70-4f230d3dbdd9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee332350(v=EXCHG.150)

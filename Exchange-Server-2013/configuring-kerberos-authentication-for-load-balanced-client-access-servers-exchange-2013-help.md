@@ -1,5 +1,5 @@
 ﻿---
-title: "Configurazione dell'autenticazione Kerberos per i server Accesso client con bilanciamento del carico: Exchange 2013 Help"
+title: 'Config. autentic. Kerberos-Accesso client con bilanc. car.: Exchange 2013 Help'
 TOCTitle: Configurazione dell'autenticazione Kerberos per i server Accesso client con bilanciamento del carico
 ms:assetid: 8f4faeea-a825-438d-97dc-1c398ce7aba5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff808312(v=EXCHG.150)

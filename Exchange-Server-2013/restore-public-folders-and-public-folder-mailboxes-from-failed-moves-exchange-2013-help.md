@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ripristinare le cartelle pubbliche e cassette postali delle cartelle pubbliche da spostamenti non riusciti: Exchange 2013 Help'
+title: 'Riprist. cart. pubbl./cass. post. da spost. non riusciti: Exchange 2013 Help'
 TOCTitle: Ripristinare le cartelle pubbliche e cassette postali delle cartelle pubbliche da spostamenti non riusciti
 ms:assetid: 2ade83c9-5f9b-4945-bf32-48fa8185b515
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ983802(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Visualizzare le proprietà del messaggio in coda nel Visualizzatore di code: Exchange 2013 Help'
+title: 'Visualizza proprietà mess. in coda in Visualizzatore code: Exchange 2013 Help'
 TOCTitle: Visualizzare le proprietà del messaggio in coda nel Visualizzatore di code
 ms:assetid: 9d15d8b8-e061-4288-9354-df58e282fb6b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123934(v=EXCHG.150)

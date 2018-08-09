@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impostare la porta di attesa TLS su un server Accesso Client: Exchange 2013 Help'
+title: 'Imposta porta di attesa TLS su un server Accesso Client: Exchange 2013 Help'
 TOCTitle: Impostare la porta di attesa TLS su un server Accesso Client
 ms:assetid: f4401923-61fa-4dc5-95f8-c0d2f515b2ea
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673576(v=EXCHG.150)

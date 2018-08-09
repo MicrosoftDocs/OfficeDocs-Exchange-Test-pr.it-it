@@ -1,5 +1,5 @@
 ﻿---
-title: "Utilizzo dell'autenticazione OAuth per supportare l'archiviazione nelle distribuzioni ibride di Exchange: Exchange 2013 Help"
+title: 'Autent. OAuth supporta archiv. in distr. ibride Exchange: Exchange 2013 Help'
 TOCTitle: Utilizzo dell'autenticazione OAuth per supportare l'archiviazione nelle distribuzioni ibride di Exchange
 ms:assetid: deb882b1-1ae2-40f3-a71c-423fafe3d66a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn689104(v=EXCHG.150)

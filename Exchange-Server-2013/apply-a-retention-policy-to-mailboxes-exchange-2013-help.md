@@ -1,5 +1,5 @@
 ﻿---
-title: 'Applicazione dei criteri di conservazione alle cassette postali: Exchange 2013 Help'
+title: 'Applica criteri di conserv. a cassette postali: Exchange 2013 Help'
 TOCTitle: Applicazione dei criteri di conservazione alle cassette postali
 ms:assetid: 6ccc80db-d201-44f7-8d4b-473a89c14b2f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd298052(v=EXCHG.150)

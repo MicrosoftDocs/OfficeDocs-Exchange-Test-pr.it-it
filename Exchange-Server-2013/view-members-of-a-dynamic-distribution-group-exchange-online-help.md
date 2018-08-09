@@ -1,5 +1,5 @@
 ﻿---
-title: 'Visualizzazione dei membri di un gruppo di distribuzione dinamico: Exchange 2013 Help'
+title: 'Visualizza membri gruppo distribuzione dinamico: Exchange 2013 Help'
 TOCTitle: Visualizzazione dei membri di un gruppo di distribuzione dinamico
 ms:assetid: 40b100c6-864e-4c82-9f98-08dd5c83e378
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232019(v=EXCHG.150)

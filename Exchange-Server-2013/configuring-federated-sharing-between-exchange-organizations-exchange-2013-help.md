@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurazione della condivisione federata tra organizzazioni di Exchange: Exchange 2013 Help'
+title: 'Config. condivisione federata tra organizz. Exchange: Exchange 2013 Help'
 TOCTitle: Configurazione della condivisione federata tra organizzazioni di Exchange
 ms:assetid: 94e31454-b027-4757-b52f-d3c2ead6d916
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ657473(v=EXCHG.150)

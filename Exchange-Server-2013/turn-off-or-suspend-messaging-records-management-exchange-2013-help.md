@@ -1,5 +1,5 @@
 ﻿---
-title: 'Disattivare o sospendere la gestione dei record di messaggistica: Exchange 2013 Help'
+title: 'Disattiva/sospende gestione record di messaggistica: Exchange 2013 Help'
 TOCTitle: Disattivare o sospendere la gestione dei record di messaggistica
 ms:assetid: 631191aa-3bba-4ebf-a727-c48ed2ebe176
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa998580(v=EXCHG.150)

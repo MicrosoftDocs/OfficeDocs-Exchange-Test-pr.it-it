@@ -1,5 +1,5 @@
 ﻿---
-title: "Abilitare o disabilitare l'invio di messaggi vocali per gli utenti: Exchange 2013 Help"
+title: 'Abilita/disabilita invio messaggi vocali per gli utenti: Exchange 2013 Help'
 TOCTitle: Abilitare o disabilitare l'invio di messaggi vocali per gli utenti
 ms:assetid: faa300d8-2534-40db-8ef9-428be8bb7934
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351277(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'UCMA 4.0. Il componente runtime principale non è installato: Exchange 2013 Help'
+title: 'UCMA 4.0. componente runtime principale non è installato: Exchange 2013 Help'
 TOCTitle: UCMA 4.0. Il componente runtime principale non è installato
 ms:assetid: b26b628b-116d-4f13-ab86-bac80e2a2e1f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.ucmaredistmsi(v=EXCHG.150)

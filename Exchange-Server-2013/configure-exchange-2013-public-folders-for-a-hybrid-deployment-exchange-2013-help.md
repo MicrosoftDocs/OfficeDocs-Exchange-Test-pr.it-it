@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare le cartelle pubbliche di Exchange 2013 per una distribuzione ibrida: Exchange 2013 Help'
+title: 'Config. cartelle pubb. Exchange 2013 per distrib. ibrida: Exchange 2013 Help'
 TOCTitle: Configurare le cartelle pubbliche di Exchange 2013 per una distribuzione ibrida
 ms:assetid: b828520f-022c-4fcb-ab68-e1c330e87c33
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn986544(v=EXCHG.150)

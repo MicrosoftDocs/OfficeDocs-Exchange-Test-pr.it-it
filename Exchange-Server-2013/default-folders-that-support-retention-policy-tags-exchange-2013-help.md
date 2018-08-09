@@ -1,5 +1,5 @@
 ﻿---
-title: 'Cartelle predefinite che supportano i tag del criterio di conservazione: Exchange 2013 Help'
+title: 'Cartelle pred. supportano tag criterio conservazione: Exchange 2013 Help'
 TOCTitle: Cartelle predefinite che supportano i tag del criterio di conservazione
 ms:assetid: d2e2064f-4102-4018-b688-504d09da6d39
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn783294(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Guida in linea Idenfity il problema con verifiche automatiche - aggiunta di domini: Exchange 2013 Help'
+title: 'Identifica problemi di verifiche autom. - aggiunta domini: Exchange 2013 Help'
 TOCTitle: Guida in linea Idenfity il problema con verifiche automatiche - aggiunta di domini
 ms:assetid: ea90a24b-7c9c-48d5-9475-0eb7777452f3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn793981(v=EXCHG.150)

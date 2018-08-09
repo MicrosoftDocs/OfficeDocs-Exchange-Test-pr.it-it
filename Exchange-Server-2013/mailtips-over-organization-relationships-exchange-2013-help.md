@@ -1,5 +1,5 @@
 ﻿---
-title: "Suggerimenti messaggio tramite le relazioni dell'organizzazione: Exchange 2013 Help"
+title: 'Suggerimenti tramite relazioni organizzazione: Exchange 2013 Help'
 TOCTitle: Suggerimenti messaggio tramite le relazioni dell'organizzazione
 ms:assetid: 1784256f-abe1-4503-b8c4-26d544b73452
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ670165(v=EXCHG.150)

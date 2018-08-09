@@ -1,5 +1,5 @@
 ﻿---
-title: 'Simple Mail Transport Protocol è attualmente installed_SMTPSvcInstalled: Exchange 2013 Help'
+title: 'SMTP installato_SMTPSvcInstalled: Exchange 2013 Help'
 TOCTitle: Simple Mail Transport Protocol è attualmente installed_SMTPSvcInstalled
 ms:assetid: f786a93c-876d-4f4e-adb6-4dfea3d820d1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.smtpsvcinstalled(v=EXCHG.150)

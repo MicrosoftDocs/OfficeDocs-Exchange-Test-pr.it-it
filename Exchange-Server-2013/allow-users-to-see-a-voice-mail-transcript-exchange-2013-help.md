@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consentire agli utenti di visualizzare una trascrizione di posta vocale: Exchange 2013 Help'
+title: 'Consente di visualizzare trascrizione posta vocale: Exchange 2013 Help'
 TOCTitle: Consentire agli utenti di visualizzare una trascrizione di posta vocale
 ms:assetid: c5192e05-905c-440f-beec-1f697edc15b3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff629381(v=EXCHG.150)

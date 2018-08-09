@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creare un connettore di invio per instradare la posta elettronica in uscita tramite uno Smart Host: Exchange 2013 Help'
+title: 'Crea connett. invio per instr. posta in uscita Smart Host: Exchange 2013 Help'
 TOCTitle: Creare un connettore di invio per instradare la posta elettronica in uscita tramite uno Smart Host
 ms:assetid: 4a9ef08e-bd62-4c6b-8790-d24fb0f8f24b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673059(v=EXCHG.150)

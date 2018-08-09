@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurazione delle cartelle pubbliche legacy in cui si trovano le cassette postali degli utenti su server Exchange 2013: Exchange 2013 Help'
+title: 'Config. cart. pub. legacy-cass. post. utenti-Exchange 2013: Exchange 2013 Help'
 TOCTitle: Configurazione delle cartelle pubbliche legacy in cui si trovano le cassette postali degli utenti su server Exchange 2013
 ms:assetid: 1d5ca19e-696e-4054-a634-15dd34d952b7
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn690134(v=EXCHG.150)

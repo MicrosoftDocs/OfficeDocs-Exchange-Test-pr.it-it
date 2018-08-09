@@ -1,5 +1,5 @@
 ﻿---
-title: "Informazioni sull'azzeramento delle pagine in Exchange 2013: Exchange 2013 Help"
+title: 'Info. azzeramento delle pagine in Exchange 2013: Exchange 2013 Help'
 TOCTitle: Informazioni sull'azzeramento delle pagine in Exchange 2013
 ms:assetid: 0ca7b188-efbc-4c0d-bcfe-5138cffc803c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg549096(v=EXCHG.150)

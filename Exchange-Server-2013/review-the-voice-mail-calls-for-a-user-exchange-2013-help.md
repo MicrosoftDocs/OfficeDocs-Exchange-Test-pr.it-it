@@ -1,5 +1,5 @@
 ﻿---
-title: 'Esaminare le chiamate di posta vocale di un utente: Exchange 2013 Help'
+title: "Esaminare le chiamate di posta vocale di un utente: Exchange 2013 Help"
 TOCTitle: Esaminare le chiamate di posta vocale di un utente
 ms:assetid: 95768fe3-3ae2-43bd-9cbf-18c3b85c4592
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ659070(v=EXCHG.150)

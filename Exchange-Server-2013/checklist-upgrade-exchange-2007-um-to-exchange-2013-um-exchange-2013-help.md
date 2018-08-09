@@ -1,5 +1,5 @@
 ﻿---
-title: "Elenco di controllo: Effettuare l'aggiornamento della Messaggistica unificata di Exchange 2007 alla Messaggistica unificata di Exchange 2013.: Exchange 2013 Help"
+title: 'Elenco controllo: Agg. mess. unif. Exchange 2007 a 2013.: Exchange 2013 Help'
 TOCTitle: "Elenco di controllo: Effettuare l'aggiornamento della Messaggistica unificata di Exchange 2007 alla Messaggistica unificata di Exchange 2013."
 ms:assetid: 99b1a081-4052-4516-b63c-77622cbdf962
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn169229(v=EXCHG.150)

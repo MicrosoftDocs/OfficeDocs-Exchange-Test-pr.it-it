@@ -1,5 +1,5 @@
 ﻿---
-title: "La creazione del gruppo di sicurezza e l'appartenenza al ruolo: Exchange 2013 Help"
+title: 'Creazione gruppo sicurezza e ruolo appartenenza: Exchange 2013 Help'
 TOCTitle: La creazione del gruppo di sicurezza e l'appartenenza al ruolo
 ms:assetid: 257eb517-339f-4895-9e08-f772408a41cf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd876860(v=EXCHG.150)

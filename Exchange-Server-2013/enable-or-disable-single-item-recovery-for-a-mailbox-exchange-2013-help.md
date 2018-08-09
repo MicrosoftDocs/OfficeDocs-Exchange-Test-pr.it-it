@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare o disabilitare il ripristino di un singolo elemento per una cassetta postale: Exchange 2013 Help'
+title: 'Abilita/disabilita ripr. singolo elemento cassetta postale: Exchange 2013 Help'
 TOCTitle: Abilitare o disabilitare il ripristino di un singolo elemento per una cassetta postale
 ms:assetid: 2e7f1bcd-8395-45ad-86ce-22868bd46af0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee633460(v=EXCHG.150)

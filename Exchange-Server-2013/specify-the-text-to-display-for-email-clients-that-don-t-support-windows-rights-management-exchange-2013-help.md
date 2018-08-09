@@ -1,5 +1,5 @@
 ﻿---
-title: 'Specificare il testo da visualizzare per i client di posta elettronica che non supportano Windows Rights Management: Exchange 2013 Help'
+title: 'Spec. testo client posta non supp. Windows Rights Management:Exchange 2013 Help'
 TOCTitle: Specificare il testo da visualizzare per i client di posta elettronica che non supportano Windows Rights Management
 ms:assetid: a9b2238a-b534-469c-a0c3-2768bc3d005b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee423552(v=EXCHG.150)

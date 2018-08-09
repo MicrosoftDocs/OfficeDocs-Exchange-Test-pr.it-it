@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare o disabilitare la registrazione per una cassetta postale di controllo delle cassette postali: Exchange 2013 Help'
+title: 'Abilita/disabilita reg. cassetta postale controllo: Exchange 2013 Help'
 TOCTitle: Abilitare o disabilitare la registrazione per una cassetta postale di controllo delle cassette postali
 ms:assetid: c4bbfd52-6196-49c7-8c31-777fbbee11f2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff461937(v=EXCHG.150)

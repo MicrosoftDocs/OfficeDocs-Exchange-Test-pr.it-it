@@ -1,5 +1,5 @@
 ﻿---
-title: "Installare e configurare l'agente di Address Book Policy Routing: Exchange 2013 Help"
+title: 'Installa/config. agente Address Book Policy Routing: Exchange 2013 Help'
 TOCTitle: Installare e configurare l'agente di Address Book Policy Routing
 ms:assetid: 20e8a43d-4508-4388-a2c9-aa3073593cc2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ907308(v=EXCHG.150)

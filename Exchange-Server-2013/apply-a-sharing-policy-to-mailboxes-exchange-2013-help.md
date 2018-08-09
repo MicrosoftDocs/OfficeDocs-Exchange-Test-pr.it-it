@@ -1,5 +1,5 @@
 ﻿---
-title: 'Applicare un criterio di condivisione alle cassette postali: Exchange 2013 Help'
+title: 'Applica criterio condivisione alle cassette postali: Exchange 2013 Help'
 TOCTitle: Applicare un criterio di condivisione alle cassette postali
 ms:assetid: dd4cc765-8469-4176-bb6e-d5b0f5235927
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ657501(v=EXCHG.150)

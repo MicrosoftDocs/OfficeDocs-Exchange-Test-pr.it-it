@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitazione o disabilitazione di IRM per i messaggi interni: Exchange 2013 Help'
+title: 'Abilita/disabilita IRM per messaggi interni: Exchange 2013 Help'
 TOCTitle: Abilitazione o disabilitazione di IRM per i messaggi interni
 ms:assetid: a6a17f57-5304-41f1-954d-7301857d54a1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124077(v=EXCHG.150)

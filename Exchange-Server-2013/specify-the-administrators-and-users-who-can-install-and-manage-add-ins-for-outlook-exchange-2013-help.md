@@ -1,5 +1,5 @@
 ﻿---
-title: 'Specificare gli amministratori e gli utenti in grado di installare e gestire componenti aggiuntivi per Outlook: Exchange 2013 Help'
+title: 'Specifica amm./utenti per inst./gestire comp. agg. Outlook: Exchange 2013 Help'
 TOCTitle: Specificare gli amministratori e gli utenti in grado di installare e gestire componenti aggiuntivi per Outlook
 ms:assetid: 7ee4302d-b8bb-40a0-9810-10d3a0271bcb
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ943754(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurazione dei limiti nelle dimensioni dei messaggi per una cassetta postale: Exchange 2013 Help'
+title: 'Configura limiti dimens. messaggi per cassetta postale: Exchange 2013 Help'
 TOCTitle: Configurazione dei limiti nelle dimensioni dei messaggi per una cassetta postale
 ms:assetid: d1220685-14c0-4c4f-abb2-3920f3046212
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124708(v=EXCHG.150)

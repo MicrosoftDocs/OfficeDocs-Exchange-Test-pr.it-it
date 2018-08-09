@@ -1,5 +1,5 @@
 ﻿---
-title: 'Assegnare un criterio cassetta postale di messaggistica unificata: Exchange 2013 Help'
+title: 'Assegna criteri cassetta postale messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Assegnare un criterio cassetta postale di messaggistica unificata
 ms:assetid: c8da6cbe-3d22-4fff-8b5a-416b1c8adb6c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb201728(v=EXCHG.150)

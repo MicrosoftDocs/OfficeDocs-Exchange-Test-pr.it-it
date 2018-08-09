@@ -1,5 +1,5 @@
 ﻿---
-title: 'Vantaggi delle funzionalità antivirus in Exchange Online Protection su Exchange Server 2013: Exchange 2013 Help'
+title: 'Vantaggi antivirus in EOP su Exchange Server 2013: Exchange 2013 Help'
 TOCTitle: Vantaggi delle funzionalità antivirus in Exchange Online Protection su Exchange Server 2013
 ms:assetid: 00e37a3c-3fbc-488f-bdad-d52a3c80fd72
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673032(v=EXCHG.150)

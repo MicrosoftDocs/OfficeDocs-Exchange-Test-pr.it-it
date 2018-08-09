@@ -1,5 +1,5 @@
 ﻿---
-title: "Disabilitare o abilitare l'inserimento nel journal dei messaggi vocali e delle notifiche di chiamata: Exchange 2013 Help"
+title: 'Dis./abilita ins. journal mess. voc./notifiche chiamata: Exchange 2013 Help'
 TOCTitle: Disabilitare o abilitare l'inserimento nel journal dei messaggi vocali e delle notifiche di chiamata
 ms:assetid: 5164a92e-69e6-4339-b80c-0cfbf0dc0198
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb201690(v=EXCHG.150)

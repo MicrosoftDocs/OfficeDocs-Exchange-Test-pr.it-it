@@ -1,5 +1,5 @@
 ﻿---
-title: "Configurazione dell'inoltro della posta elettronica per una cassetta postale: Exchange 2013 Help"
+title: 'Configura inoltro posta per cassetta postale: Exchange 2013 Help'
 TOCTitle: Configurazione dell'inoltro della posta elettronica per una cassetta postale
 ms:assetid: c7a7afaf-577e-49d6-8cee-bb4c4a5d570b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351134(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Distribuzione di Exchange 2013 in una topologia a foresta risorsa Exchange: Exchange 2013 Help'
+title: 'Distribuz. Exchange 2013-topologia foresta ris. Exchange: Exchange 2013 Help'
 TOCTitle: Distribuzione di Exchange 2013 in una topologia a foresta risorsa Exchange
 ms:assetid: 537a7b2b-d002-40a6-84ae-fd02635f9e23
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa998031(v=EXCHG.150)

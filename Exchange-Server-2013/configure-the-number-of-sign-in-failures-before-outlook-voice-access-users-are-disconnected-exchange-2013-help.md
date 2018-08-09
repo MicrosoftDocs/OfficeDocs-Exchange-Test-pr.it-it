@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il numero di errori di accesso prima che gli utenti di Outlook Voice Access vengono disconnessi: Exchange 2013 Help'
+title: 'Config. errori accesso di discon. Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Configurare il numero di errori di accesso prima che gli utenti di Outlook Voice Access vengono disconnessi
 ms:assetid: 02f93888-168c-44bb-8cf6-17f5fcc3d733
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee423537(v=EXCHG.150)

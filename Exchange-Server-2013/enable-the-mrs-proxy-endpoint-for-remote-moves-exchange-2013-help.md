@@ -1,5 +1,5 @@
 ﻿---
-title: "Abilitare l'endpoint del Proxy MRS per gli spostamenti remoti: Exchange 2013 Help"
+title: 'Abilita endpoint del Proxy MRS per spostamenti remoti: Exchange 2013 Help'
 TOCTitle: Abilitare l'endpoint del Proxy MRS per gli spostamenti remoti
 ms:assetid: 9840f712-127e-4c2d-bfe5-1b35cdb2a31b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn155787(v=EXCHG.150)

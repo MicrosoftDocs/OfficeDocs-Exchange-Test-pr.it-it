@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare manualmente il flusso della posta server Trasporto Edge: Exchange 2013 Help'
+title: 'Config. manualmente flusso posta server Trasporto Edge: Exchange 2013 Help'
 TOCTitle: Configurare manualmente il flusso della posta server Trasporto Edge
 ms:assetid: cb4cc165-6c09-44ab-a95f-167ae8ed2485
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn606261(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Informazioni sulla coesistenza delle autorizzazioni con Exchange 2007 ed Exchange 2010: Exchange 2013 Help'
+title: 'Info. su coesistenza autorizz. Exchange 2007/Exchange 2010: Exchange 2013 Help'
 TOCTitle: Informazioni sulla coesistenza delle autorizzazioni con Exchange 2007 ed Exchange 2010
 ms:assetid: 28ab1433-23ee-4914-8f21-9a32578792e5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd335157(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Distribuzione dei certificati per la messaggistica unificata: Exchange 2013 Help'
+title: 'Distribuz. certificati per messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Distribuzione dei certificati per la messaggistica unificata
 ms:assetid: 95658f6f-eac2-4674-90e7-f2d3f25c5242
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee681661(v=EXCHG.150)

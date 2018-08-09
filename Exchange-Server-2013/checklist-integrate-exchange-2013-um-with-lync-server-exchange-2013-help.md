@@ -1,5 +1,5 @@
 ﻿---
-title: 'Elenco di controllo: Integrazione di messaggistica UNIFICATA di Exchange 2013 con Lync Server: Exchange 2013 Help'
+title: 'Elenco contr.: Int. mess. UNIF. Exchange 2013 Lync Server: Exchange 2013 Help'
 TOCTitle: 'Elenco di controllo: Integrazione di messaggistica UNIFICATA di Exchange 2013 con Lync Server'
 ms:assetid: 3b82e86f-9f30-4445-96ad-744082abeaeb
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd638120(v=EXCHG.150)

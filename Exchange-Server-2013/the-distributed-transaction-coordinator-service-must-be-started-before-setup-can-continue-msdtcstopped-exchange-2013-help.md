@@ -1,5 +1,5 @@
 ﻿---
-title: "Il servizio coordinatore di transazione distribuita deve essere avviato prima dell'installazione possono continue_MSDTCStopped: Exchange 2013 Help"
+title: 'Serv. coordin. transaz. distr. per installare_MSDTCStopped: Exchange 2013 Help'
 TOCTitle: Il servizio coordinatore di transazione distribuita deve essere avviato prima dell'installazione possono continue_MSDTCStopped
 ms:assetid: 96e33c94-348e-4a0b-9585-9bee81be4355
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.msdtcstopped(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare la modalità di avvio in un server Accesso Client: Exchange 2013 Help'
+title: 'Configura modalità di avvio in un server Accesso Client: Exchange 2013 Help'
 TOCTitle: Configurare la modalità di avvio in un server Accesso Client
 ms:assetid: 71cc9061-9e3c-4b4a-8dbe-f590ca5bcee8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673533(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Installazione nei controller di dominio non è supportata con di Active Directory le autorizzazioni: Exchange 2013 Help'
+title: 'Instal. controller dominio non supportata con autorizz. AD: Exchange 2013 Help'
 TOCTitle: Installazione nei controller di dominio non è supportata con di Active Directory le autorizzazioni
 ms:assetid: 977e3758-5e09-40a2-80c1-fe344b1d8a2a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.installondcinadsplitpermissionmode(v=EXCHG.150)

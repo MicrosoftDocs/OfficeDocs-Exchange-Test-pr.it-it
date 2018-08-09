@@ -1,5 +1,5 @@
 ﻿---
-title: 'Esecuzione dello strumento di risoluzione dei problemi di messaggistica unificata in Windows 7 o Windows 8: Exchange 2013 Help'
+title: 'Strum. risol. probl. mess. unificata in Windows 7/Windows 8:Exchange 2013 Help'
 TOCTitle: Esecuzione dello strumento di risoluzione dei problemi di messaggistica unificata in Windows 7 o Windows 8
 ms:assetid: 98d6869d-ee4a-4088-849d-ef75b0f5d932
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff851872(v=EXCHG.150)

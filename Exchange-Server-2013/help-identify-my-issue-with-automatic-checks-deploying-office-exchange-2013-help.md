@@ -1,5 +1,5 @@
 ﻿---
-title: 'Identificare i problemi verifiche automatiche - distribuzione di Office: Exchange 2013 Help'
+title: 'Identifica problemi verifiche autom.-distribuzione Office: Exchange 2013 Help'
 TOCTitle: Identificare i problemi verifiche automatiche - distribuzione di Office
 ms:assetid: 77d4587c-7fd5-4231-931e-3d6608e622f4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn793978(v=EXCHG.150)

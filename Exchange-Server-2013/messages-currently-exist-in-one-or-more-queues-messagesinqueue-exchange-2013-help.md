@@ -1,5 +1,5 @@
 ﻿---
-title: 'I messaggi attualmente esistono in uno o più queues_MessagesInQueue: Exchange 2013 Help'
+title: 'Messaggi in una o più code_MessagesInQueue: Exchange 2013 Help'
 TOCTitle: I messaggi attualmente esistono in uno o più queues_MessagesInQueue
 ms:assetid: 3ffcdc7e-c1b7-49a7-8e5f-b30c0397908d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.messagesinqueue(v=EXCHG.150)

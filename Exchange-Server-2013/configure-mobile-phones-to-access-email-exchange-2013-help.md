@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare i cellulari per accedere alla posta elettronica: Exchange 2013 Help'
+title: 'Configura cellulari per accedere alla posta elettronica: Exchange 2013 Help'
 TOCTitle: Configurare i cellulari per accedere alla posta elettronica
 ms:assetid: 8d6e2cea-265a-43d9-a074-076f35658436
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123704(v=EXCHG.150)

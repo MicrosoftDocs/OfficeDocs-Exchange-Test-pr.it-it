@@ -1,5 +1,5 @@
 ﻿---
-title: 'Modificare, disabilitare o rimuovere un criterio di condivisione: Exchange 2013 Help'
+title: 'Modifica/disabilita/rimuove criterio condivisione: Exchange 2013 Help'
 TOCTitle: Modificare, disabilitare o rimuovere un criterio di condivisione
 ms:assetid: 714af42d-ca29-4bb4-ac48-f0b3d4fd1c15
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ657460(v=EXCHG.150)

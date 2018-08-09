@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il reseeding automatico per un gruppo di disponibilità del database: Exchange 2013 Help'
+title: 'Configura reseeding autom. gruppo disponibilità database: Exchange 2013 Help'
 TOCTitle: Configurare il reseeding automatico per un gruppo di disponibilità del database
 ms:assetid: 4a8bd779-b52a-40ed-8040-4d76eabeb41e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ619303(v=EXCHG.150)

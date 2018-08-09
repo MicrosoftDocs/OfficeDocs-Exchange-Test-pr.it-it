@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il numero di errori di input prima che gli utenti di Outlook Voice Access vengono disconnessi: Exchange 2013 Help'
+title: 'Config. errori input prima di discon. Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Configurare il numero di errori di input prima che gli utenti di Outlook Voice Access vengono disconnessi
 ms:assetid: 64c13d17-a26a-4c9b-b495-bd69c716456a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee423547(v=EXCHG.150)

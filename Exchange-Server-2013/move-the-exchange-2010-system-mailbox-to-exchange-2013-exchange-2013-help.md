@@ -1,5 +1,5 @@
 ﻿---
-title: 'Spostare la cassetta postale di sistema di Exchange 2010 in Exchange 2013: Exchange 2013 Help'
+title: 'Sposta cassetta postale sistema Exchange 2010 in 2013: Exchange 2013 Help'
 TOCTitle: Spostare la cassetta postale di sistema di Exchange 2010 in Exchange 2013
 ms:assetid: a3b03c4e-0bc7-41a2-885c-e9cac37566c8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn249849(v=EXCHG.150)

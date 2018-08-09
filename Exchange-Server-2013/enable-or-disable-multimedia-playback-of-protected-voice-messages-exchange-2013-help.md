@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare o disabilitare la riproduzione multimediale dei messaggi vocali protetti: Exchange 2013 Help'
+title: 'Abilita/disab. riproduz. multim. messaggi vocali protetti: Exchange 2013 Help'
 TOCTitle: Abilitare o disabilitare la riproduzione multimediale dei messaggi vocali protetti
 ms:assetid: 3c33370c-4262-42b1-8d83-d61fc7c426cd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee423543(v=EXCHG.150)

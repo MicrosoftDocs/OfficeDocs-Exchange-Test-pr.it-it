@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedure consigliate per la configurazione delle regole del flusso di posta: Exchange 2013 Help'
+title: 'Procedure consigliate per regole flusso di posta: Exchange 2013 Help'
 TOCTitle: Procedure consigliate per la configurazione delle regole del flusso di posta
 ms:assetid: abd863c3-c0ce-42f3-9470-a573adc3cbba
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn960147(v=EXCHG.150)

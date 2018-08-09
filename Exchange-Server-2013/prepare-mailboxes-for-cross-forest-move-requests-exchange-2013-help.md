@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preparare le cassette postali per le richieste di spostamento tra foreste: Exchange 2013 Help'
+title: 'Prepar cassette postali a richieste spostamento foreste: Exchange 2013 Help'
 TOCTitle: Preparare le cassette postali per le richieste di spostamento tra foreste
 ms:assetid: fdbed4fc-a77e-40d5-a211-863b05d74784
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee633491(v=EXCHG.150)

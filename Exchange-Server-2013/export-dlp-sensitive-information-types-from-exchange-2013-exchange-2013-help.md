@@ -1,5 +1,5 @@
 ﻿---
-title: 'Esportare i tipi di informazioni riservate DLP da Exchange 2013: Exchange 2013 Help'
+title: 'Esporta tipi informazioni riservate DLP da Exchange 2013: Exchange 2013 Help'
 TOCTitle: Esportare i tipi di informazioni riservate DLP di Exchange
 ms:assetid: 8f02fbc2-dd1c-4276-be1a-517a43fe39b2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn479225(v=EXCHG.150)

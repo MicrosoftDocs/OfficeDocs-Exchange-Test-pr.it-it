@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurazione delle quote di archiviazione per una cassetta postale: Exchange 2013 Help'
+title: 'Configura quote archiviazione per cassetta postale: Exchange 2013 Help'
 TOCTitle: Configurazione delle quote di archiviazione per una cassetta postale
 ms:assetid: 5f5fe292-c80e-4a0b-b3e6-e193ea5171d0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa998353(v=EXCHG.150)

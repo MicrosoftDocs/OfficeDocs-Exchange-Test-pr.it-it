@@ -1,5 +1,5 @@
 ﻿---
-title: 'Integrazione del telefono sistema con la messaggistica UNIFICATA: Exchange 2013 Help'
+title: 'Integrazione telefono con messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Integrazione del telefono sistema con la messaggistica UNIFICATA
 ms:assetid: b8790117-b040-4c84-9d34-005c75088e76
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673558(v=EXCHG.150)

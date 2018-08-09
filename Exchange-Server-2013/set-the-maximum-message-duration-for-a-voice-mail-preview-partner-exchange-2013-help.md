@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impostare la durata massima dei messaggi per un partner di anteprima messaggio vocale: Exchange 2013 Help'
+title: 'Imposta durata max mess. partner anteprima mess. voc.: Exchange 2013 Help'
 TOCTitle: Impostare la durata massima dei messaggi per un partner di anteprima messaggio vocale
 ms:assetid: 18f928ff-f4cc-4eed-a466-de13388780b3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff630912(v=EXCHG.150)

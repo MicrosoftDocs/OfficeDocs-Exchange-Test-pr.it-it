@@ -1,5 +1,5 @@
 ﻿---
-title: 'Coesistenza con Office Communications Server 2007 R2 e Lync Server: Exchange 2013 Help'
+title: 'Coes. Office Communications Server 2007 R2 e Lync Server: Exchange 2013 Help'
 TOCTitle: Coesistenza con Office Communications Server 2007 R2 e Lync Server
 ms:assetid: f12d65c7-0b2c-46a1-a14a-802a76296fa1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ851069(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consentire o impedire risponditore automatico in un server Accesso Client: Exchange 2013 Help'
+title: 'Consente o meno risponditore autom. server Accesso Client: Exchange 2013 Help'
 TOCTitle: Consentire o impedire risponditore automatico in un server Accesso Client
 ms:assetid: 8287bb78-2621-4b80-a128-8f2ccd67923a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb123529(v=EXCHG.150)

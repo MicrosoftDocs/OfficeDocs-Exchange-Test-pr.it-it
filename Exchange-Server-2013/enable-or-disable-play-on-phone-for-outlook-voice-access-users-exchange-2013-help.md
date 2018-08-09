@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare o disabilitare Ascolta al telefono per gli utenti di Outlook Voice Access: Exchange 2013 Help'
+title: 'Abilita/disab. Ascolta al telefono Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Abilitare o disabilitare Ascolta al telefono per gli utenti di Outlook Voice Access
 ms:assetid: d3281a97-6fc6-42a3-855f-1af1184a644a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351161(v=EXCHG.150)

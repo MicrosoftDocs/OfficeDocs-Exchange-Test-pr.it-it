@@ -1,5 +1,5 @@
 ﻿---
-title: 'Suggerimenti relativi a ridimensionamento e configurazione di Exchange 2013: Exchange 2013 Help'
+title: 'Suggerimenti per ridimensionare/configurare Exchange 2013: Exchange 2013 Help'
 TOCTitle: Suggerimenti relativi a ridimensionamento e configurazione di Exchange 2013
 ms:assetid: 4c4ba2fc-014a-46fb-949a-2dabba92c4a5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn879075(v=EXCHG.150)

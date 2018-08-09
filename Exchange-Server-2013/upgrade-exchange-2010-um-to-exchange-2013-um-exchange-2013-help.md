@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aggiornamento dalla messaggistica unificata di Exchange 2007 alla messaggistica unificata di Exchange 2010: Exchange 2013 Help'
+title: 'Aggiorna messagg. unificata Exchange 2007 a Exchange 2010: Exchange 2013 Help'
 TOCTitle: Aggiornamento dalla messaggistica unificata di Exchange 2007 alla messaggistica unificata di Exchange 2010
 ms:assetid: 01aa5dab-689b-4738-afab-0d2f11a60b39
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn169226(v=EXCHG.150)

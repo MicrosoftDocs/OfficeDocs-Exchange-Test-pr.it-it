@@ -1,5 +1,5 @@
 ﻿---
-title: 'Come consentire agli utenti finali di visualizzare le impostazioni dei server POP3, IMAP4 e SMTP in Outlook Web App: Exchange 2013 Help'
+title: 'Consenti impostaz. di POP3, IMAP4, SMTP in Outlook Web App: Exchange 2013 Help'
 TOCTitle: Come consentire agli utenti finali di visualizzare le impostazioni dei server POP3, IMAP4 e SMTP in Outlook Web App
 ms:assetid: bd22bf7e-3bf7-45e6-8790-919b780166f6
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg298947(v=EXCHG.150)

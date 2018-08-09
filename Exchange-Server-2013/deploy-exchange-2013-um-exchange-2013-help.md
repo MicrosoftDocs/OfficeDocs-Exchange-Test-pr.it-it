@@ -1,5 +1,5 @@
 ﻿---
-title: 'Distribuzione della messaggistica unificata di Exchange 2013: Exchange 2013 Help'
+title: 'Distribuzione messaggistica unificata Exchange 2013: Exchange 2013 Help'
 TOCTitle: Distribuzione della messaggistica unificata di Exchange 2013
 ms:assetid: d147d4b1-32d7-476b-b76f-ee3c0b35ba49
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673564(v=EXCHG.150)

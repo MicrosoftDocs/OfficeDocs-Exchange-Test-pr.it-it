@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aggiornamento di una copia del database delle cassette postali: Exchange 2013 Help'
+title: 'Aggiorna copia database delle cassette postali: Exchange 2013 Help'
 TOCTitle: Aggiornamento di una copia del database delle cassette postali
 ms:assetid: bead3cc5-7d50-446f-95b7-e432bcb7968e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351100(v=EXCHG.150)

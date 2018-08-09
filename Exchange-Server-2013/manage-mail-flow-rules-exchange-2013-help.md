@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gestire le regole di flusso di posta elettronica: Exchange Online Protection Help'
+title: 'Gestire regole flusso posta elettronica: Exchange Online Protection Help'
 TOCTitle: Gestire le regole di flusso di posta elettronica
 ms:assetid: e7a81372-b6d7-4d1f-bc9e-a845a7facac2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ657505(v=EXCHG.150)

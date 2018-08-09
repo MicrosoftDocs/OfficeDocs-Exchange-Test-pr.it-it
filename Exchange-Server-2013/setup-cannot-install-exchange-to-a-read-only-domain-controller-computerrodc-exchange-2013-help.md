@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impossibile installare Exchange a un dominio di sola lettura controller_ComputerRODC: Exchange 2013 Help'
+title: 'Non inst. Exchange controller dom. sola lett._ComputerRODC: Exchange 2013 Help'
 TOCTitle: Impossibile installare Exchange a un dominio di sola lettura controller_ComputerRODC
 ms:assetid: 4934d755-65be-47e2-86b0-6ea1ab148a96
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.computerrodc(v=EXCHG.150)

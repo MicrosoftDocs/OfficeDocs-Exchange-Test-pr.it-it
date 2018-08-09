@@ -1,5 +1,5 @@
 ﻿---
-title: 'Inviare e ricevere posta elettronica crittografata e S/MIME firmati: Exchange 2013 Help'
+title: 'Invia/riceve posta crittogr.e S/MIME firmati: Exchange 2013 Help'
 TOCTitle: Inviare e ricevere posta elettronica crittografata e S/MIME firmati
 ms:assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn626157(v=EXCHG.150)

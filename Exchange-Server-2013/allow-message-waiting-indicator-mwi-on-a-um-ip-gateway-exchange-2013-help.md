@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consenti messaggio in attesa indicatore (MWI) su un gateway IP di messaggistica unificata: Exchange 2013 Help'
+title: 'Mess. attesa indicatore (MWI) su gateway IP messag. unif.: Exchange 2013 Help'
 TOCTitle: Consenti messaggio in attesa indicatore (MWI) su un gateway IP di messaggistica unificata
 ms:assetid: 5667e37c-48c6-4659-9dc9-94b1dd8ba232
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd297995(v=EXCHG.150)

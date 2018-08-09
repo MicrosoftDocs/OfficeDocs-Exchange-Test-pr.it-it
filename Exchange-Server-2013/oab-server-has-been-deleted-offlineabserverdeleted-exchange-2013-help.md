@@ -1,5 +1,5 @@
 ﻿---
-title: 'Server della Rubrica Offline è stata deleted_OffLineABServerDeleted: Exchange 2013 Help'
+title: 'Server Rubrica Offline eliminato_OffLineABServerDeleted: Exchange 2013 Help'
 TOCTitle: Server della Rubrica Offline è stata deleted_OffLineABServerDeleted
 ms:assetid: 38b5dacf-ef65-4b25-97f6-d8dec956d7d5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.offlineabserverdeleted(v=EXCHG.150)

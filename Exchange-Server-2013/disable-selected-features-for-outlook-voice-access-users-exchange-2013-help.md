@@ -1,5 +1,5 @@
 ﻿---
-title: 'Disabilitare le funzionalità selezionate per gli utenti di Outlook Voice Access: Exchange 2013 Help'
+title: 'Disabilita funzionalità utenti Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Disabilitare le funzionalità selezionate per gli utenti di Outlook Voice Access
 ms:assetid: 37421edf-af60-4ca9-9e8b-262b8b851607
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Gg602126(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Esaminare la qualità dell'audio delle chiamate vocali per un utente: Exchange 2013 Help"
+title: 'Esamina qualità audio chiamate vocali: Exchange 2013 Help'
 TOCTitle: Esaminare la qualità dell'audio delle chiamate vocali per un utente
 ms:assetid: 0c945886-3cfa-423e-9b46-0d6b1584a145
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ659059(v=EXCHG.150)

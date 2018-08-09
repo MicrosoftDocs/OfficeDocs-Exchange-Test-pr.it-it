@@ -1,5 +1,5 @@
 ﻿---
-title: 'Master schema non è in esecuzione Windows Server 2003 Service Pack 1 o later_SchemaFSMONotWin2003SPn: Exchange 2013 Help'
+title: 'Non esegue Windows Server 2003 SP1_SchemaFSMONotWin2003SPn: Exchange 2013 Help'
 TOCTitle: Master schema non è in esecuzione Windows Server 2003 Service Pack 1 o later_SchemaFSMONotWin2003SPn
 ms:assetid: 644a85ca-7b36-4ed0-bd21-c64f2742df70
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.schemafsmonotwin2003spn(v=EXCHG.150)

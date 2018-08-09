@@ -1,5 +1,5 @@
 ﻿---
-title: 'Elimina e ricrea la cassetta postale di individuazione predefinita in Exchange: Exchange 2013 Help'
+title: 'Elimina/ricrea cassetta postale individ. predef. Exchange: Exchange 2013 Help'
 TOCTitle: Elimina e ricrea la cassetta postale di individuazione predefinita in Exchange
 ms:assetid: 4bde0b00-bdf7-44b4-ba64-aa062bc10ca2
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn750894(v=EXCHG.150)

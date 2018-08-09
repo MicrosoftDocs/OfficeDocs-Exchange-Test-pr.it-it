@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creare o modificare un criterio cassetta postale di dispositivo mobile: Exchange 2013 Help'
+title: 'Crea/modifica criterio cassetta postale dispositivo mobile: Exchange 2013 Help'
 TOCTitle: Creare o modificare un criterio cassetta postale di dispositivo mobile
 ms:assetid: b4a37a81-25e3-40ff-a18a-a62ae4493635
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124315(v=EXCHG.150)

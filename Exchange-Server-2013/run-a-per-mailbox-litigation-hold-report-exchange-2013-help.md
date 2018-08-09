@@ -1,5 +1,5 @@
 ﻿---
-title: 'Eseguire un rapporto di attesa di conservazione per controversia per cassetta postale: Exchange 2013 Help'
+title: 'Esegue rapp. attesa conserv. controversia cassetta postale: Exchange 2013 Help'
 TOCTitle: Eseguire un rapporto di attesa di conservazione per controversia per cassetta postale
 ms:assetid: 98c46226-2f48-42c6-a741-34bb5944f519
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ150542(v=EXCHG.150)

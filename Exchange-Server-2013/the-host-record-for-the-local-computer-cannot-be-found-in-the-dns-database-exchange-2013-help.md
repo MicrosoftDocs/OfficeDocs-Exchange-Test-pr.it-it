@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impossibile trovare il record Host per il computer locale nel database DNS: Exchange 2013 Help'
+title: 'Imp. trovare record Host computer locale in database DNS: Exchange 2013 Help'
 TOCTitle: Impossibile trovare il record Host per il computer locale nel database DNS
 ms:assetid: 2f18cb65-29fe-4b72-8d68-52fd503d5673
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.hostrecordmissing(v=EXCHG.150)

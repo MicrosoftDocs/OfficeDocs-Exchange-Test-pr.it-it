@@ -1,5 +1,5 @@
 ﻿---
-title: 'Nei server Trasporto Edge voci di riscrittura degli indirizzi di importazione: Exchange 2013 Help'
+title: 'Importa voci riscrittura indirizzi server Trasporto Edge: Exchange 2013 Help'
 TOCTitle: Nei server Trasporto Edge voci di riscrittura degli indirizzi di importazione
 ms:assetid: bd0942c6-9c66-4b4c-b9bc-2f5f783def76
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb331966(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Visualizzare le statistiche per le cartelle pubbliche e gli elementi della cartella pubblica: Exchange 2013 Help'
+title: 'Visualizza statistiche/elementi cartelle pubbliche: Exchange 2013 Help'
 TOCTitle: Visualizzare le statistiche per le cartelle pubbliche e gli elementi della cartella pubblica
 ms:assetid: 4e412710-9a74-4649-ab01-502e969a7eda
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997949(v=EXCHG.150)

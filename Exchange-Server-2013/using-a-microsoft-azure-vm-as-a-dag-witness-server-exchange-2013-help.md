@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizzo di una macchina virtuale Azure Microsoft come server di controllo del DAG: Exchange 2013 Help'
+title: 'Macch. virt. Azure Microsoft come server di controllo DAG: Exchange 2013 Help'
 TOCTitle: Utilizzo di una macchina virtuale Azure Microsoft come server di controllo del DAG
 ms:assetid: 03d1e215-518b-4b48-bfcd-8d187ff8f5ef
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn903504(v=EXCHG.150)

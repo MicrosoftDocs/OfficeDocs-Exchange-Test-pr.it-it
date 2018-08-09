@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedure di registrazione di controllo delle cassette postali: Exchange 2013 Help'
+title: 'Procedure registrazione di controllo cassette postali: Exchange 2013 Help'
 TOCTitle: Procedure di registrazione di controllo delle cassette postali
 ms:assetid: dfc40110-f9e8-4737-a3b0-a56176daeec1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff461939(v=EXCHG.150)

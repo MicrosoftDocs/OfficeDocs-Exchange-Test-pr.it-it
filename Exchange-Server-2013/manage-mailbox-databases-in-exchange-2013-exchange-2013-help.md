@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gestire il database delle cassette postali in Exchange 2013: Exchange 2013 Help'
+title: 'Gestire database cassette postali in Exchange 2013: Exchange 2013 Help'
 TOCTitle: Gestire il database delle cassette postali in Exchange 2013
 ms:assetid: ead4a96b-1717-435b-bcfc-9901ac4e3b58
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ150580(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Eliminare un criterio cassetta postale di messaggistica unificata: Exchange 2013 Help'
+title: 'Elimina criterio cassetta postale mess. unificata: Exchange 2013 Help'
 TOCTitle: Eliminare un criterio cassetta postale di messaggistica unificata
 ms:assetid: c8758464-3c52-4dd3-b2a6-142a99bb0628
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124536(v=EXCHG.150)

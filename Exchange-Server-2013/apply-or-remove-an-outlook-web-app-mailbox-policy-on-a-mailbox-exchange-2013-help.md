@@ -1,5 +1,5 @@
 ﻿---
-title: 'Applicare o rimuovere un criterio cassetta postale di Outlook Web App in una cassetta postale: Exchange 2013 Help'
+title: 'Applic./rim. criteri Outlook Web App in cassetta postale: Exchange 2013 Help'
 TOCTitle: Applicare o rimuovere un criterio cassetta postale di Outlook Web App in una cassetta postale
 ms:assetid: 51d8e269-b0d5-4bc7-9b3d-0460871e54fa
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd876884(v=EXCHG.150)

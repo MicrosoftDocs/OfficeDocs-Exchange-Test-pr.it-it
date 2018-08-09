@@ -1,5 +1,5 @@
 ﻿---
-title: 'Posta elettronica attiva o Disattiva posta una cartella pubblica: Exchange 2013 Help'
+title: 'Posta elettronica attiva/disattiva cartella pubblica: Exchange 2013 Help'
 TOCTitle: Posta elettronica attiva o Disattiva posta una cartella pubblica
 ms:assetid: 3d69f76d-ff3c-46c1-b962-6a1baa425d8a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997560(v=EXCHG.150)

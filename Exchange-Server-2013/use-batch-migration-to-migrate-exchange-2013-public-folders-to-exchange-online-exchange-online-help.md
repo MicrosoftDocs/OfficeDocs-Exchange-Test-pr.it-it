@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizzare la migrazione batch per migrare le cartelle pubbliche di Exchange 2013 a Exchange Online: Exchange 2013 Help'
+title: 'Migraz. batch cart. pubb. Exchange 2013-Exchange Online: Exchange 2013 Help'
 TOCTitle: Utilizzare la migrazione batch per migrare le cartelle pubbliche di Exchange 2013 a Exchange Online
 ms:assetid: 25a5234c-dd2c-487b-8541-3655fbeb030a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Mt798260(v=EXCHG.150)

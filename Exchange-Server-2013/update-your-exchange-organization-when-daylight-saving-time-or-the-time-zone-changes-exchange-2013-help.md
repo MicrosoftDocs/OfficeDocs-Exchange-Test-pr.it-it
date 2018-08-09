@@ -1,5 +1,5 @@
 ﻿---
-title: "Aggiornare l'organizzazione di Exchange quando cambia l'ora legale o il fuso orario: Exchange 2013 Help"
+title: 'Aggiorna organizz. Exchange per ora legale/fuso orario: Exchange 2013 Help'
 TOCTitle: Aggiornare l'organizzazione di Exchange quando cambia l'ora legale o il fuso orario
 ms:assetid: 5b12615c-24cf-4f46-bf3c-2334dc734ef8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Hh530051(v=EXCHG.150)

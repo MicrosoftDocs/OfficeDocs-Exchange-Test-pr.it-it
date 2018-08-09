@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare o disabilitare Exchange ActiveSync per una cassetta postale: Exchange 2013 Help'
+title: 'Abilita/disabilita Exchange ActiveSync cassetta postale: Exchange 2013 Help'
 TOCTitle: Abilitare o disabilitare Exchange ActiveSync per una cassetta postale
 ms:assetid: dcf7c05b-b1b9-4b0f-800d-fec9f2ddc9e4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124809(v=EXCHG.150)

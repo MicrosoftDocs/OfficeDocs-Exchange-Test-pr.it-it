@@ -1,5 +1,5 @@
 ﻿---
-title: "Il computer locale è responsabile dell'espansione gruppo membership_ServerIsGroupExpansionServer: Exchange 2013 Help"
+title: 'PC resp. espans. appar. grup._ServerIsGroupExpansionServer:Exchange 2013 Help'
 TOCTitle: Il computer locale è responsabile dell'espansione gruppo membership_ServerIsGroupExpansionServer
 ms:assetid: 52872561-60e6-4f3d-bbc6-6de0edf74b09
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.serverisgroupexpansionserver(v=EXCHG.150)

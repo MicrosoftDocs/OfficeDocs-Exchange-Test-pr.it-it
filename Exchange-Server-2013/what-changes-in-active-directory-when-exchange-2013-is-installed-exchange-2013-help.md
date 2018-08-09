@@ -1,5 +1,5 @@
 ﻿---
-title: "Modifiche in Active Directory con l'installazione di Exchange 2013: Exchange 2013 Help"
+title: "Modifiche in AD con l'installazione di Exchange 2013: Exchange 2013 Help"
 TOCTitle: Modifiche in Active Directory con l'installazione di Exchange 2013
 ms:assetid: 07386078-6103-49a2-8698-2d41db9cec95
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn750898(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Versione messaggi dalla cassetta postale di quarantena della posta indesiderata in quarantena: Exchange 2013 Help'
+title: 'Versione messaggi della posta indesiderata in quarantena: Exchange 2013 Help'
 TOCTitle: Versione messaggi dalla cassetta postale di quarantena della posta indesiderata in quarantena
 ms:assetid: 7a86bfde-f868-4689-bdec-5f01e52b510d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa998920(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare i servizi partner Anteprima messaggio vocale per gli utenti: Exchange 2013 Help'
+title: 'Configura servizi partner Anteprima messaggio vocale: Exchange 2013 Help'
 TOCTitle: Configurare i servizi partner Anteprima messaggio vocale per gli utenti
 ms:assetid: 7bb914ca-5502-4e64-bae5-555034138d8a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff630920(v=EXCHG.150)

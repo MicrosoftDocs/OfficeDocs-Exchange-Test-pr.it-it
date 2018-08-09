@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare la posta vocale protetta da chiamanti autenticati: Exchange 2013 Help'
+title: 'Configura posta vocale protetta da chiamanti autenticati: Exchange 2013 Help'
 TOCTitle: Configurare la posta vocale protetta da chiamanti autenticati
 ms:assetid: f69e94a7-9768-4445-9ded-e78d732bd623
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee423560(v=EXCHG.150)

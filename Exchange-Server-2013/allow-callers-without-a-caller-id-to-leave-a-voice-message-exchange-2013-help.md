@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consentire ai chiamanti senza un ID chiamante di lasciare un messaggio vocale: Exchange 2013 Help'
+title: 'Consente a chiamanti senza ID di lasciare messaggio vocale: Exchange 2013 Help'
 TOCTitle: Consentire ai chiamanti senza un ID chiamante di lasciare un messaggio vocale
 ms:assetid: 51367d98-e17c-4bcf-8b14-208bd1ac3af0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb232040(v=EXCHG.150)

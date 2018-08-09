@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gestire le impostazioni di messaggistica unificata su un server Accesso Client: Exchange 2013 Help'
+title: 'Gestire imp. mess. unificata su server Accesso Client: Exchange 2013 Help'
 TOCTitle: Gestire le impostazioni di messaggistica unificata su un server Accesso Client
 ms:assetid: 08667911-fa86-404e-84b1-65cedd94d579
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673507(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Proprietà di messaggi e operatori di ricerca per eDiscovery In locale: Exchange 2013 Help'
+title: 'Proprietà messaggi/operatori ricerca eDiscovery in locale: Exchange 2013 Help'
 TOCTitle: Proprietà di messaggi e operatori di ricerca per eDiscovery In locale
 ms:assetid: 402b74e4-8853-4c51-9737-1a9c19f8e3dd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn774955(v=EXCHG.150)

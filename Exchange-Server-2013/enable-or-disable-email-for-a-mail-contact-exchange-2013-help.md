@@ -1,5 +1,5 @@
 ﻿---
-title: 'Attivare o disattivare la posta elettronica per un contatto di posta elettronica: Exchange 2013 Help'
+title: 'Attiva/disattiva posta elettronica per un contatto: Exchange 2013 Help'
 TOCTitle: Attivare o disattivare la posta elettronica per un contatto di posta elettronica
 ms:assetid: ca47441f-1aa4-4958-aba5-18d51e59837e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124552(v=EXCHG.150)

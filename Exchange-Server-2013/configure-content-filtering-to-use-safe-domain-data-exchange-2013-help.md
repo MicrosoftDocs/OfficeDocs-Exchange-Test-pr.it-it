@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare il filtro del contenuto per usare i dati dei dominio attendibili: Exchange 2013 Help'
+title: 'Configura filtro contenuto per dati dominio attendibili: Exchange 2013 Help'
 TOCTitle: Configurare il filtro del contenuto per usare i dati dei dominio attendibili
 ms:assetid: 1ee2b663-b4f3-4fef-8954-986f2d820924
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn467930(v=EXCHG.150)

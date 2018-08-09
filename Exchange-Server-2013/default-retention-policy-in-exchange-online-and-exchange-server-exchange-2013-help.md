@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criterio di conservazione predefinito in Exchange Online ed Exchange Server: Exchange 2013 Help'
+title: 'Criteri conservaz. predef. Exchange Online/Exchange Server: Exchange 2013 Help'
 TOCTitle: Criterio di conservazione predefinito
 ms:assetid: bcf31b2d-463b-4623-b488-c8ac40f14f62
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn775046(v=EXCHG.150)

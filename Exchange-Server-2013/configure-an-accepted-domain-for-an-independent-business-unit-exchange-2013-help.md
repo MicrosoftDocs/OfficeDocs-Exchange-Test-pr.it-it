@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare un dominio accettato per una business unit indipendente: Exchange 2013 Help'
+title: 'Configurare dominio accettato per BU indipendente: Exchange 2013 Help'
 TOCTitle: Configurare un dominio accettato per una business unit indipendente
 ms:assetid: bc95dbdc-3669-4c06-ab94-90093bc0dbfd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ657491(v=EXCHG.150)

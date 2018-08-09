@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impostare la lunghezza minima del PIN per la segreteria telefonica: Exchange 2013 Help'
+title: 'Imposta lunghezza minima PIN segreteria telefonica: Exchange 2013 Help'
 TOCTitle: Impostare la lunghezza minima del PIN per la segreteria telefonica
 ms:assetid: b2ecab54-42e6-45af-8322-615cc1f68dd9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124271(v=EXCHG.150)

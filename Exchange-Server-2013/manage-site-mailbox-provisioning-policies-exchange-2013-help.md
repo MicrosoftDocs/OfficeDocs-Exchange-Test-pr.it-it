@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gestire i criteri di provisioning delle cassette postali del sito: Exchange 2013 Help'
+title: 'Gestire criteri provisioning cassette postali del sito: Exchange 2013 Help'
 TOCTitle: Gestire i criteri di provisioning delle cassette postali del sito
 ms:assetid: 2f160d1a-a031-461f-8d29-c9cd49ca1645
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ710340(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aggiungere una voce di ruolo a un ruolo di primo livello senza ambito: Exchange 2013 Help'
+title: 'Aggiunge voce ruolo a ruolo primo livello senza ambito: Exchange 2013 Help'
 TOCTitle: Aggiungere una voce di ruolo a un ruolo di primo livello senza ambito
 ms:assetid: 52fd3f20-c348-49d5-9bdb-f2cbf780cf2d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd979789(v=EXCHG.150)

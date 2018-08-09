@@ -1,5 +1,5 @@
 ﻿---
-title: 'Installazione di Exchange in un controller di dominio non è consigliabile: Exchange 2013 Help'
+title: 'Instal. Exchange in controller dominio non consigliabile: Exchange 2013 Help'
 TOCTitle: Installazione di Exchange in un controller di dominio non è consigliabile
 ms:assetid: 48922de2-a68c-4092-96a5-d38c8e5f49f5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.warninginstallexchangerolesondomaincontroller(v=EXCHG.150)

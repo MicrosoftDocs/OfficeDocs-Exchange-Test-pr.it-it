@@ -1,5 +1,5 @@
 ﻿---
-title: "Abilitare o disabilitare l'invio di messaggi vocali da Outlook Voice Access: Exchange 2013 Help"
+title: 'Abilita/disab. invio mess. voc. da Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Abilitare o disabilitare l'invio di messaggi vocali da Outlook Voice Access
 ms:assetid: 63544ae2-6a28-40b2-82fc-3df83e93ee56
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee423546(v=EXCHG.150)

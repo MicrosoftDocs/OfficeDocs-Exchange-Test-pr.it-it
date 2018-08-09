@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare un operatore automatico per gli utenti con nomi simili: Exchange 2013 Help'
+title: 'Config. operatore automatico per utenti con nomi simili: Exchange 2013 Help'
 TOCTitle: Configurare un operatore automatico per gli utenti con nomi simili
 ms:assetid: 2e7318a0-67f9-4d7b-8300-5f0ef77656a8
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997135(v=EXCHG.150)

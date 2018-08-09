@@ -1,5 +1,5 @@
 ﻿---
-title: 'Supportato criteri cassetta postale di dispositivo mobile per Windows Phone e dispositivi: Exchange 2013 Help'
+title: 'Criteri cass. post. dispos. mob. Windows Phone supportati: Exchange 2013 Help'
 TOCTitle: Supportato criteri cassetta postale di dispositivo mobile per Windows Phone e dispositivi
 ms:assetid: d76b1d4c-d1f6-4501-a7c9-854327aceda5
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ983805(v=EXCHG.150)

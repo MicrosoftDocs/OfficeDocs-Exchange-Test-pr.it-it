@@ -1,5 +1,5 @@
 ﻿---
-title: 'Il Registro di controllo delle cassette postali per una cassetta postale di ricerca: Exchange 2013 Help'
+title: 'Registro controllo cassette postali di ricerca: Exchange 2013 Help'
 TOCTitle: Il Registro di controllo delle cassette postali per una cassetta postale di ricerca
 ms:assetid: 5b518a08-3b51-4ba3-bfbd-0e35cc5ff374
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff461930(v=EXCHG.150)

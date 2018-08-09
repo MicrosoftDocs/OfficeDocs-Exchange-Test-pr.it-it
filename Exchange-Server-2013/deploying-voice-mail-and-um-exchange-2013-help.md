@@ -1,5 +1,5 @@
 ﻿---
-title: 'Distribuzione di segreteria telefonica e messaggistica UNIFICATA: Exchange 2013 Help'
+title: 'Distribuzione segreteria telef./messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Distribuzione di segreteria telefonica e messaggistica UNIFICATA
 ms:assetid: 3df61b62-a1e4-41fb-969c-319189ae4e42
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673519(v=EXCHG.150)

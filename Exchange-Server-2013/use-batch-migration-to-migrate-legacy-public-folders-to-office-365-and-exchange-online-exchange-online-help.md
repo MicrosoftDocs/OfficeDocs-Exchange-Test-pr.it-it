@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizzare la migrazione batch delle cartelle pubbliche legacy a Office 365 ed Exchange Online: Exchange 2013 Help'
+title: 'Migr. batch cart. pub. legacy Exchange 2013-Exchange Online:Exchange 2013 Help'
 TOCTitle: Utilizzare la migrazione batch delle cartelle pubbliche legacy a Office 365 ed Exchange Online
 ms:assetid: e8ab9309-7d12-4f02-bfc4-14e61a373958
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn874017(v=EXCHG.150)

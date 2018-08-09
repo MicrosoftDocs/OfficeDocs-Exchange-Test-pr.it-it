@@ -1,5 +1,5 @@
 ﻿---
-title: 'Connettersi alla messaggistica unificata al sistema telefonico in uso: Exchange 2013 Help'
+title: 'Connette messaggistica unificata a telefono: Exchange 2013 Help'
 TOCTitle: Connettersi alla messaggistica unificata al sistema telefonico in uso
 ms:assetid: 92c3e029-f732-4d6d-b147-2b3006d5f088
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673544(v=EXCHG.150)

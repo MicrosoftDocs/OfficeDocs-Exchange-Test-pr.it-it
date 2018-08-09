@@ -1,5 +1,5 @@
 ﻿---
-title: 'Identificare i problemi verifiche automatiche - Active Directory: Exchange 2013 Help'
+title: 'Identifica problemi verifiche autom. - Active Directory: Exchange 2013 Help'
 TOCTitle: Identificare i problemi verifiche automatiche - Active Directory
 ms:assetid: af08e7a1-775a-4e56-a6fe-4ffc10460514
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn793979(v=EXCHG.150)

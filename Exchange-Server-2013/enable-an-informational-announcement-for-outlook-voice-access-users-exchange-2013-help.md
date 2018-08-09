@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare un annuncio informativo per gli utenti di Outlook Voice Access: Exchange 2013 Help'
+title: 'Abilita annuncio infor. utenti Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Abilitare un annuncio informativo per gli utenti di Outlook Voice Access
 ms:assetid: b69ed0e1-f978-498a-963e-42a047678db4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124344(v=EXCHG.150)

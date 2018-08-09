@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gestire le impostazioni di messaggistica unificata su un server cassette postali: Exchange 2013 Help'
+title: 'Gestire imp. mess. unificata su server cassette postali: Exchange 2013 Help'
 TOCTitle: Gestire le impostazioni di messaggistica unificata su un server cassette postali
 ms:assetid: 6df4853d-21d2-473f-b0ca-ebc996d8794a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa998815(v=EXCHG.150)

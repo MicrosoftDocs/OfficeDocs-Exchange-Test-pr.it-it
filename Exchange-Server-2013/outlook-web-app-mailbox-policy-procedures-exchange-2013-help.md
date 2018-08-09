@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedure relative al criterio cassetta postale Outlook Web App: Exchange 2013 Help'
+title: 'Procedure per criterio cassetta postale Outlook Web App: Exchange 2013 Help'
 TOCTitle: Procedure relative al criterio cassetta postale Outlook Web App
 ms:assetid: 2f9fc960-6d0b-472a-a81a-6d8b629b4d5d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ674295(v=EXCHG.150)

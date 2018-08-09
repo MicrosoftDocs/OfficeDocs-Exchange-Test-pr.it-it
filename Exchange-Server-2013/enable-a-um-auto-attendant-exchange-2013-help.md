@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare un operatore automatico di messaggistica unificata: Exchange 2013 Help'
+title: 'Abilita operatore automatico di messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Abilitare un operatore automatico di messaggistica unificata
 ms:assetid: 16667a8f-50ab-4bb8-9a05-0389511974b1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa996379(v=EXCHG.150)

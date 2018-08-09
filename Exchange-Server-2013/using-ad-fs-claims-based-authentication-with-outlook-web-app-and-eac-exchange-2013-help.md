@@ -1,5 +1,5 @@
 ﻿---
-title: "Utilizzando l'autenticazione basata sulle attestazioni ADFS con Outlook Web App ed EAC: Exchange 2013 Help"
+title: 'Autenticaz. su attestazioni ADFS con Outlook Web App e EAC: Exchange 2013 Help'
 TOCTitle: Utilizzando l'autenticazione basata sulle attestazioni ADFS con Outlook Web App ed EAC
 ms:assetid: 919a9bfb-c6df-490a-b2c4-51796b0f0596
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn635116(v=EXCHG.150)

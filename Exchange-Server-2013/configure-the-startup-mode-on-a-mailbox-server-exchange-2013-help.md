@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare la modalità di avvio in un server cassette postali: Exchange 2013 Help'
+title: 'Configura modalità avvio in un server cassette postali: Exchange 2013 Help'
 TOCTitle: Configurare la modalità di avvio in un server cassette postali
 ms:assetid: 4457d6a0-52bd-4269-8cb5-d34d7fe9bfc3
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee423544(v=EXCHG.150)

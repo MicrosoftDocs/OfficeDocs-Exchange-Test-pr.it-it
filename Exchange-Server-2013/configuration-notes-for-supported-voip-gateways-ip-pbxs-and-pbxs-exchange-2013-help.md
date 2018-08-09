@@ -1,5 +1,5 @@
 ﻿---
-title: 'Note di configurazione per i gateway VoIP, IP PBX e PBX supportati: Exchange 2013 Help'
+title: 'Note config. gateway VoIP, IP PBX e PBX supportati: Exchange 2013 Help'
 TOCTitle: Note di configurazione per i gateway VoIP, IP PBX e PBX supportati
 ms:assetid: 1583674f-5a57-45fd-8125-087d1624e686
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee681657(v=EXCHG.150)

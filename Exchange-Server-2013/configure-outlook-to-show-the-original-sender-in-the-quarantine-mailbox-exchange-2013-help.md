@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurare Outlook per visualizzare il mittente originale nella cassetta postale di quarantena: Exchange 2013 Help'
+title: 'Conf. Outlook per mitt. orig. in cassetta post. quarantena: Exchange 2013 Help'
 TOCTitle: Configurare Outlook per visualizzare il mittente originale nella cassetta postale di quarantena
 ms:assetid: 9249425d-1b06-48a0-ad95-c4eefb641ff4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee861109(v=EXCHG.150)

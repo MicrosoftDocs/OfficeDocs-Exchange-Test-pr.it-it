@@ -1,5 +1,5 @@
 ﻿---
-title: 'Attività di gestione directory virtuale di Exchange ActiveSync: Exchange 2013 Help'
+title: 'Attività gestione directory virtuale Exchange ActiveSync: Exchange 2013 Help'
 TOCTitle: Attività di gestione directory virtuale di Exchange ActiveSync
 ms:assetid: f0b339b7-e184-4392-a133-20523183459d
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb125170(v=EXCHG.150)

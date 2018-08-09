@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creazione di un operatore automatico di messaggistica unificata: Exchange 2013 Help'
+title: 'Crea operatore automatico messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Creazione di un operatore automatico di messaggistica unificata
 ms:assetid: 773f53fb-d80f-4a79-8bd3-bd753942489f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa998875(v=EXCHG.150)

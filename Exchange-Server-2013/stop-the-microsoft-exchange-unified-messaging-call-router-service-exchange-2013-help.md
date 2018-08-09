@@ -1,5 +1,5 @@
 ﻿---
-title: 'Arrestare il servizio Microsoft Exchange Unified Messaging routing delle chiamate: Exchange 2013 Help'
+title: 'Arresta servizio router chiamate messag. unificata Exchange:Exchange 2013 Help'
 TOCTitle: Arrestare il servizio Microsoft Exchange Unified Messaging routing delle chiamate
 ms:assetid: 79935528-1a8c-4f22-826c-8f9a60f4f6f4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673535(v=EXCHG.150)

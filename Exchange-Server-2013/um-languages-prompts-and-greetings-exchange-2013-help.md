@@ -1,5 +1,5 @@
 ﻿---
-title: 'Messaggi di saluto, istruzioni e lingue di messaggistica UNIFICATA: Exchange 2013 Help'
+title: 'Mess. saluto, istruzioni e lingue messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Messaggi di saluto, istruzioni e lingue di messaggistica UNIFICATA
 ms:assetid: d48df962-9669-420b-838f-44bfe1012e2f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124728(v=EXCHG.150)

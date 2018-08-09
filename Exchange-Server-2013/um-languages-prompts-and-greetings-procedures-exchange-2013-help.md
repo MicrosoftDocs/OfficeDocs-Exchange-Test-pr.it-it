@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedure di lingue, istruzioni e messaggi di saluto di messaggistica unificata: Exchange 2013 Help'
+title: 'Lingua, istruz. e proc. saluto di messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Procedure di lingue, istruzioni e messaggi di saluto di messaggistica unificata
 ms:assetid: 935bcf76-f27d-406e-962b-3adb014cf76e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ863293(v=EXCHG.150)

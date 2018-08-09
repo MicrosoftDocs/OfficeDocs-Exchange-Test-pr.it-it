@@ -1,5 +1,5 @@
 ﻿---
-title: "Creare un connettore di invio per l'invio di posta elettronica a un partner con sicurezza TLS (Transport Layer) applicate: Exchange 2013 Help"
+title: 'Crea connett. invio posta partner sicurezza TLS applicata: Exchange 2013 Help'
 TOCTitle: Creare un connettore di invio per l'invio di posta elettronica a un partner con sicurezza TLS (Transport Layer) applicate
 ms:assetid: ff2abefc-dd3e-4431-b947-df942fbf82d9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ657514(v=EXCHG.150)

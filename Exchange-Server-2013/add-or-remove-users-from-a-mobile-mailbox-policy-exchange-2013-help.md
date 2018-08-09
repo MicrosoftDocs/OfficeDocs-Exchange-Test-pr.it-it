@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aggiungere o rimuovere utenti da un criterio cassetta postale per dispositivi mobili: Exchange 2013 Help'
+title: 'Agg./rim. utenti da criterio cass. postale per disp. mobili:Exchange 2013 Help'
 TOCTitle: Aggiungere o rimuovere utenti da un criterio cassetta postale per dispositivi mobili
 ms:assetid: 4ca8e395-c074-4165-b788-16fae3e2ccab
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997929(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Distribuzione di panoramica della messaggistica UNIFICATA di Exchange 2013 e Lync Server: Exchange 2013 Help'
+title: 'Distrib. panoramica mess. unif. Exchange 2013/Lync Server: Exchange 2013 Help'
 TOCTitle: Distribuzione di panoramica della messaggistica UNIFICATA di Exchange 2013 e Lync Server
 ms:assetid: 96fcb0dd-79ee-4e55-9e59-3ee7fbe3c4a1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb676409(v=EXCHG.150)

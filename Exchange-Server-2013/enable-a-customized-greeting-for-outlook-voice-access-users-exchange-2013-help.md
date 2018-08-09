@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consentire a un messaggio di saluto personalizzato per gli utenti di Outlook Voice Access: Exchange 2013 Help'
+title: 'Consenti saluto person. per utenti Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Consentire a un messaggio di saluto personalizzato per gli utenti di Outlook Voice Access
 ms:assetid: abd418ec-2c65-4720-859d-c11a2698dc06
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124125(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Testare una regola del flusso di posta elettronica: Exchange Online Protection Help'
+title: 'Testa regola flusso posta elettronica: Exchange Online Protection Help'
 TOCTitle: Testare una regola del flusso di posta elettronica
 ms:assetid: 3d949e2a-8ba4-4261-8cfb-736fd2446ea1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn831862(v=EXCHG.150)

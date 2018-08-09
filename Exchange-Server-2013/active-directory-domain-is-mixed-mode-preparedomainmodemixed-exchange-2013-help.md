@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mode_PrepareDomainModeMixed combinazione di dominio Active Directory: Exchange 2013 Help'
+title: 'Dominio AD in modalità mista Mode_PrepareDomainModeMixed: Exchange 2013 Help'
 TOCTitle: Mode_PrepareDomainModeMixed combinazione di dominio Active Directory
 ms:assetid: 97c9f480-7a2b-482e-8f51-f7b965fe1556
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.preparedomainmodemixed(v=EXCHG.150)

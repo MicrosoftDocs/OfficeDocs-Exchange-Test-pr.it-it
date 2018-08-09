@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creazione di un ambito di gestione personalizzato per le ricerche di eDiscovery sul posto: Exchange 2013 Help'
+title: 'Crea ambito gestione person. ricerche eDiscovery sul posto: Exchange 2013 Help'
 TOCTitle: Creazione di un ambito di gestione personalizzato per le ricerche di eDiscovery sul posto
 ms:assetid: 1543aefe-3709-402c-b9cd-c11fe898aad1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn741464(v=EXCHG.150)

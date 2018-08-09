@@ -1,5 +1,5 @@
 ﻿---
-title: 'Nel computer locale è già in esecuzione Exchange Server_ExchangeAlreadyInstalled: Exchange 2013 Help'
+title: 'Il PC esegue già Exchange Server_ExchangeAlreadyInstalled: Exchange 2013 Help'
 TOCTitle: Nel computer locale è già in esecuzione Exchange Server_ExchangeAlreadyInstalled
 ms:assetid: 3f168b5d-9910-418f-86fb-e99d852dcb5e
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.exchangealreadyinstalled(v=EXCHG.150)

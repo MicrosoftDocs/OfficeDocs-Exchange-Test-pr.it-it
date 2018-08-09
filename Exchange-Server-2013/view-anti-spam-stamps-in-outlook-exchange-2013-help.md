@@ -1,5 +1,5 @@
 ﻿---
-title: 'Visualizzazione di indicatori di protezione da posta indesiderate in Outlook: Exchange 2013 Help'
+title: 'Visualizza indicatori protezione posta indes. in Outlook: Exchange 2013 Help'
 TOCTitle: Visualizzazione di indicatori di protezione da posta indesiderate in Outlook
 ms:assetid: cddb5dbf-ad1e-471c-9fc8-28ddcf7ec1d0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124595(v=EXCHG.150)

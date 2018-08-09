@@ -1,5 +1,5 @@
 ﻿---
-title: "Esaminare le chiamate di posta vocale all'interno dell'organizzazione: Exchange 2013 Help"
+title: "Esamina chiamate posta vocale nell'organizzazione: Exchange 2013 Help"
 TOCTitle: Esaminare le chiamate di posta vocale all'interno dell'organizzazione
 ms:assetid: f6fdbe17-d1d2-442a-aa13-06b908d9c33a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ659073(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preparare le cassette postali per gli spostamenti tra foreste con codice di esempio: Exchange 2013 Help'
+title: 'Prepara cass. postali a spostamenti foreste codice esempio: Exchange 2013 Help'
 TOCTitle: Preparare le cassette postali per gli spostamenti tra foreste con codice di esempio
 ms:assetid: f35ac7a5-bb84-4653-b6d0-65906e93627b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee861124(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: "Configurare un dominio accettato nell'organizzazione di Exchange come autorevole: Exchange 2013 Help"
+title: 'Config. dominio accettato in organizz. Exchange autorevole: Exchange 2013 Help'
 TOCTitle: Configurare un dominio accettato nell'organizzazione di Exchange come autorevole
 ms:assetid: e182d54f-e58a-47ba-a5c1-28c0dfa86eed
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ657734(v=EXCHG.150)

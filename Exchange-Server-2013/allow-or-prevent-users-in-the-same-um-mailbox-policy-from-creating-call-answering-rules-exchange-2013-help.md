@@ -1,5 +1,5 @@
 ﻿---
-title: 'Consentire o impedire agli utenti gli stessi criteri cassetta postale di messaggistica unificata di creazione di regole di ricezione chiamata: Exchange 2013 Help'
+title: 'Consenti o no criteri mess. unific. creaz. regole. ricez. : Exchange 2013 Help'
 TOCTitle: Consentire o impedire agli utenti gli stessi criteri cassetta postale di messaggistica unificata di creazione di regole di ricezione chiamata
 ms:assetid: e44acaa6-d5a8-41e8-94aa-100be0bd6391
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351209(v=EXCHG.150)

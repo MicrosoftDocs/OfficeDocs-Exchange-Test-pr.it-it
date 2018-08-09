@@ -1,5 +1,5 @@
 ﻿---
-title: 'Specifica unità di archiviazione gruppo è missing_MailboxLogDriveDoesNotExist: Exchange 2013 Help'
+title: 'Specif. archiviaz. gruppo manca_MailboxLogDriveDoesNotExist:Exchange 2013 Help'
 TOCTitle: Specifica unità di archiviazione gruppo è missing_MailboxLogDriveDoesNotExist
 ms:assetid: fe210f29-60cb-4d34-877e-1356a21dc02a
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.mailboxlogdrivedoesnotexist(v=EXCHG.150)

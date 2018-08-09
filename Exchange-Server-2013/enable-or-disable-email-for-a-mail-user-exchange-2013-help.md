@@ -1,5 +1,5 @@
 ﻿---
-title: 'Attivare o disattivare la posta elettronica per un utente di posta elettronica: Exchange 2013 Help'
+title: 'Attiva/disattiva posta per utente posta elettronica: Exchange 2013 Help'
 TOCTitle: Attivare o disattivare la posta elettronica per un utente di posta elettronica
 ms:assetid: 1e2571d4-ff84-4fda-bb1d-825e96e1bd26
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa996598(v=EXCHG.150)

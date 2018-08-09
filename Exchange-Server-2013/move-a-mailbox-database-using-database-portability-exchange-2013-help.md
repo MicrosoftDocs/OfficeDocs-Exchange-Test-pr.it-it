@@ -1,5 +1,5 @@
 ﻿---
-title: 'Spostamento di un database delle cassette postali utilizzando la portabilità del database: Exchange 2013 Help'
+title: 'Sposta database cassette postali con portabilità database: Exchange 2013 Help'
 TOCTitle: Spostamento di un database delle cassette postali utilizzando la portabilità del database
 ms:assetid: a765ead1-43bc-4786-ae93-1835cacfc8fc
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd876926(v=EXCHG.150)

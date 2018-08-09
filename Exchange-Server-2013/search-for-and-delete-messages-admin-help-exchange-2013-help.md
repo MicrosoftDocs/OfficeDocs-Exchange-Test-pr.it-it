@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ricerca ed eliminazione di messaggi - Guida di Amministrazione: Exchange 2013 Help'
+title: 'Cerca/elimina messaggi - Guida di Amministrazione: Exchange 2013 Help'
 TOCTitle: Ricerca ed eliminazione di messaggi - Guida di Amministrazione
 ms:assetid: 8c36bb03-e716-4fdd-9958-4aa7a2a1db42
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff459253(v=EXCHG.150)

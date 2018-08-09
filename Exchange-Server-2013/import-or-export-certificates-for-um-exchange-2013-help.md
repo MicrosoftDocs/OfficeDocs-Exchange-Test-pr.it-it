@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importare o esportare i certificati per la messaggistica unificata: Exchange 2013 Help'
+title: 'Importa/esporta certificati messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Importare o esportare i certificati per la messaggistica unificata
 ms:assetid: ee688c33-2e08-47e7-95fc-04ba10238341
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn205143(v=EXCHG.150)

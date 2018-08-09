@@ -1,5 +1,5 @@
 ﻿---
-title: 'Errore di installazione durante la disinstallazione della role_InterruptedUninstallNotContinued un server: Exchange 2013 Help'
+title: 'Errore inst. ruolo server_InterruptedUninstallNotContinued: Exchange 2013 Help'
 TOCTitle: Errore di installazione durante la disinstallazione della role_InterruptedUninstallNotContinued un server
 ms:assetid: 187967b2-cb28-45d7-8858-2a083c1ebe58
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.interrupteduninstallnotcontinued(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'La connessione o il ripristino di una cassetta postale eliminata: Exchange 2013 Help'
+title: 'Connessione/ripristino cassetta postale eliminata: Exchange 2013 Help'
 TOCTitle: La connessione o il ripristino di una cassetta postale eliminata
 ms:assetid: a5e6ac44-5901-4eab-9017-c6fae80a0f83
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ863438(v=EXCHG.150)

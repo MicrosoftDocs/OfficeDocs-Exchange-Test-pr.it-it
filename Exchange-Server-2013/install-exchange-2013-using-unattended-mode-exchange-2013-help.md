@@ -1,5 +1,5 @@
 ﻿---
-title: 'Installare Exchange 2013 utilizzando la modalità automatica: Exchange 2013 Help'
+title: 'Installa Exchange 2013 utilizzando la modalità automatica: Exchange 2013 Help'
 TOCTitle: Installare Exchange 2013 utilizzando la modalità automatica
 ms:assetid: 386465e9-41da-4e26-9816-b3b69be1f8bf
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Aa997281(v=EXCHG.150)

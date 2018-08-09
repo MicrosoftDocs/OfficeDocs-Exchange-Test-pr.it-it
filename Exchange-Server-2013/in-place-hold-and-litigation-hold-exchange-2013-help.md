@@ -1,5 +1,5 @@
 ﻿---
-title: 'Archiviazione sul posto e conservazione per controversia legale: Exchange 2013 Help'
+title: 'Archivia sul posto/conservazione per controversia legale: Exchange 2013 Help'
 TOCTitle: Archiviazione sul posto e conservazione per controversia legale
 ms:assetid: 71031c06-852d-44d8-b558-dff444eaef8c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ff637980(v=EXCHG.150)

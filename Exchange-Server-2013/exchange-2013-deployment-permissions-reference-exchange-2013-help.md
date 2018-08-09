@@ -1,5 +1,5 @@
 ﻿---
-title: 'Riferimenti per le autorizzazioni di distribuzione di Exchange 2013: Exchange 2013 Help'
+title: 'Riferimenti autorizzaz. distribuz. Exchange 2013: Exchange 2013 Help'
 TOCTitle: Riferimenti per le autorizzazioni di distribuzione di Exchange 2013
 ms:assetid: b13412d0-0cc4-4c1d-bf31-cae3d3e211a9
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Ee681663(v=EXCHG.150)

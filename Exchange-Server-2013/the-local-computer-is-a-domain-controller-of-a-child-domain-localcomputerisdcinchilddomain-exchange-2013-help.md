@@ -1,5 +1,5 @@
 ﻿---
-title: 'Il computer locale è un controller di dominio di un domain_LocalComputerIsDCInChildDomain figlio: Exchange 2013 Help'
+title: 'PC controller dominio sec._LocalComputerIsDCInChildDomain:Exchange 2013 Help'
 TOCTitle: Il computer locale è un controller di dominio di un domain_LocalComputerIsDCInChildDomain figlio
 ms:assetid: 7db1dcc0-d953-41b8-b081-2a47a70950c4
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.localcomputerisdcinchilddomain(v=EXCHG.150)

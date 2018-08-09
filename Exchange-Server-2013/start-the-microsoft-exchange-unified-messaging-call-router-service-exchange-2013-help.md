@@ -1,5 +1,5 @@
 ﻿---
-title: 'Avviare il servizio Microsoft Exchange Unified Messaging routing delle chiamate: Exchange 2013 Help'
+title: 'Avvia servizio router chiamate messagg. unificata Exchange: Exchange 2013 Help'
 TOCTitle: Avviare il servizio Microsoft Exchange Unified Messaging routing delle chiamate
 ms:assetid: 8b7e1a4c-87b3-4477-a95f-6b41cf2d38f0
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673542(v=EXCHG.150)

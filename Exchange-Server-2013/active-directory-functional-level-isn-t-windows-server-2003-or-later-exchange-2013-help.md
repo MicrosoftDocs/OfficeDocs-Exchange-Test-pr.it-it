@@ -1,5 +1,5 @@
 ﻿---
-title: 'Il livello operativo di Active Directory non coincide con Windows Server 2003 o versioni successive: Exchange 2013 Help'
+title: 'Liv. Active Directory non coincide con Windows Server 2003: Exchange 2013 Help'
 TOCTitle: Il livello operativo di Active Directory non coincide con Windows Server 2003 o versioni successive
 ms:assetid: 45f45976-62ac-4b6c-889a-ebd449402009
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.forestlevelnotwin2003native(v=EXCHG.150)

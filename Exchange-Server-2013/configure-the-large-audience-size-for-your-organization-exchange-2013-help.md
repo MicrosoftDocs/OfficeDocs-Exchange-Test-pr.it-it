@@ -1,5 +1,5 @@
 ﻿---
-title: "Configurare le dimensioni di grandi dimensioni gruppo di destinatari per l'organizzazione: Exchange 2013 Help"
+title: "Configura gruppo destinatari grande per l'organizzazione: Exchange 2013 Help"
 TOCTitle: Configurare le dimensioni di grandi dimensioni gruppo di destinatari per l'organizzazione
 ms:assetid: 8a37911c-4339-4921-b5d3-0a5a774d4517
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ659068(v=EXCHG.150)

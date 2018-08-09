@@ -1,5 +1,5 @@
 ﻿---
-title: 'Abilitare le chiamate in uscita sui gateway IP di messaggistica unificata: Exchange 2013 Help'
+title: 'Abilita chiamate in uscita su gateway IP mess. unif.: Exchange 2013 Help'
 TOCTitle: Abilitare le chiamate in uscita sui gateway IP di messaggistica unificata
 ms:assetid: c3ad8e53-d37e-499e-b1f1-defb0ba1bd12
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ673562(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Uno o più server di Active Directory Connector sono state found_ADCFound: Exchange 2013 Help'
+title: 'Uno o più server AD Connector trovati_ADCFound: Exchange 2013 Help'
 TOCTitle: Uno o più server di Active Directory Connector sono state found_ADCFound
 ms:assetid: a874f51f-09a2-4a76-9695-d61fb1ee6c1c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.adcfound(v=EXCHG.150)

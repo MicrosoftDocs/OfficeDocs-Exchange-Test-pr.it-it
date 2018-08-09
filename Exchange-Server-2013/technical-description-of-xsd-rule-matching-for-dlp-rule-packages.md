@@ -1,5 +1,5 @@
 ﻿---
-title: 'Metodi e le tecniche per pacchetti di regole corrispondenti: Exchange 2013 Help'
+title: 'Metodi/tecniche per pacchetti di regole corrispondenti: Exchange 2013 Help'
 TOCTitle: Metodi e le tecniche per pacchetti di regole corrispondenti
 ms:assetid: 09fe9278-d077-452c-b7e5-729b3dc70b1b
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ674702(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Trovare gli URL interni ed esterni per il centro di amministrazione di Exchange: Exchange 2013 Help'
+title: 'Trovare gli URL interni ed esterni per EAC: Exchange 2013 Help'
 TOCTitle: Trovare gli URL interni ed esterni per il centro di amministrazione di Exchange
 ms:assetid: 3ddb30ff-a405-4b9d-8d77-2d7a3a5ab8fa
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/JJ680108(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Disabilitare un operatore automatico di messaggistica unificata: Exchange 2013 Help'
+title: 'Disabilita operatore autom. messaggistica unificata: Exchange 2013 Help'
 TOCTitle: Disabilitare un operatore automatico di messaggistica unificata
 ms:assetid: ad79f374-f68f-430b-8b9c-2c841e1c55ae
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124228(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Rispondere automaticamente e il routing delle chiamate in arrivo: Exchange 2013 Help'
+title: 'Risponde autom. e routing chiamate in arrivo: Exchange 2013 Help'
 TOCTitle: Rispondere automaticamente e il routing delle chiamate in arrivo
 ms:assetid: d3dcd488-bd57-44cc-bdd4-ddee42a69dde
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Bb124724(v=EXCHG.150)

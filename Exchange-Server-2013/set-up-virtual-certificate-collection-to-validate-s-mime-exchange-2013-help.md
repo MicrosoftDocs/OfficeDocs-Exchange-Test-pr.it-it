@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impostare raccolta di certificati virtuali per convalidare S/MIME: Exchange 2013 Help'
+title: 'Imposta raccolta certificati virtuali per convalida S/MIME: Exchange 2013 Help'
 TOCTitle: Impostare raccolta di certificati virtuali per convalidare S/MIME
 ms:assetid: 04a616e6-197c-490c-ae8c-c8d5f0f0b3dd
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn626155(v=EXCHG.150)

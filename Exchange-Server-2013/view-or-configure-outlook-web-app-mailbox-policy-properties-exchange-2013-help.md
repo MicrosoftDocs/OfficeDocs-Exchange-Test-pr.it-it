@@ -1,5 +1,5 @@
 ﻿---
-title: 'Visualizzazione o configurazione delle proprietà dei criteri cassetta postale di Outlook Web App: Exchange 2013 Help'
+title: 'Visual./conf. propr. criteri cass. postale Outlook Web App: Exchange 2013 Help'
 TOCTitle: Visualizzazione o configurazione delle proprietà dei criteri cassetta postale di Outlook Web App
 ms:assetid: be012ffe-8fdb-4fb7-aebd-78b3a55593fa
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dd351097(v=EXCHG.150)

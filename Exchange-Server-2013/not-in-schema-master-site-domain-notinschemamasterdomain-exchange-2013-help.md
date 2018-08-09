@@ -1,5 +1,5 @@
 ﻿---
-title: 'Non in domain_NotInSchemaMasterDomain o i siti master schema: Exchange 2013 Help'
+title: 'Non in master schema site/domain_NotInSchemaMasterDomain: Exchange 2013 Help'
 TOCTitle: Non in domain_NotInSchemaMasterDomain o i siti master schema
 ms:assetid: 5e44eb33-4c30-4c3d-ba68-5c30bef1731f
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/ms.exch.setupreadiness.notinschemamasterdomain(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizzare la migrazione seriale per spostare le cartelle pubbliche in Exchange 2013 dalle versioni precedenti: Exchange 2013 Help'
+title: 'Migr. batch cart. pub. in Exchange 2013 da versioni prec.: Exchange 2013 Help'
 TOCTitle: Utilizzare la migrazione seriale per spostare le cartelle pubbliche in Exchange 2013 dalle versioni precedenti
 ms:assetid: da808e27-d2b7-4fbd-915c-a600751f526c
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Dn912663(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizzare la migrazione batch per migrare le cartelle pubbliche di Exchange 2013 nei gruppi di Office 365: Exchange 2013 Help'
+title: 'Migraz. batch cart. pubb. Exchange 2013 gruppi Office 365: Exchange 2013 Help'
 TOCTitle: Utilizzare la migrazione batch per migrare le cartelle pubbliche di Exchange 2013 nei gruppi di Office 365
 ms:assetid: 1d800576-957d-4916-ae2a-55c08ca75be1
 ms:mtpsurl: https://technet.microsoft.com/it-it/library/Mt843873(v=EXCHG.150)
