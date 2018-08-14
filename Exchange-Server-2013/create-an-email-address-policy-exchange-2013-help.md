@@ -139,7 +139,7 @@ Per istruzioni dettagliate sulla creazione di criteri degli indirizzi di posta e
     Fare clic su **Aggiungi una regola** per limitare ulteriormente i destinatari a cui verrà applicato il criterio. In questo modo verrà creata un'istruzione booleana **And**.
     
 
-    > [!WARNING]
+    > [!Caution]
     > Se si applicano troppe regole, è possibile limitare il criterio dell'indirizzo di posta elettronica fino a quando non conterrà alcun utente.
 
 

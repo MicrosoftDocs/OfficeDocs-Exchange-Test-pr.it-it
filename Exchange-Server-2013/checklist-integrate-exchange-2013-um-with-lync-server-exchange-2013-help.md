@@ -20,9 +20,8 @@ _**Ultima modifica dell'argomento:** 2016-12-09_
 Utilizzare questo elenco di controllo per installare e distribuire la messaggistica unificata di Microsoft Lync Server 2013. In questo argomento, "Lync Server" si riferisce anche a Lync Server 2010. Tuttavia, Microsoft Office Communications Server 2007 R2 può essere distribuita insieme a Messaggistica unificata.
 
 
-> [!NOTE]
-> &nbsp;
-
+> [!NOTE]  
+> <p>&nbsp;</p>
 
 
 Prima di iniziare a lavorare sull'elenco di controllo, è fondamentale conoscere i concetti presentati nelle sezioni:

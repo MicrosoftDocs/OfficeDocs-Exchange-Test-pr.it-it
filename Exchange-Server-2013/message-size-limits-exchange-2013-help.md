@@ -119,7 +119,7 @@ Nelle tabelle seguenti vengono mostrati i limiti dei messaggi, con indicazioni s
 <td><p>Numero massimo di destinatari per messaggio</p>
 
 > [!NOTE]  
-> <p></p>
+> <p>&nbsp;</p>
 
 </td>
 <td><p>5000</p></td>
