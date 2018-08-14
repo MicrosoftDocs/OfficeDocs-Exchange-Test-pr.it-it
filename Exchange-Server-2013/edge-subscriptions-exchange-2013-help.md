@@ -368,7 +368,7 @@ Prima di sottoscrivere un server Trasporto Edge all'organizzazione Exchange, è 
 
   - Verificare che il firewall della rete perimetrale che separa il server Trasporto Edge dall'organizzazione Exchange sia configurato per abilitare le comunicazioni attraverso le porte corrette. Il server Trasporto Edge utilizza le porte LDAP non standard. Se l'ambiente richiede porte specifiche, è possibile modificare le porte utilizzate da AD LDS mediante lo script ConfigureAdam.ps1 fornito con Exchange. Per ulteriori informazioni, vedere [Modificare la configurazione di AD LDS](modify-ad-lds-configuration-exchange-2013-help.md). Modificare le porte prima di creare la sottoscrizione Edge. Se si modificano le porte dopo aver creato la sottoscrizione Edge, è necessario rimuovere la sottoscrizione e crearne una nuova. Per impostazione predefinita, le seguenti porte LDAP vengono utilizzate per l'accesso ad AD LDS:
     
-      - **LDAP   **Porta 50389/TCP utilizzata localmente per il binding all'istanza AD LDS. Non è necessario che questa porta sia aperta nel firewall della rete perimetrale.
+      - **LDAP** Porta 50389/TCP utilizzata localmente per il binding all'istanza AD LDS. Non è necessario che questa porta sia aperta nel firewall della rete perimetrale.
     
       - **LDAP protetto**   Porta 50636/TCP utilizzata per la sincronizzazione di directory dai server Cassette postali ad AD LDS. Questa porta deve essere aperta nel firewall per il completamento della sincronizzazione EdgeSync.
 

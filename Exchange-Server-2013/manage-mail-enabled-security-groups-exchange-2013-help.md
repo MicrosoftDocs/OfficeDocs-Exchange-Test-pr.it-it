@@ -192,7 +192,7 @@ Utilizzare questa sezione per impostare le opzioni di moderazione del gruppo. I 
 
   - **Mittenti che non richiedono l'approvazione dei messaggi**   Per aggiungere utenti o gruppi in grado di ignorare la moderazione del gruppo, fare clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi"). Per rimuovere una utente o un gruppo, selezionarlo e fare clic su **Rimuovi**![Icona Rimuovi](images/JJ657492.479b6ced-8d64-4277-a725-f17fea202b28(EXCHG.150).gif "Icona Rimuovi").
 
-  - **Seleziona notifiche di moderazione   **Utilizzare questa sezione per stabilire in che modo gli utenti vengono avvisati dell'approvazione del messaggio.
+  - **Seleziona notifiche di moderazione** Utilizzare questa sezione per stabilire in che modo gli utenti vengono avvisati dell'approvazione del messaggio.
     
       - **Notificare a tutti i mittenti che i loro messaggi non sono stati approvati**   Questa è l'impostazione predefinita. I mittenti interni ed esterni all'organizzazione riceveranno una notifica in merito alla mancata approvazione dei loro messaggi.
     
@@ -204,7 +204,7 @@ Utilizzare questa sezione per impostare le opzioni di moderazione del gruppo. I 
 
 Utilizzare questa sezione per visualizzare o modificare gli indirizzi di posta elettronica associati al gruppo. Ciò include gli indirizzi SMTP primari del gruppo e qualsiasi indirizzo proxy ad esso associato. L'indirizzo SMTP primario (chiamato anche *indirizzo di risposta*) viene visualizzato in grassetto nell'elenco degli indirizzi, con il valore **SMTP** maiuscolo nella colonna **Tipo**.
 
-  - **Aggiungi **  Fare clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") per aggiungere un nuovo indirizzo di posta elettronica per la cassetta postale. Selezionare uno dei seguenti tipi di indirizzo:
+  - **Aggiungi**  Fare clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") per aggiungere un nuovo indirizzo di posta elettronica per la cassetta postale. Selezionare uno dei seguenti tipi di indirizzo:
     
       - **SMTP**   Questo è il tipo di indirizzo predefinito. Fare clic su questo pulsante e quindi digitare il nuovo indirizzo SMTP nella casella **\* Indirizzo di posta elettronica**.
         
@@ -231,7 +231,7 @@ Utilizzare questa sezione per visualizzare o modificare gli indirizzi di posta e
 
   - **Rimuovi**   Per eliminare un indirizzo di posta elettronica associato al gruppo, selezionarlo nell'elenco e fare clic su **Rimuovi**![Icona Rimuovi](images/JJ657492.479b6ced-8d64-4277-a725-f17fea202b28(EXCHG.150).gif "Icona Rimuovi").
 
-  - **Aggiorna automaticamente gli indirizzi sulla base del criterio dell'indirizzo di posta elettronica applicato a questo destinatario   **Selezionare questa casella di controllo per aggiornare automaticamente gli indirizzi di posta elettronica dei destinatari in base alle modifiche apportate ai criteri degli indirizzi di posta elettronica nell'organizzazione. La casella è selezionata per impostazione predefinita.
+  - **Aggiorna automaticamente gli indirizzi sulla base del criterio dell'indirizzo di posta elettronica applicato a questo destinatario** Selezionare questa casella di controllo per aggiornare automaticamente gli indirizzi di posta elettronica dei destinatari in base alle modifiche apportate ai criteri degli indirizzi di posta elettronica nell'organizzazione. La casella è selezionata per impostazione predefinita.
 
 ## MailTip
 

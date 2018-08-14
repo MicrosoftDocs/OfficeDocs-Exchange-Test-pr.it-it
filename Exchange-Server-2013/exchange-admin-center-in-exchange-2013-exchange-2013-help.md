@@ -59,27 +59,27 @@ L'esplorazione cross-premise permette di passare velocemente dalla distribuzione
 
 È il primo livello di esplorazione per la maggior parte delle attività da eseguire in EAC. Il riquadro delle funzionalità è simile all'albero della console di EMC in Exchange 2010. Tuttavia, in Exchange 2013 il riquadro delle funzionalità è organizzato per aree funzionali, anziché per ruolo del server, e sono necessari meno clic per trovare l'elemento desiderato.
 
-  - **Destinatari   **Consente di gestire cassette postali, gruppi, cassette postali delle risorse, contatti, cassette postali condivise, migrazioni e spostamenti di cassette postali.
+  - **Destinatari** Consente di gestire cassette postali, gruppi, cassette postali delle risorse, contatti, cassette postali condivise, migrazioni e spostamenti di cassette postali.
 
-  - **Autorizzazioni   **Consente di gestire i ruoli di amministratore, i ruoli utente e i criteri di Outlook Web App.
+  - **Autorizzazioni** Consente di gestire i ruoli di amministratore, i ruoli utente e i criteri di Outlook Web App.
 
-  - **Gestione conformità   **Permette di gestire eDiscovery sul posto, il blocco sul posto, il controllo, la prevenzione della perdita di dati (DLP), i criteri di conservazione, i tag di conservazione e le regole del journal.
+  - **Gestione conformità** Permette di gestire eDiscovery sul posto, il blocco sul posto, il controllo, la prevenzione della perdita di dati (DLP), i criteri di conservazione, i tag di conservazione e le regole del journal.
 
-  - **Organizzazione   **Consente di gestire le attività pertinenti all'organizzazione Exchange, tra cui la condivisione federata, le app di Outlook e gli elenchi indirizzi.
+  - **Organizzazione** Consente di gestire le attività pertinenti all'organizzazione Exchange, tra cui la condivisione federata, le app di Outlook e gli elenchi indirizzi.
 
-  - **Protezione   **Consente di gestire la protezione anti-malware per l'organizzazione.
+  - **Protezione** Consente di gestire la protezione anti-malware per l'organizzazione.
 
-  - **Flusso di posta   **Consente di gestire regole, rapporti di recapito, domini accettati, criteri degli indirizzi di posta elettronica, connettori di invio e ricezione.
+  - **Flusso di posta** Consente di gestire regole, rapporti di recapito, domini accettati, criteri degli indirizzi di posta elettronica, connettori di invio e ricezione.
 
-  - **Dispositivi mobili   **Consente di gestire i dispositivi mobili che possono connettersi all'organizzazione. È possibile gestire l'accesso e i criteri delle cassette postali dei dispositivi mobili.
+  - **Dispositivi mobili** Consente di gestire i dispositivi mobili che possono connettersi all'organizzazione. È possibile gestire l'accesso e i criteri delle cassette postali dei dispositivi mobili.
 
-  - **Cartelle pubbliche   **In Exchange 2010, le cartelle pubbliche dovevano essere gestite utilizzando la Console Gestione cartelle pubbliche, posta esternamente a EMC nella casella degli strumenti. In Exchange 2013 le cartelle pubbliche possono essere gestite dall'area funzionale delle **cartelle pubbliche**.
+  - **Cartelle pubbliche** In Exchange 2010, le cartelle pubbliche dovevano essere gestite utilizzando la Console Gestione cartelle pubbliche, posta esternamente a EMC nella casella degli strumenti. In Exchange 2013 le cartelle pubbliche possono essere gestite dall'area funzionale delle **cartelle pubbliche**.
 
-  - **Messaggistica unificata   **Consente di gestire dial plan di messaggistica unificata e gateway IP di messaggistica unificata.
+  - **Messaggistica unificata** Consente di gestire dial plan di messaggistica unificata e gateway IP di messaggistica unificata.
 
-  - **Server   **Consente di gestire i server Cassette postali e Accesso client, i database, i gruppi di disponibilità del database (DAG), le directory virtuali e i certificati.
+  - **Server** Consente di gestire i server Cassette postali e Accesso client, i database, i gruppi di disponibilità del database (DAG), le directory virtuali e i certificati.
 
-  - **Ibrida   **Consente di installare e configurare un'organizzazione ibrida.
+  - **Ibrida** Consente di installare e configurare un'organizzazione ibrida.
 
 ## Tabulazioni
 
@@ -173,7 +173,7 @@ Il riquadro *Io* consente di disconnettersi da EAC e accedere come altro utente.
 
   - **Disabilita finestra della Guida**   La finestra della Guida visualizza una guida contestuale per i campi relativi alla creazione o alla modifica di un oggetto. È possibile disabilitare la finestra della guida o riattivarla se era stata disabilitata.
 
-  - **Copyright e privacy   **Fare clic sul collegamento privacy o copyright per leggere le informazioni relative per Exchange 2013.
+  - **Copyright e privacy** Fare clic sul collegamento privacy o copyright per leggere le informazioni relative per Exchange 2013.
 
 ## Browser supportati
 

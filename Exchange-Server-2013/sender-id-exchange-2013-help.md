@@ -43,13 +43,13 @@ Il server di Exchange aggiorna i metadati del messaggio con lo stato dell'ID mit
 
 Il processo di valutazione dell'ID mittente genera uno stato ID mittente per il messaggio. Lo stato dell'ID mittente viene utilizzato per valutare il livello di probabilità di posta indesiderata (SCL) del messaggio. È possibile impostare lo stato su uno dei seguenti valori:
 
-  - **Pass   **Sia l'indirizzo IP che il PRA (Purported Responsible Address) hanno superato il controllo di verifica dell'ID mittente.
+  - **Pass** Sia l'indirizzo IP che il PRA (Purported Responsible Address) hanno superato il controllo di verifica dell'ID mittente.
 
-  - **Neutral   **I dati relativi all'ID mittente pubblicato non consentono di arrivare a conclusioni esplicite.
+  - **Neutral** I dati relativi all'ID mittente pubblicato non consentono di arrivare a conclusioni esplicite.
 
   - **Soft fail**   L'indirizzo IP del PRA potrebbe trovarsi nel set non consentito.
 
-  - **Fail   **L'indirizzo IP non è consentito; non viene trovato alcun indirizzo PRA nella posta in arrivo o il dominio di invio non esiste.
+  - **Fail** L'indirizzo IP non è consentito; non viene trovato alcun indirizzo PRA nella posta in arrivo o il dominio di invio non esiste.
 
   - **None**   Non esistono dati pubblicati sull'SFP nel DNS del mittente.
 

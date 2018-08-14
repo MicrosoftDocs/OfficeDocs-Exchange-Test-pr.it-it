@@ -118,7 +118,7 @@ Nelle tabelle seguenti vengono mostrati i limiti dei messaggi, con indicazioni s
 <tr class="odd">
 <td><p>Numero massimo di destinatari per messaggio</p>
 
-> [!Tip]  
+> [!NOTE]  
 > <p></p>
 
 </td>
