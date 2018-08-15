@@ -121,6 +121,7 @@ Nelle tabelle seguenti vengono mostrati i limiti dei messaggi, con indicazioni s
 > [!NOTE]  
 > <p>&nbsp;</p>
 
+
 </td>
 <td><p>5000</p></td>
 <td><p>Cmdlet: <strong>Set-TransportConfig</strong></p>
