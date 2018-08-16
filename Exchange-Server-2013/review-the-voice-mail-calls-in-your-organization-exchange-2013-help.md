@@ -33,9 +33,9 @@ Per ulteriori attività relative ai rapporti di messaggistica unificata, vedere 
 
 2.  Scegliere le informazioni da includere nel rapporto. Il rapporto viene aggiornato automaticamente con la selezione delle opzioni seguenti:
     
-      - **Mostra **  Scegliere il tipo di statistiche delle chiamate da visualizzare:
+      - **Mostra**  Scegliere il tipo di statistiche delle chiamate da visualizzare:
         
-          - **Ogni giorno (90 giorni) **  Selezionare Ogni giorno per visualizzare i dettagli per tutte le chiamate degli ultimi 90 giorni.
+          - **Ogni giorno (90 giorni)**  Selezionare Ogni giorno per visualizzare i dettagli per tutte le chiamate degli ultimi 90 giorni.
         
           - **Mensile (12 mesi)**   Selezionare Mensile per visualizzare un riepilogo mensile delle chiamate per gli ultimi 12 mesi.
         
@@ -71,7 +71,7 @@ Il rapporto sulle statistiche delle chiamate di messaggistica unificata include 
 
   - **DATA**   Data UTC per i dati della chiamata. Il formato della data dipende dal tipo di rapporto scelto e dalle impostazioni internazionali. È possibile scegliere uno dei seguenti comandi:
     
-      - **--- **  Vengono visualizzate tutte le chiamate.
+      - **---**  Vengono visualizzate tutte le chiamate.
     
       - **MMM/AA**   Mese delle chiamate. ad esempio Gen/13.
     

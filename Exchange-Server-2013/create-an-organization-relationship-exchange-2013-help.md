@@ -57,7 +57,7 @@ Per ulteriori informazioni sulla condivisione federata, vedere [Condivisione](sh
     
       - **Informazioni sulla disponibilità solo con l'ora**
     
-      - **   Informazioni sulla disponibilità con ora, oggetto e posizione**
+      - **Informazioni sulla disponibilità con ora, oggetto e posizione**
     
     Per impostare quali utenti condivideranno le informazioni sulla disponibilità, selezionare una delle voci seguenti:
     
