@@ -53,9 +53,9 @@ Nella figura seguente è illustrata la relazione tra l'account utente collegato 
 
 ## Operazione desiderata?
 
-## Creazione di una cassetta postale collegata
+### Creazione di una cassetta postale collegata
 
-## Creazione di una cassetta postale collegata tramite Interfaccia di amministrazione di Exchange
+#### Creazione di una cassetta postale collegata tramite Interfaccia di amministrazione di Exchange
 
 1.  Nell'interfaccia di amministrazione di Exchange, accedere a **Destinatari** \> **Cassette postali**.
 
