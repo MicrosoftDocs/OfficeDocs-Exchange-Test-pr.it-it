@@ -482,11 +482,11 @@ Per pubblicare Outlook Web App ed EAC utilizzando Proxy applicazione Web:
     
     1.  Nella casella **Nome**, immettere un nome descrittivo per l'applicazione. Tale nome viene utilizzato solo nell'elenco delle applicazioni pubblicate nella **Console di gestione accesso remoto**. È possibile utilizzare **OWA** e **EAC** per i nomi.
     
-    2.  Nella casella **URL esterno** immettere l'URL esterno per l'applicazione, ad esempio **https://external.contoso.com/owa/**Outlook Web App e **https://external.contoso.com/ecp/** per EAC.
+    2.  Nella casella **URL esterno** immettere l'URL esterno per l'applicazione, ad esempio <strong>https://external.contoso.com/owa/</strong>Outlook Web App e **https://external.contoso.com/ecp/** per EAC.
     
     3.  Nell'elenco **Certificato esterno**, selezionare il certificato il cui oggetto coincide con il nome host dell'URL esterno.
     
-    4.  Nella casella **URL del server di back-end**, immettere l'URL del server back-end. Si noti che questo valore viene inserito automaticamente quando si immettere l'URL esterno ed è necessario modificare solo se l'URL del server di back-end è diverso, ad esempio **https://mail.contoso.com/owa/**Outlook Web App e **https://mail.contoso.com/ecp/** per EAC.
+    4.  Nella casella **URL del server di back-end**, immettere l'URL del server back-end. Si noti che questo valore viene inserito automaticamente quando si immettere l'URL esterno ed è necessario modificare solo se l'URL del server di back-end è diverso, ad esempio <strong>https://mail.contoso.com/owa/</strong>Outlook Web App e **https://mail.contoso.com/ecp/** per EAC.
     
 
     > [!NOTE]

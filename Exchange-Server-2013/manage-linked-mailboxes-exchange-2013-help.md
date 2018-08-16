@@ -53,9 +53,9 @@ Nella figura seguente è illustrata la relazione tra l'account utente collegato 
 
 ## Operazione desiderata?
 
-## Creazione di una cassetta postale collegata
+### Creazione di una cassetta postale collegata
 
-## Creazione di una cassetta postale collegata tramite Interfaccia di amministrazione di Exchange
+#### Creazione di una cassetta postale collegata tramite Interfaccia di amministrazione di Exchange
 
 1.  Nell'interfaccia di amministrazione di Exchange, accedere a **Destinatari** \> **Cassette postali**.
 
@@ -228,7 +228,7 @@ Fare clic su **Altre opzioni** per visualizzare o modificare la quota di archivi
 
 Utilizzare la sezione **Indirizzo di posta elettronica** per visualizzare o modificare gli indirizzi di posta elettronica associati alla cassetta postale collegata. Ciò include gli indirizzi SMTP primari dell'utente e qualsiasi indirizzo proxy ad esso associato. L'indirizzo SMTP primario (chiamato anche *indirizzo di risposta predefinito*) viene visualizzato in grassetto nell'elenco degli indirizzi, con il valore **SMTP** maiuscolo nella colonna **Tipo**.
 
-  - **Aggiungi **  Fare clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") per aggiungere un nuovo indirizzo di posta elettronica per la cassetta postale. Selezionare uno dei seguenti tipi di indirizzo:
+  - **Aggiungi**  Fare clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") per aggiungere un nuovo indirizzo di posta elettronica per la cassetta postale. Selezionare uno dei seguenti tipi di indirizzo:
     
       - **SMTP**   Questo è il tipo di indirizzo predefinito. Fare clic su questo pulsante e quindi digitare il nuovo indirizzo SMTP nella casella **\* Indirizzo di posta elettronica**.
     
@@ -242,7 +242,7 @@ Utilizzare la sezione **Indirizzo di posta elettronica** per visualizzare o modi
 
 
 
-  - **Aggiorna automaticamente gli indirizzi sulla base del criterio dell'indirizzo di posta elettronica applicato a questo destinatario   **Selezionare questa casella di controllo se si vogliono aggiornare automaticamente gli indirizzi di posta elettronica dei destinatari quando vengono apportate modifiche ai criteri degli indirizzi di posta elettronica nell'organizzazione. Tale casella è selezionata per impostazione predefinita.
+  - **Aggiorna automaticamente gli indirizzi sulla base del criterio dell'indirizzo di posta elettronica applicato a questo destinatario** Selezionare questa casella di controllo se si vogliono aggiornare automaticamente gli indirizzi di posta elettronica dei destinatari quando vengono apportate modifiche ai criteri degli indirizzi di posta elettronica nell'organizzazione. Tale casella è selezionata per impostazione predefinita.
 
 ## Funzionalità delle cassette postali
 

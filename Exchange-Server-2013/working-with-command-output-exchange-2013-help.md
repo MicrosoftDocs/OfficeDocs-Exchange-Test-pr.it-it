@@ -236,7 +236,7 @@ Nell'esempio illustrato di seguito, è descritto come utilizzare uno script semp
     $Ie.Visible = $True
     $Ie.Document.Write("$Input")
     # If the previous line doesn't work on your system, uncomment the line below.
-    # $Ie.Document.IHtmlDocument2_Write(\"$Input\")
+    # $Ie.Document.IHtmlDocument2_Write("$Input")
     $Ie
 
 Per utilizzare lo script, salvarlo nella directory `C:\Program Files\Microsoft\Exchange Server\V15\Scripts` nel computer in cui eseguire lo script. Assegnare al file il nome `Out-Ie.ps1`. Dopo aver salvato il file, è possibile utilizzare lo script come un cmdlet normale.

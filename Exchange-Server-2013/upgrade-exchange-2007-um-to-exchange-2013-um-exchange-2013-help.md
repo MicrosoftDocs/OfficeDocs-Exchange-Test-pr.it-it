@@ -338,9 +338,7 @@ Nelle distribuzioni di dimensioni ridotte, è possibile che la messaggistica uni
 
 Se necessario, è possibile creare un operatore automatico di messaggistica unificata utilizzando l'interfaccia di amministrazione di Exchange, come segue:
 
-1.  
-    
-    Nell'interfaccia di amministrazione di Exchange, passare a **Messaggistica unificata** \> **Dial plan di messaggistica unificata**. Selezionare il dial plan di messaggistica unificata in cui aggiungere l'operatore automatico, quindi fare clic su **Modifica**![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica").
+1. Nell'interfaccia di amministrazione di Exchange, passare a **Messaggistica unificata** \> **Dial plan di messaggistica unificata**. Selezionare il dial plan di messaggistica unificata in cui aggiungere l'operatore automatico, quindi fare clic su **Modifica**![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica").
 
 2.  Nella pagina **Dial plan di messaggistica unificata**, in **Operatori automatici di messaggistica unificata** fare clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi").
 

@@ -224,23 +224,27 @@ L'attributo opzionale minMatches può essere utilizzato (predefinito = 1) per de
 
 <!-- end list -->
 
+```
     <Any minMatches="3" maxMatches="3">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
-
+```
+```
     <Any maxMatches="0">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
-
+```
+```
     <Any minMatches="1" maxMatches="1">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
+```
 
 ## Aumento del livello di affidabilità con maggiore evidenza
 
