@@ -59,7 +59,7 @@ Azure Active Directory Module per Windows PowerShell è disponibile in due versi
 <td><p>Ho bisogno di assistenza, assicurandosi che tutti i record DNS siano corretti per Office 365.</p></td>
 <td><ol>
 <li><p><a href="https://portal.microsoftonline.com/">Accedere a Office 365</a></p></li>
-<li><p>Selezionare gli strumenti di<a href="https://portal.microsoftonline.com/tools"></a></p></li>
+<li><p>Selezionare gli strumenti di<a href="https://portal.microsoftonline.com/tools">https://portal.microsoftonline.com/tools</a></p></li>
 <li><p>Selezionare <strong>Controlla PC locali con Office 365 Best Practices Analyzer</strong></p></li>
 </ol></td>
 </tr>

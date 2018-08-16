@@ -52,9 +52,10 @@ Nella tabella seguente quando gli utenti devono eseguire [Strumento di aggiornam
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -66,11 +67,13 @@ Nella tabella seguente quando gli utenti devono eseguire [Strumento di aggiornam
 <td><p><strong>Versione dell'organizzazione</strong></p></td>
 <td><p><strong>Outlook 2003 o Outlook 2007</strong></p></td>
 <td><p><strong>Outlook 2010</strong></p></td>
+<td><p><strong>Outlook 2013</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Exchange 2003 locale</strong></p></td>
 <td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Strumento di calendario di Exchange</a> o</p>
 <p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario strumento per Microsoft Office Outlook</a></p></td>
+<td><p>Nessuna operazione richiesta</p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="even">
@@ -78,39 +81,47 @@ Nella tabella seguente quando gli utenti devono eseguire [Strumento di aggiornam
 <td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Strumento di calendario di Exchange</a> o</p>
 <p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario strumento per Microsoft Office Outlook</a></p></td>
 <td><p>Nessuna operazione richiesta</p></td>
+<td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Exchange 2010 locale</strong></p></td>
 <td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Strumento di calendario di Exchange</a> o</p>
 <p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
 <td><p>Nessuna operazione richiesta</p></td>
+<td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Exchange 2013 in locale</strong></p></td>
 <td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
+<td><p>Nessuna operazione richiesta</p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BPOS-S (Exchange 2007)</strong></p></td>
 <td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
 <td><p>Nessuna operazione richiesta</p></td>
+<td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BPOS-S (Exchange 2010)</strong></p></td>
 <td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a></p></td>
+<td><p>Nessuna operazione richiesta</p></td>
 <td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Office 365 (Exchange 2010)</strong></p></td>
 <td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a> (non è supportata con Outlook 2003)</p></td>
 <td><p>Nessuna operazione richiesta</p></td>
+<td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Office 365 (Exchange 2013)</strong></p></td>
 <td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Aggiornare i dati del fuso orario dello strumento di Microsoft Office Outlook</a> (non è supportata con Outlook 2003)</p></td>
 <td><p>Nessuna operazione richiesta</p></td>
+<td><p>Nessuna operazione richiesta</p></td>
 </tr>
 <tr class="odd">
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
