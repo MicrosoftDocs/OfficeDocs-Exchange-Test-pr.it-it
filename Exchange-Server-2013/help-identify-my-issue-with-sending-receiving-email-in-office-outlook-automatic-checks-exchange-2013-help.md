@@ -50,7 +50,7 @@ Controllerà per verificare se è necessario Microsoft .NET Framework 4.5 instal
 <td><p>Ritiene che il PC potrebbe non essere configurato correttamente per Outlook</p></td>
 <td><ol>
 <li><p><a href="https://portal.microsoftonline.com/">Accedere a Office 365</a></p></li>
-<li><p>Selezionare gli strumenti di<a href="https://portal.microsoftonline.com/tools"></a></p></li>
+<li><p>Selezionare gli strumenti di<a href="https://portal.microsoftonline.com/tools">https://portal.microsoftonline.com/tools</a></p></li>
 <li><p>Selezionare <strong>i locale = su PC con Office 365 Best Practices Analyzer di controllo</strong>.</p></li>
 </ol></td>
 </tr>

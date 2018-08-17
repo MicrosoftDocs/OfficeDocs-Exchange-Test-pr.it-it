@@ -21,7 +21,7 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 
 > [!NOTE]
-> Exchange Management Shell non caricare automaticamente gli script. È necessario far precedere tutti gli script con "<STRONG>. \</STRONG> ", ad esempio, per eseguire lo script RollAlternateServiceAccountPassword.ps1, digitare <CODE>.\RollAlternateServiceAccountPassword.ps1</CODE>.
+> Exchange Management Shell non caricare automaticamente gli script. È necessario far precedere tutti gli script con "<STRONG>. \\</STRONG> ", ad esempio, per eseguire lo script RollAlternateServiceAccountPassword.ps1, digitare <CODE>.\RollAlternateServiceAccountPassword.ps1</CODE>.
 
 
 
