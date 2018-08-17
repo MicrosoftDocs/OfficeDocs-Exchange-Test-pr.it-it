@@ -49,7 +49,7 @@ Per esportare il file XML, è necessario utilizzare il Exchange Management Shell
     
 
     > [!IMPORTANT]
-    > Accertarsi di utilizzare il percorso del file in cui è memorizzato in realtà il pacchetto di regole. <STRONG>C:\custompath\</STRONG> è un segnaposto.
+    > Accertarsi di utilizzare il percorso del file in cui è memorizzato in realtà il pacchetto di regole. <STRONG>C:\custompath\\</STRONG> è un segnaposto.
 
 
 

@@ -139,12 +139,15 @@ Quando si esegue questo comando, viene visualizzato un messaggio per la conferma
 
 Di seguito, sono riportati alcuni esempi di comandi per la disattivazione delle cassette postali.
 
+```
     Disable-Mailbox danj
-
+```
+```
     Disable-Mailbox "Conf Room 31/1234 (12)"
-
+```
+```
     Disable-Mailbox sharedmbx@contoso.com
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta disattivazione di una cassetta postale, effettuare una delle seguenti operazioni:
@@ -197,11 +200,15 @@ Quando si esegue questo comando, viene visualizzato un messaggio per la conferma
 
 Di seguito, sono riportati alcuni esempi di comandi per l'eliminazione delle cassette postali.
 
+```
     Remove-Mailbox pilarp@contoso.com
-
+```
+```
     Remove-Mailbox "Fleet Van (16)"
-
+```
+```
     Remove-Mailbox corpprint
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

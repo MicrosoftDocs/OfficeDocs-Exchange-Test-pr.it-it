@@ -1059,13 +1059,11 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <td><p>Formato</p></td>
 <td><p>Registro Geral (formato precedente)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>9 cifre</p>
 </dd>
 </dl>
 <p>Registro de Identidade (RIC) (nuovo formato)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>11 cifre</p>
 </dd>
 </dl></td>
@@ -3654,13 +3652,11 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <td><p>Formato</p></td>
 <td><p>A partire dal 1° novembre 2010</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Nove lettere e numeri</p>
 </dd>
 </dl>
 <p>Dal 1° aprile 1987 fino al 31 ottobre 2010</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>10 cifre</p>
 </dd>
 </dl></td>
@@ -4252,7 +4248,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 </ul>
 <p>Il formato per ogni paese è leggermente diverso. Il tipo di informazioni riservate IBAN vengono trattati questi 60 paesi:</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Active Directory, ae, all'az, ba, essere, bg, orario di ufficio, ch, cr, cy, cz, de, dk, eseguire, ee, es, fi, fo, fr, gb, ge, gi, contabilità generale, gr, risorse umane, hu, vale a dire il, è, viene, kw, kz, kg, li, lt, lu, lv mc, md, me, mk, mr, mt, mu , nl, no pl, pt, RU, rs, sa, se, si, sk, sm, tn, tr, vg</p>
 </dd>
 </dl></td>
@@ -4392,13 +4387,11 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <td><p>Formato</p></td>
 <td><p>Formato precedente (fino al 31 dicembre 2012)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Sette cifre seguite da 1-2 lettere</p>
 </dd>
 </dl>
 <p>Nuovo formato (dal 1° gennaio 2013 in poi)</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>Sette cifre seguite da due lettere</p>
 </dd>
 </dl></td>
@@ -6494,13 +6487,11 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <td><p>Formato</p></td>
 <td><p>Numero di passaporto biometrico</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>9 cifre</p>
 </dd>
 </dl>
 <p>Numero di passaporto non biometrico</p>
 <dl>
-<dt><span></span></dt>
 <dd><p>9 cifre</p>
 </dd>
 </dl></td>
