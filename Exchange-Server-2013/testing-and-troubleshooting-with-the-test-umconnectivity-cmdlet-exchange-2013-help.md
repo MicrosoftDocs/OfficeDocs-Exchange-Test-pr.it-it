@@ -31,7 +31,7 @@ Il cmdlet **Test-UMConnectivity** consente di verificare la connettività dei se
     
       - *–PIN*   Questo parametro deve contenere il PIN della cassetta postale abilitata alla messaggistica unificata.
     
-      - *–UMDialPlan   *Questo parametro deve contenere il dial plan associato alla cassetta postale di prova.
+      - *–UMDialPlan*   Questo parametro deve contenere il dial plan associato alla cassetta postale di prova.
 
   - **Remoto**   Il cmdlet **Test-UMConnectivity** tenta di connettersi a un server Accesso client remoto effettuando una chiamata mediante un gateway VoIP. Una volta stabilita la connessione, eseguirà controlli della connettività sul server Accesso client remoto e sui percorsi dei supporti.
     

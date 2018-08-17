@@ -86,7 +86,7 @@ Assegnazione dei criteri di limitazione
   - [Set-ThrottlingPolicyAssociation](https://technet.microsoft.com/it-it/library/ff459231\(v=exchg.150\))
 
 
-> [!NOTE]
-> I cmdlet di gestione del carico di lavoro di sistema <STRONG>*-ResourcePolicy</STRONG>, <STRONG>*-WorkloadManagementPolicy</STRONG> e <STRONG>*-WorkloadPolicy</STRONG> sono diventati obsoleti. Impostazioni di gestione del carico di lavoro di sistema devono essere personalizzate solo seguendo le istruzioni del cliente servizio supporto tecnico Microsoft.
+> [!NOTE]  
+> I cmdlet di gestione del carico di lavoro di sistema <STRONG>&#42;-ResourcePolicy</STRONG>, <STRONG>&#42;-WorkloadManagementPolicy</STRONG> e <STRONG>&#42;-WorkloadPolicy</STRONG> sono diventati obsoleti. Impostazioni di gestione del carico di lavoro di sistema devono essere personalizzate solo seguendo le istruzioni del cliente servizio supporto tecnico Microsoft.
 
 

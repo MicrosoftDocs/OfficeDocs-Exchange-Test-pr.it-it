@@ -198,7 +198,7 @@ Per caricare la regola, è necessario eseguire le operazioni seguenti.
     
 
     > [!IMPORTANT]
-    > Accertarsi di utilizzare il percorso del file in cui è archiviato effettivamente il pacchetto di regole. <STRONG>C:\custompath\</STRONG> è un segnaposto.
+    > Accertarsi di utilizzare il percorso del file in cui è archiviato effettivamente il pacchetto di regole. <STRONG>C:\\custompath\\</STRONG> è un segnaposto.
 
 
 
