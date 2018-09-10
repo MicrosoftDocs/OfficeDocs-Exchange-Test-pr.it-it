@@ -27,7 +27,7 @@ Le informazioni seguenti consentiranno di impostare e distribuire la messaggisti
 
   - [Connettere un controller dei confini VoIP gateway, IP PBX o della sessione di messaggistica UNIFICATA](connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md) Informazioni sulla connessione alla messaggistica unificata dei gateway VoIP o dei sistemi IP PBX.
 
-  - [Sistema di telefonia per Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md) Informazioni sui gateway VoIP e sui sistemi IP PBX e PBX supportati.
+  - [Sistema di telefonia per Exchange 2013](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013) Informazioni sui gateway VoIP e sui sistemi IP PBX e PBX supportati.
 
-  - [Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)  Informazioni sulla configurazione dei gatway VoIP e dei sistemi IP PBX e PBX.
+  - [Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)  Informazioni sulla configurazione dei gatway VoIP e dei sistemi IP PBX e PBX.
 

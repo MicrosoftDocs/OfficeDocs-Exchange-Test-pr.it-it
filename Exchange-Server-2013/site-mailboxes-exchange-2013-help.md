@@ -97,7 +97,7 @@ Le cassette postali del sito non supportano la conservazione a livello di elemen
 
 ## Conformità
 
-Utilizzando la console di eDiscovery in SharePoint, le cassette postali del sito possono essere incluse nell'ambito della funzione di eDiscovery in locale ed è possibile cercare le parole chiave nelle cassette postali degli utenti o del sito. Inoltre, è possibile applicare a una cassetta postale del sito la conservazione a fini giudiziari. Per ulteriori informazioni, vedere [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md).
+Utilizzando la console di eDiscovery in SharePoint, le cassette postali del sito possono essere incluse nell'ambito della funzione di eDiscovery in locale ed è possibile cercare le parole chiave nelle cassette postali degli utenti o del sito. Inoltre, è possibile applicare a una cassetta postale del sito la conservazione a fini giudiziari. Per ulteriori informazioni, vedere [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 
 > [!NOTE]

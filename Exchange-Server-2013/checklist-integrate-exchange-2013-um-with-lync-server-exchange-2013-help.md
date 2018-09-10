@@ -84,7 +84,7 @@ Per ulteriori informazioni su come eseguire le attività da completare per Lync 
 <tr class="odd">
 <td><p><strong> </strong></p></td>
 <td><p>Creare il numero di dial plan URI SIP necessari per l'organizzazione.</p></td>
-<td><p><a href="create-a-um-dial-plan-exchange-2013-help.md">Creazione di un dial plan di messaggistica unificata</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan">Creazione di un dial plan di messaggistica unificata</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
@@ -109,13 +109,13 @@ Per ulteriori informazioni su come eseguire le attività da completare per Lync 
 <tr class="even">
 <td><p></p></td>
 <td><p>Configurare la composizione in uscita per la Messaggistica unificata. Consentire tutte le chiamate sui dial plan URI SIP e sui criteri cassette postali di messaggistica unificata associati ai dial plan.</p></td>
-<td><p><a href="authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md">Autorizzare chiamate per gli utenti in un dial plan</a></p>
-<p><a href="authorize-calls-for-a-group-of-users-exchange-2013-help.md">Autorizzare le chiamate per un gruppo di utenti</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-users-in-a-dial-plan">Autorizzare chiamate per gli utenti in un dial plan</a></p>
+<p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-a-group-of-users">Autorizzare le chiamate per un gruppo di utenti</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p>Creare il numero richiesto di operatori automatici.</p></td>
-<td><p><a href="create-a-um-auto-attendant-exchange-2013-help.md">Creazione di un operatore automatico di messaggistica unificata</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant">Creazione di un operatore automatico di messaggistica unificata</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
@@ -145,12 +145,12 @@ Per ulteriori informazioni su come eseguire le attività da completare per Lync 
 <td><p><strong> </strong></p></td>
 <td><p>Creare un criterio cassetta postale di messaggistica unificata o configurare il criterio cassetta postale di messaggistica unificata predefinito.</p></td>
 <td><p><a href="create-a-um-mailbox-policy-exchange-2013-help.md">Creazione di un criterio cassetta postale di messaggistica unificata</a></p>
-<p><a href="manage-a-um-mailbox-policy-exchange-2013-help.md">Gestire i criteri cassetta postale di messaggistica unificata</a></p></td>
+<p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy">Gestire i criteri cassetta postale di messaggistica unificata</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Abilitare gli utenti alla Messaggistica unificata con un indirizzo SIP e associarli a un dial plan URI SIP.</p></td>
-<td><p><a href="enable-a-user-for-voice-mail-exchange-2013-help.md">Consentire a un utente per la segreteria telefonica</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail">Consentire a un utente per la segreteria telefonica</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>

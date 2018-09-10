@@ -43,7 +43,7 @@ In questo argomento sono contenute le sezioni seguenti:
 
   - **Esportare il Registro di controllo dell'amministratore**   Qualsiasi azione eseguita da un amministratore che si basa su un cmdlet della Shell e non inizia con i verbi **Get**, **Search**o **Test** viene registrata nel Registro di controllo dell'amministratore. Le voci del Registro di controllo includono il cmdlet è stato eseguito, il parametro e valori utilizzati con il cmdlet e quando l'operazione è riuscita. È possibile cercare ed esportare le voci nel Registro di controllo. Quando si esportano i risultati della ricerca, Microsoft Exchange salvarli in un file XML e lo collega a un messaggio di posta elettronica. Per ulteriori informazioni, vedere:
     
-      - [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md)
+      - [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes)
     
       - [Visualizzare ed esportare log di controllo dell'amministratore esterno](https://technet.microsoft.com/it-it/library/dn505728\(v=exchg.150\))
     
@@ -53,7 +53,7 @@ In questo argomento sono contenute le sezioni seguenti:
 
 
 
-  - **Esportare registri di controllo delle cassette postali**   Quando controllo delle cassette postali è abilitata la registrazione per una cassetta postale, Microsoft Exchange archivia un record delle azioni eseguite sui dati della cassetta postale da non proprietari nel Registro di controllo delle cassette postali, viene archiviato in una cartella nascosta nella cassetta postale sottoposto a controllo. Controllo delle cassette postali registrazione inoltre possibile configurare per registrare le azioni di proprietario. Voci di questo registro indicano che si accede alla cassetta postale e quando le azioni eseguite e l'azione è stata eseguita correttamente. Quando esegue la ricerca per le voci di controllo delle cassette postali accedere ed esportarli, salvataggi di Microsoft Exchange la ricerca dei risultati in un file XML e lo collega a un messaggio di posta elettronica. Per ulteriori informazioni, vedere [Esportare registri di controllo delle cassette postali](export-mailbox-audit-logs-exchange-2013-help.md).
+  - **Esportare registri di controllo delle cassette postali**   Quando controllo delle cassette postali è abilitata la registrazione per una cassetta postale, Microsoft Exchange archivia un record delle azioni eseguite sui dati della cassetta postale da non proprietari nel Registro di controllo delle cassette postali, viene archiviato in una cartella nascosta nella cassetta postale sottoposto a controllo. Controllo delle cassette postali registrazione inoltre possibile configurare per registrare le azioni di proprietario. Voci di questo registro indicano che si accede alla cassetta postale e quando le azioni eseguite e l'azione è stata eseguita correttamente. Quando esegue la ricerca per le voci di controllo delle cassette postali accedere ed esportarli, salvataggi di Microsoft Exchange la ricerca dei risultati in un file XML e lo collega a un messaggio di posta elettronica. Per ulteriori informazioni, vedere [Esportare registri di controllo delle cassette postali](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs).
 
 ## Eseguire rapporti di controllo
 
@@ -61,23 +61,23 @@ Quando si esegue uno dei seguenti rapporti nella pagina **controllo** nell'inter
 
   - **Eseguire un rapporto di accesso non proprietario della cassetta postale**   Utilizzare questo rapporto per individuare le cassette postali accessibile da un utente diverso da persona proprietario della cassetta postale. Per ulteriori informazioni, vedere [Eseguire un rapporto di accesso non proprietario della cassetta postale](run-a-non-owner-mailbox-access-report-exchange-online-help.md).
 
-  - **Esegui il rapporto di un gruppo di ruoli amministratore**   Utilizzare questo rapporto per cercare le modifiche apportate ai gruppi di ruoli amministratore. Per ulteriori informazioni, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+  - **Esegui il rapporto di un gruppo di ruoli amministratore**   Utilizzare questo rapporto per cercare le modifiche apportate ai gruppi di ruoli amministratore. Per ulteriori informazioni, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
   - **Esegui un rapporto di individuazione e conservazione in locale**   Utilizzare questo rapporto per individuare le cassette postali conservate in locale o rimosse dalla conservazione in locale. Per ulteriori informazioni, vedere:
     
-      - [Archiviazione sul posto e conservazione per controversia legale](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+      - [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds)
     
-      - [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md)
+      - [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
   - **Eseguire un rapporto di attesa di conservazione per controversia per cassetta postale**   Utilizzare questo rapporto per individuare le cassette postali che sono stati messi in o rimosse dalla conservazione per controversia legale. Per ulteriori informazioni, vedere.
     
-      - [Eseguire un rapporto di attesa di conservazione per controversia per cassetta postale](run-a-per-mailbox-litigation-hold-report-exchange-2013-help.md)
+      - [Eseguire un rapporto di attesa di conservazione per controversia per cassetta postale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/per-mailbox-litigation-hold-report)
     
       - [Conservazione in caso di dispute di una cassetta postale](place-a-mailbox-on-litigation-hold-exchange-2013-help.md)
 
   - **Eseguire il report del log di controllo amministrazione**   Utilizzare questo report per visualizzare le voci nel Registro di controllo. Invece di esportazione nel Registro di controllo, che può richiedere fino a 24 ore per ricevere un messaggio di posta elettronica, è possibile eseguire questo report in EAC. In questo report consente di registrare le modifiche di configurazione apportate dagli amministratori dell'organizzazione. Verranno visualizzate fino a 5000 voci su più pagine. Per limitare la ricerca, è possibile specificare un intervallo di date. Per ulteriori informazioni, vedere:
     
-      - [Visualizzare il registro di controllo dell'amministratore](view-the-administrator-audit-log-exchange-2013-help.md)
+      - [Visualizzare il registro di controllo dell'amministratore](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log)
     
       - [Registrazione controlli dell'amministratore](administrator-audit-logging-exchange-2013-help.md)
 

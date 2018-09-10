@@ -59,7 +59,7 @@ Per creare una cassetta postale dedicata alla quarantena della posta indesiderat
 
   - **Creare una cassetta postale dedicata e un account utente**   Si consiglia di creare una cassetta postale dedicata e un account utente di Active Directory per la cassetta postale di quarantena della posta indesiderata. Per ulteriori informazioni, vedere [Creazione di cassette postali utente](create-user-mailboxes-exchange-2013-help.md).
     
-    È possibile applicare criteri destinatari, quali gestione dei record di messaggistica, quote della cassetta postale e diritti di delega, in funzione dei criteri di conformità e delle esigenze dell'organizzazione. Per ulteriori informazioni, vedere [Gestione record di messaggistica](messaging-records-management-exchange-2013-help.md).
+    È possibile applicare criteri destinatari, quali gestione dei record di messaggistica, quote della cassetta postale e diritti di delega, in funzione dei criteri di conformità e delle esigenze dell'organizzazione. Per ulteriori informazioni, vedere [Gestione record di messaggistica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
     
 
     > [!NOTE]

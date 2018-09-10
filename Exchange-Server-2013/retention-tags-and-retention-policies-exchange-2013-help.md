@@ -99,7 +99,7 @@ I tag di conservazione sono classificati in tre seguenti tipi di base che è pos
 <tr class="even">
 <td><p>Tag criterio di conservazione (TAG)</p></td>
 <td><p>Automaticamente in una cartella predefinita</p>
-<p>Cartelle predefinite sono cartelle create automaticamente in tutte le cassette postali, ad esempio: <strong>posta in arrivo</strong>, <strong>Posta eliminata</strong> e <strong>Posta inviata</strong>. Vedere l'elenco delle cartelle predefinite supportate in <a href="default-folders-that-support-retention-policy-tags-exchange-2013-help.md">Cartelle predefinite che supportano i tag del criterio di conservazione</a>.</p></td>
+<p>Cartelle predefinite sono cartelle create automaticamente in tutte le cassette postali, ad esempio: <strong>posta in arrivo</strong>, <strong>Posta eliminata</strong> e <strong>Posta inviata</strong>. Vedere l'elenco delle cartelle predefinite supportate in <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/default-folders">Cartelle predefinite che supportano i tag del criterio di conservazione</a>.</p></td>
 <td><p>Amministratore</p></td>
 <td><ul>
 <li><p>Elimina e consenti ripristino</p></li>
@@ -151,7 +151,7 @@ Inizio pagina
 
 Quando si abilita un tag di conservazione, è necessario specificare un periodo di validità della conservazione per il tag. Questo periodo di validità indica il numero di giorni in cui un messaggio viene conservato una volta arrivato nella cassetta postale dell'utente.
 
-Il periodo di validità della conservazione per gli elementi non ricorrenti (ad esempio, i messaggi di posta elettronica) viene calcolato in modo diverso rispetto agli elementi che dispongono di una data di fine o agli elementi ricorrenti (ad esempio, le riunioni e le attività). Per informazioni sul calcolo del periodo di validità della conservazione per i diversi tipi di elementi, vedere [Calcolo del periodo di conservazione](how-retention-age-is-calculated-exchange-2013-help.md).
+Il periodo di validità della conservazione per gli elementi non ricorrenti (ad esempio, i messaggi di posta elettronica) viene calcolato in modo diverso rispetto agli elementi che dispongono di una data di fine o agli elementi ricorrenti (ad esempio, le riunioni e le attività). Per informazioni sul calcolo del periodo di validità della conservazione per i diversi tipi di elementi, vedere [Calcolo del periodo di conservazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/retention-age).
 
 È inoltre possibile creare i tag di conservazione con conservazione disabilitata o disattivare i tag dopo che vengono creati. Dal momento che i messaggi che contengono un tag disabilitato applicato non vengono elaborati, viene eseguita alcuna azione di conservazione. Di conseguenza, gli utenti possono utilizzare un tag personale disabilitato come un tag **Mai spostare** o **Eliminare mai** di ignorare un DPT o TAG che verrebbero altrimenti si applicano a del messaggio.
 
@@ -207,7 +207,7 @@ Durante la creazione o la configurazione di un tag di conservazione, è possibil
 <li><p>È possibile recuperare i messaggi dopo vengono eliminati in modo definitivo.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Se cassetta postale si trova in <a href="in-place-hold-and-litigation-hold-exchange-2013-help.md">Archiviazione sul posto e conservazione per controversia legale</a> o conservazione per controversia legale, gli elementi vengono mantenuti nella cartella elementi ripristinabili in base ai parametri esenzione. <a href="in-place-ediscovery-exchange-2013-help.md">eDiscovery sul posto</a> continuerà a restituire questi elementi nei risultati della ricerca.</p>
+<li><p>Se cassetta postale si trova in <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds">Archiviazione sul posto e conservazione per controversia legale</a> o conservazione per controversia legale, gli elementi vengono mantenuti nella cartella elementi ripristinabili in base ai parametri esenzione. <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">eDiscovery sul posto</a> continuerà a restituire questi elementi nei risultati della ricerca.</p>
 <p></p></li>
 </ul></td>
 </tr>

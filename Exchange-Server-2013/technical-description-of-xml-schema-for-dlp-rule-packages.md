@@ -624,7 +624,7 @@ Lo schema delle regole supporta l'archiviazione del nome e delle descrizione loc
 
 ## Ulteriori informazioni
 
-[Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Definire modelli DLP e tipi di informazione propri](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 

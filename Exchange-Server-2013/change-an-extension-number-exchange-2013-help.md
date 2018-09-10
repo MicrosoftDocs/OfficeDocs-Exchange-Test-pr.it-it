@@ -25,7 +25,7 @@ Quando si abilita un utente alla messaggistica unificata e lo si collega al dial
 
 È possibile visualizzare i numeri di interno primario e secondario per un utente utilizzando il cmdlet **Get-UMMailbox** o **Get-Mailbox** in Shell.
 
-Per altre attività di gestione relative agli utenti abilitati alla posta vocale, vedere [Procedure utente abilitato alla posta vocale](voice-mail-enabled-user-procedures-exchange-2013-help.md).
+Per altre attività di gestione relative agli utenti abilitati alla posta vocale, vedere [Procedure utente abilitato alla posta vocale](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-enabled-user-procedures).
 
 ## Che cosa è necessario sapere prima di iniziare?
 
@@ -33,11 +33,11 @@ Per altre attività di gestione relative agli utenti abilitati alla posta vocale
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Cassette postali di messaggistica unificata" nell'argomento [Autorizzazioni della messaggistica unificate](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Prima di eseguire queste procedure, confermare la creazione del dial plan di messaggistica unificata dell'interno telefonico. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+  - Prima di eseguire queste procedure, confermare la creazione del dial plan di messaggistica unificata dell'interno telefonico. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
   - Prima di eseguire queste procedure, verificare che sia stato creato un criterio di cassetta postale di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un criterio cassetta postale di messaggistica unificata](create-a-um-mailbox-policy-exchange-2013-help.md).
 
-  - Prima di eseguire queste procedure, verificare che la cassetta postale dell'utente sia stata abilitata alla messaggistica unificata e collegata a un dial plan di un numero di interno telefonico. Per la procedura dettagliata, vedere [Consentire a un utente per la segreteria telefonica](enable-a-user-for-voice-mail-exchange-2013-help.md).
+  - Prima di eseguire queste procedure, verificare che la cassetta postale dell'utente sia stata abilitata alla messaggistica unificata e collegata a un dial plan di un numero di interno telefonico. Per la procedura dettagliata, vedere [Consentire a un utente per la segreteria telefonica](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
   - Prima di eseguire queste procedure, confermare che il numero di interno che verrà assegnato all'utente contenga il numero corretto di cifre impostato sul dial plan di messaggistica unificata.
 

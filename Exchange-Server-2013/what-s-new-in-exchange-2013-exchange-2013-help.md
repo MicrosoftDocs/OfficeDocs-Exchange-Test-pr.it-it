@@ -175,7 +175,7 @@ Il connettore Microsoft Rights Management (RMS) è un'applicazione facoltativa c
 
 Per ulteriori informazioni su queste funzionalità, vedere:
 
-[Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Connettore Rights Management](https://go.microsoft.com/fwlink/p/?linkid=330432)
 
@@ -241,7 +241,7 @@ Exchange 2013 include i seguenti miglioramenti del controllo:
 
   - **Rapporti di controllo**   EAC include funzionalità di controllo che consentono di eseguire rapporti o di esportare voci dal log di controllo della cassetta postale e da quello dell'amministratore. Nel registro di controllo della cassetta postale viene registrato ogni accesso a una cassetta postale da parte di un utente diverso dal proprietario della cassetta stessa. In questo modo è possibile determinare chi ha effettuato l'accesso a una casetta postale e quali operazioni ha eseguito. Il log di controllo dell'amministratore registra qualsiasi azione, in base a un cmdlet di Exchange Management Shell, eseguita da un amministratore. In questo modo è possibile risolvere problemi di configurazione o individuare la causa di problemi relativi alla sicurezza o alla conformità. Per ulteriori informazioni, vedere [Rapporti di controllo di Exchange](exchange-auditing-reports-exchange-2013-help.md).
 
-  - **Visualizzazione del registro di controllo dell'amministratore**   Invece di esportare il registro di controllo dell'amministratore, in meno di 24 ore è possibile riceverlo in un messaggio di posta elettronica e visualizzarne le voci nell'interfaccia di amministrazione di Exchange. A tale scopo, andare a **Gestione della conformità** \> **Controllo**, quindi fare clic su **Visualizza il registro di controllo dell'amministratore**. Saranno visualizzate fino a 1000 voci, su più pagine. Per restringere la ricerca è possibile specificare un intervallo di date. Per ulteriori informazioni, vedere [Visualizzare il registro di controllo dell'amministratore](view-the-administrator-audit-log-exchange-2013-help.md).
+  - **Visualizzazione del registro di controllo dell'amministratore**   Invece di esportare il registro di controllo dell'amministratore, in meno di 24 ore è possibile riceverlo in un messaggio di posta elettronica e visualizzarne le voci nell'interfaccia di amministrazione di Exchange. A tale scopo, andare a **Gestione della conformità** \> **Controllo**, quindi fare clic su **Visualizza il registro di controllo dell'amministratore**. Saranno visualizzate fino a 1000 voci, su più pagine. Per restringere la ricerca è possibile specificare un intervallo di date. Per ulteriori informazioni, vedere [Visualizzare il registro di controllo dell'amministratore](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log).
 
 ## Protezione anti-malware
 
@@ -269,7 +269,7 @@ In questa sezione sono descritti i miglioramenti alla gestione dei destinatari i
 
   - **Criteri di denominazione dei gruppi**   Gli amministratori ora possono utilizzare EAC per creare un *criterio di denominazione dei gruppi*, che consente di standardizzare e gestire i nomi dei gruppi di distribuzione creati dagli utenti nell'organizzazione. È possibile richiedere un prefisso e un suffisso specifici da aggiungere al nome per il gruppo di distribuzione al momento della creazione e bloccare l'utilizzo di parole specifiche. Questa funzionalità aiuta a ridurre l'utilizzo di parole inadatte nei nomi di gruppo.
     
-    Per ulteriori informazioni, vedere [Creare un gruppo di distribuzione dei criteri di denominazione](create-a-distribution-group-naming-policy-exchange-2013-help.md).
+    Per ulteriori informazioni, vedere [Creare un gruppo di distribuzione dei criteri di denominazione](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
 
   - **Verifica dei messaggi**   Gli amministratori possono utilizzare EAC per verificare le informazioni sul recapito dei messaggi di posta elettronica inviati o ricevuti dagli utenti nell'organizzazione. È sufficiente selezionare una cassetta postale e cercare i messaggi inviati o ricevuti da un altro utente. È possibile limitare la ricerca cercando parole specifiche nella riga dell'oggetto. Con il rapporto di recapito risultante è possibile tenere traccia di un messaggio durante il processo di recapito e specificare se il messaggio è stato recapitato correttamente, è in sospeso o non è stato recapitato.
     

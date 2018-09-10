@@ -141,11 +141,11 @@ Ciascuna voce del registro di controllo contiene le informazioni descritte nella
 </tr>
 <tr class="even">
 <td><p><code>CmdletParameters</code></p></td>
-<td><p>Questo campo contiene i parametri che sono stati specificati quando è stato eseguito il cmdlet indicato nel campo <code>CmdletName</code>. Sebbene non sia visibile nell'output predefinito, in questo campo viene memorizzato anche il valore specificato con il parametro (se presente). Per ulteriori informazioni su come accedere agli altri dati memorizzati in questo campo, vedere <a href="search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md">Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore</a>.</p></td>
+<td><p>Questo campo contiene i parametri che sono stati specificati quando è stato eseguito il cmdlet indicato nel campo <code>CmdletName</code>. Sebbene non sia visibile nell'output predefinito, in questo campo viene memorizzato anche il valore specificato con il parametro (se presente). Per ulteriori informazioni su come accedere agli altri dati memorizzati in questo campo, vedere <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes">Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><code>ModifiedProperties</code></p></td>
-<td><p>Questo campo contiene le proprietà modificate nell'oggetto indicato nel campo <code>ObjectModified</code>. Sebbene non siano visibili nell'output predefinito, in questo campo sono presenti anche il precedente valore della proprietà e quello nuovo. Per ulteriori informazioni su come accedere agli altri dati memorizzati in questo campo, vedere <a href="search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md">Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore</a>.</p>
+<td><p>Questo campo contiene le proprietà modificate nell'oggetto indicato nel campo <code>ObjectModified</code>. Sebbene non siano visibili nell'output predefinito, in questo campo sono presenti anche il precedente valore della proprietà e quello nuovo. Per ulteriori informazioni su come accedere agli altri dati memorizzati in questo campo, vedere <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes">Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore</a>.</p>
 
 > [!IMPORTANT]
 > Questo campo risulta pieno solo se il parametro <EM>LogLevel</EM> nel cmdlet <STRONG>Set-AdminAuditLogConfig</STRONG> è impostato su <CODE>Verbose</CODE>.
@@ -199,7 +199,7 @@ La pagina di **controllo**dell'interfaccia di amministrazione di Exchange compre
 
   - **Registro di controllo dell'amministratore**   Questo rapporto consente di esportare le voci del registro di controllo registrate in un intervallo di tempo specificato in un file XML e, quindi, di inviare tale file al destinatario desiderato. Per ulteriori informazioni sul contenuto del file XML, vedere [Struttura del Registro di controllo amministratore](administrator-audit-log-structure-exchange-2013-help.md).
 
-Per informazioni su come utilizzare questi rapporti, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+Per informazioni su come utilizzare questi rapporti, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
 Per informazioni sugli altri rapporti inclusi nella pagina di **controllo**, vedere [Rapporti di controllo di Exchange](exchange-auditing-reports-exchange-2013-help.md).
 
@@ -223,7 +223,7 @@ Quando si esegue il cmdlet **Search-AdminAuditLog**, vengono restituite tutte le
 
 Ciascuna voce del registro di controllo restituita dalla ricerca contiene le informazioni descritte nella tabella riportata nella sezione Audit Log Contents. Per impostazione predefinita, vengono restituite solo le prime 1.000 voci di registro corrispondenti ai criteri specificati. Per modificare questo valore e visualizzare un numero maggiore o inferiore di risultati utilizzare il parametro *ResultSize*. Se si desidera che la ricerca restituisca tutte le voci di registro corrispondenti ai criteri immessi, impostare il parametro *ResultSize* su `Unlimited`.
 
-Per ulteriori informazioni sull'utilizzo del cmdlet **Search-AdminAuditLog**, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+Per ulteriori informazioni sull'utilizzo del cmdlet **Search-AdminAuditLog**, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
 ## Cmdlet New-AdminAuditLogSearch
 
@@ -239,7 +239,7 @@ Dall'esecuzione del cmdlet **New-AdminAuditLogSearch**, Exchange può impiegare
 
 
 
-Per ulteriori informazioni sull'utilizzo del cmdlet **New-AdminAuditLogSearch**, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+Per ulteriori informazioni sull'utilizzo del cmdlet **New-AdminAuditLogSearch**, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
 Inizio pagina
 
@@ -257,7 +257,7 @@ Con il cmdlet **Write-AdminAuditLog** è possibile specificare una stringa di te
 
 È possibile richiamare le voci del registro di controllo manuali esattamente come avviene con qualsiasi altra voce di registro, ovvero utilizzando la pagina di **controllo** dell'interfaccia di amministrazione di Exchange o il cmdlet **Search-AdminAuditLog** o **New-AdminAuditLogSearch**.
 
-Per visualizzare i contenuti del parametro *Comment* del cmdlet **Write-AdminAuditLog** relativamente a una voce di registro di controllo manuale, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+Per visualizzare i contenuti del parametro *Comment* del cmdlet **Write-AdminAuditLog** relativamente a una voce di registro di controllo manuale, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
 ## Replica Active Directory
 

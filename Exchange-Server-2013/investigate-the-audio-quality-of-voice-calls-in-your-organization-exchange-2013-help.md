@@ -25,7 +25,7 @@ Se nell'organizzazione si verificano problemi di qualità audio per le chiamate 
 
 
 
-Per le attività aggiuntive relative alle statistiche delle chiamate, vedere [Procedure di rapporti di messaggistica unificata](um-reports-procedures-exchange-2013-help.md).
+Per le attività aggiuntive relative alle statistiche delle chiamate, vedere [Procedure di rapporti di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/um-reports-procedures).
 
 ## Che cosa è necessario sapere prima di iniziare?
 

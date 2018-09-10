@@ -44,7 +44,7 @@ Per informazioni sulle altre attività di gestione relative alle cartelle pubbli
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Cartelle pubbliche" nell'argomento [Autorizzazioni di condivisione e collaborazione](sharing-and-collaboration-permissions-exchange-2013-help.md).
 
-  - Non è possibile creare una cartella pubblica prima di aver creato una cassetta postale delle cartelle pubbliche. Per ulteriori informazioni su come creare una cassetta postale delle cartelle pubbliche, vedere [Creazione di una cassetta postale di cartelle pubbliche](create-a-public-folder-mailbox-exchange-2013-help.md).
+  - Non è possibile creare una cartella pubblica prima di aver creato una cassetta postale delle cartelle pubbliche. Per ulteriori informazioni su come creare una cassetta postale delle cartelle pubbliche, vedere [Creazione di una cassetta postale di cartelle pubbliche](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

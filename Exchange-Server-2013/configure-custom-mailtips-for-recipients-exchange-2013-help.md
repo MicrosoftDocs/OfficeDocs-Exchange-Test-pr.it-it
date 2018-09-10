@@ -27,7 +27,7 @@ I *suggerimenti messaggio* sono messaggi informativi visualizzati agli utenti ne
 
   - Apertura dalla cartella Bozze di un messaggio per cui sono già specificati i destinatari
 
-Oltre ai suggerimenti messaggio incorporati, è possibile creare suggerimenti messaggio personalizzati per tutti i tipi di destinatari. Per ulteriori informazioni sui suggerimenti messaggio incorporati, vedere [MailTips](mailtips-exchange-2013-help.md).
+Oltre ai suggerimenti messaggio incorporati, è possibile creare suggerimenti messaggio personalizzati per tutti i tipi di destinatari. Per ulteriori informazioni sui suggerimenti messaggio incorporati, vedere [MailTips](https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips).
 
 ## Che cosa è necessario sapere prima di iniziare
 

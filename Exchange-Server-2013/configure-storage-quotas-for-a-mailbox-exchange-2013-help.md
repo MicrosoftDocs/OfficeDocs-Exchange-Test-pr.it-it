@@ -29,7 +29,7 @@ Le quote di spazio di archiviazione consentono di controllare la dimensione dell
 
 Le quote di spazio di archiviazione vengono generalmente configurate per ciascun database. Ciò vuol dire che le quote configurate per un database di una cassetta postale sono applicabili a tutte le cassette postali di quel database. Per ulteriori informazioni sulla gestione delle impostazioni delle cassette postali per database, vedere [Gestire il database delle cassette postali in Exchange 2013](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md).
 
-L'argomento illustra come personalizzare le impostazioni di archiviazione per una cassetta postale specifica invece di utilizzare le impostazioni di archiviazione del database delle cassette postali. Per le altre attività di gestione relative alle cassette postali degli utenti, vedere [Gestire le cassette postali degli utenti](manage-user-mailboxes-exchange-2013-help.md).
+L'argomento illustra come personalizzare le impostazioni di archiviazione per una cassetta postale specifica invece di utilizzare le impostazioni di archiviazione del database delle cassette postali. Per le altre attività di gestione relative alle cassette postali degli utenti, vedere [Gestire le cassette postali degli utenti](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 ## Che cosa è necessario sapere prima di iniziare?
 

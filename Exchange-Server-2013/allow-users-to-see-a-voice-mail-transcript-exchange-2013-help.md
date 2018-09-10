@@ -69,7 +69,7 @@ Per configurare la messaggistica unificata in modo che le anteprime delle casell
 
 2.  In caso di distribuzione locale o ibrida, scaricare e installare il Language Pack di messaggistica unificata appropriato. Tale operazione non comporta la configurazione della lingua predefinita del dial plan.
 
-3.  Configurare il dial plan con la lingua che sarà utilizzata per Anteprima casella vocale. Per ulteriori informazioni, vedere [Impostare la lingua predefinita per un dial plan](set-the-default-language-on-a-dial-plan-exchange-2013-help.md).
+3.  Configurare il dial plan con la lingua che sarà utilizzata per Anteprima casella vocale. Per ulteriori informazioni, vedere [Impostare la lingua predefinita per un dial plan](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/set-dial-plan-default-language).
 
 Le modalità di visualizzazione del testo di anteprima della casella vocale nelle lingue supportate dipende dal tipo di messaggio vocale inviato. Esistono due tipi:
 

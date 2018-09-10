@@ -27,7 +27,7 @@ Come pulire la cartella elementi ripristinabili in postale una cassetta dipende 
 
   - Se la cassetta postale si trova in conservazione In locale o conservazione per controversia legale o dispone di un singolo elemento abilitato il ripristino, è importante mantenere i dati della cassetta postale fino alla rimozione o ripristino di singoli elementi è disabilitato. In questo caso, è necessario eseguire ulteriori passaggi da pulire la cartella elementi ripristinabili.
 
-Per ulteriori informazioni sull'archiviazione sul posto e conservazione per controversia legale, vedere [Archiviazione sul posto e conservazione per controversia legale](in-place-hold-and-litigation-hold-exchange-2013-help.md). Per ulteriori informazioni sul ripristino di un singolo elemento, vedere "Ripristino di un elemento singolo" in [Cartella Elementi ripristinabili](recoverable-items-folder-exchange-2013-help.md).
+Per ulteriori informazioni sull'archiviazione sul posto e conservazione per controversia legale, vedere [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds). Per ulteriori informazioni sul ripristino di un singolo elemento, vedere "Ripristino di un elemento singolo" in [Cartella Elementi ripristinabili](recoverable-items-folder-exchange-2013-help.md).
 
 Per ulteriori informazioni sulla cartella elementi ripristinabili, vedere [Cartella Elementi ripristinabili](recoverable-items-folder-exchange-2013-help.md).
 
@@ -37,7 +37,7 @@ Per ulteriori informazioni sulla cartella elementi ripristinabili, vedere [Carte
 
   - È necessario ricoprire i seguenti ruoli di gestione per utilizzare il cmdlet **Search-Mailbox** per cercare ed eliminare i messaggi nella cassetta postale dell'utente.
     
-      - **Ricerca cassetta postale**   Questo ruolo consente la ricerca dei messaggi in più cassette postali nell'organizzazione. Agli amministratori non viene assegnato questo ruolo per impostazione predefinita. Per assegnare a se stessi questo ruolo per poter effettuare ricerche nelle cassette postali, aggiungersi come membro del gruppo di ruoli Gestione individuazione. Vedere [Assegnare le autorizzazioni di eDiscovery di Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
+      - **Ricerca cassetta postale**   Questo ruolo consente la ricerca dei messaggi in più cassette postali nell'organizzazione. Agli amministratori non viene assegnato questo ruolo per impostazione predefinita. Per assegnare a se stessi questo ruolo per poter effettuare ricerche nelle cassette postali, aggiungersi come membro del gruppo di ruoli Gestione individuazione. Vedere [Assegnare le autorizzazioni di eDiscovery di Exchange](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
     
       - **Cassetta postale importazione/esportazione**   Questo ruolo consente di eliminare i messaggi dalla cassetta postale dell'utente. Per impostazione predefinita, questo ruolo non è assegnato ad alcun gruppo di ruolo. Per eliminare i messaggi dalle cassette postali degli utenti, è possibile aggiungere il ruolo cassette postali importazione/esportazione per il gruppo di ruoli Gestione organizzazione. Per ulteriori informazioni, vedere la sezione "Aggiungere un ruolo a un gruppo di ruoli" in [Gestire gruppi di ruoli](manage-role-groups-exchange-2013-help.md) .
 
@@ -144,7 +144,7 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
     
 
     > [!NOTE]
-    > Non è necessario copiare gli elementi per la cassetta postale di individuazione. È possibile copiare i messaggi a qualsiasi cassetta postale. Tuttavia, per impedire l'accesso ai dati delle cassette postali riservate, è consigliabile copiare messaggi in una cassetta postale che dispone dell'accesso con restrizioni per i responsabili dei record autorizzato. Per impostazione predefinita, l'accesso per la cassetta postale di individuazione predefinita è limitato ai membri del gruppo di ruoli gestione individuazione. Per ulteriori informazioni, vedere <A href="in-place-ediscovery-exchange-2013-help.md">eDiscovery sul posto</A>.
+    > Non è necessario copiare gli elementi per la cassetta postale di individuazione. È possibile copiare i messaggi a qualsiasi cassetta postale. Tuttavia, per impedire l'accesso ai dati delle cassette postali riservate, è consigliabile copiare messaggi in una cassetta postale che dispone dell'accesso con restrizioni per i responsabili dei record autorizzato. Per impostazione predefinita, l'accesso per la cassetta postale di individuazione predefinita è limitato ai membri del gruppo di ruoli gestione individuazione. Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">eDiscovery sul posto</A>.
 
 
 

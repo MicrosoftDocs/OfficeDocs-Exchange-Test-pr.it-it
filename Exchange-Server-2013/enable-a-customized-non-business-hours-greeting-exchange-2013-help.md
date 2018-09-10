@@ -21,7 +21,7 @@ _**Ultima modifica dell'argomento:** 2012-11-30_
 
 Messaggistica unificata include un'istruzione di sistema predefinita da utilizzare durante l'orario non di ufficio. Anche se l'istruzione di sistema predefinita non deve essere sostituita o modificata, è possibile fornire una formula di benvenuto personalizzata. Si può creare un messaggio di saluto personalizzato nel formato file WAV o WMA che può essere utilizzato quando i chiamanti effettuano una chiamata all'operatore automatico di messaggistica unificata durante l'orario non di ufficio. Ad esempio, il messaggio può contenere una formula che indica che gli uffici sono chiusi.
 
-Se si desidera includere il nome dell'organizzazione o dell'azienda come parte della formula di benvenuto predefinita, inserire il nome nel campo **Ragione sociale** nell'operatore automatico di messaggistica unificata. Per ulteriori informazioni, vedere [Immettere il nome della società](enter-a-business-name-exchange-2013-help.md).
+Se si desidera includere il nome dell'organizzazione o dell'azienda come parte della formula di benvenuto predefinita, inserire il nome nel campo **Ragione sociale** nell'operatore automatico di messaggistica unificata. Per ulteriori informazioni, vedere [Immettere il nome della società](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enter-a-business-name).
 
 Per altre attività di gestione relative agli operatori automatici di messaggistica unificata, vedere [Procedure di operatore automatico di messaggistica unificata](um-auto-attendant-procedures-exchange-2013-help.md).
 
@@ -31,9 +31,9 @@ Per altre attività di gestione relative agli operatori automatici di messaggist
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Operatori automatici di messaggistica unificata" nell'argomento [Autorizzazioni della messaggistica unificate](unified-messaging-permissions-exchange-2013-help.md).
 
-  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
-  - Prima di eseguire queste procedure, verificare che sia stato creato un operatore automatico di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un operatore automatico di messaggistica unificata](create-a-um-auto-attendant-exchange-2013-help.md).
+  - Prima di eseguire queste procedure, verificare che sia stato creato un operatore automatico di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un operatore automatico di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant).
 
   - Creare un file WAV o WMA da utilizzare per il saluto.
 

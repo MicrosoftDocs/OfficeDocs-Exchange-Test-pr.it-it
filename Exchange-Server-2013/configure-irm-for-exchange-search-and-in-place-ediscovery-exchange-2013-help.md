@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2012-11-16_
 
 In Microsoft Exchange Server 2013, si può configurare IRM (Information Rights Management) in modo che il servizio di ricerca di Exchange può indicizzare i contenuti dei messaggi protetti tramite IRM.
 
-Quando i membri del gruppo di ruoli Gestione individuazione eseguono una ricerca [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md), i messaggi protetti tramite IRM vengono inclusi nei risultati della ricerca e copiati nella cassetta postale di individuazione specificata nella ricerca. Inoltre, i membri del gruppo di ruoli Gestione individuazione possono utilizzare Outlook Web App per accedere ai messaggi protetti tramite IRM che sono stati copiati nella cassetta postale di individuazione come risultato della ricerca di individuazione.
+Quando i membri del gruppo di ruoli Gestione individuazione eseguono una ricerca [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery), i messaggi protetti tramite IRM vengono inclusi nei risultati della ricerca e copiati nella cassetta postale di individuazione specificata nella ricerca. Inoltre, i membri del gruppo di ruoli Gestione individuazione possono utilizzare Outlook Web App per accedere ai messaggi protetti tramite IRM che sono stati copiati nella cassetta postale di individuazione come risultato della ricerca di individuazione.
 
 
 > [!NOTE]

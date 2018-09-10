@@ -19,17 +19,17 @@ _**Ultima modifica dell'argomento:** 2013-05-03_
 
 [Creare un gateway IP di messaggistica unificata](create-a-um-ip-gateway-exchange-2013-help.md)
 
-[Gestire un gateway IP di messaggistica unificata](manage-a-um-ip-gateway-exchange-2013-help.md)
+[Gestire un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-ip-gateway)
 
 [Abilitare un gateway IP di messaggistica unificata](enable-a-um-ip-gateway-exchange-2013-help.md)
 
 [Disabilitare un gateway IP di messaggistica unificata](disable-a-um-ip-gateway-exchange-2013-help.md)
 
-[Configurare un nome di dominio completo](configure-a-fully-qualified-domain-name-exchange-2013-help.md)
+[Configurare un nome di dominio completo](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-fully-qualified-domain-name)
 
-[Configurare l'indirizzo IP](configure-the-ip-address-exchange-2013-help.md)
+[Configurare l'indirizzo IP](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-ip-address)
 
-[Configurare la porta di attesa](configure-the-listening-port-exchange-2013-help.md)
+[Configurare la porta di attesa](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-listening-port)
 
-[Eliminare un gateway IP di messaggistica unificata](delete-a-um-ip-gateway-exchange-2013-help.md)
+[Eliminare un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/delete-um-ip-gateway)
 

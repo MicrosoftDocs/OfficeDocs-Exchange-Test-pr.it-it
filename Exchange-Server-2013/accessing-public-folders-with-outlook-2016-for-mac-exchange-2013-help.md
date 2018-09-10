@@ -98,5 +98,5 @@ Negli articoli seguenti viene descritto come distribuire le cartelle pubbliche d
 
   - [Configurare le cartelle pubbliche di Exchange 2013 per una distribuzione ibrida](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
 
-  - [Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+  - [Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders)
 

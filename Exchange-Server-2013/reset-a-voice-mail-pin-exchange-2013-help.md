@@ -27,7 +27,7 @@ Quando un utente della posta vocale abilitato alla messaggistica unificata blocc
 
 
 
-Per ulteriori attività relative alla protezione del PIN di Outlook Voice Access, vedere [Procedure di protezione PIN](pin-security-procedures-exchange-2013-help.md).
+Per ulteriori attività relative alla protezione del PIN di Outlook Voice Access, vedere [Procedure di protezione PIN](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/pin-security-procedures).
 
 ## Che cosa è necessario sapere prima di iniziare
 

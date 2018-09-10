@@ -17,7 +17,7 @@ _**Si applica a:** Exchange Online, Exchange Server 2013_
 
 _**Ultima modifica dell'argomento:** 2015-03-09_
 
-Nella seguente panoramica, vengono illustrati i componenti di una definizione dello schema XML per i file modello del criterio di prevenzione della perdita di dati (DLP) e viene fornito anche un file di criteri di esempio in formato XML. Sarà utile comprendere l'architettura DLP generale e il processo di sviluppo delle regole prima di iniziare. Per ulteriori informazioni, vedere [Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) e [Definire modelli DLP e tipi di informazione propri](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
+Nella seguente panoramica, vengono illustrati i componenti di una definizione dello schema XML per i file modello del criterio di prevenzione della perdita di dati (DLP) e viene fornito anche un file di criteri di esempio in formato XML. Sarà utile comprendere l'architettura DLP generale e il processo di sviluppo delle regole prima di iniziare. Per ulteriori informazioni, vedere [Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) e [Definire modelli DLP e tipi di informazione propri](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 
 Per semplificare l'uso e la gestione delle soluzioni per la prevenzione della perdita di dati, in Exchange Server 2013 viene introdotto un modello concettuale noto come criteri DLP e modello di criteri. I modelli di criteri DLP offrono una struttura preliminare del criterio DLP desiderato. Affinché possa essere valutato, un modello di criterio DLP deve incapsulare tutte le direttive e gli oggetti dati richiesti per soddisfare un determinato obiettivo per i criteri, quale una normativa o un'esigenza aziendale. Il modello non è specifico dell'ambiente. Si tratta, semplicemente, di una definizione o modello di un criterio che può essere fornito come parte della configurazione del prodotto o distribuito da partner e rivenditori di software indipendenti. Al contrario, i criteri DLP sono installazioni di runtime dei modelli specifici dell'ambiente di distribuzione. Il framework dei criteri di messaggistica esistente può incorporare criteri DLP tramite l'uso di regole di trasporto. Le regole di trasporto forniscono una notevole flessibilità nell'adattamento e nella definizione della ricchezza delle soluzioni DLP.
 
@@ -315,7 +315,7 @@ Gli elementi figlio includono la seguente sequenza ordinata di elementi.
 
 ## Ulteriori informazioni
 
-[Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Definire modelli DLP e tipi di informazione propri](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 

@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2013-02-21_
 
 È possibile disabilitare o disabilitare la funzionalità Anteprima casella vocale per gli utenti associati al criterio cassetta postale di messaggistica unificata. La disabilitazione di questa impostazione consente di evitare che gli utenti ricevano il testo di un messaggio vocale nel corpo di un messaggio di posta elettronica o di testo. Tale opzione è abilitata per impostazione predefinita.
 
-Per altre attività di gestione relative ai criteri cassetta postale di messaggistica unificata, vedere [Procedure relative al criterio cassetta postale messaggistica unificata](um-mailbox-policy-procedures-exchange-2013-help.md).
+Per altre attività di gestione relative ai criteri cassetta postale di messaggistica unificata, vedere [Procedure relative al criterio cassetta postale messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures).
 
 ## Che cosa è necessario sapere prima di iniziare
 
@@ -27,7 +27,7 @@ Per altre attività di gestione relative ai criteri cassetta postale di messaggi
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Criteri cassette postali di messaggistica unificata" nell'argomento [Autorizzazioni della messaggistica unificate](unified-messaging-permissions-exchange-2013-help.md).
 
-  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
   - Prima di eseguire queste procedure, verificare che sia stato creato un criterio di cassetta postale di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un criterio cassetta postale di messaggistica unificata](create-a-um-mailbox-policy-exchange-2013-help.md).
 

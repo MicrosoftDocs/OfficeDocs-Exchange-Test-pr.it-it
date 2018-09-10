@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2016-12-09_
 
 I rapporti di recapito per gli amministratori consentono di tenere traccia delle informazioni sul recapito dei messaggi inviati o ricevuti da una specifica cassetta postale dell'organizzazione. Nello specifico, i rapporti di recapito per gli amministratori utilizzano l'interfaccia di amministrazione di Exchange (EAC) per eseguire una ricerca mirata dei registri di verifica messaggi. L'ambito della ricerca è sempre una specifica cassetta postale. È possibile cercare i messaggi inviati dalla cassetta postale oppure inviati alla cassetta postale nonché filtrare i risultati della ricerca in base all'oggetto del messaggio.
 
-In un rapporto di recapito non viene restituito il contenuto del corpo del messaggio, ma la riga dell'oggetto viene visualizzata nei risultati. Per cercare specifici messaggi di posta elettronica nelle cassette postali dell'organizzazione in base al contenuto dei messaggi, vedere [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md).
+In un rapporto di recapito non viene restituito il contenuto del corpo del messaggio, ma la riga dell'oggetto viene visualizzata nei risultati. Per cercare specifici messaggi di posta elettronica nelle cassette postali dell'organizzazione in base al contenuto dei messaggi, vedere [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 Le ricerche basate sui rapporti di recapito possono risultare utili nelle situazioni seguenti:
 

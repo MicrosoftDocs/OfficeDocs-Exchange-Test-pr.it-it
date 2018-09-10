@@ -25,9 +25,9 @@ Quando si configura un gateway VoIP, è necessario considerare se il dispositivo
 
 Di seguito vengono indicate le risorse consigliate in Exchange TechCenter che forniscono informazioni utili per la corretta configurazione dei gateway VoIP e dei sistemi PBX:
 
-  - **Documentazione sui gateway VoIP e sui sistemi IP PBX e PBX supportati**   [Sistema di telefonia per Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md) Sono inclusi i file di configurazione e le informazioni di installazione utilizzabili per la configurazione dei gateway VoIP e dei sistemi PBX.
+  - **Documentazione sui gateway VoIP e sui sistemi IP PBX e PBX supportati**   [Sistema di telefonia per Exchange 2013](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013) Sono inclusi i file di configurazione e le informazioni di installazione utilizzabili per la configurazione dei gateway VoIP e dei sistemi PBX.
 
-  - **Note tecniche e di configurazione**   [Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md) Sono inclusi i file di configurazione e le informazioni di installazione utilizzabili per la configurazione dei gateway VoIP e dei sistemi PBX.
+  - **Note tecniche e di configurazione**   [Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways) Sono inclusi i file di configurazione e le informazioni di installazione utilizzabili per la configurazione dei gateway VoIP e dei sistemi PBX.
 
   - **Configurazione di un gateway VoIP basata su AudioCodes**  [Risorse di Microsoft Exchange Server pagina](https://www.audiocodes.com/solutions/microsoft/exchange-server) fornisce le informazioni di configurazione e di supporto più recente che consentono di configurare i gateway VoIP basato su AudioCodes per l'utilizzo con la messaggistica unificata.
 
@@ -37,7 +37,7 @@ Di seguito vengono indicate le risorse consigliate in Exchange TechCenter che fo
 
 ## Ulteriori informazioni
 
-[Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+[Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
 [Connettersi alla messaggistica unificata a un gateway VoIP supportato](connect-um-to-a-supported-voip-gateway-exchange-2013-help.md)
 

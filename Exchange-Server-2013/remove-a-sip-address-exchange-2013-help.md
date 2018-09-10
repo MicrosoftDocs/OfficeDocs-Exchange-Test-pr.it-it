@@ -29,7 +29,7 @@ Se si rimuove l'indirizzo SIP primario, la messaggistica unificata non sarà in 
 
 È possibile visualizzare gli indirizzi SIP primario e secondario di un utente utilizzando il cmdlet **Get-UMMailbox** o **Get-Mailbox** in Shell.
 
-Per altre attività di gestione relative agli utenti abilitati alla posta vocale, vedere [Procedure utente abilitato alla posta vocale](voice-mail-enabled-user-procedures-exchange-2013-help.md).
+Per altre attività di gestione relative agli utenti abilitati alla posta vocale, vedere [Procedure utente abilitato alla posta vocale](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-enabled-user-procedures).
 
 ## Che cosa è necessario sapere prima di iniziare?
 
@@ -39,7 +39,7 @@ Per altre attività di gestione relative agli utenti abilitati alla posta vocale
 
   - Prima di eseguire questa procedura, verificare che sia stato creato un criterio di cassetta postale di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un criterio cassetta postale di messaggistica unificata](create-a-um-mailbox-policy-exchange-2013-help.md).
 
-  - Prima di eseguire queste procedure, verificare che la cassetta postale dell'utente sia stata abilitata alla messaggistica unificata e collegata a un dial plan URI SIP. Per la procedura dettagliata, vedere [Consentire a un utente per la segreteria telefonica](enable-a-user-for-voice-mail-exchange-2013-help.md).
+  - Prima di eseguire queste procedure, verificare che la cassetta postale dell'utente sia stata abilitata alla messaggistica unificata e collegata a un dial plan URI SIP. Per la procedura dettagliata, vedere [Consentire a un utente per la segreteria telefonica](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
   - Prima di eseguire queste procedure, verificare che gli indirizzi SIP primario e secondario siano configurati per l'utente.
 

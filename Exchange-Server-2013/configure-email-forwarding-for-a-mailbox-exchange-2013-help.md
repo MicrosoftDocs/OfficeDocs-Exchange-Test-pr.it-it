@@ -49,9 +49,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 Se si desidera inoltrare la posta elettronica a un indirizzo esterno all'organizzazione o a più destinatari, è possibile farlo.
 
-  - **Indirizzi esterni**Creare un contatto di posta elettronica e quindi, nella procedura sopra indicata, selezionare il contatto nella pagina **Seleziona destinatario**. Per informazioni su come creare un contatto di posta elettronica, consultare [Gestire i contatti di posta](manage-mail-contacts-exchange-2013-help.md).
+  - **Indirizzi esterni**Creare un contatto di posta elettronica e quindi, nella procedura sopra indicata, selezionare il contatto nella pagina **Seleziona destinatario**. Per informazioni su come creare un contatto di posta elettronica, consultare [Gestire i contatti di posta](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-contacts).
 
-  - **Più destinatari**Creare un gruppo di distribuzione, aggiungervi i destinatari e quindi, nella procedura sopra riportata, selezionare il contatto nella pagina **Seleziona destinatario**. Per informazioni su come creare un contatto di posta elettronica, consultare [Creazione e gestione dei gruppi di distribuzione](create-and-manage-distribution-groups-exchange-2013-help.md).
+  - **Più destinatari**Creare un gruppo di distribuzione, aggiungervi i destinatari e quindi, nella procedura sopra riportata, selezionare il contatto nella pagina **Seleziona destinatario**. Per informazioni su come creare un contatto di posta elettronica, consultare [Creazione e gestione dei gruppi di distribuzione](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups).
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 

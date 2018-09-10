@@ -27,7 +27,7 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 
   - [Cartella Elementi ripristinabili](recoverable-items-folder-exchange-2013-help.md)
 
-  - [Archiviazione sul posto e conservazione per controversia legale](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 ## Che cosa è necessario sapere prima di iniziare
 

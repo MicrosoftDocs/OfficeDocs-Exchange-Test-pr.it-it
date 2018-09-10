@@ -23,9 +23,9 @@ In Microsoft Exchange Server 2013, molti miglioramenti sono stati fatti per le r
 
 Le funzionalità di prevenzione della perdita di dati (DLP) in Exchange 2013 consentono alle organizzazioni di ridurre la divulgazione involontaria di dati importanti. Le regole di trasporto sono state aggiornate in modo da supportare le regole di creazione che accompagnano e rafforzano i criteri DLP. Per ulteriori informazioni sul supporto DLP nelle regole di trasporto, vedere i seguenti argomenti:
 
-[Integrazione di regole di informazioni sensibili con le regole di trasporto](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md)
+[Integrazione di regole di informazioni sensibili con le regole di trasporto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 
-[Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 ## Nuovi predicati e azioni
 

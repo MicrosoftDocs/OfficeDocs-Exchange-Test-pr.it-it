@@ -64,11 +64,11 @@ Nella tabella seguente sono contenuti i collegamenti agli argomenti che fornisco
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="address-lists-exchange-2013-help.md">Elenchi indirizzi</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/address-books/address-lists/address-lists">Elenchi indirizzi</a></p></td>
 <td><p>Ulteriori informazioni sugli elenchi di indirizzi e sugli elenchi indirizzi globali per fornire ai destinatari un accesso utente finale senza difficoltà.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="address-book-policies-exchange-2013-help.md">Criteri delle rubriche</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/address-book-policies">Criteri delle rubriche</a></p></td>
 <td><p>Ulteriori informazioni sulla modalità di suddivisione degli elenchi di indirizzi e degli elenchi indirizzi globali in organizzazioni virtuali separate.</p></td>
 </tr>
 <tr class="odd">
@@ -80,7 +80,7 @@ Nella tabella seguente sono contenuti i collegamenti agli argomenti che fornisco
 <td><p>Ulteriori informazioni sugli indirizzi di posta elettronica proxy per facilitare l'individuazione dei destinatari.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="hierarchical-address-books-exchange-2013-help.md">Rubriche gerarchiche</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/address-books/hierarchical-address-books/hierarchical-address-books">Rubriche gerarchiche</a></p></td>
 <td><p>Ulteriori informazioni sulla modalità di personalizzazione dell'elenco indirizzi globale e degli elenchi di indirizzi per soddisfare la struttura aziendale peculiare dell'organizzazione.</p></td>
 </tr>
 <tr class="even">

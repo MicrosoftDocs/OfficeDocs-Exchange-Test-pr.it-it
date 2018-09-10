@@ -25,7 +25,7 @@ _**Ultima modifica dell'argomento:** 2016-12-09_
 
 
 
-Per le attività di gestione aggiuntive relative ai criteri cassetta postale di messaggistica unificata, vedere [Procedure relative al criterio cassetta postale messaggistica unificata](um-mailbox-policy-procedures-exchange-2013-help.md).
+Per le attività di gestione aggiuntive relative ai criteri cassetta postale di messaggistica unificata, vedere [Procedure relative al criterio cassetta postale messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures).
 
 ## Che cosa è necessario sapere prima di iniziare?
 
@@ -33,7 +33,7 @@ Per le attività di gestione aggiuntive relative ai criteri cassetta postale di 
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Criteri cassette postali di messaggistica unificata" nell'argomento [Autorizzazioni della messaggistica unificate](unified-messaging-permissions-exchange-2013-help.md).
 
-  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
   - Prima di eseguire queste procedure, verificare che sia stato creato un criterio di cassetta postale di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un criterio cassetta postale di messaggistica unificata](create-a-um-mailbox-policy-exchange-2013-help.md).
 
@@ -49,7 +49,7 @@ Per le attività di gestione aggiuntive relative ai criteri cassetta postale di 
 
 ## Passaggio 1: Registrarsi con un servizio di partner
 
-Per l'elenco dei partner certificati e istruzioni dettagliate su come effettuare l'iscrizione, vedere [Advisor Anteprima messaggio vocale](voice-mail-preview-advisor-exchange-2013-help.md) oppure visitare il sito Web [Microsoft individuare](https://go.microsoft.com/fwlink/p/?linkid=281966) . Dopo aver effettuato l'accesso, è necessario immettere il partner Anteprima messaggio vocale è un ID partner e l'indirizzo SMTP da utilizzare per inoltrare i messaggi vocali.
+Per l'elenco dei partner certificati e istruzioni dettagliate su come effettuare l'iscrizione, vedere [Advisor Anteprima messaggio vocale](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/voice-mail-preview-advisor) oppure visitare il sito Web [Microsoft individuare](https://go.microsoft.com/fwlink/p/?linkid=281966) . Dopo aver effettuato l'accesso, è necessario immettere il partner Anteprima messaggio vocale è un ID partner e l'indirizzo SMTP da utilizzare per inoltrare i messaggi vocali.
 
 Nel passo 2, si applicheranno l'ID partner e l'indirizzo SMTP acquisiti nel passo 1 ai criteri cassetta postale di messaggistica unificata richiesti.
 
@@ -76,9 +76,9 @@ In questo esempio, viene impostata la durata massima del messaggio su 300 secon
 
 Se si desidera configurare il servizio partner per l'anteprima della casella vocale per alcuni (ma non tutti) utenti abilitati alla messaggistica unificata in un dial plan di messaggistica unificata, è necessario creare un nuovo criterio cassetta postale di messaggistica unificata e configurare le impostazioni per il partner. Una volta terminato. è possibile applicare il nuovo criterio agli utenti abilitati alla messaggistica unificata selezionati. Per ulteriori informazioni su come assegnare un utente abilitato alla messaggistica unificata a un criterio cassetta postale di messaggistica unificata, vedere i seguenti argomenti:
 
-  - [Assegnare un criterio cassetta postale di messaggistica unificata](assign-a-um-mailbox-policy-exchange-2013-help.md)
+  - [Assegnare un criterio cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/assign-um-mailbox-policy)
 
   - [Set-UMMailbox](https://technet.microsoft.com/it-it/library/bb124893\(v=exchg.150\))
 
-Per ulteriori informazioni sul programma partner Anteprima di posta vocale, vedere [Advisor Anteprima messaggio vocale](voice-mail-preview-advisor-exchange-2013-help.md).
+Per ulteriori informazioni sul programma partner Anteprima di posta vocale, vedere [Advisor Anteprima messaggio vocale](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/voice-mail-preview-advisor).
 

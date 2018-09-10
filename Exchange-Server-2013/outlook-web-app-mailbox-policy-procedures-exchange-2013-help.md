@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2012-09-22_
 
 [Creare un criterio cassetta postale di Outlook Web App](create-an-outlook-web-app-mailbox-policy-exchange-2013-help.md)
 
-[Applicare o rimuovere un criterio cassetta postale di Outlook Web App in una cassetta postale](apply-or-remove-an-outlook-web-app-mailbox-policy-on-a-mailbox-exchange-2013-help.md)
+[Applicare o rimuovere un criterio cassetta postale di Outlook Web App in una cassetta postale](https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/apply-or-remove-outlook-web-app-mailbox-policy)
 
 [Rimuovere un criterio cassetta postale di Outlook Web App da Exchange](remove-an-outlook-web-app-mailbox-policy-from-exchange-exchange-2013-help.md)
 

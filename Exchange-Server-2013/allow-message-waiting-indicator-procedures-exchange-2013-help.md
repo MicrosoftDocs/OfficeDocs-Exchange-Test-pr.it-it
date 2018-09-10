@@ -17,15 +17,15 @@ _**Si applica a:** Exchange Server 2013, Exchange Server 2016_
 
 _**Ultima modifica dell'argomento:** 2013-05-03_
 
-[Consenti messaggio in attesa indicatore (MWI) su un gateway IP di messaggistica unificata](allow-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
+[Consenti messaggio in attesa indicatore (MWI) su un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-mwi-on-um-ip-gateway)
 
-[Impedire a messaggi in attesa indicatore (MWI) su un gateway IP di messaggistica unificata](prevent-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
+[Impedire a messaggi in attesa indicatore (MWI) su un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-mwi-on-um-ip-gateway)
 
-[Abilitare i messaggi in attesa indicatore (MWI) per gli utenti](enable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
+[Abilitare i messaggi in attesa indicatore (MWI) per gli utenti](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-mwi-for-users)
 
-[Disattivare i messaggi in attesa indicatore (MWI) per gli utenti](disable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
+[Disattivare i messaggi in attesa indicatore (MWI) per gli utenti](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-mwi-for-users)
 
-[Attivare le notifiche di chiamata senza risposta a un utente](enable-missed-call-notifications-for-a-user-exchange-2013-help.md)
+[Attivare le notifiche di chiamata senza risposta a un utente](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-missed-call-notifications)
 
-[Disattivare le notifiche di chiamata senza risposta a un utente](disable-missed-call-notifications-for-a-user-exchange-2013-help.md)
+[Disattivare le notifiche di chiamata senza risposta a un utente](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-missed-call-notifications)
 

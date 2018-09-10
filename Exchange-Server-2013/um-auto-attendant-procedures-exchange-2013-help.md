@@ -19,35 +19,35 @@ _**Ultima modifica dell'argomento:** 2013-01-30_
 
 [Configurare un operatore automatico di messaggistica unificata](set-up-a-um-auto-attendant-exchange-2013-help.md)
 
-[Creazione di un operatore automatico di messaggistica unificata](create-a-um-auto-attendant-exchange-2013-help.md)
+[Creazione di un operatore automatico di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant)
 
-[Aggiungere un numero di interno operatore automatico](add-an-auto-attendant-extension-number-exchange-2013-help.md)
+[Aggiungere un numero di interno operatore automatico](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/add-an-auto-attendant-extension-number)
 
-[Configurare le ore lavorative](configure-business-hours-exchange-2013-help.md)
+[Configurare le ore lavorative](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-business-hours)
 
-[Creare una pianificazione di festività](create-a-holiday-schedule-exchange-2013-help.md)
+[Creare una pianificazione di festività](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-holiday-schedule)
 
-[Immettere il nome della società](enter-a-business-name-exchange-2013-help.md)
+[Immettere il nome della società](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enter-a-business-name)
 
-[Impostare la sede aziendale](set-a-business-location-exchange-2013-help.md)
+[Impostare la sede aziendale](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-a-business-location)
 
 [Configurare il fuso orario](configure-the-time-zone-exchange-2013-help.md)
 
 [Abilitare un orario di ufficio personalizzato messaggio di saluto](enable-a-customized-business-hours-greeting-exchange-2013-help.md)
 
-[Abilitare una richiesta di menu personalizzate orario di ufficio](enable-a-customized-business-hours-menu-prompt-exchange-2013-help.md)
+[Abilitare una richiesta di menu personalizzate orario di ufficio](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-business-hours-menu-prompt)
 
 [Abilitare un personalizzata non di ufficio messaggio di saluto](enable-a-customized-non-business-hours-greeting-exchange-2013-help.md)
 
-[Abilitare una richiesta di menu personalizzate non di ufficio](enable-a-customized-non-business-hours-menu-prompt-exchange-2013-help.md)
+[Abilitare una richiesta di menu personalizzate non di ufficio](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-non-business-hours-menu-prompt)
 
-[Abilitare un annuncio informativo](enable-an-informational-announcement-exchange-2013-help.md)
+[Abilitare un annuncio informativo](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-an-informational-announcement)
 
 [Creare lo spostamento tra menu](create-menu-navigation-exchange-2013-help.md)
 
-[Creazione di orari d'ufficio menu di spostamento](create-business-hours-navigation-menus-exchange-2013-help.md)
+[Creazione di orari d'ufficio menu di spostamento](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-business-hours-navigation-menus)
 
-[Creare le ore di inattività menu di spostamento](create-non-business-hours-navigation-menus-exchange-2013-help.md)
+[Creare le ore di inattività menu di spostamento](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-non-business-hours-navigation-menus)
 
 [Gestire un operatore automatico di messaggistica unificata](manage-a-um-auto-attendant-exchange-2013-help.md)
 
@@ -55,19 +55,19 @@ _**Ultima modifica dell'argomento:** 2013-01-30_
 
 [Abilitare un operatore automatico di messaggistica unificata](enable-a-um-auto-attendant-exchange-2013-help.md)
 
-[Disabilitare un operatore automatico di messaggistica unificata](disable-a-um-auto-attendant-exchange-2013-help.md)
+[Disabilitare un operatore automatico di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/disable-um-auto-attendant)
 
-[Eliminare un operatore automatico di messaggistica unificata](delete-a-um-auto-attendant-exchange-2013-help.md)
+[Eliminare un operatore automatico di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/delete-um-auto-attendant)
 
-[Abilitare o disabilitare il riconoscimento vocale automatico](enable-or-disable-automatic-speech-recognition-exchange-2013-help.md)
+[Abilitare o disabilitare il riconoscimento vocale automatico](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-or-disable-speech-recognition)
 
-[Consentire o impedire il trasferimento di chiamate da un operatore automatico](enable-or-prevent-transferring-calls-from-an-auto-attendant-exchange-2013-help.md)
+[Consentire o impedire il trasferimento di chiamate da un operatore automatico](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-or-prevent-transferring-calls)
 
-[Abilitare o disabilitare l'invio di messaggi vocali per gli utenti](enable-or-disable-sending-voice-messages-to-users-exchange-2013-help.md)
+[Abilitare o disabilitare l'invio di messaggi vocali per gli utenti](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-or-disable-sending-voice-messages)
 
 [Abilitare o disabilitare le ricerche di directory](enable-or-disable-directory-lookups-exchange-2013-help.md)
 
-[Configurare il gruppo di utenti che possono essere contattati](configure-the-group-of-users-that-can-be-contacted-exchange-2013-help.md)
+[Configurare il gruppo di utenti che possono essere contattati](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-users-that-can-be-contacted)
 
-[Configurare un operatore automatico per gli utenti con nomi simili](configure-an-auto-attendant-for-users-who-have-similar-names-exchange-2013-help.md)
+[Configurare un operatore automatico per gli utenti con nomi simili](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-auto-attendant-for-users-with-similar-names)
 

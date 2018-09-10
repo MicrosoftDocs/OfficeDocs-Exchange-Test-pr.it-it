@@ -31,17 +31,17 @@ Post-deployment tasks for Unified Messaging
 
 Prima di distribuire la messaggistica unificata, si consiglia di acquisire familiarità con i concetti dei seguenti argomenti:
 
-  - [Dial plan di messaggistica unificata](um-dial-plans-exchange-2013-help.md)
+  - [Dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans)
 
   - [Gateway IP di messaggistica unificata](um-ip-gateways-exchange-2013-help.md)
 
   - [Servizi di messaggistica unificata](um-services-exchange-2013-help.md)
 
-  - [Gruppi di risposta di messaggistica unificata](um-hunt-groups-exchange-2013-help.md)
+  - [Gruppi di risposta di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups)
 
   - [Rispondere automaticamente e il routing delle chiamate in arrivo](automatically-answer-and-route-incoming-calls-exchange-2013-help.md)
 
-  - [Criteri cassetta postale di messaggistica unificata](um-mailbox-policies-exchange-2013-help.md)
+  - [Criteri cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies)
 
   - [Segreteria telefonica per gli utenti](voice-mail-for-users-exchange-2013-help.md)
 
@@ -196,7 +196,7 @@ Utilizzare la procedura seguente per creare un nuovo gateway IP di messaggistica
 
 Se è stato creato un gateway IP di messaggistica unificata associato a un dial plan, viene creato un gruppo di risposta predefinito. È possibile associare un altro gruppo di risposta di messaggistica unificata allo stesso o a un altro gateway IP, a seconda del numero di gateway IP creati.
 
-Quando si crea un gruppo di risposta di messaggistica unificata, si abilitano tutti i server Cassette postali specificati all'interno del dial plan di messaggistica unificata per la comunicazione con un gateway VoIP. Per ulteriori informazioni, vedere [Gruppi di risposta di messaggistica unificata](um-hunt-groups-exchange-2013-help.md).
+Quando si crea un gruppo di risposta di messaggistica unificata, si abilitano tutti i server Cassette postali specificati all'interno del dial plan di messaggistica unificata per la comunicazione con un gateway VoIP. Per ulteriori informazioni, vedere [Gruppi di risposta di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups).
 
 ## Creazione di un gruppo di risposta di messaggistica unificata
 
@@ -292,7 +292,7 @@ Dopo aver completato l'installazione dei server Accesso client e Cassette postal
 
 ## Abilitazione degli utenti alla posta vocale.
 
-Dopo aver distribuito i gateway VoIP o IP PBX, aver installato i server Accesso client e Cassette postali e aver creato i componenti necessari per la messaggistica unificata, è necessario abilitare gli utenti alla messaggistica unificata. Per ulteriori informazioni, vedere [Consentire a un utente per la segreteria telefonica](enable-a-user-for-voice-mail-exchange-2013-help.md).
+Dopo aver distribuito i gateway VoIP o IP PBX, aver installato i server Accesso client e Cassette postali e aver creato i componenti necessari per la messaggistica unificata, è necessario abilitare gli utenti alla messaggistica unificata. Per ulteriori informazioni, vedere [Consentire a un utente per la segreteria telefonica](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
 ## Sistema di caselle vocali protette
 
@@ -312,11 +312,11 @@ Per utilizzare TLS e crittografare il traffico SIP e RTP (Realtime Transport Pro
 
   - Configurare la modalità di avvio sul server Accesso client e Cassette postali. Per ulteriori informazioni, vedere [Configurare la modalità di avvio in un server cassette postali](configure-the-startup-mode-on-a-mailbox-server-exchange-2013-help.md) e [Configurare la modalità di avvio in un server Accesso Client](configure-the-startup-mode-on-a-client-access-server-exchange-2013-help.md).
 
-  - Configurare i gateway IP di messaggistica unificata per l'ascolto sulla porta 5061. Per informazioni dettagliate, vedere [Configurare la porta di attesa](configure-the-listening-port-exchange-2013-help.md).
+  - Configurare i gateway IP di messaggistica unificata per l'ascolto sulla porta 5061. Per informazioni dettagliate, vedere [Configurare la porta di attesa](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-listening-port).
 
 ## Criteri PIN per gli utenti abilitati alla messaggistica unificata
 
-Nella messaggistica unificata, i criteri del PIN vengono definiti e configurati su un criterio cassetta postale di messaggistica unificata. Quando viene abilitato alla messaggistica unificata, l'utente viene associato a un criterio cassetta postale di messaggistica unificata esistente. I criteri del PIN di messaggistica unificata configurati sul criterio di messaggistica unificata devono essere basati sui requisiti di protezione dell'organizzazione. Per ulteriori informazioni sulla configurazione delle impostazioni PIN per gli utenti abilitati alla messaggistica unificata, vedere [Configurare la protezione di Outlook Voice Access PIN](set-outlook-voice-access-pin-security-exchange-2013-help.md).
+Nella messaggistica unificata, i criteri del PIN vengono definiti e configurati su un criterio cassetta postale di messaggistica unificata. Quando viene abilitato alla messaggistica unificata, l'utente viene associato a un criterio cassetta postale di messaggistica unificata esistente. I criteri del PIN di messaggistica unificata configurati sul criterio di messaggistica unificata devono essere basati sui requisiti di protezione dell'organizzazione. Per ulteriori informazioni sulla configurazione delle impostazioni PIN per gli utenti abilitati alla messaggistica unificata, vedere [Configurare la protezione di Outlook Voice Access PIN](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-outlook-voice-access-pin-security).
 
 ## Installazione delle funzionalità di posta vocale del client
 
@@ -324,7 +324,7 @@ Una volta distribuiti i server e i componenti di messaggistica unificata richies
 
   - [Configurazione di Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md)
 
-  - [Consentire agli utenti di posta elettronica di inoltrare le chiamate vocali](allow-voice-mail-users-to-forward-calls-exchange-2013-help.md)
+  - [Consentire agli utenti di posta elettronica di inoltrare le chiamate vocali](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-voice-mail-users-to-forward-calls)
 
   - [Consentire agli utenti di visualizzare una trascrizione di posta vocale](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md)
 

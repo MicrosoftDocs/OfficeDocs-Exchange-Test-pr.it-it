@@ -112,23 +112,23 @@ Per ulteriori informazioni sull'aggiunta, la rimozione o la modifica delle esten
 
   - [Modificare un numero interno](change-an-extension-number-exchange-2013-help.md)
 
-  - [Aggiungere un numero interno](add-an-extension-number-exchange-2013-help.md)
+  - [Aggiungere un numero interno](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-extension-number)
 
-  - [Rimuovere un numero interno](remove-an-extension-number-exchange-2013-help.md)
+  - [Rimuovere un numero interno](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-extension-number)
 
 Per modificare gli indirizzi SIP o i numeri E.164 per gli utenti di messaggistica unificata, vedere:
 
   - [Aggiungere un indirizzo SIP](add-a-sip-address-exchange-2013-help.md)
 
-  - [Modificare un indirizzo SIP](change-a-sip-address-exchange-2013-help.md)
+  - [Modificare un indirizzo SIP](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-sip-address)
 
   - [Rimuovere un indirizzo SIP](remove-a-sip-address-exchange-2013-help.md)
 
-  - [Aggiungere un numero e. 164](add-an-e-164-number-exchange-2013-help.md)
+  - [Aggiungere un numero e. 164](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-e-164-number)
 
-  - [Modificare un numero e. 164](change-an-e-164-number-exchange-2013-help.md)
+  - [Modificare un numero e. 164](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-e-164-number)
 
-  - [Rimuovere un numero e. 164](remove-an-e-164-number-exchange-2013-help.md)
+  - [Rimuovere un numero e. 164](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-e-164-number)
 
 ## Risponditore automatico
 

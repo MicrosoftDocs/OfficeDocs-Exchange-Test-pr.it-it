@@ -21,7 +21,7 @@ _**Ultima modifica dell'argomento:** 2012-11-05_
 
 Se questa impostazione viene disabilitata per un utente abilitato alla messaggistica unificata, la sua cassetta postale potrà comunque essere individuata tramite una ricerca nella directory. Tuttavia, se un chiamante esterno tenta di trasferire una chiamata a questo utente, il sistema notificherà l'impossibilità di farlo e la chiamata verrà quindi trasferita all'operatore configurato sull'operatore automatico. Se tale operatore non è stato configurato, la chiamata verrà trasferita all'operatore eventualmente configurato nel dial plan. Se non è stato configurato alcun interno sull'operatore automatico abilitato alla sintesi vocale, sull'operatore automatico del fallback del segnale multifrequenza o sul dial plan, il sistema notificherà che né l'operatore né il servizio a toni sono disponibili.
 
-Per altre attività di gestione relative agli utenti abilitati alla posta vocale, vedere [Procedure utente abilitato alla posta vocale](voice-mail-enabled-user-procedures-exchange-2013-help.md).
+Per altre attività di gestione relative agli utenti abilitati alla posta vocale, vedere [Procedure utente abilitato alla posta vocale](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-enabled-user-procedures).
 
 ## Che cosa è necessario sapere prima di iniziare
 
@@ -29,11 +29,11 @@ Per altre attività di gestione relative agli utenti abilitati alla posta vocale
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Cassette postali di messaggistica unificata" nell'argomento [Autorizzazioni della messaggistica unificate](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Prima di eseguire questa procedura, verificare che sia stato creato un dial plan di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+  - Prima di eseguire questa procedura, verificare che sia stato creato un dial plan di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
   - Prima di eseguire questa procedura, verificare che sia stato creato un criterio di cassetta postale di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un criterio cassetta postale di messaggistica unificata](create-a-um-mailbox-policy-exchange-2013-help.md).
 
-  - Prima di eseguire questa procedura, verificare che la cassetta postale dell'utente sia stata abilitata alla messaggistica unificata. Per la procedura dettagliata, vedere [Consentire a un utente per la segreteria telefonica](enable-a-user-for-voice-mail-exchange-2013-help.md).
+  - Prima di eseguire questa procedura, verificare che la cassetta postale dell'utente sia stata abilitata alla messaggistica unificata. Per la procedura dettagliata, vedere [Consentire a un utente per la segreteria telefonica](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

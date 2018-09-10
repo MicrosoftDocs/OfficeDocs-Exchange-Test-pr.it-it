@@ -23,11 +23,11 @@ _**Ultima modifica dell'argomento:** 2015-04-13_
 
 [Creare a livello di organizzazione mittenti attendibili o degli elenchi di mittenti bloccati in Office 365](https://technet.microsoft.com/it-it/library/dn198251\(v=exchg.150\))   Informazioni che consentono di creare elenchi di mittenti attendibili o bloccati in base al dominio o all'utente tramite regole di trasporto.
 
-[Utilizzare regole del flusso di posta per instradare le e-mail in base a un elenco di parole, frasi o motivi](use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md) Informazioni che consentono di adeguarsi a criteri di posta elettronica dell'organizzazione.
+[Utilizzare regole del flusso di posta per instradare le e-mail in base a un elenco di parole, frasi o motivi](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email) Informazioni che consentono di adeguarsi a criteri di posta elettronica dell'organizzazione.
 
 [Registrazione dei IFilter di Filter Pack con Exchange 2013](register-filter-pack-ifilters-with-exchange-2013-exchange-2013-help.md)   Informazioni che consentono di registrare ulteriori tipi di file per gli allegati in modo che le regole di trasporto applicabili agli allegati in grado di analizzare i tipi di file.
 
-[Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md)   Informazioni che consentono di creare, visualizzare, modificare, abilitare, disabilitare o rimuovere una regola di trasporto e informazioni sull'importazione ed esportazione di raccolte di regole di trasporto.
+[Gestire le regole di flusso di posta elettronica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)   Informazioni che consentono di creare, visualizzare, modificare, abilitare, disabilitare o rimuovere una regola di trasporto e informazioni sull'importazione ed esportazione di raccolte di regole di trasporto.
 
-[Procedure consigliate per la configurazione delle regole del flusso di posta](best-practices-for-configuring-mail-flow-rules-exchange-2013-help.md)   Informazioni che consentono di evitare errori comuni di configurazione.
+[Procedure consigliate per la configurazione delle regole del flusso di posta](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices)   Informazioni che consentono di evitare errori comuni di configurazione.
 

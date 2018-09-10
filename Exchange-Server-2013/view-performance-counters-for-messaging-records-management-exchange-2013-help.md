@@ -19,9 +19,9 @@ _**Ultima modifica dell'argomento:** 2009-12-09_
 
 È possibile utilizzare Monitoraggio affidabilità e prestazioni di Windows (Perfmon.exe) per selezionare e visualizzare i contatori delle prestazioni per la gestione dei record di messaggistica (MRM). Utilizzando i contatori delle prestazioni è possibile monitorare l'Assistente cartelle gestite mentre esegue processi della gestione record di messaggistica che impiegano molte risorse.
 
-Per un elenco dei contatori delle prestazioni per la gestione record di messaggistica, vedere [Contatori delle prestazioni per la gestione dei record di messaggistica](performance-counters-for-messaging-records-management-exchange-2013-help.md).
+Per un elenco dei contatori delle prestazioni per la gestione record di messaggistica, vedere [Contatori delle prestazioni per la gestione dei record di messaggistica](performance-counters-for-https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
-Per informazioni sulle altre attività relative al monitoraggio della gestione record di messaggistica, vedere [Gestione dei record di messaggistica di monitoraggio](monitoring-messaging-records-management-exchange-2013-help.md).
+Per informazioni sulle altre attività relative al monitoraggio della gestione record di messaggistica, vedere [Gestione dei record di messaggistica di monitoraggio](monitoring-https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
 ## Utilizzo di Monitoraggio affidabilità e prestazioni di Windows per visualizzare i contatori delle prestazioni per la gestione record di messaggistica
 

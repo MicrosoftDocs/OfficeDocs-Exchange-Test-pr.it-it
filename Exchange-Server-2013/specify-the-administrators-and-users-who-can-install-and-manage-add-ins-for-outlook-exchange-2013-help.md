@@ -39,7 +39,7 @@ Per impostazione predefinita, tutti gli amministratori con ruolo **Gestione orga
 
 Per informazioni su ognuno di questi ruoli, vedere [Ruolo App Marketplace dell'organizzazione](org-marketplace-apps-role-exchange-2013-help.md), [Ruolo dell'organizzazione personalizzato App](org-custom-apps-role-exchange-2013-help.md), [Il ruolo App Marketplace](my-marketplace-apps-role-exchange-2013-help.md), [Il ruolo personalizzato App](my-custom-apps-role-exchange-2013-help.md) e [Il ruolo ReadWriteMailbox App](my-readwritemailbox-apps-role-exchange-2013-help.md).
 
-Per informazioni sui componenti aggiuntivi, vedere [App per Outlook](add-ins-for-outlook-exchange-2013-help.md).
+Per informazioni sui componenti aggiuntivi, vedere [App per Outlook](https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook).
 
 ## Che cosa è necessario sapere prima di iniziare
 

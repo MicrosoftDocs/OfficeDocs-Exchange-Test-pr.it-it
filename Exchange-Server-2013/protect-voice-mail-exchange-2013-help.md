@@ -243,7 +243,7 @@ Inizio pagina
 
 ## Criteri cassetta postale di messaggistica unificata
 
-È possibile creare un criterio cassetta postale di messaggistica unificata per applicare un set di impostazioni di criteri di messaggistica UNIFICATA, ad esempio le impostazioni di criteri PIN, le restrizioni di composizione e le impostazioni di posta vocale protetta comuni a un insieme di cassette postali abilitate alla messaggistica UNIFICATA. Per ulteriori informazioni sui criteri cassetta postale di messaggistica UNIFICATA, vedere [Gestire i criteri cassetta postale di messaggistica unificata](manage-a-um-mailbox-policy-exchange-2013-help.md).
+È possibile creare un criterio cassetta postale di messaggistica unificata per applicare un set di impostazioni di criteri di messaggistica UNIFICATA, ad esempio le impostazioni di criteri PIN, le restrizioni di composizione e le impostazioni di posta vocale protetta comuni a un insieme di cassette postali abilitate alla messaggistica UNIFICATA. Per ulteriori informazioni sui criteri cassetta postale di messaggistica UNIFICATA, vedere [Gestire i criteri cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy).
 
 Per configurare le opzioni del Sistema di caselle vocali protette, è possibile utilizzare EAC o il cmdlet **Set-UMMailboxPolicy**. Nella tabella seguente sono elencate le impostazioni configurabili del Sistema di caselle vocali protette.
 
@@ -293,7 +293,7 @@ Per configurare le opzioni del Sistema di caselle vocali protette, è possibile 
 </table>
 
 
-Per ulteriori informazioni sulla gestione delle impostazioni del Sistema di caselle vocali, vedere [Procedure della casella vocale protette](protected-voice-mail-procedures-exchange-2013-help.md) o [Set-UMMailboxPolicy](https://technet.microsoft.com/it-it/library/bb124903\(v=exchg.150\)).
+Per ulteriori informazioni sulla gestione delle impostazioni del Sistema di caselle vocali, vedere [Procedure della casella vocale protette](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures) o [Set-UMMailboxPolicy](https://technet.microsoft.com/it-it/library/bb124903\(v=exchg.150\)).
 
 Inizio pagina
 

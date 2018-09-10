@@ -29,17 +29,17 @@ _**Ultima modifica dell'argomento:** 2015-03-27_
 
   - Creare notifiche che avvisino gli utenti se inviano un messaggio che corrisponde a una regola di trasporto.
 
-  - Consente di bloccare tutti i messaggi contenenti allegati. Per esempi, vedere [Scenari comuni relativi al blocco degli allegati](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md).
+  - Consente di bloccare tutti i messaggi contenenti allegati. Per esempi, vedere [Scenari comuni relativi al blocco degli allegati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios).
 
 Gli amministratori di Exchange possono creare regole di trasporto andando su **Exchange Admin Center** \> **Flusso di posta** \> **Regole**. È necessario disporre delle autorizzazioni prima di poter eseguire questa procedura. Dopo aver creato una nuova regola, è possibile visualizzare l'elenco completo di condizioni relative agli allegati facendo clic su **Altre opzioni** \> **Qualsiasi allegato** sotto **Applica questa regola se**. Le opzioni relative agli allegati sono mostrate nel seguente diagramma.
 
 ![Finestra di dialogo per selezionare le regole correlate agli allegati](images/JJ674307.2ae4a179-bfd2-4a0e-abe1-53ed4e9e3368(EXCHG.150).jpg "Finestra di dialogo per selezionare le regole correlate agli allegati")
 
-Per ulteriori informazioni sulle regole di trasporto, inclusa la gamma completa di condizioni e azioni tra cui scegliere, vedere [Regole del flusso di posta o di trasporto](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md). Exchange Online Protection (EOP) e clienti ibridi possono beneficiare delle migliori regole di trasporto fornite in [Procedure consigliate per la configurazione di EOP](https://technet.microsoft.com/it-it/library/jj723164\(v=exchg.150\)). Se si è pronti per creare regole, vedere [Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md).
+Per ulteriori informazioni sulle regole di trasporto, inclusa la gamma completa di condizioni e azioni tra cui scegliere, vedere [Regole del flusso di posta o di trasporto](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md). Exchange Online Protection (EOP) e clienti ibridi possono beneficiare delle migliori regole di trasporto fornite in [Procedure consigliate per la configurazione di EOP](https://technet.microsoft.com/it-it/library/jj723164\(v=exchg.150\)). Se si è pronti per creare regole, vedere [Gestire le regole di flusso di posta elettronica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 ## Esaminare il contenuto all'interno di allegati
 
-Si possono utilizzare le condizioni di regole di trasporto nella tabella seguente per esaminare il contenuto degli allegati dei messaggi. Per queste condizioni, solo i primi 150 KB di un allegato vengono esaminati. Per iniziare a utilizzare queste condizioni quando si esaminano i messaggi, è necessario aggiungerle a una regola di trasporto. Informazioni su come imparare o modificare regole su [Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md).
+Si possono utilizzare le condizioni di regole di trasporto nella tabella seguente per esaminare il contenuto degli allegati dei messaggi. Per queste condizioni, solo i primi 150 KB di un allegato vengono esaminati. Per iniziare a utilizzare queste condizioni quando si esaminano i messaggi, è necessario aggiungerle a una regola di trasporto. Informazioni su come imparare o modificare regole su [Gestire le regole di flusso di posta elettronica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 
 <table>
@@ -158,7 +158,7 @@ Nella tabella seguente sono elencati i tipi di file supportati dalle regole di t
 
 ## Esaminare le proprietà del file degli allegati
 
-La seguente condizione di regola di trasporto esamina le proprietà di un file allegato a un messaggio. Per iniziare a utilizzare queste condizioni quando si esaminano i messaggi, è necessario aggiungerle a una regola di trasporto. Un elenco di tipi di file con codici eseguibili che possono essere controllati nel contesto delle regole di trasporto è qui riportato. Per ulteriori informazioni sulla creazione o la modifica di regole di trasporto, vedere [Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md).
+La seguente condizione di regola di trasporto esamina le proprietà di un file allegato a un messaggio. Per iniziare a utilizzare queste condizioni quando si esaminano i messaggi, è necessario aggiungerle a una regola di trasporto. Un elenco di tipi di file con codici eseguibili che possono essere controllati nel contesto delle regole di trasporto è qui riportato. Per ulteriori informazioni sulla creazione o la modifica di regole di trasporto, vedere [Gestire le regole di flusso di posta elettronica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 
 <table>
@@ -312,11 +312,11 @@ Per gestire più facilmente informazioni importanti aziendali nella posta elettr
 
   - Definire una misura da adottare per la posta che contiene numeri di passaporto che non sono in file protetti.
 
-Criteri di prevenzione della perdita di dati (DLP) e condizioni relative agli allegati possono soddisfare maggiormente le necessità aziendali definendo quelle condizioni delle regole di trasporto, eccezioni e azioni. Includendo l'ispezione di dati sensibili in un criterio di prevenzione della perdita di dati (DLP), tutti gli allegati vengono esaminati solo per quel dato richiesto. Tuttavia, le condizioni relative agli allegati come dimensione e tipo di file, non sono incluse fintantoché non vengano aggiunte le condizioni elencate in questo argomento. Criteri di prevenzione della perdita di dati non sono disponibili con tutte le versioni di Exchange; per ulteriori informazioni, vedere [Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
+Criteri di prevenzione della perdita di dati (DLP) e condizioni relative agli allegati possono soddisfare maggiormente le necessità aziendali definendo quelle condizioni delle regole di trasporto, eccezioni e azioni. Includendo l'ispezione di dati sensibili in un criterio di prevenzione della perdita di dati (DLP), tutti gli allegati vengono esaminati solo per quel dato richiesto. Tuttavia, le condizioni relative agli allegati come dimensione e tipo di file, non sono incluse fintantoché non vengano aggiunte le condizioni elencate in questo argomento. Criteri di prevenzione della perdita di dati non sono disponibili con tutte le versioni di Exchange; per ulteriori informazioni, vedere [Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention).
 
 ## Ulteriori informazioni
 
-[Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Regole del flusso di posta o di trasporto](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)
 

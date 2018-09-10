@@ -27,7 +27,7 @@ Dopo aver creato una ricerca eDiscovery In locale, è possibile utilizzare EAC p
 
   - Una ricerca eDiscovery deve essere creato tramite EAC o Shell, prima di copiare i risultati della ricerca. Per ulteriori informazioni, vedere [Creazione di una ricerca eDiscovery sul posto](create-an-in-place-ediscovery-search-exchange-2013-help.md).
 
-  - Exchange 2013 Il programma di installazione consente di creare una cassetta postale di individuazione denominata una **Cassetta postale di individuazione** per copiare i risultati della ricerca. La cassetta postale di individuazione viene creata anche in Exchange Online per impostazione predefinita. È possibile creare cassette postali di individuazione aggiuntive. Per ulteriori informazioni, vedere [Creazione di una cassetta postale di individuazione](create-a-discovery-mailbox-exchange-2013-help.md).
+  - Exchange 2013 Il programma di installazione consente di creare una cassetta postale di individuazione denominata una **Cassetta postale di individuazione** per copiare i risultati della ricerca. La cassetta postale di individuazione viene creata anche in Exchange Online per impostazione predefinita. È possibile creare cassette postali di individuazione aggiuntive. Per ulteriori informazioni, vedere [Creazione di una cassetta postale di individuazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/create-a-discovery-mailbox).
 
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -93,7 +93,7 @@ Per copiare i risultati della ricerca in una cassetta postale di individuazione,
 
 ## Ulteriori informazioni sulla copia dei risultati di ricerca
 
-  - Dopo aver copiato i risultati della ricerca per la cassetta postale di individuazione, è possibile esportare i risultati della ricerca in un file PST. Per ulteriori informazioni, vedere [Esportazione dei risultati della ricerca eDiscovery in un file PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md).
+  - Dopo aver copiato i risultati della ricerca per la cassetta postale di individuazione, è possibile esportare i risultati della ricerca in un file PST. Per ulteriori informazioni, vedere [Esportazione dei risultati della ricerca eDiscovery in un file PST](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/export-search-results).
 
   - Per ulteriori informazioni sugli elementi non ricercabili, vedere [Elementi non ricercabili in Exchange eDiscovery](unsearchable-items-in-exchange-ediscovery-exchange-2013-help.md).
 

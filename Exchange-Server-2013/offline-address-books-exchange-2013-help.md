@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2014-11-16_
 
 Una rubrica offline è la copia di una raccolta di indirizzi di posta elettronica scaricata in modo tale da consentire a un utente di Microsoft Outlook di accedere alla rubrica quando è disconnesso dal server. Microsoft Exchange genera i nuovi file della rubrica offline, li comprime e li archivia in una condivisione locale. È possibile scegliere quali elenchi di indirizzi rendere disponibili agli utenti che lavorano offline e configurare il metodo di distribuzione di tali rubriche.
 
-Per ulteriori informazioni sugli elenchi di indirizzi, vedere [Elenchi indirizzi](address-lists-exchange-2013-help.md).
+Per ulteriori informazioni sugli elenchi di indirizzi, vedere [Elenchi indirizzi](https://docs.microsoft.com/it-it/exchange/address-books/address-lists/address-lists).
 
 
 > [!IMPORTANT]
@@ -27,7 +27,7 @@ Per ulteriori informazioni sugli elenchi di indirizzi, vedere [Elenchi indirizzi
 
 
 
-Per informazioni sulle attività di gestione relative alle rubriche offline? vedere [Procedure della Rubrica fuori rete](offline-address-book-procedures-exchange-2013-help.md).
+Per informazioni sulle attività di gestione relative alle rubriche offline? vedere [Procedure della Rubrica fuori rete](https://docs.microsoft.com/it-it/exchange/address-books/offline-address-books/offline-address-book-procedures).
 
 **Sommario**
 
@@ -75,7 +75,7 @@ Per funzionare correttamente, la distribuzione basata su Web dipende dai seguent
 
   - **Distribuzione della rubrica offline**   Se un client avvia la richiesta di distribuzione della rubrica offline, la richiesta verrà indirizzata attraverso un server Accesso client. Il server Accesso client inoltra la richiesta al server Cassette postali che ospita i file della rubrica offline. I file della rubrica offline vengono distribuiti direttamente dal server Cassette postali al client.
 
-  - **Directory virtuale della Rubrica offline**   La directory virtuale della Rubrica offline è il punto di distribuzione utilizzato dal metodo di distribuzione basata su Web. Per impostazione predefinita, quando si installa Exchange, viene creata una nuova directory virtuale denominata **OAB** nel sito Web interno predefinito in IIS (Internet Information Services). Se esistono utenti sul lato client che si connettono a Outlook esternamente al firewall dell'organizzazione, è possibile aggiungere un sito Web esterno. In alternativa, quando viene eseguito il cmdlet **New-OABVirtualDirectory** in Shell, viene creata una nuova directory virtuale denominata OAB nel sito Web IIS predefinito sul server Accesso client Exchange locale. Per informazioni, vedere [Creare una directory virtuale della Rubrica offline](create-an-offline-address-book-virtual-directory-exchange-2013-help.md).
+  - **Directory virtuale della Rubrica offline**   La directory virtuale della Rubrica offline è il punto di distribuzione utilizzato dal metodo di distribuzione basata su Web. Per impostazione predefinita, quando si installa Exchange, viene creata una nuova directory virtuale denominata **OAB** nel sito Web interno predefinito in IIS (Internet Information Services). Se esistono utenti sul lato client che si connettono a Outlook esternamente al firewall dell'organizzazione, è possibile aggiungere un sito Web esterno. In alternativa, quando viene eseguito il cmdlet **New-OABVirtualDirectory** in Shell, viene creata una nuova directory virtuale denominata OAB nel sito Web IIS predefinito sul server Accesso client Exchange locale. Per informazioni, vedere [Creare una directory virtuale della Rubrica offline](https://docs.microsoft.com/it-it/exchange/address-books/offline-address-books/create-virtual-directory).
 
   - **Servizio di individuazione automatica**   È una funzionalità disponibile in Outlook 2013, Outlook 2010 o Outlook 2007 e in alcuni dispositivi mobili che configura automaticamente i client per l'accesso a Exchange. Il servizio è in esecuzione su un server Accesso client e restituisce l'URL corretto della Rubrica fuori rete per una specifica connessione del client.
 
