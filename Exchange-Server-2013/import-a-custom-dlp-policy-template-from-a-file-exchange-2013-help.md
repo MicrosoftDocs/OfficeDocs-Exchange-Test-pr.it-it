@@ -69,5 +69,5 @@ In questo esempio consente di importare un file modello dei criteri DLP personal
 
 ## Ulteriori informazioni
 
-[Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 

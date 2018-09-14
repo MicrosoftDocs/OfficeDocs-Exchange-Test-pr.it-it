@@ -63,7 +63,7 @@ La tabella seguente contiene collegamenti agli argomenti utili per saperne di pi
 <td><p>Informazioni su Outlook Web App, che fornisce agli utenti l'accesso alle cassette postali di Exchange 2013 tramite browser.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="mailtips-exchange-2013-help.md">MailTips</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips">MailTips</a></p></td>
 <td><p>Informazioni sui suggerimenti messaggio, messaggi informativi visualizzati agli utenti durante la composizione di un messaggio.</p></td>
 </tr>
 </tbody>

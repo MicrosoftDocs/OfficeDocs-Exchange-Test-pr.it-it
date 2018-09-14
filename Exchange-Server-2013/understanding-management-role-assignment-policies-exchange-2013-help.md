@@ -107,7 +107,7 @@ Nella seguente tabella vengono elencati il livello dei criteri di assegnazione d
 <tbody>
 <tr class="odd">
 <td><p>Cassetta postale</p></td>
-<td><p><a href="manage-user-mailboxes-exchange-2013-help.md">Gestire le cassette postali degli utenti</a></p>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Gestire le cassette postali degli utenti</a></p>
 <p><a href="change-the-assignment-policy-on-a-mailbox-exchange-2013-help.md">Modificare il criterio di assegnazione di una cassetta postale</a></p></td>
 </tr>
 <tr class="even">

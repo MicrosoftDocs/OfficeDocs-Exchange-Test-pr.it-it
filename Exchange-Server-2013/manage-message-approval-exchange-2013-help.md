@@ -29,7 +29,7 @@ In questo articolo viene descritto:
 
   - Come funziona il processo di approvazione
 
-Per informazioni su come implementare scenari comuni, vedere [Scenari comuni di approvazione messaggio](common-message-approval-scenarios-exchange-2013-help.md).
+Per informazioni su come implementare scenari comuni, vedere [Scenari comuni di approvazione messaggio](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/common-message-approval-scenarios).
 
 ## Come stabilire l'approccio approvazione da utilizzare
 
@@ -113,7 +113,7 @@ Un gruppo di distribuzione può includere i destinatari con moderatore che richi
 
 **È il processo diverso se si dispone di un server di Exchange?**
 
-Per impostazione predefinita, viene utilizzata una cassetta postale di arbitraggio per ogni organizzazione di Exchange. Se si dispone di server Exchange e necessitano di ulteriori cassette postali di arbitraggio di bilanciamento del carico, seguire le istruzioni per l'aggiunta di cassette postali di arbitraggio nel [Gestire e risolvere i problemi di approvazione del messaggio](manage-and-troubleshoot-message-approval-exchange-2013-help.md). Cassette postali di arbitraggio sono cassette postali di sistema e non richiedono una licenza di Exchange.
+Per impostazione predefinita, viene utilizzata una cassetta postale di arbitraggio per ogni organizzazione di Exchange. Se si dispone di server Exchange e necessitano di ulteriori cassette postali di arbitraggio di bilanciamento del carico, seguire le istruzioni per l'aggiunta di cassette postali di arbitraggio nel [Gestire e risolvere i problemi di approvazione del messaggio](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/ttroubleshoot-message-approval). Cassette postali di arbitraggio sono cassette postali di sistema e non richiedono una licenza di Exchange.
 
 
 > [!NOTE]
@@ -125,7 +125,7 @@ Inizio pagina
 
 ## Ulteriori informazioni
 
-[Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md)
+[Gestire le regole di flusso di posta elettronica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 [Riferimento rapido a Exchange Management Shell per Exchange 2013](exchange-management-shell-quick-reference-for-exchange-2013-exchange-2013-help.md)
 

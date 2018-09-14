@@ -92,7 +92,7 @@ Il contenuto della Guida di Exchange 2013 comprende le seguenti categorie di pri
 
   - [Prestazioni e lo stato dei server](server-health-and-performance-exchange-2013-help.md)
 
-  - [Informazioni sulla documentazione di Exchange](about-exchange-documentation-exchange-2013-help.md)
+  - [Informazioni sulla documentazione di Exchange](https://docs.microsoft.com/it-it/exchange/about-exchange-documentation)
 
 
 > [!NOTE]

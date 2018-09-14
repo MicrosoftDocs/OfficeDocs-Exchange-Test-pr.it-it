@@ -247,7 +247,7 @@ Inizio pagina
 
 ## Configurazione di fax
 
-Per impostazione predefinita, quando si installa il server cassette postali, il server non è configurato per consentire le chiamate fax in arrivo devono essere elaborati o inviati a un utente abilitato alla messaggistica unificata. Per configurare la messaggistica unificata con un server partner fax, è necessario configurare il criterio cassetta postale di messaggistica unificata e configurare l'autenticazione tra server cassette postali e il server partner fax. Per ulteriori informazioni, vedere [Impostazione di fax in arrivo](setting-up-incoming-faxing-exchange-2013-help.md).
+Per impostazione predefinita, quando si installa il server cassette postali, il server non è configurato per consentire le chiamate fax in arrivo devono essere elaborati o inviati a un utente abilitato alla messaggistica unificata. Per configurare la messaggistica unificata con un server partner fax, è necessario configurare il criterio cassetta postale di messaggistica unificata e configurare l'autenticazione tra server cassette postali e il server partner fax. Per ulteriori informazioni, vedere [Impostazione di fax in arrivo](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-incoming-faxing).
 
 Inizio pagina
 
@@ -281,7 +281,7 @@ Inizio pagina
 
 ## Più numeri di telefono DID
 
-Quando si attiva un utente per la messaggistica unificata, è necessario immettere almeno un numero di interno singolo per tale utente. È possibile aggiungere più numeri di interno di un utente abilitato alla messaggistica unificata utilizzando l'interfaccia di amministrazione di Exchange (EAC). Per ulteriori informazioni, vedere [Aggiungere un numero interno](add-an-extension-number-exchange-2013-help.md).
+Quando si attiva un utente per la messaggistica unificata, è necessario immettere almeno un numero di interno singolo per tale utente. È possibile aggiungere più numeri di interno di un utente abilitato alla messaggistica unificata utilizzando l'interfaccia di amministrazione di Exchange (EAC). Per ulteriori informazioni, vedere [Aggiungere un numero interno](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-extension-number).
 
 Aggiunta di più numeri di interno è utile quando un utente abilitato alla messaggistica unificata:
 
@@ -295,7 +295,7 @@ Aggiungere più estensioni è più complessa rispetto all'utilizzo di una singol
 
 I vantaggi dell'utilizzo di più numeri di interno DID sono che un utente abilitato alla messaggistica unificata per ricevere le chiamate vocali in un numero di interno DID e fax viene chiamato su un altro numero di estensione DID. Utilizzando separata non ha numeri per la segreteria telefonica e le chiamate fax è più semplice per l'utente.
 
-Se si configurano due numeri di interno DID per un utente specifico, i numeri DID possono provenire da separato dial plan di messaggistica unificata. Per l'utilizzo di due numeri DID, è possibile creare un dial plan e utilizzare un server cassette postali come un server dedicato che riceverà le chiamate fax e messaggi fax in avanti per gli utenti. Per ulteriori informazioni, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+Se si configurano due numeri di interno DID per un utente specifico, i numeri DID possono provenire da separato dial plan di messaggistica unificata. Per l'utilizzo di due numeri DID, è possibile creare un dial plan e utilizzare un server cassette postali come un server dedicato che riceverà le chiamate fax e messaggi fax in avanti per gli utenti. Per ulteriori informazioni, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
 Quando si sta configurando più numeri di interno DID per gli utenti abilitati alla messaggistica unificata sono disponibili le opzioni seguenti:
 

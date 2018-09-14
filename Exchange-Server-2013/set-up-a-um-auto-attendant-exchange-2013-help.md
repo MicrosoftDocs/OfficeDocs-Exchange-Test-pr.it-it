@@ -114,7 +114,7 @@ Per pianificare e creare una nuova struttura di operatori automatici di messaggi
 
 12. Una volta pianificate le impostazioni dell'operatore automatico, i messaggi di saluto e lo spostamento nei menu e aver creato file audio contenenti i messaggi di saluto registrati, i prompt per lo spostamento nei menu e le risposte per lo spostamento nei menu, è possibile creare e configurare l'operatore automatico. A tale scopo, attenersi alla procedura seguente:
     
-      - [Creazione di un operatore automatico di messaggistica unificata](create-a-um-auto-attendant-exchange-2013-help.md)
+      - [Creazione di un operatore automatico di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant)
     
       - [Gestire un operatore automatico di messaggistica unificata](manage-a-um-auto-attendant-exchange-2013-help.md)
 

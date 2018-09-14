@@ -17,7 +17,7 @@ _**Si applica a:** Exchange Server 2013_
 
 _**Ultima modifica dell'argomento:** 2015-04-08_
 
-I suggerimenti messaggio che forniscono informazioni sulla dimensione dei gruppi di distribuzione e dei gruppi di distribuzione dinamici si basano sui dati della metrica di gruppo. I dati della metrica di gruppo vengono generati sui server Cassette postali. Per ulteriori informazioni sulla metrica di gruppo, vedere [Metriche del gruppo e i suggerimenti messaggio](group-metrics-and-mailtips-exchange-2013-help.md).
+I suggerimenti messaggio che forniscono informazioni sulla dimensione dei gruppi di distribuzione e dei gruppi di distribuzione dinamici si basano sui dati della metrica di gruppo. I dati della metrica di gruppo vengono generati sui server Cassette postali. Per ulteriori informazioni sulla metrica di gruppo, vedere [Metriche del gruppo e i suggerimenti messaggio](group-metrics-and-https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips).
 
 È possibile abilitare o disabilitare la generazione della metrica del gruppo su un server Cassette postali.
 
@@ -27,7 +27,7 @@ I suggerimenti messaggio che forniscono informazioni sulla dimensione dei gruppi
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Metrica del gruppo" nell'argomento [Autorizzazioni dei destinatari](recipients-permissions-exchange-2013-help.md).
 
-  - I dati della metrica del gruppo vengono utilizzati solo per i suggerimenti messaggio. Verificare che nell'organizzazione siano stati abilitati i suggerimenti messaggio della metrica del gruppo. Per la procedura dettagliata, vedere [Gestire i suggerimenti per le relazioni dell'organizzazione](manage-mailtips-for-organization-relationships-exchange-2013-help.md).
+  - I dati della metrica del gruppo vengono utilizzati solo per i suggerimenti messaggio. Verificare che nell'organizzazione siano stati abilitati i suggerimenti messaggio della metrica del gruppo. Per la procedura dettagliata, vedere [Gestire i suggerimenti per le relazioni dell'organizzazione](https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/manage-mailtips-for-organization-relationships).
 
   - È possibile utilizzare solo Shell per eseguire questa procedura.
 

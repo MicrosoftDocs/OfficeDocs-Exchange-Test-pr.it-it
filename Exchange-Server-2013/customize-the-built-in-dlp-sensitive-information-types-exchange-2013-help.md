@@ -263,9 +263,9 @@ Queste sono le definizioni dei termini che si sono verificati durante la procedu
 
 ## Ulteriori informazioni
 
-  - [Modalità di applicazione delle regole DLP per la valutazione dei messaggi](how-dlp-rules-are-applied-to-evaluate-messages-exchange-2013-help.md)
+  - [Modalità di applicazione delle regole DLP per la valutazione dei messaggi](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/dlp-rule-application)
 
-  - [Creare un criterio DLP personalizzato](create-a-custom-dlp-policy-exchange-2013-help.md)
+  - [Creare un criterio DLP personalizzato](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/create-custom-dlp-policy)
 
   - [Cosa cercare i tipi di informazioni riservate in Exchange](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md)
 

@@ -19,9 +19,9 @@ _**Ultima modifica dell'argomento:** 2013-04-17_
 
 [Installare un Language Pack di messaggistica unificata](install-a-um-language-pack-exchange-2013-help.md)
 
-[Impostare la lingua predefinita per un dial plan](set-the-default-language-on-a-dial-plan-exchange-2013-help.md)
+[Impostare la lingua predefinita per un dial plan](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/set-dial-plan-default-language)
 
-[Selezionare la lingua per un operatore automatico](select-the-language-for-an-auto-attendant-exchange-2013-help.md)
+[Selezionare la lingua per un operatore automatico](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/select-auto-attendant-language)
 
 [Rimuovere un language pack di messaggistica unificata](remove-a-um-language-pack-exchange-2013-help.md)
 
@@ -29,5 +29,5 @@ _**Ultima modifica dell'argomento:** 2013-04-17_
 
 [Importare i prompt personalizzati da Exchange 2007 a Exchange 2013](import-custom-prompts-from-exchange-2007-to-exchange-2013-exchange-2013-help.md)
 
-[Abilitare la registrazione di prompt personalizzata utilizzando l'interfaccia utente di telefono](enable-custom-prompt-recording-using-the-telephone-user-interface-exchange-2013-help.md)
+[Abilitare la registrazione di prompt personalizzata utilizzando l'interfaccia utente di telefono](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 

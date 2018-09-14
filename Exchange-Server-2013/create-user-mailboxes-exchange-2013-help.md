@@ -118,7 +118,7 @@ Le cassette postali costituiscono il tipo di destinatario più comune utilizzato
         
         Per ulteriori informazioni, vedere [Archiviazione sul posto di Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Criterio rubrica**   Utilizzare questa opzione per specificare un criterio per la rubrica per la cassetta postale. I criteri rubrica contengono un elenco di indirizzi globale, una rubrica offline , un elenco di sale e un set di elenchi di indirizzi. Quando un ABP viene assegnato agli utenti di cassette postali, fornisce loro un accesso ad un GAL personalizzato in Outlook e Outlook Web App. Per ulteriori informazioni, vedere [Criteri delle rubriche](address-book-policies-exchange-2013-help.md).
+      - **Criterio rubrica**   Utilizzare questa opzione per specificare un criterio per la rubrica per la cassetta postale. I criteri rubrica contengono un elenco di indirizzi globale, una rubrica offline , un elenco di sale e un set di elenchi di indirizzi. Quando un ABP viene assegnato agli utenti di cassette postali, fornisce loro un accesso ad un GAL personalizzato in Outlook e Outlook Web App. Per ulteriori informazioni, vedere [Criteri delle rubriche](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/address-book-policies).
         
         Nell'elenco a discesa, selezionare il criterio da associare a questa cassetta postale.
 
@@ -197,7 +197,7 @@ Per verificare la corretta creazione della cassetta postale utente, effettuare u
         
         Per ulteriori informazioni, vedere [Archiviazione sul posto di Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Criterio rubrica**   Utilizzare questa opzione per specificare un criterio per la rubrica per la cassetta postale. I criteri rubrica contengono un elenco di indirizzi globale, una rubrica offline , un elenco di sale e un set di elenchi di indirizzi. Quando un ABP viene assegnato agli utenti di cassette postali, fornisce loro un accesso ad un GAL personalizzato in Outlook e Outlook Web App. Per ulteriori informazioni, vedere [Criteri delle rubriche](address-book-policies-exchange-2013-help.md).
+      - **Criterio rubrica**   Utilizzare questa opzione per specificare un criterio per la rubrica per la cassetta postale. I criteri rubrica contengono un elenco di indirizzi globale, una rubrica offline , un elenco di sale e un set di elenchi di indirizzi. Quando un ABP viene assegnato agli utenti di cassette postali, fornisce loro un accesso ad un GAL personalizzato in Outlook e Outlook Web App. Per ulteriori informazioni, vedere [Criteri delle rubriche](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/address-book-policies).
         
         Nell'elenco a discesa, selezionare il criterio da associare a questa cassetta postale.
 

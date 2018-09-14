@@ -37,9 +37,9 @@ Exchange 2013 consente a SharePoint 2013 di effettuare ricerche nei contenuti de
 
 Per ulteriori dettagli, vedere i seguenti argomenti:
 
-  - [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md)
+  - [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
-  - [Archiviazione sul posto e conservazione per controversia legale](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds)
 
   - [Configurare eDiscovery in SharePoint 2013](https://go.microsoft.com/fwlink/p/?linkid=257727)
 

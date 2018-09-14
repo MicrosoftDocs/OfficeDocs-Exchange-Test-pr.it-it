@@ -25,7 +25,7 @@ Se un utente segnala problemi relativi alla qualità audio delle chiamate di mes
 
 
 
-Per le attività aggiuntive relative a rapporti di messaggistica unificata, vedere [Procedure di rapporti di messaggistica unificata](um-reports-procedures-exchange-2013-help.md)
+Per le attività aggiuntive relative a rapporti di messaggistica unificata, vedere [Procedure di rapporti di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/um-reports-procedures)
 
 ## Informazioni necessarie prima di iniziare
 

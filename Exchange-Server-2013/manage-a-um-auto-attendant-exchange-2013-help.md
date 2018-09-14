@@ -29,9 +29,9 @@ Per altre attività di gestione relative agli operatori automatici di messaggist
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Operatori automatici di messaggistica unificata" nell'argomento [Autorizzazioni della messaggistica unificate](unified-messaging-permissions-exchange-2013-help.md).
 
-  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
-  - Prima di eseguire queste procedure, verificare che sia stato creato un operatore automatico di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un operatore automatico di messaggistica unificata](create-a-um-auto-attendant-exchange-2013-help.md).
+  - Prima di eseguire queste procedure, verificare che sia stato creato un operatore automatico di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un operatore automatico di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant).
 
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -264,7 +264,7 @@ Per altre attività di gestione relative agli operatori automatici di messaggist
         
         Per aggiungere gruppi di regole di composizione nazionali, è necessario innanzitutto creare gruppi di regole di composizione nazionali appropriati nel dial plan associato all'operatore automatico di messaggistica unificata, quindi aggiungere il gruppo di regole di composizione appropriato.
         
-        I gruppi di regole di composizione nazionali possono essere utilizzati dalla Messaggistica unificata al fine di consentire o limitare l'accesso ai numeri di telefono nazionali. Questo si applica a qualsiasi utente che ha chiamato l'operatore automatico. Per ulteriori informazioni sull'effettuazione di chiamate esterne, vedere [Consentire agli utenti di effettuare chiamate](allow-users-to-make-calls-exchange-2013-help.md).
+        I gruppi di regole di composizione nazionali possono essere utilizzati dalla Messaggistica unificata al fine di consentire o limitare l'accesso ai numeri di telefono nazionali. Questo si applica a qualsiasi utente che ha chiamato l'operatore automatico. Per ulteriori informazioni sull'effettuazione di chiamate esterne, vedere [Consentire agli utenti di effettuare chiamate](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-make-calls).
     
       - **Gruppi di regole internazionali consentiti dal dial plan**   Utilizzare questa sezione per aggiungere o rimuovere i gruppi di regole di composizione internazionali consentiti. Per impostazione predefinita, non è presente alcun gruppo di regole di composizione internazionali configurato sugli operatori automatici di messaggistica unificata.
         
@@ -272,7 +272,7 @@ Per altre attività di gestione relative agli operatori automatici di messaggist
         
         Per aggiungere gruppi di composizione internazionali, è necessario creare prima i gruppi internazionali corretti sul dial plan associato all'operatore automatico di messaggistica unificata. Una volta creati i gruppi di regole di composizione richiesti nel dial plan, è necessario aggiungere tali gruppi all'elenco dei gruppi di regole di composizione autorizzati sull'operatore automatico di messaggistica unificata.
         
-        I gruppi di regole di composizione internazionali possono essere utilizzati dalla Messaggistica unificata al fine di consentire o limitare l'accesso ai numeri di telefono internazionali. Questo si applica a qualsiasi utente che ha chiamato l'operatore automatico. Per ulteriori informazioni sull'effettuazione di chiamate esterne, vedere [Consentire agli utenti di effettuare chiamate](allow-users-to-make-calls-exchange-2013-help.md).
+        I gruppi di regole di composizione internazionali possono essere utilizzati dalla Messaggistica unificata al fine di consentire o limitare l'accesso ai numeri di telefono internazionali. Questo si applica a qualsiasi utente che ha chiamato l'operatore automatico. Per ulteriori informazioni sull'effettuazione di chiamate esterne, vedere [Consentire agli utenti di effettuare chiamate](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-make-calls).
 
 10. Fare clic su **OK** per creare il nuovo menu di navigazione.
 

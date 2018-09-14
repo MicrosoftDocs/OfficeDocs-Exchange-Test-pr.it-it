@@ -104,7 +104,7 @@ Nella tabella seguente vengono descritti gli oggetti destinatario presenti in Ac
 </tr>
 <tr class="even">
 <td><p>DynamicDistributionGroup</p></td>
-<td><p>Oggetto contenente le classi di Active Directory <strong>msExchDynamicDistributionList</strong>. Per ulteriori informazioni, vedere <a href="manage-dynamic-distribution-groups-exchange-2013-help.md">Gestione dei gruppi di distribuzione dinamici</a>.</p></td>
+<td><p>Oggetto contenente le classi di Active Directory <strong>msExchDynamicDistributionList</strong>. Per ulteriori informazioni, vedere <a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups">Gestione dei gruppi di distribuzione dinamici</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mailbox</p></td>
@@ -116,7 +116,7 @@ Nella tabella seguente vengono descritti gli oggetti destinatario presenti in Ac
 </tr>
 <tr class="odd">
 <td><p>MailContact</p></td>
-<td><p>Un oggetto contatto che ha un indirizzo di posta elettronica. In genere, un contatto di posta elettronica viene utilizzato per destinatari esterni all'organizzazione di Exchange. Un contatto di posta elettronica viene utilizzato anche in ambienti Exchange tra foreste. Per ulteriori informazioni, vedere <a href="manage-mail-contacts-exchange-2013-help.md">Gestire i contatti di posta</a>.</p></td>
+<td><p>Un oggetto contatto che ha un indirizzo di posta elettronica. In genere, un contatto di posta elettronica viene utilizzato per destinatari esterni all'organizzazione di Exchange. Un contatto di posta elettronica viene utilizzato anche in ambienti Exchange tra foreste. Per ulteriori informazioni, vedere <a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-contacts">Gestire i contatti di posta</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>MailPublicFolder</p></td>

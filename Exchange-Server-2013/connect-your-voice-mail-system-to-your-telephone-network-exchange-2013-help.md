@@ -27,17 +27,17 @@ Esiste una relazione fortemente integrata e interconnessa tra i componenti della
 
 Per ulteriori informazioni sui componenti della messaggistica unificata, vedere:
 
-  - [Dial plan di messaggistica unificata](um-dial-plans-exchange-2013-help.md)
+  - [Dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans)
 
   - [Gateway IP di messaggistica unificata](um-ip-gateways-exchange-2013-help.md)
 
-  - [Gruppi di risposta di messaggistica unificata](um-hunt-groups-exchange-2013-help.md)
+  - [Gruppi di risposta di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups)
 
   - [Rispondere automaticamente e il routing delle chiamate in arrivo](automatically-answer-and-route-incoming-calls-exchange-2013-help.md)
 
 Per ulteriori informazioni sull'impostazione della posta vocale per gli utenti, vedere:
 
-  - [Criteri cassetta postale di messaggistica unificata](um-mailbox-policies-exchange-2013-help.md)
+  - [Criteri cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies)
 
   - [Segreteria telefonica per gli utenti](voice-mail-for-users-exchange-2013-help.md)
 

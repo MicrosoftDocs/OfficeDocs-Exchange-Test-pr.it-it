@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2014-12-16_
 
 È possibile utilizzare Shell per aggiungere o rimuovere un elenco indirizzi da una rubrica offline. Per impostazione predefinita, esiste una Rubrica offline denominata Rubrica offline predefinita che contiene l'elenco indirizzi globale. Le Rubriche offline vengono generate in base agli elenchi di indirizzi che includono. Per creare Rubriche offline personalizzate scaricabili dagli utenti, è possibile aggiungere o rimuovere elenchi di indirizzi da tali rubriche.
 
-Per altre attività di gestione relative alle rubriche offline, vedere [Procedure della Rubrica fuori rete](offline-address-book-procedures-exchange-2013-help.md).
+Per altre attività di gestione relative alle rubriche offline, vedere [Procedure della Rubrica fuori rete](https://docs.microsoft.com/it-it/exchange/address-books/offline-address-books/offline-address-book-procedures).
 
 ## Che cosa è necessario sapere prima di iniziare
 
@@ -29,7 +29,7 @@ Per altre attività di gestione relative alle rubriche offline, vedere [Procedur
 
   - Per impostazione predefinita, in Exchange Online il ruolo Elenco di indirizzi non è assegnato ad alcun gruppo di ruoli. Per utilizzare cmdlet che richiedono il ruolo Elenco di indirizzi, è necessario aggiungere il ruolo a un gruppo di ruoli. Per ulteriori informazioni, vedere la sezione "Aggiungere un ruolo a un gruppo di ruoli" nell'argomento [Gestire gruppi di ruoli](manage-role-groups-exchange-2013-help.md).
 
-  - Le modifiche apportate all'elenco indirizzi saranno disponibili per il download da parte del client solo dopo la generazione della rubrica offline in cui si trova l'elenco indirizzi. Per ulteriori informazioni, vedere [Aggiornare una Rubrica fuori rete](update-an-offline-address-book-exchange-2013-help.md).
+  - Le modifiche apportate all'elenco indirizzi saranno disponibili per il download da parte del client solo dopo la generazione della rubrica offline in cui si trova l'elenco indirizzi. Per ulteriori informazioni, vedere [Aggiornare una Rubrica fuori rete](https://docs.microsoft.com/it-it/exchange/address-books/offline-address-books/update-offline-address-book).
 
   - Non è possibile utilizzare Interfaccia di amministrazione di Exchange per eseguire questa procedura. È necessario utilizzare la shell.
 

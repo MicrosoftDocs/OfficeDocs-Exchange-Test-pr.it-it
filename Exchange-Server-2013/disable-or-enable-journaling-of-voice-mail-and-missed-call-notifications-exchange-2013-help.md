@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2015-04-08_
 
 In Microsoft Exchange Server 2013, quando si crea una regola del journal per l'inserimento nel journal dei messaggi di posta elettronica inviati o ricevuti da utenti in un'organizzazione Exchange, vengono inclusi i messaggi vocali e i messaggi di notifica di chiamata senza risposta generati dal servizio di messaggistica unificata. Utilizzare la procedura illustrata in questo argomento per attivare e disattivare questa funzionalità per l'intera organizzazione.
 
-Per informazioni sulle altre attività di gestione relative all'inserimento nel journal, vedere [Gestire l'inserimento nel journal](manage-journaling-exchange-2013-help.md).
+Per informazioni sulle altre attività di gestione relative all'inserimento nel journal, vedere [Gestire l'inserimento nel journal](https://docs.microsoft.com/it-it/exchange/security-and-compliance/journaling/manage-journaling).
 
 ## Che cosa è necessario sapere prima di iniziare
 
@@ -53,5 +53,5 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Transpo
 
 [Inserimento nel journal](journaling-exchange-2013-help.md)
 
-[Gestire l'inserimento nel journal](manage-journaling-exchange-2013-help.md)
+[Gestire l'inserimento nel journal](https://docs.microsoft.com/it-it/exchange/security-and-compliance/journaling/manage-journaling)
 

@@ -59,7 +59,7 @@ Nell'elenco di seguito sono mostrati i passaggi di distribuzione semplificati pe
     
 
     > [!IMPORTANT]
-    > Lo script ExchUcUtil.ps1 crea uno o più gateway IP di messaggistica unificata per l'integrazione di Lync. È necessario disabilitare le chiamate in uscita su tutti i gateway IP di messaggistica unificata, ad eccezione di quello creato dallo script. Questo comprende la disabilitazione delle chiamate in uscita sui gateway IP di messaggistica unificata creati prima dell'esecuzione dello script. Per disabilitare le chiamate in uscita su un gateway IP di messaggistica unificata, vedere <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Disabilitare le chiamate in uscita sui gateway IP di messaggistica unificata</A>.
+    > Lo script ExchUcUtil.ps1 crea uno o più gateway IP di messaggistica unificata per l'integrazione di Lync. È necessario disabilitare le chiamate in uscita su tutti i gateway IP di messaggistica unificata, ad eccezione di quello creato dallo script. Questo comprende la disabilitazione delle chiamate in uscita sui gateway IP di messaggistica unificata creati prima dell'esecuzione dello script. Per disabilitare le chiamate in uscita su un gateway IP di messaggistica unificata, vedere <A href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Disabilitare le chiamate in uscita sui gateway IP di messaggistica unificata</A>.
 
 
 
@@ -134,7 +134,7 @@ Per ulteriori informazioni su Microsoft Lync Server, vedere [Microsoft Lync Serv
 
 È necessario completare i seguenti passaggi per configurare la messaggistica unificata per l'utilizzo con le funzionalità VoIP aziendale di Lync Server:
 
-1.  Creare uno o più dial plan URI SIP di messaggistica unificata, ognuno corrispondente a un profilo località di Lync Server. È necessario creare un profilo località di Enterprise Voice per ogni dial plan di messaggistica unificata di Exchange. È possibile utilizzare il cmdlet **Get-UMDialPlan** per ottenere il nome di dominio completo di un dial plan URI SIP. Per ulteriori informazioni su come creare un dial plan URI SIP, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+1.  Creare uno o più dial plan URI SIP di messaggistica unificata, ognuno corrispondente a un profilo località di Lync Server. È necessario creare un profilo località di Enterprise Voice per ogni dial plan di messaggistica unificata di Exchange. È possibile utilizzare il cmdlet **Get-UMDialPlan** per ottenere il nome di dominio completo di un dial plan URI SIP. Per ulteriori informazioni su come creare un dial plan URI SIP, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
     
 
     > [!IMPORTANT]
@@ -190,7 +190,7 @@ Per ulteriori informazioni su Microsoft Lync Server, vedere [Microsoft Lync Serv
 
 6.  Creare e configurare un operatore automatico di messaggistica unificata. Per ulteriori informazioni, vedere [Configurare un operatore automatico di messaggistica unificata](set-up-a-um-auto-attendant-exchange-2013-help.md).
 
-7.  Se si desidera abilitare gli utenti alla segreteria telefonica, creare un indirizzo SIP per gli utenti che utilizzeranno VoIP aziendale. Nella maggior parte dei casi, questo indirizzo SIP sarà lo stesso utilizzato quando un utente viene abilitato per VoIP aziendale. Per ulteriori informazioni, vedere [Consentire a un utente per la segreteria telefonica](enable-a-user-for-voice-mail-exchange-2013-help.md).
+7.  Se si desidera abilitare gli utenti alla segreteria telefonica, creare un indirizzo SIP per gli utenti che utilizzeranno VoIP aziendale. Nella maggior parte dei casi, questo indirizzo SIP sarà lo stesso utilizzato quando un utente viene abilitato per VoIP aziendale. Per ulteriori informazioni, vedere [Consentire a un utente per la segreteria telefonica](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
     
 
     > [!IMPORTANT]
@@ -206,7 +206,7 @@ Per ulteriori informazioni su Microsoft Lync Server, vedere [Microsoft Lync Serv
     
       - Creare un gruppo di risposta di messaggistica unificata di Exchange per ciascun gateway IP di messaggistica unificata. L'identificatore pilota del gruppo di risposta corrisponderà al nome del dial plan di messaggistica unificata associato al gateway IP di messaggistica unificata corrispondente. Il gruppo di risposta deve specificare il dial plan SIP di messaggistica unificata utilizzato con il gateway IP di messaggistica unificata.
 
-9.  Abilitare gli utenti alla segreteria telefonica. Durante l'abilitazione, inserire un indirizzo SIP valido per l'utente e collegarlo a un dial plan SIP. Per ulteriori informazioni, vedere [Consentire a un utente per la segreteria telefonica](enable-a-user-for-voice-mail-exchange-2013-help.md).
+9.  Abilitare gli utenti alla segreteria telefonica. Durante l'abilitazione, inserire un indirizzo SIP valido per l'utente e collegarlo a un dial plan SIP. Per ulteriori informazioni, vedere [Consentire a un utente per la segreteria telefonica](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
 Per configurare Lync Server per l'utilizzo con la messaggistica unificata di Exchange è inoltre necessario completare le seguenti attività:
 

@@ -65,7 +65,7 @@ Per ulteriori informazioni sull'inserimento degli elementi non ricercabili nei r
 
   - [Creazione di una ricerca eDiscovery sul posto](create-an-in-place-ediscovery-search-exchange-2013-help.md)
 
-  - [Esportazione dei risultati della ricerca eDiscovery in un file PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md)
+  - [Esportazione dei risultati della ricerca eDiscovery in un file PST](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/export-search-results)
 
   - [SharePoint: esportazione di contenuto eDiscovery e creazione di report](https://go.microsoft.com/fwlink/p/?linkid=324757)
 

@@ -168,7 +168,7 @@ In EAC, nella sezione **proprietà della regola**, fare clic su **indirizzo mitt
 <td><p><em>HasSenderOverride</em></p>
 <p><em>ExceptIfHasSenderOverride</em></p></td>
 <td><p>n/d</p></td>
-<td><p>Messaggi in cui il mittente ha scelto di ignorare un criterio di prevenzione della perdita di dati (DLP). Per ulteriori informazioni sui criteri DLP, vedere <a href="technical-overview-of-dlp-data-loss-prevention-in-exchange.md">Prevenzione della perdita di dati</a>.</p></td>
+<td><p>Messaggi in cui il mittente ha scelto di ignorare un criterio di prevenzione della perdita di dati (DLP). Per ulteriori informazioni sui criteri DLP, vedere <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention">Prevenzione della perdita di dati</a>.</p></td>
 <td><p>Exchange 2013 o versioni successive</p></td>
 </tr>
 <tr class="odd">

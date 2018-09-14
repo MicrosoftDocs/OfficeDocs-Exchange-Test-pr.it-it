@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2016-12-09_
 
 Utilizzare questo elenco di controllo per la distribuzione dei criteri nell'organizzazione Microsoft Exchange Server 2013. Prima di iniziare a lavorare con questo elenco di controllo, però, verificare di disporre delle nozioni di base sui seguenti argomenti:
 
-  - [Gestione record di messaggistica](messaging-records-management-exchange-2013-help.md)
+  - [Gestione record di messaggistica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management)
 
   - [Tag di conservazione e criteri di conservazione](retention-tags-and-retention-policies-exchange-2013-help.md)
 
@@ -43,7 +43,7 @@ Utilizzare questo elenco di controllo per la distribuzione dei criteri nell'orga
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Valutare i requisiti per la gestione dei record di messaggistica per diversi gruppi di utenti.</p></td>
-<td><p><a href="messaging-records-management-exchange-2013-help.md">Gestione record di messaggistica</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management">Gestione record di messaggistica</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>
@@ -63,7 +63,7 @@ Utilizzare questo elenco di controllo per la distribuzione dei criteri nell'orga
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Aggiungere tag di conservazione ai criteri di conservazione.</p></td>
-<td><p><a href="add-retention-tags-to-or-remove-retention-tags-from-a-retention-policy-exchange-2013-help.md">I tag di conservazione per aggiungere o rimuovere i tag di conservazione da un criterio di conservazione</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/add-or-remove-retention-tags">I tag di conservazione per aggiungere o rimuovere i tag di conservazione da un criterio di conservazione</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>

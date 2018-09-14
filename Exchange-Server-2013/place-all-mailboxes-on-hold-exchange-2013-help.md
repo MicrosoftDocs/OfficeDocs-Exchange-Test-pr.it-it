@@ -23,7 +23,7 @@ _**Ultima modifica dell'argomento:** 2017-01-18_
 
 
 
-L'organizzazione può richiedere dati della cassetta postale deve essere conservato per un determinato periodo. È possibile utilizzare conservazione per controversia legale o archiviazione sul posto per soddisfare questo requisito. Dopo che si effettua una cassetta postale di conservazione per controversia legale o archiviazione sul posto, gli elementi delle cassette postali che sono stati modificati o eliminati definitivamente vengono mantenuti nella cartella elementi ripristinabili. Per ulteriori informazioni, vedere [Archiviazione sul posto e conservazione per controversia legale](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+L'organizzazione può richiedere dati della cassetta postale deve essere conservato per un determinato periodo. È possibile utilizzare conservazione per controversia legale o archiviazione sul posto per soddisfare questo requisito. Dopo che si effettua una cassetta postale di conservazione per controversia legale o archiviazione sul posto, gli elementi delle cassette postali che sono stati modificati o eliminati definitivamente vengono mantenuti nella cartella elementi ripristinabili. Per ulteriori informazioni, vedere [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 Prima di mettere tutte le cassette postali di un'organizzazione su Conservazione per controversia legale o Archiviazione sul posto, tenere presente che:
 
@@ -111,7 +111,7 @@ Nell'esempio viene utilizzato il cmdlet [Get-Mailbox](https://technet.microsoft.
 
 ## Archiviare tutte le cassette postali con Archiviazione sul posto
 
-È possibile utilizzare EAC per selezionare fino a 500 cassette postali e archiviarle. Per ulteriori informazioni, vedere [Creare o rimuovere un'archiviazione sul posto](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+È possibile utilizzare EAC per selezionare fino a 500 cassette postali e archiviarle. Per ulteriori informazioni, vedere [Creare o rimuovere un'archiviazione sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
 
 > [!TIP]

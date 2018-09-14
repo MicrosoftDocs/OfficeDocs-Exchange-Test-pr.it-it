@@ -185,7 +185,7 @@ Per abilitare la tolleranza di errore per l'indicatore dei messaggi in attesa in
 
 ## I criteri cassetta postale di messaggistica unificata e l'indicatore dei messaggi in attesa
 
-È possibile creare un criterio cassetta postale di messaggistica unificata per applicare un insieme comune di impostazioni dei criteri di messaggistica unificata a un insieme di cassette postali abilitate alla messaggistica unificata. Ad esempio, è possibile utilizzare un criterio cassetta postale di messaggistica unificata per applicare le impostazioni dei criteri PIN, le restrizioni di composizione e le impostazioni delle notifiche nell'indicatore di messaggi in attesa. Se si abilita o disabilita l'indicatore di messaggi in attesa su un criterio cassetta postale di messaggistica unificata, questo viene abilitato o disabilitato per tutti gli utenti della messaggistica unificata associati al criterio cassetta postale di messaggistica unificata. L'impostazione dell'indicatore di messaggi in attesa viene applicato a un sottoinsieme degli utenti associati a un dial plan di messaggistica unificata. Per maggiori informazioni sui criteri cassetta postale di messaggistica unificata, inclusa la modalità di abilitazione o disabilitazione dell'indicatore di messaggi in attesa per un gruppo di utenti abilitati alla messaggistica unificata, vedere [Procedure relative al criterio cassetta postale messaggistica unificata](um-mailbox-policy-procedures-exchange-2013-help.md).
+È possibile creare un criterio cassetta postale di messaggistica unificata per applicare un insieme comune di impostazioni dei criteri di messaggistica unificata a un insieme di cassette postali abilitate alla messaggistica unificata. Ad esempio, è possibile utilizzare un criterio cassetta postale di messaggistica unificata per applicare le impostazioni dei criteri PIN, le restrizioni di composizione e le impostazioni delle notifiche nell'indicatore di messaggi in attesa. Se si abilita o disabilita l'indicatore di messaggi in attesa su un criterio cassetta postale di messaggistica unificata, questo viene abilitato o disabilitato per tutti gli utenti della messaggistica unificata associati al criterio cassetta postale di messaggistica unificata. L'impostazione dell'indicatore di messaggi in attesa viene applicato a un sottoinsieme degli utenti associati a un dial plan di messaggistica unificata. Per maggiori informazioni sui criteri cassetta postale di messaggistica unificata, inclusa la modalità di abilitazione o disabilitazione dell'indicatore di messaggi in attesa per un gruppo di utenti abilitati alla messaggistica unificata, vedere [Procedure relative al criterio cassetta postale messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures).
 
 È possibile utilizzare l'interfaccia di amministrazione di Exchange o il cmdlet **Set-UMMailboxPolicy** in Shell per configurare l'impostazione dell'indicatore di messaggi in attesa, come illustrato nella tabella seguente.
 
@@ -218,17 +218,17 @@ Per abilitare la tolleranza di errore per l'indicatore dei messaggi in attesa in
 
 Per ulteriori informazioni su come gestire le impostazioni dell'indicatore di messaggi in attesa, vedere i seguenti argomenti:
 
-  - [Gestire i criteri cassetta postale di messaggistica unificata](manage-a-um-mailbox-policy-exchange-2013-help.md)
+  - [Gestire i criteri cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy)
 
-  - [Abilitare i messaggi in attesa indicatore (MWI) per gli utenti](enable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
+  - [Abilitare i messaggi in attesa indicatore (MWI) per gli utenti](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-mwi-for-users)
 
-  - [Disattivare i messaggi in attesa indicatore (MWI) per gli utenti](disable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
+  - [Disattivare i messaggi in attesa indicatore (MWI) per gli utenti](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-mwi-for-users)
 
   - [Set-UMMailboxPolicy](https://technet.microsoft.com/it-it/library/bb124903\(v=exchg.150\))
 
 ## I gateway IP di messaggistica unificata e l'indicatore di messaggi in attesa
 
-Se si disabilita l'indicatore di messaggi in attesa su un gateway IP di messaggistica unificata, verranno disabilitate le notifiche dell'indicatore per tutti gli utenti che effettuano la connessione al gateway VoIP o IP PBX rappresentati dal gateway IP di messaggistica unificata. La disabilitazione dell'indicatore di messaggi in attesa su un singolo gateway IP di messaggistica unificata, collegato a un dial plan di messaggistica unificata, è in grado di disabilitare le notifiche dell'indicatore di messaggi in attesa per tutti gli utenti abilitati alla messaggistica unificata associati a un unico o diversi dial plan di un unico o diversi criteri cassetta postale di messaggistica unificata. Per maggiori informazioni sui criteri cassetta postale di messaggistica unificata, inclusa la modalità di abilitazione o disabilitazione dell'indicatore di messaggi in attesa per un gruppo di utenti abilitati alla messaggistica unificata, vedere [Gestire i criteri cassetta postale di messaggistica unificata](manage-a-um-mailbox-policy-exchange-2013-help.md).
+Se si disabilita l'indicatore di messaggi in attesa su un gateway IP di messaggistica unificata, verranno disabilitate le notifiche dell'indicatore per tutti gli utenti che effettuano la connessione al gateway VoIP o IP PBX rappresentati dal gateway IP di messaggistica unificata. La disabilitazione dell'indicatore di messaggi in attesa su un singolo gateway IP di messaggistica unificata, collegato a un dial plan di messaggistica unificata, è in grado di disabilitare le notifiche dell'indicatore di messaggi in attesa per tutti gli utenti abilitati alla messaggistica unificata associati a un unico o diversi dial plan di un unico o diversi criteri cassetta postale di messaggistica unificata. Per maggiori informazioni sui criteri cassetta postale di messaggistica unificata, inclusa la modalità di abilitazione o disabilitazione dell'indicatore di messaggi in attesa per un gruppo di utenti abilitati alla messaggistica unificata, vedere [Gestire i criteri cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy).
 
 È possibile utilizzare l'interfaccia di amministrazione di Exchange o il cmdlet **Set-UMMailboxPolicy** in Shell per configurare l'impostazione dell'indicatore di messaggi in attesa, come illustrato nella tabella seguente.
 
@@ -260,11 +260,11 @@ Se si disabilita l'indicatore di messaggi in attesa su un gateway IP di messaggi
 
 Per ulteriori informazioni su come gestire le impostazioni dell'indicatore di messaggi in attesa, vedere i seguenti argomenti:
 
-  - [Gestire un gateway IP di messaggistica unificata](manage-a-um-ip-gateway-exchange-2013-help.md)
+  - [Gestire un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-ip-gateway)
 
-  - [Consenti messaggio in attesa indicatore (MWI) su un gateway IP di messaggistica unificata](allow-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
+  - [Consenti messaggio in attesa indicatore (MWI) su un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-mwi-on-um-ip-gateway)
 
-  - [Impedire a messaggi in attesa indicatore (MWI) su un gateway IP di messaggistica unificata](prevent-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
+  - [Impedire a messaggi in attesa indicatore (MWI) su un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-mwi-on-um-ip-gateway)
 
   - [Set-UMIPGateway](https://technet.microsoft.com/it-it/library/aa996577\(v=exchg.150\))
 
@@ -307,7 +307,7 @@ La tabella seguente mostra il parametro da configurare su una cassetta postale d
 
 Per ulteriori informazioni su come gestire le impostazioni di notifica SMS sulla casetta postale di un utente, vedere di seguito:
 
-  - [Gestire le impostazioni della posta vocale di un utente](manage-voice-mail-settings-for-a-user-exchange-2013-help.md)
+  - [Gestire le impostazioni della posta vocale di un utente](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-voice-mail-settings)
 
   - [Set-UMMailbox](https://technet.microsoft.com/it-it/library/bb124893\(v=exchg.150\))
 
@@ -341,7 +341,7 @@ La tabella seguente mostra il parametro da configurare su un criterio di messagg
 
 Per ulteriori informazioni su come gestire le impostazioni dell'indicatore di messaggi in attesa, vedere di seguito:
 
-  - [Gestire i criteri cassetta postale di messaggistica unificata](manage-a-um-mailbox-policy-exchange-2013-help.md)
+  - [Gestire i criteri cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy)
 
   - [Set-UMMailboxPolicy](https://technet.microsoft.com/it-it/library/bb124903\(v=exchg.150\))
 

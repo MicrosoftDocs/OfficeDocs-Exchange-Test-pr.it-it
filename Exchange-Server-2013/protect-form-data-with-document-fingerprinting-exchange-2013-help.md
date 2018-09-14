@@ -43,7 +43,7 @@ L'impronta digitale del documento è ora parte dei tipi di informazioni riservat
 
 ![Condizione "Applica questa regola se" evidenziata](images/Dn635175.9355a513-a790-48eb-a61b-575ba2ecdfa6(EXCHG.150).png "Condizione \"Applica questa regola se\" evidenziata")
 
-Per ulteriori informazioni sull'aggiunta di regole a un criterio DLP, vedere la sezione su come modificare un criterio DLP di [Gestire i criteri DLP](manage-dlp-policies-exchange-2013-help.md) e per ulteriori informazioni sulla modifica delle regole di trasporto, vedere [Integrazione di regole di informazioni sensibili con le regole di trasporto](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md). Se si desidera creare un nuovo criterio, vedere [Create a DLP policy from a template](how-to-new-dlp-data-loss-prevention-policy-template.md).
+Per ulteriori informazioni sull'aggiunta di regole a un criterio DLP, vedere la sezione su come modificare un criterio DLP di [Gestire i criteri DLP](manage-dlp-policies-exchange-2013-help.md) e per ulteriori informazioni sulla modifica delle regole di trasporto, vedere [Integrazione di regole di informazioni sensibili con le regole di trasporto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules). Se si desidera creare un nuovo criterio, vedere [Create a DLP policy from a template](how-to-new-dlp-data-loss-prevention-policy-template.md).
 
 ## Utilizzare Shell per creare un pacchetto di regole di classificazione in base all'impronta digitale del documento
 
@@ -80,5 +80,5 @@ Per informazioni sulla sintassi e sui parametri, vedere [New-Fingerprint](https:
 
 [Gestire i criteri DLP](manage-dlp-policies-exchange-2013-help.md)
 
-[Integrazione di regole di informazioni sensibili con le regole di trasporto](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md)
+[Integrazione di regole di informazioni sensibili con le regole di trasporto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 

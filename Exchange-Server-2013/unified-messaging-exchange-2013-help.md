@@ -255,7 +255,7 @@ Nella seguente tabella, sono riportati i collegamenti agli argomenti che offrono
 <td><p>Ulteriori informazioni sui Language Pack di messaggistica unificata e sulle impostazioni per la lingua.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="telephone-system-integration-with-um-exchange-2013-help.md">Integrazione del telefono sistema con la messaggistica UNIFICATA</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephone-system-integration-with-um">Integrazione del telefono sistema con la messaggistica UNIFICATA</a></p></td>
 <td><p>Informazioni sull'integrazione della rete di telefonia con la funzionalità di messaggistica unificata.</p></td>
 </tr>
 <tr class="even">
@@ -275,7 +275,7 @@ Nella seguente tabella, sono riportati i collegamenti agli argomenti che offrono
 <td><p>Ulteriori informazioni su come configurare le funzionalità del client affinché gli utenti possano accedere e gestire i propri messaggi vocali.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="set-outlook-voice-access-pin-security-exchange-2013-help.md">Configurare la protezione di Outlook Voice Access PIN</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-outlook-voice-access-pin-security">Configurare la protezione di Outlook Voice Access PIN</a></p></td>
 <td><p>Ulteriori informazioni su come impostare i requisiti di PIN per gli utenti di Outlook Voice Access.</p></td>
 </tr>
 <tr class="odd">
@@ -283,7 +283,7 @@ Nella seguente tabella, sono riportati i collegamenti agli argomenti che offrono
 <td><p>Ulteriori informazioni su come utilizzare la messaggistica unificata per proteggere i messaggi vocali.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="run-reports-for-voice-mail-calls-exchange-2013-help.md">Eseguire report per le chiamate di posta vocale</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/run-voice-mail-call-reports">Eseguire report per le chiamate di posta vocale</a></p></td>
 <td><p>Ulteriori informazioni sui rapporti di chiamata per la messaggistica unificata.</p></td>
 </tr>
 </tbody>

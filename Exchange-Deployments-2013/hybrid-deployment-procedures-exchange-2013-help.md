@@ -29,7 +29,7 @@ Per iniziare, selezionare un argomento di seguito:
 
 [Configurare le cartelle pubbliche di Exchange 2013 per una distribuzione ibrida](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
 
-[Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders)
 
 [Configurare Exchange in modo da supportare le autorizzazioni per cassette postali con delega in una distribuzione ibrida](configure-exchange-to-support-delegated-mailbox-permissions-in-a-hybrid-deployment-exchange-2013-help.md)
 

@@ -27,7 +27,7 @@ _**Ultima modifica dell'argomento:** 2013-02-22_
 
 Questa impostazione si applica ai messaggi vocali inviati agli utenti abilitati alla messaggistica unificata quando non rispondono al telefono. L'impostazione si applica anche quando i chiamanti accedono alla loro cassetta postale utilizzando Outlook Voice Access e successivamente creano e inviano un messaggio vocale.
 
-Per ulteriori attività di gestione relative alla procedure del Sistema di caselle postali protette, vedere [Procedure della casella vocale protette](protected-voice-mail-procedures-exchange-2013-help.md).
+Per ulteriori attività di gestione relative alla procedure del Sistema di caselle postali protette, vedere [Procedure della casella vocale protette](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures).
 
 ## Che cosa è necessario sapere prima di iniziare
 
@@ -35,7 +35,7 @@ Per ulteriori attività di gestione relative alla procedure del Sistema di casel
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Criteri cassetta postale di messaggistica unificata" nell'argomento [Autorizzazioni della messaggistica unificate](unified-messaging-permissions-exchange-2013-help.md).
 
-  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
   - Prima di eseguire queste procedure, verificare che sia stato creato un criterio cassetta postale di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un criterio cassetta postale di messaggistica unificata](create-a-um-mailbox-policy-exchange-2013-help.md).
 

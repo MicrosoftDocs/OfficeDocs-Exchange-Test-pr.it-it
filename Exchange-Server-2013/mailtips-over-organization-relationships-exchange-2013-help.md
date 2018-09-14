@@ -86,7 +86,7 @@ Si potrebbe desiderare di limitare determinati tipi di suggerimenti messaggio. �
 </table>
 
 
-Per la procedura dettagliata su come configurare i livelli di accesso degli avvisi messaggio, vedere [Gestire i suggerimenti per le relazioni dell'organizzazione](manage-mailtips-for-organization-relationships-exchange-2013-help.md).
+Per la procedura dettagliata su come configurare i livelli di accesso degli avvisi messaggio, vedere [Gestire i suggerimenti per le relazioni dell'organizzazione](https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/manage-mailtips-for-organization-relationships).
 
 ## Controllo dell'ambito di accesso de suggerimenti messaggio
 
@@ -96,5 +96,5 @@ A tale scopo, è necessario creare prima un gruppo e aggiungere tutti gli utenti
 
 Una volta implementata tale restrizione, i server Accesso client verificheranno prima se il destinatario per cui hanno ricevuto la query sugli avvisi messaggio fa parte di questo gruppo. Se il destinatario è un membro del gruppo, i server Accesso client eseguiranno nuovamente il proxy di tutti gli avvisi messaggio, inclusi quelli specifici del destinatario. In caso contrario, includeranno gli avvisi messaggio specifici del destinatario nella risposta.
 
-Per la procedura dettagliata su come configurare i livelli di accesso degli avvisi messaggio, vedere [Gestire i suggerimenti per le relazioni dell'organizzazione](manage-mailtips-for-organization-relationships-exchange-2013-help.md).
+Per la procedura dettagliata su come configurare i livelli di accesso degli avvisi messaggio, vedere [Gestire i suggerimenti per le relazioni dell'organizzazione](https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/manage-mailtips-for-organization-relationships).
 

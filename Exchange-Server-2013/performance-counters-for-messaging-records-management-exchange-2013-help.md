@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 I contatori delle prestazioni descritti in questo argomento consentono di monitorare l'implementazione della gestione dei record di messaggistica (MRM) per Microsoft Exchange Server 2010. Siccome l'esecuzione dell'Assistente cartelle gestite è un processo a elevato utilizzo di risorse, è necessario eseguirlo solo quando il server può tollerare il carico aggiuntivo. Quando Assistente cartelle gestite è in esecuzione, è necessario monitorare anche le prestazioni del server. Oltre ai contatori delle prestazioni elencati in questo argomento, è possibile disporre di ulteriori contatori delle prestazioni per il monitoraggio di elementi quali prestazioni del disco e utilizzo della CPU.
 
-Per ulteriori informazioni sul monitoraggio dei computer che eseguono la gestione dei record di messaggistica, vedere [Gestione dei record di messaggistica di monitoraggio](monitoring-messaging-records-management-exchange-2013-help.md).
+Per ulteriori informazioni sul monitoraggio dei computer che eseguono la gestione dei record di messaggistica, vedere [Gestione dei record di messaggistica di monitoraggio](monitoring-https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
 ## Contatori delle prestazioni per la gestione dei record di messaggistica
 

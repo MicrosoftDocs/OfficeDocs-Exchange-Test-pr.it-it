@@ -29,7 +29,7 @@ _**Ultima modifica dell'argomento:** 2013-11-01_
 
 [Abilitare o disabilitare la decrittografia di trasporto](enable-or-disable-transport-decryption-exchange-2013-help.md)
 
-[Configurare IRM per la ricerca di Exchange e In-Place eDiscovery](configure-irm-for-exchange-search-and-in-place-ediscovery-exchange-2013-help.md)
+[Configurare IRM per la ricerca di Exchange e In-Place eDiscovery](configure-irm-for-exchange-search-and-https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
 [Attivare o disattivare la decrittografia dei rapporti del Journal](enable-or-disable-journal-report-decryption-exchange-2013-help.md)
 

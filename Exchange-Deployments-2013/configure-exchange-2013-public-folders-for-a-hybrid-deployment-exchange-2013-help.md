@@ -27,7 +27,7 @@ In una distribuzione ibrida, gli utenti possono essere in Exchange Online, local
 
 
 
-In questo articolo viene descritto come consentire agli utenti di Exchange Online/Office 365 accedere a cartelle pubbliche di Exchange 2013. Per consentire agli utenti di Exchange 2013 locale accedere alle cartelle pubbliche di Exchange Online, vedere [Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md).
+In questo articolo viene descritto come consentire agli utenti di Exchange Online/Office 365 accedere a cartelle pubbliche di Exchange 2013. Per consentire agli utenti di Exchange 2013 locale accedere alle cartelle pubbliche di Exchange Online, vedere [Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders).
 
 Un utente di Exchange Online/Office 365 deve essere rappresentato da un oggetto MailUser nell'ambiente locale di Exchange per accedere alle cartelle pubbliche di Exchange 2013. Questo oggetto MailUser deve inoltre essere locale da utilizzare come destinazione gerarchia di cartelle pubbliche di Exchange 2013. Se si dispone di Office 365 gli utenti che attualmente non sono rappresentati locale da oggetti MailUser, fare riferimento all'articolo della Microsoft Knowledge Base ["utenti di Exchange Online non possono accedere alle cartelle pubbliche locali legacy"](https://go.microsoft.com/fwlink/p/?linkid=699451) 3106618 per creare entità locali corrispondenti.
 

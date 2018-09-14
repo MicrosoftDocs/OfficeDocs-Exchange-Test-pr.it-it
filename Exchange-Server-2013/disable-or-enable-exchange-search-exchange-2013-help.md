@@ -21,7 +21,7 @@ Per impostazione predefinita, il servizio Ricerca di Exchange è abilitato per t
 
 
 > [!WARNING]
-> La disabilitazione del servizio Ricerca di Exchange avrà un impatto sulla funzionalità e sulle prestazioni delle ricerche full-text eseguite dagli utenti usando Outlook in modalità online o i dispositivi Windows Mobile.<BR>Anche <A href="in-place-ediscovery-exchange-2013-help.md">eDiscovery sul posto</A> si basa su Ricerca di Exchange. Se si disabilita&nbsp;Ricerca di Exchange per il database di una cassetta postale o per un server Cassette postali, le ricerche di eDiscovery locale non restituiranno alcun messaggio dal database o dal server.
+> La disabilitazione del servizio Ricerca di Exchange avrà un impatto sulla funzionalità e sulle prestazioni delle ricerche full-text eseguite dagli utenti usando Outlook in modalità online o i dispositivi Windows Mobile.<BR>Anche <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">eDiscovery sul posto</A> si basa su Ricerca di Exchange. Se si disabilita&nbsp;Ricerca di Exchange per il database di una cassetta postale o per un server Cassette postali, le ricerche di eDiscovery locale non restituiranno alcun messaggio dal database o dal server.
 
 
 

@@ -23,7 +23,7 @@ _**Ultima modifica dell'argomento:** 2017-01-17_
 
 
 
-Utilizzare [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md) per eseguire una ricerca nell'intero contenuto di una cassetta postale, inclusi gli elementi eliminati e le versioni originali degli elementi modificati per gli utenti con [Archiviazione sul posto e conservazione per controversia legale](in-place-hold-and-litigation-hold-exchange-2013-help.md) impostata.
+Utilizzare [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) per eseguire una ricerca nell'intero contenuto di una cassetta postale, inclusi gli elementi eliminati e le versioni originali degli elementi modificati per gli utenti con [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds) impostata.
 
 ## Che cosa è necessario sapere prima di iniziare
 
@@ -33,7 +33,7 @@ Utilizzare [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md) per
 
   - Per creare ricerche eDiscovery, è necessario disporre di un indirizzo SMTP nell'organizzazione che si sta creando le ricerche in. Pertanto in Exchange Online, è necessario disporre di una cassetta postale di Exchange Online (piano 2) con licenza per creare ricerche eDiscovery. In un'organizzazione ibrida di Exchange, cassetta postale di Exchange locale deve disporre un account utente corrispondente di posta elettronica nell'organizzazione Office 365 in modo che è possibile cercare cassette postali Exchange Online. In alternativa, se si accede con un account che esiste solo in Office 365, ad esempio l'account di amministratore tenant, tale account deve essere assegnato una licenza di Exchange Online (piano 2).
 
-  - Il programma di installazione di Exchange 2013 consente la creazione di una cassetta postale di individuazione denominata **Cassetta postale di individuazione** in cui copiare i risultati della ricerca. Per impostazione predefinita, la cassetta postale di individuazione viene creata anche in Exchange Online. È possibile creare ulteriori cassette postali di individuazione. Per ulteriori informazioni, vedere [Creazione di una cassetta postale di individuazione](create-a-discovery-mailbox-exchange-2013-help.md).
+  - Il programma di installazione di Exchange 2013 consente la creazione di una cassetta postale di individuazione denominata **Cassetta postale di individuazione** in cui copiare i risultati della ricerca. Per impostazione predefinita, la cassetta postale di individuazione viene creata anche in Exchange Online. È possibile creare ulteriori cassette postali di individuazione. Per ulteriori informazioni, vedere [Creazione di una cassetta postale di individuazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/create-a-discovery-mailbox).
 
   - Quando si crea una ricerca eDiscovery in locale, i messaggi restituiti nei risultati della ricerca non vengono copiati automaticamente nella cassetta postale di individuazione. Una volta creata la ricerca, utilizzare l'interfaccia di amministrazione di Exchange (EAC) per la stima, l'anteprima o la copia dei risultati della ricerca in una cassetta postale di individuazione. Per dettagli, vedere:
     
@@ -63,7 +63,7 @@ Come indicato in precedenza, per creare ricerche eDiscovery è necessario accede
     
 
     > [!IMPORTANT]
-    > Non è possibile utilizzare l'opzione <STRONG>Cerca in tutte le cassette postali</STRONG> per mettere in conservazione tutte le cassette postali. Per creare un'archiviazione sul posto, è necessario selezionare <STRONG>Specify mailboxes to search</STRONG>. Per ulteriori dettagli, vedere <A href="create-or-remove-an-in-place-hold-exchange-2013-help.md">Creare o rimuovere un'archiviazione sul posto</A>.
+    > Non è possibile utilizzare l'opzione <STRONG>Cerca in tutte le cassette postali</STRONG> per mettere in conservazione tutte le cassette postali. Per creare un'archiviazione sul posto, è necessario selezionare <STRONG>Specify mailboxes to search</STRONG>. Per ulteriori dettagli, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/create-or-remove-in-place-holds">Creare o rimuovere un'archiviazione sul posto</A>.
 
 
 
@@ -190,7 +190,7 @@ Torna all'inizio
     
       - [Copiare i risultati della ricerca eDiscovery in una cassetta postale di individuazione](copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md)
     
-      - [Esportazione dei risultati della ricerca eDiscovery in un file PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md)
+      - [Esportazione dei risultati della ricerca eDiscovery in un file PST](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/export-search-results)
 
   - Dopo aver eseguito una stima di ricerca di eDiscovery (che include le parole chiave nei criteri di ricerca), è possibile visualizzare statistiche sulle parole chiave fare clic su **statistiche sulle parole chiave visualizzazione** nel riquadro dei dettagli per la ricerca selezionata. Questi dati statistici Mostra dettagli sul numero di elementi restituiti per ogni parola chiave utilizzata nella query di ricerca. Se, tuttavia, la ricerca include più di 100 cassette postali di origine, è verrà restituito un errore se si tenta di visualizzare statistiche sulle parole chiave. Per visualizzare statistiche sulle parole chiave, è possono includere non più di 100 cassette postali di origine nella ricerca.
 

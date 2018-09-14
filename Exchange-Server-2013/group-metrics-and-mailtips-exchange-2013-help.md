@@ -23,7 +23,7 @@ La metrica di gruppo è una raccolta dei seguenti dati relativi ai gruppi di dis
 
   - Numero di membri esterni all'organizzazione
 
-I dati della metrica di gruppo vengono utilizzati per supportare i suggerimenti messaggio in Microsoft Exchange Server 2013. I avvisi messaggio sono messaggi informativi visualizzati per i mittenti durante la composizione dei messaggi. Per ulteriori informazioni sugli avvisi messaggio, incluso un elenco completo di quelli disponibili in Exchange 2013, vedere [MailTips](mailtips-exchange-2013-help.md).
+I dati della metrica di gruppo vengono utilizzati per supportare i suggerimenti messaggio in Microsoft Exchange Server 2013. I avvisi messaggio sono messaggi informativi visualizzati per i mittenti durante la composizione dei messaggi. Per ulteriori informazioni sugli avvisi messaggio, incluso un elenco completo di quelli disponibili in Exchange 2013, vedere [MailTips](https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips).
 
 I dati della metrica di gruppo vengono utilizzati nei seguenti avvisi:
 

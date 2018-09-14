@@ -21,23 +21,23 @@ _**Ultima modifica dell'argomento:** 2017-08-02_
 
 Utilizzare uno o più delle procedure elencate di seguito per aggiornare ed eseguire l'infrastruttura delle cartelle pubbliche e per eseguire altre operazioni necessarie per la gestione delle cartelle pubbliche.
 
-[Configurare cartelle pubbliche in una nuova organizzazione](set-up-public-folders-in-a-new-organization-exchange-2013-help.md)
+[Configurare cartelle pubbliche in una nuova organizzazione](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-public-folders)
 
 [Configurare cartelle pubbliche locali legacy per una distribuzione ibrida](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
 
 [Configurare le cartelle pubbliche di Exchange 2013 per una distribuzione ibrida](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
 
-[Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders)
 
 [Configurazione delle cartelle pubbliche legacy in cui si trovano le cassette postali degli utenti su server Exchange 2013](configure-legacy-public-folders-where-user-mailboxes-are-on-exchange-2013-servers-exchange-2013-help.md)
 
 [Utilizzare la migrazione seriale per spostare le cartelle pubbliche in Exchange 2013 dalle versioni precedenti](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md)
 
-[Utilizzare la migrazione batch delle cartelle pubbliche legacy a Office 365 ed Exchange Online](use-batch-migration-to-migrate-legacy-public-folders-to-office-365-and-exchange-online-exchange-online-help.md)
+[Utilizzare la migrazione batch delle cartelle pubbliche legacy a Office 365 ed Exchange Online](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders)
 
-[Utilizzare la migrazione batch per migrare le cartelle pubbliche di Exchange 2013 a Exchange Online](use-batch-migration-to-migrate-exchange-2013-public-folders-to-exchange-online-exchange-online-help.md)
+[Utilizzare la migrazione batch per migrare le cartelle pubbliche di Exchange 2013 a Exchange Online](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/batch-migration-of-exchange-2013-public-folders)
 
-[Creazione di una cassetta postale di cartelle pubbliche](create-a-public-folder-mailbox-exchange-2013-help.md)
+[Creazione di una cassetta postale di cartelle pubbliche](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/create-public-folder-mailbox)
 
 [Creare una cartella pubblica](create-a-public-folder-exchange-2013-help.md)
 

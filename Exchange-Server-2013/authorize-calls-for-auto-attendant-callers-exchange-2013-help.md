@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2013-02-21_
 
 È possibile abilitare le autorizzazioni di composizione per un operatore automatico di messaggistica unificata. Le autorizzazioni di composizione su un operatore automatico vengono utilizzate per impedire agli utenti che chiamano l'operatore automatico di effettuare telefonate nazionali o internazionali o *chiamate esterne*. La composizione di chiamate esterne avviene quando la messaggistica unificata effettua una chiama in uscita per un utente dopo che tale utente ha chiamato un numero configurato in un operatore automatico di messaggistica unificata.
 
-Per altre attività di gestione relative alla composizione di chiamate esterne, vedere [Che consente agli utenti di effettuare chiamate procedure](allowing-users-to-make-calls-procedures-exchange-2013-help.md).
+Per altre attività di gestione relative alla composizione di chiamate esterne, vedere [Che consente agli utenti di effettuare chiamate procedure](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-make-calls-procedures).
 
 ## Che cosa è necessario sapere prima di iniziare
 
@@ -27,11 +27,11 @@ Per altre attività di gestione relative alla composizione di chiamate esterne, 
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Operatori automatici di messaggistica unificata" nell'argomento [Autorizzazioni della messaggistica unificate](unified-messaging-permissions-exchange-2013-help.md).
 
-  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+  - È necessario confermare la creazione del dial plan di messaggistica unificata prima di eseguire le procedure. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
-  - Prima di eseguire queste procedure, verificare che sia stato creato un operatore automatico di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un operatore automatico di messaggistica unificata](create-a-um-auto-attendant-exchange-2013-help.md).
+  - Prima di eseguire queste procedure, verificare che sia stato creato un operatore automatico di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un operatore automatico di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant).
 
-  - Prima di eseguire queste procedure, verificare che le regole di composizione nazionali e internazionali siano state create in un dial plan di messaggistica unificata. Per la procedura dettagliata, vedere [Creare regole di composizione per gli utenti](create-dialing-rules-for-users-exchange-2013-help.md).
+  - Prima di eseguire queste procedure, verificare che le regole di composizione nazionali e internazionali siano state create in un dial plan di messaggistica unificata. Per la procedura dettagliata, vedere [Creare regole di composizione per gli utenti](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/create-dialing-rules).
 
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

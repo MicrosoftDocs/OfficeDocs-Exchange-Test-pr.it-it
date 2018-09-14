@@ -21,7 +21,7 @@ _**Ultima modifica dell'argomento:** 2012-11-12_
 
 È necessario tenere presente che esistono altre impostazioni in un'organizzazione di Exchange che determinano la dimensione massima dei messaggi che una cassetta postale può inviare e ricevere, ad esempio, la dimensione massima dei messaggi configurata in un server Cassette postali. Per ulteriori informazioni sulle restrizioni applicate alle dimensioni dei messaggi, inclusi i tipi di limiti di dimensione dei messaggi, l'ambito e l'ordine di precedenza, vedere [Limiti di dimensione dei messaggi](message-size-limits-exchange-2013-help.md).
 
-Per le attività di gestione aggiuntive relative alle cassette postali utente, vedere [Gestire le cassette postali degli utenti](manage-user-mailboxes-exchange-2013-help.md).
+Per le attività di gestione aggiuntive relative alle cassette postali utente, vedere [Gestire le cassette postali degli utenti](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 
 > [!NOTE]

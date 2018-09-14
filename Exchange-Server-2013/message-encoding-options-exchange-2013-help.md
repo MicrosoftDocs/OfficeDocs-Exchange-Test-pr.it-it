@@ -401,7 +401,7 @@ Inizio pagina
 
 [Gestire gli utenti di posta](manage-mail-users-exchange-2013-help.md)
 
-[Gestire i contatti di posta](manage-mail-contacts-exchange-2013-help.md)
+[Gestire i contatti di posta](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-contacts)
 
 [Modifica del formato dei messaggi in Outlook](https://go.microsoft.com/fwlink/p/?linkid=397890)
 

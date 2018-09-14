@@ -21,7 +21,7 @@ _**Ultima modifica dell'argomento:** 2012-12-05_
 
 Dopo aver disabilitato la posta elettronica per un contatto di posta, è possibile riabilitare il contatto alla posta tramite il cmdlet **Enable-MailContact** in Shell. È anche possibile utilizzare questo cmdlet per abilitare alla posta qualsiasi contatto di Active Directory.
 
-Per le attività di gestione aggiuntive relative ai contatti di posta, vedere [Gestire i contatti di posta](manage-mail-contacts-exchange-2013-help.md).
+Per le attività di gestione aggiuntive relative ai contatti di posta, vedere [Gestire i contatti di posta](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-contacts).
 
 ## Che cosa è necessario sapere prima di iniziare?
 

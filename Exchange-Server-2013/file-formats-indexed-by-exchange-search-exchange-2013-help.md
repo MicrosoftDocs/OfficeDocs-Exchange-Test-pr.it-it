@@ -25,7 +25,7 @@ In MicrosoftExchange Server 2013 e Exchange Online, Ricerca di Exchange include 
 
 
 
-Quando si gestisce o si utilizza Ricerca di Exchange e le funzionalità dipendenti (come [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md)), tenere presente la differenza tra elementi non ricercabili e formati di file disabilitati per l'indicizzazione o con contenuto non indicizzabile.
+Quando si gestisce o si utilizza Ricerca di Exchange e le funzionalità dipendenti (come [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)), tenere presente la differenza tra elementi non ricercabili e formati di file disabilitati per l'indicizzazione o con contenuto non indicizzabile.
 
   - **Elementi non ricercabili**   Se la ricerca di Exchange non è in grado di indicizzare un particolare tipo di file per qualsiasi ragione (ad esempio se un filtro non è installato), la ricerca per quel tipo di file ha esito negativo. Messaggi contenenti allegati contrassegnati come *parzialmente indicizzati*. Gli elementi non ricercabili possono essere recuparati tramite il cmdlet [Get-FailedContentIndexDocuments](https://technet.microsoft.com/it-it/library/dd351154\(v=exchg.150\)). Quando si copiano i risultati della ricerca di eDiscovery sul posto in una cassetta postale di individuazione o si riportano i risultati della ricerca in un file PST, è possibile includere elementi non ricercabili. Per ulteriori informazioni, vedere [Elementi non ricercabili in Exchange eDiscovery](unsearchable-items-in-exchange-ediscovery-exchange-2013-help.md).
 

@@ -75,7 +75,7 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
             
 
             > [!IMPORTANT]
-            > Le cassette postali o gli elementi soggetti all'archiviazione sul posto o alla conservazione per controversia legale verranno conservati e restituiti nelle ricerche eDiscovery in locale. Per ulteriori informazioni, vedere <A href="in-place-hold-and-litigation-hold-exchange-2013-help.md">Archiviazione sul posto e conservazione per controversia legale</A>.
+            > Le cassette postali o gli elementi soggetti all'archiviazione sul posto o alla conservazione per controversia legale verranno conservati e restituiti nelle ricerche eDiscovery in locale. Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds">Archiviazione sul posto e conservazione per controversia legale</A>.
 
         
           - **Sposta in archivio**   Questa azione è disponibile solo se si sta creando un DPT o un tag personale. Selezionare questa azione per spostare gli elementi nell'archivio sul posto dell'utente.

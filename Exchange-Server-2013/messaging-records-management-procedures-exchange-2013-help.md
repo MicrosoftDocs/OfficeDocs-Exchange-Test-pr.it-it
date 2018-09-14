@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2012-10-14_
 
 [Creare un criterio di conservazione](create-a-retention-policy-exchange-2013-help.md)
 
-[I tag di conservazione per aggiungere o rimuovere i tag di conservazione da un criterio di conservazione](add-retention-tags-to-or-remove-retention-tags-from-a-retention-policy-exchange-2013-help.md)
+[I tag di conservazione per aggiungere o rimuovere i tag di conservazione da un criterio di conservazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/add-or-remove-retention-tags)
 
 [Applicazione dei criteri di conservazione alle cassette postali](apply-a-retention-policy-to-mailboxes-exchange-2013-help.md)
 

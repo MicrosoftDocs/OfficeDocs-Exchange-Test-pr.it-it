@@ -1,4 +1,4 @@
-- name: Distribuzioni ibride di Exchange Server 2013
+﻿- name: Distribuzioni ibride di Exchange Server 2013
   href: exchange-server-hybrid-deployments-exchange-2013-help.md
   items:
   - name: Procedura guidata di configurazione ibrida
@@ -45,7 +45,7 @@
     - name: Configurare le cartelle pubbliche di Exchange 2013 per una distribuzione ibrida
       href: configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
     - name: Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida
-      href: configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+      href: https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders
     - name: Configurare Exchange in modo da supportare le autorizzazioni per cassette postali con delega in una distribuzione ibrida
       href: configure-exchange-to-support-delegated-mailbox-permissions-in-a-hybrid-deployment-exchange-2013-help.md
     - name: Configurare gli allegati più recenti utilizzando le versioni in locale di OneDrive for Business ed Exchange 2016
@@ -85,9 +85,9 @@
     - name: Routing di trasporto nelle distribuzioni ibride di Exchange 2013/Exchange 2010
       href: transport-routing-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
   - name: Informazioni sulla documentazione di Exchange
-    href: about-exchange-documentation-exchange-2013-help.md
+    href: https://docs.microsoft.com/it-it/exchange/about-exchange-documentation
     items:
     - name: Accessibilità per gli utenti disabili
-      href: accessibility-for-people-with-disabilities-exchange-2013-help.md
+      href: https://docs.microsoft.com/it-it/exchange/about-exchange-documentation/accessibility
     - name: Avviso di copyright di terze parti
-      href: third-party-copyright-notices-exchange-2013-help.md
+      href: https://docs.microsoft.com/it-it/exchange/about-exchange-documentation/third-party-copyright-notices

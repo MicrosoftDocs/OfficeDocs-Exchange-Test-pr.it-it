@@ -47,7 +47,7 @@ Problemi? È possibile richiedere supporto nei forum di Exchange. I forum sono d
 
 Per ulteriori informazioni su come eseguire il mantenimento di una cassetta postale, vedere [Archiviazione sul posto una cassetta postale di conservazione](place-a-mailbox-on-retention-hold-exchange-2013-help.md).
 
-Per ulteriori informazioni sull'archiviazione sul posto e sulla conservazione per controversia legale, vedere [Archiviazione sul posto e conservazione per controversia legale](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+Per ulteriori informazioni sull'archiviazione sul posto e sulla conservazione per controversia legale, vedere [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 ## Rimozione dei tag di conservazione dalle cassette postali
 

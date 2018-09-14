@@ -269,7 +269,7 @@ Di seguito Ã¨ riportato un elenco completo dei campi dati. Tutti i dati di MTL Ã
 
 ## Ulteriori informazioni
 
-[Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Creare i rapporti operazioni non consentite per i rilevamenti di criteri DLP](create-incident-reports-for-dlp-policy-detections-exchange-2013-help.md)
 
