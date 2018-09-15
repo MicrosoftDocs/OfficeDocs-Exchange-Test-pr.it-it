@@ -289,7 +289,7 @@ In questo esempio viene creato l'elenco di indirizzi AL\_TAIL\_Users\_DGs, L'ele
 
     New-AddressList -Name "AL_TAIL_Users_DGs" -RecipientFilter {((RecipientType -eq 'UserMailbox') -or (RecipientType -eq "MailUniversalDistributionGroup") -or (RecipientType -eq "DynamicDistributionGroup")) -and (CustomAttribute15 -eq "TAIL")}
 
-Per ulteriori informazioni sulla creazione di elenchi di indirizzi tramite i filtri destinatari, vedere [Creare un elenco di indirizzi utilizzando filtri destinatario](create-an-address-list-by-using-recipient-filters-exchange-2013-help.md).
+Per ulteriori informazioni sulla creazione di elenchi di indirizzi tramite i filtri destinatari, vedere [Creare un elenco di indirizzi utilizzando filtri destinatario](https://docs.microsoft.com/it-it/exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list).
 
 Per poter creare un criterio della rubrica è necessario fornire un elenco delle sale. Se nell'organizzazione non sono disponibili cassette postali per le risorse (ad esempio per le sale o le apparecchiature), è consigliabile creare un elenco delle sale vuoto. Nell'esempio seguente viene creato un elenco delle sale vuoto poiché nell'organizzazione non sono presenti cassette postali per le sale.
 

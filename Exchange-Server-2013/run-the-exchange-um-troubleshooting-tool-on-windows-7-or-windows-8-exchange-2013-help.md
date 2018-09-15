@@ -29,9 +29,9 @@ Lo strumento di risoluzione dei problemi di messaggistica unificata di Microsoft
     
       - È stato creato un dial plan di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
     
-      - È stato creato un criterio cassetta postale di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un criterio cassetta postale di messaggistica unificata](create-a-um-mailbox-policy-exchange-2013-help.md).
+      - È stato creato un criterio cassetta postale di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un criterio cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
     
-      - È stato creato un gateway IP di messaggistica unificata. Per la procedura dettagliata, vedere [Creare un gateway IP di messaggistica unificata](create-a-um-ip-gateway-exchange-2013-help.md).
+      - È stato creato un gateway IP di messaggistica unificata. Per la procedura dettagliata, vedere [Creare un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
     
       - Un server Messaggistica UNIFICATA di Exchange 2010 è stato aggiunto al dial plan di messaggistica UNIFICATA. Se si utilizza Exchange 2013 con Lync Server, aggiungere tutti accesso Client e server cassette postali per il dial plan URI SIP. Per ulteriori informazioni, vedere [Add un Server messaggistica UNIFICATA a un Dial Plan](https://go.microsoft.com/fwlink/p/?linkid=313051) o [Aggiungere server cassette postali e accesso Client a un dial plan URI SIP](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md).
 

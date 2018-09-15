@@ -25,7 +25,8 @@ Negli argomenti seguenti vengono fornite informazioni sulla distribuzione di una
 
 [Installazione di Exchange 2013 utilizzando l'installazione guidata](install-exchange-2013-using-the-setup-wizard-exchange-2013-help.md)
 
-[Installare Exchange 2013 utilizzando la modalità automatica](install-exchange-2013-using-unattended-mode-exchange-2013-help.md)
+[Installare Exchange 2013 utilizzando la modalità automatica](ge-2013-using-unattended-mode-exchange-2013-help 
+Redirect to URL: https://review.docs.microsoft.com/zh-cn/office/exchange-server-2013/exchange-2013-client-access-server-configuration-exchange-2013-help)
 
 [Installazione del ruolo Trasporto Edge di Exchange 2013 tramite l'installazione guidata](install-the-exchange-2013-edge-transport-role-using-the-setup-wizard-exchange-2013-help.md)
 

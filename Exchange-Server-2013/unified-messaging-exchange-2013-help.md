@@ -259,15 +259,15 @@ Nella seguente tabella, sono riportati i collegamenti agli argomenti che offrono
 <td><p>Informazioni sull'integrazione della rete di telefonia con la funzionalità di messaggistica unificata.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md">Connettere il sistema di segreteria telefonica alla rete telefonica</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system">Connettere il sistema di segreteria telefonica alla rete telefonica</a></p></td>
 <td><p>Maggiori informazioni su come utilizzare e configurare i componenti di messaggistica unificata per collegare la rete telefonica alla messaggistica unificata di Exchange.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="automatically-answer-and-route-incoming-calls-exchange-2013-help.md">Rispondere automaticamente e il routing delle chiamate in arrivo</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls">Rispondere automaticamente e il routing delle chiamate in arrivo</a></p></td>
 <td><p>Maggiori informazioni su come creare operatori automatici di messaggistica unificata e gestire le impostazioni per i menu di navigazione, i messaggi di saluto e gli orari di ufficio e non di ufficio.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="set-up-voice-mail-for-users-exchange-2013-help.md">Configurazione di segreteria telefonica per gli utenti</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/set-up-voice-mail">Configurazione di segreteria telefonica per gli utenti</a></p></td>
 <td><p>Ulteriori informazioni su come creare e gestire cassette postali di messaggistica unificata e su come abilitare la funzionalità di messaggistica unificata per gli utenti.</p></td>
 </tr>
 <tr class="odd">

@@ -110,7 +110,7 @@ Quando Microsoft Lync Server viene utilizzato per Enterprise Voice, la messaggis
 
 Per ulteriori informazioni sull'aggiunta, la rimozione o la modifica delle estensioni, vedere:
 
-  - [Modificare un numero interno](change-an-extension-number-exchange-2013-help.md)
+  - [Modificare un numero interno](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-extension-number)
 
   - [Aggiungere un numero interno](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-extension-number)
 
@@ -118,11 +118,11 @@ Per ulteriori informazioni sull'aggiunta, la rimozione o la modifica delle esten
 
 Per modificare gli indirizzi SIP o i numeri E.164 per gli utenti di messaggistica unificata, vedere:
 
-  - [Aggiungere un indirizzo SIP](add-a-sip-address-exchange-2013-help.md)
+  - [Aggiungere un indirizzo SIP](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-sip-address)
 
   - [Modificare un indirizzo SIP](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-sip-address)
 
-  - [Rimuovere un indirizzo SIP](remove-a-sip-address-exchange-2013-help.md)
+  - [Rimuovere un indirizzo SIP](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-sip-address)
 
   - [Aggiungere un numero e. 164](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-e-164-number)
 

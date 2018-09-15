@@ -135,7 +135,7 @@ Questo tipo di ambiente PBX può comprendere anche funzionalità avanzate, come 
 
 In un ambiente di telefonia che comprende uno o più sistemi PBX analogici, la presenza di un gateway VoIP tra il sistema PBX e i server Accesso client e Cassette postali di Exchange 2013 è necessaria per convertire i protocolli basati su circuito presenti in una rete di telefonia in protocolli basati su IP presenti in una rete di dati. Per ulteriori informazioni sui gateway VoIP, vedere i seguenti argomenti:
 
-  - [Gateway IP di messaggistica unificata](um-ip-gateways-exchange-2013-help.md)
+  - [Gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways)
 
   - [Connettere un gateway VoIP per comunicare con un PBX](connect-a-voip-gateway-to-communicate-with-a-pbx-exchange-2013-help.md)
 

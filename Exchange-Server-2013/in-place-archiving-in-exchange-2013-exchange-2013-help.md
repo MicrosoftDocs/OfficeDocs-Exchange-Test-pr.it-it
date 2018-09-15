@@ -138,7 +138,7 @@ In Exchange 2013, è possibile applicare i criteri di archiviazione a una casset
 
 I messaggi vengono spostati in una cartella nella cassetta postale di archiviazione che ha lo stesso nome della cartella di origine nella cassetta postale principale. Se nella cassetta postale di archiviazione non è presente una cartella con lo stesso nome, viene creata quando l'Assistente cartelle gestite sposta un messaggio. Se nella cassetta postale di archiviazione si ricrea la stessa gerarchia di cartelle, gli utenti potranno trovare più facilmente i messaggi.
 
-Per ulteriori informazioni su criteri, tag e azione di conservazione **Sposta nell'archivio**, vedere [Tag di conservazione e criteri di conservazione](retention-tags-and-retention-policies-exchange-2013-help.md).
+Per ulteriori informazioni su criteri, tag e azione di conservazione **Sposta nell'archivio**, vedere [Tag di conservazione e criteri di conservazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies).
 
 ## Criterio di gestione record di messaggistica predefinito
 

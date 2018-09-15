@@ -113,7 +113,7 @@ Utilizzare i seguenti comandi per creare la prima cassetta postale di cartelle p
 
     New-Mailbox -PublicFolder -Name <name of public folder>
 
-Per ulteriori dettagli, vedere [Creare una cartella pubblica](create-a-public-folder-exchange-2013-help.md).
+Per ulteriori dettagli, vedere [Creare una cartella pubblica](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ## Nelle versioni precedenti di Exchange, ogni database delle cassette postali disponeva di un'opzione per la definizione del proprio database di cartelle pubbliche. Cosa succederà ora in Exchange 2013?
 

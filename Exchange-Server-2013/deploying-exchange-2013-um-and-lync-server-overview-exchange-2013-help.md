@@ -188,7 +188,7 @@ Per ulteriori informazioni su Microsoft Lync Server, vedere [Microsoft Lync Serv
 
 5.  Impostare la modalità di avvio e la porta di ascolto TLS sui server Accesso client e Cassette postali aggiunti al dial plan URI SIP su Doppio, quindi riavviare il servizio Messaggistica unificata di MicrosoftExchange su ciascun server Cassette postali e il servizio Router chiamate di messaggistica unificata di MicrosoftExchange su ciascun server Accesso client.
 
-6.  Creare e configurare un operatore automatico di messaggistica unificata. Per ulteriori informazioni, vedere [Configurare un operatore automatico di messaggistica unificata](set-up-a-um-auto-attendant-exchange-2013-help.md).
+6.  Creare e configurare un operatore automatico di messaggistica unificata. Per ulteriori informazioni, vedere [Configurare un operatore automatico di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant).
 
 7.  Se si desidera abilitare gli utenti alla segreteria telefonica, creare un indirizzo SIP per gli utenti che utilizzeranno VoIP aziendale. Nella maggior parte dei casi, questo indirizzo SIP sarà lo stesso utilizzato quando un utente viene abilitato per VoIP aziendale. Per ulteriori informazioni, vedere [Consentire a un utente per la segreteria telefonica](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
     
@@ -202,7 +202,7 @@ Per ulteriori informazioni su Microsoft Lync Server, vedere [Microsoft Lync Serv
     
       - Concede le autorizzazioni Lync Server per la lettura Exchange componenti Active Directory di messaggistica UNIFICATA, in particolare i dial plan URI SIP creati nell'attività precedente. Per ulteriori informazioni su come configurare le autorizzazioni in Active Directory, vedere [come utilizzare Modifica ADSI per applicare le autorizzazioni](https://go.microsoft.com/fwlink/p/?linkid=82751).
     
-      - Consente di creare un gateway IP di messaggistica unificata per ogni pool Lync Server o per ogni server con Lync Server Standard Edition che ospita utenti abilitati per VoIP aziendale. Per ulteriori informazioni, vedere [Creare un gateway IP di messaggistica unificata](create-a-um-ip-gateway-exchange-2013-help.md).
+      - Consente di creare un gateway IP di messaggistica unificata per ogni pool Lync Server o per ogni server con Lync Server Standard Edition che ospita utenti abilitati per VoIP aziendale. Per ulteriori informazioni, vedere [Creare un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
     
       - Creare un gruppo di risposta di messaggistica unificata di Exchange per ciascun gateway IP di messaggistica unificata. L'identificatore pilota del gruppo di risposta corrisponderà al nome del dial plan di messaggistica unificata associato al gateway IP di messaggistica unificata corrispondente. Il gruppo di risposta deve specificare il dial plan SIP di messaggistica unificata utilizzato con il gateway IP di messaggistica unificata.
 

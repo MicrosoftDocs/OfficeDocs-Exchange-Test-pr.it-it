@@ -23,5 +23,5 @@ _**Ultima modifica dell'argomento:** 2012-10-11_
 
 [Modificare le impostazioni di un criterio della Rubrica](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/change-the-settings-of-an-address-book-policy)
 
-[Rimuovere un criterio della Rubrica](remove-an-address-book-policy-exchange-2013-help.md)
+[Rimuovere un criterio della Rubrica](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/remove-an-address-book-policy)
 

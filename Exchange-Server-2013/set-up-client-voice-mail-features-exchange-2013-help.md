@@ -41,7 +41,7 @@ Receiving faxes
 
 ## Outlook Voice Access
 
-Nella messaggistica unificata di Exchange, un utente abilitato alla messaggistica unificata può eseguire una chiamata a un numero telefonico interno o esterno configurato su un dial plan di messaggistica unificata per accedere alla sua cassetta postale e utilizzare il sistema di menu disponibile in Outlook Voice Access. Utilizzando questo menu, gli utenti abilitati alla messaggistica unificata possono leggere i messaggi di posta elettronica, ascoltare i messaggi vocali, interagire con il loro calendario di Outlook, accedere ai contatti personali ed eseguire attività quali la configurazione del PIN di Outlook Voice Access o la registrazione dei messaggi di saluto. Per ulteriori informazioni, vedere [Configurazione di Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md).
+Nella messaggistica unificata di Exchange, un utente abilitato alla messaggistica unificata può eseguire una chiamata a un numero telefonico interno o esterno configurato su un dial plan di messaggistica unificata per accedere alla sua cassetta postale e utilizzare il sistema di menu disponibile in Outlook Voice Access. Utilizzando questo menu, gli utenti abilitati alla messaggistica unificata possono leggere i messaggi di posta elettronica, ascoltare i messaggi vocali, interagire con il loro calendario di Outlook, accedere ai contatti personali ed eseguire attività quali la configurazione del PIN di Outlook Voice Access o la registrazione dei messaggi di saluto. Per ulteriori informazioni, vedere [Configurazione di Outlook Voice Access](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-outlook-voice-access).
 
 ## Inoltro delle chiamate
 
@@ -49,7 +49,7 @@ Un utente abilitato alla messaggistica unificata può creare e configurare delle
 
 ## Anteprima casella vocale
 
-Anteprima messaggio vocale è una funzionalità disponibile per gli utenti che ricevono i messaggi vocali tramite un sistema di messaggistica unificata. Anteprima messaggio vocale migliora le funzionalità esistenti della casella vocale di messaggistica unificata offrendo una versione di testo delle registrazioni audio. Per ulteriori informazioni, vedere [Consentire agli utenti di visualizzare una trascrizione di posta vocale](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md).
+Anteprima messaggio vocale è una funzionalità disponibile per gli utenti che ricevono i messaggi vocali tramite un sistema di messaggistica unificata. Anteprima messaggio vocale migliora le funzionalità esistenti della casella vocale di messaggistica unificata offrendo una versione di testo delle registrazioni audio. Per ulteriori informazioni, vedere [Consentire agli utenti di visualizzare una trascrizione di posta vocale](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-see-a-voice-mail-transcript).
 
 ## Ricezione dei fax
 

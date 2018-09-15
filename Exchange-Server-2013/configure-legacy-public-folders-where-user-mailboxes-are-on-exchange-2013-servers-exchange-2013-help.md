@@ -25,7 +25,7 @@ Gli utenti le cui cassette postali si trovano in Exchange Server 2013 o Exchange
 
 
 > [!NOTE]
-> 2016 Outlook per Mac possono accedere alle cartelle pubbliche legacy dopo aver eseguito i passaggi descritti in questo articolo. Se i client nell'organizzazione utilizzano 2016 Outlook per Mac, assicurarsi di che aver installato l'aggiornamento di aprile 2016. In caso contrario, gli utenti non potranno accedere alle cartelle pubbliche in un coesistenza o di una topologia ibrida. Per ulteriori informazioni, vedere <A href="accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md">Accesso alle cartelle pubbliche con Outlook 2016 per Mac</A>.
+> 2016 Outlook per Mac possono accedere alle cartelle pubbliche legacy dopo aver eseguito i passaggi descritti in questo articolo. Se i client nell'organizzazione utilizzano 2016 Outlook per Mac, assicurarsi di che aver installato l'aggiornamento di aprile 2016. In caso contrario, gli utenti non potranno accedere alle cartelle pubbliche in un coesistenza o di una topologia ibrida. Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/access-public-folders-with-outlook-2016-for-mac">Accesso alle cartelle pubbliche con Outlook 2016 per Mac</A>.
 
 
 
@@ -73,7 +73,7 @@ Gli utenti le cui cassette postali si trovano in Exchange Server 2013 o Exchange
 
 Il passaggio finale di questa procedura prevede la configurazione delle cassette postali degli utenti per consentire l'accesso alle cartelle pubbliche locali legacy.
 
-Consentire agli utenti locali di Exchange Server 2013 di accedere alle cartelle pubbliche legacy. Puntare a tutte le cassette postali delle cartelle pubbliche proxy create in [Step 2: Make remote public folders discoverable](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md). Lanciare il seguente comando da un server Exchange 2013 con aggiornamento CU5 o successivo.
+Consentire agli utenti locali di Exchange Server 2013 di accedere alle cartelle pubbliche legacy. Puntare a tutte le cassette postali delle cartelle pubbliche proxy create in [Step 2: Make remote public folders discoverable](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders). Lanciare il seguente comando da un server Exchange 2013 con aggiornamento CU5 o successivo.
 
     Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
 

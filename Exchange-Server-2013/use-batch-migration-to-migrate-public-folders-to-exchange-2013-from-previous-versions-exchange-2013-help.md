@@ -83,7 +83,7 @@ Non è possibile eseguire la migrazione delle cartelle pubbliche direttamente da
 
   - In un ambiente più domini, le cartelle pubbliche abilitate alla posta smetterà di funzionare dopo la migrazione a Exchange 2013, se Exchange è in esecuzione in un dominio figlio. Ciò avviene perché Exchange 2013, gli oggetti abilitati alla posta elettronica di cartelle pubbliche devono essere sotto il dominio radice. Per risolvere questo problema, è necessario disabilitare le cartelle pubbliche abilitate alla posta elettronica e quindi abilitare alla posta li, che consentirà di spostarli nella posizione di dominio corretto.
 
-  - Al termine della migrazione, se si desidera che i mittenti esterni inviino posta elettronica alle cartelle pubbliche abilitate alla posta migrata, è necessario concedere all’utente **Anonimo** almeno l’autorizzazione a **creare elementi**. Se non si esegue questa operazione, i mittenti esterni riceveranno una notifica di errore di recapito e i messaggi non verranno recapitati alla cartella pubblica abilitata alla posta migrata. Per ulteriori informazioni su come impostare le autorizzazioni per l’utente anonimo, vedere [Posta elettronica attiva o Disattiva posta una cartella pubblica](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+  - Al termine della migrazione, se si desidera che i mittenti esterni inviino posta elettronica alle cartelle pubbliche abilitate alla posta migrata, è necessario concedere all’utente **Anonimo** almeno l’autorizzazione a **creare elementi**. Se non si esegue questa operazione, i mittenti esterni riceveranno una notifica di errore di recapito e i messaggi non verranno recapitati alla cartella pubblica abilitata alla posta migrata. Per ulteriori informazioni su come impostare le autorizzazioni per l’utente anonimo, vedere [Posta elettronica attiva o Disattiva posta una cartella pubblica](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -417,7 +417,7 @@ Dopo aver finalizzato la migrazione delle cartelle pubbliche, è necessario effe
 
 6.  Infine, se si desidera che i mittenti esterni inviino posta elettronica alle cartelle pubbliche abilitate alla posta migrata, è necessario concedere all’utente **Anonimo** almeno l’autorizzazione a **creare elementi**. Se non si esegue questa operazione, i mittenti esterni riceveranno una notifica di errore di recapito e i messaggi non verranno recapitati alla cartella pubblica abilitata alla posta migrata.
     
-    È possibile utilizzare Shell o Outlook per impostare le autorizzazioni per l’utente anonimo. Per ulteriori informazioni su come impostare le autorizzazioni per l’utente anonimo, vedere [Posta elettronica attiva o Disattiva posta una cartella pubblica](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+    È possibile utilizzare Shell o Outlook per impostare le autorizzazioni per l’utente anonimo. Per ulteriori informazioni su come impostare le autorizzazioni per l’utente anonimo, vedere [Posta elettronica attiva o Disattiva posta una cartella pubblica](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 

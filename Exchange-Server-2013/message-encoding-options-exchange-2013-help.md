@@ -399,7 +399,7 @@ Inizio pagina
 
 [Domini remoti in Exchange Online](https://technet.microsoft.com/it-it/library/jj966211\(v=exchg.150\))
 
-[Gestire gli utenti di posta](manage-mail-users-exchange-2013-help.md)
+[Gestire gli utenti di posta](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-users)
 
 [Gestire i contatti di posta](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-contacts)
 
