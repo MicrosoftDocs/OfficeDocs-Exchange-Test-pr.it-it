@@ -45,7 +45,7 @@ Problemi? È possibile richiedere supporto nei forum di Exchange. I forum sono d
 
 È possibile eseguire il mantenimento delle cassette postali per disattivare temporaneamente Gestione record di messaggistica (ad esempio, quando gli utenti sono in ferie). L'operazione sospende l'elaborazione dei criteri di conservazione per la cassetta postale finché non viene disabilitato il mantenimento. Questa operazione è diversa dalla disposizione delle cassette postali nell'archiviazione sul posto o in conservazione per controversia legale.
 
-Per ulteriori informazioni su come eseguire il mantenimento di una cassetta postale, vedere [Archiviazione sul posto una cassetta postale di conservazione](place-a-mailbox-on-retention-hold-exchange-2013-help.md).
+Per ulteriori informazioni su come eseguire il mantenimento di una cassetta postale, vedere [Archiviazione sul posto una cassetta postale di conservazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold).
 
 Per ulteriori informazioni sull'archiviazione sul posto e sulla conservazione per controversia legale, vedere [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds).
 

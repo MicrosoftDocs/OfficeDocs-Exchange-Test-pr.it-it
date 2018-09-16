@@ -65,13 +65,13 @@ La messaggistica unificata di Exchange supporta vari fornitori di gateway VoIP e
 
 Per informazioni dettagliate sui gateway VoIP, vedere i seguenti argomenti:
 
-  - [Creare un gateway IP di messaggistica unificata](create-a-um-ip-gateway-exchange-2013-help.md)
+  - [Creare un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway)
 
   - [Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
   - [Connettere un controller dei confini VoIP gateway, IP PBX o della sessione di messaggistica UNIFICATA](connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md)
 
-Per ulteriori informazioni, vedere [Connettere il sistema di segreteria telefonica alla rete telefonica](connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md).
+Per ulteriori informazioni, vedere [Connettere il sistema di segreteria telefonica alla rete telefonica](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system).
 
 ## Passaggio 4: Creare un nuovo gruppo di risposta di messaggistica unificata, se necessario
 

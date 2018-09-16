@@ -127,7 +127,7 @@ Il processo di sincronizzazione della gerarchia delle cartelle pubbliche utilizz
 
 Nelle organizzazioni grandi, quando si crea una nuova cassetta postale di cartelle pubbliche, la gerarchia deve eseguire la sincronizzazione a quella cartella pubblica prima che gli utenti vi si possano collegare. In caso contrario, gli utenti potrebbero visualizzare una struttura di cartelle pubbliche incompleta durante la connessione con Outlook. Per attendere il verificarsi della sincronizzazione senza che gli utenti eseguano tentativi per collegarsi alla nuova cassetta postale di cartelle pubbliche, impostare il parametro *IsExcludedFromServingHierarchy* sul cmdlet **New-Mailbox** durante la creazione della cassetta postale di cartelle pubbliche. Questo parametro impedisce agli utenti di collegarsi alla cassetta postale di cartelle pubbliche appena creata. Una volta completata la sincronizzazione, eseguire il cmdlet [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)) con il parametro *IsExcludedFromServingHierarchy* impostato su `false`, che indica che la cassetta postale di cartelle pubbliche è pronta per il collegamento. È inoltre possibile utilizzare il cmdlet [Get-PublicFolderMailboxDiagnostics](https://technet.microsoft.com/it-it/library/jj218720\(v=exchg.150\)) per visualizzare lo stato di sincronizzazione tramite le proprietà *SyncInfo* e *AssistantInfo*.
 
-Per ulteriori informazioni, vedere [Creare una cartella pubblica](create-a-public-folder-exchange-2013-help.md).
+Per ulteriori informazioni, vedere [Creare una cartella pubblica](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ## Contenuto delle cartelle pubbliche
 

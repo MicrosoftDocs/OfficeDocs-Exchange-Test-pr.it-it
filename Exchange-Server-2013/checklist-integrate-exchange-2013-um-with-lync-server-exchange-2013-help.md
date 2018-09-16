@@ -89,7 +89,7 @@ Per ulteriori informazioni su come eseguire le attività da completare per Lync 
 <tr class="even">
 <td><p></p></td>
 <td><p>Configurare l'impostazione di sicurezza del dial plan.</p></td>
-<td><p><a href="configure-the-voip-security-setting-exchange-2013-help.md">Configurare le impostazioni di protezione VoIP</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting">Configurare le impostazioni di protezione VoIP</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
@@ -99,7 +99,7 @@ Per ulteriori informazioni su come eseguire le attività da completare per Lync 
 <tr class="even">
 <td><p></p></td>
 <td><p>Configurare i numeri di Outlook Voice Access e di altre impostazioni.</p></td>
-<td><p><a href="manage-a-um-dial-plan-exchange-2013-help.md">Gestire un dial plan di messaggistica unificata</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-dial-plan">Gestire un dial plan di messaggistica unificata</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
@@ -120,7 +120,7 @@ Per ulteriori informazioni su come eseguire le attività da completare per Lync 
 <tr class="even">
 <td><p></p></td>
 <td><p>Impostare e configurare ogni operatore automatico di messaggistica unificata.</p></td>
-<td><p><a href="set-up-a-um-auto-attendant-exchange-2013-help.md">Configurare un operatore automatico di messaggistica unificata</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant">Configurare un operatore automatico di messaggistica unificata</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -144,7 +144,7 @@ Per ulteriori informazioni su come eseguire le attività da completare per Lync 
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Creare un criterio cassetta postale di messaggistica unificata o configurare il criterio cassetta postale di messaggistica unificata predefinito.</p></td>
-<td><p><a href="create-a-um-mailbox-policy-exchange-2013-help.md">Creazione di un criterio cassetta postale di messaggistica unificata</a></p>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy">Creazione di un criterio cassetta postale di messaggistica unificata</a></p>
 <p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy">Gestire i criteri cassetta postale di messaggistica unificata</a></p></td>
 </tr>
 <tr class="odd">

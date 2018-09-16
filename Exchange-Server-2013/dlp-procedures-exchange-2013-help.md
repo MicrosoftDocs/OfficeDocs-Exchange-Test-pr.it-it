@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2015-01-07_
 
 Per iniziare a utilizzare una soluzione di prevenzione della perdita di dati (Data Loss Prevention, DLP) nell'ambiente di messaggistica, utilizzare le procedure riportate di seguito. Per ulteriori informazioni su concetti e obiettivi per DLP, vedere [Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention).
 
-[Create a DLP policy from a template](how-to-new-dlp-data-loss-prevention-policy-template.md)   Informazioni che consentono di configurare un insieme di regole dei criteri preesistente fornito da Microsoft. I modelli di criteri consentono di iniziare a gestire in modo semplice i dati dei messaggi associati ad alcuni requisiti legali e normativi comuni.
+[Create a DLP policy from a template](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template)   Informazioni che consentono di configurare un insieme di regole dei criteri preesistente fornito da Microsoft. I modelli di criteri consentono di iniziare a gestire in modo semplice i dati dei messaggi associati ad alcuni requisiti legali e normativi comuni.
 
 [Creare un criterio DLP personalizzato](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/create-custom-dlp-policy)   Informazioni che consentono di configurare le regole dei criteri per soddisfare le esigenze specifiche dell'organizzazione probabilmente non contemplate in uno dei modelli DLP preesistenti. Le condizioni della regola, disponibili per l'utente in un singolo criterio, comprendono tutte le regole di trasporto tradizionali unite ai nuovi tipi di informazioni riservate.
 

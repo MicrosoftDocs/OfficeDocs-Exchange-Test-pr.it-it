@@ -159,7 +159,7 @@ Se non è più necessario registrare determinati tipi di azioni, modificare la c
 
   - **Utilizzo dei rapporti di controllo in EAC (Exchange Admin Center)**   È possibile utilizzare la scheda **Controllo** in EAC per creare un record di accesso non proprietario alla casella postale o esportare le voci dal registro di controllo della cassetta postale. Per dettagli, vedere:
     
-      - [Eseguire un rapporto di accesso non proprietario della cassetta postale](run-a-non-owner-mailbox-access-report-exchange-online-help.md)
+      - [Eseguire un rapporto di accesso non proprietario della cassetta postale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/non-owner-mailbox-access-report)
     
       - [Esportare registri di controllo delle cassette postali](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs)
 

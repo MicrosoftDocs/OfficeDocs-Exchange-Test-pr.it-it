@@ -23,9 +23,9 @@ Utilizzare uno o più delle procedure elencate di seguito per aggiornare ed eseg
 
 [Configurare cartelle pubbliche in una nuova organizzazione](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-public-folders)
 
-[Configurare cartelle pubbliche locali legacy per una distribuzione ibrida](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Configurare cartelle pubbliche locali legacy per una distribuzione ibrida](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders)
 
-[Configurare le cartelle pubbliche di Exchange 2013 per una distribuzione ibrida](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Configurare le cartelle pubbliche di Exchange 2013 per una distribuzione ibrida](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders)
 
 [Configurare le cartelle pubbliche di Exchange Online per una distribuzione ibrida](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders)
 
@@ -39,15 +39,15 @@ Utilizzare uno o più delle procedure elencate di seguito per aggiornare ed eseg
 
 [Creazione di una cassetta postale di cartelle pubbliche](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/create-public-folder-mailbox)
 
-[Creare una cartella pubblica](create-a-public-folder-exchange-2013-help.md)
+[Creare una cartella pubblica](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/create-public-folder)
 
-[Posta elettronica attiva o Disattiva posta una cartella pubblica](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md)
+[Posta elettronica attiva o Disattiva posta una cartella pubblica](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder)
 
-[Aggiornamento della gerarchia di cartelle pubbliche](update-the-public-folder-hierarchy-exchange-2013-help.md)
+[Aggiornamento della gerarchia di cartelle pubbliche](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/update-public-folder-hierarchy)
 
-[Rimuovere una cartella pubblica](remove-a-public-folder-exchange-2013-help.md)
+[Rimuovere una cartella pubblica](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/remove-public-folder)
 
-[Utilizzare le cartelle pubbliche preferite in Outlook sul web](use-favorite-public-folders-in-outlook-on-the-web-exchange-2013-help.md)
+[Utilizzare le cartelle pubbliche preferite in Outlook sul web](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/use-favorite-public-folders)
 
 [Spostare una cassetta postale di cartelle pubbliche a un database delle cassette postali diverse](move-a-public-folder-mailbox-to-a-different-mailbox-database-exchange-2013-help.md)
 
@@ -55,5 +55,5 @@ Utilizzare uno o più delle procedure elencate di seguito per aggiornare ed eseg
 
 [Ripristinare le cartelle pubbliche e cassette postali delle cartelle pubbliche da spostamenti non riusciti](restore-public-folders-and-public-folder-mailboxes-from-failed-moves-exchange-2013-help.md)
 
-[Visualizzare le statistiche per le cartelle pubbliche e gli elementi della cartella pubblica](view-statistics-for-public-folders-and-public-folder-items-exchange-2013-help.md)
+[Visualizzare le statistiche per le cartelle pubbliche e gli elementi della cartella pubblica](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/view-public-folder-statistics)
 

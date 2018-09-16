@@ -21,7 +21,7 @@ _**Ultima modifica dell'argomento:** 2012-10-12_
 
 [Aggiornamento di un elenco di indirizzi](update-an-address-list-exchange-2013-help.md)
 
-[Creare un elenco di indirizzi utilizzando filtri destinatario](create-an-address-list-by-using-recipient-filters-exchange-2013-help.md)
+[Creare un elenco di indirizzi utilizzando filtri destinatario](https://docs.microsoft.com/it-it/exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list)
 
 [Spostamento di un elenco di indirizzi](move-an-address-list-exchange-2013-help.md)
 
@@ -29,7 +29,7 @@ _**Ultima modifica dell'argomento:** 2012-10-12_
 
 [Creare un elenco indirizzi globale](https://docs.microsoft.com/it-it/exchange/address-books/address-lists/create-global-address-list)
 
-[Configurare la proprietà dell'elenco indirizzi globale](configure-global-address-list-properties-exchange-2013-help.md)
+[Configurare la proprietà dell'elenco indirizzi globale](https://docs.microsoft.com/it-it/exchange/address-books/address-lists/configure-global-address-list-properties)
 
 [Rimuovere un elenco indirizzi globale](https://docs.microsoft.com/it-it/exchange/address-books/address-lists/remove-a-global-address-list)
 

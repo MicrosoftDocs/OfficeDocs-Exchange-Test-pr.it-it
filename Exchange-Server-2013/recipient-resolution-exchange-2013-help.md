@@ -112,7 +112,7 @@ Nella tabella seguente vengono descritti gli oggetti destinatario presenti in Ac
 </tr>
 <tr class="even">
 <td><p>MailUser</p></td>
-<td><p>Un oggetto utente che dispone di un indirizzo di posta elettronica senza un parametro definito <em>Database</em> . Per ulteriori informazioni, vedere <a href="manage-mail-users-exchange-2013-help.md">Gestire gli utenti di posta</a>.</p></td>
+<td><p>Un oggetto utente che dispone di un indirizzo di posta elettronica senza un parametro definito <em>Database</em> . Per ulteriori informazioni, vedere <a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-users">Gestire gli utenti di posta</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MailContact</p></td>

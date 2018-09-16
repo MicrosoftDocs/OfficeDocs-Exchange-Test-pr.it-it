@@ -156,7 +156,7 @@ Ora Exchange 2013 SP1 può supportare la protezione dei messaggi basata su S/MIM
 
 Prevenzione della perdita di dati (DLP) [Suggerimenti per i criteri](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/policy-tips) sono le informazioni che vengono visualizzate dai mittenti in Outlook quando tentano di inviare informazioni riservate. In Exchange 2013 SP1, questa funzionalità è stata estesa alla versione desktop di Outlook Web App e alla versione mobile (denominata OWA per i dispositivi). Si potrà visualizzare se si dispone di un criterio DLP con i Suggerimenti criteri attivati per Outlook. Se il proprio criterio già dispone dei Suggerimenti criteri per Outlook, non è necessario effettuare ulteriori impostazioni. Continua e provalo\!
 
-Suggerimenti di criteri non attualmente in uso? Per iniziare, [Create a DLP policy from a template](how-to-new-dlp-data-loss-prevention-policy-template.md), quindi aggiungere un suggerimento criterio modificando i criteri e aggiungendo un'azione **Notifica al mittente con un suggerimento per il criterio**.
+Suggerimenti di criteri non attualmente in uso? Per iniziare, [Create a DLP policy from a template](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template), quindi aggiungere un suggerimento criterio modificando i criteri e aggiungendo un'azione **Notifica al mittente con un suggerimento per il criterio**.
 
 ## Classificazione DLP in base alle impronte digitali del documento
 

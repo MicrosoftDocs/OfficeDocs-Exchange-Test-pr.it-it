@@ -21,7 +21,7 @@ Utilizzare questo elenco di controllo per la distribuzione dei criteri nell'orga
 
   - [Gestione record di messaggistica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management)
 
-  - [Tag di conservazione e criteri di conservazione](retention-tags-and-retention-policies-exchange-2013-help.md)
+  - [Tag di conservazione e criteri di conservazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 
 ## Elenco di controllo per la distribuzione dei criteri di archiviazione
 
@@ -53,12 +53,12 @@ Utilizzare questo elenco di controllo per la distribuzione dei criteri nell'orga
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Creare i tag di conservazione.</p></td>
-<td><p><a href="create-a-retention-policy-exchange-2013-help.md">Creare un criterio di conservazione</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Creare un criterio di conservazione</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Creare i criteri di conservazione.</p></td>
-<td><p><a href="create-a-retention-policy-exchange-2013-help.md">Creare un criterio di conservazione</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Creare un criterio di conservazione</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -68,12 +68,12 @@ Utilizzare questo elenco di controllo per la distribuzione dei criteri nell'orga
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Impostare i criteri di conservazione per le cassette postali.</p></td>
-<td><p><a href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Archiviazione sul posto una cassetta postale di conservazione</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Archiviazione sul posto una cassetta postale di conservazione</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Applicare un criterio di conservazione a una singola cassetta postale a scopo di test.</p></td>
-<td><p><a href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Applicazione dei criteri di conservazione alle cassette postali</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Applicazione dei criteri di conservazione alle cassette postali</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>
@@ -88,7 +88,7 @@ Utilizzare questo elenco di controllo per la distribuzione dei criteri nell'orga
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Applicare i criteri di conservazione ad altre cassette postali.</p></td>
-<td><p><a href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Applicazione dei criteri di conservazione alle cassette postali</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Applicazione dei criteri di conservazione alle cassette postali</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -98,7 +98,7 @@ Utilizzare questo elenco di controllo per la distribuzione dei criteri nell'orga
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Alla scadenza, rimuovere il criterio di conservazione dalle cassette postali.</p></td>
-<td><p><a href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Archiviazione sul posto una cassetta postale di conservazione</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Archiviazione sul posto una cassetta postale di conservazione</a></p></td>
 </tr>
 </tbody>
 </table>

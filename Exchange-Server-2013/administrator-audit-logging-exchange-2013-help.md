@@ -201,7 +201,7 @@ La pagina di **controllo**dell'interfaccia di amministrazione di Exchange compre
 
 Per informazioni su come utilizzare questi rapporti, vedere [Ricerca delle modifiche al gruppo di ruoli o i registri di controllo dell'amministratore](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
-Per informazioni sugli altri rapporti inclusi nella pagina di **controllo**, vedere [Rapporti di controllo di Exchange](exchange-auditing-reports-exchange-2013-help.md).
+Per informazioni sugli altri rapporti inclusi nella pagina di **controllo**, vedere [Rapporti di controllo di Exchange](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports).
 
 ## Cmdlet Search-AdminAuditLog
 

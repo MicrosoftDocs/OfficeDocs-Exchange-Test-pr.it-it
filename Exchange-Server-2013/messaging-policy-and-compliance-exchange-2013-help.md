@@ -97,7 +97,7 @@ Nella seguente tabella è fornita una panoramica sui criteri di messaggistica e 
 <td><p>Registrazione di controllo delle cassette postali</p></td>
 <td><p>Dal momento che le cassette postali possono contenere informazioni riservate sia a livello aziendale che di singolo utente, è fondamentale tenere traccia di chi accede alle cassette postali nell'organizzazione e che attività esegue su di esse. È soprattutto importante controllare gli accessi alle cassette postali eseguiti da utenti che non ne sono i legittimi proprietari (in questo caso si parla di utenti delegati). Utilizzando la registrazione di controllo delle cassette postali, è possibile registrare gli accessi effettuati dai proprietari delle cassette postali, dai delegati (inclusi gli amministratori con autorizzazioni di accesso completo) e dagli amministratori.</p></td>
 <td><p><a href="mailbox-audit-logging-exchange-2013-help.md">Registrazione di controllo delle cassette postali</a></p>
-<p><a href="exchange-auditing-reports-exchange-2013-help.md">Rapporti di controllo di Exchange</a></p></td>
+<p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports">Rapporti di controllo di Exchange</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Registrazione controlli dell'amministratore</p></td>

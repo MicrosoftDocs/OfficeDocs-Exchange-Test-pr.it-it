@@ -33,17 +33,17 @@ Prima di distribuire la messaggistica unificata, si consiglia di acquisire famil
 
   - [Dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans)
 
-  - [Gateway IP di messaggistica unificata](um-ip-gateways-exchange-2013-help.md)
+  - [Gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways)
 
   - [Servizi di messaggistica unificata](um-services-exchange-2013-help.md)
 
   - [Gruppi di risposta di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups)
 
-  - [Rispondere automaticamente e il routing delle chiamate in arrivo](automatically-answer-and-route-incoming-calls-exchange-2013-help.md)
+  - [Rispondere automaticamente e il routing delle chiamate in arrivo](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
   - [Criteri cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies)
 
-  - [Segreteria telefonica per gli utenti](voice-mail-for-users-exchange-2013-help.md)
+  - [Segreteria telefonica per gli utenti](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users)
 
 ## Distribuzione della messaggistica unificata
 
@@ -308,7 +308,7 @@ Per utilizzare TLS e crittografare il traffico SIP e RTP (Realtime Transport Pro
 
   - Importare i certificati richiesti per i gateway VoIP e IP PBX e per i server Accesso client e Cassette postali dell'organizzazione.
 
-  - Configurare la protezione VoIP per i dial plan di messaggistica unificata. Per ulteriori informazioni, vedere [Configurare le impostazioni di protezione VoIP](configure-the-voip-security-setting-exchange-2013-help.md).
+  - Configurare la protezione VoIP per i dial plan di messaggistica unificata. Per ulteriori informazioni, vedere [Configurare le impostazioni di protezione VoIP](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting).
 
   - Configurare la modalità di avvio sul server Accesso client e Cassette postali. Per ulteriori informazioni, vedere [Configurare la modalità di avvio in un server cassette postali](configure-the-startup-mode-on-a-mailbox-server-exchange-2013-help.md) e [Configurare la modalità di avvio in un server Accesso Client](configure-the-startup-mode-on-a-client-access-server-exchange-2013-help.md).
 
@@ -322,11 +322,11 @@ Nella messaggistica unificata, i criteri del PIN vengono definiti e configurati 
 
 Una volta distribuiti i server e i componenti di messaggistica unificata richiesti, è possibile configurare diverse funzionalità opzionali correlate alla posta vocale. Per ulteriori informazioni, vedere i seguenti argomenti:
 
-  - [Configurazione di Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md)
+  - [Configurazione di Outlook Voice Access](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-outlook-voice-access)
 
   - [Consentire agli utenti di posta elettronica di inoltrare le chiamate vocali](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-voice-mail-users-to-forward-calls)
 
-  - [Consentire agli utenti di visualizzare una trascrizione di posta vocale](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md)
+  - [Consentire agli utenti di visualizzare una trascrizione di posta vocale](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-see-a-voice-mail-transcript)
 
   - [Consentire agli utenti di posta vocale di ricevere fax](enable-voice-mail-users-to-receive-faxes-exchange-2013-help.md)
 

@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2013-04-16_
 
 [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan)
 
-[Gestire un dial plan di messaggistica unificata](manage-a-um-dial-plan-exchange-2013-help.md)
+[Gestire un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-dial-plan)
 
 [Aggiungere server cassette postali e accesso Client a un dial plan URI SIP](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md)
 
@@ -33,7 +33,7 @@ _**Ultima modifica dell'argomento:** 2013-04-16_
 
 [Configurare il valore di timeout di inattività di registrazione](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-recording-idle-time-out)
 
-[Configurare le impostazioni di protezione VoIP](configure-the-voip-security-setting-exchange-2013-help.md)
+[Configurare le impostazioni di protezione VoIP](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting)
 
 [Configurare un dial plan per gli utenti con nomi simili](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-dial-plan-for-users-with-similar-names)
 

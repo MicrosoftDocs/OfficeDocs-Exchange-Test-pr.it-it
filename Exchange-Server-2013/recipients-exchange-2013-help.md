@@ -365,7 +365,7 @@ Nella seguente tabella, sono riportati i collegamenti agli argomenti che offrono
 <td><p>Maggiori informazioni su come creare e gestire i contatti di posta.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-mail-users-exchange-2013-help.md">Gestire gli utenti di posta</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-users">Gestire gli utenti di posta</a></p></td>
 <td><p>Maggiori informazioni su come creare e gestire gli utenti di posta.</p></td>
 </tr>
 <tr class="odd">

@@ -17,7 +17,7 @@ _**Si applica a:** Exchange Server 2013_
 
 _**Ultima modifica dell'argomento:** 2015-04-07_
 
-In Microsoft Exchange Server 2013, la gestione record di messaggistica viene eseguita utilizzando i tag e i criteri di conservazione. Il criterio di conservazione è un gruppo di tag di conservazione che può essere applicato a una cassetta postale. Per ulteriori dettagli, vedere [Tag di conservazione e criteri di conservazione](retention-tags-and-retention-policies-exchange-2013-help.md). Le cartelle gestite, ovvero la tecnologia per gestire i record di messaggistica introdotta in Exchange Server 2007, non sono ancora supportate.
+In Microsoft Exchange Server 2013, la gestione record di messaggistica viene eseguita utilizzando i tag e i criteri di conservazione. Il criterio di conservazione è un gruppo di tag di conservazione che può essere applicato a una cassetta postale. Per ulteriori dettagli, vedere [Tag di conservazione e criteri di conservazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies). Le cartelle gestite, ovvero la tecnologia per gestire i record di messaggistica introdotta in Exchange Server 2007, non sono ancora supportate.
 
 È possibile eseguire la migrazione di una cassetta postale a cui è applicato un criterio per cartelle gestite per utilizzare un criterio di conservazione. A questo scopo, è necessario creare dei tag di conservazione equivalenti alle cartelle gestite collegate al criterio cassette postali per cartelle gestite dell'utente.
 
@@ -29,7 +29,7 @@ In Microsoft Exchange Server 2013, la gestione record di messaggistica viene ese
 
 
 > [!TIP]
-> È possibile posizionare le cassette postali nel mantenimento per interrompere l'elaborazione dei criteri di conservazione o dei criteri cassette postali per cartelle gestite. La disposizione del blocco di conservazione delle casette postali può essere utile in scenari di migrazione al fine di evitare di cancellare i messaggi o spostarli in archivio fino a nuove impostazioni dei criteri stati testate su cassette postali di prova o su un esiguo numero di cassette postali di produzione. Per ulteriori informazioni, vedere <A href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Archiviazione sul posto una cassetta postale di conservazione</A>.
+> È possibile posizionare le cassette postali nel mantenimento per interrompere l'elaborazione dei criteri di conservazione o dei criteri cassette postali per cartelle gestite. La disposizione del blocco di conservazione delle casette postali può essere utile in scenari di migrazione al fine di evitare di cancellare i messaggi o spostarli in archivio fino a nuove impostazioni dei criteri stati testate su cassette postali di prova o su un esiguo numero di cassette postali di produzione. Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Archiviazione sul posto una cassetta postale di conservazione</A>.
 
 
 
@@ -276,7 +276,7 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-Retenti
 
 
 > [!NOTE]
-> È possibile utilizzare l'interfaccia di amministrazione di Exchange per creare manualmente i tag di conservazione (non basati sulle impostazioni nelle cartelle gestite). Per ulteriori informazioni, vedere <A href="create-a-retention-policy-exchange-2013-help.md">Creare un criterio di conservazione</A>.
+> È possibile utilizzare l'interfaccia di amministrazione di Exchange per creare manualmente i tag di conservazione (non basati sulle impostazioni nelle cartelle gestite). Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Creare un criterio di conservazione</A>.
 
 
 
@@ -298,7 +298,7 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 
 > [!NOTE]
-> È inoltre possibile utilizzare l'interfaccia di amministrazione di Exchange per creare un criterio di conservazione e per aggiungere tag di conservazione al criterio. Per ulteriori informazioni, vedere <A href="create-a-retention-policy-exchange-2013-help.md">Creare un criterio di conservazione</A>.
+> È inoltre possibile utilizzare l'interfaccia di amministrazione di Exchange per creare un criterio di conservazione e per aggiungere tag di conservazione al criterio. Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Creare un criterio di conservazione</A>.
 
 
 
@@ -322,7 +322,7 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 
 > [!NOTE]
-> È inoltre possibile utilizzare l'interfaccia di amministrazione di Exchange per applicare un criterio di conservazione agli utenti. Per ulteriori informazioni, vedere <A href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Applicazione dei criteri di conservazione alle cassette postali</A>.
+> È inoltre possibile utilizzare l'interfaccia di amministrazione di Exchange per applicare un criterio di conservazione agli utenti. Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Applicazione dei criteri di conservazione alle cassette postali</A>.
 
 
 

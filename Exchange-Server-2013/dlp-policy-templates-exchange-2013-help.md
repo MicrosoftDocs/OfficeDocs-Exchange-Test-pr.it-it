@@ -69,7 +69,7 @@ Numerosi criteri DLP vengono forniti da Microsoft. Si tratta del modo più sempl
 
   - [Modelli di criteri DLP forniti di Exchange](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/dlp-policy-templates)
 
-  - [Create a DLP policy from a template](how-to-new-dlp-data-loss-prevention-policy-template.md)
+  - [Create a DLP policy from a template](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template)
 
 ## Ulteriori informazioni
 
