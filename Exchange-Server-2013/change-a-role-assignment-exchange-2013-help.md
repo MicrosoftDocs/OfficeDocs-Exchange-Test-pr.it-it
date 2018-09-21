@@ -51,15 +51,21 @@ Le assegnazioni di ruolo vengono abilitate per impostazione predefinita: il ruol
 
 Per abilitare un'assegnazione di ruolo, utilizzare la seguente sintassi.
 
-    Set-ManagementRoleAssignment <role assignment> -Enabled $true
+```powershell
+Set-ManagementRoleAssignment <role assignment> -Enabled $true
+```
 
 Per disabilitare un'assegnazione di ruolo, utilizzare la seguente sintassi.
 
-    Set-ManagementRoleAssignment <role assignment> -Enabled $false
+```powershell
+Set-ManagementRoleAssignment <role assignment> -Enabled $false
+```
 
 In questo esempio viene disabilitata l'assegnazione di ruolo Help Desk Assignment.
 
-    Set-ManagementRoleAssignment "Help Desk Assignment" -Enabled $false
+```powershell
+Set-ManagementRoleAssignment "Help Desk Assignment" -Enabled $false
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335173\(v=exchg.150\)).
 
@@ -83,7 +89,9 @@ Per modificare o aggiungere un ambito predefinito di un'assegnazione di ruolo, u
 
 In questo esempio viene modificato l'ambito predefinito dell'assegnazione di ruolo John's Assignment in MyDistributionGroups.
 
-    Set-ManagementRoleAssignment "John's Assignment" - RecipientRelativeWriteScope MyDistributionGroups
+```powershell
+Set-ManagementRoleAssignment "John's Assignment" - RecipientRelativeWriteScope MyDistributionGroups
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335173\(v=exchg.150\)).
 
@@ -109,7 +117,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Managem
 
 Per specificare un nuovo ambito di configurazione o sostituirne uno esistente, utilizzare la seguente sintassi.
 
-    Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```
 
 In questo esempio viene aggiunto o modificato l'ambito di configurazione in Redmond Servers.
 
@@ -125,11 +135,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Managem
 
 Per specificare un nuovo ambito di configurazione o sostituirne uno esistente, utilizzare la seguente sintassi.
 
-    Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```
 
 In questo esempio viene aggiunto o modificato l'ambito di configurazione in Redmond Databases.
 
-    Set-ManagementRoleAssignment "Redmond Database Admins" -CustomConfigWriteScope "Redmond Databases"
+```powershell
+Set-ManagementRoleAssignment "Redmond Database Admins" -CustomConfigWriteScope "Redmond Databases"
+```
 
 Se si desidera mantenere l'ambito di configurazione già applicato all'assegnazione di ruolo modificandone però il filtro database o l'elenco database, è necessario modificare l'ambito di configurazione stesso. Per ulteriori informazioni su come modificare un ambito, vedere [Modificare un ambito di ruolo](change-a-role-scope-exchange-2013-help.md).
 
@@ -141,7 +155,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Managem
 
 Per modificare o aggiungere una nuova unità organizzativa per un'assegnazione di ruolo, utilizzare la seguente sintassi.
 
-    Set-ManagementRoleAssignment <assignment name> -RecipientOrganizationalUnitScope <OU>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -RecipientOrganizationalUnitScope <OU>
+```
 
 In questo esempio viene aggiunta l'unità organizzativa Engineering\\Users nel domino contoso.com per l'assegnazione di ruolo Engineering Help Desk.
 

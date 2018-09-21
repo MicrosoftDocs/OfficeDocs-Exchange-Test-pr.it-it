@@ -51,7 +51,9 @@ Per informazioni sulle altre attività di gestione relative ai server Cassette p
 
 In questo esempio, il server Cassette postali `MyMailboxServer` viene rimosso da tutti i dial plan SIP.
 
-    Set-UMService -Identity MyMailboxServer -DialPlans $null
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans $null
+```
 
 In questo esempio, il server Messaggistica unificata `MyMailboxServer` viene aggiunto al dial plan SIP di messaggistica unificata `MySIPDialPlanName` e viene impostato il numero massimo di chiamate vocali in ingresso.
 
@@ -65,9 +67,13 @@ In questo esempio, la modalità di avvio viene impostata su Doppio sul server Ca
 
 In questo esempio viene visualizzato un elenco di tutti i server Cassette postali.
 
-    Get-UMService
+```powershell
+Get-UMService
+```
 
 In questo esempio viene visualizzato un elenco formattato delle proprietà per il server Cassette postali `MyMailboxServer`.
 
-    Get-UMService -Identity MyMailboxServer | Format-List
+```powershell
+Get-UMService -Identity MyMailboxServer | Format-List
+```
 

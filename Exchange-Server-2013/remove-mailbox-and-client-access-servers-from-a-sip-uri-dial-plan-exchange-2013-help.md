@@ -60,15 +60,21 @@ Con questo esempio viene rimosso il server Cassette postali `MyMailboxServer` da
 
 In questo esempio, sono presenti tre dial plan URI SIP: SipDP1, SipDP2 e SipDP3. Con questo esempio viene rimosso il server Cassette postali `MyMailboxServer` dal dial plan SipDP3.
 
-    Set-UMService -id MyMailboxServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMService -id MyMailboxServer -DialPlans SipDP1,SipDP2
+```
 
 In questo esempio, sono presenti due dial plan URI SIP: SipDP1 e SipDP2. Con questo esempio viene rimosso il server Cassette postali `MyMailboxServer` dal dial plan SipDP2.
 
-    Set-UMService -id MyMailboxServer -DialPlans SipDP1
+```powershell
+Set-UMService -id MyMailboxServer -DialPlans SipDP1
+```
 
 Con questo esempio viene rimosso il server Cassette postali `MyMailboxServer` da tutti i dial plan SIP.
 
-    Set-UMService -id MyUMServer -DialPlans $null
+```powershell
+Set-UMService -id MyUMServer -DialPlans $null
+```
 
 ## Rimozione del server Accesso client dal dial plan URI SIP tramite l'interfaccia di amministrazione di Exchange
 
@@ -91,13 +97,19 @@ Con questo esempio viene rimosso il server Accesso client `MyClientAccessServer`
 
 In questo esempio, sono presenti tre dial plan URI SIP: SipDP1, SipDP2 e SipDP3. Con questo esempio viene rimosso il server Accesso client `MyClientAccessServer` dal dial plan SipDP3.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1,SipDP2
+```
 
 In questo esempio, sono presenti due dial plan URI SIP: SipDP1 e SipDP2. Con questo esempio viene rimosso il server Accesso client `MyClientAccessServer` dal dial plan SipDP2.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1
+```
 
 Con questo esempio viene rimosso il server Accesso client `MyClientAccessServer` da tutti i dial plan SIP.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans $null
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans $null
+```
 

@@ -309,7 +309,9 @@ Quando si crea una rubrica offline è necessario includere l'appropriato elenco 
 
 In questo esempio viene creata una rubrica offline per Fabrikam denominata OAB\_FAB.
 
-    New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```powershell
+New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```
 
 Per ulteriori informazioni, vedere [Creazione di una Rubrica fuori rete](https://docs.microsoft.com/it-it/exchange/address-books/offline-address-books/create-offline-address-book).
 

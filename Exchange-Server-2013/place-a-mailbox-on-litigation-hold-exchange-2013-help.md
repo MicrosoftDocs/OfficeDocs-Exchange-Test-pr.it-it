@@ -71,7 +71,9 @@ Torna all'inizio
 
 In questo esempio viene attivato il blocco per controversia legale nella cassetta postale bsuneja@contoso.com. Gli elementi nella cassetta postale vengono conservati a tempo indeterminato o finché non viene rimosso il blocco.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
+```
 
 
 > [!NOTE]
@@ -83,7 +85,9 @@ In questo esempio viene attivato il blocco per controversia legale nella cassett
 
 In questo esempio viene attivato il blocco per controversia legale nella cassetta postale bsuneja@contoso.com e gli elementi vengono conservati per 2555 giorni (circa 7 anni):
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```
 
 ## Utilizzo della shell per attivare il blocco per controversia legale in tutte le cassette postali per una durata specifica
 
@@ -103,7 +107,9 @@ Vedere la sezione Ulteriori informazioni per esempi relativi all'utilizzo di alt
 
 In questo esempio, viene rimosso un blocco per controversia legale dalla cassetta postale bsuneja@contoso.com.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
+```
 
 Torna all'inizio
 
@@ -152,7 +158,9 @@ Per verificare la corretta attivazione di un blocco per controversia legale in u
     Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
     ```
     ```
-    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+```powershell
+Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+```
     ```
     ```
     Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
@@ -161,7 +169,9 @@ Per verificare la corretta attivazione di un blocco per controversia legale in u
     Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
     ```
     ```
-    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+```
     ```
 
     È possibile utilizzare altre proprietà della cassetta postale utente in un filtro per escludere o includere le cassette postali. Per ulteriori dettagli, vedere [Proprietà filtrabili per il parametro - Filter](https://technet.microsoft.com/it-it/library/bb738155\(v=exchg.150\)).

@@ -133,11 +133,15 @@ Ad esempio, supponiamo che il criterio dell'indirizzo di posta elettronica nell'
 
 Per applicare il criterio dell'indirizzo di posta elettronica aggiornato ai destinatari, utilizzare la seguente sintassi.
 
-    Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```powershell
+Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```
 
 Ad esempio, per aggiornare un criterio dell'indirizzo di posta elettronica denominato "Criterio predefinito", eseguire il comando riportato di seguito:
 
-    Update-EmailAddressPolicy "Default Policy"
+```powershell
+Update-EmailAddressPolicy "Default Policy"
+```
 
 ## Sostituire l'indirizzo di posta elettronica principale esistente per un set di destinatari filtrato
 
@@ -197,7 +201,9 @@ In questo esempio viene creato un criterio dell'indirizzo di posta elettronica d
 
 Per applicare il nuovo criterio indirizzo di posta elettronica ai destinatari interessati, eseguire il seguente comando:
 
-    Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```powershell
+Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 

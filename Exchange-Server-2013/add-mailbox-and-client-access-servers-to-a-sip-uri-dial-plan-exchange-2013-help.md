@@ -87,7 +87,9 @@ In questo esempio viene aggiunto il server Cassette postali denominato `MyMailbo
 
 In questo esempio viene aggiunto il server Accesso client denominato `MyClientAccessServer` a un dial plan URI SIP denominato `MySIPDialPlan`. Inoltre, la modalità di avvio viene impostata su Dual per consentire al server Accesso client di accettare le richieste TCP e TLS.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```
 
 In questo esempio viene aggiunto il server Accesso client denominato `MyClientAccessServer` a due dial plan SIP, denominati `MySIPDialPlan` e `MySIPDialPlan2` e viene consentito al server di utilizzare sia indirizzi IPv4 che IPv6.
 

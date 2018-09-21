@@ -43,11 +43,15 @@ Il filtro contenuto è fornito dall'agente filtro contenuto. L'agente filtro con
 
 Per disabilitare il filtro contenuto, eseguire il seguente comando:
 
-    Set-ContentFilterConfig -Enabled $false
+```powershell
+Set-ContentFilterConfig -Enabled $false
+```
 
 Per abilitare il filtro di contenuti, eseguire questo comando:
 
-    Set-ContentFilterConfig -Enabled $true
+```powershell
+Set-ContentFilterConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -61,7 +65,9 @@ Per verificare la corretta abilitazione o disabilitazione del filtro contenuto, 
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+Get-ContentFilterConfig | Format-List Enabled
+```
 
 2.  Verificare il valore della proprietà *Enabled* visualizzata.
 
@@ -71,11 +77,15 @@ Per impostazione predefinita, la funzionalità relativa al filtro contenuto è a
 
 Per disabilitare il filtro contenuto per i messaggi esterni, eseguire il comando riportato di seguito:
 
-    Set-ContentFilterConfig -ExternalMailEnabled $false
+```powershell
+Set-ContentFilterConfig -ExternalMailEnabled $false
+```
 
 Per abilitare il filtro contenuto per i messaggi esterni, eseguire il comando riportato di seguito:
 
-    Set-ContentFilterConfig -ExternalMailEnabled $true
+```powershell
+Set-ContentFilterConfig -ExternalMailEnabled $true
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -83,7 +93,9 @@ Per verificare la corretta abilitazione o disabilitazione del filtro contenuto p
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-ContentFilterConfig | Format-List ExternalMailEnabled
+    ```powershell
+Get-ContentFilterConfig | Format-List ExternalMailEnabled
+```
 
 2.  Verificare il valore della proprietà *ExternalMailEnabled* visualizzata.
 
@@ -93,11 +105,15 @@ Si consiglia di non filtrare i messaggi provenienti da partner attendibili o dal
 
 Per abilitare il filtro contenuto per i messaggi interni, eseguire il comando riportato di seguito:
 
-    Set-ContentFilterConfig -InternalMailEnabled $true
+```powershell
+Set-ContentFilterConfig -InternalMailEnabled $true
+```
 
 Per disabilitare il filtro contenuto per i messaggi interni, eseguire il comando riportato di seguito:
 
-    Set-ContentFilterConfig -InternalMailEnabled $false
+```powershell
+Set-ContentFilterConfig -InternalMailEnabled $false
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -105,7 +121,9 @@ Per verificare la corretta abilitazione o disabilitazione del filtro contenuto p
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-ContentFilterConfig | Format-List InternalMailEnabled
+    ```powershell
+Get-ContentFilterConfig | Format-List InternalMailEnabled
+```
 
 2.  Verificare il valore della proprietà *InternalMailEnabled* visualizzata.
 
@@ -163,19 +181,27 @@ Per aggiungere frasi e parole consentite e bloccate, eseguire il seguente comand
 
 In questo esempio vengono autorizzati tutti i messaggi che contengono la frase "feedback dei clienti".
 
-    Add-ContentFilterPhrase -Influence GoodWord -Phrase "customer feedback"
+```powershell
+Add-ContentFilterPhrase -Influence GoodWord -Phrase "customer feedback"
+```
 
 In questo esempio vengono bloccati tutti i messaggi che contengono la frase "suggerimento azioni".
 
-    Add-ContentFilterPhrase -Influence BadWord -Phrase "stock tip"
+```powershell
+Add-ContentFilterPhrase -Influence BadWord -Phrase "stock tip"
+```
 
 Per rimuovere frasi consentite o bloccate, eseguire il seguente comando:
 
-    Remove-ContentFilterPhrase -Phrase <Phrase>
+```powershell
+Remove-ContentFilterPhrase -Phrase <Phrase>
+```
 
 In questo esempio viene rimossa la frase "suggerimento azioni":
 
-    Remove-ContentFilterPhrase -Phrase "stock tip"
+```powershell
+Remove-ContentFilterPhrase -Phrase "stock tip"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -183,7 +209,9 @@ Per verificare la corretta configurazione delle frasi consentite e bloccate, eff
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-ContentFilterPhrase | Format-List Influence,Phrase
+    ```powershell
+Get-ContentFilterPhrase | Format-List Influence,Phrase
+```
 
 2.  Verificare che i valori visualizzati corrispondano alle impostazioni specificate.
 
@@ -227,7 +255,9 @@ Quando l'azione di rifiuto viene abilitata, è possibile personalizzare la rispo
 
 Per configurare una risposta di rifiuto personalizzata, eseguire il comando seguente:
 
-    Set-ContentFilterConfig -RejectionResponse "<Custom Text>"
+```powershell
+Set-ContentFilterConfig -RejectionResponse "<Custom Text>"
+```
 
 In questo esempio l'agente filtro contenuto viene configurato per inviare una risposta di rifiuto personalizzata.
 
@@ -249,11 +279,15 @@ La convalida del *timbro posta elettronica Outlook* è una prova di calcolo che 
 
 Per disabilitare il timbro posta elettronica Outlook, eseguire il comando riportato di seguito:
 
-    Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $false
+```powershell
+Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $false
+```
 
 Per abilitare il timbro posta elettronica Outlook, eseguire il comando riportato di seguito:
 
-    Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $true
+```powershell
+Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $true
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -261,7 +295,9 @@ Per verificare la corretta configurazione del timbro posta elettronica Outlook, 
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
+    ```powershell
+Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
+```
 
 2.  Verificare che il valore visualizzato corrisponda all'impostazione specificata.
 

@@ -175,7 +175,9 @@ Per impedire che altri client di dispositivi mobili (come il client di posta ele
 
 1.  È possibile utilizzare le regole di accesso ai dispositivi mobili per Exchange integrate e impedire a tutti i dispositivi mobili di connettersi tramite l'impostazione seguente in Exchange Management Shell:
     
-        Set-ActiveSyncOrganizationSettings -DefaultAccessLevel Block
+    ```powershell
+Set-ActiveSyncOrganizationSettings -DefaultAccessLevel Block
+```
 
 2.  Dopo aver installato il connettore di Exchange locale, è possibile utilizzare un criterio di accesso condizionale locale con Intune. Per ulteriori informazioni, vedere [Creare criteri di accesso condizionale per Exchange locale ed Exchange Online dedicato legacy](https://docs.microsoft.com/intune/conditional-access-exchange-create#configure-exchange-on-premises-access).
 

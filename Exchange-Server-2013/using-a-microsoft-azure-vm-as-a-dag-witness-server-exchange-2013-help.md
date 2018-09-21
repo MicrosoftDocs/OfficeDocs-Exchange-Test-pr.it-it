@@ -329,7 +329,9 @@ Infine, è necessario configurare la disponibilità del database per utilizzare 
 
 2.  Eseguire il comando seguente per configurare il server di controllo per il DAG.
     
-        Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessServer Azure-FSW
+    ```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessServer Azure-FSW
+```
 
 Vedere gli argomenti seguenti per ulteriori informazioni:
 
@@ -349,11 +351,15 @@ A questo punto è stato configurato il DAG per l'utilizzo del file server su Azu
 
 2.  Se la disponibilità del database è un numero pari di nodi, verrà configurato il controllo della condivisione di file. Convalidare il controllo di condivisione file impostazione nelle proprietà del cluster eseguendo il comando seguente. Il valore del parametro *SharePath* deve puntare al file server e visualizzare il percorso corretto.
     
-        Get-ClusterResource -Cluster MBX1 | Get-ClusterParameter | Format-List
+    ```powershell
+Get-ClusterResource -Cluster MBX1 | Get-ClusterParameter | Format-List
+```
 
 3.  Quindi, verificare lo stato della risorsa cluster "File Condividi controllo" eseguendo il comando seguente. *State* la risorsa del cluster deve essere visualizzata **Online**.
     
-        Get-ClusterResource -Cluster MBX1
+    ```powershell
+Get-ClusterResource -Cluster MBX1
+```
 
 4.  Infine, verificare che la condivisione sia stata creata nel file server esaminando la cartella in Esplora File e le condivisioni in Server Manager.
 

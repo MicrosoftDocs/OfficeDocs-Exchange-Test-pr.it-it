@@ -51,7 +51,9 @@ Per configurare il numero massimo di mittenti attendibili e di mittenti bloccati
 
 In questo esempio, la cassetta postale john@contoso.com viene configurata per disporre di un massimo di 2.000 mittenti attendibili e 200 mittenti bloccati.
 
-    Set-Mailbox john@contoso.com -MaxSafeSenders 2000 -MaxBlockedSenders 200
+```powershell
+Set-Mailbox john@contoso.com -MaxSafeSenders 2000 -MaxBlockedSenders 200
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -69,7 +71,9 @@ In Exchange 2013, l'aggregazione dell'elenco indirizzi attendibili viene effettu
 
 In questo esempio viene scritto l'elenco dei mittenti attendibili per la cassetta postale john@contoso.com su Active Directory.
 
-    Update-Safelist john@contoso.com -Type SafeSenders
+```powershell
+Update-Safelist john@contoso.com -Type SafeSenders
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Update-SafeList](https://technet.microsoft.com/it-it/library/bb125034\(v=exchg.150\)).
 
@@ -81,11 +85,15 @@ Per verificare se l'operazione ha effettuato con successo la configurazione dell
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+Get-ContentFilterConfig | Format-List Enabled
+```
 
 2.  Se il parametro *Enabled* è impostato su `True`, il filtro del contenuto è abilitato. Se non lo è, utilizzare il seguente comando per abilitare il filtro contenuti e l'agente Filtro contenuti sul server Exchange:
     
-        Set-ContentFilterConfig -Enabled $true
+    ```powershell
+Set-ContentFilterConfig -Enabled $true
+```
 
 ## Passaggio 2: (Facoltativo) Utilizzare Modifica ADSI per verificare i dati dell'aggregazione dell'elenco indirizzi attendibili sui server Trasporto Edge
 

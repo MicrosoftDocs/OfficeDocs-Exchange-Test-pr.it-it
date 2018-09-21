@@ -71,11 +71,15 @@ Per informazioni sulle altre attività di gestione che hanno per oggetto le copi
 
 In questo esempio, una copia del database delle cassette postali DB1 viene aggiunta al server Cassette postali MBX3. L'intervallo di riesecuzione e l'intervallo di troncamento rimangono sul valore predefinito pari a zero e la preferenza di attivazione viene configurata su un valore pari 2.
 
-    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ActivationPreference 2
+```powershell
+Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ActivationPreference 2
+```
 
 In questo esempio, una copia del database delle cassette postali DB2 viene aggiunta al server Cassette postali MBX4. L'intervallo di riesecuzione e l'intervallo di troncamento rimangono sul valore predefinito pari a zero e la preferenza di attivazione viene configurata sul valore `5`. Inoltre, il seeding viene rimandato per questa copia in modo che possa essere sottoposta a seeding utilizzando un server di origine locale anziché la copia di database attiva corrente, geograficamente distante da MBX4.
 
-    Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 5 -SeedingPostponed
+```powershell
+Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 5 -SeedingPostponed
+```
 
 In questo esempio, una copia del database delle cassette postali DB3 viene aggiunta al server Cassette postali MBX5. L'intervallo di riesecuzione è impostato su 3 giorni mentre l'intervallo di troncamento rimane sul valore predefinito pari a zero e la preferenza di attivazione viene configurata sul valore `4`.
 
@@ -89,7 +93,9 @@ Per verificare la corretta creazione di una copia del database delle cassette po
 
   - Nella shell eseguire il comando riportato di seguito per verificare che la copia del database delle cassette postali sia stata creata e che sia integra.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+```
     
     I campi Stato e Stato indice contenuto devono essere entrambi integri.
 

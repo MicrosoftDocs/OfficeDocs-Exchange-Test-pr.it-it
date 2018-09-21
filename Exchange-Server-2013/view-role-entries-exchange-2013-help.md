@@ -95,11 +95,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per visualizzare i dettagli di una singola voce di ruolo, utilizzare la seguente sintassi.
 
-    Get-ManagementRoleEntry <role name>\<cmdlet name> | Format-List
+```powershell
+Get-ManagementRoleEntry <role name>\<cmdlet name> | Format-List
+```
 
 Con questo esempio vengono recuperati i dettagli della voce di ruolo **Set-Mailbox** nel ruolo `Recipient Administrators`.
 
-    Get-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" | Format-List
+```powershell
+Get-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" | Format-List
+```
 
 Se la voce di ruolo visualizzata presenta un numero di parametri eccessivo per l'inserimento nell'elenco creato con il cmdlet **Format-List**, vedere "Visualizzazione dei parametri di una singola voce di ruolo" in questo argomento.
 

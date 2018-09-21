@@ -187,7 +187,9 @@ Questo esempio supporta il pipelining se si fornisce un elenco di identità dell
 
 1.  Eseguire il comando riportato di seguito.
     
-        $UserCredentials = Get-Credential
+    ```powershell
+$UserCredentials = Get-Credential
+```
 
 2.  Utilizzare il seguente comando per passare le informazioni sulle credenziali al parametro *RemoteForestCredential* allo script Prepare-MoveRequest.ps1.
     
@@ -211,7 +213,9 @@ In questo esempio, viene richiamato un file con estensione CSV per creare in un'
 
 1.  Utilizzare il seguente comando per ottenere le credenziali per la foresta remota.
     
-        $UserCredentials = Get-Credential
+    ```powershell
+$UserCredentials = Get-Credential
+```
 
 2.  Utilizzare il seguente comando per passare le informazioni sulle credenziali al parametro *RemoteForestCredential* allo script Prepare-MoveRequest.ps1.
     

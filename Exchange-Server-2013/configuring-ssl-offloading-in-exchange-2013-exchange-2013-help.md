@@ -87,21 +87,29 @@ Per abilitare la ripartizione del carico di lavoro SSL per Outlook Web App, è n
     
       - Utilizzando la riga di comando, digitare quanto segue e premere Invio.
         
-            appcmd set config "Default Web Site/owa" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/owa" /section:access /sslFlags:None /commit:APPHOST
+```
 
   - **Passaggio 2**   È necessario riavviare il pool di applicazioni corretto o Internet Information Services adottando uno dei metodi seguenti:
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            appcmd Recycle AppPool MSExchangeOWAAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeOWAAppPool
+```
     
       - Utilizzando un cmdlet di Windows PowerShell, digitare quanto segue e premere Invio.
         
-            IIS:\>Restart-WebAppPool MSExchangeOWAAppPool
+        ```powershell
+IIS:\>Restart-WebAppPool MSExchangeOWAAppPool
+```
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Utilizzo di Gestione Internet Information Services (IIS): In Gestione Internet Information Services (IIS), nel riquadro **Azioni**, fare clic su **Riavvia**.
 
@@ -117,22 +125,30 @@ Per abilitare la ripartizione del carico di lavoro SSL per EAC, è necessario ri
     
       - Utilizzando la riga di comando, digitare quanto segue e premere Invio.
         
-            appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
+```
  
 
   - **Passaggio 2**   È necessario riavviare il pool di applicazioni corretto o Internet Information Services adottando uno dei metodi seguenti:
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            appcmd Recycle AppPool MSExchangeECPAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeECPAppPool
+```
     
       - Utilizzando un cmdlet di Windows PowerShell, digitare quanto segue e premere Invio.
         
-            IIS:\>Restart-WebAppPool MSExchangeECPAppPool
+        ```powershell
+IIS:\>Restart-WebAppPool MSExchangeECPAppPool
+```
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Utilizzo di Gestione Internet Information Services (IIS): In Gestione Internet Information Services (IIS), nel riquadro **Azioni**, fare clic su **Riavvia**.
 
@@ -166,15 +182,21 @@ SSL Offload di Outlook via Internet è abilitata per impostazione predefinita. O
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            appcmd Recycle AppPool MSExchangeRpcProxyFrontEndAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeRpcProxyFrontEndAppPool
+```
     
       - Utilizzando un cmdlet di Windows PowerShell, digitare quanto segue e premere Invio.
         
-            IIS:\>Restart-WebAppPool MSExchangeRpcProxyFrontEndAppPool
+        ```powershell
+IIS:\>Restart-WebAppPool MSExchangeRpcProxyFrontEndAppPool
+```
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Utilizzo di Gestione Internet Information Services (IIS): In Gestione Internet Information Services (IIS), nel riquadro **Azioni**, fare clic su **Riavvia**.
 
@@ -196,21 +218,29 @@ Per abilitare la ripartizione del carico di lavoro SSL per Rubrica offline, è n
     
       - Utilizzando la riga di comando, digitare quanto segue e premere Invio.
         
-            appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
+```
 
   - **Passaggio 2**   È necessario riavviare il pool di applicazioni corretto o Internet Information Services adottando uno dei metodi seguenti:
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            appcmd Recycle AppPool MSExchangeOABAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeOABAppPool
+```
     
       - Utilizzando un cmdlet di Windows PowerShell, digitare quanto segue e premere Invio.
         
-            IIS:\>Restart-WebAppPool MSExchangeOABAppPool
+        ```powershell
+IIS:\>Restart-WebAppPool MSExchangeOABAppPool
+```
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Utilizzo di Gestione Internet Information Services (IIS): In Gestione Internet Information Services (IIS), nel riquadro **Azioni**, fare clic su **Riavvia**.
 
@@ -232,15 +262,21 @@ Per abilitare la ripartizione del carico di lavoro SSL per Exchange ActiveSync (
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            appcmd Recycle AppPool MSExchangeSyncAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeSyncAppPool
+```
     
       - Utilizzando un cmdlet di Windows PowerShell, digitare quanto segue e premere Invio.
         
-            IIS:\>Restart-WebAppPool MSExchangeSyncAppPool
+        ```powershell
+IIS:\>Restart-WebAppPool MSExchangeSyncAppPool
+```
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Utilizzo di Gestione Internet Information Services (IIS): In Gestione Internet Information Services (IIS), nel riquadro **Azioni**, fare clic su **Riavvia**.
 
@@ -256,21 +292,29 @@ Per abilitare la ripartizione del carico di lavoro SSL per Servizi Web Exchange,
     
       - Utilizzando la riga di comando, digitare quanto segue e premere Invio.
         
-            appcmd set config "Default Web Site/EWS" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/EWS" /section:access /sslFlags:None /commit:APPHOST
+```
 
   - **Passaggio 2**   È necessario riavviare il pool di applicazioni corretto o Internet Information Services adottando uno dei metodi seguenti:
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            appcmd Recycle AppPool MSExchangeServicesAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeServicesAppPool
+```
     
       - Utilizzando un cmdlet di Windows PowerShell, digitare quanto segue e premere Invio.
         
-            IIS:\>Restart-WebAppPool MSExchangeServicesAppPool
+        ```powershell
+IIS:\>Restart-WebAppPool MSExchangeServicesAppPool
+```
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Utilizzo di Gestione Internet Information Services (IIS): In Gestione Internet Information Services (IIS), nel riquadro **Azioni**, fare clic su **Riavvia**.
 
@@ -286,21 +330,29 @@ Per abilitare la ripartizione del carico di lavoro SSL per il servizio Individua
     
       - Utilizzando la riga di comando, digitare quanto segue e premere Invio.
         
-            appcmd set config "Default Web Site/autodiscover" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/autodiscover" /section:access /sslFlags:None /commit:APPHOST
+```
 
   - **Passaggio 2**   È necessario riavviare il pool di applicazioni corretto o Internet Information Services adottando uno dei metodi seguenti:
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            appcmd Recycle AppPool MSExchangeAutodiscoverAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeAutodiscoverAppPool
+```
     
       - Utilizzando un cmdlet di Windows PowerShell, digitare quanto segue e premere Invio.
         
-            IIS:\>Restart-WebAppPool MSExchangeAutodiscoverAppPool
+        ```powershell
+IIS:\>Restart-WebAppPool MSExchangeAutodiscoverAppPool
+```
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Utilizzo di Gestione Internet Information Services (IIS): In Gestione Internet Information Services (IIS), nel riquadro **Azioni**, fare clic su **Riavvia**.
 
@@ -326,21 +378,29 @@ Per abilitare la ripartizione del carico di lavoro SSL per i client Outlook, è 
     
       - Utilizzando la riga di comando, digitare quanto segue e premere Invio.
         
-            appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
+        ```powershell
+appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
+```
 
   - **Passaggio 2**   È necessario riavviare il pool di applicazioni corretto o Internet Information Services adottando uno dei metodi seguenti:
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            appcmd Recycle AppPool MSExchangeMapiFrontEndAppPool
+        ```powershell
+appcmd Recycle AppPool MSExchangeMapiFrontEndAppPool
+```
     
       - Utilizzando un cmdlet di Windows PowerShell, digitare quanto segue e premere Invio.
         
-            IIS:\>Restart-WebAppPool MSExchangeMapiFrontEndAppPool
+        ```powershell
+IIS:\>Restart-WebAppPool MSExchangeMapiFrontEndAppPool
+```
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
         
-            iisreset /noforce
+        ```powershell
+iisreset /noforce
+```
     
       - Utilizzo di Gestione Internet Information Services (IIS): In Gestione Internet Information Services (IIS), nel riquadro **Azioni**, fare clic su **Riavvia**.
 
@@ -367,7 +427,9 @@ Se si lavora con una grande organizzazione non più server Accesso client Exchan
     Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/Microsoft-Server-ActiveSync"
     Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/OAB"
     Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/MAPI"
-    iisreset /noforce
+```powershell
+iisreset /noforce
+```
 
 **Utilizzo di appcmd**
 
@@ -386,7 +448,9 @@ Se si lavora con una grande organizzazione non più server Accesso client Exchan
     &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/Microsoft-Server-ActiveSync" /section:access /sslFlags:None /commit:APPHOST
     &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
     &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
-    iisreset /noforce
+```powershell
+iisreset /noforce
+```
 
 Torna all'inizio
 

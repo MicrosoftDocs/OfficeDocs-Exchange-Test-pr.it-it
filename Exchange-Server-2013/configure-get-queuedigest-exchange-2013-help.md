@@ -61,7 +61,9 @@ Per impostazione predefinita, le code di recapito con stato Attivo, In fase di c
 
 1.  In una finestra del prompt dei comandi, aprire il file EdgeTransport.exe.config in Blocco note utilizzando il seguente comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Aggiungere una o più delle seguenti chiavi nella sezione `<appSettings>`.
     
@@ -81,11 +83,15 @@ Per impostazione predefinita, le code di recapito con stato Attivo, In fase di c
 
 5.  Per modificare il valore del parametro *QueueDiagnosticsAggregationInterval* in Exchange Management Shell, utilizzare la seguente sintassi:
     
-        Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+    ```powershell
+Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+```
     
     Per modificare il valore in 30 secondi, ad esempio, eseguire il comando seguente:
     
-        Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+    ```powershell
+Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+```
 
 ## Verifica dell'esito positivo dell'operazione
 

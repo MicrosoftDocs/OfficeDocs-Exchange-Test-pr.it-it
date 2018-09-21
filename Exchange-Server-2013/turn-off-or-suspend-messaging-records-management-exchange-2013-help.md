@@ -71,7 +71,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 In questo esempio Shell consente di rimuovere il criterio di conservazione dalla cassetta postale jpeoples.
 
-    Set-Mailbox jpeoples -RetentionPolicy $null.
+```powershell
+Set-Mailbox jpeoples -RetentionPolicy $null.
+```
 
 In questo esempio Shell consente di rimuovere il criterio di conservazione da tutte le cassette postali nell'organizzazione Exchange.
 
@@ -111,7 +113,9 @@ In questo esempio vengono rimossi tutti i tag di conservazione tranne il tag Non
 
 Il comando consente di rimuovere il criterio di conservazione Corp-Users da un'organizzazione di Exchange.
 
-    Remove-RetentionPolicy Corp-Users
+```powershell
+Remove-RetentionPolicy Corp-Users
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere i seguenti argomenti:
 

@@ -69,7 +69,9 @@ Per le attività di gestione aggiuntive relative ai criteri di condivisione, ved
 
 In questo esempio viene configurato un URL proxy Web sul server Cassette postali MAIL01.
 
-    Set-ExchangeServer -Identity "MAIL01" -InternetWebProxy "<Webproxy URL>"
+```powershell
+Set-ExchangeServer -Identity "MAIL01" -InternetWebProxy "<Webproxy URL>"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ExchangeServer](https://technet.microsoft.com/it-it/library/bb123716\(v=exchg.150\)).
 
@@ -77,7 +79,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Exchang
 
 Per verificare la corretta configurazione dell'URL del proxy Web, eseguire il comando Shell seguente e controllare le informazioni del parametro *InternetWebProxy*.
 
-    Get-ExchangeServer | format-list
+```powershell
+Get-ExchangeServer | format-list
+```
 
 ## Passaggio 2: Abilitazione della pubblicazione della directory virtuale tramite Shell
 
@@ -99,7 +103,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-OwaVirt
 
 Per verificare la corretta abilitazione della pubblicazione della directory virtuale, eseguire il comando Shell seguente e controllare le informazioni del parametro *ExternalURL*.
 
-    Get-OwaVirtualDirectory | format-list
+```powershell
+Get-OwaVirtualDirectory | format-list
+```
 
 ## Passaggio 3: Creare o configurare un criterio di condivisione specifico per la pubblicazione del calendario Internet
 
@@ -147,11 +153,15 @@ Con questo esempio viene creato il criterio di condivisione per la pubblicazione
 
 In questo esempio viene aggiunto il criterio di condivisione del calendario Internet a una cassetta postale utente.
 
-    Set-Mailbox -Identity <user name> -SharingPolicy "Internet"
+```powershell
+Set-Mailbox -Identity <user name> -SharingPolicy "Internet"
+```
 
 In questo esempio viene aggiunto il criterio di condivisione del calendario Internet a un'unità organizzativa (OU).
 
-    Set-Mailbox -OrganizationalUnit <OU name> -SharingPolicy "Internet"
+```powershell
+Set-Mailbox -OrganizationalUnit <OU name> -SharingPolicy "Internet"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-SharingPolicy](https://technet.microsoft.com/it-it/library/dd298186\(v=exchg.150\)) e [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 
@@ -159,7 +169,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-Sharing
 
 Per verificare la creazione corretta del criterio di condivisione, eseguire il comando Shell seguente per controllare le informazioni sul criterio di condivisione.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 ## Opzione 2: Configurare l'impostazione predefinita criterio di condivisione per la pubblicazione del calendario Internet
 
@@ -199,5 +211,7 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox
 
 Per verificare l'aggiornamento corretto del criterio di condivisione predefinito, eseguire il comando Shell seguente per controllare le informazioni sul criterio di condivisione.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 

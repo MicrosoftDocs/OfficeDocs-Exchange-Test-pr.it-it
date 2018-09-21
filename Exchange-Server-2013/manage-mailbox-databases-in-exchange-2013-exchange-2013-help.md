@@ -59,7 +59,9 @@ Per verificare che la creazione del database sia stata eseguita correttamente, p
 
   - In Shell, verificare che il database sia stato creato sul server Mailbox01 eseguendo il comando riportato di seguito.
     
-        Get-MailboxDatabase -Server "Mailbox01"
+    ```powershell
+Get-MailboxDatabase -Server "Mailbox01"
+```
 
 ## Visualizzazione delle proprietà del database delle cassette postali
 
@@ -150,7 +152,9 @@ Per verificare che gli attributi siano stati impostati correttamente, procedere 
 
   - In Shell, immettere il comando seguente per recuperare le proprietà del database delle cassette postali.
     
-        Get-MailboxDatabase -Identity MailboxDatabase01 -Status | Format-List
+    ```powershell
+Get-MailboxDatabase -Identity MailboxDatabase01 -Status | Format-List
+```
 
 ## Modifica del percorso di un database delle cassette postali
 
@@ -182,7 +186,9 @@ Per verificare che il database delle cassette postali sia stato installato corre
 
   - In Shell, immettere il comando seguente per recuperare le proprietà del database delle cassette postali per tutte le cassette postali.
     
-        Get-MailboxDatabase -IncludePreExchange2013
+    ```powershell
+Get-MailboxDatabase -IncludePreExchange2013
+```
 
 ## Disinstallazione di un database delle cassette postali
 
@@ -214,7 +220,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-Mail
 
 1.  Eseguire il comando riportato di seguito per rimuovere il database delle cassette postali MyDatabase.
     
-        Remove-MailboxDatabase -Identity "MyDatabase"
+    ```powershell
+Remove-MailboxDatabase -Identity "MyDatabase"
+```
 
 2.  Quando viene richiesta conferma per l'esecuzione dell'azione, digitare **S**.
 

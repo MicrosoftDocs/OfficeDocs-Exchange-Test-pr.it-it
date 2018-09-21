@@ -76,7 +76,9 @@ Per altre attività di gestione relative a Information Rights Management (IRM), 
 
   - Per creare una regola di protezione del trasporto, è necessario disporre dei modelli RMS esistenti nella distribuzione AD RMS. In questo esempio vengono recuperati i modelli disponibili dal cluster AD RMS.
     
-        Get-RMSTemplate | format-list
+    ```powershell
+Get-RMSTemplate | format-list
+```
     
     Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-RMSTemplate](https://technet.microsoft.com/it-it/library/dd297960\(v=exchg.150\)).
 

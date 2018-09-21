@@ -49,11 +49,15 @@ Per informazioni sulle altre attività relative ai server Accesso client e alla 
 
 In questo esempio, il server Accesso client denominato `MyClientAccessServer` viene rimosso da tutti i dial plan SIP.
 
-    Set-UMCallRouterSettings -DialPlans $null - Server MyClientAccessServer
+```powershell
+Set-UMCallRouterSettings -DialPlans $null - Server MyClientAccessServer
+```
 
 In questo esempio viene aggiunto un server Accesso client denominato `MyClientAccessServer` a un dial plan SIP denominato `MySIPDialPlan` e viene impostato il numero massimo di chiamate vocali in ingresso.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -MaxCalls 150 -Server MyClientAccessServer
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -MaxCalls 150 -Server MyClientAccessServer
+```
 
 In questo esempio la porta di ascolto TCP SIP viene impostata su 5077 e la modalità di avvio su Doppio su un server Accesso client denominato `MyClientAccessServer`.
 
@@ -63,9 +67,13 @@ In questo esempio la porta di ascolto TCP SIP viene impostata su 5077 e la modal
 
 In questo esempio viene visualizzato un elenco di tutti i server Accesso client.
 
-    Get-UMCallRouterSettings
+```powershell
+Get-UMCallRouterSettings
+```
 
 In questo esempio viene visualizzato un elenco formattato delle proprietà per il server Accesso client.
 
-    Get-UMCallRouterSettings | Format-List
+```powershell
+Get-UMCallRouterSettings | Format-List
+```
 

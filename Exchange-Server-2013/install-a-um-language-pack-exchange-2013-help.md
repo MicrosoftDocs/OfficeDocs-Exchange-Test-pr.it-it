@@ -67,7 +67,9 @@ Per ulteriori attività relative alle lingue di messaggistica unificata, vedere 
 
 In questo esempio consente di installare il giapponese (ja-JP) alla messaggistica UNIFICATA language pack che è stato scaricato nella cartella D:\\Exchange\\UMLanguagePacks in un server cassette postali.
 
-    setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```powershell
+setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 In questo esempio consente di installare il Messico Spagnolo (es-MX) e tedesco (de-DE) alla messaggistica UNIFICATA language pack sono stati scaricati nella cartella D:\\Exchange\\UMLanguagePacks su un server cassette postali.
 

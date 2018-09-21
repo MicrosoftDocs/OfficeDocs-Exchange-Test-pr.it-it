@@ -43,7 +43,9 @@ Per personalizzare le impostazioni di limitazione che si applicano a tutti gli u
 
 In questo esempio viene creato un criterio di limitazione che si applica a tutti gli utenti nell'organizzazione. Qualsiasi parametro che si omette eredita i valori dal criterio GlobalThrottlingPolicy di limitazione predefinito.
 
-    New-ThrottlingPolicy -Name AllUsersEWSPolicy EwsMaxConcurrency 4 -ThrottlingPolicyScope Organization
+```powershell
+New-ThrottlingPolicy -Name AllUsersEWSPolicy EwsMaxConcurrency 4 -ThrottlingPolicyScope Organization
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [New-ThrottlingPolicy](https://technet.microsoft.com/it-it/library/dd351045\(v=exchg.150\)).
 
@@ -53,13 +55,17 @@ Per verificare di aver creato correttamente il criterio di limitazione dell'orga
 
 1.  Eseguire il comando riportato di seguito.
     
-        Get-ThrottlingPolicy | Format-List
+    ```powershell
+Get-ThrottlingPolicy | Format-List
+```
 
 2.  Verificare che l'organizzazione limitazione criterio che appena creato sia elencato nella colonna che mostra l'oggetto GlobalThrottlingPolicy.
 
 3.  Eseguire il comando riportato di seguito.
     
-        Get-ThrottlingPolicy | Format-List
+    ```powershell
+Get-ThrottlingPolicy | Format-List
+```
 
 4.  Verificare che le proprietà per il nuovo criterio organizzazione corrispondano i valori configurati.
 

@@ -86,7 +86,9 @@ In questo esempio viene utilizzato il cmdlet **set-ExchangeServer** per immetter
 
 
 
-    Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
+```powershell
+Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-ExchangeServer](https://technet.microsoft.com/it-it/library/bb123716\(v=exchg.150\)).
 

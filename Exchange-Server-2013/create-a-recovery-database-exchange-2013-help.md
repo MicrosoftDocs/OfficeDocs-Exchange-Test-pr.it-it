@@ -39,7 +39,9 @@ Per informazioni sulle altre attività di gestione relative al recupero dei data
 
 In questo esempio, il database di ripristino RDB1 viene creato sul server Cassette postali MBX2.
 
-    New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
+```powershell
+New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
+```
 
 In questo esempio, il database di ripristino RDB2 viene creato sul server Cassette postali MBX1 usando un percorso personalizzato per il file di database e la cartella registro.
 
@@ -53,7 +55,9 @@ Per verificare di aver creato correttamente un database di ripristino, fare quan
 
   - In Shell, utilizzare il seguente comando per visualizzare le informazioni di configurazione per il database di ripristino.
     
-        Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+    ```powershell
+Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+```
 
 ## Altre attività
 

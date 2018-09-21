@@ -124,7 +124,9 @@ Per verificare la corretta creazione della cassetta postale utente con un archiv
 
 In questo esempio, viene abilitato l'archivio per la cassetta postale di Tony Smith.
 
-    Enable-Mailbox "Tony Smith" -Archive
+```powershell
+Enable-Mailbox "Tony Smith" -Archive
+```
 
 In questo esempio vengono recuperate le cassette postali nel database DB01 che non dispone di un archivio locale o basato su cloud abilitato e di un nome che inizia per DiscoverySearchMailbox. Viene eseguito il piping dei risultati nel cmdlet **Enable-Mailbox** per abilitare l'archivio per tutte le cassette postali sul database di cassette postali DB01.
 
@@ -174,7 +176,9 @@ Se si desidera riconnettere l'archivio locale alla cassetta postale, è possibil
 
 In questo esempio, viene disabilitato l'archivio per la cassetta postale di Chris Ashton. La cassetta postale non viene disabilitata.
 
-    Disable-Mailbox -Identity "Chris Ashton" -Archive
+```powershell
+Disable-Mailbox -Identity "Chris Ashton" -Archive
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Disable-Mailbox](https://technet.microsoft.com/it-it/library/aa997210\(v=exchg.150\)).
 

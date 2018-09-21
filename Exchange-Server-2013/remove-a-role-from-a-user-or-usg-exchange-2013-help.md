@@ -41,11 +41,15 @@ Per informazioni sulle altre attività di gestione relative ai ruoli, vedere [Au
 
 Se si conosce il nome dell'assegnazione di ruolo da rimuovere, utilizzare la sintassi seguente:
 
-    Remove-ManagementRoleAssignment <assignment name>
+```powershell
+Remove-ManagementRoleAssignment <assignment name>
+```
 
 Ad esempio, per rimuovere l'assegnazione del ruolo "Tier 2 Help Desk Assignment", eseguire il comando riportato di seguito:
 
-    Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
+```powershell
+Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
+```
 
 Se non si conosce il nome dell'assegnazione di ruolo da rimuovere, utilizzare la sintassi seguente:
 

@@ -47,7 +47,9 @@ Il cmdlet **New-MoveRequest** cmdlet inserisce la cassetta postale delle cartell
 
 In questo esempio, viene mostrato come inizia la richiesta di spostamento per la cassetta postale delle cartelle pubbliche PF\_SanFrancisco verso il database della cassetta postale MBX\_DB01.
 
-    New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01
+```powershell
+New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MoveRequest](https://technet.microsoft.com/it-it/library/dd351123\(v=exchg.150\)).
 
@@ -57,19 +59,25 @@ Durante la fase finale della richiesta di spostamento, quando è in fase di `Com
 
 In questo esempio viene mostrato come inizia la richiesta di spostamento per la cassetta postale delle cartelle pubbliche PF\_SanFrancisco nel database della cassetta postale MBX\_DB01 e come viene sospeso quando la richiesta di spostamento è pronta per il completamento.
 
-    New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01 -SuspendWhenReadyToComplete
+```powershell
+New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01 -SuspendWhenReadyToComplete
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MoveRequest](https://technet.microsoft.com/it-it/library/dd351123\(v=exchg.150\)).
 
 In questo esempio viene recuperato lo stato di spostamento della cassetta postale in corso nella cassetta postale delle cartelle pubbliche PF\_SanFrancisco.
 
-    Get-MoveRequest -Identity "PF_SanFrancisco"
+```powershell
+Get-MoveRequest -Identity "PF_SanFrancisco"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-MoveRequest](https://technet.microsoft.com/it-it/library/dd335227\(v=exchg.150\)).
 
 Quando la richiesta di spostamento raggiunge lo stato di Sospeso, è possibile riprendere la richiesta. In questo esempio viene ripresa la richiesta di spostamento per la cassetta postale delle cartelle pubbliche PF\_SanFrancisco.
 
-    Resume-MoveRequest -Identity "PF_SanFrancisco"
+```powershell
+Resume-MoveRequest -Identity "PF_SanFrancisco"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Resume-MoveRequest](https://technet.microsoft.com/it-it/library/ee332320\(v=exchg.150\)).
 
@@ -77,7 +85,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Resume-Move
 
 Per verificare che la richiesta di spostamento è stata creata correttamente, eseguire il seguente comando:
 
-    Get-MoveRequestStatistics -Identity PF_SanFrancisco | Format-List Status
+```powershell
+Get-MoveRequestStatistics -Identity PF_SanFrancisco | Format-List Status
+```
 
 Uno stato di `Completed` indica che la richiesta di spostamento è stata completata correttamente.
 

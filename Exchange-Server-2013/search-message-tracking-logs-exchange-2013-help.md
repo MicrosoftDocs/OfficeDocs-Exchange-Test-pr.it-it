@@ -63,7 +63,9 @@ Per cercare specifici eventi nelle voci dei registri di verifica messaggi, utili
 
 Per visualizzare le 1000 voci più recenti dei registri di verifica messaggi sul server, utilizzare il seguente comando:
 
-    Get-MessageTrackingLog
+```powershell
+Get-MessageTrackingLog
+```
 
 In questo esempio vengono cercate nei registri di verifica messaggi sul server locale tutte le voci dal 28 marzo 2013 alle 8:00 al 28 marzo 2013 alle 17:00 per tutti gli eventi **FAIL** in cui il mittente del messaggio era pat@contoso.com.
 

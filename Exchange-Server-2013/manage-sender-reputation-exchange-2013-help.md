@@ -45,11 +45,15 @@ Reputazione mittente è fornita dall'agente di analisi del protocollo. Reputazio
 
 Con questo esempio viene disabilitata la reputazione mittente.
 
-    Set-SenderReputationConfig -Enabled $false
+```powershell
+Set-SenderReputationConfig -Enabled $false
+```
 
 Con questo esempio viene abilitata la reputazione mittente.
 
-    Set-SenderReputationConfig -Enabled $true
+```powershell
+Set-SenderReputationConfig -Enabled $true
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -57,7 +61,9 @@ Per verificare che la reputazione mittente sia stata abilitato o disabilitata co
 
 1.  Per verificare che l'agente di analisi del protocollo sia stato installato e abilitato, eseguire il comando riportato di seguito:
     
-        Get-TransportAgent
+    ```powershell
+Get-TransportAgent
+```
 
 2.  Verificare i valori di reputazione mittente configurati eseguendo il comando riportato di seguito:
     
@@ -69,19 +75,27 @@ Per impostazione predefinita, la reputazione mittente è abilitata per i messagg
 
 Per disabilitare la reputazione mittente per i messaggi esterni, eseguire il seguente comando:
 
-    Set-SenderReputationConfig -ExternalMailEnabled $false
+```powershell
+Set-SenderReputationConfig -ExternalMailEnabled $false
+```
 
 Per abilitare la reputazione mittente per i messaggi esterni, eseguire il seguente comando:
 
-    Set-SenderReputationConfig -ExternalMailEnabled $true
+```powershell
+Set-SenderReputationConfig -ExternalMailEnabled $true
+```
 
 Per disabilitare la reputazione mittente per i messaggi interni, eseguire il seguente comando:
 
-    Set-SenderReputationConfig -InternalMailEnabled $false
+```powershell
+Set-SenderReputationConfig -InternalMailEnabled $false
+```
 
 Per abilitare la reputazione mittente per i messaggi interni, eseguire il seguente comando:
 
-    Set-SenderReputationConfig -InternalMailEnabled $true
+```powershell
+Set-SenderReputationConfig -InternalMailEnabled $true
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -97,11 +111,15 @@ Per verificare che la reputazione mittente sia stata abilitato o disabilitata co
 
 Per configurare le proprietà della reputazione mittente, eseguire il comando riportato di seguito:
 
-    Set-SenderReputationConfig -SrlBlockThreshold <Value> -SenderBlockingPeriod <Hours>
+```powershell
+Set-SenderReputationConfig -SrlBlockThreshold <Value> -SenderBlockingPeriod <Hours>
+```
 
 In questo esempio la soglia di blocco del livello di reputazione mittente (SRL) è impostata su 6 e la reputazione mittente viene configurata per aggiungere mittenti pericolosi all'elenco di indirizzi IP bloccati per 36 ore:
 
-    Set-SenderReputationConfig -SrlBlockThreshold 6 -SenderBlockingPeriod 36
+```powershell
+Set-SenderReputationConfig -SrlBlockThreshold 6 -SenderBlockingPeriod 36
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -109,7 +127,9 @@ Per verificare che le proprietà della reputazione mittente siano state configur
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderReputationConfig
+    ```powershell
+Get-SenderReputationConfig
+```
 
 2.  Verificare che i valori visualizzati corrispondano a quelli configurati.
 

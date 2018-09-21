@@ -57,11 +57,15 @@ Entrambi questi script si trovano nella cartella %ExchangeInstallPath%Scripts.
 
 2.  Per esportare i dati di configurazione del server di origine in un file nel server di origine, utilizzare la seguente sintassi.
     
-        ./ExportEdgeConfig.ps1 -CloneConfigData:"<configuration file>"
+    ```powershell
+./ExportEdgeConfig.ps1 -CloneConfigData:"<configuration file>"
+```
     
     Ad esempio, per esportare i dati di configurazione del server di origine nel file C:\\CloneConfigData.xml, eseguire il comando seguente.
     
-        ./ExportEdgeConfig.ps1 -CloneConfigData:"C:\CloneConfigData.xml"
+    ```powershell
+./ExportEdgeConfig.ps1 -CloneConfigData:"C:\CloneConfigData.xml"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 

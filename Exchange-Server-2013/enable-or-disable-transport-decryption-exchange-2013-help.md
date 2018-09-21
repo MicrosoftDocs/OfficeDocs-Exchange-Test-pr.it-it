@@ -61,7 +61,9 @@ Per le attività di gestione aggiuntive correlate a IRM, vedere [Procedure di In
 
 In questo esempio viene abilitata la decrittografia di trasporto per l'organizzazione Exchange 2013. I messaggi che non possono essere decrittografati vengono rifiutati e al mittente viene restituito un rapporto di mancato Recapito.
 
-    Set-IRMConfiguration -TransportDecryptionSetting Mandatory
+```powershell
+Set-IRMConfiguration -TransportDecryptionSetting Mandatory
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-IRMConfiguration](https://technet.microsoft.com/it-it/library/dd979792\(v=exchg.150\)).
 
@@ -69,7 +71,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-IRMConfig
 
 In questo esempio viene disabilitata la decrittografia di trasporto per l'organizzazione Exchange 2013.
 
-    Set-IRMConfiguration -TransportDecryptionSetting Disabled
+```powershell
+Set-IRMConfiguration -TransportDecryptionSetting Disabled
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-IRMConfiguration](https://technet.microsoft.com/it-it/library/dd979792\(v=exchg.150\)).
 

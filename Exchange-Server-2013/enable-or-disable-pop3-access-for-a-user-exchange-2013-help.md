@@ -65,11 +65,15 @@ Per ulteriori informazioni su POP3 e IMAP4, vedere [POP3 e IMAP4 in Exchange Ser
 
 In questo esempio viene abilitato POP3 per l'utente John Smith.
 
-    Set-CASMailbox -Identity "John Smith" -POPEnabled $true
+```powershell
+Set-CASMailbox -Identity "John Smith" -POPEnabled $true
+```
 
 In questo esempio viene disabilitato POP3 per l'utente John Smith.
 
-    Set-CASMailbox -Identity "John Smith" -POPEnabled $false
+```powershell
+Set-CASMailbox -Identity "John Smith" -POPEnabled $false
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

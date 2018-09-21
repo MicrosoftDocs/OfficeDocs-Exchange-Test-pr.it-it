@@ -165,7 +165,9 @@ Pagina applicazione di patch è disponibile per le copie ritardate tramite quest
 
 Il comportamento di riproduzione delle copie ritardate è disabilitato per impostazione predefinita e può essere abilitato utilizzando il comando seguente.
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```
 
 Una volta abilitata, la riproduzione avviene quando ci sono meno di tre copie. È possibile modificare il valore predefinito di 3, modificando il seguente valore di registro DWORD.
 
@@ -614,11 +616,15 @@ La seguente tabella elenca i parametri disponibili per lo script RedistributeAct
 
 In questo esempio, viene mostrata la distribuzione corrente del database per un gruppo DAG, compreso l'elenco conteggio delle preferenze.
 
-    RedistributeActiveDatabases.ps1 -DagName DAG1 -ShowDatabaseDistributionByServer | Format-Table
+```powershell
+RedistributeActiveDatabases.ps1 -DagName DAG1 -ShowDatabaseDistributionByServer | Format-Table
+```
 
 In questo esempio, le copie attive del database delle cassette postali in un gruppo DAG vengono ridistribuite e bilanciate utilizzando la preferenza di attivazione senza chiedere conferma.
 
-    RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -Confirm:$False
+```powershell
+RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -Confirm:$False
+```
 
 In questo esempio, le copie attive del database delle cassette postali in un gruppo DAG vengono ridistribuite e bilanciate utilizzando la preferenza di attivazione e viene prodotto un riepilogo della distribuzione.
 

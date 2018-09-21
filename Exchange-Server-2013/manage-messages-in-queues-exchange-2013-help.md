@@ -65,11 +65,15 @@ Per eliminare i messaggi dalle code, utilizzare la seguente sintassi.
 
 Con questo esempio vengono eliminati i messaggi nelle code il cui oggetto è "Win Big" senza inviare un rapporto di mancato recapito.
 
-    Remove-Message -Filter {Subject -eq "Win Big"} -WithNDR $false
+```powershell
+Remove-Message -Filter {Subject -eq "Win Big"} -WithNDR $false
+```
 
 Nell'esempio riportato viene rimosso il messaggio con ID messaggio 3 da una coda non raggiungibile sul server denominato Mailbox01 e viene inviato un rapporto di mancato recapito.
 
-    Remove-Message -Identity Mailbox01\Unreachable\3 -WithNDR $true
+```powershell
+Remove-Message -Identity Mailbox01\Unreachable\3 -WithNDR $true
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -107,7 +111,9 @@ Per verificare di aver rimosso correttamente i messaggi da una coda, effettuare 
 
 Per riprendere i messaggi, utilizzare la sintassi seguente:
 
-    Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```powershell
+Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```
 
 In questo esempio vengono ripresi tutti i messaggi inviati da qualsiasi mittente al dominio Contoso.com.
 
@@ -115,7 +121,9 @@ In questo esempio vengono ripresi tutti i messaggi inviati da qualsiasi mittente
 
 In questo esempio viene ripreso il messaggio con l'ID messaggio 3 nella coda non raggiungibile sul server Hub01.
 
-    Resume-Message -Identity Hub01\Unreachable\3
+```powershell
+Resume-Message -Identity Hub01\Unreachable\3
+```
 
 Per inviare di nuovo i messaggi nella coda dei messaggi non elaborabili, eseguire uno dei seguenti passaggi:
 
@@ -149,7 +157,9 @@ Un messaggio inviato a più destinatari potrebbe trovarsi in più code. Per sosp
 
 Per sospendere i messaggi, utilizzare la sintassi seguente:
 
-    Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```powershell
+Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```
 
 In questo esempio vengono sospesi tutti i messaggi nelle code provenienti da qualsiasi mittente nel dominio contoso.com.
 
@@ -157,7 +167,9 @@ In questo esempio vengono sospesi tutti i messaggi nelle code provenienti da qua
 
 In questo esempio viene sospeso il messaggio con l'ID messaggio 3 nella coda non raggiungibile sul server denominato Mailbox01:
 
-    Suspend-Message -Identity Mailbox01\Unreachable\3
+```powershell
+Suspend-Message -Identity Mailbox01\Unreachable\3
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 

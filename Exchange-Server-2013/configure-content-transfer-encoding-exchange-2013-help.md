@@ -107,21 +107,29 @@ Per ulteriori informazioni sui domini remoti, vedere [Domini remoti](remote-doma
 
 Per configurare il metodo di codifica per il trasferimento del contenuto, eseguire il comando seguente:
 
-    Set-OrganizationConfig -ByteEncoderTypeFor7BitCharsets <Integer>
+```powershell
+Set-OrganizationConfig -ByteEncoderTypeFor7BitCharsets <Integer>
+```
 
 Ad esempio, per impostare il metodo di codifica per il trasferimento del contenuto su Base64, eseguire il comando riportato di seguito:
 
-    Set-OrganizationConfig -ByteEncoderTypeFor7BitCharsets 2
+```powershell
+Set-OrganizationConfig -ByteEncoderTypeFor7BitCharsets 2
+```
 
 ## Configurazione del metodo di codifica per il trasferimento del contenuto per un dominio remoto tramite Shell
 
 Per configurare il metodo di codifica per il trasferimento del contenuto per tutti i destinatari in un dominio remoto, eseguire il comando seguente:
 
-    Set-RemoteDomain -ByteEncoderTypeFor7BitCharsets <Value>
+```powershell
+Set-RemoteDomain -ByteEncoderTypeFor7BitCharsets <Value>
+```
 
 Ad esempio, per impostare il metodo di codifica per il trasferimento del contenuto su Base64, eseguire il comando riportato di seguito:
 
-    Set- RemoteDomain -ByteEncoderTypeFor7BitCharsets UseBase64
+```powershell
+Set- RemoteDomain -ByteEncoderTypeFor7BitCharsets UseBase64
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

@@ -41,11 +41,15 @@ Per informazioni sulle altre attività di gestione relative all'inserimento nel 
 
 In questo esempio viene disabilitato l'inserimento nel journal dei messaggi vocali e dei messaggi di notifica di chiamata senza risposta impostando il parametro*VoicemailJournalingEnabled* su `$false`.
 
-    Set-TransportConfig -VoicemailJournalingEnabled $false
+```powershell
+Set-TransportConfig -VoicemailJournalingEnabled $false
+```
 
 In questo esempio viene abilitato l'inserimento nel journal dei messaggi vocali e dei messaggi di notifica di chiamata senza risposta impostando lo stesso parametro su `$true`.
 
-    Set-TransportConfig -VoicemailJournalingEnabled $true
+```powershell
+Set-TransportConfig -VoicemailJournalingEnabled $true
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-TransportConfig](https://technet.microsoft.com/it-it/library/bb124151\(v=exchg.150\)).
 

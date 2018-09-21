@@ -49,11 +49,15 @@ Per informazioni sulle altre attività di gestione relative alle autorizzazioni,
 
 Per modificare il criterio di assegnazione associato a una cassetta postale, utilizzare la seguente sintassi.
 
-    Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```powershell
+Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```
 
 In questo esempio viene impostato il criterio di assegnazione Unified Messaging Users per la cassetta postale Brian.
 
-    Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```powershell
+Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```
 
 ## Modifica del criterio di assegnazione per un gruppo di cassette postali assegnate a uno specifico criterio tramite Shell
 

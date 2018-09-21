@@ -314,7 +314,9 @@ I parametri di filtro e ordinamento disponibili col cmdlet **Set-ContentFilterCo
 
 In questo esempio vengono restituite tutte le code esterni non vuote sui server Exchange 2013 Cassette postali denominati Mailbox01,Mailbox02 e Mailbox03.
 
-    Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```powershell
+Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```
 
 Inizio pagina
 

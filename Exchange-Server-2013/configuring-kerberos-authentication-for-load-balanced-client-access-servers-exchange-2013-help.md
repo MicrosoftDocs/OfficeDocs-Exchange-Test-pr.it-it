@@ -53,7 +53,9 @@ Durante l'impostazione della credenziale ASA, tenere presenti le indicazioni seg
     
     Utilizzare il cmdlet **Import-Module** per importare il modulo Active Directory.
     
-        Import-Module ActiveDirectory
+    ```powershell
+Import-Module ActiveDirectory
+```
 
 2.  Utilizzare il cmdlet **New-ADComputer** per creare un nuovo account computer di Active Directory tramite la seguente sintassi:
     
@@ -71,7 +73,9 @@ Durante l'impostazione della credenziale ASA, tenere presenti le indicazioni seg
     
     **Esempio:** 
     
-        Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
+    ```powershell
+Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
+```
     
     Dove *EXCH2013ASA* è il nome dell'account e l'attributo da modificare è *msDS-SupportedEncryptionTypes* con un valore decimale di 28, che consente di abilitare le seguenti crittografie: RC4-HMAC, AES128-CTS-HMAC-SHA1-96, AES256-CTS-HMAC-SHA1-96.
 
@@ -296,11 +300,15 @@ Prima di associare gli SPN alla credenziale ASA, è necessario verificare che gl
 
 2.  Al prompt dei comandi, digitare il seguente comando:
     
-        setspn -F -Q <SPN>
+    ```powershell
+setspn -F -Q <SPN>
+```
     
     Dove \<SPN\> è l'SPN da associare alla credenziale ASA. Ad esempio:
     
-        setspn -F -Q http/mail.corp.tailspintoys.com
+    ```powershell
+setspn -F -Q http/mail.corp.tailspintoys.com
+```
     
     Il comando non dovrebbe restituire nulla. Se restituisce qualche risultato, il nome principale del servizio è già associato a un altro account. Ripetere questo passaggio una volta per ogni SPN da associare alla credenziale ASA.
 
@@ -310,11 +318,15 @@ Prima di associare gli SPN alla credenziale ASA, è necessario verificare che gl
 
 2.  Al prompt dei comandi, digitare il seguente comando:
     
-        setspn -S <SPN> <Account>$
+    ```powershell
+setspn -S <SPN> <Account>$
+```
     
     Dove \<SPN\> è l'SPN da associare alla credenziale ASA e \<Account\> è l'account associato a tale credenziale. Ad esempio:
     
-        setspn -S http/mail.corp.tailspintoys.com tailspin\EXCH2013ASA$
+    ```powershell
+setspn -S http/mail.corp.tailspintoys.com tailspin\EXCH2013ASA$
+```
     
     Eseguire questo comando una volta per ogni SPN da associare alla credenziale ASA.
 
@@ -324,11 +336,15 @@ Prima di associare gli SPN alla credenziale ASA, è necessario verificare che gl
 
 2.  Al prompt dei comandi, digitare il seguente comando:
     
-        setspn -L <Account>$
+    ```powershell
+setspn -L <Account>$
+```
     
     Dove \<Account\> è l'account associato alla credenziale ASA. Ad esempio:
     
-        setspn -L tailspin\EXCH2013ASA$
+    ```powershell
+setspn -L tailspin\EXCH2013ASA$
+```
     
     È sufficiente eseguire questo comando una volta.
 
@@ -390,7 +406,9 @@ Per configurare il server Accesso client in modo che non utilizzi Kerberos, scol
 
 1.  Aprire Exchange Management Shell su un server Exchange 2013 ed eseguire il comando seguente:
     
-        Set-ClientAccessServer CAS-1 -RemoveAlternateServiceAccountCredentials
+    ```powershell
+Set-ClientAccessServer CAS-1 -RemoveAlternateServiceAccountCredentials
+```
 
 2.  Anche se non è necessario eseguire questa operazione immediatamente, occorre riavviare tutti i computer client per cancella re la cache dei ticket Kerberos dal computer.
 

@@ -73,10 +73,14 @@ Per configurare le directory virtuali per Exchange 2013, è necessario utilizzar
     
     In un prompt dei comandi, immettere i seguenti comandi dopo aver impostato la directory virtuale di Outlook Web App.
       ```
-      Net stop IISAdmin /y
+  ```powershell
+Net stop IISAdmin /y
+```
       ```
       ```
-      Net start W3SVC
+  ```powershell
+Net start W3SVC
+```
       ```
 
 2.  Per configurare l'accesso esterno all'interfaccia di amministrazione di Exchange, utilizzare il seguente comando in Exchange Management Shell.

@@ -67,11 +67,15 @@ Di seguito vengono indicati i passi utili per creare un ruolo di primo livello s
 
 I ruoli di primo livello senza ambito non hanno un ruolo padre. Per creare un ruolo senza padre è necessario specificare l'opzione *UnscopedTopLevel*. Per creare un nuovo ruolo, utilizzare la seguente sintassi.
 
-    New-ManagementRole <name of new role> -UnscopedTopLevel
+```powershell
+New-ManagementRole <name of new role> -UnscopedTopLevel
+```
 
 In questo esempio viene creato il ruolo di primo livello senza ambito IT Scripts.
 
-    New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```powershell
+New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```
 
 Una volta creato, il ruolo resta vuoto finché ad esso non si aggiungono script o o cmdlet non Exchange.
 
@@ -159,7 +163,9 @@ Per creare un nuovo ruolo, utilizzare la seguente sintassi.
 
 In questo esempio il ruolo IT Global Scripts e le relative voci di ruolo di gestione vengono copiati nel ruolo Diagnostic IT Scripts.
 
-    New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```powershell
+New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRole](https://technet.microsoft.com/it-it/library/dd298073\(v=exchg.150\)).
 

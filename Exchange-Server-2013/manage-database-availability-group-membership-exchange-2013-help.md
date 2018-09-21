@@ -63,15 +63,21 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 
 Con questo esempio viene aggiunto il server Cassette postali MBX1 nel DAG DAG1.
 
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```powershell
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 Con questo esempio il server Cassette postali MBX1 viene rimosso dal gruppo di disponibilità del database DAG1. Prima di eseguire il comando, assicurarsi che non esistano database replicati sul server di cassette postali.
 
-    Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 In questo esempio vengono rimosse le impostazioni di configurazione del server Cassette postali MBX4 dal gruppo di disponibilità del database DAG2. MBX4 deve essere offline per un periodo prolungato, quindi la configurazione viene rimossa dal DAG mentre è offline per stabilire il quorum con i membri del DAG online rimanenti.
 
-    Remove-DatabaseAvailabilityGroupServer -Identity DAG2 -MailboxServer MBX4 -ConfigurationOnly
+```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG2 -MailboxServer MBX4 -ConfigurationOnly
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -81,7 +87,9 @@ Per verificare che l'appartenenza al DAG sia stata gestita correttamente, effett
 
   - In Shell, eseguire il comando riportato di seguito per visualizzare informazioni sull'appartenenza al DAG.
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+    ```powershell
+Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+```
 
 ## Ulteriori informazioni
 

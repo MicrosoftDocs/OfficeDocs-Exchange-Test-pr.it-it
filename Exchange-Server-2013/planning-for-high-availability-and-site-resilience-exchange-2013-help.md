@@ -315,7 +315,9 @@ Per la distribuzione di un DAG in un singolo datacenter, non ci sono particolari
 
 Per i client Outlook Anywhere, si consiglia di utilizzare un solo certificato del nome alternativo del soggetto (SAN) per ciascun datacenter e di includere più nomi host in quel certificato. Per garantire la connessione con Outlook Anywhere dopo il passaggio a un database, server o datacenter, occorre utilizzare lo stesso nome principale del certificato in ciascun certificato e configurare l'oggetto Configurazione provider di Outlook in Active Directory con lo stesso nome principale nel formato standard di Microsoft (msstd). Ad esempio, se si utilizza il nome principale del certificato mail.contoso.com, il relativo attributo va configurato come segue.
 
-    Set-OutlookProvider EXPR -CertPrincipalName "msstd:mail.contoso.com"
+```powershell
+Set-OutlookProvider EXPR -CertPrincipalName "msstd:mail.contoso.com"
+```
 
 Alcune applicazioni che si integrano con Exchange hanno specifici requisiti per i certificati, che potrebbero richiedere l'utilizzo di certificati aggiuntivi. Exchange 2013 può coesistere con Office Communications Server (OCS). L'OCS richiede certificati a 1024 bit o più che utilizzano il nome server OCS come Nome principale del certificato. Tuttavia, poiché l'utilizzo di un nome server OCS come Nome principale del certificato impedisce il corretto funzionamento di Outlook Anywhere, è necessario utilizzare un certificato aggiuntivo e separato per l'ambiente OCS.
 

@@ -336,7 +336,9 @@ Per ulteriori informazioni relative agli URL interni ed esterni sulle directory 
 
 2.  Archiviare il nome host del server Accesso client in una variabile che verrà utilizzata nel passaggio successivo. Ad esempio, Ex2013CAS.
     
-        $HostName = "Ex2013CAS"
+    ```powershell
+$HostName = "Ex2013CAS"
+```
 
 3.  Utilizzare i seguenti comandi in Shell per configurare ciascun URL interno in modo che sia uguale all'URL esterno della directory virtuale.
     

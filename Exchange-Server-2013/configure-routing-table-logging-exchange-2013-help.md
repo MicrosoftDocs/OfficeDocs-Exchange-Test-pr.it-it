@@ -79,15 +79,21 @@ Per verificare di aver correttamente configurato la registrazione nella tabella 
 
 1.  In una finestra del prompt dei comandi, utilizzare il seguente comando per aprire il file di configurazione dell'applicazione EdgeTransport.exe.config in Blocco note:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Modificare la seguente chiave nella sezione `<appSettings>`.
     
-        <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+    ```command line
+<add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+```
     
     Ad esempio, per impostare l'intervallo per il ricalcolo automatico della tabella di routing su 10 ore, utilizzare il seguente valore:
     
-        <add key="RoutingConfigReloadInterval" value="10:00:00" />
+    ```command line
+<add key="RoutingConfigReloadInterval" value="10:00:00" />
+```
 
 3.  Al termine, salvare e chiudere il file EdgeTransport.exe.config.
 

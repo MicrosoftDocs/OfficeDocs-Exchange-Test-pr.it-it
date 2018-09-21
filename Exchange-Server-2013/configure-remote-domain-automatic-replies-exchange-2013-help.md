@@ -41,9 +41,13 @@ Il cmdlet **Set-RemoteDomain** consente di configurare le proprietà di un domin
 
 In questo esempio sono consentite le risposte automatiche al dominio remoto Contoso. Questa impostazione è disabilitata per impostazione predefinita.
 
-    Set-RemoteDomain Contoso -AutoReplyEnabled $true
+```powershell
+Set-RemoteDomain Contoso -AutoReplyEnabled $true
+```
 
 In questo esempio sono consentiti gli inoltri automatici al dominio remoto. Questa impostazione è disabilitata per impostazione predefinita.
 
-    Set-RemoteDomain Contoso -AutoForwardEnabled $true
+```powershell
+Set-RemoteDomain Contoso -AutoForwardEnabled $true
+```
 

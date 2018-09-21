@@ -70,7 +70,9 @@ Utilizzare una delle procedure seguenti se il database delle cassette postali si
 
 In questo esempio viene eseguito il reseeding del catalogo di indicizzazione del contenuto per la copia del database DB1 sul server Cassette postali MBX1 da qualsiasi server di origine in un gruppo di disponibilità del database (DAG) con una copia del database.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Update-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd335201\(v=exchg.150\)).
 
@@ -78,7 +80,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Update-Mailbo
 
 In questo esempio, viene eseguito il reseeding del catalogo di indicizzazione del contenuto per la copia del database DB1 sul server Cassette postali MBX1 dal server Cassette postali MBX2 contenente anche una copia del database.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2 -CatalogOnly
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Update-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd335201\(v=exchg.150\)).
 
@@ -88,10 +92,14 @@ Se è presente solo una copia del database delle cassette postali, è necessario
 
 1.  Eseguire i seguenti comandi per arrestare i servizi Microsoft Exchange Search e Microsoft Exchange Search Host Controller.
     ```
-    Stop-Service MSExchangeFastSearch
+```powershell
+Stop-Service MSExchangeFastSearch
+```
     ```
     ```
-    Stop-Service HostControllerService
+```powershell
+Stop-Service HostControllerService
+```
     ```
 
 2.  Eliminare, spostare o rinominare la cartella che contiene il catalogo di indicizzazione del contenuto di Exchange. La cartella è denominata `%ExchangeInstallPath\Mailbox\<name of mailbox database>_Catalog\<GUID>12.1.Single`. Ad esempio, è possibile rinominare la cartella `C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\Mailbox Database 0657134726_Catalog\F0627A72-9F1D-494A-839A-D7C915C279DB12.1.Single_OLD`.
@@ -104,10 +112,14 @@ Se è presente solo una copia del database delle cassette postali, è necessario
 
 3.  Eseguire i seguenti comandi per riavviare i servizi Microsoft Exchange Search e Microsoft Exchange Search Host Controller.
     ```
-    Start-Service MSExchangeFastSearch
+```powershell
+Start-Service MSExchangeFastSearch
+```
     ```
     ```
-    Start-Service HostControllerService
+```powershell
+Start-Service HostControllerService
+```
     ```
     Dopo il riavvio di questi servizi, Exchange Search eseguirà la ricostruzione del catalogo di indicizzazione del contenuto.
 

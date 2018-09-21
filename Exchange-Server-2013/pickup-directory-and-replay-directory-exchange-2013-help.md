@@ -160,7 +160,9 @@ I campi X-Header descritti nell'elenco seguente sono necessari per i messaggi ne
 
   - **X-Sender**   Questo campo X-Header sostituisce il campo di intestazione `From` in un messaggio SMTP standard. Deve essere presente un campo `X-Sender` contenente un indirizzo di posta elettronica. La directory di riesecuzione ignora il campo di intestazione `From`, se presente, anche se il client di posta elettronica del destinatario visualizza il valore del campo di intestazione `From` come mittente del messaggio. Di norma sono presenti altri parametri nel campo `X-Sender` come illustrato nell'esempio seguente.
     
-        X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+    ```powershell
+X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+```
     
 
     > [!NOTE]
@@ -170,7 +172,9 @@ I campi X-Header descritti nell'elenco seguente sono necessari per i messaggi ne
 
   - **X-Receiver**   Questo campo X-Header sostituisce il requisito del campo di intestazione `To` in un messaggio SMTP standard. Deve essere presente almeno un campo `X-Receiver` contenente un indirizzo di posta elettronica. Sono consentiti più campi `X-Receiver` per più destinatari. La directory di riesecuzione ignora i campi di intestazione `To`, se presenti, anche se il client di posta elettronica del destinatario visualizza i valori dei campi di intestazione `To` come destinatari del messaggio. Di norma sono presenti altri parametri facoltativi nei campi `X-Receiver` come illustrato nell'esempio seguente.
     
-        X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+    ```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     
 
     > [!NOTE]
@@ -194,7 +198,9 @@ I campi X-Header descritti nell'elenco seguente sono facoltativi per i file di m
 
 Con questo esempio viene mostrato un messaggio di testo normale che utilizza una formattazione accettabile per la directory di riesecuzione.
 
-    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345AB auth=<someAuth>
     Subject: Optional message subject
     
@@ -202,7 +208,9 @@ Con questo esempio viene mostrato un messaggio di testo normale che utilizza una
 
 Il contenuto MIME è supportato anche nei file dei messaggi della directory di riesecuzione. MIME definisce un'ampia gamma di contenuti di messaggi comprendenti lingue che non possono essere rappresentate in testo ASCII a 7 bit, HTML e altro contenuto multimediale. Una descrizione completa e i requisiti di MIME esulano dall'ambito di questo argomento. Con questo esempio viene mostrato un messaggio MIME semplice che utilizza una formattazione accettabile per la directory di riesecuzione.
 
-    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345ABCD auth=<someAuth>
     To: mary@contoso.com
     From: bob@fabrikam.com

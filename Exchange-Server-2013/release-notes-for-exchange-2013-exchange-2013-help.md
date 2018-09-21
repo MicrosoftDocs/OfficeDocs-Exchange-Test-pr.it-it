@@ -131,7 +131,9 @@ Per ulteriori informazioni su come installare i Exchange 2013, vedere [Pianifica
     
     2.  Eseguire il comando riportato di seguito.
         
-            Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+        ```powershell
+Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+```
     
     3.  Eseguire normalmente le attività di gestione degli agenti.
     

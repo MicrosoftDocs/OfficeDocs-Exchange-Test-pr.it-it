@@ -141,7 +141,9 @@ Per passare dalle autorizzazioni suddivise Active Directory alle autorizzazioni 
 
 1.  Da una shell dei comandi di Windows, eseguire il comando seguente dal supporto di installazione di Exchange 2013 per disabilitare le autorizzazioni suddivise di Active Directory.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+    ```powershell
+setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+```
 
 2.  Da Exchange Management Shell, eseguire i comandi seguenti per aggiungere le assegnazioni di ruolo regolari tra il ruolo Creazione destinatario di posta elettronica e il ruolo Creazione e gestione del gruppo di sicurezza e i gruppi di ruoli Gestione organizzazione e Gestione destinatari.
     

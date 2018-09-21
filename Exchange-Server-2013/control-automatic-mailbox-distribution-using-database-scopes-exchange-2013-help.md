@@ -63,7 +63,9 @@ In questo passo, decidere quali database si desidera includere nell'ambito del d
 
 Utilizzare un elenco di database se si desidera definire un elenco statico dei database delle cassette postali che devono essere incluse in questo ambito. Utilizzare la sintassi seguente per creare un ambito basato su un elenco di database.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 In questo esempio viene creato un ambito che si applica unicamente ai database Database 1, Database 2 e Database 3.
 
@@ -79,7 +81,9 @@ Per ottenere un elenco delle proprietà filtrabili del database, vedere [Informa
 
 Utilizzare la sintassi seguente per creare un ambito basato su un filtro dei database.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 In questo esempio viene creato un ambito che include tutti i database contenenti la stringa "ACCT" nella proprietà **Name** del database.
 

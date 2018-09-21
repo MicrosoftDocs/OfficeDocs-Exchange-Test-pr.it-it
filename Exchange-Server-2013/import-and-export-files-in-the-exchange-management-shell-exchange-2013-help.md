@@ -142,7 +142,9 @@ La sintassi per l'esportazione di file in Exchange 2013 viene utilizzata ogni vo
 
 È necessario comunicare alla Shell che si intende salvare nel computer locale i dati archiviati nella proprietà **FileData**. A tal fine, utilizzare la sintassi seguente.
 
-    <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }
+```command line
+<cmdlet> | ForEach {     <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }.FileData | Add-Content <local path to file> -Encoding Byte }
+```
 
 Il comando seguente, ad esempio, consente di esportare i dati archiviati nella proprietà **FileData** sull'oggetto creato dal cmdlet fittizio **Export-SomeData**. I dati esportati vengono archiviati in un file specificato nel computer locale, in questo caso MyData.dat.
 
@@ -152,7 +154,9 @@ Il comando seguente, ad esempio, consente di esportare i dati archiviati nella p
 
 
 
-    Export-SomeData | ForEach { $_.FileData | Add-Content C:\MyData.dat -Encoding Byte }
+```powershell
+Export-SomeData | ForEach {     Export-SomeData | ForEach { $_.FileData | Add-Content C:\MyData.dat -Encoding Byte }.FileData | Add-Content C:\MyData.dat -Encoding Byte }
+```
 
 Quando viene eseguito il comando, vengono effettuate le seguenti operazioni:
 

@@ -40,7 +40,9 @@ Con il seguente esempio viene mostrato l'utilizzo del parametro *Identity* media
 
 Come tutti gli oggetti in Exchange 2013, è possibile fare riferimento al connettore di ricezione anche mediante il relativo GUID univoco. Ad esempio, se al connettore di ricezione denominato `"From the Internet"` viene assegnato anche il GUID `63d64005-42c5-4f8f-b310-14f6cb125bf3`, è possibile recuperare il connettore utilizzando il seguente comando:
 
-    Get-ReceiveConnector 63d64005-42c5-4f8f-b310-14f6cb125bf3
+```powershell
+Get-ReceiveConnector 63d64005-42c5-4f8f-b310-14f6cb125bf3
+```
 
 Inizio pagina
 
@@ -66,11 +68,15 @@ Gli esempi descritti in questo argomento illustrano come il parametro *Identity*
 
 Gli esempi di questa sezione fanno riferimento ai messaggi di notifica sullo stato del recapito (DSN, delivery status notification) che possono essere configurati in un'organizzazione di Exchange 2013. Il primo esempio mostra come recuperare DSN 5.4.1 mediante il cmdlet **Get-SystemMessage**. Nel cmdlet **Get-SystemMessage**, il parametro *Identity* è formato da diversi dati configurati su ciascun oggetto messaggio DSN. Questi dati includono il linguaggio di scrittura del DSN, l'ambito interno o esterno del DSN e il codice messaggio DSN, come nell'esempio che segue:
 
-    Get-SystemMessage en\internal\5.4.1
+```powershell
+Get-SystemMessage en\internal\5.4.1
+```
 
 È inoltre possibile recuperare il messaggio DSN utilizzando il relativo GUID come nell'esempio che segue, poiché tutti gli oggetti in Exchange 2013 possiedono un GUID:
 
-    Get-SystemMessage 82ca7bde-1c2d-4aa1-97e1-f298a6f10222
+```powershell
+Get-SystemMessage 82ca7bde-1c2d-4aa1-97e1-f298a6f10222
+```
 
 Per ulteriori informazioni sulla composizione del parametro *Identity* quando viene utilizzato con i cmdlet **SystemMessage**, vedere [Identità del messaggio DSN](dsn-message-identity-exchange-2013-help.md).
 
@@ -78,7 +84,9 @@ Per ulteriori informazioni sulla composizione del parametro *Identity* quando vi
 
 Gli esempi in questa sezione fanno riferimento alle voci del ruolo di gestione che compongono i ruoli di gestione in Exchange 2013. I ruoli di gestione sono utilizzati per controllare le autorizzazioni concesse agli amministratori e agli utenti finali. Le voci del ruolo di gestione sono costituite da due parti: il ruolo di gestione a cui sono associate e un cmdlet. Il parametro Identity è anch'esso costituito dal nome del ruolo di gestione e dal nome del cmdlet. Ad esempio, di seguito è riportata la voce di ruolo per il cmdlet **Set-Mailbox** nel ruolo `Mail Recipients`.
 
-    Mail Recipients\Set-Mailbox
+```powershell
+Mail Recipients\Set-Mailbox
+```
 
 La voce di ruolo `Mail Recipients\Set-Mailbox` è una delle varie voci nel ruolo `Mail Recipients`. Per visualizzare tutte le voci di ruolo nel ruolo `Mail Recipients`, utilizzare il seguente comando:
 

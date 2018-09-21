@@ -47,15 +47,21 @@ Per altre attività di gestione relative ai server Accesso client e Cassette pos
 
 Con questo esempio vengono eseguiti test operativi e di connettività sul server Cassette postali locale e vengono visualizzate le informazioni sulla connettività Voice over IP (VoIP).
 
-    Test-UMConnectivity
+```powershell
+Test-UMConnectivity
+```
 
 In questo esempio viene verificata la capacità del server Accesso client locale riguardo all'ascolto delle richieste SIP in ingresso non crittografate sulla porta TCP port 5060.
 
-    Test-UMConnectivity -ListenPort 5060
+```powershell
+Test-UMConnectivity -ListenPort 5060
+```
 
 In questo esempio viene verificata la capacità del server Accesso client locale riguardo all'ascolto delle richieste SIP in ingresso crittografate sulla porta TCP port 5061.
 
-    Test-UMConnectivity -ListenPort 5061
+```powershell
+Test-UMConnectivity -ListenPort 5061
+```
 
 
 > [!NOTE]

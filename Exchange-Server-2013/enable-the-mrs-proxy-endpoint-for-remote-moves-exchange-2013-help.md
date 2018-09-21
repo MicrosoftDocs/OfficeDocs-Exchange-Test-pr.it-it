@@ -71,7 +71,9 @@ Il comando seguente consente di abilitare l'endpoint del proxy MRS su un server 
 
 Il comando seguente consente di abilitare l'endpoint del proxy MRS su un server Accesso client nell'organizzazione Exchange.
 
-    Get-WebServicesVirtualDirectory | Set-WebServicesVirtualDirectory -MRSProxyEnabled $true
+```powershell
+Get-WebServicesVirtualDirectory | Set-WebServicesVirtualDirectory -MRSProxyEnabled $true
+```
 
 
 > [!IMPORTANT]
@@ -93,7 +95,9 @@ Oppure
 
 Eseguire il comando riportato di seguito in Shell:
 
-    Get-WebServicesVirtualDirectory | FL Identity,MRSProxyEnabled
+```powershell
+Get-WebServicesVirtualDirectory | FL Identity,MRSProxyEnabled
+```
 
 Verificare che il parametro *MRSProxyEnabled* sia impostato su `True`.
 

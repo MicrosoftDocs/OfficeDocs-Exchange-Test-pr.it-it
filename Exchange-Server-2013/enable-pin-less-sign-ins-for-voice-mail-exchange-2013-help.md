@@ -65,11 +65,15 @@ Per ulteriori attività relative alle cassette postali di messaggistica unificat
 
 In questo esempio viene consentito l'accesso alla posta vocale senza PIN su un criterio cassetta postale di messaggistica unificata denominato `MyUMMailboxPolicy` per gli utenti associati al criterio cassetta postale che utilizzano Outlook Voice Access.
 
-    Set-UMMailboxPolicy -id MyUMMailboxPolicy -AllowPinlessVoiceMailAccess $true
+```powershell
+Set-UMMailboxPolicy -id MyUMMailboxPolicy -AllowPinlessVoiceMailAccess $true
+```
 
 ## Abilitazione dell'accesso senza PIN alla posta vocale sulla cassetta postale dell'utente abilitato alla messaggistica unificata tramite Shell
 
 In questo esempio viene consentito l'accesso alla posta vocale senza PIN per gli utenti che utilizzano Outlook per raggiungere la cassetta postale denominata `tonys@contoso.com`.
 
-    Set-UMMailbox -id tonys@contoso.com -PinlessAccessToVoiceMailEnabled $true
+```powershell
+Set-UMMailbox -id tonys@contoso.com -PinlessAccessToVoiceMailEnabled $true
+```
 

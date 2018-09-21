@@ -41,11 +41,15 @@ Per altre attività di gestione relative ai database di ripristino, vedere [Data
 
 2.  Utilizzare Eseutil per portare il database in uno stato di chiusura normale. Nell'esempio seguente, EXX è il prefisso di generazione dei registri per il database (ad esempio, E00, E01, E02 e così via).
     
-        Eseutil /R EXX /l <RDBLogFilePath> /d <RDBEdbFolder>
+    ```powershell
+Eseutil /R EXX /l <RDBLogFilePath> /d <RDBEdbFolder>
+```
     
     L'esempio seguente mostra un prefisso di generazione dei registri di E01, un database di ripristino e un percorso di file di registro di E:\\Databases\\RDB1:
     
-        Eseutil /R E01 /l E:\Databases\RDB1 /d E:\Databases\RDB1
+    ```powershell
+Eseutil /R E01 /l E:\Databases\RDB1 /d E:\Databases\RDB1
+```
 
 3.  Creare un database di ripristino. Assegnare al database di ripristino un nome univoco, ma utilizzare il nome ed il percorso del file di database per il parametro EdbFilePath e il percorso dei file di registro ripristinati per il parametro LogFolderPath.
     
@@ -57,15 +61,21 @@ Per altre attività di gestione relative ai database di ripristino, vedere [Data
 
 4.  Riavviare il servizio Archivio informazioni di Microsoft Exchange:
     
-        Restart-Service MSExchangeIS
+    ```powershell
+Restart-Service MSExchangeIS
+```
 
 5.  Montare il database di ripristino:
     
-        Mount-database <RDBName>
+    ```powershell
+Mount-database <RDBName>
+```
 
 6.  Verificare che il database installato contenga le cassette postali che si desidera ripristinare:
     
-        Get-MailboxStatistics -Database <RDBName> | ft -auto
+    ```powershell
+Get-MailboxStatistics -Database <RDBName> | ft -auto
+```
 
 7.  Utilizzare il cmdlet New-MailboxRestoreRequest per ripristinare una cassetta postale o gli elementi da un database di ripristino a una cassetta postale di produzione.
     
@@ -81,7 +91,9 @@ Per altre attività di gestione relative ai database di ripristino, vedere [Data
     
     Una volta che lo stato di ripristino risulti "Completato", eliminare la richiesta di ripristino utilizzando [Remove-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829910\(v=exchg.150\)). Esempio:
     
-        Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+    ```powershell
+Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

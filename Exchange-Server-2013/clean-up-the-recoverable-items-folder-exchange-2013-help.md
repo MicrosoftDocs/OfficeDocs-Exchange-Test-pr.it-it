@@ -104,7 +104,9 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
 
 4.  Recuperare la configurazione corrente del ciclo di lavoro Assistente cartelle gestite. Assicurarsi di prendere nota dell'impostazione per utilizzi successivi.
     
-        Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+    ```powershell
+Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+```
 
 5.  Disabilitare l'accesso client per la cassetta postale per assicurarsi che nessun modifiche ai dati delle cassette postali per la durata di questa procedura.
     
@@ -116,7 +118,9 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
 
 7.  Disattivare l'Assistente cartelle gestite sul server cassette postali.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+    ```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+```
     
 
     > [!IMPORTANT]
@@ -126,7 +130,9 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
 
 8.  Disabilitare il ripristino di singoli elementi e rimuovere la cassetta postale di conservazione per controversia legale.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+    ```powershell
+Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+```
     
 
     > [!IMPORTANT]
@@ -150,7 +156,9 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
 
 10. Se la cassetta postale è stata inserita nella conservazione per controversia legale oppure non dispone di ripristino di singoli elementi è abilitato in precedenza, abilitare queste funzionalità nuovamente.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+    ```powershell
+Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+```
     
 
     > [!IMPORTANT]
@@ -180,7 +188,9 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
 
 12. Attivare l'Assistente cartelle gestite, impostando il ciclo di lavoro valore annotato al passaggio 4. In questo esempio viene impostato il ciclo di lavoro su un giorno.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+    ```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```
 
 13. Attivare l'accesso client.
     

@@ -430,7 +430,9 @@ Per distribuire Proxy di applicazioni Web, è necessario installare il ruolo ser
 
 Il seguente cmdlet Windows PowerShell svolge la stessa funzione dei passaggi precedenti.
 
-    Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
+```powershell
+Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
+```
 
 ## Passaggio 5: consente di configurare il servizio ruolo di Proxy dell'applicazione Web (facoltativo)
 
@@ -563,7 +565,9 @@ Dopo aver completato tutti i passaggi richiesti, tra cui le modifiche alle direc
 
   - Utilizzo di Windows PowerShell:
     
-        Restart-Service W3SVC,WAS -noforce
+    ```powershell
+Restart-Service W3SVC,WAS -noforce
+```
 
   - Utilizzo di una riga di comando: Fare clic su **Start**, **Esegui**, digitare `IISReset /noforce`, quindi fare clic su **OK**.
 

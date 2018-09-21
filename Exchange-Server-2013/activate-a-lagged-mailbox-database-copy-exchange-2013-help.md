@@ -73,7 +73,9 @@ Ulteriori informazioni sulle copie del database delle cassette postali ritardate
 
 5.  In questo esempio, viene utilizzato Eseutil per eseguire l'operazione di recupero.
     
-        Eseutil.exe /r eXX /a
+    ```powershell
+Eseutil.exe /r eXX /a
+```
     
 
     > [!NOTE]
@@ -90,7 +92,9 @@ Ulteriori informazioni sulle copie del database delle cassette postali ritardate
 
 7.  Una volta completato il processo di recupero, viene ripresa la replica per il database utilizzato come parte del processo di recupero, come illustrato in questo esempio.
     
-        Resume-MailboxDatabaseCopy DB1\EX3
+    ```powershell
+Resume-MailboxDatabaseCopy DB1\EX3
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd351074\(v=exchg.150\)) o [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd335220\(v=exchg.150\)).
 
@@ -112,7 +116,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Suspend-Mai
 
 2.  In questo esempio, viene attivata la copia ritardata del database delle cassette postali utilizzando il cmdlet [Move-ActiveMailboxDatabase](https://technet.microsoft.com/it-it/library/dd298068\(v=exchg.150\)) con il parametro *SkipLagChecks*.
     
-        Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+    ```powershell
+Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+```
 
 ## Attivazione di una copia ritardata del database delle cassette postali con il recupero SafetyNet tramite Shell
 
@@ -132,7 +138,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Suspend-Mai
 
 2.  Stabilire i registri necessari per la copia ritardata del database cercando il "Registro necessario": valore dell'output di intestazione del database in ESEUTIL
     
-        Eseutil /mh <DBPath> | findstr /c:"Log Required"
+    ```powershell
+Eseutil /mh <DBPath> | findstr /c:"Log Required"
+```
     
     Prendere nota dei numeri esadecimali tra parentesi. Il primo numero è la generazione più bassa (definita LowGeneration) e il secondo è il numero della generazione più alta (definita HighGeneration). Spostare tutti i file di generazione del registro che hanno una sequenza di generazione più grande di HighGeneration in una posizione diversa, in modo che non vengano riprodotti nel database.
 
@@ -152,5 +160,7 @@ Per verificare la corretta attivazione di una copia ritardata del database delle
 
   - In Shell, utilizzare il seguente comando per visualizzare le informazioni sulla stato per una copia del database.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+```
 

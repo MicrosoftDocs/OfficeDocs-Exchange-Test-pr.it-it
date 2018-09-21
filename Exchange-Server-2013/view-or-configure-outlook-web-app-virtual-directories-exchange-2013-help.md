@@ -145,7 +145,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-OwaVirtua
 
 Questo esempio consente di visualizzare le proprietà di tutte le directory virtuali di Outlook Web App in tutti i siti Web di Internet Information Services (IIS) su tutti i computer in cui è installato il ruolo del server Accesso client in un'organizzazione di Exchange.
 
-    Get-OWAVirtualDirectory
+```powershell
+Get-OWAVirtualDirectory
+```
 
 In questo esempio, è possibile visualizzare le proprietà di una directory virtuale di Outlook Web App sul sito Web IIS predefinito sul server Exchange locale.
 
@@ -153,11 +155,15 @@ In questo esempio, è possibile visualizzare le proprietà di una directory virt
 
 In questo esempio, è possibile visualizzare le proprietà di tutte le directory virtuali di Outlook Web App su un sito Web IIS su un determinato server di Exchange.
 
-    Get-OWAVirtualDirectory -server <Exchange Server Name>
+```powershell
+Get-OWAVirtualDirectory -server <Exchange Server Name>
+```
 
 In questo esempio, è possibile visualizzare i valori delle proprietà per ogni directory virtuale di Outlook Web App in tutti i siti Web di IIS su tutti i server Accesso client di un'organizzazione di Exchange.
 
-    Get-OWAVirtualDirectory | format-list
+```powershell
+Get-OWAVirtualDirectory | format-list
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Get-OwaVirtualDirectory](https://technet.microsoft.com/it-it/library/aa998588\(v=exchg.150\)).
 

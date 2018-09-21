@@ -75,7 +75,9 @@ Un set di integrità è un gruppo di strumenti di monitoraggio, probe e rispondi
 
 Esegui il comando seguente per visualizzare i set di integrità in un server che esegue Exchange 2013.
 
-    Get-HealthReport -Server <ServerName>
+```powershell
+Get-HealthReport -Server <ServerName>
+```
 
 ## Visualizzare probe, strumenti di monitoraggio e risponditori per un set di integrità
 

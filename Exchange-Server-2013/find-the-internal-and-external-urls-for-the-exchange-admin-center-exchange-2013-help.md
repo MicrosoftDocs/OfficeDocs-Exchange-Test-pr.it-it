@@ -47,7 +47,9 @@ Per ulteriori informazioni sull'interfaccia di amministrazione di Exchange, vede
 
 In questo esempio, il nome della directory virtuale del Pannello di controllo di Exchange, l'URL interno e l'URL esterno vengono visualizzati in un elenco formattato.
 
-    Get-ECPVirtualDirectory | Format-List Name,InternalURL,ExternalURL
+```powershell
+Get-ECPVirtualDirectory | Format-List Name,InternalURL,ExternalURL
+```
 
 Una volta completato il comando, utilizzare il valore *InternalURL* o *ExternalURL* nel browser per avviare l'interfaccia di amministrazione di Exchange.
 

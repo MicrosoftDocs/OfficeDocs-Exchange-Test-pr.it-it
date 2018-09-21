@@ -59,7 +59,9 @@ Per impostazione predefinita, quando si utilizza lo strumento di risoluzione dei
 
 2.  Nella finestra dello **strumento di risoluzione dei problemi di messaggistica unificata di Microsoft Exchange 2010**, nel prompt, digitare il seguente comando e premere Invio.
     
-        $cred=Get-Credential
+    ```powershell
+$cred=Get-Credential
+```
 
 3.  Nella finestra **Richiesta credenziali di Windows PowerShell** digitare dominio\\nome utente e password, quindi fare clic su **OK**.
 

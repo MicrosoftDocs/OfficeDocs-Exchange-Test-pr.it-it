@@ -47,7 +47,9 @@ Problemi? È possibile richiedere supporto nei forum di Exchange. I forum sono d
 
 In questo esempio le statistiche relative alla cartella degli elementi ripristinabili per Soumya Singhi vengono recuperate e visualizzate sotto forma di elenco.
 
-    Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```powershell
+Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```
 
 In questo esempio vengono recuperate le statistiche relative alla cartella degli elementi ripristinabili per Soumya Singhi e viene visualizzata una tabella contenente il nome, il percorso, il numero degli elementi inclusi e la dimensione della cartella.
 

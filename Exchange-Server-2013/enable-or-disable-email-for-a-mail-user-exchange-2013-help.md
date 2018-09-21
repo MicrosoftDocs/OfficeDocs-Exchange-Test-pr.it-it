@@ -65,7 +65,9 @@ L'utente di posta verrà rimosso dall'elenco dei contatti.
 
 In questo esempio viene disabilitata la posta per l'utente Yan Li abilitato alla posta.
 
-    Disable-MailUser -Identity "Yan Li"
+```powershell
+Disable-MailUser -Identity "Yan Li"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Disable-MailUser](https://technet.microsoft.com/it-it/library/aa998578\(v=exchg.150\)).
 
@@ -79,13 +81,17 @@ Per verificare che la posta elettronica sia stata disabilitata correttamente per
 
 3.  In Shell, utilizzare il seguente comando.
     
-        Get-MailUser
+    ```powershell
+Get-MailUser
+```
     
     L'utente di posta per il quale è stato disabilitato l'utilizzo della posta elettronica non verrà restituito nei risultati poiché questo cmdlet restituisce solo gli utenti abilitati all'utilizzo della posta.
 
 4.  In Shell, utilizzare il seguente comando.
     
-        Get-User
+    ```powershell
+Get-User
+```
     
     L'utente di posta che è stato disabilitato all'utilizzo della posta elettronica viene restituito nei risultati poiché questo cmdlet restituisce tutti gli oggetti utente di Active Directory.
 
@@ -97,7 +103,9 @@ Utilizzare il cmdlet **Enable-MailUser** per abilitare all'utilizzo della posta 
 
 In questo esempio l'utente Sanjay Shah viene abilitato all'utilizzo della posta elettronica. È necessario fornire un indirizzo di posta elettronica esterno.
 
-    Enable-MailUser -Identity "Sanjay Shah" -ExternalEmailAddress renev@tailspintoys.com
+```powershell
+Enable-MailUser -Identity "Sanjay Shah" -ExternalEmailAddress renev@tailspintoys.com
+```
 
 ## Utilizzo di Shell e di un file CSV per abilitare alla posta più utenti
 
@@ -161,5 +169,7 @@ Per verificare di aver correttamente abilitato alla posta gli utenti di Active D
 
   - In Shell utilizzare il comando seguente per visualizzare le informazioni sui nuovi utenti di posta.
     
-        Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```powershell
+Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+```
 

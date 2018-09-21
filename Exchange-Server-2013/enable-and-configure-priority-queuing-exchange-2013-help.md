@@ -43,7 +43,9 @@ _**Ultima modifica dell'argomento:** 2014-12-16_
 
 1.  In una finestra del prompt dei comandi, utilizzare il seguente comando per aprire il file di configurazione dell'applicazione EdgeTransport.exe.config in Blocco note:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Trovare le seguenti chiavi nella sezione `<appSettings>`.
     
@@ -61,7 +63,9 @@ _**Ultima modifica dell'argomento:** 2014-12-16_
     
     Per abilitare l'accodamento priorità nel servizio di trasporto nel server Cassette postali, utilizzare il seguente valore:
     
-        <add key="PriorityQueuingEnabled" value="true" />
+    ```command line
+<add key="PriorityQueuingEnabled" value="true" />
+```
     
     Configurare i rimanenti valori dell'accodamento prorità o lasciarli con i valori predefiniti.
 

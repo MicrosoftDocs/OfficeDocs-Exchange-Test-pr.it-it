@@ -97,7 +97,9 @@ Per configurare le autorizzazioni suddivise RBAC, effettuare le seguenti operazi
     
     1.  Disabilitare le autorizzazioni divise di Active Directory eseguendo il comando riportato di seguito dal supporto di installazione di Exchange 2013.
         
-            setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+        ```powershell
+setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+```
     
     2.  Riavviare i server Exchange 2013 dell'organizzazione o attendere il token di accesso di Active Directory per la replica su tutti i server Exchange 2013.
         
@@ -125,11 +127,15 @@ Per configurare le autorizzazioni suddivise RBAC, effettuare le seguenti operazi
     
     3.  Aggiungere membri al nuovo gruppo di ruoli utilizzando il comando seguente.
         
-            Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+        ```powershell
+Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+```
     
     4.  Sostituire l'elenco di delegati sul nuovo gruppo di ruoli in modo che solo i membri del gruppo possono aggiungere o rimuovere i membri.
         
-            Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+        ```powershell
+Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+```
         
 
         > [!IMPORTANT]
@@ -142,7 +148,9 @@ Per configurare le autorizzazioni suddivise RBAC, effettuare le seguenti operazi
     
     6.  Rimuovere tutte le assegnazioni di ruolo di delega e regolari per il ruolo Creazione destinatario di posta elettronica non associate al nuovo gruppo di ruoli o a qualsiasi altro gruppo di ruoli o gruppo di protezione universale o le assegnazioni dirette che si desidera mantenere utilizzando il comando seguente.
         
-            Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+        ```powershell
+Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+```
         
 
         > [!NOTE]
@@ -222,7 +230,9 @@ Per passare dalle autorizzazioni suddivise RBAC o condivise alle autorizzazioni 
 
 1.  Da una shell comandi di Windows, eseguire il comando riportato di seguito dal supporto di installazione di Exchange 2013 per abilitare le autorizzazioni divise di Active Directory.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+    ```powershell
+setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+```
 
 2.  Se l'organizzazione dispone di più domini di Active Directory, è necessario eseguire `setup.exe /PrepareDomain` in ciascun dominio figlio che contiene oggetti o server di Exchange oppure eseguire `setup.exe /PrepareAllDomains` da un sito che dispone di un server Active Directory da ogni dominio.
 

@@ -53,7 +53,9 @@ Per le attività di gestione aggiuntive correlate a IRM, vedere [Procedure di In
 
 In questo esempio, la registrazione IRM viene abilitata su un server Cassette postali.
 
-    Set-TransportService -Identity EXCH01 -IRMLogEnabled $true
+```powershell
+Set-TransportService -Identity EXCH01 -IRMLogEnabled $true
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-TransportService](https://technet.microsoft.com/it-it/library/jj215682\(v=exchg.150\)).
 
@@ -61,7 +63,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Transpo
 
 In questo esempio, la registrazione IRM viene disabilitata su un server Cassette postali.
 
-    Set-TransportService -Identity EXCH01 -IRMLogEnabled $false
+```powershell
+Set-TransportService -Identity EXCH01 -IRMLogEnabled $false
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-TransportService](https://technet.microsoft.com/it-it/library/jj215682\(v=exchg.150\)).
 

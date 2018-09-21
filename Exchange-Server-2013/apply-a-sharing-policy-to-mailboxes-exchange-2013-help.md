@@ -63,11 +63,15 @@ Per ulteriori informazioni sulla condivisione federata, vedere [Condivisione](sh
 
 In questo esempio il criterio di condivisione Contoso viene applicato a un'unica cassetta postale dell'utente Barbara.
 
-    Set-Mailbox -Identity Barbara -SharingPolicy "Contoso"
+```powershell
+Set-Mailbox -Identity Barbara -SharingPolicy "Contoso"
+```
 
 In questo esempio viene specificato che tutte le cassette postali dell'utente nel reparto Marketing utilizzano il criterio di condivisione Contoso Marketing.
 
-    Get-Mailbox -Filter {Department -eq "Marketing"} | Set-Mailbox -SharingPolicy "Contoso Marketing"
+```powershell
+Get-Mailbox -Filter {Department -eq "Marketing"} | Set-Mailbox -SharingPolicy "Contoso Marketing"
+```
 
 In questo esempio vengono restituite tutte le cassette postali a cui è stato applicato il criterio di condivisione Contoso e gli utenti vengono ordinati in una tabella che visualizza solo gli alias e gli indirizzi di posta elettronica.
 
@@ -83,7 +87,9 @@ Per verificare la corretta applicazione del criterio di condivisione alla casset
 
   - Eseguire il comando della shell riportato di seguito per verificare che il criterio di condivisione sia stato assegnato alla cassetta postale di un utente. Verificare che il criterio di condivisione corretto sia elencato nel parametro *SharingPolicy*.
     
-        Get-Mailbox <user name> | format-list
+    ```powershell
+Get-Mailbox <user name> | format-list
+```
 
 
 > [!TIP]

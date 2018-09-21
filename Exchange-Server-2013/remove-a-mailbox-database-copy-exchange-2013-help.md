@@ -61,7 +61,9 @@ Per informazioni sulle altre attività di gestione correlate alle copie del data
 
 In questo esempio viene rimossa una copia del database delle cassette postali DB1 dal server Cassette postali MB1.
 
-    Remove-MailboxDatabaseCopy -Identity DB1\MBX1 -Confirm:$False
+```powershell
+Remove-MailboxDatabaseCopy -Identity DB1\MBX1 -Confirm:$False
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -71,7 +73,9 @@ Per verificare la corretta rimozione di una copia del database delle cassette po
 
   - Nella shell, eseguire il comando riportato di seguito per verificare la rimozione della copia.
     
-        Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+    ```powershell
+Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+```
     
     La copia passiva rimossa non è più elencata.
 

@@ -138,11 +138,15 @@ Come illustrato nella tabella precedente, le schede utilizzate per le reti di re
 
 Per configurare il routing per le schede di rete di replica su MBX1 e MBX2, questo comando veniva eseguito su ogni server.
 
-    netsh interface ipv4 add route 10.0.2.0/24 <NetworkName> 10.0.1.254
+```powershell
+netsh interface ipv4 add route 10.0.2.0/24 <NetworkName> 10.0.1.254
+```
 
 Per configurare il routing per le schede di rete di replica su MBX3 e MBX4, questo comando veniva eseguito su ogni server.
 
-    netsh interface ipv4 add route 10.0.1.0/24 <NetworkName> 10.0.2.254
+```powershell
+netsh interface ipv4 add route 10.0.1.0/24 <NetworkName> 10.0.2.254
+```
 
 Sono state configurate anche le seguenti impostazioni di rete aggiuntive:
 
@@ -189,7 +193,9 @@ Il comando precedente configura DAG1 per utilizzare un server di controllo alter
 
 I comandi precedenti aggiungono un server Cassette postali alla volta al DAG. I comandi installano anche il componente clustering di failover di Windows su ogni server Cassette postali (se non è già installato), creano un cluster di failover e aggiungono ogni server Cassette postali al cluster appena creato.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```
 
 Il comando precedente abilità la modalità DAC per il DAG.
 

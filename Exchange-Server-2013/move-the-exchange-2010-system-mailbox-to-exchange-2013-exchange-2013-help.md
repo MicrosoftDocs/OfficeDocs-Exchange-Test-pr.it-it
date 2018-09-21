@@ -41,7 +41,9 @@ Per ulteriori informazioni sull'aggiornamento a Exchange 2013, vedere i seguenti
 
   - Eseguire il seguente comando in Exchange 2013 per ottenere l'identità e la versione dei server di Exchange e dei database delle cassette postali contenenti le cassette postali di sistema dell'organizzazione.
     
-        Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayVersion
+    ```powershell
+Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayVersion
+```
     
     La proprietà **AdminDisplayVersion** indica la versione di Exchange in esecuzione sul server. Il valore `Version 14.x` indica Exchange 2010, mentre il valore `Version 15.x` indica Exchange 2013.
 
@@ -83,7 +85,9 @@ Per ulteriori informazioni sull'aggiornamento a Exchange 2013, vedere i seguenti
 
 Eseguire innanzitutto il seguente comando in Exchange 2013 per ottenere i nomi e le versioni di tutti i database delle cassette postali presenti nell'organizzazione.
 
-    Get-MailboxDatabase -IncludePreExchange2013 | FL Name,Server,AdminDisplayVersion
+```powershell
+Get-MailboxDatabase -IncludePreExchange2013 | FL Name,Server,AdminDisplayVersion
+```
 
 Una volta identificato il nome dei database delle cassette postali dell'organizzazione, eseguire il seguente comando in Exchange 2013 per spostare la cassetta postale di sistema di Microsoft Exchange in un database delle cassette postali ubicato in un server di Exchange 2013.
 

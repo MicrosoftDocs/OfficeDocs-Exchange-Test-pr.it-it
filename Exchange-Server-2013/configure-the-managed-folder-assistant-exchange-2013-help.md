@@ -45,7 +45,9 @@ Per altre attività di gestione relative a Gestione record di messaggistica, ved
 
 Questo esempio configura l'Assistente cartelle gestite per elaborare tutte le cassette postali in un solo giorno.
 
-    Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-MailboxServer](https://technet.microsoft.com/it-it/library/aa998651\(v=exchg.150\)).
 
@@ -61,7 +63,9 @@ Questo comando recupera tutti i server Cassette postali nell'organizzazione e ge
 
 In questo esempio l'Assistente cartelle gestite viene impostato in modo che elabori immediatamente la cassetta postale di Morris Cornejo.
 
-    Start-ManagedFolderAssistant -Identity morris.cornejo@contoso.com
+```powershell
+Start-ManagedFolderAssistant -Identity morris.cornejo@contoso.com
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Start-ManagedFolderAssistant](https://technet.microsoft.com/it-it/library/aa998864\(v=exchg.150\)).
 

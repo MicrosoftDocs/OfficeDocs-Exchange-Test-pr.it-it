@@ -155,7 +155,9 @@ Per verificare la corretta creazione della cassetta postale utente, effettuare u
 
   - In Shell, eseguire il comando riportato di seguito per visualizzare informazioni sulla nuova cassetta postale utente.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+```
 
 ## Creare una cassetta postale per un utente esistente
 
@@ -207,13 +209,17 @@ Per verificare la corretta creazione della cassetta postale utente, effettuare u
 
 In questo esempio viene creata una cassetta postale per l'utente estherv@contoso.com nel database di Exchange denominato UsersMailboxDatabase.
 
-    Enable-Mailbox estherv@contoso.com -Database UsersMailboxDatabase
+```powershell
+Enable-Mailbox estherv@contoso.com -Database UsersMailboxDatabase
+```
 
 Inoltre, è possibile utilizzare il cmdlet **Enable-Mailbox** per abilitare più utenti alla posta. È possibile eseguire questa operazione inviando i risultati del cmdlet **Get-User** al cmdlet **Enable-Mailbox**. Quando viene eseguito il cmdlet **Get-User**, è necessario restituire solo utenti non ancora abilitati alla posta. Per eseguire l'operazione, è necessario specificare il valore User con il parametro *RecipientTypeDetails*. Inoltre, è possibile limitare i risultati restituiti utilizzando il parametro *Filter* per richiedere solo utenti che soddisfino i criteri specificati. Quindi eseguire il piping dei risultati al cmdlet **Enable-Mailbox**.
 
 Ad esempio, il comando di seguito abilita alle cassette postali gli utenti che non sono già abilitati alla posta elettronica e che dispongono di un valore nella proprietà **UserPrincipalName**, che aiuta a garantire che non si converta inavvertitamente un account di sistema in una cassetta postale.
 
-    Get-User -RecipientTypeDetails User -Filter { UserPrincipalName -ne $Null } | Enable-Mailbox
+```powershell
+Get-User -RecipientTypeDetails User -Filter { UserPrincipalName -ne $Null } | Enable-Mailbox
+```
 
 Per informazioni sulla sintassi e sui parametri, vedere [Enable-Mailbox](https://technet.microsoft.com/it-it/library/aa998251\(v=exchg.150\)) e [Get-User](https://technet.microsoft.com/it-it/library/aa996896\(v=exchg.150\)).
 
@@ -227,7 +233,9 @@ Per verificare la corretta creazione di una cassetta postale per un utente esist
 
   - In Shell, eseguire il comando riportato di seguito per visualizzare informazioni sul nuovo utente abilitato alle cassette postali.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+```
     
     Il valore per la proprietà *RecipientTypeDetails* è `UserMailbox`.
 

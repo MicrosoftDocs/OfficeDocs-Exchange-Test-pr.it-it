@@ -69,11 +69,15 @@ Per ulteriori informazioni sulla pubblicazione del calendario Internet e sui cri
 
 Con questo esempio viene disabilitato il criterio di condivisione per la pubblicazione del calendario Internet denominato **Internet**.
 
-    Set-SharingPolicy -Identity "Internet" -Enabled $false
+```powershell
+Set-SharingPolicy -Identity "Internet" -Enabled $false
+```
 
 Con questo esempio viene eliminato il criterio di condivisione per la pubblicazione del calendario Internet denominato **Internet**.
 
-    Remove-SharingPolicy -Identity "Internet"
+```powershell
+Remove-SharingPolicy -Identity "Internet"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-SharingPolicy](https://technet.microsoft.com/it-it/library/dd297931\(v=exchg.150\)).
 
@@ -81,7 +85,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Sharing
 
 Per verificare la rimozione o l'aggiornamento corretti del criterio di condivisione, eseguire il comando Shell seguente e controllare le informazioni sul criterio di condivisione.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 Se è stato rimosso il criterio di condivisione per la pubblicazione del calendario Internet dedicato, nei risultati del cmdlet non verrà visualizzato il criterio.
 
@@ -105,7 +111,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Sharing
 
 Con questo esempio vengono disabilitate le funzionalità anonimo per la directory virtuale di Outlook Web App sul server Accesso client CAS01.
 
-    Set-OwaVirtualDirectory -Identity "CAS01" - AnonymousFeaturesEnabled -$false
+```powershell
+Set-OwaVirtualDirectory -Identity "CAS01" - AnonymousFeaturesEnabled -$false
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-OwaVirtualDirectory](https://technet.microsoft.com/it-it/library/bb123515\(v=exchg.150\)).
 
@@ -113,7 +121,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-OwaVirt
 
 Per verificare di aver disabilitato correttamente le funzionalità anonimo per la directory virtuale di Outlook Web App sul server Accesso client, eseguire il comando Shell e verificare che il parametro *AnonymousFeaturesEnabled* sia impostato su `$false`.
 
-    Get-OwaVirtualDirectory | format-list
+```powershell
+Get-OwaVirtualDirectory | format-list
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-OwaVirtualDirectory](https://technet.microsoft.com/it-it/library/aa998588\(v=exchg.150\)).
 

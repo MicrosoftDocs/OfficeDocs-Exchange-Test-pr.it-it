@@ -49,7 +49,9 @@ Per le attività di gestione aggiuntive correlate ai criteri degli indirizzi di 
 
 Per creare un criterio dell'indirizzo di posta elettronica utilizzando i filtri destinatari, utilizzare la seguente sintassi.
 
-    New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
+```powershell
+New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
+```
 
 In questo esempio viene creato un criterio dell'indirizzo di posta elettronica applicabile a tutti i dirigenti e nel quale la parte locale dell'indirizzo è composta dalle prime due lettere del nome e dal cognome intero.
 

@@ -119,7 +119,9 @@ In questo esempio viene aggiunta una sostituzione globale che disabilita il resp
 
 Per verificare di aver creato correttamente una sostituzione globale, utilizzare il cmdlet **Get-GlobalMonitoringOverride** per visualizzare l'elenco delle sostituzioni globali:
 
-    Get-GlobalMonitoringOverride
+```powershell
+Get-GlobalMonitoringOverride
+```
 
 La sostituzione deve essere visualizzata nell'elenco.
 
@@ -137,7 +139,9 @@ In questo esempio viene rimossa la sostituzione globale esistente della propriet
 
 Per verificare di aver rimosso correttamente una sostituzione globale, utilizzare il cmdlet **Get-GlobalMonitoringOverride** per visualizzare l'elenco delle sostituzioni globali:
 
-    Get-GlobalMonitoringOverride
+```powershell
+Get-GlobalMonitoringOverride
+```
 
 La sostituzione rimossa non dovrà essere visualizzata nell'elenco.
 

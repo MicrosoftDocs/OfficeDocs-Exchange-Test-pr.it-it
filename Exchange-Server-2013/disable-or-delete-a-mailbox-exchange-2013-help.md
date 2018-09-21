@@ -133,20 +133,26 @@ La cassetta postale viene rimossa dall'elenco delle cassette postali.
 
 Utilizzare il seguente comando per disabilitare le cassette postali utente, le cassette postali collegate, le cassette postali per le risorse e le cassette postali condivise.
 
-    Disable-Mailbox <identity>
+```powershell
+Disable-Mailbox <identity>
+```
 
 Quando si esegue questo comando, viene visualizzato un messaggio per la conferma della disattivazione della cassetta postale.
 
 Di seguito, sono riportati alcuni esempi di comandi per la disattivazione delle cassette postali.
 
 ```
-    Disable-Mailbox danj
+```powershell
+Disable-Mailbox danj
+```
 ```
 ```
     Disable-Mailbox "Conf Room 31/1234 (12)"
 ```
 ```
-    Disable-Mailbox sharedmbx@contoso.com
+```powershell
+Disable-Mailbox sharedmbx@contoso.com
+```
 ```
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -170,7 +176,9 @@ Per verificare la corretta disattivazione di una cassetta postale, effettuare un
 
   - In Shell, utilizzare il seguente comando.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     Notare che il valore per la proprietà *RecipientType* è `User` invece di `UserMailbox`, che è il valore per gli utenti con cassette postali abilitate. Ciò indica anche che la cassetta postale è disabilitata, ma che l'account utente viene mantenuto.
 
@@ -194,20 +202,26 @@ La cassetta postale viene rimossa dall'elenco delle cassette postali.
 
 Utilizzare il seguente comando per eliminare le cassette postali utente, le cassette postali collegate, le cassette postali per le risorse e le cassette postali condivise.
 
-    Remove-Mailbox <identity>
+```powershell
+Remove-Mailbox <identity>
+```
 
 Quando si esegue questo comando, viene visualizzato un messaggio per la conferma dell'eliminazione della cassetta postale.
 
 Di seguito, sono riportati alcuni esempi di comandi per l'eliminazione delle cassette postali.
 
 ```
-    Remove-Mailbox pilarp@contoso.com
+```powershell
+Remove-Mailbox pilarp@contoso.com
+```
 ```
 ```
     Remove-Mailbox "Fleet Van (16)"
 ```
 ```
-    Remove-Mailbox corpprint
+```powershell
+Remove-Mailbox corpprint
+```
 ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
@@ -234,7 +248,9 @@ Oppure
 
 2.  Utilizzare il seguente comando per verificare la corretta eliminazione dell'account utente in Active Directory.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     Il comando restituirà un errore indicante l'impossibilità di rintracciare l'utente, confermando, in questo modo, l'eliminazione dell'account.
 

@@ -77,7 +77,9 @@ Dopo aver utilizzato il cmdlet **New-MailboxSearch** per creare una ricerca eDis
 
 Ad esempio, eseguire il comando seguente per avviare una ricerca eDiscovery denominata *Fabrikam indagini* per copiare i risultati della ricerca per la cassetta postale di individuazione specificato.
 
-    Start-MailboxSearch "Fabrikam Investigation"
+```powershell
+Start-MailboxSearch "Fabrikam Investigation"
+```
 
 Se si utilizza l'opzione *EstimateOnly* per ottenere una stima dei risultati della ricerca, è necessario rimuovere il commutatore prima di copiare i risultati della ricerca. È inoltre necessario specificare una cassetta postale di individuazione di copiare per eseguire la ricerca dei risultati. Si supponga ad esempio che una ricerca solo stima creata utilizzando il comando seguente:
 

@@ -55,5 +55,7 @@ Per le altre attività di gestione relative ai server Cassette postali, vedere [
 
 2.  Nella casella **Apri** digitare il seguente comando e premere Invio.
     
-        net stop MSExchangeUM
+    ```powershell
+net stop MSExchangeUM
+```
 

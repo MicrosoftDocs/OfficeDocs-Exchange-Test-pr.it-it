@@ -191,7 +191,9 @@ Lo strumento per la risoluzione dei problemi di messaggistica unificata può ess
 
 Nell'esempio seguente la modalità Gateway viene utilizzata per testare il flusso delle chiamate in un ambiente che non include Office Communications Server 2007 R2 o Lync Server. Nell'esempio viene testata l'apparecchiatura telefonica, inclusi i gateway VoIP, i sistemi PBX e IP PBX e i componenti di messaggistica unificata. In questo esempio viene impostata la modalità di sicurezza VoIP (Voice over IP) su Non protetta, viene utilizzato l'indirizzo IP 10.1.1.1 come hop successivo e viene incluso un numero di interno nelle informazioni sulla deviazione.
 
-    Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```powershell
+Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```
 
 Inizio pagina
 

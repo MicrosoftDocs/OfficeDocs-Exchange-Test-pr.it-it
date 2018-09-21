@@ -43,7 +43,9 @@ Quando si esegue un comando insieme all'opzione *WhatIf*, inserire l'opzione *Wh
 
 Quando si esegue questo comando di esempio, Shell visualizza il testo seguente:
 
-    What if: Creating Accepted Domain "Contoso Domain" with domain name "contoso.com".
+```powershell
+What if: Creating Accepted Domain "Contoso Domain" with domain name "contoso.com".
+```
 
 ## Opzione Confirm
 
@@ -71,7 +73,9 @@ Quando viene eseguito un cmdlet con uno di questi verbi, Shell interrompe automa
 
 Quando si applica manualmente l'opzione *Confirm* a un comando, inserire l'opzione *Confirm* alla fine del comando, come nell'esempio seguente:
 
-    Get-JournalRule | Enable-JournalRule -Confirm
+```powershell
+Get-JournalRule | Enable-JournalRule -Confirm
+```
 
 Quando si esegue questo comando di esempio, Shell visualizza la seguente richiesta di conferma:
 
@@ -97,7 +101,9 @@ La richiesta di conferma consente di scegliere tra le seguenti possibilità:
 
 Per sostituire l'impostazione predefinita di Shell ed eliminare la richiesta di conferma per i cmdlet a cui è applicata automaticamente, è possibile includere l'opzione *Confirm* con il valore `$False`, come nell'esempio seguente:
 
-    Get-JournalRule | Disable-JournalRule -Confirm:$False
+```powershell
+Get-JournalRule | Disable-JournalRule -Confirm:$False
+```
 
 In questo caso non saranno visualizzate richieste di conferma.
 

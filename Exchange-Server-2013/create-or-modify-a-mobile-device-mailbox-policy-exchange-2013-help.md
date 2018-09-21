@@ -135,5 +135,7 @@ Per verificare la corretta modifica del criterio cassetta postale per il disposi
 
 2.  In Shell, utilizzare il seguente comando.
     
-        Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+    ```powershell
+Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+```
 

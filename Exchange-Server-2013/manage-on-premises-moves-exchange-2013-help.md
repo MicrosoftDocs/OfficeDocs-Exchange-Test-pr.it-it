@@ -51,7 +51,9 @@ Per ulteriori informazioni sullo spostamento di cassette postali, vedere [Sposta
 
 In questo esempio viene utilizzata l'opzione *WhatIf* per verificare se la cassetta postale di Tony Smith è pronta allo spostamento nel nuovo database DB01 e se vi sono errori all'interno del comando. Quando si utilizza l'opzione *WhatIf*, il sistema esegue dei controlli sulla cassetta postale. Se la cassetta postale non è pronta allo spostamento, si verifica un errore.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase DB01 -WhatIf
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase DB01 -WhatIf
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MigrationBatch](https://technet.microsoft.com/it-it/library/jj219166\(v=exchg.150\)) e [New-MoveRequest](https://technet.microsoft.com/it-it/library/dd351123\(v=exchg.150\)).
 
@@ -81,7 +83,9 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
 
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
@@ -124,7 +128,9 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
 
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
@@ -146,7 +152,9 @@ Per un esempio dell'utilizzo di Shell per visualizzare un batch di migrazione, v
 
 Con questo esempio viene spostata in DB01 solo la cassetta postale principale di Tony Smith. L'archivio non viene spostato.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -PrimaryOnly -TargetDatabase "DB01"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -PrimaryOnly -TargetDatabase "DB01"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MoveRequest](https://technet.microsoft.com/it-it/library/dd351123\(v=exchg.150\)).
 
@@ -158,7 +166,9 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
 
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
@@ -187,7 +197,9 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
 
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
@@ -205,7 +217,9 @@ Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet
 
 Con questo esempio viene spostata in DB03 solo la cassetta postale di archivio di Tony Smith. La cassetta postale principale non viene spostata.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -ArchiveOnly -ArchiveTargetDatabase "DB03"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -ArchiveOnly -ArchiveTargetDatabase "DB03"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MigrationBatch](https://technet.microsoft.com/it-it/library/jj219166\(v=exchg.150\)) e [New-MoveRequest](https://technet.microsoft.com/it-it/library/dd351123\(v=exchg.150\)).
 
@@ -215,7 +229,9 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
 
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
@@ -233,7 +249,9 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
 
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
@@ -263,7 +281,9 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
 
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 

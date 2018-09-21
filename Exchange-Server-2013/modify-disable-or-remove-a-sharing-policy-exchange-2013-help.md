@@ -87,7 +87,9 @@ Per informazioni dettagliate sulla creazione di un criterio di condivisione, ved
 
   - Questo esempio modifica il criterio di condivisione Contoso per contoso.com, ossia un dominio all'esterno dell'organizzazione. Questo criterio consente agli utenti nel dominio Contoso di visualizzare informazioni di disponibilità semplice.
     
-        Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+    ```powershell
+Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+```
 
   - Questo esempio aggiunge un secondo dominio al criterio di condivisione Contoso. Quando si aggiunge un dominio a un criterio esistente, è necessario includere tutti i domini inclusi in precedenza.
     
@@ -95,19 +97,27 @@ Per informazioni dettagliate sulla creazione di un criterio di condivisione, ved
 
   - In questo esempio il criterio di condivisione Contoso viene impostato come criterio di condivisione predefinita.
     
-        Set-SharingPolicy -Identity Contoso -Default $True
+    ```powershell
+Set-SharingPolicy -Identity Contoso -Default $True
+```
 
   - In questo esempio viene disabilitato il criterio di condivisione Contoso.
     
-        Set-SharingPolicy -Identity "Contoso" -Enabled $False
+    ```powershell
+Set-SharingPolicy -Identity "Contoso" -Enabled $False
+```
 
   - In questo esempio viene eliminato il criterio di condivisione Contoso. In questo secondo esempio viene rimosso il criterio di condivisione Contoso e viene eliminata la richiesta di conferma per la rimozione.
       
       ```
-      Remove-SharingPolicy -Identity Contoso
+  ```powershell
+Remove-SharingPolicy -Identity Contoso
+```
       ```
       ```
-      Remove-SharingPolicy -Identity Contoso -Confirm
+  ```powershell
+Remove-SharingPolicy -Identity Contoso -Confirm
+```
       ```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-SharingPolicy](https://technet.microsoft.com/it-it/library/dd297931\(v=exchg.150\)) e [Remove-SharingPolicy](https://technet.microsoft.com/it-it/library/dd351071\(v=exchg.150\)).

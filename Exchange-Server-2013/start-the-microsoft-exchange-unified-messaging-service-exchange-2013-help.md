@@ -57,5 +57,7 @@ Per ulteriori attività di gestione relative ai server Cassette postali, vedere 
 
 2.  Nella casella **Apri** digitare il seguente comando e premere Invio.
     
-        net start MSExchangeUM
+    ```powershell
+net start MSExchangeUM
+```
 

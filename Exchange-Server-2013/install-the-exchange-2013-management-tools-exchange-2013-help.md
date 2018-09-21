@@ -139,7 +139,9 @@ Per ulteriori informazioni sulla gestione di Exchange 2013, vedere [Interfaccia 
     > Se è attivato un controllo di accesso utente, è necessario eseguire <CODE>Setup.exe</CODE> da un prompt dei comandi elevato.
 
     
-        Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
+```
 
 Per ulteriori informazioni, vedere [Installare Exchange 2013 utilizzando la modalità automatica](ge-2013-using-unattended-mode-exchange-2013-help 
 Redirect to URL: https://review.docs.microsoft.com/zh-cn/office/exchange-server-2013/exchange-2013-client-access-server-configuration-exchange-2013-help).

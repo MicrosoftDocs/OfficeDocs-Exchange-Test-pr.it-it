@@ -93,7 +93,9 @@ Il percorso del database delle code e dei registri delle transazioni è controll
 
 2.  In una finestra del prompt dei comandi, aprire il file EdgeTransport.exe.config in Blocco note utilizzando il seguente comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 3.  Modificare le seguenti chiavi nella sezione `<appSettings>`.
     
@@ -137,7 +139,9 @@ Utilizzare la seguente procedura per spostare il database delle code e i nuovi r
 
 2.  In una finestra del prompt dei comandi, aprire il file EdgeTransport.exe.config in Blocco note utilizzando il seguente comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 3.  Modificare le seguenti chiavi nella sezione `<appSettings>`:
     
@@ -153,7 +157,9 @@ Utilizzare la seguente procedura per spostare il database delle code e i nuovi r
 
 5.  Arrestare il servizio di trasporto di Microsoft Exchange utilizzando il seguente comando:
     
-        net stop MSExchangeTransport
+    ```powershell
+net stop MSExchangeTransport
+```
 
 6.  Spostare i file del database esistenti Mail.que e Trn.chk dal percorso originale al nuovo percorso.
 
@@ -161,7 +167,9 @@ Utilizzare la seguente procedura per spostare il database delle code e i nuovi r
 
 8.  Avviare il servizio di trasporto di Microsoft Exchange utilizzando il seguente comando:
     
-        net start MSExchangeTransport
+    ```powershell
+net start MSExchangeTransport
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

@@ -74,7 +74,9 @@ Per informazioni sulle altre attività di gestione relative al backup e al recup
 
 6.  Passare ai file di installazione di Exchange 2013 e utilizzare il seguente comando.
     
-        Setup /m:RecoverServer /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup /m:RecoverServer /IAcceptExchangeServerLicenseTerms
+```
 
 7.  Una volta completata l'installazione, ma prima di rimettere in funzione il server ripristinato, riconfigurare qualsiasi impostazione che era presente sul server in precedenza, quindi riavviare il server.
 

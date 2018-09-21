@@ -63,7 +63,9 @@ Per creare un gruppo legato al ruolo e assegnare ruoli di gestione per il gruppo
 
 1.  Archiviare le credenziali della foresta esterna di Active Directory in una variabile.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 2.  Creare il gruppo di ruoli collegato utilizzando la sintassi seguente.
     
@@ -83,7 +85,9 @@ Con questo esempio viene effettuato quanto segue:
 
 <!-- end list -->
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
     New-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles "Transport Rules", "Journaling"
 
 ## Utilizzo di Shell per creare un gruppo legato al ruolo con ambito di gestione personalizzato
@@ -92,7 +96,9 @@ Con questo esempio viene effettuato quanto segue:
 
 1.  Archiviare le credenziali della foresta esterna di Active Directory in una variabile.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 2.  Creare il gruppo di ruoli collegato utilizzando la sintassi seguente.
     
@@ -112,7 +118,9 @@ Con questo esempio viene effettuato quanto segue:
 
 <!-- end list -->
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
     New-RoleGroup "Seattle Compliance Role Group" -LinkedForeignGroup "Seattle Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -CustomRecipientWriteScope "Seattle Recipients" -Roles "Transport Rules", "Journaling"
 
 Per ulteriori informazioni sugli ambiti di gestione, vedere [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md).
@@ -123,7 +131,9 @@ Per ulteriori informazioni sugli ambiti di gestione, vedere [Comprensione degli 
 
 1.  Archiviare le credenziali della foresta esterna di Active Directory in una variabile.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 2.  Creare il gruppo di ruoli collegato utilizzando la sintassi seguente.
     
@@ -143,7 +153,9 @@ Con questo esempio viene effettuato quanto segue:
 
 <!-- end list -->
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
     New-RoleGroup "Executives Compliance Role Group" -LinkedForeignGroup "Executives Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope "Executives OU" -Roles "Transport Rules", "Journaling"
 
 Per ulteriori informazioni sugli ambiti di gestione, vedere [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md).
@@ -156,7 +168,9 @@ Per modificare il gruppo di protezione universale esterno associato a un gruppo 
 
 1.  Archiviare le credenziali della foresta esterna di Active Directory in una variabile.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 2.  Modificare il gruppo di protezione universale nel gruppo legato al ruolo esistente utilizzando la seguente sintassi.
     
@@ -170,6 +184,8 @@ Con questo esempio viene effettuato quanto segue:
 
 <!-- end list -->
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
     Set-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Regulatory Compliance Officers" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential
 

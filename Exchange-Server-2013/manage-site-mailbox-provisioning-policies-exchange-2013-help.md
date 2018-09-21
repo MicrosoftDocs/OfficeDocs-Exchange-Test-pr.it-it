@@ -59,17 +59,23 @@ In questo esempio viene creato il criterio di provisioning predefinito SM\_Provi
 
 In questo esempio vengono restituite informazioni dettagliate su tutti i criteri di provisioning delle cassette postali del sito.
 
-    Get-SiteMailboxProvisioningPolicy | Format-List
+```powershell
+Get-SiteMailboxProvisioningPolicy | Format-List
+```
 
 In questo esempio vengono restituiti tutti i criteri dell'organizzazione, ma viene visualizzata esclusivamente l'informazione `IsDefault` che identifica il criterio predefinito.
 
-    Get-SiteMailboxProvisioningPolicy | Format-List IsDefault
+```powershell
+Get-SiteMailboxProvisioningPolicy | Format-List IsDefault
+```
 
 ## Modifica del criterio di provisioning di una cassetta postale del sito
 
 Con questo esempio viene modificato il criterio di provisioning delle cassette postali denominato Default per impostare su 25 MB la dimensione massima di messaggi di posta elettronica che possono essere ricevuti dalla cassetta postale del sito. (quando si installa Exchange, viene creato un criterio di provisioning denominato **Default**).
 
-    Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
+```powershell
+Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
+```
 
 Con questo esempio vengono modificate la quota di avviso in 9,5 GB e la quota di invio e ricezione non consentiti in 10 GB.
 
@@ -103,7 +109,9 @@ In questo esempio viene modificato il criterio di provisioning e viene impostato
 
 In questo esempio viene eliminato il criterio di provisioning predefinito della cassetta postale creato durante l'installazione di Exchange.
 
-    Remove-SiteMailboxProvisioningPolicy -Identity Default
+```powershell
+Remove-SiteMailboxProvisioningPolicy -Identity Default
+```
 
 
 > [!IMPORTANT]

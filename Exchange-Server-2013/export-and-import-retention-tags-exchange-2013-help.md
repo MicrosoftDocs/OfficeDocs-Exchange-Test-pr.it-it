@@ -63,7 +63,9 @@ Per altre attività di gestione relative a Gestione record di messaggistica, ved
 
 1.  Eseguire questo comando Exchange Management Shell per passare alla sottodirectory **script** nel percorso di installazione Exchange directory.
     
-        Cd $Env:ExchangeInstallPath\Scripts
+    ```powershell
+Cd $Env:ExchangeInstallPath\Scripts
+```
 
 2.  Eseguire lo script Export-RetentionTags.ps1 per esportare i tag di conservazione in un file .xml.
     
@@ -72,7 +74,9 @@ Per altre attività di gestione relative a Gestione record di messaggistica, ved
     > Se l'importazione o esportazione dei tag di conservazione e criteri di conservazione in Exchange Online, devi collegare la sessione Windows PowerShell per Exchange Online. Per ulteriori informazioni, vedere <A href="https://technet.microsoft.com/it-it/library/jj984289(v=exchg.150)">Connessione a Exchange Online tramite Remote PowerShell</A>.
 
     
-        .\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```powershell
+.\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -86,7 +90,9 @@ Per verificare di aver esportato correttamente i tag e criteri di conservazione,
 
 1.  Eseguire questo comando Exchange Management Shell per passare alla directory sottodirectory **script** nel percorso di installazione Exchange.
     
-        Cd $Env:ExchangeInstallPath\Scripts
+    ```powershell
+Cd $Env:ExchangeInstallPath\Scripts
+```
 
 2.  Eseguire lo script Import-RetentionTags.ps1 per importare i tag di conservazione precedentemente esportati in un file XML.
     
@@ -100,7 +106,9 @@ Per verificare di aver esportato correttamente i tag e criteri di conservazione,
     > Quando si esegue questo script su Exchange Online, è possibile che venga chiesto di confermare che si desidera eseguire il software da un editore attendibile. Verificare che il nome del server di pubblicazione viene visualizzato come <CODE>CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</CODE>e quindi fare clic su <STRONG>R</STRONG> per consentire lo script essere eseguito una volta o <STRONG>A</STRONG> eseguire sempre.
 
     
-        .\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```powershell
+.\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

@@ -55,7 +55,9 @@ Per informazioni sulle altre attività di gestione correlate alle copie del data
 
 2.  Se per il database è abilitata la registrazione circolare, disabilitarla prima di procedere. Per disabilitare la registrazione circolare per un database di cassette postali, utilizzare il cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb123971\(v=exchg.150\)), come mostrato in questo esempio.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+```
 
 3.  Rimuovere tutte le copie del database di cassette postali per il database da spostare. Per la procedura dettagliata, vedere [Rimuovere una copia del database delle cassette postali](remove-a-mailbox-database-copy-exchange-2013-help.md). Dopo aver rimosso tutte le copie, conservare i file di registro e database da ogni server da cui la copia del database viene rimossa e spostata in un altro percorso. Questi file sono conservati in modo che le copie del database non necessitino del reseeding dopo che sono state riaggiunte.
 
@@ -80,11 +82,15 @@ Per informazioni sulle altre attività di gestione correlate alle copie del data
 
 9.  Facoltativamente, è possibile abilitare la registrazione circolare utilizzando il cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb123971\(v=exchg.150\)), come mostrato in questo esempio.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+```
 
 10. Riconfigurare eventuali valori definiti in precedenza per l'intervallo di riesecuzione e e di troncamento usando il cmdlet [Set-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd298104\(v=exchg.150\)), come mostrato in questo esempio.
     
-        Set-MailboxDatabaseCopy DB1\MBX2 -ReplayLagTime 00:15:00
+    ```powershell
+Set-MailboxDatabaseCopy DB1\MBX2 -ReplayLagTime 00:15:00
+```
 
 11. Mentre le copie vengono aggiunte, si consiglia di verificare l'integrità e lo stato di ogni singola copia prima di procedere con la successiva. È possibile verificare l'integrità e lo stato nei seguenti modi:
     
@@ -114,7 +120,9 @@ Per verificare che il percorso della copia del database delle cassette postali s
 
   - In Shell eseguire il comando riportato di seguito per verificare che la copia del database delle cassette postali sia stata creata e che sia integra.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+```
     
     I campi Stato e Stato indice contenuto devono essere entrambi integri.
 

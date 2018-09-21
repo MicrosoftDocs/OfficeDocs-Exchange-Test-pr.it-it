@@ -55,7 +55,9 @@ Per impostazione predefinita, quando si installa un server Cassette postali di E
 
 In questo esempio viene utilizzato il comando setup.exe per installare il Language Pack di messaggistica unificata per il giapponese (ja-JP).
 
-    setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```powershell
+setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 ## Passaggio 2: Spostare i messaggi di saluto, annunci, istruzioni di menu personalizzati di Exchange 2007 nella cassetta postale di sistema di Exchange 2013.
 
@@ -65,11 +67,15 @@ Per impostazione predefinita, le cassette postali di sistema non sono visibili n
 
 In questo esempio viene visualizzato un elenco di tutti le cassette postali di sistema.
 
-    Get-Mailbox -Arbitration
+```powershell
+Get-Mailbox -Arbitration
+```
 
 Con questo comando viene visualizzato un elenco di cassette postali di sistema e le relative singole proprietà o impostazioni.
 
-    Get-Mailbox -Arbitration |fl
+```powershell
+Get-Mailbox -Arbitration |fl
+```
 
 Quando si stanno importando messaggi di saluto, annunci e istruzioni del menu personalizzati da Exchange 2007 su Exchange 2013, è necessario utilizzare lo script MigrateUMCustomPrompts.ps1. Non è possibile utilizzare l'interfaccia di amministrazione di Exchange per importare i saluti, gli annunci e le istruzioni di menu personalizzati. Lo script MigrateUMCustomPrompts.ps1 migra una copia di tutti i saluti, gli annunci e le istruzioni di menu personalizzati della messaggistica unificata di Exchange Server 2007 sulla messaggistica unificata di Exchange 2013. Per impostazione predefinita, lo script MigrateUMCustomPrompts.ps1 si trova nella cartella *\<Program Files\>*\\Microsoft\\Exchange Server\\V15\\Scripts in un server Cassette postali di Exchange 2013 ed è necessario eseguirlo da un server Cassette postali di Exchange 2013. Per eseguire lo script:
 
@@ -182,7 +188,9 @@ Configurare la modalità di avvio di messaggistica unificata in un server Access
 
 Configurare la modalità di avvio di messaggistica unificata su un server Accesso client di Exchange 2013 tramite l'esecuzione del seguente comando in Shell.
 
-    Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```
 
 ## Passaggio 5: Configurare la modalità di avvio di messaggistica unificata su tutti i server Cassette postali di Exchange 2013
 
@@ -242,7 +250,9 @@ Se necessario, è possibile creare un dial plan di messaggistica unificata utili
 
 Se necessario, è possibile creare un dial plan di messaggistica unificata tramite l'esecuzione del seguente comando in Shell.
 
-    New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```powershell
+New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```
 
 Se necessario, è possibile configurare un dial plan di messaggistica unificata esistente utilizzando l'interfaccia di amministrazione di Exchange:
 
@@ -286,7 +296,9 @@ Se necessario, è possibile creare un gateway IP di messaggistica unificata util
 
 Se necessario, è possibile creare un gateway IP di messaggistica unificata eseguendo il seguente comando in Shell.
 
-    New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```powershell
+New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```
 
 Se necessario, è possibile configurare un gateway IP di messaggistica unificata esistente utilizzando l'interfaccia di amministrazione di Exchange:
 
@@ -400,7 +412,9 @@ Se necessario, è possibile creare un criterio cassetta postale di messaggistica
 
 Se necessario, è possibile creare un criterio cassetta postale di messaggistica unificata in Shell eseguendo il comando seguente.
 
-    New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```powershell
+New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```
 
 Se necessario, è possibile configurare un criterio cassetta postale di messaggistica unificata esistente utilizzando l'interfaccia di amministrazione di Exchange:
 
@@ -438,7 +452,9 @@ Per spostare una cassetta postale di Exchange 2007 a un server Cassette postali 
 
 Per spostare una cassetta postale di Exchange 2007 a un server Cassette postali di Exchange 2013 utilizzando la Shell, eseguire il seguente comando.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```
 
 ## Passaggio 12: Abilitare i nuovi utenti per la messaggistica unificata o configurare le impostazioni per un utente abilitato alla messaggistica unificata esistente
 
@@ -544,7 +560,9 @@ Per disabilitare la messaggistica unificata in un server di messaggistica unific
 
 Per disabilitare la messaggistica unificata in un server di messaggistica unificata di Exchange 2007 utilizzando Shell, eseguire il seguente comando.
 
-    Disable-UMServer -Identity MyUMServer -Immediate $true
+```powershell
+Disable-UMServer -Identity MyUMServer -Immediate $true
+```
 
 
 > [!TIP]
@@ -579,11 +597,15 @@ Per rimuovere un server di messaggistica unificata di Exchange 2007 da un dial p
 
 In questo esempio vengono mostrati tre dial plan di URI SIP: SipDP1, SipDP2 e SipDP3. Con questo esempio viene rimosso il server di messaggistica unificata denominato `MyUMServer` dal dial plan denominato SipDP3.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```
 
 In questo esempio vengono mostrati due dial plan di URI SIP: SipDP1 e SipDP2. Con questo esempio viene rimosso un server di messaggistica unificata denominato `MyUMServer` dal dial plan denominato SipDP2.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1
+```
 
 
 > [!TIP]

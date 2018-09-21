@@ -128,7 +128,9 @@ Per verificare la corretta creazione della cassetta postale collegata, effettuar
 
   - In Shell, eseguire il seguente comando per visualizzare le informazioni relative alla nuova cassetta postale collegata.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+```
 
 ## Modifica delle proprietà della cassetta postale collegata
 
@@ -398,5 +400,7 @@ Per verificare di aver correttamente modificato le proprietà per una cassetta p
     
     Nell'esempio precedente, in cui è stato modificato l'account master collegato, eseguire questo comando per verificare il nuovo valore.
     
-        Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```powershell
+Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+```
 

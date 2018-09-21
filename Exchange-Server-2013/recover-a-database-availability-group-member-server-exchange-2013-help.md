@@ -55,11 +55,15 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 
 2.  Rimuovere eventuali copie del database delle cassette postali esistenti sul server in fase di ripristino per mezzo del cmdlet [Remove-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd335119\(v=exchg.150\)):
     
-        Remove-MailboxDatabaseCopy DB1\MBX1
+    ```powershell
+Remove-MailboxDatabaseCopy DB1\MBX1
+```
 
 3.  Rimuovere la configurazione del server dal gruppo di disponibilità del database utilizzando il cmdlet [Remove-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/it-it/library/dd297956\(v=exchg.150\)):
     
-        Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
     
 
     > [!NOTE]
@@ -71,11 +75,15 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 
 5.  Aprire una finestra del prompt dei comandi. Utilizzando il supporto di installazione originale, eseguire il comando riportato di seguito:
     
-        Setup /m:RecoverServer
+    ```powershell
+Setup /m:RecoverServer
+```
 
 6.  Al termine del processo di ripristino, aggiungere il server ripristinato al gruppo di disponibilità del database utilizzando il cmdlet [Add-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/it-it/library/dd298049\(v=exchg.150\)):
     
-        Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```powershell
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 7.  Dopo aver aggiunto il server al gruppo di disponibilità del database, è possibile riconfigurare le copie del database delle cassette postali utilizzando il cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd298105\(v=exchg.150\)). Se una delle copie del database aggiunte in precedenza presenta un intervallo di riesecuzione o troncamento superiore a 0, è possibile utilizzare i parametri *ReplayLagTime* e *TruncationLagTime* del cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd298105\(v=exchg.150\)) per riconfigurare tali impostazioni:
     
@@ -90,10 +98,14 @@ Per verificare che è stato ripristinato il membro DAG, eseguire le operazioni s
   - Nella Shell, eseguire il comando seguente per verificare l'integrità e lo stato del membro DAG ripristinato.
 
        ```
-        Test-ReplicationHealth <ServerName>
+    ```powershell
+Test-ReplicationHealth <ServerName>
+```
        ```
        ```
-        Get-MailboxDatabaseCopyStatus -Server <ServerName>
+    ```powershell
+Get-MailboxDatabaseCopyStatus -Server <ServerName>
+```
        ```
 
     Tutti i test dello stato di replica deve hanno esito positivo e lo stato dei database e dei relativi indici contenuti deve essere integro.

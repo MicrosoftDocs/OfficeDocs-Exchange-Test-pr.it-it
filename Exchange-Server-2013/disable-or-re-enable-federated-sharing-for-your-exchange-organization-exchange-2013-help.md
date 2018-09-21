@@ -49,11 +49,15 @@ Per informazioni sulle altre attività di gestione relative alla condivisione fe
 
 In questo esempio vengono disabilitati l'OrgID, la federazione e la condivisione federata per l'organizzazione di Exchange.
 
-    Set-FederatedOrganizationIdentifier -Enabled $false
+```powershell
+Set-FederatedOrganizationIdentifier -Enabled $false
+```
 
 In questo esempio viene abilitato l'OrgID e abilitate nuovamente la federazione e la condivisione federata per l'organizzazione di Exchange.
 
-    Set-FederatedOrganizationIdentifier -Enabled $true
+```powershell
+Set-FederatedOrganizationIdentifier -Enabled $true
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-FederatedOrganizationIdentifier](https://technet.microsoft.com/it-it/library/dd351037\(v=exchg.150\)).
 
@@ -63,7 +67,9 @@ Il corretto completamento del cmdlet **Set-OrganizationIdentifier** sarà il pri
 
 Per un ulteriore verifica, eseguire il comando della shell riportato di seguito e verificare il valore restituito per il parametro *Enabled*
 
-    Get-FederatedOrganizationIdentifier
+```powershell
+Get-FederatedOrganizationIdentifier
+```
 
 
 > [!TIP]

@@ -47,7 +47,9 @@ Gli utenti le cui cassette postali si trovano in Exchange Server 2013 o Exchange
     
     Per Exchange 2007, utilizzare il seguente comando:
     
-        New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+    ```powershell
+New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+```
     
 
     > [!NOTE]
@@ -60,12 +62,16 @@ Gli utenti le cui cassette postali si trovano in Exchange Server 2013 o Exchange
     New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
     ```
     ```
-    Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+```powershell
+Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+```
     ```
 
 4.  Per Exchange 2010, abilitare Individuazione automatica per la restituzione delle cassette postali delle cartelle pubbliche proxy. Questo passaggio non è necessario per Exchange 2007.
     
-        Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```powershell
+Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+```
 
 5.  Ripetere la procedura precedente per ogni server di cartelle pubbliche dell'organizzazione.
 

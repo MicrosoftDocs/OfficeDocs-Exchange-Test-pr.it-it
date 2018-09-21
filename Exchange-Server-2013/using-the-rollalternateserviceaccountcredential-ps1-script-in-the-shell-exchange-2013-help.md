@@ -265,5 +265,7 @@ In questo esempio viene illustrato come è possibile utilizzare lo script per di
 
 È necessario aggiornare le credenziali ASA prima che il server Accesso Client riceve il traffico. Copiare la credenziale ASA condivisa da qualsiasi server Accesso Client è già stato configurato correttamente. Ad esempio, se un Server attualmente è una credenziale ASA lavorative e Server B appena aggiunta nella matrice, è possibile utilizzare lo script per copiare la credenziale (compresa la password) dal Server al Server B. Ciò è utile se il Server B è stato premuto o non è ancora un membro della matrice quando la password è stato eseguito il rollback l'ultima volta.
 
-    .\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
+```powershell
+.\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
+```
 

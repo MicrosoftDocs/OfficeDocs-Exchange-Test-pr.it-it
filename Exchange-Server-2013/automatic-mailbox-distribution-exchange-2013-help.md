@@ -59,7 +59,9 @@ Il parametro *IsExcludedFromProvisioning* ha due valori validi, `$True` e `$Fals
 
 Per escludere un database delle cassette postali dalla distribuzione automatica, utilizzare il comando seguente:
 
-    Set-MailboxDatabase <database name> -IsExcludedFromProvisioning $True
+```powershell
+Set-MailboxDatabase <database name> -IsExcludedFromProvisioning $True
+```
 
 Quando un database delle cassette postali viene escluso dalla distribuzione automatica, è possibile creare o spostare una cassetta postale in tale database esclusivamente utilizzando il parametro *Database* con i cmdlet **New-Mailbox** ed **Enable-Mailbox** oppure il parametro *TargetDatabase* con il cmdlet **New-MoveRequest**.
 

@@ -94,7 +94,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti 
 
 Con questo esempio l'account a livello di organizzazione viene impostato sull'oggetto di configurazione della disponibilità per configurare il livello di accesso alle informazioni sulla disponibilità nella foresta di destinazione.
 
-    Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```powershell
+Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```
 
 Con questo esempio viene aggiunto l'oggetto di configurazione dello spazio di indirizzi Disponibilità per la foresta di origine.
 

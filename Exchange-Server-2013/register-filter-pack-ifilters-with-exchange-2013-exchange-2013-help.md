@@ -77,7 +77,9 @@ La distribuzione di Office 2010 Filter Pack consiste in due passaggi principali:
 
 3.  Avviare Editor del Registro di sistema e individuare la seguente sottochiave del registro:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+    ```powershell
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+```
 
 4.  Sotto **CLSID**, aggiungere una sottochiave per i file OneNote, come indicato di seguito:
     
@@ -105,7 +107,9 @@ La distribuzione di Office 2010 Filter Pack consiste in due passaggi principali:
 
 6.  Individuare la seguente chiave del Registro di sistema:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+    ```powershell
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+```
 
 7.  Sotto **filtri**, aggiungere una sottochiave per le estensioni .one, come indicato di seguito.
     
@@ -177,7 +181,9 @@ Questa procedura viene illustrato come distribuire [Adobe PDF IFilter](https://w
 
 2.  Avviare Editor del Registro di sistema e individuare la seguente sottochiave:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+    ```powershell
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+```
 
 3.  Sotto **CLSID**, aggiungere una sottochiave per i file PDF, come indicato di seguito:
     
@@ -194,7 +200,9 @@ Questa procedura viene illustrato come distribuire [Adobe PDF IFilter](https://w
 
 4.  Individuare la seguente chiave del Registro di sistema:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+    ```powershell
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+```
 
 5.  Sotto **filtri**, aggiungere una sottochiave per le estensioni. pdf, come indicato di seguito:
     

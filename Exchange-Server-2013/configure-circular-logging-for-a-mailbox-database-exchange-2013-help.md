@@ -49,11 +49,15 @@ Per ulteriori informazioni sulla registrazione circolare e su CRCL, vedere [Exch
 
 In questo esempio viene attivata la registrazione circolare del database DB1.
 
-    Set-MailboxDatabase DB1 -CircularLoggingEnabled $True
+```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $True
+```
 
 In questo esempio viene disattivata la registrazione circolare del database DB1.
 
-    Set-MailboxDatabase DB1 -CircularLoggingEnabled $False
+```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $False
+```
 
 Consultare [Set-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb123971\(v=exchg.150\)) per visualizzare altri parametri del database di cassette postali che è possibile configurare.
 

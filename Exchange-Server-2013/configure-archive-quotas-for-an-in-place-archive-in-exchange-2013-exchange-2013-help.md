@@ -61,7 +61,9 @@ Per ulteriori informazioni sugli archivi locali, vedere [Archiviazione sul posto
 
 Con questo esempio la quota di archiviazione della cassetta postale di Chris Ashton viene impostata sul valore di 10 GB, raggiunto il quale l'utente riceverà un messaggio di avviso che indica che l'archivio locale è pieno e che non sarà più possibile trasferire messaggi nell'archivio. Con questo esempio, inoltre, la quota di avviso di archiviazione viene impostata sul valore di 9,5 GB, raggiunto il quale l'utente riceverà un messaggio di avviso che indica che l'archivio locale è quasi pieno.
 
-    Set-Mailbox -Identity "Chris Ashton" -ArchiveQuota 10GB -ArchiveWarningQuota 9.5GB
+```powershell
+Set-Mailbox -Identity "Chris Ashton" -ArchiveQuota 10GB -ArchiveWarningQuota 9.5GB
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 

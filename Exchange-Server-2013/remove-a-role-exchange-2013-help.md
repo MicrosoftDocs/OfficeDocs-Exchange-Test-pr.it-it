@@ -45,11 +45,15 @@ Per informazioni sulle altre attività di gestione relative ai ruoli, vedere [Au
 
 Per rimuovere un ruolo senza ruoli figlio, utilizzare la seguente sintassi.
 
-    Remove-ManagementRole <role name>
+```powershell
+Remove-ManagementRole <role name>
+```
 
 In questo esempio viene rimosso il ruolo di amministratore del server di Seattle.
 
-    Remove-ManagementRole "Seattle Server Administrators"
+```powershell
+Remove-ManagementRole "Seattle Server Administrators"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-ManagementRole](https://technet.microsoft.com/it-it/library/dd351170\(v=exchg.150\)).
 
@@ -65,13 +69,17 @@ Se a un ruolo che si desidera rimuovere sono associati dei ruoli figlio, è nece
 
 Per avere la certezza che saranno rimossi soltanto i ruoli che si desidera effettivamente eliminare, assieme al comando utilizzare l'opzione *WhatIf*, in modo da verificare che l'operazione determini il risultato desiderato. Utilizzare la seguente sintassi.
 
-    Remove-ManagementRole <role name> -Recurse -WhatIf
+```powershell
+Remove-ManagementRole <role name> -Recurse -WhatIf
+```
 
 L'opzione *WhatIf* esegue il comando senza che avvengano modifiche e consente di visualizzare le informazioni sui ruoli che verrebbero rimossi. Per ulteriori informazioni sull'opzione *WhatIf*, vedere [Opzioni WhatIf, Confirm e ValidateOnly](whatif-confirm-and-validateonly-switches-exchange-2013-help.md).
 
 Appurato che saranno rimossi solo i ruoli desiderati, eseguire lo stesso comando senza l'opzione *WhatIf*. In questo esempio viene rimosso il ruolo di amministratore di Londra e tutti i relativi ruoli figlio.
 
-    Remove-ManagementRole "London Administrators" -Recurse
+```powershell
+Remove-ManagementRole "London Administrators" -Recurse
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-ManagementRole](https://technet.microsoft.com/it-it/library/dd351170\(v=exchg.150\)).
 
@@ -79,7 +87,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-Mana
 
 Per rimuovere un ruolo senza ambito, è possibile utilizzare le procedure descritte precedentemente in Remove a management role with no child roles e Remove a management role with child roles. L'unica differenza è che, per rimuovere un ruolo senza ambito, quando si esegue il comando è necessario specificare l'opzione *UnScopedTopLevel*. In questo esempio viene rimosso un ruolo senza ambito con tutti i relativi ruoli figlio.
 
-    Remove-ManagementRole "Custom IT Scripts" -Recurse -UnScopedTopLevel
+```powershell
+Remove-ManagementRole "Custom IT Scripts" -Recurse -UnScopedTopLevel
+```
 
 Così come con gli altri ruoli, utilizzando l'opzione *WhatIf* sarà possibile verificare di rimuovere i ruoli corretti.
 

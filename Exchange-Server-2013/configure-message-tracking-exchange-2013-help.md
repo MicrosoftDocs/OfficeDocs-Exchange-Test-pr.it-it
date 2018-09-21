@@ -87,11 +87,15 @@ In questo esempio vengono configurate le seguenti impostazioni del registro di v
 
 In questo esempio viene disabilitata la registrazione dell'oggetto del messaggio nel registro di verifica dei messaggi sul server Cassette postali Mailbox01:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```
 
 In questo esempio viene disabilitata la verifica dei messaggi sul server Cassette postali Mailbox01.
 
-    Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

@@ -57,11 +57,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 È possibile visualizzare i dettagli di un'assegnazione di ruolo eseguendo il piping dei risultati del cmdlet **Get-ManagementRoleAssignment** al cmdlet **Format-List**. Utilizzare la seguente sintassi.
 
-    Get-ManagementRoleAssignment <assignment name> | Format-List
+```powershell
+Get-ManagementRoleAssignment <assignment name> | Format-List
+```
 
 In questo esempio vengono recuperati i dettagli dell'assegnazione di ruolo Help Desk Assignment.
 
-    Get-ManagementRoleAssignment "Help Desk Assignment" | Format-List
+```powershell
+Get-ManagementRoleAssignment "Help Desk Assignment" | Format-List
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)).
 
@@ -69,11 +73,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per visualizzare un elenco delle assegnazioni di ruolo associate a un gruppo del ruolo di gestione, un ruolo o un criterio di assegnazione dei ruoli o associate a un utente o un gruppo di protezione universale, utilizzare la seguente sintassi.
 
-    Get-ManagementRoleAssignment -RoleAssignee <role assignee name>
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee <role assignee name>
+```
 
 In questo esempio vengono recuperate tutte le assegnazioni di ruolo associate al gruppo di ruolo Server Management.
 
-    Get-ManagementRoleAssignment -RoleAssignee "Server Management"
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee "Server Management"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)).
 
@@ -83,11 +91,15 @@ Per ogni ruolo possono esistere più assegnazioni di ruolo. È possibile utilizz
 
 Per visualizzare un elenco delle assegnazioni di ruolo associate a uno specifico ruolo, utilizzare la seguente sintassi.
 
-    Get-ManagementRoleAssignment -Role <role name>
+```powershell
+Get-ManagementRoleAssignment -Role <role name>
+```
 
 In questo esempio vengono recuperate tutte le assegnazioni di ruolo associate al ruolo Mail Recipients.
 
-    Get-ManagementRoleAssignment -Role "Mail Recipients"
+```powershell
+Get-ManagementRoleAssignment -Role "Mail Recipients"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)).
 
@@ -99,7 +111,9 @@ Per visualizzare un elenco delle assegnazioni di ruolo che utilizzano uno specif
 
 In questo esempio vengono recuperate tutte le assegnazioni di ruolo che utilizzano l'ambito predefinito Organization.
 
-    Get-ManagementRoleAssignment -RecipientWriteScope Organization
+```powershell
+Get-ManagementRoleAssignment -RecipientWriteScope Organization
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)).
 
@@ -107,7 +121,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per visualizzare un elenco delle assegnazioni di ruolo inserite nell'ambito di una specifica unità organizzativa, utilizzare la seguente sintassi.
 
-    Get-ManagementRoleAssignment -RecipientOrganizationalUnitScope <OU>
+```powershell
+Get-ManagementRoleAssignment -RecipientOrganizationalUnitScope <OU>
+```
 
 In questo esempio vengono recuperate tutte le assegnazioni di ruolo inserite nell'ambito dell'unità organizzativa North America\\Engineering\\Users nel dominio contoso.com.
 
@@ -131,11 +147,15 @@ La sintassi per ogni parametro è lo stessa. Specificare il nome dell'ambito con
 
 In questo esempio vengono recuperate tutte le assegnazioni di ruolo che utilizzano l'ambito dei destinatari Vancouver Recipients.
 
-    Get-ManagementRoleAssignment -CustomRecipientWriteScope "Vancouver Recipients"
+```powershell
+Get-ManagementRoleAssignment -CustomRecipientWriteScope "Vancouver Recipients"
+```
 
 In questo esempio vengono recuperate tutte le assegnazioni di ruolo che utilizzano l'ambito esclusivo di configurazione Seattle AD Site.
 
-    Get-ManagementRoleAssignment -ExclusiveConfigWriteScope "Seattle AD Site"
+```powershell
+Get-ManagementRoleAssignment -ExclusiveConfigWriteScope "Seattle AD Site"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)).
 
@@ -143,15 +163,21 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per visualizzare un elenco delle assegnazioni di ruolo esclusive o regolari, utilizzare la seguente sintassi.
 
-    Get-ManagementRoleAssignment -Exclusive < $True | $False >
+```powershell
+Get-ManagementRoleAssignment -Exclusive < $True | $False >
+```
 
 Ad esempio, per visualizzare un elenco degli ambiti esclusivi, eseguire il seguente comando:
 
-    Get-ManagementRoleAssignment -Exclusive $True
+```powershell
+Get-ManagementRoleAssignment -Exclusive $True
+```
 
 In questo esempio viene recuperato un elenco di ambiti regolari senza alcun ambito esclusivo.
 
-    Get-ManagementRoleAssignment -Exclusive $False
+```powershell
+Get-ManagementRoleAssignment -Exclusive $False
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)).
 
@@ -161,7 +187,9 @@ Per visualizzare un elenco delle assegnazioni di ruolo che possono modificare un
 
 In questo esempio viene recuperato un elenco delle assegnazioni di ruolo che possono modificare il destinatario Brian.
 
-    Get-ManagementRoleAssignment -WritableRecipient "Brian"
+```powershell
+Get-ManagementRoleAssignment -WritableRecipient "Brian"
+```
 
 I parametri *WritableRecipient* e *WritableServer* possono essere combinati con altri parametri, come il parametro *RoleAssignee* e l'opzione *GetEffectiveUsers* per rifinire la query ed espandere i gruppi di ruolo o i gruppi di protezione universale. In questo esempio vengono recuperati tutti gli utenti che possono modificare il server EX02 e a cui viene assegnato il gruppo di ruolo Server Management.
 
@@ -173,11 +201,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per visualizzare un elenco degli utenti che ricevono le autorizzazioni da un'assegnazione di ruolo, utilizzare la seguente sintassi.
 
-    Get-ManagementRoleAssignment <assignment name> -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment <assignment name> -GetEffectiveUsers
+```
 
 In questo esempio, viene recuperato un elenco degli utenti per l'assegnazione di ruolo Help Desk Assignment.
 
-    Get-ManagementRoleAssignment "Help Desk Assignment" -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment "Help Desk Assignment" -GetEffectiveUsers
+```
 
 Anche l'opzione *GetEffectiveUsers* può essere combinata con altri parametri del cmdlet **Get-ManagementRoleAssignment** per espandere i gruppi di ruolo e i gruppi di protezione universale a cui vengono associate le assegnazioni di ruolo. Per un esempio di come l'opzione *GetEffectiveUsers* venga utilizzata con altri parametri, vedere "Visualizzazione degli utenti che possono modificare un destinatario o un server specifico" di questo argomento.
 
@@ -187,11 +219,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per visualizzare un elenco delle assegnazioni di ruolo abilitate o disabilitate, utilizzare la seguente sintassi.
 
-    Get-ManagementRoleAssignment -Enabled < $True | $False >
+```powershell
+Get-ManagementRoleAssignment -Enabled < $True | $False >
+```
 
 In questo esempio viene recuperato un elenco delle assegnazioni di ruolo disabilitate.
 
-    Get-ManagementRoleAssignment -Enabled $False
+```powershell
+Get-ManagementRoleAssignment -Enabled $False
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)).
 

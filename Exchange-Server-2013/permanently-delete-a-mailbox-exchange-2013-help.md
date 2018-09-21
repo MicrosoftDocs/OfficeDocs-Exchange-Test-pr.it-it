@@ -59,7 +59,9 @@ Per ulteriori informazioni sulle cassette postali disconnesse e per eseguire alt
 
 Eseguire il comando seguente per eliminare definitivamente una cassetta postale attiva e l'account utente Active Directory associato.
 
-    Remove-Mailbox -Identity <identity> -Permanent $true
+```powershell
+Remove-Mailbox -Identity <identity> -Permanent $true
+```
 
 
 > [!NOTE]
@@ -79,7 +81,9 @@ Per verificare la corretta eliminazione definitiva di una cassetta postale attiv
 
 3.  Eseguire il comando riportato di seguito per verificare che la cassetta postale sia stata eliminata correttamente dal database delle cassette postali di Exchange.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+    ```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+```
     
     Se la cassetta postale è stata eliminata correttamente, il comando non restituirà alcun risultato. Se la cassetta postale non è stata eliminata, il comando restituirà le informazioni relative alla cassetta postale.
 
@@ -111,7 +115,9 @@ In questo esempio viene eliminata permanentemente la cassetta postale disabilita
 
 Con questo esempio viene eliminata permanentemente la cassetta postale con eliminazione reversibile di Dan Jump dal database delle cassette postali MBD01.
 
-    Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```powershell
+Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```
 
 In questo esempio vengono eliminate permanentemente tutte le cassette postali con eliminazione reversibile dal database delle cassette postali MBD01.
 
@@ -123,7 +129,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-Stor
 
 Per verificare la corretta eliminazione definitiva di una cassetta postale disconnessa dal database delle cassette postali di Exchange, eseguire il comando seguente.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {     Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+```
 
 Se la cassetta postale è stata eliminata correttamente, il comando non restituirà alcun risultato. Se la cassetta postale non è stata eliminata, il comando restituirà le informazioni relative alla cassetta postale.
 

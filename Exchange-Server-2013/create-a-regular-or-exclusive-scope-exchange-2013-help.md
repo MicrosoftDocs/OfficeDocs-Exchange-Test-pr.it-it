@@ -87,7 +87,9 @@ Per ulteriori informazioni sui filtri dell'ambito di gestione e per un elenco de
 
 Utilizzare la sintassi seguente per creare un ambito del filtro server.
 
-    New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
+```
 
 In questo esempio viene creato un ambito che include tutti i server all'interno del sito AD 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' (Active Directory).
 
@@ -101,11 +103,15 @@ Gli ambiti di configurazione basati sugli elenchi di server vengono creati utili
 
 Utilizzare la sintassi seguente per creare un ambito basato su un elenco di server.
 
-    New-ManagementScope -Name <scope name> -ServerList <server 1>, <server 2...>
+```powershell
+New-ManagementScope -Name <scope name> -ServerList <server 1>, <server 2...>
+```
 
 Con questo esempio viene creato un ambito applicato solo a MBX1, MBX3 e MBX5.
 
-    New-ManagementScope -Name "Mailbox servers" -ServerList MBX1,MBX3,MBX5
+```powershell
+New-ManagementScope -Name "Mailbox servers" -ServerList MBX1,MBX3,MBX5
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementScope](https://technet.microsoft.com/it-it/library/dd335137\(v=exchg.150\)).
 
@@ -123,7 +129,9 @@ Per ulteriori informazioni sui filtri dell'ambito di gestione e per ottenere un 
 
 Utilizzare la sintassi seguente per creare un filtro delle restrizioni del database.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 In questo esempio viene creato un ambito che include tutti i database contenenti la stringa "Executive" nella proprietà **Name** del database.
 
@@ -143,11 +151,15 @@ Gli ambiti di configurazione basati su elenchi di database vengono creati utiliz
 
 Utilizzare la sintassi seguente per creare un ambito basato su un elenco di database.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 In questo esempio viene creato un ambito che si applica unicamente ai database Database 1, Database 2 e Database 3.
 
-    New-ManagementScope -Name "Primary databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```powershell
+New-ManagementScope -Name "Primary databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementScope](https://technet.microsoft.com/it-it/library/dd335137\(v=exchg.150\)).
 

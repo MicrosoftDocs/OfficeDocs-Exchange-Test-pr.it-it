@@ -45,11 +45,15 @@ Quando è abilitata su un server di Exchange, la funzionalità del filtro mitten
 
 Per abilitare il filtro mittenti, eseguire il seguente comando:
 
-    Set-SenderFilterConfig -Enabled $false
+```powershell
+Set-SenderFilterConfig -Enabled $false
+```
 
 Per abilitare il filtro mittente, eseguire il seguente comando:
 
-    Set-SenderFilterConfig -Enabled $true
+```powershell
+Set-SenderFilterConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -63,7 +67,9 @@ Per verificare la corretta abilitazione o disabilitazione del filtro mittente, a
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderFilterConfig | Format-List Enabled
+    ```powershell
+Get-SenderFilterConfig | Format-List Enabled
+```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 
@@ -99,7 +105,9 @@ Per verificare la corretta configurazione dei mittenti bloccati, procedere come 
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+    ```powershell
+Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+```
 
 2.  Verificare che i valori visualizzati siano quelli configurati.
 
@@ -107,11 +115,15 @@ Per verificare la corretta configurazione dei mittenti bloccati, procedere come 
 
 Per abilitare o disabilitare il blocco dei messaggi con mittenti vuoti, eseguire il seguente comando:
 
-    Set-SenderFilterConfig -BlankSenderBlockingenabled <$true | $false>
+```powershell
+Set-SenderFilterConfig -BlankSenderBlockingenabled <$true | $false>
+```
 
 In questo esempio l'agente Filtro mittente viene configurato per bloccare i messaggi in cui non viene specificato un mittente nel comando SMTP MAIL FROM:
 
-    Set-SenderFilterConfig -BlankSenderBlockingEnabled $true
+```powershell
+Set-SenderFilterConfig -BlankSenderBlockingEnabled $true
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -119,7 +131,9 @@ Per verificare la corretta abilitazione o disabilitazione del blocco dei messagg
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+    ```powershell
+Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 

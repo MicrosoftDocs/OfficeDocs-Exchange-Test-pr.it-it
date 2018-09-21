@@ -93,7 +93,9 @@ La seguente procedura è necessaria per preparare l'organizzazione per la migraz
 
 4.  È necessario abilitare la funzionalità di migrazione **PAW** per il tenant di Office 365. Per verificare questo, eseguire il seguente comando in Exchange Online PowerShell:
     
-        Get-MigrationConfig
+    ```powershell
+Get-MigrationConfig
+```
     
     Se in **Funzionalità** viene elencato **PAW**, allora la funzionalità è abilitata ed è possibile continuare con *Passaggio 3: creazione del file .csv*.
     
@@ -109,7 +111,9 @@ Il file .csv contiene le seguenti colonne:
 
   - **TargetGroupMailbox**. Indirizzo SMTP del gruppo di destinazione in Office 365. È possibile eseguire il seguente comando per visualizzare l'indirizzo SMTP principale.
     
-        Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+    ```powershell
+Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+```
 
 File .csv di esempio:
 
@@ -136,7 +140,9 @@ In questo passaggio, raccogliere informazioni dall'ambiente di Exchange, quindi 
     
     2.  Utilizzare le informazioni sul server proxy MRS dall'ambiente di Exchange 2013 annotate nel passaggio 1 e passare tale valore nella variabile `$Source_RemoteServer`.
         
-            $Source_RemoteServer = "<MRS proxy endpoint>"
+        ```powershell
+$Source_RemoteServer = "<MRS proxy endpoint>"
+```
 
 3.  In Exchange Online PowerShell, per creare un endpoint di migrazione, eseguire il comando seguente:
     
@@ -158,7 +164,9 @@ In questo passaggio, raccogliere informazioni dall'ambiente di Exchange, quindi 
 
 5.  Avviare la migrazione utilizzando il comando seguente in Exchange Online PowerShell. Tenere presente che questo passaggio è necessario solo se il parametro `-AutoStart` non è stato utilizzato durante la creazione del batch sopra nel passaggio 4.
     
-        Start-MigrationBatch PublicFolderToGroupMigration
+    ```powershell
+Start-MigrationBatch PublicFolderToGroupMigration
+```
 
 Se le migrazioni batch devono essere create utilizzando il cmdlet `New-MigrationBatch` in Exchange Online PowerShell, l'avanzamento e il completamento della migrazione possono essere visualizzate e gestite in Interfaccia di amministrazione di Exchange. È inoltre possibile visualizzare l'avanzamento della migrazione eseguendo i cmdlet [Get-MigrationBatch](https://technet.microsoft.com/it-it/library/jj219164\(v=exchg.150\)) e [Get-MigrationUser](https://technet.microsoft.com/it-it/library/jj218702\(v=exchg.150\)). Il cmdlet `New-MigrationBatch` inizializza un utente di migrazione per ogni cassetta postale del gruppo di Office 365 ed è possibile visualizzare lo stato di queste richieste utilizzando la pagina di migrazione della cassetta postale.
 
@@ -220,7 +228,9 @@ Nel comando seguente:
 
 Dopo aver reso le cartelle pubbliche di sola lettura, è necessario ripetere la migrazione. Questa operazione è necessaria per una copia incrementale finale dei dati. Prima di poter eseguire la migrazione, sarà necessario rimuovere il batch esistente eseguendo il seguente comando:
 
-    Remove-MigrationBatch <name of migration batch>
+```powershell
+Remove-MigrationBatch <name of migration batch>
+```
 
 Successivamente, creare un nuovo batch con lo stesso file .csv eseguendo il seguente comando. In questo comando:
 
@@ -236,7 +246,9 @@ Successivamente, creare un nuovo batch con lo stesso file .csv eseguendo il segu
 
 Dopo aver creato il nuovo batch, avviare la migrazione utilizzando il comando seguente in Exchange Online PowerShell. Questo passaggio è necessario solo se il parametro `-AutoStart` non è stato utilizzato nel comando precedente.
 
-    Start-MigrationBatch PublicFolderToGroupMigration
+```powershell
+Start-MigrationBatch PublicFolderToGroupMigration
+```
 
 Dopo aver completato il passaggio (lo stato del batch è **Completato**), verificare che tutti i dati siano stati copiati nei gruppi di Office 365. A questo punto, se si è soddisfatti dell'esperienza con i gruppi, è possibile iniziare a eliminare le cartelle pubbliche migrate dall'ambiente di Exchange 2013.
 

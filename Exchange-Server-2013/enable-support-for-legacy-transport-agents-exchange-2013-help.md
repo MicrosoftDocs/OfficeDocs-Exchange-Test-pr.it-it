@@ -112,11 +112,15 @@ Utilizzare la seguente procedura per abilitare il supporto per gli agenti di tra
 
 1.  Nella finestra del prompt dei comandi, sul server di Exchange 2013 dove si desidera configurare il supporto dell'agente di trasporto legacy, aprire il file di configurazione dell'applicazione appropriato nel Blocco note utilizzando il comando seguente:
     
-        Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+```
     
     Ad esempio, per aprire il file EdgeTransport.exe.config su un server Cassette postali, utilizzare il comando seguente:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Posizionare la chiave *\</configuration\>* alla fine del file e incollare le chiavi seguenti prima della chiave *\</configuration\>*:
     

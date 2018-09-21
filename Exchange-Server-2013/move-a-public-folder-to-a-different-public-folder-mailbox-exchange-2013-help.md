@@ -89,7 +89,9 @@ In questo esempio viene utilizzato lo script `Move-PublicFolderBranch.ps1` per s
 
 Per verificare l'esito dello spostamento delle cartelle pubbliche, utilizzare il seguente comando:
 
-    Get-PublicFolderMoveRequest | Format-List Status
+```powershell
+Get-PublicFolderMoveRequest | Format-List Status
+```
 
 Lo stato `Completed` indica che la richiesta di spostamento ha avuto esito positivo.
 

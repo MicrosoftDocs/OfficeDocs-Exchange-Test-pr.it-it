@@ -91,7 +91,9 @@ Per altre attività di gestione relative alla federazione, vedere [Procedure di 
 
   - In questo esempio viene disabilitata la relazione organizzativa Contoso.
     
-        Set-OrganizationRelationship -Identity Contoso -Enabled $false
+    ```powershell
+Set-OrganizationRelationship -Identity Contoso -Enabled $false
+```
 
   - In questo esempio, viene abilitato l'accesso alle informazioni sulla disponibilità del calendario per la relazione organizzativa WoodgroveBank e viene impostato il livello di accesso a `AvailabilityOnly` (informazioni sulla disponibilità del calendario solo con l'ora).
     
@@ -103,7 +105,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Organiz
 
 Per verificare la corretta esecuzione dell'aggiornamento della relazione organizzativa, utilizzare il seguente comando Shell e verificare le informazioni sulla relazione organizzativa.
 
-    Get-OrganizationRelationship | format-list
+```powershell
+Get-OrganizationRelationship | format-list
+```
 
 
 > [!TIP]

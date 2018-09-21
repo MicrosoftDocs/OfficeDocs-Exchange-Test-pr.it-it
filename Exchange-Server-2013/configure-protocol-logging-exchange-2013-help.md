@@ -89,7 +89,9 @@ Per abilitare o disabilitare la registrazione protocollo su un connettore di inv
 
 Con questo esempio viene abilitata la registrazione protocollo per il connettore di ricezione denominato Connection da Contoso.com.
 
-    Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```powershell
+Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -97,7 +99,9 @@ Per verificare di aver abilitato o disabilitato correttamente la registrazione p
 
 1.  In Shell, utilizzare il seguente comando:
     
-        <Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+    ```command line
+<Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+```
 
 2.  Verificare che i valori visualizzati siano quelli configurati.
 
@@ -109,7 +113,9 @@ Per abilitare o disabilitare la registrazione protocollo sul connettore di invio
 
 Con questo esempio viene abilitata la registrazione protocollo sul connettore di invio tra organizzazioni nel servizio di trasporto su un server Cassette postali denominato Mailbox01.
 
-    Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -125,11 +131,15 @@ Per verificare di aver abilitato o disabilitato correttamente la registrazione p
 
 Per abilitare o disabilitare la registrazione protocollo sul connettore di invio per il recapito delle cassette postali implicito e invisibile presente nel servizio di trasporto cassette postali su un server Cassette postali, utilizzare il comando seguente:
 
-    Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```powershell
+Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```
 
 Con questo esempio viene abilitata la registrazione protocollo sul connettore di ricezione per il recapito delle cassette postali nel servizio di trasporto cassette postali su un server Cassette postali denominato Mailbox01.
 
-    Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

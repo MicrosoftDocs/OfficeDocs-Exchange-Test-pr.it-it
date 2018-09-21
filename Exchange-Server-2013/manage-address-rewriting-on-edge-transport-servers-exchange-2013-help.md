@@ -73,7 +73,9 @@ Per verificare che la riscrittura degli indirizzi sia stata abilitata o disabili
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-TransportAgent
+    ```powershell
+Get-TransportAgent
+```
 
 2.  Verificare che i valori della proprietà **Attivata** dell'agente di riscrittura degli indirizzi in entrata e in uscita siano i valori configurati.
 
@@ -81,15 +83,21 @@ Per verificare che la riscrittura degli indirizzi sia stata abilitata o disabili
 
 Per visualizzare un elenco riepilogativo di tutte le voci di riscrittura degli indirizzi, eseguire il seguente comando.
 
-    Get-AddressRewriteEntry
+```powershell
+Get-AddressRewriteEntry
+```
 
 Per visualizzare i dettagli di una voce di riscrittura degli indirizzi, utilizzare la seguente sintassi.
 
-    Get-AddressRewriteEntry <AddressRewriteEntryIdentity> | Format-List
+```powershell
+Get-AddressRewriteEntry <AddressRewriteEntryIdentity> | Format-List
+```
 
 Il seguente esempio visualizza i dettagli della voce di riscrittura degli indirizzi da Rewrite Contoso.com a Northwindtraders.com:
 
-    Get-AddressRewriteEntry "Rewrite Contoso.com to Northwindtraders.com" | Format-List
+```powershell
+Get-AddressRewriteEntry "Rewrite Contoso.com to Northwindtraders.com" | Format-List
+```
 
 ## Creazione delle voci di riscrittura degli indirizzi tramite Shell
 
@@ -171,7 +179,9 @@ Per modificare una voce di riscrittura degli indirizzi che riscrive l'indirizzo 
 
 Nel seguente esempio il valore dell'indirizzo interno della voce di riscrittura degli indirizzi del singolo dominio viene modificata da "Northwind Traders a Contoso".
 
-    Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```powershell
+Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```
 
 ## Modificare voci di riscrittura degli indirizzi per destinatari in più sottodomini
 
@@ -209,11 +219,15 @@ Per verificare che la voce di riscrittura degli indirizzi sia stata modificata c
 
 Per rimuovere una voce di riscrittura degli indirizzi, utilizzare la seguente sintassi.
 
-    Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```powershell
+Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```
 
 Nell'esempio riportato di seguito viene rimossa la voce di riscrittura degli indirizzi "Contoso.com to Northwindtraders.com":
 
-    Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```powershell
+Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```
 
 Per rimuovere più voci di riscrittura degli indirizzi, utilizzare la seguente sintassi:
 
@@ -221,7 +235,9 @@ Per rimuovere più voci di riscrittura degli indirizzi, utilizzare la seguente s
 
 Nell'esempio riportato di seguito vengono rimosse tutte le voci di riscrittura degli indirizzi:
 
-    Get-AddressRewriteEntry | Remove-AddressRewriteEntry
+```powershell
+Get-AddressRewriteEntry | Remove-AddressRewriteEntry
+```
 
 Il seguente esempio simula la rimozione delle voci di riscrittura degli indirizzi che contengono nel nome il testo "to contoso.com". Lo switch *WhatIf* consente di visualizzare in anteprima il risultato senza apportare modifiche.
 

@@ -39,7 +39,9 @@ _**Ultima modifica dell'argomento:** 2015-04-08_
 
 È possibile utilizzare il cmdlet **Set-OrganizationConfig** per abilitare o disabilitare i suggerimenti messaggio all'interno dell'organizzazione. Quando si installa una nuova organizzazione Exchange, gli avvisi messaggio sono abilitati per impostazione predefinita. In questo esempio, viene illustrato come abilitare i suggerimenti messaggio all'interno dell'organizzazione.
 
-    Set-OrganizationConfig -MailTipsAllTipsEnabled $true
+```powershell
+Set-OrganizationConfig -MailTipsAllTipsEnabled $true
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-OrganizationConfig](https://technet.microsoft.com/it-it/library/aa997443\(v=exchg.150\)).
 

@@ -101,7 +101,9 @@ Utilizzare il cmdlet **Connect-Mailbox** in Shell per connettere una cassetta po
 
 Con questo esempio viene connessa una cassetta postale utente. Il parametro *Identity* consente di specificare il nome visualizzato della cassetta postale eliminata conservata nel database delle cassette postali denominato MBXDB01. Il parametro *User* consente di specificare l'account utente di Active Directory a cui connettere la cassetta postale.
 
-    Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```powershell
+Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```
 
 
 > [!NOTE]
@@ -143,7 +145,9 @@ Per verificare la corretta connessione della cassetta postale eliminata a un acc
 
   - In Shell, utilizzare il seguente comando.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     Il valore **UserMailbox** per la proprietà *RecipientType* indica che l'account utente e la cassetta postale sono connessi. È inoltre possibile eseguire il comando **Get-Mailbox \<identity\>** per verificare che la cassetta postale sia stata connessa.
 
@@ -183,7 +187,9 @@ Se viene eliminata una cassetta postale di cartelle pubbliche che si desidera ri
 
 1.  Ottenere il nome di dominio completo (FQDN) del controller di dominio e foresta di Active Directory eseguendo il cmdlet seguente:
     
-        Get-OrganizationConfig | fl OriginatingServer
+    ```powershell
+Get-OrganizationConfig | fl OriginatingServer
+```
 
 2.  Con le informazioni restituite dal passaggio 1, ricerca contenitore degli oggetti eliminati in Active Directory per il GUID della cassetta postale di cartelle pubbliche e il GUID o il nome del database delle cassette postali in cui era contenuta la cassetta postale eliminata cartelle pubbliche.
     

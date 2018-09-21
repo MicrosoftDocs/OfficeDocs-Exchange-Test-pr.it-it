@@ -51,5 +51,7 @@ L'interfaccia di amministrazione di Exchange visualizza l'elenco dei dispositivi
 
 1.  Eseguire il comando riportato di seguito.
     
-        Get-MobileDevice -Mailbox useralias
+    ```powershell
+Get-MobileDevice -Mailbox useralias
+```
 

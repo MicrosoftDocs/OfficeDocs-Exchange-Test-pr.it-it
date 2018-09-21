@@ -43,11 +43,15 @@ La funzionalità deIl'ID mittente è fornita dall'agente dell'ID mittente. L'ID 
 
 Per disabilitare l'ID mittente, eseguire il comando riportato di seguito:
 
-    Set-SenderIDConfig -Enabled $false
+```powershell
+Set-SenderIDConfig -Enabled $false
+```
 
 Per abilitare l'ID mittente, eseguire il comando riportato di seguito:
 
-    Set-SenderIDConfig -Enabled $true
+```powershell
+Set-SenderIDConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -61,7 +65,9 @@ Per verificare che l'ID mittente sia stato abilitato o disabilitato con successo
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderIDConfig | Format-List Enabled
+    ```powershell
+Get-SenderIDConfig | Format-List Enabled
+```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 
@@ -69,11 +75,15 @@ Per verificare che l'ID mittente sia stato abilitato o disabilitato con successo
 
 Per configurare l'azione dell'ID mittente per i messaggi falsificati, utilizzare il seguente comando:
 
-    Set-SenderIDConfig -SpoofedDomainAction <StampStatus | Reject | Delete>
+```powershell
+Set-SenderIDConfig -SpoofedDomainAction <StampStatus | Reject | Delete>
+```
 
 Questo esempio configura l'agente dell'ID mittente per rifiutare tutti i messaggi in cui l'indirizzo IP del server di invio non è elencato come un server mittente SMTP autorevole nel record SPF del DNS per il dominio specificato.
 
-    Set-SenderIDConfig -SpoofedDomainAction Reject
+```powershell
+Set-SenderIDConfig -SpoofedDomainAction Reject
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -81,7 +91,9 @@ Per verificare che l'ID mittente sia stato configurato con successo per i messag
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderIDConfig | Format-List SpoofedDomainAction
+    ```powershell
+Get-SenderIDConfig | Format-List SpoofedDomainAction
+```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 
@@ -89,11 +101,15 @@ Per verificare che l'ID mittente sia stato configurato con successo per i messag
 
 Per configurare l'azione dell'ID mittente per gli errori temporanei, utilizzare il seguente comando:
 
-    Set-SenderIDConfig -TempErrorAction <StampStatus | Reject | Delete>
+```powershell
+Set-SenderIDConfig -TempErrorAction <StampStatus | Reject | Delete>
+```
 
 In questo esempio l'agente ID mittente viene configurato per contrassegnare i messaggi per cui non è possibile determinare lo stato dell'ID mittente a causa di un errore temporaneo del server DNS. Il messaggio sarà elaborato da altri agenti di posta indesiderata e l'agente Filtro contenuto utilizzerà il contrassegno per determinare il valore SCL per il messaggio.
 
-    Set-SenderIDConfig -TempErrorAction StampStatus
+```powershell
+Set-SenderIDConfig -TempErrorAction StampStatus
+```
 
 Si noti che `StampStatus` è il valore predefinito per il parametro *TempErrorAction*.
 
@@ -103,7 +119,9 @@ Per verificare che l'ID mittente sia stato configurato con successo per gli erro
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderIDConfig | Format-List TempErrorAction
+    ```powershell
+Get-SenderIDConfig | Format-List TempErrorAction
+```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 
@@ -137,7 +155,9 @@ Per verificare che le eccezioni del dominio del mittente e del destinarlo siano 
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+    ```powershell
+Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+```
 
 2.  Verificare che i valori visualizzati siano quelli configurati.
 

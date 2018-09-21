@@ -78,7 +78,9 @@ _**Ultima modifica dell'argomento:** 2014-06-24_
 
 Con questo esempio la directory di controllo per il gruppo di disponibilità del database DAG1 viene impostata su C:\\DAG1DIR.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessDirectory C:\DAG1DIR
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessDirectory C:\DAG1DIR
+```
 
 In questo esempio viene preconfigurato un server di controllo alternativo CAS3 e una directory di controllo alternativa C:\\DAGFileShareWitnesses\\DAG1.contoso.com per il gruppo di disponibilità del database DAG1.
 
@@ -86,23 +88,33 @@ In questo esempio viene preconfigurato un server di controllo alternativo CAS3 e
 
 In questo esempio il gruppo di disponibilità del database DAG1 viene configurato per utilizzare DHCP (Dynamic Host Configuration Protocol) per ottenere un indirizzo IP.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 0.0.0.0
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 0.0.0.0
+```
 
 In questo esempio il gruppo di disponibilità del database DAG1 viene configurato per utilizzare l'indirizzo IP statico 10.0.0.8.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```
 
 Con questo esempio il gruppo di disponibilità del database su più subnet DAG1 viene configurato con più indirizzi IP statici.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,10.0.1.8
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,10.0.1.8
+```
 
 In questo esempio il gruppo di disponibilità del database DAG1 viene configurato per la modalità di coordinamento dell'attivazione del data center.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```
 
 In questo esempio, la porta per la replica per un un gruppo di disponibilità del database DAG1 viene configurata in modo da corrispondere a 63132.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
+```
 
 
 > [!NOTE]  
@@ -116,7 +128,9 @@ Per verificare che il gruppo di disponibilità del database sia stato configurat
 
   - In Shell, utilizzare il comando seguente per visualizzare le impostazioni di configurazione del DAG e verificare che sia stato configurato correttamente.
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```powershell
+Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+```
 
 ## Ulteriori informazioni
 

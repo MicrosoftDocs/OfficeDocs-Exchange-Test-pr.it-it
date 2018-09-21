@@ -77,13 +77,17 @@ Lo strumento di risoluzione dei problemi di messaggistica unificata di Microsoft
 
 4.  Se si sta eseguendo lo strumento di risoluzione dei problemi di messaggistica unificata in Windows Vista, Windows 7 o Windows 8, al prompt dei comandi di Windows PowerShell eseguire il comando riportato di seguito.
     
-        Set-ExecutionPolicy RemoteSigned
+    ```powershell
+Set-ExecutionPolicy RemoteSigned
+```
 
 5.  Aprire lo **strumento di risoluzione dei problemi di messaggistica unificata di Microsoft Exchange 2010** dal menu **Start**.
 
 6.  Nella finestra dello **strumento di risoluzione dei problemi di messaggistica unificata di Microsoft Exchange 2010**, nel prompt, digitare il seguente comando e premere Invio.
     
-        $cred=Get-Credential
+    ```powershell
+$cred=Get-Credential
+```
 
 7.  Nella finestra **Richiesta credenziali di Windows PowerShell** digitare dominio\\nome utente e password, quindi fare clic su **OK**.
 

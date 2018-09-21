@@ -314,7 +314,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 In questo esempio viene rimosso il criterio cassetta postale per cartelle gestite e qualsiasi cartella gestite dalla cassetta postale di Ken Kwok. Le cartelle gestite che dispongono di eventuali messaggi non vengono rimosse.
 
-    Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```
 
 ## Passaggio 4: Applicare il criterio di conservazione alle cassette postali degli utenti
 
@@ -328,7 +330,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 In questo esempio, il criterio di conservazione RP-Corp appena creato viene applicato alla cassetta postale dell'utente Ken Kwok.
 
-    Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 
@@ -346,5 +350,7 @@ Per verificare che sia stata eseguita la migrazione dalle cartelle gestite verso
     
     Tramite tale comando vengono recuperati i tag di conservazione effettivamente applicati alla cassetta postale dell'utente April Stewart.
     
-        Get-RetentionPolicyTag -Mailbox astewart
+    ```powershell
+Get-RetentionPolicyTag -Mailbox astewart
+```
 

@@ -59,7 +59,9 @@ Il contatto di posta elettronica verrà rimosso dall'elenco dei contatti.
 
 Con questo esempio viene disabilitata la posta elettronica per il contatto di posta Neil Black.
 
-    Disable-MailContact -Identity "Neil Black"
+```powershell
+Disable-MailContact -Identity "Neil Black"
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Disable-MailContact](https://technet.microsoft.com/it-it/library/aa997465\(v=exchg.150\)).
 
@@ -73,13 +75,17 @@ Per verificare la corretta disabilitazione della posta elettronica per un contat
 
 3.  In Shell, utilizzare il seguente comando.
     
-        Get-MailContact
+    ```powershell
+Get-MailContact
+```
     
     Il contatto per cui è stata disabilitata la posta non verrà restituito nei risultati poiché il cmdlet restituisce solo i contatti abilitati alla posta.
 
 4.  In Shell, utilizzare il seguente comando.
     
-        Get-Contact
+    ```powershell
+Get-Contact
+```
     
     Il contatto per cui è stata disabilitata la posta elettronica viene restituito nei risultati poiché il cmdlet restituisce tutti gli oggetti contatto di Active Directory.
 
@@ -91,7 +97,9 @@ Per verificare la corretta disabilitazione della posta elettronica per un contat
 
 Con questo esempio viene abilitato alla posta il contatto Rene Valdes. È necessario fornire un indirizzo di posta elettronica esterno.
 
-    Enable-MailContact -Identity "Rene Valdes" -ExternalEmailAddress renev@tailspintoys.com
+```powershell
+Enable-MailContact -Identity "Rene Valdes" -ExternalEmailAddress renev@tailspintoys.com
+```
 
 ## Utilizzare Shell e un file CSV per abilitare alla posta più contatti
 
@@ -141,5 +149,7 @@ Per verificare la corretta abilitazione alla posta dei contatti di Active Direct
 
   - In Shell, eseguire il seguente comando per visualizzare le informazioni relative ai nuovi contatti di posta.
     
-        Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```powershell
+Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+```
 

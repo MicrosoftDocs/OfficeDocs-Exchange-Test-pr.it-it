@@ -57,7 +57,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 2.  **Controllare la configurazione del database di cassette postali**   Il parametro *IndexEnabled* è impostato su true per il database di cassette postali dell'utente? Se sì, andare al passo 3. Altrimenti, verificare che il flag *IndexEnabled* sia impostato su True utilizzando il seguente comando in Shell.
     
-        Get-MailboxDatabase | Format-Table Name,IndexEnabled
+    ```powershell
+Get-MailboxDatabase | Format-Table Name,IndexEnabled
+```
     
     Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Get-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb124924\(v=exchg.150\)).
 
@@ -91,7 +93,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 5.  **Eseguire il cmdlet Test-ExchangeSearch**   Se è già stata eseguita la ricerca per indicizzazione del database delle cassette postali è possibile eseguire il cmdlet **Test-ExchangeSearch** per l'intero database o per una specifica cassetta posatale.
     
-        Test-ExchangeSearch -Identity AlanBrewer@contoso.com
+    ```powershell
+Test-ExchangeSearch -Identity AlanBrewer@contoso.com
+```
     
     Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Test-ExchangeSearch](https://technet.microsoft.com/it-it/library/bb124733\(v=exchg.150\)).
 

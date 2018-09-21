@@ -127,7 +127,9 @@ In questo esempio, viene sottoscritto un server Trasporto Edge al sito specifica
 
 In questo esempio viene esportato un file di sottoscrizione di Edge.
 
-    New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```powershell
+New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```
 
 
 > [!NOTE]

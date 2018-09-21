@@ -67,7 +67,9 @@ Per ulteriori informazioni sulla conservazione degli elementi eliminati, la cart
 
 In questo esempio la cassetta postale di April Stewart viene configurata in modo da mantenere gli elementi eliminati per 30 giorni.
 
-    Set-Mailbox -Identity - "April Stewart" -RetainDeletedItemsFor 30
+```powershell
+Set-Mailbox -Identity - "April Stewart" -RetainDeletedItemsFor 30
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 
@@ -101,7 +103,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox
 
 In questo esempio viene configurato un periodo di mantenimento di 10 giorni per il database delle cassette postali MDB2.
 
-    Set-MailboxDatabase -Identity MDB2 -DeletedItemRetention 10
+```powershell
+Set-MailboxDatabase -Identity MDB2 -DeletedItemRetention 10
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb123971\(v=exchg.150\)).
 
@@ -115,7 +119,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox
 
 Con questo esempio vengono configurate la quota di avviso degli elementi recuperabili e la quota degli elementi recuperabili del database delle cassette postali MDB2 rispettivamente su 15 GB e 20 GB.
 
-    Set-MailboxDatabase -Identity MDB2 -RecoverableItemsWarningQuota 15GB -RecoverableItemsQuota 20GB
+```powershell
+Set-MailboxDatabase -Identity MDB2 -RecoverableItemsWarningQuota 15GB -RecoverableItemsQuota 20GB
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb123971\(v=exchg.150\)).
 

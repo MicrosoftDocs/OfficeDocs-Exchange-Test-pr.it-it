@@ -65,7 +65,9 @@ Per le attività di gestione aggiuntive relative alle cassette postali utente, v
 
 Con questo esempio viene impostata su 25 MB la dimensione massima per i messaggi inviati e su 35 MB la dimensione massima per i messaggi ricevuti per la cassetta postale di Debra Garcia.
 
-    Set-Mailbox "Debra Garcia" -MaxSendSize 25mb -MaxReceiveSize 35mb
+```powershell
+Set-Mailbox "Debra Garcia" -MaxSendSize 25mb -MaxReceiveSize 35mb
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 
@@ -85,5 +87,7 @@ Oppure
 
 Eseguire il seguente comando in Shell.
 
-    Get-Mailbox <identity> | fl MaxSendSize,MaxReceiveSize
+```powershell
+Get-Mailbox <identity> | fl MaxSendSize,MaxReceiveSize
+```
 

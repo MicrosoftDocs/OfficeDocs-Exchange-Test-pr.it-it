@@ -85,7 +85,9 @@ Utilizzare il cmdlet **Connect-Mailbox** in Shell per connettere un account uten
 
 Con questo esempio viene connessa una cassetta postale utente. Il parametro *Identity* consente di specificare la cassetta postale disconnessa nel database di Exchange. Il parametro *User* consente di specificare l'account utente di Active Directory a cui riconnettere la cassetta postale.
 
-    Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```powershell
+Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```
 
 In questo esempio viene connessa una cassetta postale collegata. Il parametro *Identity* consente di specificare la cassetta postale disconnessa nel database di Exchange. Il parametro *LinkedMasterAccount* consente di specificare l'account utente di Active Directory nella foresta di account a cui si desidera riconnettere la cassetta postale. Il parametro *Alias* consente di specificare l'alias, ovvero la parte dell'indirizzo di posta elettronica a sinistra del simbolo di chiocciola (@), per la cassetta postale riconnessa.
 
@@ -113,7 +115,9 @@ Per verificare la corretta connessione della cassetta postale disabilitata a un 
 
   - In Shell, utilizzare il seguente comando.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     Il valore **UserMailbox** per la proprietà *RecipientType* indica che l'account utente e la cassetta postale sono connessi. È inoltre possibile eseguire il comando **Get-Mailbox** per verificare che la cassetta postale esista.
 

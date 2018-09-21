@@ -45,7 +45,9 @@ Questo ruolo può essere assegnato a uno o più criteri di assegnazione dei ruol
 
 Se si desidera visualizzare un elenco di gruppi di ruoli, utenti o gruppi di protezione universale assegnati a questo ruolo, usare il comando seguente.
 
-    Get-ManagementRoleAssignment -Role "<role name>"
+```powershell
+Get-ManagementRoleAssignment -Role "<role name>"
+```
 
 ## Assegnazioni di ruolo regolare e di delega
 

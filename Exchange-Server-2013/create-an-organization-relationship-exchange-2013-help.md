@@ -113,7 +113,9 @@ Il corretto completamento della procedura guidata **Nuova relazione organizzativ
 
 Per verificare ulteriormente che è stata creata correttamente la relazione organizzativa, eseguire il seguente comando Shell per verificare le informazioni sulla relazione organizzativa.
 
-    Get-OrganizationRelationship | format-list
+```powershell
+Get-OrganizationRelationship | format-list
+```
 
 
 > [!TIP]

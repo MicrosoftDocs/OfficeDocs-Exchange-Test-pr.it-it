@@ -51,11 +51,15 @@ Utilizzare la sintassi seguente per configurare l'indirizzo mittente dell'analis
 
 In questo esempio viene configurata l'analisi della pipeline per acquisire snapshot di tutti i messaggi inviati dal mittente chris@contoso.com nel servizio di trasporto sul server Cassette postali denominato Mailbox01.
 
-    Set-TransportService Mailbox01 -PipelineTracingSenderAddress chris@contoso.com
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingSenderAddress chris@contoso.com
+```
 
 In questo esempio viene configurata l'analisi della pipeline per acquisire snapshot di tutti i messaggi generati dal sistema e ricevuti dal servizio di trasporto sul server Cassette postali denominato Mailbox02.
 
-    Set-TransportService Mailbox02 -PipelineTracingSenderAddress "<>"
+```powershell
+Set-TransportService Mailbox02 -PipelineTracingSenderAddress "<>"
+```
 
 
 > [!WARNING]
@@ -73,7 +77,9 @@ Utilizzare la sintassi seguente per configurare la cartella relativa all'analisi
 
 In questo esempio viene impostata la cartella relativa all'analisi della pipeline per il servizio di trasporto sul server Cassette postali denominato Mailbox01 su D:\\Hub\\Pipeline Tracing.
 
-    Set-TransportService Mailbox01 -PipelineTracingPath "D:\Hub\Pipeline Tracing"
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingPath "D:\Hub\Pipeline Tracing"
+```
 
 ## Passaggio 3: abilitazione dell'analisi della pipeline tramite Shell
 
@@ -85,7 +91,9 @@ Utilizzare la sintassi seguente per abilitare l'analisi della pipeline.
 
 In questo esempio viene abilitata l'analisi della pipeline nel servizio di trasporto sul server Cassette postali denominato Mailbox01.
 
-    Set-TransportService Mailbox01 -PipelineTracingEnabled $true
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingEnabled $true
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -109,7 +117,9 @@ Utilizzare la sintassi seguente per disabilitare l'analisi della pipeline.
 
 In questo esempio viene disabilitata l'analisi della pipeline nel servizio di trasporto sul server Cassette postali denominato Mailbox01.
 
-    Set-TransportService Mailbox01 -PipelineTracingEnabled $false
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingEnabled $false
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

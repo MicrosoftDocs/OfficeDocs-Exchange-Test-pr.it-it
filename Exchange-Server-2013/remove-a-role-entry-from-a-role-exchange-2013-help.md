@@ -45,11 +45,15 @@ Quando si elimina una voce di ruolo da un ruolo, gli utenti assegnati a quel ruo
 
 Utilizzare la seguente sintassi per rimuovere un'intera voce del ruolo di gestione da un ruolo.
 
-    Remove-ManagementRoleEntry <management role>\<management role entry>
+```powershell
+Remove-ManagementRoleEntry <management role>\<management role entry>
+```
 
 Con questo esempio viene rimosso il cmdlet **Enable-MailUser** dal ruolo Seattle Server Administrators.
 
-    Remove-ManagementRoleEntry "Seattle Server Administrators\Enable-MailUser"
+```powershell
+Remove-ManagementRoleEntry "Seattle Server Administrators\Enable-MailUser"
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Remove-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351187\(v=exchg.150\)).
 

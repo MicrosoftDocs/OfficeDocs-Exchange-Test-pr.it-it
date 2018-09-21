@@ -89,7 +89,9 @@ In questo passaggio, è necessario eseguire uno script di PowerShell al fine di 
 
 2.  In Exchange PowerShell della propria organizzazione Exchange locale, eseguire lo script di PowerShell che è stato creato al passaggio precedente. Ad esempio:
     
-        .\ExportAuthCert.ps1
+    ```powershell
+.\ExportAuthCert.ps1
+```
 
 ## Passaggio 4: Caricare il certificato di autorizzazione in locale in Azure Active Directory ACS
 
@@ -119,7 +121,9 @@ Successivamente, è necessario utilizzare Windows PowerShell per caricare il cer
 
 3.  Eseguire lo script di PowerShell creato nel passaggio precedente. Ad esempio:
     
-        .\UploadAuthCert.ps1
+    ```powershell
+.\UploadAuthCert.ps1
+```
 
 4.  Dopo avere avviato lo script, viene visualizzata una finestra di dialogo delle credenziali. Immettere le credenziali per l'account di amministratore tenant dell'organizzazione Azure AD Microsoft Online. Dopo aver eseguito lo script, lasciare Windows PowerShell per sessione Azure AD aperto. Si utilizzerà per eseguire uno script di PowerShell nel passaggio successivo.
 
@@ -129,7 +133,9 @@ Successivamente, è necessario utilizzare Windows PowerShell per caricare il cer
 
 Se non si è certi degli endpoint di Exchange esterni della propria organizzazione, è possibile visualizzare un elenco degli endpoint dei servizi Web configurati in esterno eseguendo il comando seguente in Exchange PowerShell nella propria organizzazione locale di Exchange:
 
-    Get-WebServicesVirtualDirectory | FL ExternalUrl
+```powershell
+Get-WebServicesVirtualDirectory | FL ExternalUrl
+```
 
 
 > [!NOTE]
@@ -152,7 +158,9 @@ Se non si è certi degli endpoint di Exchange esterni della propria organizzazio
 
 2.  In Windows PowerShell per Azure Active Directory, eseguire lo script di Windows PowerShell che è stato creato nel passaggio precedente. Per esempio:
     
-        .\RegisterEndpoints.ps1
+    ```powershell
+.\RegisterEndpoints.ps1
+```
 
 ## Passaggio 6: creare un connettore IntraOrganizationConnector tra la propria organizzazione locale e Office 365
 
@@ -212,7 +220,9 @@ Prima di completare il passaggio seguente, verificare quanto segue:
 
 È necessario configurare un parametro *AvailabilityAddressSpace* sui server Accesso client precedenti a Exchange 2013 che punti all'endpoint Servizi Web Exchange dei server Accesso client locali di Exchange 2013 SP1. Questo endpoint è lo stesso precedentemente delineato nel Passaggio 5 oppure può essere determinato eseguendo il seguente cmdlet sul server locale Accesso client di Exchange 2013 SP1.
 
-    Get-WebServicesVirtualDirectory | FL AdminDisplayVersion,ExternalUrl
+```powershell
+Get-WebServicesVirtualDirectory | FL AdminDisplayVersion,ExternalUrl
+```
 
 
 > [!NOTE]

@@ -51,15 +51,21 @@ Per impostazione predefinita, il valore dell'impostazione dell'indirizzo postmas
 
 Per configurare l'indirizzo postmaster esterno, utilizzare la sintassi seguente.
 
-    Set-TransportConfig -ExternalPostmasterAddress <postmaster address>
+```powershell
+Set-TransportConfig -ExternalPostmasterAddress <postmaster address>
+```
 
 Ad esempio, per impostare l'indirizzo postmaster esterno al valore `postmaster@contoso.com`, eseguire il seguente comando
 
-    Set-TransportConfig -ExternalPostmasterAddress postmaster@contoso.com
+```powershell
+Set-TransportConfig -ExternalPostmasterAddress postmaster@contoso.com
+```
 
 Per reimpostare il valore predefinito dell'indirizzo postmaster esterno, eseguire il comando seguente:
 
-    Set-TransportConfig -ExternalPostmasterAddress $null
+```powershell
+Set-TransportConfig -ExternalPostmasterAddress $null
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -67,7 +73,9 @@ Per verificare la corretta configurazione dell'indirizzo postmaster esterno, eff
 
 1.  Eseguire il seguente comando su un server Cassette postali per verificare il valore dell'indirizzo postmaster esterno:
     
-        Get-TransportConfig | Format-List ExternalPostmasterAddress
+    ```powershell
+Get-TransportConfig | Format-List ExternalPostmasterAddress
+```
 
 2.  Da un account di posta elettronica esterno, inviare un messaggio all'organizzazione di Exchange che genererà una notifica sullo stato del recapito (DSN, Delivery Status Notification). Ad esempio, è possibile configurare una regola di trasporto per inviare un rapporto di mancato recapito per un messaggio contenente parole chiave specifiche. Verificare che l'indirizzo di posta elettronica del mittente nel DSN corrisponda al valore specificato.
 

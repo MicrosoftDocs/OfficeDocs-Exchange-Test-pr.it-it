@@ -29,7 +29,9 @@ In Microsoft Exchange Server 2013, è possibile utilizzare la funzionalità di f
     
     Per visualizzare un elenco completo delle estensioni dei nomi dei file e dei tipi di contenuto che possono essere rilevati dal filtro degli allegati, eseguire il comando riportato di seguito sul server Trasporto Edge:
     
-        Get-AttachmentFilterEntry | Format-List
+    ```powershell
+Get-AttachmentFilterEntry | Format-List
+```
 
 Dopo aver definito i file da cercare, è possibile configurare l'azione da intraprendere in merito ai messaggi che contengono tali allegati. Non è possibile specificare azioni differenti per tipi differenti di allegati. È possibile configurare una delle seguenti azioni per tutti i messaggi che corrispondono a uno dei filtri degli allegati:
 

@@ -55,11 +55,15 @@ Per visualizzare le code, utilizzare la sintassi seguente.
 
 In questo esempio vengono visualizzate le informazioni di base sulle code non vuote del server Cassette postali di Exchange 2013 denominato Mailbox01.
 
-    Get-Queue -Server Mailbox01 -Exclude Empty
+```powershell
+Get-Queue -Server Mailbox01 -Exclude Empty
+```
 
 In questo esempio vengono visualizzate informazioni dettagliate su tutte le code contenenti più di 100 messaggi sul server Cassette postali su cui viene eseguito il comando.
 
-    Get-Queue -Filter {MessageCount -gt 100} | Format-List
+```powershell
+Get-Queue -Filter {MessageCount -gt 100} | Format-List
+```
 
 ## Utilizzare Shell per visualizzare un riepilogo di informazioni sulle code su più server Exchange
 
@@ -77,11 +81,15 @@ Per visualizzare le informazioni di riepilogo sulle code su più server Exchange
 
 In questo esempio viene visualizzato il riepilogo delle informazioni sulle code su tutti i server Cassette postali di Exchange 2013 sul sito di Active Directory denominato FirstSite, dove il numero dei messaggi è superiore a 100.
 
-    Get-QueueDigest -Site FirstSite -Filter {MessageCount -gt 100}
+```powershell
+Get-QueueDigest -Site FirstSite -Filter {MessageCount -gt 100}
+```
 
 In questo esempio viene visualizzato il riepilogo delle informazioni sulle code su tutti i server Cassette postali di Exchange 2013 del gruppo di disponibilità del database (DAG, database availability group) denominato DAG01, dove lo stato delle code ha il valore **Retry**.
 
-    Get-QueueDigest -Dag DAG01 -Filter {Status -eq "Retry"}
+```powershell
+Get-QueueDigest -Dag DAG01 -Filter {Status -eq "Retry"}
+```
 
 ## Ripresa delle code
 
@@ -115,11 +123,15 @@ Per riprendere le code, utilizzare la sintassi seguente.
 
 In questo esempio vengono riprese tutte le code del server locale con lo stato Sospeso.
 
-    Resume-Queue -Filter {Status -eq "Suspended"}
+```powershell
+Resume-Queue -Filter {Status -eq "Suspended"}
+```
 
 In questo esempio vengono riprese le code di recapito sospese denominate contoso.com sul server Mailbox01.
 
-    Resume-Queue -Identity Mailbox01\contoso.com
+```powershell
+Resume-Queue -Identity Mailbox01\contoso.com
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -161,11 +173,15 @@ Per riprovare le code, utilizzare la sintassi seguente.
 
 Con questo esempio viene eseguito un nuovo tentativo di elaborazione di tutte le code sul server locale con lo stato Riprova.
 
-    Retry-Queue -Filter {status -eq "retry"}
+```powershell
+Retry-Queue -Filter {status -eq "retry"}
+```
 
 In questo esempio viene eseguito un nuovo tentativo di elaborazione della coda denominata contoso.com con lo stato `Retry` sul server Mailbox01.
 
-    Retry-Queue -Identity Mailbox01\contoso.com
+```powershell
+Retry-Queue -Identity Mailbox01\contoso.com
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -193,11 +209,15 @@ Per reinviare i messaggi, utilizzare la sintassi seguente.
 
 In questo esempio vengono reinviati tutti i messaggi posizionati in qualsiasi coda di recapito con lo stato Riprova sul server Mailbox01.
 
-    Retry-Queue -Filter {Status -eq "Retry"} -Server Mailbox01 -Resubmit $true
+```powershell
+Retry-Queue -Filter {Status -eq "Retry"} -Server Mailbox01 -Resubmit $true
+```
 
 In questo esempio vengono reinviati tutti i messaggi posizionati nella coda non raggiungibile sul server Mailbox01.
 
-    Retry-Queue -Identity Mailbox01\Unreachable -Resubmit $true
+```powershell
+Retry-Queue -Identity Mailbox01\Unreachable -Resubmit $true
+```
 
 ## Reinvio dei messaggi dalla coda dei messaggi non elaborabili
 
@@ -227,15 +247,21 @@ Per reinviare un messaggio dalla coda dei messaggi non elaborabili, attenersi al
 
 1.  Trovare l'identità del messaggio eseguendo il comando seguente.
     
-        Get-Message -Queue Poison | Format-Table Identity
+    ```powershell
+Get-Message -Queue Poison | Format-Table Identity
+```
 
 2.  Utilizzare l'identità del messaggio da un passaggio precedente nel seguente comando.
     
-        Resume-Message <PoisonMessageIdentity>
+    ```powershell
+Resume-Message <PoisonMessageIdentity>
+```
     
     In questo esempio viene ripristinato un messaggio dalla coda dei messaggi non elaborabili con il valore dell'identità del messaggio 222.
     
-        Resume-Message 222
+    ```powershell
+Resume-Message 222
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -271,11 +297,15 @@ Per sospendere una coda, utilizzare la seguente sintassi.
 
 Con questo esempio vengono sospese tutte le code sul server locale il cui conteggio dei messaggi è uguale o maggiore di 1.000 e il cui stato è Riprova.
 
-    Suspend-Queue -Filter {MessageCount -ge 1000 -and Status -eq "Retry"}
+```powershell
+Suspend-Queue -Filter {MessageCount -ge 1000 -and Status -eq "Retry"}
+```
 
 In questo esempio viene sospesa la coda denominata contoso.com sul server Mailbox01.
 
-    Suspend-Queue -Identity Mailbox01\contoso.com
+```powershell
+Suspend-Queue -Identity Mailbox01\contoso.com
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

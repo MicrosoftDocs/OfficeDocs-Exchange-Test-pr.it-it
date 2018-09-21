@@ -109,7 +109,9 @@ Per altre attività di gestione relative alla federazione, vedere [Procedure di 
 
   - In questo esempio viene creato il criterio di condivisione Contoso per il dominio esterno federato contoso.com. Questo criterio consente agli utenti nel dominio contoso.com di visualizzare le informazioni dettagliate sulla disponibilità del calendario. Per impostazione predefinita, questo criterio è abilitato.
     
-        New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+    ```powershell
+New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+```
 
   - In questo esempio viene creato il criterio di condivisione ContosoWoodgrove per due diversi domini federati (contoso.com e woodgrovebank.com) con azioni di condivisione differenti per ciascun dominio configurato. Il criterio è disabilitato.
     
@@ -119,7 +121,9 @@ Per altre attività di gestione relative alla federazione, vedere [Procedure di 
     
     1.  Impostare l'URL del proxy Web per MAIL01.
         
-            Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+        ```powershell
+Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+```
     
     2.  Abilitare la pubblicazione di una directory virtuale in CAS01.
         
@@ -141,7 +145,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere:
 
 Per verificare la creazione corretta del criterio di condivisione, eseguire il comando Shell seguente per controllare le informazioni sul criterio di condivisione.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 
 > [!TIP]

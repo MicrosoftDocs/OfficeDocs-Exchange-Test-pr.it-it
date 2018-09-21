@@ -61,7 +61,9 @@ In questo esempio si configura IRM per consentire al servizio di ricerca di Exch
 
 
 
-    Set-IRMConfiguration -SearchEnabled $true
+```powershell
+Set-IRMConfiguration -SearchEnabled $true
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-IRMConfiguration](https://technet.microsoft.com/it-it/library/dd979792\(v=exchg.150\)).
 
@@ -75,7 +77,9 @@ Con questo esempio viene consentito ai membri del gruppo di ruoli Gestione di in
 
 
 
-    Set-IRMConfiguration -EDiscoverySuperUserEnabled $true
+```powershell
+Set-IRMConfiguration -EDiscoverySuperUserEnabled $true
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-IRMConfiguration](https://technet.microsoft.com/it-it/library/dd979792\(v=exchg.150\)).
 

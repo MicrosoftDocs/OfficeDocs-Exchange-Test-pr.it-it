@@ -53,11 +53,15 @@ Per informazioni sulle altre attività di gestione relative alla gestione delle 
 
 Per elencare tutti gli utenti che hanno ottenuto le autorizzazioni concesse da un ruolo di gestione, utilizzare la seguente sintassi.
 
-    Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers
+```
 
 Con questo esempio vengono elencati tutti gli utenti che hanno ottenuto le autorizzazioni fornite dal ruolo Mail Recipients.
 
-    Get-ManagementRoleAssignment -Role "Mail Recipients" -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment -Role "Mail Recipients" -GetEffectiveUsers
+```
 
 Se si desidera modificare le proprietà restituite nell'elenco oppure esportare l'elenco in un file CSV, vedere Use the Shell to customize output and display it in questo argomento.
 
@@ -85,7 +89,9 @@ Per conoscere tutti i ruoli da cui un utente riceve le autorizzazioni, è necess
 
 Con questo esempio vengono individuate tutte le assegnazioni di ruolo elencati che concedono autorizzazioni all'utente Kim Akers.
 
-    Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "Kim Akers" }
+```powershell
+Get-ManagementRoleAssignment -GetEffectiveUsers | Where {     Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "Kim Akers" }.EffectiveUserName -Eq "Kim Akers" }
+```
 
 Se si desidera modificare le proprietà restituite nell'elenco o esportare l'elenco in un file CSV, vedere la sezione Use the Shell to customize output and display it descritta in seguito in questo argomento.
 

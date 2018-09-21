@@ -59,7 +59,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 Dopo che l'agente di routing viene installato, è necessario abilitarlo eseguendo il seguente comando:
 
-    Enable-TransportAgent "ABP Routing Agent"
+```powershell
+Enable-TransportAgent "ABP Routing Agent"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Enable-TransportAgent](https://technet.microsoft.com/it-it/library/bb124921\(v=exchg.150\)).
 
@@ -69,11 +71,15 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 1.  Riavviare il servizio di trasporto eseguendo il comando riportato di seguito:
     
-        Restart-Service MSExchangeTransport
+    ```powershell
+Restart-Service MSExchangeTransport
+```
 
 2.  Dopo che il servizio è stato riavviato, verificare che l'agente di routing ABP sia installato e abilitato eseguendo il seguente cmdlet.
     
-        Get-TransportAgent
+    ```powershell
+Get-TransportAgent
+```
     
     Se l'agente di routing ABP è presente nell'elenco, l'agente è stato installato correttamente.
 
@@ -85,7 +91,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 Il passaggio finale di questa procedura consente nell'abilitare il routing ABP per l'organizzazione. Eseguire il comando riportato di seguito.
 
-    Set-TransportConfig -AddressBookPolicyRoutingEnabled $true
+```powershell
+Set-TransportConfig -AddressBookPolicyRoutingEnabled $true
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-TransportConfig](https://technet.microsoft.com/it-it/library/bb124151\(v=exchg.150\)).
 

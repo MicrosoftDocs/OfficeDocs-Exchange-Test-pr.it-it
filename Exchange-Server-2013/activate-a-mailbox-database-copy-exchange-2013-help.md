@@ -51,31 +51,45 @@ Per informazioni sulle altre attività di gestione che hanno per oggetto le copi
 
 Con questo esempio viene attivata e montata una copia del database DB4 ospitata in MBX3 come nuovo database delle cassette postali attivo. Questo comando imposta DB4 come nuovo database delle cassette postali attivo e non sostituisce le impostazioni di montaggio del database su MBX3.
 
-    Move-ActiveMailboxDatabase DB4 -ActivateOnServer MBX3 -MountDialOverride:None
+```powershell
+Move-ActiveMailboxDatabase DB4 -ActivateOnServer MBX3 -MountDialOverride:None
+```
 
 In questo esempio viene eseguito un passaggio del database DB2 sul server Cassette postali MBX1. Al termine del comando, MBX1 ospita la copia attiva di DB2. Poiché il parametro *MountDialOverride* è impostato su `None`, MBX1 esegue il montaggio del database utilizzando le proprie impostazioni del dial di montaggio automatico del database.
 
-    Move-ActiveMailboxDatabase DB2 -ActivateOnServer MBX1 -MountDialOverride:None
+```powershell
+Move-ActiveMailboxDatabase DB2 -ActivateOnServer MBX1 -MountDialOverride:None
+```
 
 In questo esempio viene eseguito un passaggio del database DB1 sul server Cassette postali MBX3. Al termine del comando, MBX3 ospita la copia attiva di DB1. Perché il parametro *MountDialOverride* viene specificato con un valore `Good Availability`, MBX3 esegue il montaggio del database utilizzando un'impostazione del dial di montaggio automatico del database pari a *GoodAvailability*.
 
-    Move-ActiveMailboxDatabase DB1 -ActivateOnServer MBX3 -MountDialOverride:GoodAvailability
+```powershell
+Move-ActiveMailboxDatabase DB1 -ActivateOnServer MBX3 -MountDialOverride:GoodAvailability
+```
 
 In questo esempio viene eseguito un passaggio del database DB3 sul server Cassette postali MBX4. Al termine del comando, MBX4 ospita la copia attiva di DB3. Poiché il parametro *MountDialOverride* non è specificato, MBX4 monta il database utilizzando un'impostazione di montaggio automatico del database di *Lossless*.
 
-    Move-ActiveMailboxDatabase DB3 -ActivateOnServer MBX4
+```powershell
+Move-ActiveMailboxDatabase DB3 -ActivateOnServer MBX4
+```
 
 In questo esempio viene eseguito un passaggio di server per il server Cassette postali MBX1. Tutte le copie del database delle cassette postali attive su MBX1 vengono attivate in uno o più server Cassette postali con copie integre dei database attivi su MBX1.
 
-    Move-ActiveMailboxDatabase -Server MBX1
+```powershell
+Move-ActiveMailboxDatabase -Server MBX1
+```
 
 In questo esempio viene eseguito un passaggio del database DB4 sul server Cassette postali MBX5. In questo esempio la copia del database su MBX5 dispone di una coda di riesecuzione maggiore di 6. Di conseguenza, è necessario specificare il parametro *SkipLagChecks* per attivare la copia del database su MBX5.
 
-    Move-ActiveMailboxDatabase DB4 MBX5 -SkipLagChecks
+```powershell
+Move-ActiveMailboxDatabase DB4 MBX5 -SkipLagChecks
+```
 
 In questo esempio viene eseguito un passaggio del database DB5 sul server Cassette postali MBX6. In questo esempio la copia del database su MBX6 utilizza Failed come valore di *ContentIndexState*. Di conseguenza, è necessario specificare il parametro *SkipClientExperienceChecks* per attivare la copia del database su MBX6.
 
-    Move-ActiveMailboxDatabase DB5 MBX6 -SkipClientExperienceChecks
+```powershell
+Move-ActiveMailboxDatabase DB5 MBX6 -SkipClientExperienceChecks
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -85,7 +99,9 @@ Per verificare l'attivazione corretta di una copia di database delle cassette po
 
   - In Shell eseguire il comando riportato di seguito per visualizzare le informazioni di stato per una copia del database.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+```
 
 ## Ulteriori informazioni
 

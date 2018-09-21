@@ -97,45 +97,63 @@ Per informazioni sulle altre attività di gestione che hanno per oggetto le copi
 
 In questo esempio viene illustrato come eseguire il seeding della copia del database DB1 in MBX1.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1
+```
 
 In questo esempio viene illustrato come eseguire il seeding della copia del database DB1 in MBX1 utilizzando MBX2 come server Cassette postali di origine per il seeding.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2
+```
 
 In questo esempio viene illustrato come eseguire il seeding della copia del database DB1 in MBX1 senza eseguire il seeding del catalogo dell'indice di contenuto.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -DatabaseOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -DatabaseOnly
+```
 
 In questo esempio viene illustrato come eseguire il seeding del catalogo dell'indice di contenuto per la copia del database DB1 in MBX1 senza eseguire il seeding del file di database.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```
 
 ## Copia manuale di un database offline
 
 1.  Se per il database è abilitata la registrazione circolare, disabilitarla prima di procedere. Per disabilitare la registrazione circolare per un database di cassette postali, utilizzare il cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb123971\(v=exchg.150\)), come mostrato in questo esempio.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+```
 
 2.  Disinstallare il database. È possibile utilizzare il cmdlet [Dismount-Database](https://technet.microsoft.com/it-it/library/bb124936\(v=exchg.150\)), come illustrato in questo esempio.
     
-        Dismount-Database DB1 -Confirm $false
+    ```powershell
+Dismount-Database DB1 -Confirm $false
+```
 
 3.  Copiare manualmente i file del database (il file del database e tutti i file di registro) in un'altra posizione, come ad esempio un'unità disco esterna o una condivisione di rete.
 
 4.  installare il database. È possibile utilizzare il cmdlet [Mount-Database](https://technet.microsoft.com/it-it/library/aa998871\(v=exchg.150\)), come illustrato in questo esempio.
     
-        Mount-Database DB1
+    ```powershell
+Mount-Database DB1
+```
 
 5.  Sul server che ospiterà la copia, copiare i file del database dall'unità esterna o dalla condivisione di rete nello stesso percorso della copia del database attivo. Ad esempio, se il percorso del database della copia attiva è D:\\DB1\\DB1.edb e il percorso del file di registro è D:\\DB1, copiare i file del database in D:\\DB1 sul server che ospiterà la copia.
 
 6.  Aggiungere la copia del database delle cassette postali utilizzando il cmlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd298105\(v=exchg.150\)) con il parametro *SeedingPostponed*, come mostrato nell'esempio.
     
-        Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
+    ```powershell
+Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
+```
 
 7.  Se la registrazione circolare è abilitata per il database, abilitarla nuovamente utilizzando il cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb123971\(v=exchg.150\)), come mostrato in questo esempio.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -145,7 +163,9 @@ Per verificare il seeding corretto di una copia di database delle cassette posta
 
   - In Shell eseguire il comando riportato di seguito per verificare che il seeding della copia del database delle cassette postali sia stato eseguito correttamente e che la copia sia integra.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+```
     
     I campi Stato e Stato indice contenuto devono essere entrambi integri.
 

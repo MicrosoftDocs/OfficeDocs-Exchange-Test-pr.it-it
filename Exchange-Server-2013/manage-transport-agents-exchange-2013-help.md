@@ -53,13 +53,17 @@ Per eseguire una o più procedure dell'agente di trasporto descritte in questo a
 
 1.  Sul server Accesso client aprire Windows PowerShell ed eseguire il comando riportato di seguito:
     
-        Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+    ```powershell
+Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+```
 
 2.  Eseguire il comando come indicato, ma aggiungere il seguente valore al comando: `-TransportService FrontEnd`.
     
     Ad esempio, per visualizzare gli agenti di trasporto nel servizio di trasporto front-end su un server Accesso client, eseguire il comando riportato di seguito:
     
-        Get-TransportAgent -TransportService FrontEnd
+    ```powershell
+Get-TransportAgent -TransportService FrontEnd
+```
 
 ## Installazione di un agente di trasporto tramite Shell
 
@@ -85,11 +89,15 @@ Per verificare che l'agente di trasporto sia stato installato correttamente, ese
 
 Per abilitare un agente di trasporto, utilizzare la seguente sintassi.
 
-    Enable-TransportAgent <TransportAgentIdentity>
+```powershell
+Enable-TransportAgent <TransportAgentIdentity>
+```
 
 In questo esempio viene abilitato l'agente di trasporto fittizio denominato Contoso Transport Agent nel servizio di trasporto su un server Cassette postali.
 
-    Enable-TransportAgent "Contoso Transport Agent"
+```powershell
+Enable-TransportAgent "Contoso Transport Agent"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -99,11 +107,15 @@ Per verificare che l'agente di trasporto sia stato abilitato correttamente, eseg
 
 Per disabilitare un agente di trasporto, utilizzare la seguente sintassi.
 
-    Disable-TransportAgent <TransportAgentIdentity>
+```powershell
+Disable-TransportAgent <TransportAgentIdentity>
+```
 
 In questo esempio viene disabilitato l'agente di trasporto denominato Fabrikam Transport Agent nel servizio di trasporto su un server Cassette postali.
 
-    Disable-TransportAgent "Fabrikam Transport Agent"
+```powershell
+Disable-TransportAgent "Fabrikam Transport Agent"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -113,15 +125,21 @@ Per verificare che l'agente di trasporto sia stato disabilitato correttamente, e
 
 Per visualizzare un elenco di riepilogo di tutti gli agenti di trasporto, eseguire il comando riportato di seguito:
 
-    Get-TransportAgent
+```powershell
+Get-TransportAgent
+```
 
 Per visualizzare la configurazione dettagliata per un agente di trasporto specifico, eseguire il comando riportato di seguito:
 
-    Get-TransportAgent <TransportAgentIdentity> | Format-List
+```powershell
+Get-TransportAgent <TransportAgentIdentity> | Format-List
+```
 
 In questo esempio viene fornita la configurazione dettagliata dell'agente di trasporto denominato Transport Rule Agent.
 
-    Get-TransportAgent "Transport Rule Agent" | Format-List
+```powershell
+Get-TransportAgent "Transport Rule Agent" | Format-List
+```
 
 ## Configurazione della priorità di un agente di trasporto tramite Shell
 
@@ -129,11 +147,15 @@ Gli agenti di trasporto con la priorità più vicina a 0 elaborano per primi i m
 
 Per modificare la priorità di un agente di trasporto esistente, utilizzare il comando riportato di seguito.
 
-    Set-TransportAgent <TransportAgentIdentity> -Priority <Integer>
+```powershell
+Set-TransportAgent <TransportAgentIdentity> -Priority <Integer>
+```
 
 In questo esempio viene impostato il valore 3 per la priorità dell'agente relativa all'agente di trasporto Contoso Transport Agent nel servizio di trasporto su un server Cassette postali.
 
-    Set-TransportAgent "Contoso Transport Agent" -Priority 3
+```powershell
+Set-TransportAgent "Contoso Transport Agent" -Priority 3
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -145,11 +167,15 @@ Quando l'agente di trasporto viene disinstallato, Exchange non registra i file D
 
 Per disinstallare un agente di trasporto, eseguire il comando riportato di seguito:
 
-    Uninstall-TransportAgent <TransportAgentIdentity>
+```powershell
+Uninstall-TransportAgent <TransportAgentIdentity>
+```
 
 In questo esempio viene disinstallato l'agente di trasporto denominato Fabirkam Transport Agent dal servizio di trasporto su un server Cassette postali.
 
-    Uninstall-TransportAgent "Fabrikam Transport Agent"
+```powershell
+Uninstall-TransportAgent "Fabrikam Transport Agent"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

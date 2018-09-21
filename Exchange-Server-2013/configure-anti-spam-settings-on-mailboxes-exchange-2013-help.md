@@ -55,7 +55,9 @@ Per configurare le impostazioni di protezione dalla posta indesiderata su una si
 
 In questo esempio la cassetta postale dell'utente Jeff Phillips viene configurata per ignorare tutti i filtri di protezione dalla posta indesiderata e per ottenere il recapito nella sua cartella Posta indesiderata in Microsoft Outlook dei messaggi che corrispondono o superano la soglia 5 del livello di probabilità di posta indesiderata per la cartella Posta indesiderata.
 
-    Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -SCLJunkThreshold 4
+```powershell
+Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -SCLJunkThreshold 4
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -91,11 +93,15 @@ Per verificare la corretta configurazione delle funzionalità di protezione dall
 
 Eseguire il comando indicato di seguito:
 
-    Set-OrganizationConfig -SCLJunkThreshold <Integer>
+```powershell
+Set-OrganizationConfig -SCLJunkThreshold <Integer>
+```
 
 In questo la soglia di posta indesiderata dell'organizzazione viene impostata su 5.
 
-    Set-OrganizationConfig -SCLJunkThreshold 5
+```powershell
+Set-OrganizationConfig -SCLJunkThreshold 5
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -103,7 +109,9 @@ Per verificare la corretta configurazione della soglia di posta indesiderata per
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-OrganizationConfig | Format-List SCLJunkThreshold
+    ```powershell
+Get-OrganizationConfig | Format-List SCLJunkThreshold
+```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 

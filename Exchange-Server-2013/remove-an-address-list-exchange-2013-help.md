@@ -51,7 +51,9 @@ Per altre attività di gestione relative agli elenchi di indirizzi, vedere [Proc
 
 In questo esempio viene rimosso l'elenco di indirizzi Sales Department che non contiene elenchi secondari.
 
-    Remove-AddressList -Identity "Sales Department"
+```powershell
+Remove-AddressList -Identity "Sales Department"
+```
 
 Digitare **S** per confermare la rimozione dell'elenco di indirizzi, quindi premere INVIO.
 
@@ -61,7 +63,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-Addr
 
 In questo esempio viene rimosso l'elenco indirizzi Departments e tutti i suoi sottoelenchi.
 
-    Remove-AddressList -Identity Departments -Recursive
+```powershell
+Remove-AddressList -Identity Departments -Recursive
+```
 
 Digitare **S** per confermare la rimozione dell'elenco di indirizzi principale e dei relativi elenchi di indirizzi secondari, quindi premere INVIO.
 

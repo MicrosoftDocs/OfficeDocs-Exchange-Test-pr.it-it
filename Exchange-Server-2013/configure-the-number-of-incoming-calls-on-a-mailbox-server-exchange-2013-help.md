@@ -53,5 +53,7 @@ Per informazioni sulle altre attività relative ai server Cassette postali e Mes
 
 In questo esempio, viene impostato su 50 il numero di chiamate vocali, Outlook Voice Access e fax in ingresso che il server Cassette postali `MyMailboxServer1` può accettare.
 
-    Set-UMService -Identity MyMailboxServer1 -MaxCallsAllowed 50
+```powershell
+Set-UMService -Identity MyMailboxServer1 -MaxCallsAllowed 50
+```
 

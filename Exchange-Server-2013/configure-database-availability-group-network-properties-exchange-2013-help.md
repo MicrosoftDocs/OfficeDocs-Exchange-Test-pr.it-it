@@ -55,7 +55,9 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 
 In questo esempio, la subnet of 10.0.0.0 e la subnet mask 255.0.0.0 vengono aggiunte alla rete del gruppo di disponibilità del database MapiDagNetwork nel gruppo di disponibilità del database DAG1.
 
-    Set-DatabaseAvailabilityGroupNetwork -Subnets 10.0.0.0/8 -Identity DAG1\MapiDagNetwork
+```powershell
+Set-DatabaseAvailabilityGroupNetwork -Subnets 10.0.0.0/8 -Identity DAG1\MapiDagNetwork
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -63,7 +65,9 @@ Per verificare di aver configurato correttamente la rete del gruppo di disponibi
 
   - In Shell, utilizzare il seguente comando per visualizzare le impostazioni di configurazione della rete del gruppo di disponibilità del database e verificare che la rete sia stata configurata correttamente.
     
-        Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+    ```powershell
+Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+```
 
 ## Ulteriori informazioni
 

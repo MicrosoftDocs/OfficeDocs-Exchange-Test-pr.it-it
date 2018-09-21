@@ -120,5 +120,7 @@ Per verificare che sia stato cambiato un criterio cassetta postale per il dispos
 
 2.  In Shell, utilizzare il seguente comando.
     
-        Get-CASMailbox -Identity tony@contoso.com
+    ```powershell
+Get-CASMailbox -Identity tony@contoso.com
+```
 

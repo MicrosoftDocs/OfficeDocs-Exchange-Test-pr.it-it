@@ -55,7 +55,9 @@ Per le attività di gestione aggiuntive correlate ai criteri degli indirizzi di 
 
 Con questo esempio viene rimosso il criterio dell'indirizzo di posta elettronica South East Offices.
 
-    Remove-EmailAddressPolicy -Identity "South East Offices"
+```powershell
+Remove-EmailAddressPolicy -Identity "South East Offices"
+```
 
 Digitare **S** per confermare l'eliminazione del criterio, quindi premere INVIO.
 

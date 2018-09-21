@@ -29,7 +29,9 @@ Quando si utilizza il parametro *ToEntireForest* o *ToArrayMembers* con lo scrip
 
 Verificare i server lo script sarà destinato a tutti i server utilizzando il cmdlet **Get-ClientAccessArray** , come illustrato nell'esempio seguente.
 
-    Get-ClientAccessArray | fl members
+```powershell
+Get-ClientAccessArray | fl members
+```
 
 Se il server con problemi di aggiornare è un membro dell'array accesso Client e ancora non aggiornati correttamente, eseguire di nuovo Exchange il programma di installazione e aggiungere nuovamente il ruolo del server Accesso Client al server. È inoltre possibile specificare i singoli server di destinazione utilizzando il parametro *ToSpecificServers*.
 
@@ -55,7 +57,9 @@ Per risolvere questo problema, rimuovere il server della distribuzione mediante 
 
 Se il server sarà solo verso il basso per un breve periodo di tempo e non si desidera rimuovere definitivamente Exchange, è possibile modificare lo script per eseguire sui server specifici utilizzando il parametro *ToSpecificServers* in modo che solo i server attivi vengono considerati come destinazione. In alternativa, è possibile rimuovere il servizio Accesso Client RPC dall'oggetto Active Directory del server non risponde utilizzando il cmdlet **Remove-ClientAccessArray** , come illustrato nell'esempio seguente.
 
-    Remove-RPCClientAccess -Server Server.Contoso.com
+```powershell
+Remove-RPCClientAccess -Server Server.Contoso.com
+```
 
 Dopo che il servizio Accesso Client RPC è stato rimosso, il server non verrà restituito come membro di una matrice da [Get-ClientAccessArray](https://technet.microsoft.com/it-it/library/dd297976\(v=exchg.150\)) e lo script non impostarlo come destinazione. Non appena il server sia funziona nuovamente, è possibile aggiungere nuovamente il servizio Accesso Client RPC utilizzando il cmdlet **New-RpcClientAccess** . Quando il servizio Accesso Client RPC viene aggiunto nuovamente, è necessario riavviare il servizio Rubrica di Microsoft Exchange sul server interessato.
 

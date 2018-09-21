@@ -115,7 +115,9 @@ Il periodo di validità del registro di controllo determina per quanto tempo ver
 
 In questo esempio viene specificato un periodo di validità di due anni e sei mesi.
 
-    Set-AdminAuditLogConfig -AdminAuditLogAgeLimit 913.00:00:00
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogAgeLimit 913.00:00:00
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-AdminAuditLogConfig](https://technet.microsoft.com/it-it/library/dd298169\(v=exchg.150\)).
 
@@ -125,11 +127,15 @@ I cmdlet che iniziano con il verbo **Test** non vengono registrati per impostazi
 
 Questo comando consente di abilitare la registrazione dei cmdlet **Test**.
 
-    Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $True
+```powershell
+Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $True
+```
 
 Questo comando consente di disabilitare la registrazione dei cmdlet **Test**.
 
-    Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $False
+```powershell
+Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $False
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-AdminAuditLogConfig](https://technet.microsoft.com/it-it/library/dd298169\(v=exchg.150\)).
 
@@ -137,17 +143,23 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-AdminAu
 
 Per disabilitare la registrazione di controllo dell'amministratore, utilizzare il seguente comando.
 
-    Set-AdminAuditLogConfig -AdminAuditLogEnabled $False
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogEnabled $False
+```
 
 ## Abilitare la registrazione di controllo dell'amministratore
 
 Per abilitare la registrazione di controllo dell'amministratore, utilizzare il seguente comando.
 
-    Set-AdminAuditLogConfig -AdminAuditLogEnabled $True
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogEnabled $True
+```
 
 ## Visualizzazione delle impostazioni per la registrazione di controllo dell'amministratore
 
 Per visualizzare le impostazioni per la registrazione di controllo dell'amministratore configurate per l'organizzazione, utilizzare il seguente comando.
 
-    Get-AdminAuditLogConfig
+```powershell
+Get-AdminAuditLogConfig
+```
 

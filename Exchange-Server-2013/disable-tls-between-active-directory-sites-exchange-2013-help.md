@@ -49,11 +49,15 @@ Questo argomento offre istruzioni dettagliate su come configurare il servizio di
 
 Per configurare il servizio di trasporto in un server Cassette postali per utilizzare l'autenticazione al server Exchange downgrade, eseguire il seguente comando:
 
-    Set-TransportService <ServerIdentity> -UseDowngradedExchangeServerAuth $true
+```powershell
+Set-TransportService <ServerIdentity> -UseDowngradedExchangeServerAuth $true
+```
 
 In questo esempio la modifica di configurazione viene apportata al server Mailbox01.
 
-    Set-TransportService Mailbox01 -UseDowngradedExchangeServerAuth $true
+```powershell
+Set-TransportService Mailbox01 -UseDowngradedExchangeServerAuth $true
+```
 
 ## Passaggio 2: creare un connettore di ricezione dedicato nel server Cassette postali per il sito di Active Directory di destinazione
 
@@ -85,39 +89,53 @@ In questo esempio viene creato il connettore di ricezione denominato WAN nel ser
 
 <!-- end list -->
 
-    New-ReceiveConnector -Name WAN -Server Hub01 -RemoteIPRanges 10.0.2.0/24 -Internal
+```powershell
+New-ReceiveConnector -Name WAN -Server Hub01 -RemoteIPRanges 10.0.2.0/24 -Internal
+```
 
 ## Passaggio 3: utilizzare Shell per disabilitare TLS nel connettore di ricezione dedicato
 
 Per disabilitare TLS su un singolo connettore di ricezione, eseguire il comando riportato di seguito:
 
-    Set-ReceiveConnector <ReceiveConnectorIdentity> -SuppressXAnonymousTLS $true
+```powershell
+Set-ReceiveConnector <ReceiveConnectorIdentity> -SuppressXAnonymousTLS $true
+```
 
 In questo esempio viene disabilitato TLS sul connettore di ricezione WAN nel server Cassette postali denominato Mailbox01.
 
-    Set-ReceiveConnector Mailbox01\WAN -SuppressXAnonymousTLS $true
+```powershell
+Set-ReceiveConnector Mailbox01\WAN -SuppressXAnonymousTLS $true
+```
 
 ## Passaggio 4: utilizzare Shell per designare i siti di Active Directory come siti hub
 
 Per designare un sito di Active Directory come sito hub, eseguire il comando riportato di seguito:
 
-    Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```powershell
+Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```
 
 È necessario effettuare questa procedura una volta in ogni sito di Active Directory che contiene server Cassette postali che partecipano nel traffico non crittografato.
 
 Con questo esempio il sito di Active Directory denominato Central Office Site 1 viene configurato come sito hub.
 
-    Set-AdSite "Central Office Site 1" -HubSiteEnabled $true
+```powershell
+Set-AdSite "Central Office Site 1" -HubSiteEnabled $true
+```
 
 ## Passaggio 5: utilizzare Shell per configurare il percorso di instradamento meno costoso attraverso la connessione WAN
 
 A seconda di come vengono configurati i costi del collegamento al sito IP in Active Directory, questo passaggio potrebbe non essere necessario. È necessario verificare che il collegamento di rete con i dispositivi WOC distribuiti si trovino nel percorso di instradamento meno costoso. Per visualizzare i costi del collegamento al sito di Active Directory e i costi del collegamento a sito specifico per Exchange, eseguire il seguente comando:
 
-    Get-AdSiteLink
+```powershell
+Get-AdSiteLink
+```
 
 Se il collegamento di rete con i dispositivi WOC distribuiti si trova nel percorso di instradamento meno costoso, sarà necessario assegnare un costo specifico per Exchange al collegamento al sito IP specifico per garantire che i messaggi vengano instradati correttamente. Per ulteriori informazioni su questo particolare problema, vedere la sezione relativa alla configurazione dei costi del collegamento al sito di Active Directory specifico per Exchange" in [Scenario: Configurare Exchange per supportare i controller di ottimizzazione della WAN](scenario-configure-exchange-to-support-wan-optimization-controllers-exchange-2013-help.md).
 
 In questo esempio viene configurato un costo specifico di Exchange pari a 15 sul collegamento al sito IP denominato Branch Office 2-Branch Office 1.
 
-    Set-AdSiteLink "Branch Office 2-Branch Office 1" -ExchangeCost 15
+```powershell
+Set-AdSiteLink "Branch Office 2-Branch Office 1" -ExchangeCost 15
+```
 

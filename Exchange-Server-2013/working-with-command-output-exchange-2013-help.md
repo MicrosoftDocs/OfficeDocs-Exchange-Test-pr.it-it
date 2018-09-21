@@ -212,11 +212,15 @@ In questo esempio, il numero di colonne è stato impostato su quattro utilizzand
 
 Il cmdlet **Out-Host** è un cmdlet predefinito non visualizzato alla fine della pipeline. Dopo l'applicazione di tutte le formattazioni, il cmdlet **Out-Host** invia l'output finale alla finestra di console per la visualizzazione. Non è necessario eseguire esplicitamente il cmdlet **Out-Host** poiché rappresenta l'output predefinito. È possibile ignorare l'invio dell'output alla finestra di console eseguendo il cmdlet **Out-File** per ultimo nel comando. Il cmdlet **Out-File**, quindi, scrive l'output nel file specificato nel comando come nell'esempio illustrato di seguito:
 
-    Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```powershell
+Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```
 
 In questo esempio, il cmdlet **Out-File** consente di scrivere le informazioni visualizzate nel comando **Get-ChildItem | Format-Wide -Column 4** nel file denominato `OutputFile.txt`. È inoltre possibile reindirizzare l'output della pipeline a un file utilizzando l'operatore di reindirizzamento, rappresentato dalla parentesi angolata verso destra ( `>` ). Per aggiungere l'output della pipeline di un comando ad un file esistente senza sostituire il file originale, utilizzare le doppie parentesi angolate verso destra ( `>>` ), come nell'esempio illustrato di seguito:
 
-    Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```powershell
+Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```
 
 In questo esempio, l'output dal cmdlet **Get-Childitem** esegue il piping al cmdlet **Format-Wide** per la formattazione e quindi viene scritto alla fine del file `OutputFile.txt`. È importante notare che se il file `OutputFile.txt` non è disponibile, è possibile crearlo utilizzando le doppie parentesi angolate verso destra ( `>>` ).
 
@@ -249,7 +253,9 @@ Per utilizzare lo script, salvarlo nella directory `C:\Program Files\Microsoft\E
 
 Lo script `Out-Ie` presuppone che i dati ricevuti siano in codice HTML valido. Per convertire in HTML i dati che si desiderano visualizzare, è necessario eseguire il piping dei risultati del comando al cmdlet **ConvertTo-Html**. È possibile, quindi, eseguire il piping dei risultati del comando allo script `Out-Ie`. Nel seguente esempio viene descritto come visualizzare un elenco directory in una finestra di Internet Explorer:
 
-    Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```powershell
+Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```
 
 ## Filtro dei dati
 

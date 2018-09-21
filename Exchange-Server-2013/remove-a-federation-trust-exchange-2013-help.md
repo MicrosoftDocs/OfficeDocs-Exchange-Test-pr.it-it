@@ -53,7 +53,9 @@ Per altre attività di gestione relative alle relazioni di trust federative, ved
 
 In questo esempio viene rimossa la relazione di trust federativa.
 
-    Remove-FederationTrust
+```powershell
+Remove-FederationTrust
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-FederationTrust](https://technet.microsoft.com/it-it/library/dd351153\(v=exchg.150\)).
 
@@ -65,7 +67,9 @@ Per verificare che la relazione di trust federativa sia stata rimossa correttame
 
   - Nella shell, eseguire il comando riportato di seguito per verificare che non siano restituite le informazioni sulla relazione di trust federativa per l'organizzazione Exchange.
     
-        Get-FederationTrust
+    ```powershell
+Get-FederationTrust
+```
     
     Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-FederationTrust](https://technet.microsoft.com/it-it/library/dd351262\(v=exchg.150\)).
 
