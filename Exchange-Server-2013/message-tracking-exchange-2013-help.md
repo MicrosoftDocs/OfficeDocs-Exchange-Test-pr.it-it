@@ -77,7 +77,7 @@ La convenzione di denominazione per i file di registro nella directory dei regis
 
   - **MSGTRK**   Questi registri sono associati al servizio di trasporto.
 
-  - **MSGTRKMA**   Questi registri sono associati alle approvazioni e ai rifiuti utilizzati dal trasporto moderato. Per ulteriori informazioni, vedere [Gestione approvazione del messaggio](manage-message-approval-exchange-2013-help.md).
+  - **MSGTRKMA**   Questi registri sono associati alle approvazioni e ai rifiuti utilizzati dal trasporto moderato. Per ulteriori informazioni, vedere [Gestione approvazione del messaggio](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-message-approval).
 
   - **MSGTRKMD**   Questi registri sono associati ai messaggi recapitati alle cassette postali dal servizio Recapito alle cassette postali.
 
@@ -343,7 +343,7 @@ Diversi tipi di evento nel campo **event-id** sono utilizzati per classificare g
 </tr>
 <tr class="even">
 <td><p><strong>INITMESSAGECREATED</strong></p></td>
-<td><p>Un messaggio è stato inviato a un destinatario moderato, quindi il messaggio è stato inviato alla cassetta postale di arbitraggio per l'approvazione. Per ulteriori informazioni, vedere <a href="manage-message-approval-exchange-2013-help.md">Gestione approvazione del messaggio</a>.</p></td>
+<td><p>Un messaggio è stato inviato a un destinatario moderato, quindi il messaggio è stato inviato alla cassetta postale di arbitraggio per l'approvazione. Per ulteriori informazioni, vedere <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Gestione approvazione del messaggio</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LOAD</strong></p></td>
@@ -351,7 +351,7 @@ Diversi tipi di evento nel campo **event-id** sono utilizzati per classificare g
 </tr>
 <tr class="even">
 <td><p><strong>MODERATIONEXPIRE</strong></p></td>
-<td><p>Un moderatore per un destinatario moderato non ha mai approvato o rifiutato il messaggio, che è quindi scaduto. Per ulteriori informazioni sui destinatari moderati, vedere <a href="manage-message-approval-exchange-2013-help.md">Gestione approvazione del messaggio</a>.</p></td>
+<td><p>Un moderatore per un destinatario moderato non ha mai approvato o rifiutato il messaggio, che è quindi scaduto. Per ulteriori informazioni sui destinatari moderati, vedere <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Gestione approvazione del messaggio</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MODERATORAPPROVE</strong></p></td>
@@ -478,7 +478,7 @@ I valori del campo **source** nel registro di verifica messaggi indicano il comp
 </tr>
 <tr class="odd">
 <td><p><strong>APPROVAL</strong></p></td>
-<td><p>L'origine dell'evento è il framework di approvazione utilizzato con i destinatari moderati. Per ulteriori informazioni, vedere <a href="manage-message-approval-exchange-2013-help.md">Gestione approvazione del messaggio</a>.</p></td>
+<td><p>L'origine dell'evento è il framework di approvazione utilizzato con i destinatari moderati. Per ulteriori informazioni, vedere <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Gestione approvazione del messaggio</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BOOTLOADER</strong></p></td>

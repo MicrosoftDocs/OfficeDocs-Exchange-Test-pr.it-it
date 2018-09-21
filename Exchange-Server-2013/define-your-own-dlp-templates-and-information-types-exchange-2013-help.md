@@ -49,7 +49,7 @@ La gestione dei modelli personalizzati e dei criteri correlati è simile alla ge
 
 2.  Importare il modello personalizzato. Per ulteriori informazioni, vedere [Importare un modello di criteri DLP personalizzato da un file](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md).
 
-3.  Creare un criterio DLP basato sul modello personalizzato. Per ulteriori informazioni, vedere [Create a DLP policy from a template](how-to-new-dlp-data-loss-prevention-policy-template.md).
+3.  Creare un criterio DLP basato sul modello personalizzato. Per ulteriori informazioni, vedere [Create a DLP policy from a template](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template).
 
 4.  Aggiornare il modello personalizzato ripetendo i passaggi 1 e 2.
 
@@ -83,7 +83,7 @@ Le regole *Affinità* sono destinate a un determinato tipo di documento, ad esem
 
 ## Ulteriori informazioni
 
-[Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Importare un modello di criteri DLP personalizzato da un file](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
 

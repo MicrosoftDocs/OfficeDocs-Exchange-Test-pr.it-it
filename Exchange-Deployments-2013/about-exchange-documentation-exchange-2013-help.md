@@ -19,7 +19,7 @@ _<strong>Ultima modifica dell'argomento:</strong>2016-12-09_
 
 Questa raccolta di argomenti concettuali e procedurali è organizzata in base all'oggetto o alla tecnologia utilizzati da Microsoft Exchange. È possibile accedere ai singoli argomenti direttamente dal Sommario nel riquadro a sinistra, da un collegamento presente all'interno di un altro argomento della Guida, dai risultati di una ricerca o dal proprio elenco di argomenti preferiti.
 
-Altre informazioni relative alla documentazione di Exchange sono disponibili in [Avviso di copyright di terze parti](third-party-copyright-notices-exchange-2013-help.md).
+Altre informazioni relative alla documentazione di Exchange sono disponibili in [Avviso di copyright di terze parti](https://docs.microsoft.com/it-it/exchange/about-exchange-documentation/third-party-copyright-notices).
 
 ## Dove trovare la documentazione di Exchange
 
@@ -43,5 +43,5 @@ Per trovare altri strumenti di supporto, consultare le seguenti altre risorse di
 
   - [Supporto per Microsoft Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=283967)   Effettua estrazione in questa pagina per le risorse di supporto per più versioni di Exchange.
 
-  - [Accessibilità per gli utenti disabili](accessibility-for-people-with-disabilities-exchange-2013-help.md)   In questo argomento vengono fornite informazioni importanti su funzionalità, prodotti e servizi che rendono Microsoft Exchange più accessibile alle persone con disabilità.
+  - [Accessibilità per gli utenti disabili](https://docs.microsoft.com/it-it/exchange/about-exchange-documentation/accessibility)   In questo argomento vengono fornite informazioni importanti su funzionalità, prodotti e servizi che rendono Microsoft Exchange più accessibile alle persone con disabilità.
 

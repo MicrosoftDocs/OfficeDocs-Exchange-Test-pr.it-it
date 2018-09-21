@@ -25,9 +25,9 @@ Dopo aver creato una ricerca eDiscovery In locale, è possibile utilizzare EAC p
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "eDiscovery locale" nell'argomento[Criteri di messaggistica e autorizzazioni di conformità](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 
-  - Una ricerca eDiscovery deve essere creato tramite EAC o Shell, prima di copiare i risultati della ricerca. Per ulteriori informazioni, vedere [Creazione di una ricerca eDiscovery sul posto](create-an-in-place-ediscovery-search-exchange-2013-help.md).
+  - Una ricerca eDiscovery deve essere creato tramite EAC o Shell, prima di copiare i risultati della ricerca. Per ulteriori informazioni, vedere [Creazione di una ricerca eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search).
 
-  - Exchange 2013 Il programma di installazione consente di creare una cassetta postale di individuazione denominata una **Cassetta postale di individuazione** per copiare i risultati della ricerca. La cassetta postale di individuazione viene creata anche in Exchange Online per impostazione predefinita. È possibile creare cassette postali di individuazione aggiuntive. Per ulteriori informazioni, vedere [Creazione di una cassetta postale di individuazione](create-a-discovery-mailbox-exchange-2013-help.md).
+  - Exchange 2013 Il programma di installazione consente di creare una cassetta postale di individuazione denominata una **Cassetta postale di individuazione** per copiare i risultati della ricerca. La cassetta postale di individuazione viene creata anche in Exchange Online per impostazione predefinita. È possibile creare cassette postali di individuazione aggiuntive. Per ulteriori informazioni, vedere [Creazione di una cassetta postale di individuazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/create-a-discovery-mailbox).
 
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -71,7 +71,7 @@ Dopo aver creato una ricerca eDiscovery In locale, è possibile utilizzare EAC p
 
 Dopo aver utilizzato il cmdlet **New-MailboxSearch** per creare una ricerca eDiscovery In locale, è necessario avviare la ricerca per copiare i messaggi per la cassetta postale di individuazione specificato nel parametro *TargetMailbox* . Per informazioni sulla creazione di ricerche eDiscovery utilizzando Shell, vedere:
 
-  - [Use the Shell to create an In-Place eDiscovery search](create-an-in-place-ediscovery-search-exchange-2013-help.md)
+  - [Use the Shell to create an In-Place eDiscovery search](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search)
 
   - [New-MailboxSearch](https://technet.microsoft.com/it-it/library/dd298064\(v=exchg.150\))
 
@@ -93,7 +93,7 @@ Per copiare i risultati della ricerca in una cassetta postale di individuazione,
 
 ## Ulteriori informazioni sulla copia dei risultati di ricerca
 
-  - Dopo aver copiato i risultati della ricerca per la cassetta postale di individuazione, è possibile esportare i risultati della ricerca in un file PST. Per ulteriori informazioni, vedere [Esportazione dei risultati della ricerca eDiscovery in un file PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md).
+  - Dopo aver copiato i risultati della ricerca per la cassetta postale di individuazione, è possibile esportare i risultati della ricerca in un file PST. Per ulteriori informazioni, vedere [Esportazione dei risultati della ricerca eDiscovery in un file PST](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/export-search-results).
 
   - Per ulteriori informazioni sugli elementi non ricercabili, vedere [Elementi non ricercabili in Exchange eDiscovery](unsearchable-items-in-exchange-ediscovery-exchange-2013-help.md).
 
@@ -105,5 +105,5 @@ Per copiare i risultati della ricerca in una cassetta postale di individuazione,
     
       - **Risultati della ricerca di anteprima**   Questa opzione consente di visualizzare in anteprima i risultati di ricerca restituiti dalla ricerca invece di copiarli in una cassetta postale di individuazione per visualizzare. Consente di determinare rapidamente se i risultati della ricerca sono pertinenti. Dopo che visualizzare in anteprima i risultati, è possibile modificare le query di ricerca per limitare i risultati di ricerca e rieseguire la ricerca. Gli elementi nella pagina anteprima sono di sola lettura versioni dei risultati della ricerca effettivo, in modo che non è possibile spostare, modificare, eliminare o inoltrare nella pagina di anteprima.
     
-    Per ulteriori informazioni, vedere [stima o anteprima dei risultati di ricerca](create-an-in-place-ediscovery-search-exchange-2013-help.md).
+    Per ulteriori informazioni, vedere [stima o anteprima dei risultati di ricerca](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search).
 

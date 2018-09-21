@@ -106,7 +106,7 @@ Nella figura seguente è illustrata la relazione tra l'account utente collegato 
     
       - **Database delle cassette postali**   Utilizzare questa opzione per specificare un database delle cassette postali invece che permettere a Exchange di selezionarlo automaticamente. Fare clic su **Sfoglia** per aprire la finestra di dialogo **Seleziona database delle cassette postali**. In questa finestra di dialogo vengono elencati tutti i database delle cassette postali nell'organizzazione di Exchange. Per impostazione predefinita, i database delle cassette postali sono ordinati per nome. È inoltre possibile fare clic sul titolo della colonna corrispondente per ordinare i database in base al nome o alla versione del server. Selezionare il database delle cassette postali desiderato e fare clic su **OK**.
     
-      - **Criterio rubrica**   Utilizzare questa opzione per specificare un criterio per la rubrica per la cassetta postale collegata. I criteri rubrica contengono un elenco di indirizzi globale, una rubrica offline , un elenco di sale e un set di elenchi di indirizzi. Quando un ABP viene assegnato agli utenti, fornisce loro un accesso ad un GAL personalizzato in Outlook e Outlook Web App. Per ulteriori informazioni, vedere [Criteri delle rubriche](address-book-policies-exchange-2013-help.md).
+      - **Criterio rubrica**   Utilizzare questa opzione per specificare un criterio per la rubrica per la cassetta postale collegata. I criteri rubrica contengono un elenco di indirizzi globale, una rubrica offline , un elenco di sale e un set di elenchi di indirizzi. Quando un ABP viene assegnato agli utenti, fornisce loro un accesso ad un GAL personalizzato in Outlook e Outlook Web App. Per ulteriori informazioni, vedere [Criteri delle rubriche](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/address-book-policies).
         
         Nell'elenco a discesa, selezionare il criterio da associare a questa cassetta postale.
 
@@ -134,7 +134,7 @@ Per verificare la corretta creazione della cassetta postale collegata, effettuar
 
 Dopo aver creato la cassetta postale collegata, è possibile effettuare modifiche e impostare proprietà aggiuntive utilizzando l'interfaccia di amministrazione di Exchange (EAC) o Exchange Management Shell.
 
-È anche possibile modificare contemporaneamente le proprietà di più cassette postali collegate. Per ulteriori informazioni, vedere la sezione "Modifica collettiva delle cassette postali utente" nell'argomento [Gestire le cassette postali degli utenti](manage-user-mailboxes-exchange-2013-help.md).
+È anche possibile modificare contemporaneamente le proprietà di più cassette postali collegate. Per ulteriori informazioni, vedere la sezione "Modifica collettiva delle cassette postali utente" nell'argomento [Gestire le cassette postali degli utenti](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 
 > [!IMPORTANT]
@@ -256,7 +256,7 @@ Utilizzare la sezione **Funzionalità delle cassette postali** per visualizzare 
 
   - **Criteri rubrica**   Questa casella mostra il criterio rubrica applicato alla cassetta postale. Un criterio rubrica consente di segmentare gli utenti in gruppi specifici per fornire visualizzazioni personalizzate della rubrica. Per applicare o modificare il criterio rubrica applicato alla cassetta postale, selezionarne uno dall'elenco a discesa.
 
-  - **Messaggistica unificata**   Questa funzionalità è disabilitata per impostazione predefinita. Quando si abilita la messaggistica unificata (UM) l'utente sarà in grado di utilizzare le funzionalità di messaggistica unificata dell'organizzazione ed un gruppo predefinito di proprietà di messaggistica unificata viene applicato all'utente. Fare clic su **Abilita** per abilitare la messaggistica unificata per la cassetta postale. Per informazioni su come abilitare la messaggistica unificata, vedere [Consentire a un utente per la segreteria telefonica](enable-a-user-for-voice-mail-exchange-2013-help.md).
+  - **Messaggistica unificata**   Questa funzionalità è disabilitata per impostazione predefinita. Quando si abilita la messaggistica unificata (UM) l'utente sarà in grado di utilizzare le funzionalità di messaggistica unificata dell'organizzazione ed un gruppo predefinito di proprietà di messaggistica unificata viene applicato all'utente. Fare clic su **Abilita** per abilitare la messaggistica unificata per la cassetta postale. Per informazioni su come abilitare la messaggistica unificata, vedere [Consentire a un utente per la segreteria telefonica](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
     
 
     > [!NOTE]

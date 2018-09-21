@@ -23,7 +23,7 @@ Quando si effettua l'integrazione di Microsoft Lync Server con il servizio Messa
     
 
     > [!IMPORTANT]
-    > Lo script ExchUcUtil.ps1 crea uno o più gateway IP di messaggistica unificata. È necessario disabilitare le chiamate in uscita su tutti i gateway IP di messaggistica unificata, ad eccezione di quello creato dallo script. Questo comprende la disabilitazione delle chiamate in uscita sui gateway IP di messaggistica unificata creati prima dell'esecuzione dello script. Per disabilitare le chiamate in uscita su un gateway IP di messaggistica unificata, vedere <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Disabilitare le chiamate in uscita sui gateway IP di messaggistica unificata</A>.
+    > Lo script ExchUcUtil.ps1 crea uno o più gateway IP di messaggistica unificata. È necessario disabilitare le chiamate in uscita su tutti i gateway IP di messaggistica unificata, ad eccezione di quello creato dallo script. Questo comprende la disabilitazione delle chiamate in uscita sui gateway IP di messaggistica unificata creati prima dell'esecuzione dello script. Per disabilitare le chiamate in uscita su un gateway IP di messaggistica unificata, vedere <A href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Disabilitare le chiamate in uscita sui gateway IP di messaggistica unificata</A>.
 
 
 
@@ -59,7 +59,7 @@ Eseguire lo script ExchUcUtil.ps1 su qualsiasi server di Exchange dell'organizza
 
 
 > [!IMPORTANT]
-> Lo script ExchUcUtil.ps1 crea uno o più gateway IP di messaggistica unificata. È necessario disabilitare le chiamate in uscita su tutti i gateway IP di messaggistica unificata, ad eccezione di quello creato dallo script. Questo comprende la disabilitazione delle chiamate in uscita sui gateway IP di messaggistica unificata creati prima dell'esecuzione dello script. Per disabilitare le chiamate in uscita su un gateway IP di messaggistica unificata, vedere <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Disabilitare le chiamate in uscita sui gateway IP di messaggistica unificata</A>.
+> Lo script ExchUcUtil.ps1 crea uno o più gateway IP di messaggistica unificata. È necessario disabilitare le chiamate in uscita su tutti i gateway IP di messaggistica unificata, ad eccezione di quello creato dallo script. Questo comprende la disabilitazione delle chiamate in uscita sui gateway IP di messaggistica unificata creati prima dell'esecuzione dello script. Per disabilitare le chiamate in uscita su un gateway IP di messaggistica unificata, vedere <A href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Disabilitare le chiamate in uscita sui gateway IP di messaggistica unificata</A>.
 
 
 

@@ -85,12 +85,12 @@ Per istruzioni dettagliate sulla distribuzione della Messaggistica unificata e d
 <tr class="odd">
 <td><p><strong> </strong></p></td>
 <td><p>Creare il numero di dial plan richiesto per l'organizzazione.</p></td>
-<td><p><a href="create-a-um-dial-plan-exchange-2013-help.md">Creazione di un dial plan di messaggistica unificata</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan">Creazione di un dial plan di messaggistica unificata</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Configurare l'impostazione di protezione del dial plan.</p></td>
-<td><p><a href="configure-the-voip-security-setting-exchange-2013-help.md">Configurare le impostazioni di protezione VoIP</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting">Configurare le impostazioni di protezione VoIP</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -106,24 +106,24 @@ Per istruzioni dettagliate sulla distribuzione della Messaggistica unificata e d
 <tr class="odd">
 <td><p></p></td>
 <td><p>Configurare i numeri di Outlook Voice Access e di altre impostazioni.</p></td>
-<td><p><a href="manage-a-um-dial-plan-exchange-2013-help.md">Gestire un dial plan di messaggistica unificata</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-dial-plan">Gestire un dial plan di messaggistica unificata</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Configurare la composizione in uscita per la Messaggistica unificata.</p></td>
-<td><p><a href="authorize-calls-using-dialing-rules-exchange-2013-help.md">Autorizzare chiamate utilizzando le regole di composizione</a></p>
-<p><a href="authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md">Autorizzare chiamate per gli utenti in un dial plan</a></p>
-<p><a href="authorize-calls-for-a-group-of-users-exchange-2013-help.md">Autorizzare le chiamate per un gruppo di utenti</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-using-dialing-rules">Autorizzare chiamate utilizzando le regole di composizione</a></p>
+<p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-users-in-a-dial-plan">Autorizzare chiamate per gli utenti in un dial plan</a></p>
+<p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-a-group-of-users">Autorizzare le chiamate per un gruppo di utenti</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p>Creare il numero richiesto di operatori automatici.</p></td>
-<td><p><a href="create-a-um-auto-attendant-exchange-2013-help.md">Creazione di un operatore automatico di messaggistica unificata</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant">Creazione di un operatore automatico di messaggistica unificata</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Impostare e configurare ogni operatore automatico di messaggistica unificata.</p></td>
-<td><p><a href="set-up-a-um-auto-attendant-exchange-2013-help.md">Configurare un operatore automatico di messaggistica unificata</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant">Configurare un operatore automatico di messaggistica unificata</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong> </strong></p></td>
@@ -141,13 +141,13 @@ Per istruzioni dettagliate sulla distribuzione della Messaggistica unificata e d
 <tr class="odd">
 <td><p><strong> </strong></p></td>
 <td><p>Creare un criterio cassetta postale di messaggistica unificata o configurare il criterio cassetta postale di messaggistica unificata predefinito.</p></td>
-<td><p><a href="create-a-um-mailbox-policy-exchange-2013-help.md">Creazione di un criterio cassetta postale di messaggistica unificata</a></p>
-<p><a href="manage-a-um-mailbox-policy-exchange-2013-help.md">Gestire i criteri cassetta postale di messaggistica unificata</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy">Creazione di un criterio cassetta postale di messaggistica unificata</a></p>
+<p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy">Gestire i criteri cassetta postale di messaggistica unificata</a></p></td>
 </tr>
 <tr class="even">
 <td><p> </p></td>
 <td><p>Abilitare gli utenti alla Messaggistica unificata con un numero di estensione e un numero E.164, se necessario.</p></td>
-<td><p><a href="enable-a-user-for-voice-mail-exchange-2013-help.md">Consentire a un utente per la segreteria telefonica</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail">Consentire a un utente per la segreteria telefonica</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

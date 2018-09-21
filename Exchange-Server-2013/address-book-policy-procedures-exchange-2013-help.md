@@ -17,11 +17,11 @@ _**Si applica a:** Exchange Server 2013_
 
 _**Ultima modifica dell'argomento:** 2012-10-11_
 
-[Creare un criterio della Rubrica](create-an-address-book-policy-exchange-2013-help.md)
+[Creare un criterio della Rubrica](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/create-an-address-book-policy)
 
-[Assegnare un criterio della Rubrica per gli utenti di posta](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md)
+[Assegnare un criterio della Rubrica per gli utenti di posta](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/assign-an-address-book-policy-to-mail-users)
 
-[Modificare le impostazioni di un criterio della Rubrica](change-the-settings-of-an-address-book-policy-exchange-2013-help.md)
+[Modificare le impostazioni di un criterio della Rubrica](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/change-the-settings-of-an-address-book-policy)
 
-[Rimuovere un criterio della Rubrica](remove-an-address-book-policy-exchange-2013-help.md)
+[Rimuovere un criterio della Rubrica](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/remove-an-address-book-policy)
 

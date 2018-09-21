@@ -51,5 +51,5 @@ Nelle versioni precedenti di Exchange, la creazione di una cassetta postale cond
 
 ## Conversione delle cassette postali condivise
 
-Nelle versioni precedenti di Exchange, si poteva utilizzare una cassetta postale standard come cassetta postale delegata. Se si dispone di cassette postali delegate, si può utilizzare Shell per convertire quelle cassette postali delegate in cassette postali condivise. Per ulteriori informazioni, vedere [Conversione di una cassetta postale](convert-a-mailbox-exchange-2013-help.md).
+Nelle versioni precedenti di Exchange, si poteva utilizzare una cassetta postale standard come cassetta postale delegata. Se si dispone di cassette postali delegate, si può utilizzare Shell per convertire quelle cassette postali delegate in cassette postali condivise. Per ulteriori informazioni, vedere [Conversione di una cassetta postale](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-user-mailboxes/convert-a-mailbox).
 

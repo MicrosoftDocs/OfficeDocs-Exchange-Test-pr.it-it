@@ -84,7 +84,7 @@ Con questo esempio viene creata la cassetta postale condivisa Sales Department e
 
 
 > [!NOTE]
-> In questo esempio si presuppone che sia già stato creato il gruppo di sicurezza MarketingSG e che tale gruppo sia abilitato all'utilizzo della posta. Vedere <A href="manage-mail-enabled-security-groups-exchange-2013-help.md">Gestire gruppi di sicurezza abilitati alla posta elettronica</A>.
+> In questo esempio si presuppone che sia già stato creato il gruppo di sicurezza MarketingSG e che tale gruppo sia abilitato all'utilizzo della posta. Vedere <A href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups">Gestire gruppi di sicurezza abilitati alla posta elettronica</A>.
 
 
 

@@ -51,7 +51,7 @@ Dopo aver creato una ricerca eDiscovery In locale, è possibile modificare in mo
         
 
         > [!IMPORTANT]
-        > È possibile utilizzare l'opzione <STRONG>di ricerca tutte le cassette postali</STRONG> per effettuare tutte le cassette postali sui server cassette postali Exchange 2013 in attesa. Per creare un'archiviazione sul posto, è necessario selezionare <STRONG>le cassette postali specificare la ricerca</STRONG>. Per ulteriori informazioni, vedere <A href="create-or-remove-an-in-place-hold-exchange-2013-help.md">Creare o rimuovere un'archiviazione sul posto</A>.
+        > È possibile utilizzare l'opzione <STRONG>di ricerca tutte le cassette postali</STRONG> per effettuare tutte le cassette postali sui server cassette postali Exchange 2013 in attesa. Per creare un'archiviazione sul posto, è necessario selezionare <STRONG>le cassette postali specificare la ricerca</STRONG>. Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/create-or-remove-in-place-holds">Creare o rimuovere un'archiviazione sul posto</A>.
 
     
       - Nella pagina **query di ricerca**, modificare i campi seguenti:

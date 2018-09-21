@@ -60,7 +60,7 @@ Utilizzare il seguente comando per configurare l'applicazione partner di SharePo
 
 ## Passaggio 3: Aggiungere gli utenti autorizzati al gruppo di ruoli Gestione individuazione
 
-Aggiungere gli utenti che devono eseguire una ricerca eDiscovery utilizzando SharePoint 2013 al gruppo di ruoli Gestione individuazione in Exchange 2013. Per ulteriori informazioni, vedere [Assegnare le autorizzazioni di eDiscovery di Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
+Aggiungere gli utenti che devono eseguire una ricerca eDiscovery utilizzando SharePoint 2013 al gruppo di ruoli Gestione individuazione in Exchange 2013. Per ulteriori informazioni, vedere [Assegnare le autorizzazioni di eDiscovery di Exchange](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
 
 
 > [!WARNING]

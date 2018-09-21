@@ -25,13 +25,13 @@ Quando si effettua una cassetta postale di conservazione per controversia legale
 
 
 > [!NOTE]
-> È inoltre possibile configurare an In-Place Hold per escludere gli elementi di Lync. Ad esempio, le organizzazioni preferibile conservare elementi della segreteria telefonica e messaggistica immediata per un periodo di tempo più breve rispetto ad altri tipi di contenuto. Per implementare questo tipo di criterio di conservazione, è necessario creare un'archiviazione sul posto per conservare il contenuto per un lungo periodo di tempo (ad esempio, 7 anni) ed escludere elementi Lync dall'esenzione. È quindi necessario creare un altro In-Place Hold con una durata di conservazione più breve che mantiene solo gli elementi di Lync. È inoltre possibile specificare per quanto tempo il contenuto deve essere mantenuto. Per ulteriori informazioni sulla creazione di un'esenzione con un determinato periodo di tempo, vedere <A href="in-place-hold-and-litigation-hold-exchange-2013-help.md">Archiviazione sul posto e conservazione per controversia legale</A>.
+> È inoltre possibile configurare an In-Place Hold per escludere gli elementi di Lync. Ad esempio, le organizzazioni preferibile conservare elementi della segreteria telefonica e messaggistica immediata per un periodo di tempo più breve rispetto ad altri tipi di contenuto. Per implementare questo tipo di criterio di conservazione, è necessario creare un'archiviazione sul posto per conservare il contenuto per un lungo periodo di tempo (ad esempio, 7 anni) ed escludere elementi Lync dall'esenzione. È quindi necessario creare un altro In-Place Hold con una durata di conservazione più breve che mantiene solo gli elementi di Lync. È inoltre possibile specificare per quanto tempo il contenuto deve essere mantenuto. Per ulteriori informazioni sulla creazione di un'esenzione con un determinato periodo di tempo, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds">Archiviazione sul posto e conservazione per controversia legale</A>.
 
 
 
 Vedere gli argomenti seguenti per istruzioni dettagliate per l'immissione di un utente in attesa:
 
-  - [Creare o rimuovere un'archiviazione sul posto](create-or-remove-an-in-place-hold-exchange-2013-help.md)
+  - [Creare o rimuovere un'archiviazione sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/create-or-remove-in-place-holds)
 
   - [Conservazione in caso di dispute di una cassetta postale](place-a-mailbox-on-litigation-hold-exchange-2013-help.md)
 

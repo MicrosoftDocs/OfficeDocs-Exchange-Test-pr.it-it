@@ -35,7 +35,8 @@ Microsoft Exchange Server 2013. Prima di utilizzare Exchange 2013 e i contenuti
     
       - [Installazione di Exchange 2013 utilizzando l'installazione guidata](install-exchange-2013-using-the-setup-wizard-exchange-2013-help.md)
     
-      - [Installare Exchange 2013 utilizzando la modalità automatica](install-exchange-2013-using-unattended-mode-exchange-2013-help.md)
+      - [Installare Exchange 2013 utilizzando la modalità automatica](ge-2013-using-unattended-mode-exchange-2013-help 
+Redirect to URL: https://review.docs.microsoft.com/zh-cn/office/exchange-server-2013/exchange-2013-client-access-server-configuration-exchange-2013-help)
     
       - [Attività successive all'installazione di Exchange 2013](exchange-2013-post-installation-tasks-exchange-2013-help.md)
     
@@ -92,7 +93,7 @@ Il contenuto della Guida di Exchange 2013 comprende le seguenti categorie di pri
 
   - [Prestazioni e lo stato dei server](server-health-and-performance-exchange-2013-help.md)
 
-  - [Informazioni sulla documentazione di Exchange](about-exchange-documentation-exchange-2013-help.md)
+  - [Informazioni sulla documentazione di Exchange](https://docs.microsoft.com/it-it/exchange/about-exchange-documentation)
 
 
 > [!NOTE]

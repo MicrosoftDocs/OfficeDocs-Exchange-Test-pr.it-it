@@ -107,7 +107,7 @@ Per ulteriori informazioni su come installare i Exchange 2013, vedere [Pianifica
     
     A partire da aggiornamento cumulativo 6 di Exchange 2013, se si desidera che i mittenti esterni possano inviare posta a un cartelle pubbliche abilitate alla posta, l'utente **anonimo** deve disporre almeno dell'autorizzazione **Creazione degli elementi**. Se si è mai stato eseguito configurato cartelle pubbliche abilitate alla posta elettronica, i mittenti esterni riceverà una notifica di recapito del e i messaggi non recapitati nella cartella pubblica supportano la posta elettronica.
     
-    È possibile utilizzare la Shell o Outlook per impostare le autorizzazioni per l'utente anonimo. Leggere ulteriori informazioni su come impostare le autorizzazioni per l'utente anonimo, vedere [Posta elettronica attiva o Disattiva posta una cartella pubblica](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+    È possibile utilizzare la Shell o Outlook per impostare le autorizzazioni per l'utente anonimo. Leggere ulteriori informazioni su come impostare le autorizzazioni per l'utente anonimo, vedere [Posta elettronica attiva o Disattiva posta una cartella pubblica](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
   - Il numero massimo di cartelle pubbliche che può eseguire la migrazione a Exchange 2013 dal server Exchange legacy è 500.000. Per ulteriori informazioni sulla migrazione delle cartelle pubbliche, vedere [Utilizzare la migrazione seriale per spostare le cartelle pubbliche in Exchange 2013 dalle versioni precedenti](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md).
 

@@ -23,7 +23,7 @@ _**Ultima modifica dell'argomento:** 2017-01-18_
 
 
 
-L'organizzazione può richiedere dati della cassetta postale deve essere conservato per un determinato periodo. È possibile utilizzare conservazione per controversia legale o archiviazione sul posto per soddisfare questo requisito. Dopo che si effettua una cassetta postale di conservazione per controversia legale o archiviazione sul posto, gli elementi delle cassette postali che sono stati modificati o eliminati definitivamente vengono mantenuti nella cartella elementi ripristinabili. Per ulteriori informazioni, vedere [Archiviazione sul posto e conservazione per controversia legale](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+L'organizzazione può richiedere dati della cassetta postale deve essere conservato per un determinato periodo. È possibile utilizzare conservazione per controversia legale o archiviazione sul posto per soddisfare questo requisito. Dopo che si effettua una cassetta postale di conservazione per controversia legale o archiviazione sul posto, gli elementi delle cassette postali che sono stati modificati o eliminati definitivamente vengono mantenuti nella cartella elementi ripristinabili. Per ulteriori informazioni, vedere [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 Prima di mettere tutte le cassette postali di un'organizzazione su Conservazione per controversia legale o Archiviazione sul posto, tenere presente che:
 
@@ -111,7 +111,7 @@ Nell'esempio viene utilizzato il cmdlet [Get-Mailbox](https://technet.microsoft.
 
 ## Archiviare tutte le cassette postali con Archiviazione sul posto
 
-È possibile utilizzare EAC per selezionare fino a 500 cassette postali e archiviarle. Per ulteriori informazioni, vedere [Creare o rimuovere un'archiviazione sul posto](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+È possibile utilizzare EAC per selezionare fino a 500 cassette postali e archiviarle. Per ulteriori informazioni, vedere [Creare o rimuovere un'archiviazione sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
 
 > [!TIP]
@@ -123,7 +123,7 @@ Nell'esempio viene utilizzato il cmdlet [Get-Mailbox](https://technet.microsoft.
 
   - Quando si effettua tutte le cassette postali nell'organizzazione in attesa, solo le cassette postali presenti in fase di che esecuzione del comando sono messi in attesa. Se si creano nuove cassette postali in seguito, eseguire nuovamente il comando per posizionarli in attesa. Se si creano spesso nuove cassette postali, è possibile eseguire il comando come attività pianificata con una frequenza in base alle esigenze.
 
-  - Posizionare le cassette postali in attesa conserva i dati di evitare l'eliminazione prima del periodo specificato, quindi salvare la versione originale di un messaggio prima che venga modificato. I messaggi non verranno automaticamente eliminati dopo il periodo specificato. Combinare conservazione per controversia legale o archiviazione sul posto con un criterio di conservazione, che può eliminare automaticamente i messaggi al termine del periodo specificato, per soddisfare requisiti di conservazione di posta elettronica dell'organizzazione. [Tag di conservazione e criteri di conservazione](retention-tags-and-retention-policies-exchange-2013-help.md) per ulteriori informazioni, vedere.
+  - Posizionare le cassette postali in attesa conserva i dati di evitare l'eliminazione prima del periodo specificato, quindi salvare la versione originale di un messaggio prima che venga modificato. I messaggi non verranno automaticamente eliminati dopo il periodo specificato. Combinare conservazione per controversia legale o archiviazione sul posto con un criterio di conservazione, che può eliminare automaticamente i messaggi al termine del periodo specificato, per soddisfare requisiti di conservazione di posta elettronica dell'organizzazione. [Tag di conservazione e criteri di conservazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies) per ulteriori informazioni, vedere.
 
   - Il comando PowerShell utilizzato in questo argomento per posizionare una conservazione per controversia legale in tutte le cassette postali viene utilizzato un filtro destinatari che restituisce tutte le cassette postali degli utenti. È possibile utilizzare altre proprietà del destinatario per restituire un elenco di cassette postali specifiche che è possibile quindi inviata tramite pipe al cmdlet **Set-Mailbox** per mettere una conservazione per controversia legale per le cassette postali.
     

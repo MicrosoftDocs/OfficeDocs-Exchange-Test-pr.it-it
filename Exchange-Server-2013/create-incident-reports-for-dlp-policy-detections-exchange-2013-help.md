@@ -139,5 +139,5 @@ Di seguito è riportato un elenco completo dei nomi di riga nel modello di rappo
 
 [Visualizzare i report di rilevamento dei criteri DLP](view-dlp-policy-detection-reports-exchange-2013-help.md)
 
-[Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 

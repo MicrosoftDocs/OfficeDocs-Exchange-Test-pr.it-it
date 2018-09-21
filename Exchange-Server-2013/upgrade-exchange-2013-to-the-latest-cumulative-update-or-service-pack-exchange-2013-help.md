@@ -53,7 +53,8 @@ Se Microsoft Exchange Server 2013 è installato, è possibile eseguire l'aggiorn
 
   - [Installazione di Exchange 2013 utilizzando l'installazione guidata](install-exchange-2013-using-the-setup-wizard-exchange-2013-help.md)
 
-  - [Installare Exchange 2013 utilizzando la modalità automatica](install-exchange-2013-using-unattended-mode-exchange-2013-help.md)
+  - [Installare Exchange 2013 utilizzando la modalità automatica](ge-2013-using-unattended-mode-exchange-2013-help 
+Redirect to URL: https://review.docs.microsoft.com/zh-cn/office/exchange-server-2013/exchange-2013-client-access-server-configuration-exchange-2013-help)
 
 Se il computer su cui è stato installato un service pack o un aggiornamento cumulativo fa parte di un gruppo di disponibilità dei database, seguire la procedura nella sezione [Gestione dei gruppi di disponibilità del database](managing-database-availability-groups-exchange-2013-help.md) dell'argomento [Gestione dei gruppi di disponibilità del database](managing-database-availability-groups-exchange-2013-help.md).
 

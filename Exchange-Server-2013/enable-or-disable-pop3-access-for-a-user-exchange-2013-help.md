@@ -25,7 +25,7 @@ _**Ultima modifica dell'argomento:** 2014-01-06_
 
 
 
-Per ulteriori informazioni relative alla gestione delle cassette postali utente, vedere [Gestire le cassette postali degli utenti](manage-user-mailboxes-exchange-2013-help.md).
+Per ulteriori informazioni relative alla gestione delle cassette postali utente, vedere [Gestire le cassette postali degli utenti](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 Per ulteriori informazioni su POP3 e IMAP4, vedere [POP3 e IMAP4 in Exchange Server 2013](pop3-and-imap4-in-exchange-server-2013-exchange-2013-help.md).
 

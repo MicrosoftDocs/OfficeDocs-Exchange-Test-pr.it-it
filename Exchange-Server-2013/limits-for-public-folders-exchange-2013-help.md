@@ -47,7 +47,7 @@ Nella tabella seguente sono elencati i limiti per le cartelle pubbliche in local
 <tr class="odd">
 <td><p>Numero totale di cassette postali di cartelle pubbliche</p></td>
 <td><p>100</p></td>
-<td><p>Sebbene sia possibile creare più di 100 cassette postali di cartelle pubbliche, questa operazione non è supportata. <a href="create-a-public-folder-mailbox-exchange-2013-help.md">Creazione di una cassetta postale di cartelle pubbliche</a></p></td>
+<td><p>Sebbene sia possibile creare più di 100 cassette postali di cartelle pubbliche, questa operazione non è supportata. <a href="https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/create-public-folder-mailbox">Creazione di una cassetta postale di cartelle pubbliche</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Totale cartelle pubbliche nella gerarchia</p></td>

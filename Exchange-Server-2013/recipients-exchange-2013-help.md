@@ -277,7 +277,7 @@ Per facilitare la creazione dei filtri destinatario per i gruppi di distribuzion
 
   - Contenitore dei destinatari
 
-È inoltre possibile specificare condizioni diverse rispetto a quelle precedentemente elencate basate sulle proprietà dei destinatari. A questo scopo, è necessario utilizzare Shell per creare una query personalizzata per il gruppo di distribuzione dinamico. Si ricordi che le impostazioni del filtro e delle condizioni per i gruppi di distribuzione dinamici che dispongono di filtri destinatari personalizzati possono essere gestite solo da Shell. Per un esempio di come creare un gruppo di distribuzione dinamico utilizzando una query personalizzata, vedere [Gestione dei gruppi di distribuzione dinamici](manage-dynamic-distribution-groups-exchange-2013-help.md).
+È inoltre possibile specificare condizioni diverse rispetto a quelle precedentemente elencate basate sulle proprietà dei destinatari. A questo scopo, è necessario utilizzare Shell per creare una query personalizzata per il gruppo di distribuzione dinamico. Si ricordi che le impostazioni del filtro e delle condizioni per i gruppi di distribuzione dinamici che dispongono di filtri destinatari personalizzati possono essere gestite solo da Shell. Per un esempio di come creare un gruppo di distribuzione dinamico utilizzando una query personalizzata, vedere [Gestione dei gruppi di distribuzione dinamici](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups).
 
 ## Contatti di posta
 
@@ -341,7 +341,7 @@ Nella seguente tabella, sono riportati i collegamenti agli argomenti che offrono
 <td><p>Ulteriori informazioni sulla creazione di utenti di cassette postali utilizzando l'interfaccia di amministrazione di Exchange o Exchange Management Shell.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-user-mailboxes-exchange-2013-help.md">Gestire le cassette postali degli utenti</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Gestire le cassette postali degli utenti</a></p></td>
 <td><p>Maggiori informazioni su come creare cassette postali utente, modificare le proprietà delle cassette postali e modificare in blocco le proprietà selezionate per più cassette postali.</p></td>
 </tr>
 <tr class="odd">
@@ -349,31 +349,31 @@ Nella seguente tabella, sono riportati i collegamenti agli argomenti che offrono
 <td><p>Maggiori informazioni sui requisiti delle cassette postali collegate, su come crearle e collegarle a un account master e su come modificare le proprietà delle cassette postali collegate.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-and-manage-distribution-groups-exchange-2013-help.md">Creazione e gestione dei gruppi di distribuzione</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups">Creazione e gestione dei gruppi di distribuzione</a></p></td>
 <td><p>Maggiori informazioni su come creare e gestire gruppi di distribuzione e creare un criterio di denominazione dei gruppi per l'organizzazione.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-mail-enabled-security-groups-exchange-2013-help.md">Gestire gruppi di sicurezza abilitati alla posta elettronica</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups">Gestire gruppi di sicurezza abilitati alla posta elettronica</a></p></td>
 <td><p>Maggiori informazioni su come creare e gestire i gruppi di protezione abilitati alla posta elettronica.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-dynamic-distribution-groups-exchange-2013-help.md">Gestione dei gruppi di distribuzione dinamici</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups">Gestione dei gruppi di distribuzione dinamici</a></p></td>
 <td><p>Maggiori informazioni su come creare i gruppi di distribuzione dinamici e gestire le proprietà dei gruppi di distribuzione dinamici, quali l'utilizzo di attributi personalizzati e altre proprietà per determinare l'appartenenza al gruppo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-mail-contacts-exchange-2013-help.md">Gestire i contatti di posta</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-contacts">Gestire i contatti di posta</a></p></td>
 <td><p>Maggiori informazioni su come creare e gestire i contatti di posta.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-mail-users-exchange-2013-help.md">Gestire gli utenti di posta</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-users">Gestire gli utenti di posta</a></p></td>
 <td><p>Maggiori informazioni su come creare e gestire gli utenti di posta.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="create-and-manage-room-mailboxes-exchange-2013-help.md">Creazione e gestione delle cassette sala</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-room-mailboxes">Creazione e gestione delle cassette sala</a></p></td>
 <td><p>Maggiori informazioni su come creare cassette postali sala e gestirne le proprietà, quali l'abilitazione di riunioni ricorrenti e la configurazione delle opzioni di prenotazione e pianificazione.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-equipment-mailboxes-exchange-2013-help.md">Gestire le cassette postali attrezzatura</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-equipment-mailboxes">Gestire le cassette postali attrezzatura</a></p></td>
 <td><p>Maggiori informazioni su come creare le cassette postali attrezzatura, configurare le opzioni di prenotazione e pianificazione e gestire altre proprietà delle cassette.</p></td>
 </tr>
 <tr class="odd">
@@ -389,7 +389,7 @@ Nella seguente tabella, sono riportati i collegamenti agli argomenti che offrono
 <td><p>Informazioni sull'utilizzo di filtri predefiniti o personalizzati per filtrare un gruppo di destinatari.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-permissions-for-recipients-exchange-online-help.md">Gestione delle autorizzazioni per i destinatari</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Gestione delle autorizzazioni per i destinatari</a></p></td>
 <td><p>Informazioni sull'utilizzo dell'interfaccia di amministrazione di Exchange o di Shell per l'assegnazione di autorizzazioni a utenti e gruppi.</p></td>
 </tr>
 <tr class="odd">

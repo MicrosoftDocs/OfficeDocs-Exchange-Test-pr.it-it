@@ -61,7 +61,7 @@ Le azioni disponibili nelle regole del flusso di posta nei server delle cassette
 <p><strong>Inoltra il messaggio per l'approvazione</strong> &gt; <strong>a queste persone</strong></p></td>
 <td><p><em>ModerateMessageByUser</em></p></td>
 <td><p><code>Addresses</code></p></td>
-<td><p>Inoltra il messaggio ai moderatori specificati come allegato a una richiesta di approvazione. Per ulteriori informazioni, vedere <a href="common-message-approval-scenarios-exchange-2013-help.md">Scenari comuni di approvazione messaggio</a>. Tenere presente che non è possibile utilizzare un gruppo di distribuzione come moderatore.</p></td>
+<td><p>Inoltra il messaggio ai moderatori specificati come allegato a una richiesta di approvazione. Per ulteriori informazioni, vedere <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/common-message-approval-scenarios">Scenari comuni di approvazione messaggio</a>. Tenere presente che non è possibile utilizzare un gruppo di distribuzione come moderatore.</p></td>
 <td><p>Exchange 2010 o versioni successive</p></td>
 </tr>
 <tr class="even">
@@ -632,7 +632,7 @@ Torna all'inizio
 
 ## Ulteriori informazioni
 
-[Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md)
+[Gestire le regole di flusso di posta elettronica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 [Regole del flusso di posta o di trasporto](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)
 

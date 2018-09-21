@@ -168,7 +168,7 @@ La tabella seguente elenca i contenuti di una azione che può essere eseguita ne
 </table>
 
 
-Come impostazione predefinita, in Exchange 2013 il ripristino del singolo elemento non viene abilitato per le nuove cassette postali o per le cassette postali spostate da una precedente versione di Exchange. Si deve utilizzare Exchange Management Shell per abilitare il ripristino del singolo elemento per una cassetta posale, e quindi configurare o modificare il periodo di conservazione degli elementi eliminati. Per informazioni relative all'esecuzione del ripristino di un singolo elemento, vedere [Recuperare i messaggi eliminati nella cassetta postale dell'utente](recover-deleted-messages-in-a-user-s-mailbox-exchange-2013-help.md).
+Come impostazione predefinita, in Exchange 2013 il ripristino del singolo elemento non viene abilitato per le nuove cassette postali o per le cassette postali spostate da una precedente versione di Exchange. Si deve utilizzare Exchange Management Shell per abilitare il ripristino del singolo elemento per una cassetta posale, e quindi configurare o modificare il periodo di conservazione degli elementi eliminati. Per informazioni relative all'esecuzione del ripristino di un singolo elemento, vedere [Recuperare i messaggi eliminati nella cassetta postale dell'utente](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages).
 
 Inizio pagina
 
@@ -220,9 +220,9 @@ La tabella seguente elenca i contenuti di una azione che può essere eseguita ne
 
 Per ulteriori informazioni su eDiscovery in locale, blocco sul posto e blocco per controversia legale, vedere gli argomenti seguenti:
 
-  - [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md)
+  - [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
-  - [Archiviazione sul posto e conservazione per controversia legale](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 Inizio pagina
 

@@ -173,7 +173,7 @@ Nella seguente tabella, sono riportati i collegamenti agli argomenti che offrono
 <td><p>I registri di trasporto registrano cosa accade ai messaggi quando circolano attraverso la pipeline di trasporto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-message-approval-exchange-2013-help.md">Gestione approvazione del messaggio</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Gestione approvazione del messaggio</a></p></td>
 <td><p>Il trasporto moderato richiede l'approvazione per i messaggi inviati a determinati destinatari.</p></td>
 </tr>
 <tr class="even">

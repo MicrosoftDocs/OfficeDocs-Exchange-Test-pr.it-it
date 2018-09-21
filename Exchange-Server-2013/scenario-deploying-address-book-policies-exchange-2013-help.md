@@ -205,7 +205,7 @@ Quando si utilizzano i criteri della rubrica nella propria organizzazione, è ne
 
   - Non eseguire il ruolo del server Accesso client di Exchange 2010 sul server di catalogo globale, perché in tal caso come interfaccia NSPI (Name Service Provider Interface) verrebbe utilizzato Active Directory anziché il servizio Rubrica di Microsoft Exchange. È possibile eseguire i ruoli del server di Exchange 2013 su un server di catalogo globale e avere un funzionamento corretto dei criteri della rubrica, tuttavia non è consigliabile installare Exchange in un controller di dominio.
 
-  - Non è possibile utilizzare contemporaneamente rubriche gerarchiche e criteri della rubrica. Per ulteriori informazioni, vedere [Rubriche gerarchiche](hierarchical-address-books-exchange-2013-help.md).
+  - Non è possibile utilizzare contemporaneamente rubriche gerarchiche e criteri della rubrica. Per ulteriori informazioni, vedere [Rubriche gerarchiche](https://docs.microsoft.com/it-it/exchange/address-books/hierarchical-address-books/hierarchical-address-books).
 
   - Ogni singolo utente a cui viene assegnato un criterio della rubrica deve essere incluso in un Elenco indirizzi globale a sé.
 
@@ -267,7 +267,7 @@ Per istruzioni dettagliate, vedere [Installare e configurare l'agente di Address
 
   - Gli attributi CustomAttributeX sono esplicitamente riservati alla personalizzazione di una organizzazione e sono completamente sotto il controllo degli amministratori delle organizzazioni.
 
-Durante la suddivisione dell'organizzazione è inoltre consigliabile utilizzare gli identificatori delle società nei nomi dei gruppi di distribuzione e dei gruppi di distribuzione dinamici. In Exchange è presente una funzionalità criterio di denominazione del gruppo che aggiunge automaticamente al nome del gruppo di distribuzione un prefisso o un suffisso basato su vari attributi che l'utente ha utilizzati nella creazione del gruppo di distribuzione incluso la Società, Stato o provincia, Titolo e da CustomAttribute1 a CustomAttribute15. Il criterio di denominazione del gruppo è particolarmente importante se si consente agli utenti di creare i propri gruppi di distribuzione. Per ulteriori informazioni, vedere [Creare un gruppo di distribuzione dei criteri di denominazione](create-a-distribution-group-naming-policy-exchange-2013-help.md).
+Durante la suddivisione dell'organizzazione è inoltre consigliabile utilizzare gli identificatori delle società nei nomi dei gruppi di distribuzione e dei gruppi di distribuzione dinamici. In Exchange è presente una funzionalità criterio di denominazione del gruppo che aggiunge automaticamente al nome del gruppo di distribuzione un prefisso o un suffisso basato su vari attributi che l'utente ha utilizzati nella creazione del gruppo di distribuzione incluso la Società, Stato o provincia, Titolo e da CustomAttribute1 a CustomAttribute15. Il criterio di denominazione del gruppo è particolarmente importante se si consente agli utenti di creare i propri gruppi di distribuzione. Per ulteriori informazioni, vedere [Creare un gruppo di distribuzione dei criteri di denominazione](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
 
 I criteri di denominazione del gruppo non si applicano ai gruppi di distribuzione dinamici, sarà quindi necessario separarli manualmente e applicare manualmente un criterio di denominazione.
 
@@ -289,7 +289,7 @@ In questo esempio viene creato l'elenco di indirizzi AL\_TAIL\_Users\_DGs, L'ele
 
     New-AddressList -Name "AL_TAIL_Users_DGs" -RecipientFilter {((RecipientType -eq 'UserMailbox') -or (RecipientType -eq "MailUniversalDistributionGroup") -or (RecipientType -eq "DynamicDistributionGroup")) -and (CustomAttribute15 -eq "TAIL")}
 
-Per ulteriori informazioni sulla creazione di elenchi di indirizzi tramite i filtri destinatari, vedere [Creare un elenco di indirizzi utilizzando filtri destinatario](create-an-address-list-by-using-recipient-filters-exchange-2013-help.md).
+Per ulteriori informazioni sulla creazione di elenchi di indirizzi tramite i filtri destinatari, vedere [Creare un elenco di indirizzi utilizzando filtri destinatario](https://docs.microsoft.com/it-it/exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list).
 
 Per poter creare un criterio della rubrica è necessario fornire un elenco delle sale. Se nell'organizzazione non sono disponibili cassette postali per le risorse (ad esempio per le sale o le apparecchiature), è consigliabile creare un elenco delle sale vuoto. Nell'esempio seguente viene creato un elenco delle sale vuoto poiché nell'organizzazione non sono presenti cassette postali per le sale.
 
@@ -303,7 +303,7 @@ L'elenco indirizzi globale utilizzato in un criterio della rubrica deve essere u
 
     New-GlobalAddressList -Name "GAL_TAIL" -RecipientFilter {(CustomAttribute15 -eq "TAIL")}
 
-Per ulteriori informazioni, vedere [Creare un elenco indirizzi globale](create-a-global-address-list-exchange-2013-help.md).
+Per ulteriori informazioni, vedere [Creare un elenco indirizzi globale](https://docs.microsoft.com/it-it/exchange/address-books/address-lists/create-global-address-list).
 
 Quando si crea una rubrica offline è necessario includere l'appropriato elenco indirizzi globale nel parametro *AddressLists* di New- o Set-OfflineAddressBook per assicurarsi che non siano inaspettatamente mancanti alcune voci. Praticamente, è possibile personalizzare un gruppo di voci che saranno visibili dall'utente o ridurre la dimensione della rubrica offline da scaricare specificando un elenco di AddressLists in AddressLists di New/Set-OfflineAddressBook. Se tuttavia si desidera che gli utenti vedano tutte le voci dell'elenco indirizzi globale nella rubrica offline, è necessario includere l'elenco indirizzi globale in AddressLists.
 
@@ -311,7 +311,7 @@ In questo esempio viene creata una rubrica offline per Fabrikam denominata OAB\_
 
     New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
 
-Per ulteriori informazioni, vedere [Creazione di una Rubrica fuori rete](create-an-offline-address-book-exchange-2013-help.md).
+Per ulteriori informazioni, vedere [Creazione di una Rubrica fuori rete](https://docs.microsoft.com/it-it/exchange/address-books/offline-address-books/create-offline-address-book).
 
 ## Passaggio 4: Creare i criteri della rubrica
 
@@ -319,7 +319,7 @@ Dopo aver creato tutti gli oggetti necessari è quindi possibile create il crite
 
     New-AddressBookPolicy -Name "ABP_TAIL" -AddressLists "AL_TAIL_Users_DGs"," AL_TAIL_Contacts" -OfflineAddressBook "\OAB_TAIL" -GlobalAddressList "\GAL_TAIL" -RoomList "\AL_TAIL_Rooms"
 
-Per ulteriori informazioni, vedere [Creare un criterio della Rubrica](create-an-address-book-policy-exchange-2013-help.md).
+Per ulteriori informazioni, vedere [Creare un criterio della Rubrica](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/create-an-address-book-policy).
 
 ## Passaggio 5: Assegnare i criteri della rubrica alle cassette postali
 
@@ -329,5 +329,5 @@ In questo esempio viene assegnato ABP\_FAB a tutte le cassette postali dove Cust
 
     Get-Mailbox -resultsize unlimited | where {$_.CustomAttribute15 -eq "TAIL"} | Set-Mailbox -AddressBookPolicy "ABP_TAIL"
 
-Per ulteriori informazioni, vedere [Assegnare un criterio della Rubrica per gli utenti di posta](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md).
+Per ulteriori informazioni, vedere [Assegnare un criterio della Rubrica per gli utenti di posta](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/assign-an-address-book-policy-to-mail-users).
 

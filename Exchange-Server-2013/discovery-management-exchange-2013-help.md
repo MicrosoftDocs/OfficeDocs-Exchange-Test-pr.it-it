@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 
 Gestione individuazione Il gruppo dei ruoli di gestione è uno dei numerosi gruppi incorporati che costituiscono il modello delle autorizzazioni del controllo degli accessi in base al ruolo in Microsoft Exchange Server 2013. Ai gruppi di ruoli vengono assegnati uno o più ruoli di gestione che includono le autorizzazioni necessarie per eseguire un determinato gruppo di attività. I membri di un gruppo di ruoli possono accedere ai ruoli di gestione assegnati a tale gruppo. Per altre informazioni sui gruppi di ruoli, vedere [Informazioni sui gruppi di ruoli di gestione](understanding-management-role-groups-exchange-2013-help.md).
 
-Gli amministratori o gli utenti membri del gruppo di ruolo Gestione individuazione possono effettuare la ricerca dei dati rispondenti a determinati criteri nelle cassette postali dell'organizzazione di Exchange e anche configurare le conservazioni per controversie legali nelle cassette postali. Per ulteriori informazioni, vedere [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md).
+Gli amministratori o gli utenti membri del gruppo di ruolo Gestione individuazione possono effettuare la ricerca dei dati rispondenti a determinati criteri nelle cassette postali dell'organizzazione di Exchange e anche configurare le conservazioni per controversie legali nelle cassette postali. Per ulteriori informazioni, vedere [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 
 > [!IMPORTANT]

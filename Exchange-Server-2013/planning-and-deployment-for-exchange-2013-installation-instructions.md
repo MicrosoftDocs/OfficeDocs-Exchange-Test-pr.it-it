@@ -141,7 +141,8 @@ Utilizzare i seguenti collegamenti per accedere alle informazioni necessarie per
 
 <!-- end list -->
 
-  - [Installare Exchange 2013 utilizzando la modalità automatica](install-exchange-2013-using-unattended-mode-exchange-2013-help.md)  
+  - [Installare Exchange 2013 utilizzando la modalità automatica](ge-2013-using-unattended-mode-exchange-2013-help 
+Redirect to URL: https://review.docs.microsoft.com/zh-cn/office/exchange-server-2013/exchange-2013-client-access-server-configuration-exchange-2013-help)  
     Attenersi alla procedura descritta in questo argomento per utilizzare l'installazione automatica di Exchange 2013 per installare Exchange 2013 in una nuova organizzazione Exchange.
 
 <!-- end list -->

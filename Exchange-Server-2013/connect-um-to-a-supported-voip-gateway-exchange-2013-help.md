@@ -45,7 +45,7 @@ Quando si distribuiscono i server Exchange nell'organizzazione, è possibile ins
 
 ## Passaggio 2: Creare e configurare un dial plan di messaggistica unificata
 
-Dopo aver installato i server necessari, occorre innanzitutto creare un dial plan di messaggistica unificata. Un dial plan di messaggistica unificata contiene le impostazioni di configurazione che consentono di connettere la rete di telefonia tramite collegamento a uno o più gateway IP di messaggistica unificata. Un gateway IP di messaggistica unificata e un gruppo di risposta di messaggistica unificata sono collegati direttamente a un dial plan di messaggistica unificata, oltre a essere obbligatori. Per ulteriori informazioni, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+Dopo aver installato i server necessari, occorre innanzitutto creare un dial plan di messaggistica unificata. Un dial plan di messaggistica unificata contiene le impostazioni di configurazione che consentono di connettere la rete di telefonia tramite collegamento a uno o più gateway IP di messaggistica unificata. Un gateway IP di messaggistica unificata e un gruppo di risposta di messaggistica unificata sono collegati direttamente a un dial plan di messaggistica unificata, oltre a essere obbligatori. Per ulteriori informazioni, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
 Un dial plan di messaggistica unificata stabilisce un collegamento dal numero di interno del telefono di un utente alla rispettiva cassetta postale abilitata per la messaggistica unificata. Quando si crea un dial plan di messaggistica unificata, è possibile configurare il numero di cifre nei numeri di interni, il tipo di URI e le impostazioni di protezione VoIP per il dial plan.
 
@@ -65,13 +65,13 @@ La messaggistica unificata di Exchange supporta vari fornitori di gateway VoIP e
 
 Per informazioni dettagliate sui gateway VoIP, vedere i seguenti argomenti:
 
-  - [Creare un gateway IP di messaggistica unificata](create-a-um-ip-gateway-exchange-2013-help.md)
+  - [Creare un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway)
 
-  - [Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  - [Note di configurazione per i gateway VoIP, IP PBX e PBX supportati](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
   - [Connettere un controller dei confini VoIP gateway, IP PBX o della sessione di messaggistica UNIFICATA](connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md)
 
-Per ulteriori informazioni, vedere [Connettere il sistema di segreteria telefonica alla rete telefonica](connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md).
+Per ulteriori informazioni, vedere [Connettere il sistema di segreteria telefonica alla rete telefonica](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system).
 
 ## Passaggio 4: Creare un nuovo gruppo di risposta di messaggistica unificata, se necessario
 
@@ -81,5 +81,5 @@ I gruppi di risposta di messaggistica unificata eseguono il mirroring dei gruppi
 
 A seconda della modalità di creazione del gateway IP di messaggistica unificata, può essere necessario creare uno o più gruppi di risposta di messaggistica unificata nuovi. Se non si collega un gateway IP di messaggistica unificata a un dial plan al momento della creazione del gateway IP di messaggistica unificata, per impostazione predefinita, viene creato un singolo gruppo di risposta di messaggistica unificata. Se si collega un gateway IP di messaggistica unificata a un dial plan di messaggistica unificata quando si crea il gateway IP di messaggistica unificata, tutte le chiamate in arrivo verranno inviate tramite gateway IP di messaggistica unificata e verranno accettate dai server Accesso client e Cassette postali. Se non si collega un gateway IP di messaggistica unificata a un dial plan di messaggistica unificata quando si crea un gateway IP di messaggistica unificata, sarà necessario creare un gruppo di risposta di messaggistica unificata con l'identificatore pilota corretto affinché le chiamate in arrivo vengano inoltrate da un gateway IP di messaggistica unificata a un dial plan.
 
-Se si dispone di più numeri di operatore automatico e Outlook Voice Access e un gateway IP di messaggistica unificata è stato collegato a un dial plan, sarà necessario eliminare il gruppo di risposta di messaggistica unificata creato per impostazione predefinita e creare più gruppi di risposta di messaggistica unificata. Per informazioni dettagliate sulla creazione di un gruppo di risposta di messaggistica unificata, vedere [Creazione di un gruppo di risposta di messaggistica unificata](create-a-um-hunt-group-exchange-2013-help.md).
+Se si dispone di più numeri di operatore automatico e Outlook Voice Access e un gateway IP di messaggistica unificata è stato collegato a un dial plan, sarà necessario eliminare il gruppo di risposta di messaggistica unificata creato per impostazione predefinita e creare più gruppi di risposta di messaggistica unificata. Per informazioni dettagliate sulla creazione di un gruppo di risposta di messaggistica unificata, vedere [Creazione di un gruppo di risposta di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group).
 

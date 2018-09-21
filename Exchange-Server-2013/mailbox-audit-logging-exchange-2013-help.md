@@ -29,7 +29,7 @@ I registri di controllo vengono generati per tutte le cassette postali per cui �
 
 Per impostazione predefinita, le voci del registro di controllo di una cassetta postale vengono conservate nella cassetta postale per 90 giorni e quindi eliminate. È possibile modificare questo periodo di conservazione utilizzando il parametro *AuditLogAgeLimit* con il cmdlet [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)). Se una cassetta postale è in Archiviazione sul posto o in conservazione per controversia legale., le voci del registro di controllo vengono conservate solo fino alla scadenza del periodo di mantenimento del registro di controllo per la cassetta postale. Per conservare le voci del registro di controllo per più tempo, è necessario aumentare il periodo di mantenimento modificando il valore per il parametro *AuditLogAgeLimit*. È anche possibile esportare le voci del registro di controllo prima della scadenza del periodo di mantenimento. Per ulteriori informazioni, vedere:
 
-  - [Esportare registri di controllo delle cassette postali](export-mailbox-audit-logs-exchange-2013-help.md)
+  - [Esportare registri di controllo delle cassette postali](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs)
 
   - [Creare una ricerca dei registri di controllo delle cassette postali](create-a-mailbox-audit-log-search-exchange-2013-help.md)
 
@@ -159,9 +159,9 @@ Se non è più necessario registrare determinati tipi di azioni, modificare la c
 
   - **Utilizzo dei rapporti di controllo in EAC (Exchange Admin Center)**   È possibile utilizzare la scheda **Controllo** in EAC per creare un record di accesso non proprietario alla casella postale o esportare le voci dal registro di controllo della cassetta postale. Per dettagli, vedere:
     
-      - [Eseguire un rapporto di accesso non proprietario della cassetta postale](run-a-non-owner-mailbox-access-report-exchange-online-help.md)
+      - [Eseguire un rapporto di accesso non proprietario della cassetta postale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/non-owner-mailbox-access-report)
     
-      - [Esportare registri di controllo delle cassette postali](export-mailbox-audit-logs-exchange-2013-help.md)
+      - [Esportare registri di controllo delle cassette postali](https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs)
 
 ## Voci del registro di controllo delle cassette postali
 
@@ -336,7 +336,7 @@ Nella tabella seguente vengono illustrati i campi inseriti nel registro di contr
 
   - **Accesso amministratore alle cassette postali** Si presume che alla cassetta postale acceda un amministratore esclusivamente nei seguenti scenari:
     
-      - La funzionalità [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md) viene utilizzata per effettuare una ricerca in una cassetta postale.
+      - La funzionalità [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) viene utilizzata per effettuare una ricerca in una cassetta postale.
     
       - Il cmdlet [New-MailboxExportRequest](https://technet.microsoft.com/it-it/library/ff607299\(v=exchg.150\)) viene utilizzato per esportare una cassetta postale.
     

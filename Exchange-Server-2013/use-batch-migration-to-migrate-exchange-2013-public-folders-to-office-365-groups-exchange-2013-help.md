@@ -19,7 +19,7 @@ _**Ultima modifica dell'argomento:** 2018-03-26_
 
 **Sintesi:**  come spostare le cartelle pubbliche di Exchange 2013 nei gruppi di Office 365.
 
-Tramite un processo noto come *migrazione batch*, è possibile spostare alcune o tutte le cartelle pubbliche di Exchange 2013 nei gruppi di Office 365. I gruppi sono una nuova offerta di collaborazione di Microsoft che garantisce alcuni vantaggi rispetto alle cartelle pubbliche. Vedere [Eseguire la migrazione delle cartelle pubbliche nei gruppi di Office 365](migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md) per una panoramica delle differenze tra le cartelle pubbliche e i gruppi e dei motivi per i quali l'organizzazione potrebbe o non potrebbe trarre vantaggio dal passaggio ai gruppi.
+Tramite un processo noto come *migrazione batch*, è possibile spostare alcune o tutte le cartelle pubbliche di Exchange 2013 nei gruppi di Office 365. I gruppi sono una nuova offerta di collaborazione di Microsoft che garantisce alcuni vantaggi rispetto alle cartelle pubbliche. Vedere [Eseguire la migrazione delle cartelle pubbliche nei gruppi di Office 365](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/migrate-your-public-folders-to-office-365-groups) per una panoramica delle differenze tra le cartelle pubbliche e i gruppi e dei motivi per i quali l'organizzazione potrebbe o non potrebbe trarre vantaggio dal passaggio ai gruppi.
 
 In questo articolo sono descritte procedure dettagliate per eseguire la migrazione batch effettiva delle cartelle pubbliche di Exchange 2013.
 

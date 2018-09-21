@@ -21,23 +21,23 @@ _**Ultima modifica dell'argomento:** 2017-04-28_
 
 In questo articolo sono illustrati i componenti delle regole del flusso di posta e il loro funzionamento.
 
-È possibile utilizzare Interfaccia di amministrazione di Exchange (EAC) o Exchange Management Shell per gestire le regole del flusso di posta elettronica. Per istruzioni su come gestire le regole di trasporto, vedere [Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md).
+È possibile utilizzare Interfaccia di amministrazione di Exchange (EAC) o Exchange Management Shell per gestire le regole del flusso di posta elettronica. Per istruzioni su come gestire le regole di trasporto, vedere [Gestire le regole di flusso di posta elettronica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
-Per ciascuna regola è possibile applicare, verificare o testare e inviare una notifica al mittente. Per ulteriori informazioni sulle opzioni di verifica, vedere [Testare una regola del flusso di posta elettronica](test-a-mail-flow-rule-exchange-2013-help.md) e [Suggerimenti per i criteri](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md).
+Per ciascuna regola è possibile applicare, verificare o testare e inviare una notifica al mittente. Per ulteriori informazioni sulle opzioni di verifica, vedere [Testare una regola del flusso di posta elettronica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) e [Suggerimenti per i criteri](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/policy-tips).
 
 Per implementare criteri specifici messaggistica utilizzando regole del flusso di posta elettronica, vedere i seguenti argomenti:
 
   - [Utilizzare le regole di trasporto per esaminare messaggi con allegati](use-transport-rules-to-inspect-message-attachments-exchange-2013-help.md)
 
-  - [Scenari comuni relativi al blocco degli allegati](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md)
+  - [Scenari comuni relativi al blocco degli allegati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios)
 
   - [Intestazioni, piè di pagina, firme o dichiarazioni di non responsabilità per tutta l'organizzazione](organization-wide-disclaimers-signatures-footers-or-headers-exchange-online-help.md)
 
-  - [Utilizzare le regole di flusso di posta elettronica in modo che i messaggi possono ignorare confusione](use-mail-flow-rules-so-messages-can-bypass-clutter-exchange-2013-help.md)
+  - [Utilizzare le regole di flusso di posta elettronica in modo che i messaggi possono ignorare confusione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/use-rules-to-bypass-clutter)
 
-  - [Utilizzare regole del flusso di posta per instradare le e-mail in base a un elenco di parole, frasi o motivi](use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md)
+  - [Utilizzare regole del flusso di posta per instradare le e-mail in base a un elenco di parole, frasi o motivi](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email)
 
-  - [Scenari comuni di approvazione messaggio](common-message-approval-scenarios-exchange-2013-help.md)
+  - [Scenari comuni di approvazione messaggio](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/common-message-approval-scenarios)
 
 ## Componenti delle regole di trasporto
 
@@ -76,14 +76,14 @@ UNRESOLVED\_TOKENBLOCK\_VAL(GENL\_TransportRules\_Components\_Intro)
     <td><p>Indica in che ordine le regole vengono applicate ai messaggi. La priorità predefinita si basa sul momento di creazione della regola; le regole meno recenti hanno una priorità superiore rispetto a quelle più nuove, mentre le regole con priorità superiore vengono elaborate prima delle regole con priorità inferiore.</p>
     <p>La priorità della regola vengono modificate nell'interfaccia di amministrazione di Exchange spostando la regola verso l'alto o verso il basso nell'elenco delle regole. In PowerShell, impostare il numero di priorità (0 è la priorità più alta).</p>
     <p>Ad esempio, in caso di una regola per rifiutare i messaggi che includono un numero di carta di credito e un'altra che richiede l'approvazione, è possibile far applicare per prima la regola per il rifiuto e interrompere l'applicazione delle altre regole.</p>
-    <p>Per ulteriori informazioni, vedere <a href="manage-mail-flow-rules-exchange-2013-help.md">Impostare le priorità delle regole del flusso di posta</a>.</p></td>
+    <p>Per ulteriori informazioni, vedere <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules">Impostare le priorità delle regole del flusso di posta</a>.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>Modalità</strong></p></td>
     <td><p><em>Mode</em></p></td>
     <td><p>È possibile specificare se la regola deve elaborare i messaggi immediatamente oppure se le regole devono essere testate senza coinvolgere il recapito del messaggio (con o senza suggerimenti sui criteri DLP).</p>
-    <p>I suggerimenti per i criteri presentano una breve nota in Outlook o Outlook sul Web nella quale sono riportate informazioni sulle possibili violazioni del criterio indirizzate alla persona che sta creando il messaggio. Per ulteriori informazioni, vedere <a href="technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md">Suggerimenti per i criteri</a>.</p>
-    <p>Per ulteriori informazioni sulle modalità, vedere <a href="test-a-mail-flow-rule-exchange-2013-help.md">Testare una regola del flusso di posta elettronica</a>.</p></td>
+    <p>I suggerimenti per i criteri presentano una breve nota in Outlook o Outlook sul Web nella quale sono riportate informazioni sulle possibili violazioni del criterio indirizzate alla persona che sta creando il messaggio. Per ulteriori informazioni, vedere <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/policy-tips">Suggerimenti per i criteri</a>.</p>
+    <p>Per ulteriori informazioni sulle modalità, vedere <a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules">Testare una regola del flusso di posta elettronica</a>.</p></td>
     </tr>
     <tr class="odd">
     <td><p><strong>Attiva la regola in data</strong></p>
@@ -295,7 +295,7 @@ Torna all'inizio
 
 ## Ulteriori informazioni
 
-[Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md)
+[Gestire le regole di flusso di posta elettronica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 [Condizioni delle regole di trasporto (predicati)](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md)
 

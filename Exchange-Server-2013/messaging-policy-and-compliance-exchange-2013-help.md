@@ -51,7 +51,7 @@ Nella seguente tabella è fornita una panoramica sui criteri di messaggistica e 
 <li><p>Tutti i messaggi devono essere conservati per lo stesso tempo?</p></li>
 </ul>
 <p>Exchange 2013 include le funzionalità di Gestione record di messaggistica che consentono di implementare i criteri del ciclo di vita per i messaggi di posta elettronica. È possibile utilizzare Gestione record di messaggistica per applicare a tutti i messaggi impostazioni di conservazione uniformi, per utilizzare i criteri di conservazione per applicare un'impostazione di conservazione di riferimento a una cassetta postale e facoltativamente per consentire agli utenti di classificare i messaggi in modo che possano essere conservati per un determinato periodo di tempo.</p></td>
-<td><p><a href="messaging-records-management-exchange-2013-help.md">Gestione record di messaggistica</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management">Gestione record di messaggistica</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Archivio locale</p></td>
@@ -61,12 +61,12 @@ Nella seguente tabella è fornita una panoramica sui criteri di messaggistica e 
 <tr class="odd">
 <td><p>Conservazione in locale</p></td>
 <td><p>In presenza di un ragionevole rischio di controversia, le organizzazioni sono tenute a conservare le informazioni in forma elettronica, inclusi i messaggi pertinenti al caso. La conservazione in locale consente di cercare e conservare i messaggi che corrispondono ai parametri della query. I messaggi sono protetti da attività quali eliminazione, modifica e contraffazione e possono essere conservati illimitatamente o per un dato periodo di tempo.</p></td>
-<td><p><a href="in-place-hold-and-litigation-hold-exchange-2013-help.md">Archiviazione sul posto e conservazione per controversia legale</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds">Archiviazione sul posto e conservazione per controversia legale</a></p></td>
 </tr>
 <tr class="even">
 <td><p>eDiscovery in locale</p></td>
 <td><p>eDiscovery in locale consente di cercare i dati nelle cassette postali all'interno dell'organizzazione Exchange, visualizzare in anteprima i risultati della ricerca e copiarli in una cassetta postale di individuazione.</p></td>
-<td><p><a href="in-place-ediscovery-exchange-2013-help.md">eDiscovery sul posto</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">eDiscovery sul posto</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Inserimento nel journal</p></td>
@@ -81,7 +81,7 @@ Nella seguente tabella è fornita una panoramica sui criteri di messaggistica e 
 <tr class="odd">
 <td><p>Prevenzione della perdita di dati (DLP)</p></td>
 <td><p>Le funzionalità di prevenzione della perdita di dati consentono di proteggere i dati riservati e di informare gli utenti su criteri e normative. La prevenzione della perdita di dati consente anche di evitare che gli utenti inviino inavvertitamente informazioni riservate a persone non autorizzate. Quando si configurano i criteri per la prevenzione della perdita di dati, è possibile identificare e proteggere i dati riservati analizzando il contenuto del sistema di messaggistica che include numerosi tipi di file associati. I modelli dei criteri per la prevenzione della perdita di dati forniti in Exchange 2013 si basano su standard normativi quali PII e PCI-DSS (Payment Card Industry Data Security Standard). La prevenzione della perdita di dati è flessibile e di conseguenza consente di includere altri criteri importanti per la propria organizzazione. Inoltre, la nuova funzionalità dei suggerimenti per i criteri permette di informare gli utenti di eventuali violazioni dei criteri prima dell'invio dei dati.</p></td>
-<td><p><a href="technical-overview-of-dlp-data-loss-prevention-in-exchange.md">Prevenzione della perdita di dati</a></p></td>
+<td><p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention">Prevenzione della perdita di dati</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Information Rights Management (IRM)</p></td>
@@ -97,7 +97,7 @@ Nella seguente tabella è fornita una panoramica sui criteri di messaggistica e 
 <td><p>Registrazione di controllo delle cassette postali</p></td>
 <td><p>Dal momento che le cassette postali possono contenere informazioni riservate sia a livello aziendale che di singolo utente, è fondamentale tenere traccia di chi accede alle cassette postali nell'organizzazione e che attività esegue su di esse. È soprattutto importante controllare gli accessi alle cassette postali eseguiti da utenti che non ne sono i legittimi proprietari (in questo caso si parla di utenti delegati). Utilizzando la registrazione di controllo delle cassette postali, è possibile registrare gli accessi effettuati dai proprietari delle cassette postali, dai delegati (inclusi gli amministratori con autorizzazioni di accesso completo) e dagli amministratori.</p></td>
 <td><p><a href="mailbox-audit-logging-exchange-2013-help.md">Registrazione di controllo delle cassette postali</a></p>
-<p><a href="exchange-auditing-reports-exchange-2013-help.md">Rapporti di controllo di Exchange</a></p></td>
+<p><a href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports">Rapporti di controllo di Exchange</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Registrazione controlli dell'amministratore</p></td>

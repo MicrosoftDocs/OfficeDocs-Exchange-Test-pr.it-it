@@ -109,7 +109,7 @@ Se si utilizza EAC per visualizzare le proprietà di una directory virtuale di O
     
 
     > [!NOTE]
-    > Le impostazioni delle funzionalità per i singoli utenti sostituiscono le impostazioni della directory virtuale. È possibile modificare le impostazioni di segmentazione per singoli utenti utilizzando il cmdlet <STRONG>Set-CASMailbox</STRONG> oppure i criteri delle cassette postali di Outlook Web App. Per ulteriori informazioni, vedere <A href="outlook-web-app-mailbox-policies-exchange-2013-help.md">Criteri cassetta postale di Outlook Web App</A>.
+    > Le impostazioni delle funzionalità per i singoli utenti sostituiscono le impostazioni della directory virtuale. È possibile modificare le impostazioni di segmentazione per singoli utenti utilizzando il cmdlet <STRONG>Set-CASMailbox</STRONG> oppure i criteri delle cassette postali di Outlook Web App. Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies">Criteri cassetta postale di Outlook Web App</A>.
 
     
     Utilizzare le caselle di controllo per abilitare o disabilitare le funzionalità. Per impostazione predefinita sono visualizzate le funzionalità più comuni. Per vedere tutte le funzionalità che possono essere abilitate o disabilitate, fare clic su **Altre opzioni**.

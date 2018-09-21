@@ -29,11 +29,11 @@ Per impostazione predefinita, quando si utilizza lo strumento di risoluzione dei
 
   - Verificare che il Exchange 2010 o l'organizzazione di Exchange 2013 soddisfi i requisiti seguenti:
     
-      - È stato creato un dial plan di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](create-a-um-dial-plan-exchange-2013-help.md).
+      - È stato creato un dial plan di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un dial plan di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
     
-      - È stato creato un criterio cassetta postale di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un criterio cassetta postale di messaggistica unificata](create-a-um-mailbox-policy-exchange-2013-help.md).
+      - È stato creato un criterio cassetta postale di messaggistica unificata. Per la procedura dettagliata, vedere [Creazione di un criterio cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
     
-      - È stato creato un gateway IP di messaggistica unificata. Per la procedura dettagliata, vedere [Creare un gateway IP di messaggistica unificata](create-a-um-ip-gateway-exchange-2013-help.md).
+      - È stato creato un gateway IP di messaggistica unificata. Per la procedura dettagliata, vedere [Creare un gateway IP di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
     
       - Un server Messaggistica UNIFICATA di Exchange 2010 è stato aggiunto al dial plan di messaggistica UNIFICATA. Se si utilizza Exchange 2013 con Lync Server, aggiungere tutti i server cassette postali e accesso Client per il dial plan URI SIP. Per ulteriori informazioni, vedere [Add un Server messaggistica UNIFICATA a un Dial Plan](https://go.microsoft.com/fwlink/p/?linkid=313051) o [Aggiungere server cassette postali e accesso Client a un dial plan URI SIP](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md).
 

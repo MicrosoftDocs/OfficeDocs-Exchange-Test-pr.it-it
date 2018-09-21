@@ -59,7 +59,7 @@ Le funzionalità di rilevamento DLP possono essere incorporate nelle regole di t
 
   -  [Regole del flusso (regole di trasporto) di posta in Exchange Online](https://technet.microsoft.com/it-it/library/jj919238\(v=exchg.150\)) (Exchange Online)
 
-  -  [Gestire le regole di flusso di posta elettronica](manage-mail-flow-rules-exchange-2013-help.md)
+  -  [Gestire le regole di flusso di posta elettronica](https://docs.microsoft.com/it-it/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
     
   -  [Cmdlet dei criteri e di conformità](https://technet.microsoft.com/it-it/library/dd298082\(v=exchg.150\))
 
@@ -67,11 +67,11 @@ Le funzionalità di rilevamento DLP possono essere incorporate nelle regole di t
 
 Numerosi criteri DLP vengono forniti da Microsoft. Si tratta del modo più semplice per iniziare a utilizzare una soluzione DLP che sia flessibile e facile da implementare. I criteri forniti possono sempre essere utilizzati come punto di partenza e personalizzati ulteriormente per soddisfare i propri requisiti. Per iniziare, vedere le seguenti informazioni:
 
-  - [Modelli di criteri DLP forniti di Exchange](dlp-policy-templates-supplied-in-exchange-exchange-2013-help.md)
+  - [Modelli di criteri DLP forniti di Exchange](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/dlp-policy-templates)
 
-  - [Create a DLP policy from a template](how-to-new-dlp-data-loss-prevention-policy-template.md)
+  - [Create a DLP policy from a template](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template)
 
 ## Ulteriori informazioni
 
-[Prevenzione della perdita di dati](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 

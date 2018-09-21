@@ -138,7 +138,7 @@ In Exchange 2013, è possibile applicare i criteri di archiviazione a una casset
 
 I messaggi vengono spostati in una cartella nella cassetta postale di archiviazione che ha lo stesso nome della cartella di origine nella cassetta postale principale. Se nella cassetta postale di archiviazione non è presente una cartella con lo stesso nome, viene creata quando l'Assistente cartelle gestite sposta un messaggio. Se nella cassetta postale di archiviazione si ricrea la stessa gerarchia di cartelle, gli utenti potranno trovare più facilmente i messaggi.
 
-Per ulteriori informazioni su criteri, tag e azione di conservazione **Sposta nell'archivio**, vedere [Tag di conservazione e criteri di conservazione](retention-tags-and-retention-policies-exchange-2013-help.md).
+Per ulteriori informazioni su criteri, tag e azione di conservazione **Sposta nell'archivio**, vedere [Tag di conservazione e criteri di conservazione](https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies).
 
 ## Criterio di gestione record di messaggistica predefinito
 
@@ -271,7 +271,7 @@ In questa sezione viene illustrata l'interazione funzionale tra gli archivi loca
 
   - **Ricerca Exchange   **La possibilità di eseguire velocemente delle ricerche nei messaggi è ancora più importante nelle cassette postali di archiviazione. Per Exchange Search, non ci sono differenze tra la cassetta postale principale e quella di archiviazione. Il contenuto di entrambe viene indicizzato. Dal momento che la cassetta postale di archiviazione non è salvata nella cache sul computer dell'utente (anche quando lavora nella modalità cache di Exchange in Outlook), i risultati della ricerca per l'archivio vengono sempre forniti da Exchange Search. Quando la ricerca viene eseguita nell'intera cassetta postale in Outlook 2010 e versioni successive e Outlook Web App, i risultati della ricerca includono la cassetta postale principale e di archiviazione dell'utente.
 
-  - **eDiscovery locale**   Quando un responsabile dell'individuazione esegue una ricerca eDiscovery locale, la ricerca viene eseguita anche nelle cassette postali di archiviazione degli utenti. Non sono disponibili opzioni per escludere le cassette postali di archiviazione quando si crea una ricerca di individuazione da Interfaccia di amministrazione di Exchange. Quando si utilizza Exchange Management Shell per creare una ricerca di individuazione, è possibile escludere l'archivio utilizzando l'opzione *DoNotIncludeArchive*. Per ulteriori informazioni, vedere [New-MailboxSearch](https://technet.microsoft.com/it-it/library/dd298064\(v=exchg.150\)). Per ulteriori informazioni, vedere [eDiscovery sul posto](in-place-ediscovery-exchange-2013-help.md).
+  - **eDiscovery locale**   Quando un responsabile dell'individuazione esegue una ricerca eDiscovery locale, la ricerca viene eseguita anche nelle cassette postali di archiviazione degli utenti. Non sono disponibili opzioni per escludere le cassette postali di archiviazione quando si crea una ricerca di individuazione da Interfaccia di amministrazione di Exchange. Quando si utilizza Exchange Management Shell per creare una ricerca di individuazione, è possibile escludere l'archivio utilizzando l'opzione *DoNotIncludeArchive*. Per ulteriori informazioni, vedere [New-MailboxSearch](https://technet.microsoft.com/it-it/library/dd298064\(v=exchg.150\)). Per ulteriori informazioni, vedere [eDiscovery sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
     
 
     > [!IMPORTANT]
@@ -279,7 +279,7 @@ In questa sezione viene illustrata l'interazione funzionale tra gli archivi loca
 
 
 
-  - **Archiviazione sul posto e conservazione per controversia legale**   Quando si imposta una cassetta postale sull'archiviazione sul posto o sulla conservazione per controversia legale, l'archiviazione e la conservazione interessano sia la cassetta postale principale che quella di archiviazione. Per ulteriori informazioni sull'archiviazione sul posto e sulla conservazione per controversia legale, vedere [Archiviazione sul posto e conservazione per controversia legale](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+  - **Archiviazione sul posto e conservazione per controversia legale**   Quando si imposta una cassetta postale sull'archiviazione sul posto o sulla conservazione per controversia legale, l'archiviazione e la conservazione interessano sia la cassetta postale principale che quella di archiviazione. Per ulteriori informazioni sull'archiviazione sul posto e sulla conservazione per controversia legale, vedere [Archiviazione sul posto e conservazione per controversia legale](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-and-litigation-holds).
 
   - **Cartella Elementi ripristinabili   **La cassetta postale di archiviazione contiene una sua cartella Elementi ripristinabili che è soggetta alle stesse quote specificate per la cartella Elementi ripristinabili della cassetta postale principale. Per ulteriori informazioni sugli elementi ripristinabili, vedere [Cartella Elementi ripristinabili](recoverable-items-folder-exchange-2013-help.md).
 

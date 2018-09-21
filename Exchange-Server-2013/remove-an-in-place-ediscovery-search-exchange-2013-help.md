@@ -29,7 +29,7 @@ In Microsoft Exchange Server 2013, è possibile utilizzare In-Place eDiscovery p
 
   - Tempo stimato per il completamento: 2-5 minuti.
 
-  - Per rimuovere una ricerca eDiscovery In locale con In-Place Hold abilitata, è necessario rimuovere In-Place Hold prima della ricerca. Per ulteriori informazioni, vedere [Creare o rimuovere un'archiviazione sul posto](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+  - Per rimuovere una ricerca eDiscovery In locale con In-Place Hold abilitata, è necessario rimuovere In-Place Hold prima della ricerca. Per ulteriori informazioni, vedere [Creare o rimuovere un'archiviazione sul posto](https://docs.microsoft.com/it-it/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
   - Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "eDiscovery locale" nell'argomento[Criteri di messaggistica e autorizzazioni di conformità](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 

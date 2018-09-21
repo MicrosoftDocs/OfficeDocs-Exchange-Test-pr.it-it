@@ -27,7 +27,7 @@ Dopo aver disabilitato la posta elettronica per un utente di posta, è possibile
 
 
 
-Per le altre attività di gestione relative agli utenti di posta, vedere [Gestire gli utenti di posta](manage-mail-users-exchange-2013-help.md).
+Per le altre attività di gestione relative agli utenti di posta, vedere [Gestire gli utenti di posta](https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-users).
 
 ## Che cosa è necessario sapere prima di iniziare?
 

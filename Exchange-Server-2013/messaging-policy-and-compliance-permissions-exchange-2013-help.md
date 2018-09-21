@@ -114,7 +114,7 @@ Gli utenti a cui è assegnato il gruppo di ruoli View-Only Management possono vi
 <td><p><a href="discovery-management-exchange-2013-help.md">Gestione individuazione</a></p>
 
 > [!NOTE]
-> Per impostazione predefinita, il gruppo di ruoli Discovery Management è inizialmente vuoto. Nessun utente, inclusi gli amministratori, dispone delle autorizzazioni necessarie per eseguire ricerche nelle cassette postali. Per ulteriori informazioni, vedere <A href="assign-ediscovery-permissions-in-exchange-exchange-2013-help.md">Assegnare le autorizzazioni di eDiscovery di Exchange</A>.
+> Per impostazione predefinita, il gruppo di ruoli Discovery Management è inizialmente vuoto. Nessun utente, inclusi gli amministratori, dispone delle autorizzazioni necessarie per eseguire ricerche nelle cassette postali. Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions">Assegnare le autorizzazioni di eDiscovery di Exchange</A>.
 
 
 </td>
