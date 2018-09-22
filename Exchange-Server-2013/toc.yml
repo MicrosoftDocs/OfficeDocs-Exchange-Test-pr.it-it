@@ -695,7 +695,7 @@
       - name: Esportazione dei risultati della ricerca eDiscovery in un file PST
         href: https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/export-search-results
       - name: Proprietà di messaggi e operatori di ricerca per eDiscovery In locale
-        href: message-properties-and-search-operators-for-https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery
+        href: https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/message-properties-and-search-operators
       - name: Creazione di una cassetta postale di individuazione
         href: https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/create-a-discovery-mailbox
       - name: Avviare o interrompere una ricerca eDiscovery In locale
@@ -756,14 +756,14 @@
           - name: Eseguire la migrazione dalle cartelle gestite
             href: migrate-from-managed-folders-exchange-2013-help.md
           - name: Disattivare o sospendere la gestione dei record di messaggistica
-            href: turn-off-or-suspend-https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+            href: turn-off-or-suspend-messaging-records-management-exchange-2013-help.md
       - name: Gestione dei record di messaggistica di monitoraggio
-        href: monitoring-https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+        href: monitoring-messaging-records-management-exchange-2013-help.md
         items:
         - name: Contatori delle prestazioni di visualizzazione per la gestione dei record di messaggistica
-          href: view-performance-counters-for-https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+          href: view-performance-counters-for-messaging-records-management-exchange-2013-help.md
         - name: Contatori delle prestazioni per la gestione dei record di messaggistica
-          href: performance-counters-for-https://docs.microsoft.com/it-it/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+          href: performance-counters-for-messaging-records-management-exchange-2013-help.md
         - name: Messaging records management errori ed eventi
           href: messaging-records-management-errors-and-events-exchange-2013-help.md
     - name: Inserimento nel journal
@@ -895,7 +895,7 @@
         - name: Abilitare o disabilitare la decrittografia di trasporto
           href: enable-or-disable-transport-decryption-exchange-2013-help.md
         - name: Configurare IRM per la ricerca di Exchange e In-Place eDiscovery
-          href: configure-irm-for-exchange-search-and-https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery
+          href: configure-irm-for-exchange-search-and-in-place-ediscovery-exchange-2013-help.md
         - name: Attivare o disattivare la decrittografia dei rapporti del Journal
           href: enable-or-disable-journal-report-decryption-exchange-2013-help.md
         - name: Attivare o disattivare Information Rights Management sui server Accesso Client
@@ -1415,7 +1415,7 @@
       href: https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/address-book-policies
       items:
       - name: 'Scenario: Distribuzione di criteri della Rubrica'
-        href: scenario-deploying-https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/address-book-policies
+        href: scenario-deploying-address-book-policies-exchange-2013-help.md
       - name: Procedure relative al criterio della Rubrica indirizzi
         href: address-book-policy-procedures-exchange-2013-help.md
         items:
@@ -1688,7 +1688,7 @@
       href: https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips
       items:
       - name: Abilitare o disabilitare i suggerimenti messaggio
-        href: enable-or-disable-https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips
+        href: enable-or-disable-mailtips-exchange-2013-help.md
       - name: Configurare le dimensioni di grandi dimensioni gruppo di destinatari per l'organizzazione
         href: https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/configure-large-audience-size
       - name: Configurazione di Suggerimenti messaggio personalizzati per i destinatari
@@ -1699,7 +1699,7 @@
         - name: Gestire i suggerimenti per le relazioni dell'organizzazione
           href: https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/manage-mailtips-for-organization-relationships
       - name: Metriche del gruppo e i suggerimenti messaggio
-        href: group-metrics-and-https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips
+        href: group-metrics-and-mailtips-exchange-2013-help.md
         items:
         - name: Configurare le metriche di gruppo
           href: configure-group-metrics-exchange-2013-help.md
@@ -1711,7 +1711,7 @@
       - name: Gestione dell'accesso degli utenti alle app per Outlook
         href: https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/manage-user-access-to-add-ins
       - name: Specificare gli amministratori e gli utenti in grado di installare e gestire componenti aggiuntivi per Outlook
-        href: specify-the-administrators-and-users-who-can-install-and-manage-https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook
+        href: https://docs.microsoft.com/it-it/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins
     - name: Configurazione Offload di SSL in Exchange 2013
       href: configuring-ssl-offloading-in-exchange-2013-exchange-2013-help.md
   - name: '[ONP] di messaggistica unificata'
