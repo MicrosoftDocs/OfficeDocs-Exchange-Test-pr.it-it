@@ -55,8 +55,7 @@ Le cassette postali costituiscono il tipo di destinatario più comune utilizzato
 
 
 
-4.      
-    Selezionare una delle seguenti opzioni:
+4.  Selezionare una delle seguenti opzioni:
     
       - **Utente esistente**   Selezionare questa opzione per abilitare un utente esistente alla posta e creare una cassetta postale.
         
@@ -70,8 +69,7 @@ Le cassette postali costituiscono il tipo di destinatario più comune utilizzato
 
 
 
-5.      
-    Se è stata selezionata l'opzione **Nuovo utente** nel passo 4, riempire le seguenti caselle nella pagina **Nuova cassetta postale utente**. Altrimenti, andare al passo 7.
+5.  Se è stata selezionata l'opzione **Nuovo utente** nel passo 4, riempire le seguenti caselle nella pagina **Nuova cassetta postale utente**. Altrimenti, andare al passo 7.
     
       - **Nome**   Utilizzare questa casella per digitare il nome dell'utente.
     
@@ -156,8 +154,8 @@ Per verificare la corretta creazione della cassetta postale utente, effettuare u
   - In Shell, eseguire il comando riportato di seguito per visualizzare informazioni sulla nuova cassetta postale utente.
     
     ```powershell
-Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
-```
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```
 
 ## Creare una cassetta postale per un utente esistente
 
@@ -234,8 +232,8 @@ Per verificare la corretta creazione di una cassetta postale per un utente esist
   - In Shell, eseguire il comando riportato di seguito per visualizzare informazioni sul nuovo utente abilitato alle cassette postali.
     
     ```powershell
-Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
-```
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```
     
     Il valore per la proprietà *RecipientTypeDetails* è `UserMailbox`.
 

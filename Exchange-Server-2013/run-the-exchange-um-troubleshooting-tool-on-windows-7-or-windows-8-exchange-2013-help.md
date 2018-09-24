@@ -72,26 +72,26 @@ Lo strumento di risoluzione dei problemi di messaggistica unificata di Microsoft
 2.  Fare clic con il pulsante destro del mouse su **Windows PowerShell** e, nel menu visualizzato, selezionare **Esegui come amministratore**.
 
 3.  Al prompt dei comandi di Windows PowerShell, accedere alla cartella di installazione dello strumento di risoluzione dei problemi di messaggistica unificata ed eseguire il comando riportato di seguito.
-    
+    ```powershell
         C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -psconsolefile .\Microsoft.Exchange.UM.TroubleshootingToolsnapin.psc1 -noexit -command ". '.\Microsoft.Exchange.UM.TroubleshootingTool.ps1' "
-
+    ```
 4.  Se si sta eseguendo lo strumento di risoluzione dei problemi di messaggistica unificata in Windows Vista, Windows 7 o Windows 8, al prompt dei comandi di Windows PowerShell eseguire il comando riportato di seguito.
     
     ```powershell
-Set-ExecutionPolicy RemoteSigned
-```
+    Set-ExecutionPolicy RemoteSigned
+    ```
 
 5.  Aprire lo **strumento di risoluzione dei problemi di messaggistica unificata di Microsoft Exchange 2010** dal menu **Start**.
 
 6.  Nella finestra dello **strumento di risoluzione dei problemi di messaggistica unificata di Microsoft Exchange 2010**, nel prompt, digitare il seguente comando e premere Invio.
     
     ```powershell
-$cred=Get-Credential
-```
+    $cred=Get-Credential
+    ```
 
 7.  Nella finestra **Richiesta credenziali di Windows PowerShell** digitare dominio\\nome utente e password, quindi fare clic su **OK**.
 
 8.  Nella finestra dello **strumento di risoluzione dei problemi di messaggistica unificata di Microsoft Exchange 2010**, specificare i parametri del cmdlet necessari per verificare il flusso delle chiamate. Ad esempio:
-    
+    ```powershell
         Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
-
+    ```

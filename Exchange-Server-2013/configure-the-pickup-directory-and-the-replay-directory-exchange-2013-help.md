@@ -44,8 +44,9 @@ Le directory di prelievo e di riesecuzione vengono utilizzate dal servizio di tr
 ## Configurazione della directory di prelievo tramite Shell
 
 Per configurare la directory di prelievo, utilizzare la seguente sintassi.
-
+```powershell
     Set-TransportService <ServerIdentity> -PickupDirectoryPath <LocalFilePath> -PickupDirectoryMaxHeaderSize <Size> -PickupDirectoryMaxRecipientsPerMessage <Integer> -PickupDirectoryMaxMessagesPerMinute <Integer>
+```
 
 In questo esempio vengono eseguite le modifiche seguenti alla directory di prelievo sul server Cassette postali denominato Exchange01:
 
@@ -58,9 +59,9 @@ In questo esempio vengono eseguite le modifiche seguenti alla directory di preli
   - La velocità massima di elaborazione dei messaggi per le directory di prelievo e riesecuzione viene aumentata a 200 messaggi al minuto.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Exchange01 -PickupDirectoryPath "D:\Pickup Directory" -PickupDirectoryMaxHeaderSize 96KB -PickupDirectoryMaxRecipientsPerMessage 250 -PickupDirectoryMaxMessagesPerMinute 200
-
+```
 
 > [!NOTE]
 > <UL>
@@ -74,9 +75,9 @@ In questo esempio vengono eseguite le modifiche seguenti alla directory di preli
 ## Configurazione della directory di riesecuzione tramite Shell
 
 Per configurare la directory di riesecuzione, utilizzare la seguente sintassi.
-
+```powershell
     Set-TransportService <ServerIdentity> -ReplayDirectoryPath "C:\Replay Directory" <LocalFilePath> -PickupDirectoryMaxMessagesPerMinute <Integer>
-
+```
 In questo esempio vengono eseguite le modifiche seguenti alla directory di riesecuzione sul server Cassette postali denominato Exchange01:
 
   - Il percorso della directory di riesecuzione è impostato su D:\\Replay Directory.
@@ -84,9 +85,9 @@ In questo esempio vengono eseguite le modifiche seguenti alla directory di riese
   - La velocità massima di elaborazione dei messaggi per le directory di prelievo e riesecuzione viene aumentata a 200 messaggi al minuto.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Exchange01 -ReplayDirectoryPath "D:\Replay Directory" -PickupDirectoryMaxMessagesPerMinute 200
-
+```
 
 > [!NOTE]
 > <UL>
@@ -102,8 +103,9 @@ In questo esempio vengono eseguite le modifiche seguenti alla directory di riese
 Per verificate di aver configurato correttamente le directory di prelievo e riesecuzione, effettuare le operazioni seguenti:
 
 1.  Eseguire il comando indicato di seguito:
-    
+    ```powershell
         Get-TransportService <ServerIdentity> | Format-List Pickup*,Replay*
-
+    ```
+    
 2.  Verificare che i valori visualizzati siano quelli configurati.
 

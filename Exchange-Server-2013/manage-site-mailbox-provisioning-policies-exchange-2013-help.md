@@ -52,9 +52,9 @@ In questo esempio viene creato il criterio di provisioning predefinito SM\_Provi
   - La dimensione massima dei messaggi di posta elettronica che possono essere inviati alle cassette postali del sito è 50 MB.
 
 <!-- end list -->
-
+```powershell
     New-SiteMailboxProvisioningPolicy -Name SM_ProvisioningPolicy -IsDefault -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB -MaxReceiveSize 50MB
-
+```
 ## Visualizzazione delle impostazioni del criterio di provisioning di una cassetta postale del sito
 
 In questo esempio vengono restituite informazioni dettagliate su tutti i criteri di provisioning delle cassette postali del sito.
@@ -78,17 +78,17 @@ Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
 ```
 
 Con questo esempio vengono modificate la quota di avviso in 9,5 GB e la quota di invio e ricezione non consentiti in 10 GB.
-
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB
-
+```
 ## Configurazione del prefisso del nome in una cassetta postale del sito
 
 Per impostazione predefinita, quando viene creata una cassetta postale del sito, l'indirizzo di posta elettronica deve avere un prefisso. Il prefisso nell'indirizzo di posta elettronica consente di cercare e riconoscere le cassette postali del sito e di eseguire query. Se si desidera, è possibile disattivare il prefisso oppure modificarlo per il tenant in Office 365 o per ambienti con più foreste in una distribuzione locale. Con il comportamento predefinito del prefisso, se la cassetta postale del sito viene creata in Office 365, il prefisso predefinito sarà **SMO-**. In alternativa, se la cassetta postale del sito viene creata in una distribuzione locale, il prefisso sarà **SM-**. Il comportamento predefinito cambia a seconda delle sedi, in questo modo non si verificheranno conflitti se le cassette postali del sito vengono create in entrambe le posizioni e vengono sincronizzate tra sedi diverse.
 
 In questo esempio viene disabilitato il prefisso del nome tramite l'impostazione del parametro *DefaultAliasPrefixEnabled* su $false.
-
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -DefaultAliasPrefixEnabled $false -AliasPrefix $null
-
+```
 In questo esempio viene modificato il criterio di provisioning e viene impostato il *AliasPrefix* su FOREST01.
 
 
@@ -96,9 +96,9 @@ In questo esempio viene modificato il criterio di provisioning e viene impostato
 > Per gli ambienti a più foreste, si consiglia di utilizzare un prefisso diverso per ogni foresta per evitare conflitti quando gli oggetti vengono sincronizzati tra di esse e nel caso in cui le cassette postali del sito siano state create con lo stesso nome in due o più foreste.
 
 
-
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -AliasPrefix FOREST01 -DefaultAliasPrefixEnabled $false
-
+```
 
 > [!NOTE]
 > Nel caso di una distribuzione ibrida in Exchange locale e in Office 365, tutte le cassette postali del sito basate sul cloud vengono create con il prefisso <STRONG>SMO-</STRONG>. I prefissi per Office 365 e per Exchange locale sono diversi, in questo modo non si verificheranno conflitti se le cassette postali del sito vengono create in entrambe le posizioni e vengono sincronizzate tra sedi diverse. Il parametro del prefisso relativo all'alias ha la precedenza sul parametro DefaultAliasPrefixEnabled; di conseguenza, se il parametro <EM>AliasPrefix</EM> viene impostato su una stringa valida e non nulla, ogni nuova cassetta postale del sito avrà quella stringa anteposta all'alias.

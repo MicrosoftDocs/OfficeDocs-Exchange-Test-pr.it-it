@@ -44,14 +44,14 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 1.  Eseguire il comando riportato di seguito per verificare che l'agente Filtro contenuto sia installato e abilitato sul server di Exchange:
     
     ```powershell
-Get-TransportAgent "Content Filter Agent"
-```
+    Get-TransportAgent "Content Filter Agent"
+    ```
 
 2.  Eseguire il comando riportato di seguito per verificare che il filtro contenuto sia abilitato:
     
     ```powershell
-Get-ContentFilterConfig | Format-List Enabled
-```
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 Per ulteriori informazioni, vedere [Gestire il filtro contenuto](manage-content-filtering-exchange-2013-help.md).
 
@@ -96,8 +96,8 @@ Per verificare la corretta definizione della cassetta postale di quarantena dell
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-ContentFilterConfig | Format-List QuarantineMailbox
-```
+    Get-ContentFilterConfig | Format-List QuarantineMailbox
+    ```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 

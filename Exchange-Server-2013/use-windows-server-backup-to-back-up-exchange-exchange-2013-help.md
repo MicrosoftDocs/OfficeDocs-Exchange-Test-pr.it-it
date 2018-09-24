@@ -86,8 +86,10 @@ Per verificare che il backup dei dati sia stato eseguito correttamente, proceder
   - Aprire il visualizzatore eventi e verificare che il completamento del backup sia registrato nel registro eventi Applicazione.
 
   - Eseguire il seguente comando in Exchange Management Shell per verificare che per ogni database presente nel volume selezionato sia stato eseguito correttamente il backup:
-    
+  
+    ```powershell
         Get-MailboxDatabase -Server <ServerName> -Status | fl Name,*FullBackup
-    
+    ```
+
     Le proprietà *SnapshotLastFullBackup* e *LastFullBackup* del database indicato che il backup più recente è stato eseguito correttamente e si trattava di un backup VSS completo.
 

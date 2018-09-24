@@ -49,9 +49,7 @@ Per le attività di gestione aggiuntive correlate ai criteri degli indirizzi di 
 
 2.  Nella visualizzazione elenco selezionare il criterio degli indirizzi di posta elettronica che si desidera modificare, quindi fare clic su **Modifica**![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica").
 
-3.  
-    
-    In **Criterio dell'indirizzo e-mail** fare clic su **Applica a** e modificare le impostazioni.
+3.  In **Criterio dell'indirizzo e-mail** fare clic su **Applica a** e modificare le impostazioni.
 
 ## Modifica della priorità del criterio degli indirizzi di posta elettronica tramite EAC
 
@@ -64,9 +62,9 @@ Un utente può disporre di più indirizzi di posta elettronica proxy per lo stes
 ## Modifica di un criterio degli indirizzi di posta elettronica tramite Shell
 
 In questo esempio viene modificato il criterio degli indirizzi di posta elettronica per gli uffici del sud-est che attualmente include i destinatari in Georgia, Alabama e Louisiana per includere anche i destinatari nel Texas.
-
+```powershell
     Set-EmailAddressPolicy -Identity "South East Offices" -ConditionalStateorProvince "Georgia","Alabama","Louisiana","Texas"
-
+```
 
 > [!NOTE]
 > Anche se il criterio degli indirizzi di posta elettronica è già stato applicato ai destinatari in Georgia, Alabama e Louisiana, è necessario includerli nel parametro perché questo non aggiunge i nuovi valori a quelli esistenti, ma li sovrascrive.

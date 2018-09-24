@@ -74,8 +74,8 @@ Per verificare la corretta rimozione di una copia del database delle cassette po
   - Nella shell, eseguire il comando riportato di seguito per verificare la rimozione della copia.
     
     ```powershell
-Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
-```
+    Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+    ```
     
     La copia passiva rimossa non è più elencata.
 

@@ -92,9 +92,9 @@ Get-ExchangeServer | format-list
 
 
 In questo esempio viene abilitata la pubblicazione della directory virtuale sul server Accesso client CAS01.
-
+```powershell
     Set-OwaVirtualDirectory -Identity "CAS01\owa (Default Web Site)" -ExternalUrl "<URL for CAS01>" -CalendarEnabled $true
-
+```
 Dove l' identità `CAS01\owa (Default Web Site)` è il nome del server sia la directory virtuale di Outlook Web App.
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-OwaVirtualDirectory](https://technet.microsoft.com/it-it/library/bb123515\(v=exchg.150\)).
@@ -148,9 +148,9 @@ Per creare un criterio di condivisione specifico per la pubblicazione del calend
 ## Utilizzo di Shell
 
 Con questo esempio viene creato il criterio di condivisione per la pubblicazione del calendario denominato Internet e viene configurato il criterio che consente di condividere solo le informazioni sulla disponibilità. Il criterio è abilitato.
-
+```powershell
     New-SharingPolicy -Name "Internet" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
-
+```
 In questo esempio viene aggiunto il criterio di condivisione del calendario Internet a una cassetta postale utente.
 
 ```powershell
@@ -202,9 +202,9 @@ Per configurare un criterio di condivisione predefinito specifico per la pubblic
 ## Utilizzo di Shell
 
 Con questo esempio viene aggiornato il criterio di condivisione predefinito e configurato il criterio per condividere solo le informazioni sulla disponibilità. Il criterio è abilitato.
-
+```powershell
     Set-SharingPolicy -Name "Default Sharing Policy" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo?

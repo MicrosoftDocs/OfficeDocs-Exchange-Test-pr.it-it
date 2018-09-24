@@ -52,26 +52,26 @@ Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableIt
 ```
 
 In questo esempio vengono recuperate le statistiche relative alla cartella degli elementi ripristinabili per Soumya Singhi e viene visualizzata una tabella contenente il nome, il percorso, il numero degli elementi inclusi e la dimensione della cartella.
-
+```powershell
     Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-Table Name,FolderPath,ItemsInFolder,FolderAndSubfolderSize
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-MailboxFolderStatistics](https://technet.microsoft.com/it-it/library/aa996762\(v=exchg.150\)).
 
 ## Ottenere le statistiche cartella elementi recuperabili per tutte le cassette postali conservazione per controversia legale
 
 In questo esempio viene recuperato un elenco di tutte le cassette postali inserita nella conservazione per controversia legale e consente di recuperare le statistiche per la cartella elementi recuperabili della cassetta postale e le relative sottocartelle per ciascuna cassetta postale. Proprietà **FolderAndSubfolderSize** e **Identity** (identità cartella della cassetta postale) vengono visualizzate in formato tabella.
-
+```powershell
     Get-Mailbox -ResultSize Unlimited -Filter {LitigationHoldEnabled -eq $true} | Get-MailboxFolderStatistics | Format-Table Identity,FolderAndSubfolderSize
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) e [Get-MailboxFolderStatistics](https://technet.microsoft.com/it-it/library/aa996762\(v=exchg.150\)).
 
 ## Ottenere quota degli elementi recuperabili per una cassetta postale
 
 In questo esempio visualizza la quota e quota di avviso per la cartella elementi recuperabili per una cassetta postale utente. Nell'esempio viene recuperato anche informazioni se viene effettuata una conservazione per controversia legale o an In-Place Hold sulla cassetta postale.
-
+```powershell
     Get-Mailbox -Identity <identity of mailbox> | Format-List RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
-
+```
 Questo esempio visualizza le quote e quota di avviso per la cartella elementi recuperabili per tutte le cassette postali nell'organizzazione. Nell'esempio viene recuperato anche informazioni relative alle esenzioni.
-
+```powershell
     Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Format-List Name,RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
-
+```

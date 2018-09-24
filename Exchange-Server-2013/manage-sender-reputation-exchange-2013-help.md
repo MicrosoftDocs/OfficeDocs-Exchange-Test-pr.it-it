@@ -62,13 +62,13 @@ Per verificare che la reputazione mittente sia stata abilitato o disabilitata co
 1.  Per verificare che l'agente di analisi del protocollo sia stato installato e abilitato, eseguire il comando riportato di seguito:
     
     ```powershell
-Get-TransportAgent
-```
+        Get-TransportAgent
+    ```
 
 2.  Verificare i valori di reputazione mittente configurati eseguendo il comando riportato di seguito:
-    
+    ```powershell
         Get-SenderReputationConfig | Format-List Enabled,*MailEnabled
-
+    ```
 ## Abilitazione o disabilitazione della reputazione mittente per messaggi interni o esterni tramite Shell
 
 Per impostazione predefinita, la reputazione mittente è abilitata per i messaggi esterni e disabilitata per quelli interni. Un messaggio è considerato esterno se proviene da una connessione non autenticata esterna all'organizzazione Exchange. Un messaggio è considerato interno se proviene da una connessione non autenticata e se il dominio del mittente è configurato come dominio autorevole nell'organizzazione Exchange.
@@ -102,9 +102,9 @@ Set-SenderReputationConfig -InternalMailEnabled $true
 Per verificare che la reputazione mittente sia stata abilitato o disabilitata correttamente per i messaggi interni ed esterni, procedere come segue:
 
 1.  Eseguire il comando indicato di seguito:
-    
+    ```powershell
         Get-SenderReputationConfig | Format-List Enabled,*MailEnabled
-
+    ```
 2.  Verificare che i valori visualizzati corrispondano a quelli configurati.
 
 ## Configurazione delle proprietà della reputazione mittente tramite Shell
@@ -128,8 +128,8 @@ Per verificare che le proprietà della reputazione mittente siano state configur
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-SenderReputationConfig
-```
+        Get-SenderReputationConfig
+    ```
 
 2.  Verificare che i valori visualizzati corrispondano a quelli configurati.
 
@@ -167,20 +167,20 @@ Potrebbe essere necessario eseguire ulteriori passaggi per consentire alla reput
 
 
 Per configurare l'accesso in uscita per il rilevamento di server proxy aperti, eseguire il comando riportato di seguito.
-
+```powershell
     Set-SenderReputationConfig -ProxyServerName <String> -ProxyServerPort <Port> -ProxyServerType <String>
-
+```
 In questo esempio la reputazione mittente viene configurata per l'utilizzo del server proxy aperto denominato SERVER01 che utilizza il protocollo HTTP CONNECT sulla porta 80.
-
+```powershell
     Set-SenderReputationConfig - ProxyServerName SERVER01 -ProxyServerPort 80 -ProxyServerType HttpConnect
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che l'accesso in uscita per il rilevamento dei server proxy aperti sia stato configurato correttamente, procedere come segue:
 
 1.  Eseguire il comando indicato di seguito:
-    
+    ```powershell
         Get-SenderReputationConfig | Format-List ProxyServer*
-
+    ```
 2.  Verificare che i valori visualizzati siano quelli configurati.
 

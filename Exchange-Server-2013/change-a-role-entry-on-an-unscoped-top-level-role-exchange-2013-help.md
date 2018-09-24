@@ -62,13 +62,13 @@ Per aggiungere parametri a una voce di ruolo di primo livello senza ambito, effe
   - Specificare il parametro *UnscopedTopLevel* per indicare che si sta modificando una voce in un ruolo di primo livello senza ambito. Se questo parametro non viene specificato quando si modifica una voce di un ruolo senza ambito, si verifica un errore.
 
 Per aggiungere parametri a una voce di ruolo, utilizzare la seguente sintassi.
-
+```powershell
     Set-ManagementRoleEntry <role name>\<script or non-Exchange cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...> -AddParameter -UnscopedTopLevel
-
+```
 In questo esempio viene mostrato come aggiungere i parametri *EmailAddress* e *City* allo script **CreateUsers.ps1** nel ruolo senza ambito Recipient Administrators.
-
+```powershell
     Set-ManagementRoleEntry "Recipient Administrators\CreateUsers.ps1" -Parameters EmailAddress, City -AddParameter -UnscopedTopLevel
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351162\(v=exchg.150\)).
 
 ## Utilizzo di Shell per rimuovere uno o più parametri da una voce di ruolo
@@ -88,12 +88,14 @@ Per rimuovere un parametro da una voce di ruolo, effettuare quanto segue:
 
 
 Per rimuovere parametri da una voce di ruolo, utilizzare la seguente sintassi.
-
+```powershell
     Set-ManagementRoleEntry <role name>\<script or non-Exchange cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...> -RemoveParameter -UnscopedTopLevel
+```
 
 In questo esempio viene mostrato come rimuovere i parametri *Delay*, *Force* e *Credential* dal cmdlet **Start-Widget** non Exchange contenuto nel ruolo Tier 1 Server Administrators.
-
+```powershell
     Set-ManagementRoleEntry "Tier 1 Server Administrators\Start-Widget" -Parameters Delay, Force, Credential -RemoveParameter -UnscopedTopLevel
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351162\(v=exchg.150\)).
 
@@ -116,12 +118,14 @@ Se non si desidera che un ruolo abbia accesso a uno script o un cmdlet non Excha
 
 
 Per rimuovere tutti i parametri da una voce di ruolo, utilizzare la seguente sintassi.
-
+```powershell
     Set-ManagementRoleEntry <role name>\<script or non-Exchange cmdlet> -Parameters $Null -UnscopedTopLevel
+```
 
 In questo esempio viene mostrato come rimuovere tutti i parametri dallo script FindMailboxesOverQuota.ps1, nel ruolo Recipient Administrators.
-
+```powershell
     Set-ManagementRoleEntry "Recipient Administrators\FindMailboxesOverQuota.ps1" -Parameters $Null -UnscopedTopLevel
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351162\(v=exchg.150\)).
 
@@ -140,13 +144,13 @@ Se si desidera che in una voce di ruolo sia incluso solo un gruppo specifico di 
 
 
 Per specificare un determinato insieme di parametri, utilizzare la seguente sintassi.
-
+```powershell
     Set-ManagementRoleEntry <role name>\<script or non-Exchange cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...> -UnscopedTopLevel
-
+```
 In questo esempio viene mostrato come includere soltanto i parametri *Alias*, *DisplayName*, *WidgetConfig* e *Enabled* nel cmdlet **Set-Widget** del ruolo Seattle Mail Recipient Admins.
-
+```powershell
     Set-ManagementRoleEntry "Seattle Mail Recipient Admins\Set-UMMailbox" -Parameters Alias, DisplayName, WidgetConfig, Enabled -UnscopedTopLevel
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351162\(v=exchg.150\)).
 
 ## Altre attività

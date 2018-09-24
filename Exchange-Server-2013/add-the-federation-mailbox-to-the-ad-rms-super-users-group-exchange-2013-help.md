@@ -66,9 +66,9 @@ Se un gruppo di distribuzione viene creato e configurato come gruppo di utenti c
 2.  Aggiungere l'utente di **FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042** al nuovo gruppo di distribuzione. Dal momento che è una cassetta postale di sistema, la cassetta postale di recapito federativo non è visibile nell'interfaccia di amministrazione di Exchange. Per aggiungerla ad un gruppo di distribuzione, è necessario utilizzare il cmdlet di [Add-DistributionGroupMember](https://technet.microsoft.com/it-it/library/bb124340\(v=exchg.150\)) da Shell.
     
     In questo esempio viene mostrato come aggiungere la cassetta postale di recapito federativo nel gruppo di distribuzione ADRMSSuperUsers.
-    
+    ```powershell
         Add-DistributionGroupMember ADRMSSuperUsers -Member FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042
-
+    ```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Add-DistributionGroupMember](https://technet.microsoft.com/it-it/library/bb124340\(v=exchg.150\)).
 
 ## Passaggio 2: Utilizzo di AD RMS per impostare un gruppo di utenti con privilegi avanzati
@@ -101,8 +101,8 @@ Dopo aver utilizzato AD RMS per configurare un gruppo di utenti con privilegi av
     > [!IMPORTANT]
     > Il modulo ADRMSAdmin PowerShell è disponibile in Windows Server 2008 R2 e versioni successive.
 
-    
+    ```powershell
         Import-Module ADRMSAdmin
         New-PSDrive -Name MyRmsAdmin -PsProvider AdRmsAdmin -Root https://localhost 
         Get-ItemProperty -Path MyRmsAdmin:\SecurityPolicy\SuperUser
-
+    ```

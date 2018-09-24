@@ -100,8 +100,8 @@ Per verificare l'attivazione corretta di una copia di database delle cassette po
   - In Shell eseguire il comando riportato di seguito per visualizzare le informazioni di stato per una copia del database.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 
 ## Ulteriori informazioni
 

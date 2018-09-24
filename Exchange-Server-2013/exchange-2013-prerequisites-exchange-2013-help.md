@@ -86,14 +86,14 @@ Una volta installato il software indicato in precedenza, completare i seguenti p
       - In un computer con Windows Server 2012 R2 o Windows Server 2012, eseguire il comando seguente.
         
         ```powershell
-Install-WindowsFeature RSAT-ADDS
-```
+        Install-WindowsFeature RSAT-ADDS
+        ```
     
       - In un computer con Windows Server 2008 R2 SP1, eseguire il comando seguente.
         
         ```powershell
-Add-WindowsFeature RSAT-ADDS
-```
+        Add-WindowsFeature RSAT-ADDS
+        ```
 
 ## Prerequisiti di Windows Server 2012 R2 e Windows Server 2012
 
@@ -115,8 +115,9 @@ Eseguire le operazioni seguenti per installare le funzionalità e i ruoli di Win
 
 2.  Eseguire il comando seguente per installare i componenti di Windows necessari.
     
+    ```powershell
         Install-WindowsFeature AS-HTTP-Activation, Desktop-Experience, NET-Framework-45-Features, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Clustering-CmdInterface, RSAT-Clustering-Mgmt, RSAT-Clustering-PowerShell, Web-Mgmt-Console, WAS-Process-Model, Web-Asp-Net45, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext45, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, Windows-Identity-Foundation, RSAT-ADDS
-
+    ```
 Dopo aver installato i ruoli e le funzionalità del sistema operativo, installare il software seguente nell’ordine indicato:
 
 1.  [.NET Framework 4.6.2](https://go.microsoft.com/fwlink/p/?linkid=808659)
@@ -142,8 +143,8 @@ Eseguire le operazioni seguenti per installare le funzionalità e i ruoli di Win
 2.  Eseguire il comando seguente per installare i componenti di Windows necessari.
     
     ```powershell
-Install-WindowsFeature ADLDS
-```
+    Install-WindowsFeature ADLDS
+    ```
 
 Installare la versione di Microsoft .NET Framework che corrisponde alla versione di Exchange 2013 che si sta installando:
 
@@ -178,12 +179,14 @@ Eseguire le operazioni seguenti per installare le funzionalità e i ruoli di Win
 2.  Eseguire il comando seguente per caricare il modulo Server Manager.
     
     ```powershell
-Import-Module ServerManager
-```
+    Import-Module ServerManager
+    ```
 
 3.  Eseguire il comando seguente per installare i componenti di Windows necessari.
     
-        Add-WindowsFeature Desktop-Experience, NET-Framework, NET-HTTP-Activation, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Web-Server, WAS-Process-Model, Web-Asp-Net, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, RSAT-ADDS
+    ```powershell
+        Add-WindowsFeature Desktop-Experience, NET-Framework, NET-HTTP-Activation, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Web-Server, WAS-Process-Model, Web-Asp-Net, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content,    Web-Windows-Auth, Web-WMI, RSAT-ADDS
+    ```
 
 Dopo aver installato i ruoli e le funzionalità del sistema operativo, installare il software seguente nell’ordine indicato:
 
@@ -222,14 +225,14 @@ Eseguire le operazioni seguenti per installare le funzionalità e i ruoli di Win
 2.  Eseguire il comando seguente per caricare il modulo Server Manager.
     
     ```powershell
-Import-Module ServerManager
-```
+    Import-Module ServerManager
+    ```
 
 3.  Eseguire il comando seguente per installare i componenti di Windows necessari.
     
     ```powershell
-Add-WindowsFeature NET-Framework, ADLDS
-```
+    Add-WindowsFeature NET-Framework, ADLDS
+    ```
 
 Dopo aver installato i ruoli e le funzionalità del sistema operativo, installare il software seguente nell’ordine indicato:
 

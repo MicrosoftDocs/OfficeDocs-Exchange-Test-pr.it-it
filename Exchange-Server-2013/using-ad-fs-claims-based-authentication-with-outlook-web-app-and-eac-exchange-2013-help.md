@@ -253,13 +253,13 @@ Per configurare server federativi Active Directory:
 
 
 6.  Eseguire il comando riportato di seguito.
-    
+    ```powershell
         Add-KdsRootKey -EffectiveTime (Get-Date).AddHours(-10)
-
+    ```
 7.  Questo esempio viene creato un nuovo account GMSA denominato FsGmsa per il servizio federativo denominato adfs.contoso.com. Il nome del servizio federativo è il valore che è visibile ai client.
-    
+    ```powershell
         New-ADServiceAccount FsGmsa -DNSHostName adfs.contoso.com -ServicePrincipalNames http/adfs.contoso.com
-
+    ```
 8.  Nella pagina **Specificare database di configurazione**, selezionare **Creare un database sul server utilizzando Database interno di Windows**, quindi fare clic su **Avanti**.
 
 9.  Nella pagina **Opzioni di revisione**, verificare le selezioni di configurazione. Facoltativamente è possibile utilizzare il pulsante **Visualizza script** per rendere automatiche le installazioni ADFS aggiuntive. Fare clic su **Avanti**.
@@ -271,10 +271,10 @@ Per configurare server federativi Active Directory:
 12. Nella pagina **Risultati**, rivedere i risultati, verificare che la configurazione sia stata eseguita correttamente, quindi fare clic su **Passaggi successivi per il completamento della distribuzione del servizio federativo**.
 
 I seguenti comandi di PowerShell Windows eseguire la stessa funzione dei passaggi precedenti.
-```
+```powershell
 Import-Module ADFS
 ```
-```
+```powershell
 Install-AdfsFarm -CertificateThumbprint 0E0C205D252002D535F6D32026B6AB074FB840E7 -FederationServiceDisplayName "Contoso Corporation" -FederationServiceName adfs.contoso.com -GroupServiceAccountIdentifier "contoso\FSgmsa`$"
 ```
 
@@ -347,9 +347,9 @@ Per aggiungere le regole attestazione necessarie:
 5.  Nella pagina **Seleziona modello regola**, in **Modello di regola reclamo**, selezionare **Invia attestazioni utilizzando una regola personalizzata** nell'elenco, quindi fare clic su **Avanti**.
 
 6.  Nella pagina **Configurazione regola**, nel passaggio **Scegli tipo di regola**, in **Nome regola attestazioni**, immettere il nome per la relativa regola. Utilizzare un nome descrittivo per la regola attestazione, ad esempio, **ActiveDirectoryUserSID**. In **Regole personalizzate**, immettere la seguente sintassi di linguaggio regola attestazione per questa regola:
-    
+    ```powershell
         c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"), query = ";objectSID;{0}", param = c.Value);
-
+    ```
 7.  Nella pagina **Configura regola**, fare clic su **Fine**.
 
 8.  Nella finestra **Modifica regole attestazioni**, nella scheda **Regole trasformazione rilascio**, fare clic su **Aggiungi regola** per avviare la procedura guidata Aggiungi regola trasformazione attestazioni.
@@ -357,9 +357,9 @@ Per aggiungere le regole attestazione necessarie:
 9.  Nella pagina **Seleziona modello regola**, in **Modello di regola reclamo**, selezionare **Invia attestazioni utilizzando una regola personalizzata** nell'elenco, quindi fare clic su **Avanti**.
 
 10. Nella pagina **Configurazione regola**, nel passaggio **Scegli tipo di regola**, in **Nome regola attestazioni**, immettere il nome per la relativa regola. Utilizzare un nome descrittivo per la regola attestazione, ad esempio, **ActiveDirectoryUPN**. In **Regole personalizzate**, immettere la seguente sintassi di linguaggio regola attestazione per questa regola:
-    
+    ```powershell
         c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"), query = ";userPrincipalName;{0}", param = c.Value);
-
+    ```
 11. Fare clic su **Fine**.
 
 12. Nella finestra **Modifica regole attestazione**, fare clic su **Applica**, quindi su **OK**.
@@ -375,16 +375,18 @@ In alternativa, è possibile creare trust inoltro party e regole di attestazione
 3.  Eseguire i due seguenti cmdlet per creare i trust relying party. In questo esempio, vengono anche configurate le regole attestazione.
 
 **IssuanceAuthorizationRules.txt contiene:** 
-
+```powershell
     @RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");
-
+```
 **IssuanceTransformRules.txt contiene:** 
-
+```powershell
     @RuleName = "ActiveDirectoryUserSID" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"), query = ";objectSID;{0}", param = c.Value); 
-    
+``` 
+```powershell
     @RuleName = "ActiveDirectoryUPN" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"), query = ";userPrincipalName;{0}", param = c.Value);
-
+```
 **Eseguire i comandi seguenti:** 
+```command line
 
     [string]$IssuanceAuthorizationRules=Get-Content -Path C:\IssuanceAuthorizationRules.txt
     
@@ -393,7 +395,7 @@ In alternativa, è possibile creare trust inoltro party e regole di attestazione
     Add-ADFSRelyingPartyTrust -Name "Outlook Web App" -Enabled $true -Notes "This is a trust for https://mail.contoso.com/owa/" -WSFedEndpoint https://mail.contoso.com/owa/ -Identifier https://mail.contoso.com/owa/ -IssuanceTransformRules $IssuanceTransformRules -IssuanceAuthorizationRules $IssuanceAuthorizationRules
     
     Add-ADFSRelyingPartyTrust -Name "Exchange Admin Center (EAC)" -Enabled $true -Notes "This is a trust for https://mail.contoso.com/ecp/" -WSFedEndpoint https://mail.contoso.com/ecp/ -Identifier https://mail.contoso.com/ecp/ -IssuanceTransformRules $IssuanceTransformRules -IssuanceAuthorizationRules $IssuanceAuthorizationRules
-
+```
 ## Passaggio 4: installare il servizio ruolo di Proxy dell'applicazione Web (facoltativo)
 
 
@@ -461,9 +463,9 @@ Per configurare il servizio ruolo dell'applicazione Web:
 8.  Nella finestra di dialogo **Risultati**, verificare che la configurazione è stata eseguita correttamente, quindi fare clic su **Chiudi**.
 
 Il seguente cmdlet Windows PowerShell svolge la stessa funzione dei passaggi precedenti.
-
+```powershell
     Install-WebApplicationProxy -CertificateThumprint 1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b -FederationServiceName adfs.contoso.com
-
+```
 ## Passaggio 6 – pubblicazione Outlook Web App ed EAC utilizzando Proxy applicazione Web (facoltativo)
 
 Nel passaggio 3, è stato creato l'inoltro di trust di terze parti per Outlook Web App ed EAC basata sulle attestazioni e a questo punto è necessario pubblicare entrambe le applicazioni. Ma prima che in caso contrario, verificare che sia stata creata una relazione di trust relying party per tali e verificare di disporre di un certificato nel server Proxy dell'applicazione Web che è idonea per Outlook Web App ed EAC. Per tutti gli endpoint AD FS che devono essere pubblicati da Proxy dell'applicazione Web, nella console di gestione ADFS, è necessario impostare l'endpoint per essere **Abilitato per i Proxy**.
@@ -521,10 +523,10 @@ Quando si configura ADFS in modo che sia utilizzabile per l'autenticazione basat
   - Individuare il token ADFS identificazione personale del certificato di firma utilizzando Windows PowerShell nel server ADFS e immissione `Get-ADFSCertificate -CertificateType "Token-signing"`. Assegnare la firma di token identificazione personale del certificato trovato. Se il certificato di firma di token ADFS è scaduto, è necessario aggiornare l'identificazione personale del certificato di firma di token ADFS nuovo utilizzando il cmdlet [Set-OrganizationConfig](https://technet.microsoft.com/it-it/library/aa997443\(v=exchg.150\)) .
 
 Eseguire i seguenti comandi in Exchange Management Shell.
-
+```powershell
     $uris = @(" https://mail.contoso.com/owa/","https://mail.contoso.com/ecp/")
     Set-OrganizationConfig -AdfsIssuer "https://adfs.contoso.com/adfs/ls/" -AdfsAudienceUris $uris -AdfsSignCertificateThumbprint "88970C64278A15D642934DC2961D9CCA5E28DA6B"
-
+```
 
 > [!NOTE]
 > Il parametro <EM>-AdfsEncryptCertificateThumbprint</EM> non è supportato per questi scenari.
@@ -544,13 +546,13 @@ Per le directory virtuali di OWA ed ECP, abilitare l'autenticazione ADFS come un
 
 
 Configurare la directory virtuale ECP utilizzando Exchange Management Shell. Nella finestra della Shell, eseguire il comando seguente.
-
+```powershell
     Get-EcpVirtualDirectory | Set-EcpVirtualDirectory -AdfsAuthentication $true -BasicAuthentication $false -DigestAuthentication $false -FormsAuthentication $false -WindowsAuthentication $false
-
+```
 Configurare la directory virtuale OWA utilizzando Exchange Management Shell. Nella finestra della Shell, eseguire il comando seguente.
-
+```powershell
     Get-OwaVirtualDirectory | Set-OwaVirtualDirectory -AdfsAuthentication $true -BasicAuthentication $false -DigestAuthentication $false -FormsAuthentication $false -WindowsAuthentication $false -OAuthAuthentication $false
-
+```
 
 > [!NOTE]
 > I comandi riportati in Exchange Management Shell configurare le directory virtuali di OWA ed ECP in ogni server Accesso Client nell'organizzazione. Se non si desidera applicare queste impostazioni a tutti i server Accesso Client, utilizzare il parametro <EM>-Identity</EM> e specificare il server Accesso Client. È probabile che è possibile applicare queste impostazioni solo ai server Accesso Client nell'organizzazione sono Internet facing.
@@ -566,8 +568,8 @@ Dopo aver completato tutti i passaggi richiesti, tra cui le modifiche alle direc
   - Utilizzo di Windows PowerShell:
     
     ```powershell
-Restart-Service W3SVC,WAS -noforce
-```
+    Restart-Service W3SVC,WAS -noforce
+    ```
 
   - Utilizzo di una riga di comando: Fare clic su **Start**, **Esegui**, digitare `IISReset /noforce`, quindi fare clic su **OK**.
 

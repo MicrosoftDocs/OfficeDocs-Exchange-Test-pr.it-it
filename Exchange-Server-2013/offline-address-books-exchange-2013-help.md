@@ -42,9 +42,9 @@ OAB considerations
 ## Spostamento di rubriche offline tra versioni di Exchange
 
 In Exchange 2007 ed Exchange 2010 viene utilizzato il cmdlet **Move-OfflineAddressBook** per spostare la generazione della rubrica offline su un altro server Cassette postali. Exchange 2013 supporta solamente la rubrica offline (versione 4). È la stessa versione della rubrica offline predefinita in Exchange 2010. Non è possibile configurare Exchange 2013 per generare altre versioni della rubrica offline; la generazione della rubrica offline avviene sul server Cassette postali su cui risiede la cassetta postale dell'organizzazione. Di conseguenza, per spostare la generazione della rubrica offline in Exchange 2013, occorre spostare la cassetta postale dell'organizzazione. È possibile spostare la generazione della rubrica offline solo in un altro database delle cassette postali di Exchange 2013. Non è possibile spostare la generazione della rubrica offline in una versione precedente di Exchange. Per trovare la cassetta postale dell'organizzazione per la rubrica offline di Exchange 2013, eseguire il seguente comando Shell:
-
+```powershell
     Get-Mailbox -Arbitration | where {$_.PersistedCapabilities -like "*oab*"}
-
+```
 È quindi possibile utilizzare i cmdlet **MoveRequest** per spostare la cassetta postale.
 
 ## Rubrica offline versione 4 e client Outlook

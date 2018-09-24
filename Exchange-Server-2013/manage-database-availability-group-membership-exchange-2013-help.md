@@ -88,8 +88,8 @@ Per verificare che l'appartenenza al DAG sia stata gestita correttamente, effett
   - In Shell, eseguire il comando riportato di seguito per visualizzare informazioni sull'appartenenza al DAG.
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
-```
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+    ```
 
 ## Ulteriori informazioni
 

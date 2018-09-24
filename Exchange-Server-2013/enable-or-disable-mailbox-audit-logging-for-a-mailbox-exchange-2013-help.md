@@ -60,13 +60,13 @@ Per altre attività relative alla registrazione di controllo delle cassette post
 È possibile utilizzare Shell per abilitare o disabilitare la registrazione di controllo per una cassetta postale. In questo modo viene abilitata o disabilitata la registrazione di tutte le operazioni specificate per amministratore, delegati e proprietario della cassetta postale.
 
 In questo esempio la registrazione di controllo delle cassette postali viene abilitata per la cassetta postale di Ben Smith.
-
+```powershell
     Set-Mailbox -Identity "Ben Smith" -AuditEnabled $true
-
+```
 In questo esempio la registrazione di controllo delle cassette postali viene disabilitata per la cassetta postale di Ben Smith.
-
+```powershell
     Set-Mailbox -Identity "Ben Smith" -AuditEnabled $false
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 
 ## Configurazione delle impostazioni della registrazione di controllo delle cassette postali per l'accesso di amministratori, delegati e proprietari tramite Shell
@@ -74,16 +74,17 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox
 Quando viene abilitata la registrazione di controllo delle cassette postali per una cassetta postale, vengono registrate soltanto le azioni dell'amministratore, del delegato e del proprietario specificati nella configurazione della registrazione per la cassetta postale.
 
 In questo esempio viene specificato che le azioni `SendAs` o `SendOnBehalf` eseguite dagli utenti delegati verranno registrate per la cassetta postale di Ben Smith.
-
+```powershell
     Set-Mailbox -Identity "Ben Smith" -AuditDelegate SendAs,SendOnBehalf -AuditEnabled $true
-
+```
 In questo esempio viene specificato che le azioni `MessageBind` e `FolderBind` eseguite dagli amministratori verranno registrate per la cassetta postale di Ben Smith.
-
+```powershell
     Set-Mailbox -Identity "Ben Smith" -AuditAdmin MessageBind,FolderBind -AuditEnabled $true
-
+```
 In questo esempio viene specificato che l'azione `HardDelete` eseguita dal proprietario della cassetta postale verrà registrata per la cassetta postale di Ben Smith.
-
+```powershell
     Set-Mailbox -Identity "Ben Smith" -AuditOwner HardDelete -AuditEnabled $true
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 
@@ -92,6 +93,6 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox
 Per verificare di aver abilitato correttamente la registrazione di controllo delle cassette postali e specificato le impostazioni relative corrette per l'accesso di amministratori, delegati o proprietari, utilizzare il cmdlet [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) per recuperare le impostazioni della registrazione di controllo delle cassette postali per la cassetta postale in questione.
 
 In questo esempio vengono recuperate le impostazioni della cassetta postale di Ben Smith e viene eseguito il pipelining delle impostazioni di controllo specificate, incluso il limite di validità del registro di controllo, nel cmdlet **Format-List**.
-
+```powershell
     Get-Mailbox "Ben Smith" | Format-List *audit*
-
+```

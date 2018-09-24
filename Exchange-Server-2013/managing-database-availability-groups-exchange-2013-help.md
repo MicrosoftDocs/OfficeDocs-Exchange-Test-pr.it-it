@@ -633,7 +633,9 @@ Nella seguente configurazione, sono disponibili quattro subnet configurate nel D
 
 Per impostazione predefinita, i DAG eseguono l'individuazione di tutte le reti rilevate e configurate per l'utilizzo da parte del cluster sottostante. Ciò include qualsiasi rete Internet SCSI (iSCSI) in uso a seguito dell'utilizzo dell'archiviazione iSCSI per uno o più membri del DAG. Secondo la procedura consigliata, l'archiviazione iSCSI deve utilizzare reti e schede di rete dedicate. Queste reti non devono essere gestite dal DAG o dal suo cluster oppure utilizzate come reti del DAG (MAPI o di replica). Al contrario, il loro utilizzo da parte del DAG deve essere disabilitato manualmente, in modo che possano essere dedicate al traffico dell'archiviazione iSCSI. Per disabilitare il rilevamento e l'utilizzo di reti iSCSI come reti DAG, configurare il gruppo di disponibilità per ignorare qualsiasi rete iSCSI attualmente rilevata utilizzando il cmdlet [Set-DatabaseAvailabilityGroupNetwork](https://technet.microsoft.com/it-it/library/dd298008\(v=exchg.150\)), come mostrato in questo esempio:
 
+```powershell
     Set-DatabaseAvailabilityGroupNetwork -Identity DAG2\DAGNetwork02 -ReplicationEnabled:$false -IgnoreNetwork:$true
+```
 
 Questo comando disabiliterà la rete anche per l'utilizzo da parte del cluster. Sebbene le reti iSCSI continueranno ad apparire come reti DAG, non verranno utilizzate per MAPI o traffico di replica dopo l'esecuzione del comando precedente.
 

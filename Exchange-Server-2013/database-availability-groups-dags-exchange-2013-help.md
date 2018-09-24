@@ -60,18 +60,20 @@ Durante il processo di creazione, al gruppo di disponibilità del database viene
   - Il cluster non può essere gestito utilizzando lo strumento di gestione Cluster di Failover. Deve essere gestito utilizzando Windows PowerShell e i cmdlet PowerShell devono essere eseguiti sui membri del cluster individuale.
 
 In questo esempio viene mostrato come utilizzare Shell per creare un gruppo di disponibilità del database con punto di accesso amministrativo cluster con tre server. Due server (EX1 e EX2) si trovano nella stessa subnet (10.0.0.0) e il terzo server (EX3) si trova in una subnet diversa (192.168.0.0).
-
+```powershell
     New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer EX4 -DatabaseAvailabilityGroupIPAddresses 10.0.0.5,192.168.0.5
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX1
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX2
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX3
+```
 
 I comandi per la creazione di un DAG senza un punto di accesso di amministrazione cluster sono molto simili:
-
+```powershell
     New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer EX4 -DatabaseAvailabilityGroupIPAddresses ([System.Net.IPAddress])::None
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX1
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX2
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX3
+```
 
 Il cluster per DAG1 viene creato quando EX1 viene aggiunto al gruppo di disponibilità del database. Durante la creazione del cluster, il cmdlet **Add-DatabaseAvailabilityGroupServer** recupera gli indirizzi IP configurati per il gruppo di disponibilità del database e ignora quelli che non corrispondono ad alcuna delle subnet individuate in EX1. Nel precedente esempio, il cluster per DAG1 viene creato con l'indirizzo IP 10.0.0.5 e 192.168.0.5 viene ignorato. Nel secondo esempio, il valore del parametro *DatabaseAvailabilityGroupIPAddresses* istruisce l'attività a creare un cluster di failover per il DAG che non dispone di un punto di accesso amministrativo. Per questo il cluster viene creato con un indirizzo IP o risorsa nome di rete nel gruppo di ricerca cluster principale.
 

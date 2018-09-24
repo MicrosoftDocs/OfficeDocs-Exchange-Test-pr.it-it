@@ -67,7 +67,9 @@ New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
 
 In questo esempio, viene creato il criterio di assegnazione esplicito Limited Mailbox Configuration a cui vengono assegnati i ruoli `MyBaseOptions`, `MyAddressInformation` e `MyDisplayName`.
 
+```powershell
     New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-RoleAssignmentPolicy](https://technet.microsoft.com/it-it/library/dd638101\(v=exchg.150\)).
 
@@ -81,7 +83,9 @@ New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDe
 
 In questo esempio, viene creato il criterio di assegnazione predefinito Limited Mailbox Configuration a cui vengono assegnati i ruoli `MyBaseOptions`, `MyAddressInformation` e `MyDisplayName`.
 
+```powershell
     New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName -IsDefault
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-RoleAssignmentPolicy](https://technet.microsoft.com/it-it/library/dd638101\(v=exchg.150\)).
 
@@ -275,11 +279,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-RoleAss
 
 Per creare un'assegnazione dei ruoli di gestione tra un ruolo e un criterio di assegnazione, utilizzare la seguente sintassi.
 
+```powershell
     New-ManagementRoleAssignment -Name <role assignment name> -Role <role name> -Policy <assignment policy name>
+```
 
 In questo esempio, viene creata l'assegnazione del ruolo Utenti di Roma - Messaggi vocali tra il ruolo MyVoicemail e il criterio di assegnazione degli utenti di Seattle.
 
+```powershell
     New-ManagementRoleAssignment -Name "Seattle Users - Voicemail" -Role MyVoicemail -Policy "Seattle Users"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
@@ -307,11 +315,13 @@ Questa procedura utilizza il pipelining. Per ulteriori informazioni sull'esecuzi
 
 Per rimuovere un ruolo da un criterio di assegnazione, utilizzare la sintassi seguente.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <assignment policy name> -Role <role name> | Remove-ManagementRoleAssignment
-
+```
 In questo esempio viene rimosso il ruolo di gestione MyVoicemail, che consente agli utenti di gestire le opzioni del sistema di caselle vocali dal criterio di assegnazione degli utenti di Seattle.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee "Seattle Users" -Role MyVoicemail | Remove-ManagementRoleAssignment
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351205\(v=exchg.150\)).
 

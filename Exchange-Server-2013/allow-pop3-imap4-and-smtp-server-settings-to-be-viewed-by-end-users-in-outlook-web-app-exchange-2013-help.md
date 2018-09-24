@@ -76,8 +76,8 @@ Per verificare di aver configurato Exchange per consentire agli utenti di visual
 1.  Eseguire il seguente comando in Shell.
     
     ```powershell
-Get-PopSettings | format-list
-```
+        Get-PopSettings | format-list
+    ```
 
 2.  Verificare che sia impostata la proprietà *ExternalConnectionSettings*.
 
@@ -86,8 +86,8 @@ Per verificare di aver configurato Exchange per consentire agli utenti di visual
 1.  Eseguire il seguente comando in Shell.
     
     ```powershell
-Get-ImapSettings | format-list
-```
+        Get-ImapSettings | format-list
+    ```
 
 2.  Verificare che sia impostata la proprietà *ExternalConnectionSettings*.
 
@@ -108,8 +108,8 @@ Per verificare di aver configurato Exchange per consentire agli utenti di visual
 1.  Eseguire il seguente comando in Shell.
     
     ```powershell
-Get-ReceiveConnector | format-list
-```
+        Get-ReceiveConnector | format-list
+    ```
 
 2.  Se la proprietà *AdvertiseClientSettings* è impostata su `true`, gli utenti possono visualizzare le impostazioni del server SMTP in Outlook Web App. Se *AdvertiseClientSettings* è impostata su `false`, gli utenti non possono visualizzare le impostazioni del server SMTP in Outlook Web App.
 

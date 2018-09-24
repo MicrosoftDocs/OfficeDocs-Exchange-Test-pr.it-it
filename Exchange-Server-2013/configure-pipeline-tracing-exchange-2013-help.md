@@ -46,9 +46,9 @@ L'analisi della pipeline acquisisce copie dei messaggi di posta elettronica quan
 ## Passaggio 1: configurazione dell'indirizzo mittente dell'analisi della pipeline tramite Shell
 
 Utilizzare la sintassi seguente per configurare l'indirizzo mittente dell'analisi della pipeline.
-
+```powershell
     <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingSenderAddress <SMTPAddress | "<>">
-
+```
 In questo esempio viene configurata l'analisi della pipeline per acquisire snapshot di tutti i messaggi inviati dal mittente chris@contoso.com nel servizio di trasporto sul server Cassette postali denominato Mailbox01.
 
 ```powershell
@@ -72,9 +72,9 @@ Set-TransportService Mailbox02 -PipelineTracingSenderAddress "<>"
 La cartella predefinita dell'analisi della pipeline non viene creata finché non si abilita l'analisi della pipeline e finché i messaggi che corrispondono ai criteri specificati utilizzando il parametro *PipelineTracingSenderAddress* attraversano il servizio di trasporto sul server. Il percorso predefinito per il servizio di trasporto sul server Cassette postali è `%ExchangeInstallPath%TransportRoles\Logs\Hub\PipelineTracing`. Il percorso predefinito per il servizio di trasporto di cassette postali su un server Cassette postali è `%ExchangeInstallPath%TransportRoles\Logs\Mailbox\PipelineTracing`. Se viene specificato un percorso personalizzato, è necessario che tale percorso si trovi sul server Exchange locale.
 
 Utilizzare la sintassi seguente per configurare la cartella relativa all'analisi della pipeline.
-
+```powershell
     <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingPath <LocalFilePath>
-
+```
 In questo esempio viene impostata la cartella relativa all'analisi della pipeline per il servizio di trasporto sul server Cassette postali denominato Mailbox01 su D:\\Hub\\Pipeline Tracing.
 
 ```powershell
@@ -86,9 +86,9 @@ Set-TransportService Mailbox01 -PipelineTracingPath "D:\Hub\Pipeline Tracing"
 Per impostazione predefinita, l'analisi della pipeline è disabilitata su tutti i server Exchange. Quando si abilita l'analisi della pipeline, questa viene abilitata nel servizio di trasporto specifico e soltanto sul server Exchange indicato. Prima di abilitare l'analisi della pipeline, è necessario indicare l'indirizzo del mittente, come illustrato nel passaggio 1.
 
 Utilizzare la sintassi seguente per abilitare l'analisi della pipeline.
-
+```powershell
     <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $true
-
+```
 In questo esempio viene abilitata l'analisi della pipeline nel servizio di trasporto sul server Cassette postali denominato Mailbox01.
 
 ```powershell
@@ -100,9 +100,9 @@ Set-TransportService Mailbox01 -PipelineTracingEnabled $true
 Per verificare la corretta configurazione dell'analisi della pipeline, effettuare le seguenti operazioni:
 
 1.  Eseguire il comando indicato di seguito:
-    
+    ```powershell
         <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracing*
-
+    ```
 2.  Verificare che i valori visualizzati siano quelli configurati.
 
 3.  Verificare la cartella relativa all'analisi della pipeline per il servizio di trasporto o per il servizio di trasporto di cassette postali e verificare che i file snapshot dei messaggi siano stati creati nella cartella.
@@ -112,9 +112,9 @@ Per verificare la corretta configurazione dell'analisi della pipeline, effettuar
 A causa dello spazio sul disco e di problemi relativi alla sicurezza collegati all'analisi della pipeline, quest'ultima rappresenta un'azione temporanea a scopo di diagnostica e di risoluzione dei problemi. Quando si abilita l'analisi della pipeline, ricordarsi di disabilitarla al termine della procedura.
 
 Utilizzare la sintassi seguente per disabilitare l'analisi della pipeline.
-
+```powershell
     <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $false
-
+```
 In questo esempio viene disabilitata l'analisi della pipeline nel servizio di trasporto sul server Cassette postali denominato Mailbox01.
 
 ```powershell
@@ -126,9 +126,9 @@ Set-TransportService Mailbox01 -PipelineTracingEnabled $false
 Per verificare la corretta disabilitazione dell'analisi della pipeline, effettuare le seguenti operazioni:
 
 1.  Eseguire il comando indicato di seguito:
-    
+    ```powershell
         <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracingEnabled
-
+    ```
 2.  Verificare che il valore del parametro *PipelineTracingEnabled* sia $false.
 
 3.  Controllare la cartella relativa all'analisi della pipeline e assicurarsi che i file snapshot dei messaggi non vengano più creati nella cartella.

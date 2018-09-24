@@ -70,8 +70,8 @@ Per verificare la corretta abilitazione o disabilitazione del filtro degli alleg
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-TransportAgent "Attachment Filtering Agent"
-```
+    Get-TransportAgent "Attachment Filtering Agent"
+    ```
 
 2.  Se il valore **Enabled** è `True`, il filtro degli allegati è attivato. Se il valore è `False`, il filtro degli allegati è disattivato.
 
@@ -127,8 +127,9 @@ Add-AttachmentFilterEntry -Name <FileName or FileNameExtension> -Type FileName
 
 Nell'esempio riportato di seguito vengono filtrati gli allegati con estensione del nome file .jpg.
 
+```powershell
     Add-AttachmentFilterEntry -Name *.jpg -Type FileName
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che la voce del filtro degli allegati sia stata aggiunta correttamente, attenersi alla seguente procedura:
@@ -136,8 +137,8 @@ Per verificare che la voce del filtro degli allegati sia stata aggiunta corretta
 1.  Eseguire il comando seguente per verificare che sia presente la voce del filtro.
     
     ```powershell
-Get-AttachmentFilterEntry | Format-Table
-```
+    Get-AttachmentFilterEntry | Format-Table
+    ```
 
 2.  Inviar un messaggio di prova contenente un allegato proibito da una cassetta postale esterna a un destinatario interno e verificare che il messaggio venga rifiutato, rimosso o eliminato.
 
@@ -163,8 +164,9 @@ Remove-AttachmentFilterEntry FileName:<FileName or FileNameExtension>
 
 Nell'esempio riportato di seguito viene rimossa la voce del nome file per l'estensione. jpg.
 
+```powershell
     Remove-AttachmentFilterEntry FileName:*.jpg
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che la voce del filtro degli allegati sia stata rimossa correttamente, attenersi alla seguente procedura:
@@ -172,8 +174,8 @@ Per verificare che la voce del filtro degli allegati sia stata rimossa correttam
 1.  Eseguire il comando seguente per verificare che la voce del filtro sia stata rimossa.
     
     ```powershell
-Get-AttachmentFilterEntry | Format-Table
-```
+    Get-AttachmentFilterEntry | Format-Table
+    ```
 
 2.  Inviar un messaggio di prova contenente un allegato consentito da una cassetta postale esterna a un destinatario interno e verificare che il messaggio venga recapitato correttamente con l'allegato.
 
@@ -189,7 +191,9 @@ Get-AttachmentFilterListConfig
 
 Per configurare l'azione del filtro degli allegati utilizzata quando viene individuato un allegato proibito in un messaggio, utilizzare la seguente sintassi:
 
+```powershell
     Set-AttachmentFilterListConfig [-Action <Reject | Strip | SilentDelete>] [-RejectResponse "<Message text>"] [-AdminMessage "<Replacement file text>"] [-ExceptionConnectors <ConnectorGUID>]
+```
 
 In questo esempio vengono apportate le seguenti modifiche alla configurazione dell'agente filtro allegati:
 
@@ -198,8 +202,9 @@ In questo esempio vengono apportate le seguenti modifiche alla configurazione de
   - Utilizzare una risposta personalizzata per i messaggi rifiutati.
 
 <!-- end list -->
-
+```powershell
     Set-AttachmentFilterListConfig -Action Reject -RejectResponse "This message contains a prohibited attachment. Your message can't be delivered. Please resend the message without the attachment."
+```
 
 Per ulteriori informazioni, vedere [Set-AttachmentFilterListConfig](https://technet.microsoft.com/it-it/library/bb123483\(v=exchg.150\)).
 

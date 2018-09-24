@@ -20,13 +20,13 @@ _**Ultima modifica dell'argomento:** 2015-04-08_
 Il *banner SMTP* è la risposta alla connessione SMTP ricevuta da un server di messaggistica SMTP remoto dopo il collegamento a un connettore di ricezione configurato su un computer su cui viene eseguito Microsoft Exchange Server 2013.
 
 Questa è la risposta predefinita ricevuta da un server di messaggistica SMTP remoto dopo il collegamento al connettore di ricezione:
-
+```powershell
     220 <Servername> Microsoft ESMTP MAIL service ready at <RegionalDay-Date-24HourTimeFormat> <RegionalTimeZoneOffset>
-
+```
 Se si specifica un valore personalizzato per il banner SMTP su un connettore di ricezione, un server di messaggistica SMTP remoto collegato al connettore di ricezione SMTP riceve la seguente risposta.
-
+```powershell
     220 <Banner Text>
-
+```
 È possibile modificare il banner SMTP per i connettori di ricezione SMTP con connessione Internet in modo che il nome del server e il software del server di messaggistica non vengono rivelati dal banner SMTP.
 
 ## Che cosa è necessario sapere prima di iniziare
@@ -50,25 +50,25 @@ Se si specifica un valore personalizzato per il banner SMTP su un connettore di 
 ## Modifica del banner SMTP su un connettore di ricezione tramite Shell
 
 Eseguire il comando indicato di seguito:
-
+```powershell
     Set-ReceiveConnector <ConnectorIdentity> -Banner "220 <Banner Text>"
-
+```
 Con questo esempio viene modificato il banner SMTP sul connettore di ricezione esistente denominato "From the Internet" in modo che il banner SMTP visualizzi `220 Contoso Corporation`.
-
+```powershell
     Set-ReceiveConnector "From the Internet" -Banner "220 Contoso Corporation"
-
+```
 In questo esempio viene rimosso il banner SMTP personalizzato sul connettore di ricezione denominato "Form the Internet" ripristinando il valore predefinito del banner.
-
+```powershell
     Set-ReceiveConnector "From the Internet" -Banner $null
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che il banner SMTP sia stato modificato correttamente su un connettore di ricezione, procedere come segue:
 
 1.  Aprire il client telnet su un computer che possa accedere al connettore di ricezione ed eseguire il comando di seguito riportato:
-    
+    ```powershell
         open <Connector FQDN or IP address> <Port>
-
+    ```
 2.  Verificare che la risposta del connettore di ricezione contenga il banner SMTP configurato.
 
 Tenere presente che questa procedura funziona solo sui connettori di ricezione che consentono l'autenticazione anonima o di base. Per ulteriori informazioni, vedere [Utilizzare Telnet per testare le comunicazioni SMTP](use-telnet-to-test-smtp-communication-exchange-2013-help.md).

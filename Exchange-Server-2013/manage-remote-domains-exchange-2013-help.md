@@ -58,9 +58,9 @@ New-RemoteDomain -Name Contoso -DomainName contoso.com
 ```
 
 In questo esempio viene creata una voce di dominio remoto per i messaggi inviati al dominio fabrikam.com e a tutti i sottodomini.
-
+```powershell
     New-RemoteDomain -Name Fabrikam -DomainName *.fabrikam.com
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che la creazione del dominio remoto sia stata eseguita correttamente, procedere come segue:

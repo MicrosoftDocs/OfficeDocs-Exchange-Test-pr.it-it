@@ -52,37 +52,41 @@ Quando viene esportato un messaggio da una coda in un file, il messaggio non vie
 ## Utilizzare Shell per esportare uno specifico messaggio da una coda specifica
 
 Per esportare un indirizzo di posta elettronica specifico da una coda specifica, eseguire il seguente comando:
-
+```powershell
     Export-Message -Identity <MessageIdentity> | AssembleMessage -Path <FilePath>\<FileName>.eml
+```
 
 In questo esempio viene esportata una copia di un messaggio con valore **InternalMessageID** 1234 e che si trova nella coda di recapito di contoso.com sul server denominato Mailbox01 al file denominato export.eml nel percorso D:\\Contoso Export.
-
+```powershell
     Export-Message -Identity Exchange01\Contoso.com\1234 | AssembleMessage -Path "D:\Contoso Export\export.eml"
+```
 
 ## Utilizzare Shell per esportare tutti i messaggi da una coda specifica
 
 Per esportare tutti i messaggi da una coda specifica e utilizzare il valore **InternetMessageID** di ogni messaggio come nome del file, utilizzare la seguente sintassi.
-
+```powershell
     Get-Message -Queue <QueueIdentity> | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 Tenere presente che il valore **InternetMessageID** contiene parentesi angolari (\> e \<), che devono essere rimosse poiché non consentite nei nomi dei file.
 
 In questo esempio viene esportata una copia di tutti i messaggi dalla coda di recapito contoso.com sul server denominato Mailbox01 alla directory locale denominata D:\\Contoso Export.
-
+```powershell
     Get-Message -Queue Mailbox01\Contoso.com | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
-
+```
 ## Utilizzare Shell per esportare i messaggi specifici da tutte le code in un server
 
 Per esportare tutti i messaggi specifici da tutte le code su un server e utilizzare il valore **InternetMessageID** di ogni messaggio come nome del file, utilizzare la seguente sintassi.
-
+```powershell
     Get-Message -Filter {<MessageFilter>} [-Server <ServerIdentity>] | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 Tenere presente che il valore **InternetMessageID** contiene parentesi angolari (\> e \<), che devono essere rimosse poiché non consentite nei nomi dei file.
 
 In questo esempio viene esportata una copia di tutti i messaggi dai mittenti nel dominio contoso.com da tutte le code sul server denominato Mailbox01 alla directory locale denominata D:\\Contoso Export.
-
+```powershell
     Get-Message -Filter {FromAddress -like "*@contoso.com"} -Server Mailbox01 | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
-
+```
 
 > [!NOTE]
 > Se si omette il parametro <EM>Server</EM>, il comando funziona sul server locale.

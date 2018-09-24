@@ -60,9 +60,9 @@ Un messaggio che viene inviato a più di un destinatario può essere situato in 
 ## Rimozione dei messaggi tramite Shell
 
 Per eliminare i messaggi dalle code, utilizzare la seguente sintassi.
-
+```powershell
     Remove-Message <-Identity MessageIdentity | -Filter {MessageFilter}> -WithNDR <$true | $false>
-
+```
 Con questo esempio vengono eliminati i messaggi nelle code il cui oggetto è "Win Big" senza inviare un rapporto di mancato recapito.
 
 ```powershell
@@ -116,9 +116,9 @@ Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
 ```
 
 In questo esempio vengono ripresi tutti i messaggi inviati da qualsiasi mittente al dominio Contoso.com.
-
+```powershell
     Resume-Message -Filter {FromAddress -eq "*contoso.com"}
-
+```
 In questo esempio viene ripreso il messaggio con l'ID messaggio 3 nella coda non raggiungibile sul server Hub01.
 
 ```powershell
@@ -162,9 +162,9 @@ Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
 ```
 
 In questo esempio vengono sospesi tutti i messaggi nelle code provenienti da qualsiasi mittente nel dominio contoso.com.
-
+```powershell
     Suspend-Message -Filter {FromAddress -eq "*contoso.com"}
-
+```
 In questo esempio viene sospeso il messaggio con l'ID messaggio 3 nella coda non raggiungibile sul server denominato Mailbox01:
 
 ```powershell

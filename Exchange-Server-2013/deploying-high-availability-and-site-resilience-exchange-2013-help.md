@@ -171,13 +171,13 @@ L'amministratore ha deciso di creare uno script dell'interfaccia della riga dei 
   - Viene utilizzato il cmdlet [Set-DatabaseAvailabilityGroup](https://technet.microsoft.com/it-it/library/dd297934\(v=exchg.150\)) per configurare il DAG per la modalità DAC. Per ulteriori informazioni relative alla modalità DAC, vedere [modalità di coordinamento dell'attivazione del centro dati](datacenter-activation-coordination-mode-exchange-2013-help.md).
 
 Di seguito sono riportati i comandi utilizzati nello script:
-
+```powershell
     New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer CAS1 -WitnessDirectory C:\DAGWitness\DAG1.contoso.com -DatabaseAvailabilityGroupIPAddresses 192.168.1.8,192.168.2.8
-
+```
 Il comando precedente crea un gruppo di disponibilità del database DAG1, configura CAS1 in modo che funzioni come server di controllo, configura una directory di controllo specifica (C:\\DAGWitness\\DAG1.contoso.com) e configura due indirizzi IP per il DAG (uno per ogni subnet sulla rete MAPI).
-
+```powershell
     Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGWitness\DAG1.contoso.com -AlternateWitnessServer CAS4
-
+```
 Il comando precedente configura DAG1 per utilizzare un server di controllo alternativo di CAS4 e una directory di controllo alternativa su CAS4 che utilizza lo stesso percorso configurato su CAS1.
 
 
@@ -185,12 +185,12 @@ Il comando precedente configura DAG1 per utilizzare un server di controllo alter
 > L'utilizzo dello stesso percorso non è necessario. Contoso ha deciso di standardizzare la configurazione.
 
 
-
+```powershell
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX3
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX2
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX4
-
+```
 I comandi precedenti aggiungono un server Cassette postali alla volta al DAG. I comandi installano anche il componente clustering di failover di Windows su ogni server Cassette postali (se non è già installato), creano un cluster di failover e aggiungono ogni server Cassette postali al cluster appena creato.
 
 ```powershell
@@ -216,41 +216,41 @@ Ogni server Cassette postali ospita una copia del database delle cassette postal
 Per creare questa configurazione, l'amministratore esegue diversi comandi.
 
 In MBX1, eseguire i comandi riportati di seguito.
-
+```powershell
     Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX2
     Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX4
     Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ReplayLagTime 3.00:00:00 -SeedingPostponed
     Suspend-MailboxDatabaseCopy -Identity DB1\MBX3 -SuspendComment "Seed from MBX4" -Confirm:$False
     Update-MailboxDatabaseCopy -Identity DB1\MBX3 -SourceServer MBX4
     Suspend-MailboxDatabaseCopy -Identity DB1\MBX3 -ActivationOnly
-
+```
 In MBX2, eseguire i comandi riportati di seguito.
-
+```powershell
     Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX1
     Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX3
     Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ReplayLagTime 3.00:00:00 -SeedingPostponed
     Suspend-MailboxDatabaseCopy -Identity DB2\MBX4 -SuspendComment "Seed from MBX3" -Confirm:$False
     Update-MailboxDatabaseCopy -Identity DB2\MBX4 -SourceServer MBX3
     Suspend-MailboxDatabaseCopy -Identity DB2\MBX4 -ActivationOnly
-
+```
 In MBX3, eseguire i comandi riportati di seguito.
-
+```powershell
     Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX4
     Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX2
     Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX1 -ReplayLagTime 3.00:00:00 -SeedingPostponed
     Suspend-MailboxDatabaseCopy -Identity DB3\MBX1 -SuspendComment "Seed from MBX2" -Confirm:$False
     Update-MailboxDatabaseCopy -Identity DB3\MBX1 -SourceServer MBX2
     Suspend-MailboxDatabaseCopy -Identity DB3\MBX1 -ActivationOnly
-
+```
 In MBX4, eseguire i comandi riportati di seguito.
-
+```powershell
     Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX3
     Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX1
     Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX2 -ReplayLagTime 3.00:00:00 -SeedingPostponed
     Suspend-MailboxDatabaseCopy -Identity DB4\MBX2 -SuspendComment "Seed from MBX1" -Confirm:$False
     Update-MailboxDatabaseCopy -Identity DB4\MBX2 -SourceServer MBX1
     Suspend-MailboxDatabaseCopy -Identity DB4\MBX2 -ActivationOnly
-
+```
 Negli esempi precedenti per il cmdlet **Add-MailboxDatabaseCopy**, il parametro *ActivationPreference* non è stato specificato. L'attività aumenta automaticamente il numero della preferenza di attivazione con ogni copia aggiunta. Il numero della preferenza del database originale è sempre 1. Alla prima copia aggiunta con il cmdlet **Add-MailboxDatabaseCopy** viene assegnato automaticamente il numero della preferenza 2. Partendo dal presupposto che nessuna copia viene rimossa, alla successiva copia aggiunta viene assegnato il numero della preferenza 3 e così via. In questo modo, negli esempi precedenti, il numero della preferenza di attivazione della copia passiva nello stesso datacenter della copia attiva è 2; quello della copia passiva non ritardata nel datacenter remoto è 3 e quello della copia passiva ritardata nel datacenter remoto è 4.
 
 Anche se esistono due copie di ogni database attivo nella rete WAN in un altro percorso, il seeding nella rete WAN è stato eseguito solo una volta. Ciò perché Contoso sta sfruttando la capacità di Exchange 2013 di utilizzare una copia passiva di un database come origine del seeding. L'utilizzo del cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd298105\(v=exchg.150\)) con il parametro *SeedingPostponed* impedisce all'attività di eseguire automaticamente il seeding della copia del database appena creata. Quindi, l'amministratore può sospendere la copia priva di seeding e utilizzando il cmdlet [Update-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd335201\(v=exchg.150\)) con il parametro *SourceServer*, può specificare la copia locale del database come origine dell'operazione di seeding. Di conseguenza, il seeding della seconda copia del database aggiunta a ogni percorso si verifica localmente e non nella rete WAN.

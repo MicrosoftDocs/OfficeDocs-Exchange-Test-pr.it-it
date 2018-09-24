@@ -82,8 +82,9 @@ Get-ManagementRole | Format-Table <property 1>, <property 2...>
 ```
 
 In questo esempio viene restituito un elenco di tutti i ruoli nell'organizzazione e inclusa la proprietà **Name** e ogni proprietà con la parola **Implicit** all'inizio del nome della proprietà.
-
+```powershell
     Get-ManagementRole | Format-Table Name, Implicit*
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRole](https://technet.microsoft.com/it-it/library/dd351125\(v=exchg.150\)).
 
@@ -112,8 +113,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 Quando si utilizza il parametro *CmdletParameters*, è possibile scegliere di includere il parametro *Cmdlet*. Se si include il parametro *Cmdlet*, vengono restituiti solo i ruoli che contengono i parametri specificati nel cmdlet scelto. Se non viene incluso il parametro *Cmdlet*, vengono restituiti i ruoli che contengono i parametri specificati indipendentemente dal cmdlet.
 
 Per restituire un elenco dei ruoli che contengono i parametri specificati, utilizzare la seguente sintassi.
-
+```powershell
     Get-ManagementRole [-Cmdlet <cmdlet>] -CmdletParameters <parameter 1>, <parameter 2...>
+```
 
 In questo esempio viene restituito un elenco di ruoli che contiene i parametri *Database* e *Server*, indipendentemente dai cmdlet esistenti.
 

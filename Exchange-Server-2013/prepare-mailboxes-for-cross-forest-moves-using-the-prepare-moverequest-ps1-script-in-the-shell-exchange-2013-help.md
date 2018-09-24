@@ -58,14 +58,14 @@ Per assegnare credenziali di autenticazione specifiche per il controller di domi
 
 
 1.  Utilizzare i seguenti comandi per ottenere le credenziali per la foresta locale e la foresta remota.
-    
+    ```powershell
         $LocalCredentials = Get-Credential
         $RemoteCredentials = Get-Credential
-
+    ```
 2.  Eseguire i seguenti comandi per passare le informazioni sulle credenziali ai parametri *LocalForestCredential* e *RemoteForestCredential* nello script Prepare-MoveRequest.ps1.
-    
+    ```powershell
         Prepare-MoveRequest.ps1 -Identity JohnSmith@Fabrikan.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials
-
+    ```
 ## Gruppo di parametri dello script
 
 Nella tabella seguente, è riportato il gruppo di parametri per lo script.
@@ -173,14 +173,14 @@ In questa sezione, sono riportati diversi esempi su come utilizzare lo script Pr
 In questo esempio, viene predisposto un singolo utente abilitato alla posta elettronica associato nella foresta locale, quando è presente un trust tra foreste tra le foreste remota e locale.
 
 1.  Utilizzare i seguenti comandi per ottenere le credenziali per la foresta locale e la foresta remota.
-    
+    ```powershell
         $LocalCredentials = Get-Credential
         $RemoteCredentials = Get-Credential
-
+    ```
 2.  Eseguire il seguente comando per passare le informazioni sulle credenziali ai parametri *LocalForestCredential* e *RemoteForestCredential* nello script Prepare-MoveRequest.ps1.
-    
+    ```powershell
         Prepare-MoveRequest.ps1 -Identity JamesAlvord@Contoso.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials -LinkedMailUser 
-
+    ```
 ## Esempio: Pipelining
 
 Questo esempio supporta il pipelining se si fornisce un elenco di identità delle cassette postali.
@@ -188,13 +188,13 @@ Questo esempio supporta il pipelining se si fornisce un elenco di identità dell
 1.  Eseguire il comando riportato di seguito.
     
     ```powershell
-$UserCredentials = Get-Credential
-```
+        $UserCredentials = Get-Credential
+    ```
 
 2.  Utilizzare il seguente comando per passare le informazioni sulle credenziali al parametro *RemoteForestCredential* allo script Prepare-MoveRequest.ps1.
-    
+    ```powershell
         "IanP@Contoso.com", "JoeAn@Contoso.com" | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
-
+    ```
 ## Esempio: Utilizzare un file con estensione CSV per creare in un'unica operazione gli utenti abilitati alla posta elettronica
 
 È possibile generare un file con estensione CSV contenente un elenco di identità di cassette postali derivanti dalla foresta di origine che consente di eseguire il pipeling del contenuto di questo file nello script per creare in un'unica operazione gli utenti abilitati alla posta elettronica di destinazione.
@@ -214,13 +214,13 @@ In questo esempio, viene richiamato un file con estensione CSV per creare in un'
 1.  Utilizzare il seguente comando per ottenere le credenziali per la foresta remota.
     
     ```powershell
-$UserCredentials = Get-Credential
-```
+        $UserCredentials = Get-Credential
+    ```
 
 2.  Utilizzare il seguente comando per passare le informazioni sulle credenziali al parametro *RemoteForestCredential* allo script Prepare-MoveRequest.ps1.
-    
+    ```powershell
         Import-Csv Test.csv | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
-
+    ```
 ## Comportamento di script per l'oggetto di destinazione
 
 In questa sezione, viene illustrato il modo in cui lo script opera relativamente a diversi scenari per gli oggetti di destinazione.

@@ -28,9 +28,9 @@ Gli indicatori di protezione da posta indesiderata permettono di effettuare una 
 ## Informazioni sui rapporti di protezione da posta indesiderata
 
 Il rapporto protezione posta indesiderata è un rapporto riepilogativo dei risultati del filtro protezione da posta indesiderata applicato a un messaggio di posta elettronica. L'agente Filtro contenuti applica questo indicatore alla busta del messaggio nel formato X-header nel modo seguente:
-
+```powershell
     X-MS-Exchange-Organization-Antispam-Report: DV:<DATVersion>;CW:CustomList;PCL:PhishingVerdict <verdict>;P100:PhishingBlock;PP:Presolve;SID:SenderIDStatus <status>;TIME:<SendReceiveDelta>;MIME:MimeCompliance 
-
+```
 La tabella seguente descrive le informazioni di filtro che possono apparire nel rapporto di protezione da posta indesiderata.
 
 

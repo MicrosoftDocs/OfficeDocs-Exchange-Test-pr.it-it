@@ -56,8 +56,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-MailboxSe
 Per verificare la corretta configurazione dell'Assistente cartelle gestite, utilizzare il cmdlet [Get-MailboxServer](https://technet.microsoft.com/it-it/library/bb123539\(v=exchg.150\)) per controllare il parametro *ManagedFolderWorkCycle*.
 
 Questo comando recupera tutti i server Cassette postali nell'organizzazione e genera in output da ogni server le proprietà del ciclo di lavoro dell'Assistente cartelle gestite, utilizzando un formato tabella. L'opzione *Auto* è utilizzata per adattare automaticamente la larghezza delle colonne.
-
+```powershell
     Get-MailboxServer | Format-Table Name,ManagedFolderWorkCycle* -Auto
+```
 
 ## Utilizzare Shell per avviare l'Assistente cartelle gestite
 

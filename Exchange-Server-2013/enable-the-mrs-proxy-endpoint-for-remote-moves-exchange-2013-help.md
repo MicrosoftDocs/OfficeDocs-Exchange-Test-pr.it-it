@@ -67,7 +67,9 @@ Il server Accesso client su cui abilitare l'endpoint del proxy MRS dipende dal t
 
 Il comando seguente consente di abilitare l'endpoint del proxy MRS su un server Accesso client denominato EXCH-SRV-01.
 
+```powershell
     Set-WebServicesVirtualDirectory -Identity "EXCH-SRV-01\EWS (Default Web Site)" -MRSProxyEnabled $true
+```
 
 Il comando seguente consente di abilitare l'endpoint del proxy MRS su un server Accesso client nell'organizzazione Exchange.
 
@@ -104,10 +106,10 @@ Verificare che il parametro *MRSProxyEnabled* sia impostato su `True`.
 Un altro modo per verificare che l'endpoint del proxy MRS sia abilitato è quello di utilizzare il cmdlet **Test-MigrationServerAvailability** per verificare la capacità di comunicare con il server remoto che ospita le cassette postali da spostare, oppure nel caso di cassette postali Exchange Online off-boarding nell'organizzazione locale, un server nell'organizzazione locale. Per ulteriori informazioni, vedere [Test-MigrationServerAvailability](https://technet.microsoft.com/it-it/library/jj219169\(v=exchg.150\)).
 
 Nell'esempio seguente viene verificata la connessione a un server nella foresta corp.contoso.com.
-```
+```powershell
 $Credentials = Get-Credential
 ```
-```
+```powershell
 Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
 ```
 Per eseguire correttamente il comando, l'endpoint del proxy MRS deve essere abilitato.

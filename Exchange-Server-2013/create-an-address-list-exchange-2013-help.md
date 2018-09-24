@@ -72,12 +72,12 @@ Per altre attività di gestione relative agli elenchi di indirizzi, vedere [Proc
 ## Utilizzare la shell per creare un elenco indirizzi
 
 In questo esempio viene creato l'elenco indirizzi MyAddressList utilizzando il parametro *RecipientFilter* e includendo i destinatari che sono utenti delle cassette postali e per i quali `StateOrProvince` è impostato su `Washington` o `Oregon`:
-
+```powershell
     New-AddressList -Name MyAddressList -RecipientFilter {((RecipientType -eq 'UserMailbox') -and ((StateOrProvince -eq 'Washington') -or (StateOrProvince -eq 'Oregon')))}
-
+```
 In questo esempio viene creato l'elenco indirizzi secondario Building 34 Meeting Rooms nel contenitore principale All Rooms utilizzando condizioni incorporate.
-
+```powershell
     New-AddressList -Name "Building 34 Meeting Rooms" -Container "\All Rooms" -IncludedRecipients Resources -ConditionalCustomAttribute1 "Building 34"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-AddressList](https://technet.microsoft.com/it-it/library/aa996912\(v=exchg.150\)).
 

@@ -44,28 +44,31 @@ Per configurare il numero di tentativi glitch coda, l'intervallo di tentativi gl
 1.  In una finestra del prompt dei comandi nel server cassette postali o nel server Trasporto Edge aprire il file EdgeTransport.exe.config in blocco note eseguendo il comando seguente:
     
     ```powershell
-Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
-```
+        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Individuare le chiavi seguenti nella sezione `<appSettings>` .
-    
+    ```powershell
         <add key="QueueGlitchRetryCount" value="<Integer>" />
         <add key="QueueGlitchRetryInterval" value="<hh:mm:ss>" />
         <add key="MailboxDeliveryQueueRetryInterval" value="<hh:mm:ss>" />
         <add key="MaxIdleTimeBeforeResubmit" value="<hh:mm:ss>" />
-    
+    ```
+
     Questo esempio vengono modificate glitch coda tentativi numero 6, l'intervallo tentativi glitch coda 30 secondi, l'intervallo di tentativi coda recapito delle cassette postali su 3 minuti e tempo di inattività massimo prima di inviare nuovamente intervallo su 6 ore.
-    
+    ```powershell
         <add key="QueueGlitchRetryCount" value="6" />
         <add key="QueueGlitchRetryInterval" value="00:00:30" />
         <add key="MailboxDeliveryQueueRetryInterval" value="00:03:00" />
         <add key="MaxIdleTimeBeforeResubmit" value="6:00:00" />
+    ```
 
 3.  Se non si desidera salvare e chiudere il file EdgeTransport.exe.config.
 
 4.  Riavviare il servizio di trasporto di Microsoft Exchange utilizzando il seguente comando:
-    
+    ```powershell
         net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 ## Configurare il numero di tentativi di errore temporaneo, l'intervallo di errore temporaneo tentativi e l'intervallo di tentativi di errore di connessione in uscita
 
@@ -86,9 +89,9 @@ L'intervallo di tentativi di connessione in uscita errore specifica l'intervallo
 ## Utilizzo della Shell per configurare il numero di tentativi di errore temporaneo, l'intervallo di errore temporaneo tentativi e l'intervallo di tentativi di errore di connessione in uscita
 
 Utilizzare la sintassi seguente per configurare il numero di tentativi di errore temporaneo, l'intervallo di errore temporaneo tentativi e l'intervallo di tentativi di connessione in uscita errore nel servizio di trasporto in un server cassette postali o in un server Trasporto Edge.
-
+```powershell
     Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
-
+```
 In questo esempio vengono modificati i valori seguenti nel server cassette postali denominato Mailbox01: nel server Trasporto Edge Exchange01.
 
   - Il numero di tentativi di errore temporaneo viene impostato su 8.
@@ -98,9 +101,9 @@ In questo esempio vengono modificati i valori seguenti nel server cassette posta
   - L'intervallo di tentativi di errore di connessione in uscita è impostato su 45 minuti.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
-
+```
 
 > [!NOTE]
 > I parametri <EM>TransientFailureRetryCount</EM> e <EM>TransientFailureRetryInterval</EM> sono anche disponibili nel cmdlet <STRONG>Set-FrontEndTransportService</STRONG> per il servizio trasporto Front-End sui server Accesso Client.
@@ -120,9 +123,9 @@ In questo esempio vengono modificati i valori seguenti nel server cassette posta
 ## Utilizzo della Shell per configurare il numero di tentativi di errore temporaneo, l'intervallo di errore temporaneo tentativi e l'intervallo di tentativi di errore di connessione in uscita
 
 Utilizzare la sintassi seguente per configurare il numero di tentativi di errore temporaneo, l'intervallo di errore temporaneo tentativi e l'intervallo di tentativi di connessione in uscita errore nel servizio di trasporto in un server cassette postali o in un server Trasporto Edge.
-
+```powershell
     Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
-
+```
 In questo esempio vengono modificati i valori seguenti nel server cassette postali denominato Mailbox01: nel server Trasporto Edge Exchange01.
 
   - Il numero di tentativi di errore temporaneo viene impostato su 8.
@@ -132,9 +135,9 @@ In questo esempio vengono modificati i valori seguenti nel server cassette posta
   - L'intervallo di tentativi di errore di connessione in uscita è impostato su 45 minuti.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
-
+```
 
 > [!NOTE]
 > I parametri <EM>TransientFailureRetryCount</EM> e <EM>TransientFailureRetryInterval</EM> sono anche disponibili nel cmdlet <STRONG>Set-FrontEndTransportService</STRONG> per il servizio trasporto Front-End sui server Accesso Client.
@@ -192,8 +195,9 @@ Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
 ## Utilizzare la Shell per abilitare o disabilitare l'invio di notifiche di ritardo DSN ai mittenti interni o esterni
 
 Utilizzare la sintassi seguente per configurare le impostazioni di notifica DSN ritardo.
-
+```powershell
     Set-TransportConfig -ExternalDelayDSNEnabled <$true | $false> -InternalDelayDSNEnabled <$true |$false>
+```
 
 Questo esempio viene disattivato l'invio di messaggi di notifica di ritardo DSN ai mittenti esterni.
 

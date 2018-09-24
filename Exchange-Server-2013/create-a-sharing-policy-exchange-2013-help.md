@@ -110,29 +110,29 @@ Per altre attività di gestione relative alla federazione, vedere [Procedure di 
   - In questo esempio viene creato il criterio di condivisione Contoso per il dominio esterno federato contoso.com. Questo criterio consente agli utenti nel dominio contoso.com di visualizzare le informazioni dettagliate sulla disponibilità del calendario. Per impostazione predefinita, questo criterio è abilitato.
     
     ```powershell
-New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
-```
+    New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+    ```
 
   - In questo esempio viene creato il criterio di condivisione ContosoWoodgrove per due diversi domini federati (contoso.com e woodgrovebank.com) con azioni di condivisione differenti per ciascun dominio configurato. Il criterio è disabilitato.
-    
+    ```powershell
         New-SharingPolicy -Name "ContosoWoodgrove" -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'woodgrovebank.com: CalendarSharingFreeBusyDetail -Enabled $false
-
+    ```
   - In questo esempio viene creato il criterio di condivisione anonimo per un'organizzazione di Exchange con il server Accesso client CAS01 e il server Cassette postali MAIL01 con l'azione di condivisione configurata per informazioni limitate sulla disponibilità del calendario. Questo criterio consente agli utenti dell'organizzazione di Exchange di invitare gli utenti con accesso a Internet a visualizzare le informazioni sulla disponibilità del calendario inviando un collegamento. Il criterio è abilitato.
     
     1.  Impostare l'URL del proxy Web per MAIL01.
         
         ```powershell
-Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
-```
+        Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+        ```
     
     2.  Abilitare la pubblicazione di una directory virtuale in CAS01.
-        
+        ```powershell
             Set-OwaVirtualDirectory -Identity "CAS01" -ExternalURL "<URL for CAS01>" -CalendarPublishingEnabled $true
-    
+        ``` 
     3.  Creare il criterio di condivisione anonimo e configurare la condivisione limitata delle informazioni di calendario.
-        
+        ```powershell
             New-SharingPolicy -Name "Anonymous" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
-
+        ```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere:
 
   - [New-SharingPolicy](https://technet.microsoft.com/it-it/library/dd298186\(v=exchg.150\))

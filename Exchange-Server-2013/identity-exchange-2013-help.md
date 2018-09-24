@@ -34,10 +34,10 @@ L'identificatore unico primario di un oggetto in Exchange 2013 è sempre un GUID
 Il parametro *Identity* è considerato anche un parametro posizionale. Nei casi in cui non viene specificata alcuna etichetta di parametro, si presuppone che il parametro *Identity* sia il primo argomento nel cmdlet. Questo riduce il numero delle pressioni di tasto durante la digitazione dei comandi. Per ulteriori informazioni sui parametri posizionali, vedere [Parametri](https://technet.microsoft.com/it-it/library/bb124388\(v=exchg.150\)).
 
 Con il seguente esempio viene mostrato l'utilizzo del parametro *Identity* mediante il valore di parametro *Name* univoco del connettore di ricezione. Con questo esempio viene inoltre mostrato come sia possibile omettere il nome del parametro *Identity* poiché *Identity* è un parametro posizionale.
-
+```powershell
     Get-ReceiveConnector -Identity "From the Internet"
     Get-ReceiveConnector "From the Internet"
-
+```
 Come tutti gli oggetti in Exchange 2013, è possibile fare riferimento al connettore di ricezione anche mediante il relativo GUID univoco. Ad esempio, se al connettore di ricezione denominato `"From the Internet"` viene assegnato anche il GUID `63d64005-42c5-4f8f-b310-14f6cb125bf3`, è possibile recuperare il connettore utilizzando il seguente comando:
 
 ```powershell
@@ -89,17 +89,17 @@ Mail Recipients\Set-Mailbox
 ```
 
 La voce di ruolo `Mail Recipients\Set-Mailbox` è una delle varie voci nel ruolo `Mail Recipients`. Per visualizzare tutte le voci di ruolo nel ruolo `Mail Recipients`, utilizzare il seguente comando:
-
+```powershell
     Get-ManagementRoleEntry "Mail Recipients\*"
-
+```
 Per visualizzare tutte le voci di ruolo nel ruolo `Mail Recipients` contenenti la stringa "`Mailbox`", utilizzare il seguente comando:
-
+```powershell
     Get-ManagementRoleEntry "Mail Recipients\*Mailbox*"
-
+```
 Per visualizzare tutti i ruoli di gestione che contengono **Set-Mailbox** come una delle voci di ruolo, utilizzare il seguente comando:
-
+```powershell
     Get-ManagementRoleEntry *\Set-Mailbox
-
+```
 Con le voci di ruolo è possibile utilizzare il carattere jolly in diversi modi per recuperare da Exchange 2013 le informazioni desiderate.
 
 Per ulteriori informazioni sui ruoli di gestione, vedere [Informazioni sui ruoli di gestione](understanding-management-roles-exchange-2013-help.md).

@@ -66,8 +66,8 @@ Per verificare di aver configurato correttamente la rete del gruppo di disponibi
   - In Shell, utilizzare il seguente comando per visualizzare le impostazioni di configurazione della rete del gruppo di disponibilità del database e verificare che la rete sia stata configurata correttamente.
     
     ```powershell
-Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
-```
+    Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+    ```
 
 ## Ulteriori informazioni
 

@@ -74,6 +74,6 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Transpo
 Per verificare di aver correttamente abilitato o disabilitato la registrazione IRM su un server, eseguire il cmdlet [Get-TransportService](https://technet.microsoft.com/it-it/library/jj215746\(v=exchg.150\)) per visualizzare le impostazioni IRM.
 
 In questo esempio vengono visualizzare tutte le proprietà di registrazione IRM sul server EXCH01.
-
+```powershell
     Get-TransportService -Identity EXCH01 | Format-List IRMLog*
-
+```

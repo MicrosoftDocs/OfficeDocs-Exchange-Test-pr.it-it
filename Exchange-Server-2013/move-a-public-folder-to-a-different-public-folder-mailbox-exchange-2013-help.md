@@ -52,9 +52,9 @@ Per ulteriori attività di gestione relative alle cartelle pubbliche, vedere [Pr
 ## Spostamento di una singola cartella pubblica
 
 In questo esempio viene avviata la richiesta di spostamento per la cartella pubblica \\CustomerEnagagements dalla cassetta postale delle cartelle pubbliche DeveloperReports a DeveloperReports01
-
+```powershell
     New-PublicFolderMoveRequest -Folders \DeveloperReports\CustomerEngagements -TargetMailbox DeveloperReports01
-
+```
 
 > [!NOTE]
 > Cassetta postale di cartelle pubbliche di destinazione verrà bloccata mentre è attiva la richiesta di spostamento.
@@ -66,9 +66,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-PublicF
 ## Spostamento di più cartelle pubbliche
 
 In questo esempio viene iniziata la richiesta di spostamento per le cartelle pubbliche appartenenti al ramo \\Dev nella cassetta postale delle cartelle pubbliche di destinazione DeveloperReports01. In questo esempio la cartella pubblica \\Dev non viene spostata.
-
+```powershell
     New-PublicFolderMoveRequest -Folders \Dev\CustomerEngagements,\Dev\RequestsforChange,\Dev\Usability -TargetMailbox DeveloperReports01
-
+```
 
 > [!NOTE]
 > Cassetta postale di cartelle pubbliche di destinazione verrà bloccata mentre è attiva la richiesta di spostamento.
@@ -80,11 +80,11 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-PublicF
 ## Spostamento di un ramo di cartelle pubbliche
 
 In questo esempio viene utilizzato lo script `Move-PublicFolderBranch.ps1` per spostare un ramo di cartelle pubbliche. Viene avviata la richiesta di spostamento per la cartella pubblica \\Dev e tutte le relative sottocartelle nella cassetta postale delle cartelle pubbliche DeveloperReports01. Lo script si trova nella cartella degli script e deve essere eseguito da tale posizione.
-
+```powershell
     CD $env:ExchangeInstallPath\scripts
     
     .\Move-PublicFolderBranch.ps1 -FolderRoot \Dev -TargetPublicFolderMailbox DeveloperReports01
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare l'esito dello spostamento delle cartelle pubbliche, utilizzare il seguente comando:

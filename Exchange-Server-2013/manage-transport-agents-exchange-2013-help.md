@@ -54,16 +54,16 @@ Per eseguire una o più procedure dell'agente di trasporto descritte in questo a
 1.  Sul server Accesso client aprire Windows PowerShell ed eseguire il comando riportato di seguito:
     
     ```powershell
-Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
-```
+        Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+    ```
 
 2.  Eseguire il comando come indicato, ma aggiungere il seguente valore al comando: `-TransportService FrontEnd`.
     
     Ad esempio, per visualizzare gli agenti di trasporto nel servizio di trasporto front-end su un server Accesso client, eseguire il comando riportato di seguito:
     
     ```powershell
-Get-TransportAgent -TransportService FrontEnd
-```
+        Get-TransportAgent -TransportService FrontEnd
+    ```
 
 ## Installazione di un agente di trasporto tramite Shell
 
@@ -74,12 +74,14 @@ Gli agenti di trasporto dispongono dell'accesso completo a tutti i messaggi di p
 Gli agenti di trasporto vengono installati in stato disabilitato, per garantire che il flusso di posta non venga influenzato dagli agenti di trasporto non ancora configurati. Pertanto, dopo aver configurato correttamente un agente di trasporto, è necessario abilitarlo.
 
 Per installare un agente di trasporto, utilizzare la seguente sintassi.
-
+```powershell
     Install-TransportAgent -Name <TransportAgentIdentity> -TransportAgentFactory <"TransportAgentFactory"> -AssemblyPath <"FilePath">
+```
 
 In questo esempio viene installato un agente di trasporto fittizio denominato Contoso Transport Agent nel servizio di trasporto su un server Cassette postali.
-
+```powershell
     Install-TransportAgent -Name "Contoso Transport Agent" -TransportAgentFactory "vendor.exchange.ContosoTransportAgentfactory" -AssemblyPath "C:\Program Files\Vendor\TransportAgent\ContosoTransportAgentFactory.dll"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

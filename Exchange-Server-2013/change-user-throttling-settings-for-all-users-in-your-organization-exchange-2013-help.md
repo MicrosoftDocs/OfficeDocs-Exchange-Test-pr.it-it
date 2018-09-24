@@ -56,16 +56,16 @@ Per verificare di aver creato correttamente il criterio di limitazione dell'orga
 1.  Eseguire il comando riportato di seguito.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+        Get-ThrottlingPolicy | Format-List
+    ```
 
 2.  Verificare che l'organizzazione limitazione criterio che appena creato sia elencato nella colonna che mostra l'oggetto GlobalThrottlingPolicy.
 
 3.  Eseguire il comando riportato di seguito.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 4.  Verificare che le proprietà per il nuovo criterio organizzazione corrispondano i valori configurati.
 

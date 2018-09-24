@@ -79,7 +79,9 @@ Set-TransportService Mailbox01 -UseDowngradedExchangeServerAuth $true
 
 Per creare un connettore di ricezione nel server Cassette postali, eseguire il comando riportato di seguito:
 
+```powershell
     New-ReceiveConnector -Name <Name> -Server <ServerIdentity> -RemoteIPRanges <IPAddressRange> -Internal
+```
 
 In questo esempio viene creato il connettore di ricezione denominato WAN nel server Mailbox01 con le seguenti impostazioni:
 

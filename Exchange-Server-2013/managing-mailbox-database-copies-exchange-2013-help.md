@@ -627,8 +627,9 @@ RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference 
 ```
 
 In questo esempio, le copie attive del database delle cassette postali in un gruppo DAG vengono ridistribuite e bilanciate utilizzando la preferenza di attivazione e viene prodotto un riepilogo della distribuzione.
-
+```powershell
     RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -ShowFinalDatabaseDistribution
+```
 
 ## Monitoraggio delle copie del database
 

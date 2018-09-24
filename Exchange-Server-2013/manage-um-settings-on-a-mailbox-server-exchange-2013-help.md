@@ -57,23 +57,27 @@ Set-UMService -Identity MyMailboxServer -DialPlans $null
 
 In questo esempio, il server Messaggistica unificata `MyMailboxServer` viene aggiunto al dial plan SIP di messaggistica unificata `MySIPDialPlanName` e viene impostato il numero massimo di chiamate vocali in ingresso.
 
+```powershell
     Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -MaxCalls 150 
+```
 
 In questo esempio, la modalità di avvio viene impostata su Doppio sul server Cassette postali `MyUMServer`.
 
+```powershell
     Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -UMStartUpMode -Dual 
+```
 
 ## Visualizzazione delle proprietà del server Cassette postali tramite Shell
 
 In questo esempio viene visualizzato un elenco di tutti i server Cassette postali.
 
 ```powershell
-Get-UMService
+    Get-UMService
 ```
 
 In questo esempio viene visualizzato un elenco formattato delle proprietà per il server Cassette postali `MyMailboxServer`.
 
 ```powershell
-Get-UMService -Identity MyMailboxServer | Format-List
+    Get-UMService -Identity MyMailboxServer | Format-List
 ```
 

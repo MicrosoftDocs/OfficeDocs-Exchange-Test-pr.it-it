@@ -62,26 +62,26 @@ Sul computer che esegue il ruolo del server Cassette postali:
 1.  Impostare il servizio IMAP4 di Microsoft Exchange per l'avvio automatico.
     
     ```powershell
-Set-service msExchangeIMAP4 -startuptype automatic
-```
+    Set-service msExchangeIMAP4 -startuptype automatic
+    ```
 
 2.  Avviare il servizio IMAP4 di Microsoft Exchange.
     
     ```powershell
-Start-service msExchangeIMAP4
-```
+    Start-service msExchangeIMAP4
+    ```
 
 3.  Impostare il servizio back-end IMAP4 di Microsoft Exchange per l'avvio automatico.
     
     ```powershell
-Set-service msExchangeIMAP4BE -startuptype automatic
-```
+    Set-service msExchangeIMAP4BE -startuptype automatic
+    ```
 
 4.  Avviare il servizio back-end IMAP4 di Microsoft Exchange.
     
     ```powershell
-Start-service msExchangeIMAP4BE
-```
+    Start-service msExchangeIMAP4BE
+    ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

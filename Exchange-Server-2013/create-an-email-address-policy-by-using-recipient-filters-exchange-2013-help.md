@@ -54,8 +54,8 @@ New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
 ```
 
 In questo esempio viene creato un criterio dell'indirizzo di posta elettronica applicabile a tutti i dirigenti e nel quale la parte locale dell'indirizzo è composta dalle prime due lettere del nome e dal cognome intero.
-
+```powershell
     New-EmailAddressPolicy -Name 'Execs' -EnabledEmailAddressTemplates 'SMTP:%2g%s@contoso.com' -RecipientFilter {((RecipientType -eq 'UserMailbox') -and (Title -like 'executive'))}
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [New-EmailAddressPolicy](https://technet.microsoft.com/it-it/library/aa996800\(v=exchg.150\)).
 

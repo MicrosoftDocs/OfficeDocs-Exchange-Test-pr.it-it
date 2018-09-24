@@ -261,7 +261,7 @@ Per completare questo passaggio esistono due metodi:
 **Creazione dei tag di conservazione sulla base delle cartelle gestite**
 
 In questo esempio, i tag di conservazione vengono creati sulla base delle impostazioni dei corrispondenti contenuti gestiti che compaiono nel criterio per le cartelle gestite Contoso.
-
+```powershell
     New-RetentionPolicyTag Corp-DeletedItems -ManagedFolderToUpgrade Corp-DeletedItems
     New-RetentionPolicyTag Corp-SentItems -ManagedFolderToUpgrade Corp-SentItems
     New-RetentionPolicyTag Corp-JunkMail -ManagedFolderToUpgrade Corp-JunkMail
@@ -269,7 +269,7 @@ In questo esempio, i tag di conservazione vengono creati sulla base delle impost
     New-RetentionPolicyTag 30Days -ManagedFolderToUpgrade 30Days
     New-RetentionPolicyTag 5Years -ManagedFolderToUpgrade 5Years
     New-RetentionPolicyTag NeverExpire -ManagedFolderToUpgrade NeverExpire
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-RetentionPolicyTag](https://technet.microsoft.com/it-it/library/dd335226\(v=exchg.150\)).
 
 **Creazione manuale dei tag di conservazione**
@@ -281,7 +281,7 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-Retenti
 
 
 In questo esempio, i tag di conservazione vengono creati sulla base delle cartelle gestite e delle impostazioni dei corrispondenti contenuti gestiti che compaiono nel criterio per le cartelle gestite Contoso. Le impostazioni di conservazione vengono specificate manualmente senza utilizzare il parametro *ManagedFolderToUpgrade*.
-
+```powershell
     New-RetentionPolicyTag Corp-DeletedItems -Type DeletedItems -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction DeleteAndAllowRecovery
     New-RetentionPolicyTag Corp-SentItems -Type SentItems -RetentionEnabled $true -AgeLimitforRetention 1825 -RetentionAction MoveToDeletedItems
     New-RetentionPolicyTag Corp-JunkMail -Type JunkMail -RetentionEnabled $true -AgeLimitforRetention 30 -RetentionAction PermanentlyDelete
@@ -289,7 +289,7 @@ In questo esempio, i tag di conservazione vengono creati sulla base delle cartel
     New-RetentionPolicyTag 30Days -Type Personal -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction MoveToDeletedItems
     New-RetentionPolicyTag 5Years -Type Personal -RetentionEnabled $true -AgeLimitForRetention 1825 -RetentionAction MoveToDeletedItems
     New-RetentionPolicyTag NeverExpire -Type Personal -RetentionEnabled $false
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-RetentionPolicyTag](https://technet.microsoft.com/it-it/library/dd335226\(v=exchg.150\)).
 
 ## Passaggio 2: Creare un criterio di conservazione
@@ -303,8 +303,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 
 In questo esempio, viene creato il criterio di conservazione RP-Corp e i tag di conservazione appena creati vengono collegati al criterio stesso.
-
+```powershell
     New-RetentionPolicy RP-Corp -RetentionPolicyTagLinks Corp-DeletedItems,Corp-SentItems,Corp-JunkMail,Corp-EntireMailbox,30Days,NeverExpire
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-RetentionPolicy](https://technet.microsoft.com/it-it/library/dd297970\(v=exchg.150\)).
 
@@ -343,14 +344,15 @@ Per verificare che sia stata eseguita la migrazione dalle cartelle gestite verso
   - Generare un report di tutte le cassette postali dell'utente e il criterio di conservazione applicato alle stesse.
     
     Tramite tale comando viene recuperato il criterio di conservazione applicato a tutte le cassette postali in un'organizzazione e il relativo stato di conservazione.
-    
+    ```powershell
         Get-Mailbox -ResultSize unlimited -Filter {Name -NotLike "DiscoverySearch*�?} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
+    ```
 
   - Dopo che l'Assistente cartelle gestite ha elaborato una casetta postale con un criterio di conservazione, utilizzare il cmdlet [Get-RetentionPolicyTag](https://technet.microsoft.com/it-it/library/dd298009\(v=exchg.150\)) per recuperare i tag di conservazione disposti nella casetta postale dell'utente
     
     Tramite tale comando vengono recuperati i tag di conservazione effettivamente applicati alla cassetta postale dell'utente April Stewart.
     
     ```powershell
-Get-RetentionPolicyTag -Mailbox astewart
-```
+        Get-RetentionPolicyTag -Mailbox astewart
+    ```
 

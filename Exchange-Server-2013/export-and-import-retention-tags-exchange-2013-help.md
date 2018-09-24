@@ -64,8 +64,8 @@ Per altre attività di gestione relative a Gestione record di messaggistica, ved
 1.  Eseguire questo comando Exchange Management Shell per passare alla sottodirectory **script** nel percorso di installazione Exchange directory.
     
     ```powershell
-Cd $Env:ExchangeInstallPath\Scripts
-```
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Eseguire lo script Export-RetentionTags.ps1 per esportare i tag di conservazione in un file .xml.
     
@@ -75,8 +75,8 @@ Cd $Env:ExchangeInstallPath\Scripts
 
     
     ```powershell
-.\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
-```
+    .\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -91,8 +91,8 @@ Per verificare di aver esportato correttamente i tag e criteri di conservazione,
 1.  Eseguire questo comando Exchange Management Shell per passare alla directory sottodirectory **script** nel percorso di installazione Exchange.
     
     ```powershell
-Cd $Env:ExchangeInstallPath\Scripts
-```
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Eseguire lo script Import-RetentionTags.ps1 per importare i tag di conservazione precedentemente esportati in un file XML.
     
@@ -107,8 +107,8 @@ Cd $Env:ExchangeInstallPath\Scripts
 
     
     ```powershell
-.\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
-```
+    .\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

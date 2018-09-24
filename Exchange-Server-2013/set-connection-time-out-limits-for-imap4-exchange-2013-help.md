@@ -94,8 +94,8 @@ Oppure
 1.  Eseguire il seguente comando in Shell.
     
     ```powershell
-Get-ImapSettings | format-list
-```
+    Get-ImapSettings | format-list
+    ```
 
 2.  Verificare che le impostazioni di connessione siano corrette.
 

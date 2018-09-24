@@ -87,9 +87,9 @@ Quando si è pronti, effettuare le seguenti operazioni per estendere lo schema A
 
 3.  Eseguire il seguente comando per estendere lo schema:
     
-    ```powershell
-Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
-```
+  ```powershell
+      Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+  ```
 
 Quando l'installazione ha completato l'estensione dello schema, sarà necessario attendere che Active Directory replichi le modifiche a tutti i controller di dominio. Se si desidera controllare il processo di replica, è possibile utilizzare lo strumento `repadmin`. `Repadmin` è incluso come parte della funzionalità Strumenti per Servizi di dominio Active Directory in Windows Server 2012 R2, Windows Server 2012 e Windows Server 2008 R2. Per ulteriori informazioni sull'utilizzo di questo strumento, vedere [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
@@ -124,9 +124,10 @@ Quando si è pronti, effettuare le seguenti operazioni per preparare Active Dire
 1.  Aprire una finestra di prompt dei comandi Windows e accedere alla posizione in cui sono stati scaricati i file di installazione di Exchange.
 
 2.  Eseguire il comando riportato di seguito:
-    
-        Setup.exe /PrepareAD /OrganizationName:"<organization name>" /IAcceptExchangeServerLicenseTerms
 
+    ```powershell
+        Setup.exe /PrepareAD /OrganizationName:"<organization name>" /IAcceptExchangeServerLicenseTerms
+    ```
 Dopo che l'installazione ha completato la preparazione di Active Directory per Exchange, sarà necessario attendere che le modifiche vengano replicate a tutti i controller di dominio tramite Active Directory. Se si desidera controllare il processo di replica, è possibile utilizzare lo strumento `repadmin`. `repadmin` è incluso come parte della funzionalità Strumenti per Servizi di dominio Active Directory in Windows Server 2012 R2, Windows Server 2012 e Windows Server 2008 R2. Per ulteriori informazioni sull'utilizzo di questo strumento, vedere [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
 ## 3\. Preparazione dei domini Active Directory
@@ -152,8 +153,8 @@ Una volta pronti, eseguire la procedura indicata di seguito per preparare tutti 
 2.  Eseguire il comando riportato di seguito:
     
     ```powershell
-Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
-```
+    Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+    ```
 
 ## Scelta dei domini di Active Directory che desidera preparare
 
@@ -179,8 +180,9 @@ Una volta pronti, eseguire la procedura indicata di seguito per preparare un sin
 
 2.  Eseguire il comando riportato di seguito. Includere il nome FQDN del dominio che si desidera preparare. Se si desidera preparare il dominio in cui si esegue il comando, non è necessario includere il nome FQDN.
     
+    ```powershell
         Setup.exe /PrepareDomain:<FQDN of the domain you want to prepare> /IAcceptExchangeServerLicenseTerms
-
+    ```
 3.  Ripetere i passaggi per ciascun dominio Active Directory in cui si installerà un server Exchange oppure in cui verranno collocati gli utenti abilitati alla posta elettronica.
 
 ## Come verificare se l'operazione ha avuto esito positivo

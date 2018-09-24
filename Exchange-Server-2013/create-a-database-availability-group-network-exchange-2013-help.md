@@ -47,8 +47,7 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 
 2.  Selezionare il DAG che si desidera configurare, quindi fare clic su ![Aggiunta di una rete del gruppo di disponibilità del database](images/Dd298051.befcdc4e-7f7a-451d-a0a8-608c79f5d186(EXCHG.150).gif "Aggiunta di una rete del gruppo di disponibilità del database").
 
-3.      
-    Nella pagina **Nuova rete gruppo di disponibilità del database**, fornire le seguenti informazioni:
+3.  Nella pagina **Nuova rete gruppo di disponibilità del database**, fornire le seguenti informazioni:
     
       - **Nome della rete per il gruppo di disponibilità del database**   In questo campo digitare un nome per la rete univoco nel gruppo di disponibilità del database.
     
@@ -61,9 +60,9 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 ## Creazione della rete per il gruppo di disponibilità del database tramite Shell
 
 In questo esempio viene creata la rete ReplicationDagNetwork02 con una subnet di 10.0.0.0 e una maschera di bit di 8 nel gruppo di disponibilità del database DAG1. La replica viene abilitata per la rete e viene aggiunta anche una descrizione facoltativa della rete.
-
+```powershell
     New-DatabaseAvailabilityGroupNetwork -DatabaseAvailabilityGroup DAG1 -Name ReplicationDagNetwork02 -Description "Replication network 2" -Subnets 10.0.0.0/8 -ReplicationEnabled:$True
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo?
 
 Per verificare la corretta creazione della rete per il gruppo di disponibilità del database, effettuare una delle seguenti operazioni:
@@ -71,9 +70,9 @@ Per verificare la corretta creazione della rete per il gruppo di disponibilità 
   - Nell'interfaccia di amministrazione di Exchange, accedere a **Server** \> **Gruppi di disponibilità del database**. Selezionare il gruppo di disponibilità del database appropriato e la rete appena creata verrà visualizzata nel riquadro dei dettagli.
 
   - In Shell, utilizzare il seguente comando per verificare che la rete per il gruppo di disponibilità del database sia stata creata correttamente e per visualizzare le informazioni sulla configurazione della rete.
-    
+    ```powershell
         Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
-
+    ```
 ## Ulteriori informazioni
 
 [Set-DatabaseAvailabilityGroupNetwork](https://technet.microsoft.com/it-it/library/dd298008\(v=exchg.150\))

@@ -58,9 +58,9 @@ Può capitare, però, che gli agenti di protezione da posta indesiderata disponi
 ## Passaggio 1: Utilizzare Shell per eseguire lo script Install-AntispamAgents.ps1
 
 Eseguire il comando indicato di seguito:
-
+```powershell
     & $env:ExchangeInstallPath\Scripts\Install-AntiSpamAgents.ps1
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Questa operazione è stata eseguita correttamente se lo script viene eseguito senza errori e chiede di riavviare il servizio di trasporto di Microsoft Exchange.
@@ -100,8 +100,8 @@ Per verificare di aver correttamente specificato l'indirizzo IP di almeno un ser
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-TransportConfig | Format-List InternalSMTPServers
-```
+    Get-TransportConfig | Format-List InternalSMTPServers
+    ```
 
 2.  Verificare che sia visualizzato l'indirizzo IP di almeno un server SMTP interno valido.
 

@@ -56,10 +56,11 @@ Per rimuovere un tag di conservazione da una cassetta postale, scollegare il tag
 Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Gestione record di messaggistica" nell'argomento [Criteri di messaggistica e autorizzazioni di conformità](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 
 In questo esempio Shell consente di scollegare il tag di conservazione Delete - 3 Days dal criterio di conservazione Corp-Users.
-
+```powershell
     $tags = (Get-RetentionPolicy "Corp-Users").RetentionPolicyTagLinks
     $tags -= "Deleted Items - 3 Days"
     Set-RetentionPolicy "Corp-Users" -RetentionPolicyTagLinks $tags
+```
 
 Per informazioni dettagliate sulla sintassi e sul parametro, vedere [Get-RetentionPolicy](https://technet.microsoft.com/it-it/library/dd298086\(v=exchg.150\)) e [Set-RetentionPolicy](https://technet.microsoft.com/it-it/library/dd335196\(v=exchg.150\)).
 
@@ -76,13 +77,13 @@ Set-Mailbox jpeoples -RetentionPolicy $null.
 ```
 
 In questo esempio Shell consente di rimuovere il criterio di conservazione da tutte le cassette postali nell'organizzazione Exchange.
-
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -ne $null} | Set-Mailbox -RetentionPolicy $null
-
+```
 In questo esempio Shell consente di rimuovere il criterio di conservazione Corp-Finance da tutti gli utenti della cassetta postale a cui è applicato il criterio.
-
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -eq "Corp-Finance"} | Set-Mailbox -RetentionPolicy $null
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)) e [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)).
 
 ## Disattivazione definitiva di Gestione record di messaggistica per l'intera organizzazione
@@ -104,13 +105,13 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 
 In questo esempio vengono rimossi tutti i tag di eliminazione da un'organizzazione di Exchange tranne il tag Non eliminare mai, utilizzato nel criterio ArbitrationMailbox e creato dal programma di installazione di Exchange.
-
+```powershell
     Get-RetentionPolicyTag | ? {$_.RetentionAction -ne "MoveToArchive" -and $_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
-
+```
 In questo esempio vengono rimossi tutti i tag di conservazione tranne il tag Non eliminare mai.
-
+```powershell
     Get-RetentionPolicyTag | ? {$_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
-
+```
 Il comando consente di rimuovere il criterio di conservazione Corp-Users da un'organizzazione di Exchange.
 
 ```powershell

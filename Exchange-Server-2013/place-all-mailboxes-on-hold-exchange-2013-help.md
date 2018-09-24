@@ -104,9 +104,9 @@ Ecco alcuni fattori da considerare quando si decide la funzionalità di archivia
 ## Archiviare tutte le cassette postali mediante Conservazione per controversia legale
 
 È possibile modo semplice e rapido effettuare tutte le cassette postali in attesa tempo indeterminato o per un periodo specificato utilizzando la Shell. Questo comando effettua tutte le cassette postali per 2555 giorni (circa 7 anni).
-
+```powershell
     Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -LitigationHoldEnabled $true -LitigationHoldDuration 2555
-
+```
 Nell'esempio viene utilizzato il cmdlet [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) e un filtro destinatario per recuperare tutte le cassette postali nell'organizzazione e quindi l'elenco delle cassette postali al cmdlet [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)) per abilitare la conservazione per controversia legale e specificare un intervallo di tempo di attesa. Per ulteriori informazioni, vedere [Conservazione in caso di dispute di una cassetta postale](place-a-mailbox-on-litigation-hold-exchange-2013-help.md).
 
 ## Archiviare tutte le cassette postali con Archiviazione sul posto
@@ -129,25 +129,24 @@ Nell'esempio viene utilizzato il cmdlet [Get-Mailbox](https://technet.microsoft.
     
     Di seguito sono riportati alcuni esempi di utilizzo dei cmdlet **Get-Mailbox** e **Get-Recipient** per restituire un sottoinsieme delle cassette postali basato su utente comuni o proprietà della cassetta postale. In questi esempi si presuppongono che sono state popolate proprietà delle cassette postali rilevanti (ad esempio *CustomAttributeN* o *Department*).
     
-    ```
+    ```powershell
     Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
     ```
+    
+    ```powershell
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
     ```
-```powershell
-Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-```
-    ```
-    ```
+    ```powershell
     Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
     ```
-    ```
+    ```powershell
     Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
     ```
+    
+    ```powershell
+    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
     ```
-```powershell
-Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
-```
-    ```
+   
     
     È possibile utilizzare altre proprietà delle cassette postali utente in un filtro per includere o escludere le cassette postali. Per ulteriori informazioni, vedere [Proprietà filtrabili per il parametro - Filter](https://technet.microsoft.com/it-it/library/bb738155\(v=exchg.150\)).
 

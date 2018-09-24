@@ -82,16 +82,16 @@ Per verificare che la posta elettronica sia stata disabilitata correttamente per
 3.  In Shell, utilizzare il seguente comando.
     
     ```powershell
-Get-MailUser
-```
+    Get-MailUser
+    ```
     
     L'utente di posta per il quale è stato disabilitato l'utilizzo della posta elettronica non verrà restituito nei risultati poiché questo cmdlet restituisce solo gli utenti abilitati all'utilizzo della posta.
 
 4.  In Shell, utilizzare il seguente comando.
     
     ```powershell
-Get-User
-```
+    Get-User
+    ```
     
     L'utente di posta che è stato disabilitato all'utilizzo della posta elettronica viene restituito nei risultati poiché questo cmdlet restituisce tutti gli oggetti utente di Active Directory.
 
@@ -112,11 +112,11 @@ Enable-MailUser -Identity "Sanjay Shah" -ExternalEmailAddress renev@tailspintoys
 Quando si abilitano all'utilizzo della posta gli utenti in blocco, innanzitutto si esporta l'elenco degli utenti che non sono abilitati all'utilizzo della posta su un file CSV (valori separati da virgole), poi si aggiungono gli indirizzi di posta elettronica esterni al file CSV utilizzando un editor di testo, come Blocco note o un'applicazione che utilizza fogli elettronici come Microsoft Excel. Successivamente si utilizza il file CSV aggiornato nel comando Shell per abilitare all'utilizzo della posta gli utenti elencati nel file CSV.
 
 1.  Utilizzare il comando seguente per esportare un elenco di utenti esistenti che non sono abilitati all'utilizzo della posta o che non hanno una cassetta postale nell'organizzazione su un file sul desktop dell'amministratore denominato UsersToMailEnable.csv.
-    
+    ```powershell
         Get-User | Where { $_.RecipientType -eq "User" } | Out-File "C:\Users\Administrator\Desktop\UsersToMailEnable.csv"
-    
+    ```
     Il file ottenuto sarà simile al seguente.
-    
+    ```powershell
         Name            RecipientType
         ----            -------------
         Guest           User
@@ -129,7 +129,7 @@ Quando si abilitano all'utilizzo della posta gli utenti in blocco, innanzitutto 
         Spencer Low     User
         Toni Poe        User
         ...
-
+    ```
 2.  Apportare le modifiche seguenti al file CSV:
     
       - Eliminare tutti gli utenti che non si desidera abilitare all'utilizzo della posta dal file CSV. Ad esempio, si dovrebbero eliminare i primi tre elementi nell'esempio precedente perchè sono account predefiniti del sistema.
@@ -139,7 +139,7 @@ Quando si abilitano all'utilizzo della posta gli utenti in blocco, innanzitutto 
       - Aggiungere l'intestazione di colonna **EmailAddress** quindi aggiungere un indirizzo di posta elettronica per ciascun utente nel file. Il nome e l'indirizzo esterno di posta elettronica per ciascun utente deve essere separato da una virgola.
     
     Il file CSV aggiornato dovrebbe essere simile al seguente.
-    
+    ```powershell
         Name,EmailAddress
         David Pelton,davidp@contoso.com
         Kim Akers,kakers@tailspintoys.com
@@ -148,11 +148,11 @@ Quando si abilitano all'utilizzo della posta gli utenti in blocco, innanzitutto 
         Spencer Low,spencerl@fouthcoffee.com
         Toni Poe,tonip@contoso.com
         ...
-
+    ```
 3.  Eseguire questo comando per utilizzare i dati nel file CSV per abilitare all'utilizzo della posta gli utenti elencati nel file.
-    
+    ```powershell
         Import-CSV "C:\Users\Administrator\Desktop\UsersToMailEnable.csv" | ForEach-Object {Enable-MailUser -Identity $_.Name -ExternalEmailAddress $_.EmailAddress}
-    
+    ```
     I risultati del comando visualizzano le informazioni sui nuovi utenti abilitati alla posta elettronica.
 
 ## Come verificare se l'operazione ha avuto esito positivo?
@@ -170,6 +170,6 @@ Per verificare di aver correttamente abilitato alla posta gli utenti di Active D
   - In Shell utilizzare il comando seguente per visualizzare le informazioni sui nuovi utenti di posta.
     
     ```powershell
-Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
-```
+        Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```
 

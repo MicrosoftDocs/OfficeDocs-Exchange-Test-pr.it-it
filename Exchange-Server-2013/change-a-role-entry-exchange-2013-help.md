@@ -63,11 +63,15 @@ Per aggiungere parametri a una voce di ruolo, è necessario specificare quelli c
 
 Per aggiungere parametri a una voce di ruolo, utilizzare la seguente sintassi.
 
+```powershell
     Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...> -AddParameter
+```
 
 In questo esempio viene mostrato come aggiungere i parametri *EmailAddresses* e *Type* al cmdlet **Set-Mailbox** nel ruolo Recipient Administrators.
 
+```powershell
     Set-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" -Parameters EmailAddresses, Type -AddParameter
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351162\(v=exchg.150\)).
 
@@ -77,11 +81,14 @@ Per rimuovere parametri da una voce di ruolo, è necessario specificarli tramite
 
 Per rimuovere parametri da una voce di ruolo, utilizzare la seguente sintassi.
 
+```powershell
     Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...> -RemoveParameter
-
+```
 In questo esempio viene mostrato come rimuovere i parametri *Port*, *ProtocolLoggingLevel* e *SmartHostAuthMechanism* dal cmdlet **Set-SendConnector** nel ruolo Tier 1 Server Administrators.
 
+```powershell
     Set-ManagementRoleEntry "Tier 1 Server Administrators\Set-SendConnector" -Parameters Port, ProtocolLoggingLevel, SmartHostAuthMechanism -RemoveParameter
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351162\(v=exchg.150\)).
 
@@ -99,11 +106,15 @@ La rimozione di tutti i parametri da una voce di ruolo è particolarmente utile 
 
 Per rimuovere tutti i parametri da una voce di ruolo, utilizzare la seguente sintassi.
 
+```powershell
     Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters $Null 
+```
 
 In questo esempio, vengono rimossi tutti i parametri dal cmdlet **Set-CASMailbox** nel ruolo Recipient Administrators.
 
+```powershell
     Set-ManagementRoleEntry "Recipient Administrators\Set-CASMailbox" -Parameters $Null 
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351162\(v=exchg.150\)).
 
@@ -113,11 +124,15 @@ Se si desidera che in una voce di ruolo sia incluso solo un gruppo specifico di 
 
 Per specificare un determinato insieme di parametri, utilizzare la seguente sintassi.
 
+```powershell
     Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...>
+```
 
 In questo esempio viene mostrato come includere soltanto i parametri *Identity*, *DisplayName*, *MissedCallNotificationEnabled* e *PersonalAuthAttendantEnabled* nel cmdlet **Set-UMMailbox** del ruolo Seattle Mail Recipients.
 
+```powershell
     Set-ManagementRoleEntry "Seattle Mail Recipients\Set-UMMailbox" -Parameters Identity, DisplayName, MissedCallNotificationEnabled, PersonalAutoAttendantEnabled
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351162\(v=exchg.150\)).
 

@@ -82,13 +82,13 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 ## Visualizzazione di un elenco mirato dei ruoli contenenti voci di ruolo simili
 
 Per visualizzare un elenco dei ruoli mirati che contengono cmdlet con nomi simili, utilizzare la seguente sintassi.
-
+```powershell
     Get-ManagementRoleEntry *<partial role name>*\*<partial cmdlet name>*
-
+```
 Con questo esempio viene restituito un elenco delle voci di ruolo contenenti la stringa `Mailbox` e appartenenti a ruoli il cui nome contiene la stringa `Tier 1`.
-
+```powershell
     Get-ManagementRoleEntry "*Tier 1*\*Mailbox*"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd335210\(v=exchg.150\)).
 
 ## Visualizzazione di una singola voce di ruolo
@@ -114,12 +114,12 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 Alcune voci di ruolo contengono un numero di parametri eccessivo per la visualizzazione con pipelining dei risultati del cmdlet **Get-ManagementRoleEntry** nel cmdlet **Format-List**. Se è necessario visualizzare tutti i parametri di una voce di ruolo, è possibile accedere direttamente alla proprietà **Parameters** dell'oggetto voce di ruolo.
 
 Per visualizzare i parametri memorizzati nella proprietà **Parameters** di un oggetto voce di ruolo, utilizzare la seguente sintassi.
-
+```powershell
     (Get-ManagementRoleEntry <role name>\<cmdlet name>).Parameters
-
+```
 Con questo esempio vengono recuperati i parametri della voce di ruolo **Set-Mailbox** nel ruolo Mail Recipients.
-
+```powershell
     (Get-ManagementRoleEntry "Mail Recipients\Set-Mailbox").Parameters
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd335210\(v=exchg.150\)).
 

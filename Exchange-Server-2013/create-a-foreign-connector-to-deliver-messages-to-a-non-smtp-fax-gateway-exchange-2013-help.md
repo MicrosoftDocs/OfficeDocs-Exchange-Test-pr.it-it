@@ -48,9 +48,9 @@ Ulteriori informazioni sugli scenari in cui si utilizza questa procedura Vedere 
 ## Passaggio 1: Utilizzare Shell per creare un connettore esterno che invii i messaggi a un server gateway non SMTP
 
 1.  Utilizzare il seguente comando per creare il connettore esterno:
-    
+    ```powershell
         New-ForeignConnector -Name "Contoso Foreign Connector" -AddressSpaces "X400:c=US;a=Fabrikam;P=Contoso;5" -SourceTransportServers Hub01,Hub02
-    
+    ```
     In questo esempio, Hub01 e Hub02 sono i server di origine nell'organizzazione scelti per recapitare i messaggi al sistema esterno. L'utilizzo di più server di origine determina la tolleranza di errore.
 
 Una volta creato il connettore esterno, è possibile configurare le directory di destinazione, di prelievo e di riesecuzione, in base ai requisiti dell'organizzazione.
@@ -74,8 +74,8 @@ Creare una directory da utilizzare come directory di destinazione sul file syste
 1.  Utilizzare il seguente script per specificare la directory di destinazione per il connettore esterno (impostare il parametro *DropDirectory* sul percorso appropriato nel proprio ambiente):
     
     ```powershell
-Set-ForeignConnector "Contoso Foreign Connector" -DropDirectory "C:\Drop Directory"
-```
+    Set-ForeignConnector "Contoso Foreign Connector" -DropDirectory "C:\Drop Directory"
+    ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

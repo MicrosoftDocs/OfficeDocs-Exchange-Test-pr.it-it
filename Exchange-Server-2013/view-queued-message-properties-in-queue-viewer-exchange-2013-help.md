@@ -49,8 +49,7 @@ _**Ultima modifica dell'argomento:** 2013-01-17_
 
 4.  Fare clic con il pulsante destro del mouse sul messaggio di cui si desidera visualizzare le proprietà, quindi selezionare **Proprietà**.
 
-5.      
-    Nella scheda **Generale**, vengono visualizzate le informazioni dettagliate sul messaggio.
+5.  Nella scheda **Generale**, vengono visualizzate le informazioni dettagliate sul messaggio.
     
       - **Identità**   In questo campo, viene visualizzato il valore intero rappresentante un particolare messaggio. L'identità del messaggio viene assegnata dal database di code quando il messaggio viene ricevuto per l'elaborazione. È possibile includere un server facoltativo e l'identità della coda per identificare un'istanza univoca del messaggio.
     
@@ -119,7 +118,9 @@ _**Ultima modifica dell'argomento:** 2013-01-17_
 
 È possibile utilizzare il cmdlet **Get-Message** per visualizzare le proprietà di un messaggio attualmente in coda per il recapito. Nell'esempio seguente, vengono catalogati l'indirizzo del mittente, i destinatari, l'oggetto e le informazioni sulla data di ricezione per tutti i messaggi che si trovano attualmente nello stato di Riprova:
 
+```powershell
     Get-Message -IncludeRecipientInfo -Filter {Status -eq "Retry"} | Format-Table FromAddress,Recipients,Subject,DateReceived
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Get-Message](https://technet.microsoft.com/it-it/library/bb124738\(v=exchg.150\)).
 

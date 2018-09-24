@@ -64,27 +64,28 @@ In base alla topologia dell'organizzazione di Exchange, è possibile decidere di
 Se si decide di eseguire la partizione dell'elaborazione della posta in ingresso e in uscita tra due server Trasporto Edge, uno dei server è responsabile per l'elaborazione del flusso di posta in uscita e il secondo è responsabile per l'elaborazione della posta in ingresso. A tale scopo, configurare le sottoscrizioni Edge nel modo riportato di seguito:
 
   - Per il server Trasporto Edge in uscita, eseguire il seguente comando nel server di cassetta postale.
-    
+    ```powershell
         New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInboundSendConnector $false -CreateInternetSendConnector $true
-
+    ```
   - Per il server Trasporto Edge in ingresso, eseguire il seguente comando nel server di cassetta postale.
-    
+    ```powershell
         New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInboundSendConnector $true -CreateInternetSendConnector $false
-
+    ```
 ## Instradamento della posta in uscita verso uno smart host
 
 Se l'organizzazione di Exchange instrada tutta la posta elettronica in uscita tramite uno smart host, il connettore di invio a Internet creato automaticamente non sarà configurato correttamente.
 
 Eseguire il seguente comando sul server di cassetta postale per annullare la creazione automatica del connettore di invio a Internet.
-
+```powershell
     New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInternetSendConnector $false
+```
 
 Una volta completato il processo di sottoscrizione Edge, creare manualmente il connettore di invio a Internet. Creare il connettore di invio all'interno dell'organizzazione di Exchange e selezionare la sottoscrizione Edge come server di origine per il connettore. Selezionare l'utilizzo `Custom` e configurare uno o più smart host. In occasione della successiva sincronizzazione EdgeSync dei dati di configurazione, il nuovo connettore di invio verrà replicato nell'istanza AD LDS sul server Trasporto Edge. È possibile forzare la sincronizzazione automatica di Edge Sync eseguendo il cmdlet **Start-EdgeSynchronization** su un server di cassetta postale.
 
 Esempio: Se si utilizza la shell per configurare un connettore di invio affinché il server Trasporto Edge sottoscritto instradi i messaggi di tutti gli spazi indirizzo Internet tramite uno smart host. Eseguire questa attività sul server di cassetta postale situato all'interno dell'organizzazione di Exchange, non nel server Trasporto Edge.
-
+```powershell
     New-SendConnector -Name "EdgeSync - Site-A to Internet" -Usage Custom -AddressSpaces SMTP:*;100 -DNSRoutingEnabled $false -SmartHosts 192.168.10.1 -SmartHostAuthMechanism None -SourceTransportServers EdgeSubscriptionName
-
+```
 
 > [!IMPORTANT]
 > In questo esempio non viene indicato alcun meccanismo di autenticazione smart host. Assicurarsi di aver configurato il corretto meccanismo di autenticazione e di aver fornito tutte le credenziali necessarie quando si crea un connettore smart host nell'organizzazione di Exchange.

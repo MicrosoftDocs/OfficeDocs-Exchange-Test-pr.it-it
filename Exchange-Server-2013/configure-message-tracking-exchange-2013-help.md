@@ -56,9 +56,9 @@ La verifica dei messaggi registra l'attività di trasporto SMTP di tutti i messa
 ## Utilizzo di Shell per la configurazione della verifica dei messaggi
 
 Per configurare la verifica dei messaggi, eseguire il comando seguente:
-
+```powershell
     Set-TransportService <ServerIdentity> -MessageTrackingLogEnabled <$true | $false> -MessageTrackingLogMaxAge <dd.hh:mm:ss> -MessageTrackingLogMaxDirectorySize <Size> -MessageTrackingLogMaxFileSize <Size> -MessageTrackingLogPath <LocalFilePath> -MessageTrackingLogSubjectLoggingEnabled <$true|$false>
-
+```
 In questo esempio vengono configurate le seguenti impostazioni del registro di verifica dei messaggi sul server Cassette postali Mailbox01:
 
   -  Configurare il percorso del file di registro di verifica dei messaggi su D:\\Message Tracking Log. Notare che se la cartella non esiste, verrà creata automaticamente.
@@ -70,9 +70,9 @@ In questo esempio vengono configurate le seguenti impostazioni del registro di v
   -  Impostare la durata massima di un file di registro di verifica dei messaggi su 45 giorni.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Mailbox01 -MessageTrackingLogPath "D:\Hub Message Tracking Log" -MessageTrackingLogMaxFileSize 20MB -MessageTrackingLogMaxDirectorySize 1.5GB -MessageTrackingLogMaxAge 45.00:00:00
-
+```
 
 > [!NOTE]
 > <UL>
@@ -102,8 +102,8 @@ Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
 Per verificare la corretta configurazione della verifica dei messaggi, effettuare le seguenti operazioni:
 
 1.  In Shell, utilizzare il seguente comando:
-    
+    ```powershell
         Get-TransportService <ServerIdentity> | Format-List MessageTrackingLog*
-
+    ```
 2.  Verificare che i valori visualizzati siano quelli configurati.
 

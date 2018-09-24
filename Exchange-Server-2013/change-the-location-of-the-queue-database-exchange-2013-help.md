@@ -94,25 +94,26 @@ Il percorso del database delle code e dei registri delle transazioni è controll
 2.  In una finestra del prompt dei comandi, aprire il file EdgeTransport.exe.config in Blocco note utilizzando il seguente comando:
     
     ```powershell
-Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
-```
+        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 3.  Modificare le seguenti chiavi nella sezione `<appSettings>`.
-    
+    ```powershell
         <add key="QueueDatabasePath" value="<LocalPath>" />
         <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
-    
+    ```
     Ad esempio, per creare un nuovo database delle code in D:\\Queue\\QueueDB e nuovi registri della transazioni in D:\\Queue\\QueueLogs, utilizzare il seguente comando:
-    
+    ```powershell
         <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
         <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
-
+    ```
 4.  Al termine, salvare e chiudere il file EdgeTransport.exe.config.
 
 5.  Riavviare il servizio di trasporto di Microsoft Exchange utilizzando il seguente comando:
+    ```powershell
     
         net stop MSExchangeTransport && net start MSExchangeTransport
-
+    ```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare di aver creato correttamente un nuovo database delle code e nuovi registri delle transazioni in un nuovo percorso, procedere nel modo seguente:
@@ -140,26 +141,27 @@ Utilizzare la seguente procedura per spostare il database delle code e i nuovi r
 2.  In una finestra del prompt dei comandi, aprire il file EdgeTransport.exe.config in Blocco note utilizzando il seguente comando:
     
     ```powershell
-Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
-```
+        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 3.  Modificare le seguenti chiavi nella sezione `<appSettings>`:
+    ```powershell
     
         <add key="QueueDatabasePath" value="<LocalPath>" />
         <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
-    
+    ```
     Ad esempio, per modificare il percorso del database delle code in D:\\Queue\\QueueDB e quello dei registri delle transazioni in D:\\Queue\\QueueLogs, utilizzare i seguenti valori:
-    
+    ```powershell
         <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
         <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
-
+    ```
 4.  Al termine, salvare e chiudere il file EdgeTransport.exe.config.
 
 5.  Arrestare il servizio di trasporto di Microsoft Exchange utilizzando il seguente comando:
     
     ```powershell
-net stop MSExchangeTransport
-```
+    net stop MSExchangeTransport
+    ```
 
 6.  Spostare i file del database esistenti Mail.que e Trn.chk dal percorso originale al nuovo percorso.
 
@@ -168,8 +170,8 @@ net stop MSExchangeTransport
 8.  Avviare il servizio di trasporto di Microsoft Exchange utilizzando il seguente comando:
     
     ```powershell
-net start MSExchangeTransport
-```
+        net start MSExchangeTransport
+    ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

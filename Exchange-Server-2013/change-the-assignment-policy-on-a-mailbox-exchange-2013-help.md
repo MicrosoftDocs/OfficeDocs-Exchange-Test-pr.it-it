@@ -76,16 +76,17 @@ In questa procedura viene eseguito il pipelining, il cmdlet **Where** e il param
   - [Opzioni WhatIf, Confirm e ValidateOnly](whatif-confirm-and-validateonly-switches-exchange-2013-help.md)
 
 Se si desidera modificare il criterio di assegnazione per un gruppo di cassette postali assegnate a uno specifico criterio, utilizzare la seguente sintassi.
-
+```powershell
     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<assignment policy to find>" } | Set-Mailbox -RoleAssignmentPolicy <assignment policy to set>
-
+```
 In questo esempio vengono individuate tutte le cassette postali assegnate al criterio di assegnazione Redmond Users - No Voicemail e il criterio viene modificato in Redmond Users - Voicemail Enabled.
-
+```powershell
     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Redmond Users - No Voicemail" } | Set-Mailbox -RoleAssignmentPolicy "Redmond Users - Voicemail Enabled"
+```
 
 In questo esempio viene incluso il parametro *WhatIf* in modo da poter visualizzare tutte le cassette postali modificate senza apportare alcuna modifica.
-
+```powershell
     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Redmond Users - No Voicemail" } | Set-Mailbox -RoleAssignmentPolicy "Redmond Users - Voicemail Enabled" -WhatIf
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) o [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 

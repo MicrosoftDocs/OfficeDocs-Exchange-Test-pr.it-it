@@ -166,21 +166,21 @@ Per impostare il tema predefinito per tutti gli utenti, è necessario disattivar
 ## Impostazione del tema predefinito per Outlook Web App tramite Shell
 
 In questo esempio viene impostato il tema predefinito di Outlook Web App, dove il nome del server è `fourthcoffee`, il nome della directory virtuale è `owa`, l nome del sito Web è `default web site` e il tema si trova nella cartella denominata `Custom`.
-
+```powershell
     set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -defaulttheme Custom 
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-OwaVirtualDirectory](https://technet.microsoft.com/it-it/library/bb123515\(v=exchg.150\)).
 
 ## Disabilitazione della selezione del tema per Outlook Web App tramite Shell
 
 In questo esempio viene disabilitata la selezione del tema in Outlook Web App, dove il nome del server è `fourthcoffee`, il nome della directory virtuale è `owa` e il nome del sito Web è `default web site`.
-
+```powershell
     set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -themeselectionenabled $false 
-
+```
 Inoltre è possibile eseguire entrambi i comandi contemporaneamente mediante il seguente comando:
-
+```powershell
     set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -defaulttheme Custom -themeselectionenabled $false
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-OwaVirtualDirectory](https://technet.microsoft.com/it-it/library/bb123515\(v=exchg.150\)).
 
 ## Passaggio 6: Esecuzione di iisreset/noforce per salvare le modifiche

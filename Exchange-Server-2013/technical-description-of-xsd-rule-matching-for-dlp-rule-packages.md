@@ -22,7 +22,7 @@ In questo argomento vengono descritte le tecniche per associare criteri e elemen
 ## L'elemento Match
 
 L'elemento `Match` è utilizzato negli elementi `Pattern` e `Evidence` per rappresentare la parola chiave sottostante, regex o funzione che deve essere confrontata. La definizione dell'elemento match è archiviata all'esterno dell'elemento `Rule` e vi si fa riferimento tramite il necessario attributo `idRef`. Più elementi `Match` possono essere inclusi in una definizione Pattern che può essere inclusa direttamente nell'elemento `Pattern` o combinata utilizzando l'elemento `Any` per definire la semantica di corrispondenza.
-
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <Rules packageId="...">
             ...
@@ -40,7 +40,7 @@ L'elemento `Match` è utilizzato negli elementi `Pattern` e `Evidence` per rappr
             ...
     
     </Rules>
-
+```
 ## Definizione di corrispondenza basata su parola chiave
 
 Un comune requisito di una regola è la corrispondenza basata sul riconoscimento di espressioni stringa parola chiave. Questa operazione viene eseguita utilizzando l'elemento `Keyword`. L'elemento Keyword dispone di un attributo "id" che viene utilizzato come riferimento nelle corrispondenti regole di entità o affinità. Ad un singolo elemento Keyword possono far riferimento più regole dell'entità e dell'affinità.
@@ -52,7 +52,7 @@ L'abbinamento può essere eseguita utilizzando una corrispondenza esatta o gli a
 > Utilizzare lo stile di corrispondenza basato su costanti piuttosto che su regex per migliori livelli di prestazioni ed efficienza. Utilizzare la corrispondenza regex solo nei casi in cui le corrispondenze basate su costanti non sono sufficienti ed è necessaria la flessibilità garantita dalle espressioni regolari.
 
 
-
+```xml
     <Keyword id="Word_Example">
         <Group matchStyle="word">
            <Term>card verification</Term>
@@ -72,7 +72,7 @@ L'abbinamento può essere eseguita utilizzando una corrispondenza esatta o gli a
            <Term>security</Term>
         </Group>
     </Keyword>
-
+```
 ## Definizione di corrispondenze basate su espressioni regolare
 
 Un altro metodo comune di corrispondenza si basa su espressioni regolari. La flessibilità della corrispondenza di espressioni regolari la rende una scelta comune nella realizzazione di corrispondenze di dati ad esempio numero della patente di guida, indirizzi. La comune sintassi delle espressioni regolari viene utilizzata per definire i modelli regex. Questa tabella mostra esempi di alcune delle più comuni espressioni regolari disponibili.
@@ -197,7 +197,7 @@ Un altro metodo comune di corrispondenza si basa su espressioni regolari. La fle
 
 
 L'elemento Regex ha un attributo "id" che viene utilizzato come riferimento nelle regole dell'entità o dell'affinità corrispondenti. Ad un singolo elemento Regex possono far riferimento più regole entità e affinità. L'espressione Regex è definita come il valore dell'elemento Regex.
-
+```powershell
     <Regex id="CCRegex">
          \bcc\#\s|\bcc\#\:\s
     </Regex>
@@ -209,7 +209,7 @@ L'elemento Regex ha un attributo "id" che viene utilizzato come riferimento nell
     <Regex id="NorthCarolinaDriversLicenseNumber">
         (^|\s|\:)(\d{1,8})($|\s|\.\s)
     </Regex>
-
+```
 ## Combinazione di più elementi di corrispondenza
 
 Una comune tecnica per aumentare l'affidabilità della corrispondenza è definire la semantica tra più elementi Match, ad esempio che si devono verificare una o più corrispondenze. L'elemento Any consente la definizione di una logica basata tra più corrispondenze. L'elemento Any può essere utilizzato come sottoelemento dell'elemento Pattern. Contiene uno o più elementi figlio Match e definisce la logica della corrispondenza tra loro. Vedere gli esempi di codice XML seguenti per gli elementi Any con tutte le corrispondenze, logica "not" e conteggio corrispondenza esatta.
@@ -224,21 +224,21 @@ L'attributo opzionale minMatches può essere utilizzato (predefinito = 1) per de
 
 <!-- end list -->
 
-```
+```xml
     <Any minMatches="3" maxMatches="3">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
 ```
-```
+```xml
     <Any maxMatches="0">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
 ```
-```
+```xml
     <Any minMatches="1" maxMatches="1">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
@@ -257,7 +257,7 @@ Per le regole basate su entità, un'altra opzione per migliorare l'affidabilità
   - se tre parti: livello di probabilità del 85%
 
 <!-- end list -->
-
+```xml
     <Entity id="..." patternsProximity="300" >
         <Pattern confidenceLevel="65">
             <IdMatch idRef="UnformattedSSN" />
@@ -284,7 +284,7 @@ Per le regole basate su entità, un'altra opzione per migliorare l'affidabilità
             </Any>
         </Pattern>
     </Entity>
-
+```
 ## Esempio: Regola codice di previdenza sociale statunitense
 
 Questa sezione include una descrizione introduttiva per la realizzazione di una regola che controlla la corrispondenza del codice di previdenza sociale statunitense. Si inizierà con una descrizione di come identificare i contenuti che corrispondono al codice di previdenza sociale. Un codice di previdenza sociale si considera trovato se:
@@ -302,7 +302,7 @@ Questa sezione include una descrizione introduttiva per la realizzazione di una 
     4.  Testo che rappresenta un nome
 
 Quindi, tradurre la descrizione nella rappresentazione dello schema della regola:
-
+```xml
     <Entity id="a44669fe-0d48-453d-a9b1-2cc83f2cba77"
              patternsProximity="300" RecommendedConfidence="85">
         <Pattern confidenceLevel="85">
@@ -315,7 +315,7 @@ Quindi, tradurre la descrizione nella rappresentazione dello schema della regola
           </Any>
         </Pattern>
     </Entity>
-
+```
 ## Ulteriori informazioni
 
 [Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
