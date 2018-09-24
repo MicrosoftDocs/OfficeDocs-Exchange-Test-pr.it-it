@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Consenti impostaz. di POP3, IMAP4, SMTP in Outlook Web App: Exchange 2013 Help'
 TOCTitle: Come consentire agli utenti finali di visualizzare le impostazioni dei server POP3, IMAP4 e SMTP in Outlook Web App
 ms:assetid: bd22bf7e-3bf7-45e6-8790-919b780166f6
@@ -97,7 +97,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 Con questo esempio viene consentito agli utenti finali di visualizzare le impostazioni del server SMTP interno ed esterno utilizzando Outlook Web App.
 
+```powershell
     Get-ReceiveConnector "*Client Frontend*" | Set-ReceiveConnector -Fqdn Server.Contoso.com -AdvertiseClientSettings $true 
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-ReceiveConnector](https://technet.microsoft.com/it-it/library/bb125140\(v=exchg.150\)).
 
