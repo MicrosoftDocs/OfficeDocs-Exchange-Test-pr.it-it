@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Configura dimensione max messaggi specifici del client: Exchange 2013 Help'
 TOCTitle: Configurare la dimensione massima dei messaggi specifici del client
 ms:assetid: fef9ca78-b68f-4342-ada0-881ab985ce3c
@@ -235,25 +235,31 @@ Per tutti i limiti di dimensione dei messaggi, è necessario impostare valori ma
 
 1.  Aprire i file Web. config appropriati nel blocco note. Ad esempio, per aprire i file Web. config per i client Servizi Web Exchange, eseguire i comandi seguenti:
     
+    ```powershell
         Notepad %ExchangeInstallPath%ClientAccess\exchweb\ews\web.config
         Notepad %ExchangeInstallPath%FrontEnd\HttpProxy\ews\web.config
+    ```
 
 2.  Trovare i tasti pertinenti nei file Web. config appropriati, come descritto nelle tabelle in precedenza nell'argomento. Ad esempio, per i client Servizi Web Exchange, trovare la chiave *maxAllowedContentLength* nel file e tutte le 14 occorrenze il valore `maxReceivedMessageSize="67108864"` nel file `web.config` sui server cassette postali.
     
+    ```powershell
         <requestLimits maxAllowedContentLength="67108864" />
         ...maxReceivedMessageSize="67108864"...
+    ```
     
     Ad esempio, per consentire una dimensione dei messaggi massima con codifica Base64 di circa 64 MB, modificare tutte le istanze di `67108864` in `89478486` (64\*4/3\*1048756):
     
+    ```powershell
         <requestLimits maxAllowedContentLength="89478486" />
         ...maxReceivedMessageSize="89478486"...
-
+    ```
+    
 3.  Al termine, salvare e chiudere i file Web. config.
 
 4.  Riavviare IIS utilizzando il seguente comando:
     
     ```powershell
-    IISReset /noforce
+        IISReset /noforce
     ```
 
 ## Configurare la dimensione massima dei messaggi specifici del client dalla riga di comando
