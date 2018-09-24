@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Script RollAlternateserviceAccountCredential.ps1 in Shell: Exchange 2013 Help'
 TOCTitle: Utilizzando lo Script RollAlternateserviceAccountCredential.ps1 in Shell
 ms:assetid: 6ac55aae-472a-4ed6-83df-2d0e7b48e05c
@@ -242,13 +242,17 @@ Se lo script viene eseguito come attività pianificata, nella cartella di **regi
 
 Questo esempio viene utilizzato lo script per estrarre le credenziali per tutti i server Accesso Client nell'insieme di strutture per la prima installazione.
 
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToEntireForest -GenerateNewPasswordFor "Contoso\ComputerAccount$" -Verbose
+```
 
 ## Esempio 2
 
 In questo esempio viene generata una nuova password per una credenziale ASA dell'account utente e le distribuisce la password per tutti i membri di array di server Accesso Client in cui il nome corrisponde \* \* cassetta postale.
 
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers *mailbox* -GenerateNewPasswordFor "Contoso\UserAccount" -Verbose
+```
 
 ## Esempio 3
 
