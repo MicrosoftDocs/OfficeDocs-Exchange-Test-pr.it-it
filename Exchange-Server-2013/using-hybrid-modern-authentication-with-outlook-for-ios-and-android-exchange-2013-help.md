@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'ITPro_R4_Stub_80: Exchange 2013 Help'
 TOCTitle: ITPro_R4_Stub_80
 ms:assetid: 0e701643-1f18-4cc3-8595-4fd4b15caf6c
@@ -359,7 +359,7 @@ Alla scadenza del token, il client tenterà di utilizzare il token di aggiorname
 
 **R:**  Sì, un utente può ignorare il servizio di rilevamento automatico in qualsiasi momento e configurare manualmente la connessione con l'autenticazione di base sul protocollo Exchange ActiveSync. Per far sì che l'utente non stabilisca una connessione al proprio ambiente locale con un meccanismo che non supporta l'accesso condizionale di Azure Active Directory o i criteri di protezione delle app di Intune, l'amministratore di Exchange locale deve configurare una regola di accesso ai dispositivi Exchange che impedisca la connessione ActiveSync. A tale scopo, digitare il comando seguente in Exchange Management Shell:
 
-``` 
+```powershell
  New-ActiveSyncDeviceAccessRule -Characteristic DeviceModel -QueryString "Outlook for iOS and Android" -AccessLevel Block
 ```
 
