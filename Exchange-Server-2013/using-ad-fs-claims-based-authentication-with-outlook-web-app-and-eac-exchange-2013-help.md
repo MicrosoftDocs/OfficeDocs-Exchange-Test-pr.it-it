@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Autenticaz. su attestazioni ADFS con Outlook Web App e EAC: Exchange 2013 Help'
 TOCTitle: Utilizzando l'autenticazione basata sulle attestazioni ADFS con Outlook Web App ed EAC
 ms:assetid: 919a9bfb-c6df-490a-b2c4-51796b0f0596
@@ -386,7 +386,7 @@ In alternativa, è possibile creare trust inoltro party e regole di attestazione
     @RuleName = "ActiveDirectoryUPN" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"), query = ";userPrincipalName;{0}", param = c.Value);
 ```
 **Eseguire i comandi seguenti:** 
-```command line
+```powershell
 
     [string]$IssuanceAuthorizationRules=Get-Content -Path C:\IssuanceAuthorizationRules.txt
     
@@ -504,11 +504,15 @@ Per pubblicare Outlook Web App ed EAC utilizzando Proxy applicazione Web:
 
 Il seguente cmdlet PowerShell Windows esegue le stesse attività della procedura precedente per Outlook Web App.
 
+```powershell
     Add-WebApplicationProxyApplication -BackendServerUrl 'https://mail.contoso.com/owa/' -ExternalCertificateThumbprint 'E9D5F6CDEA243E6E62090B96EC6DE873AF821983' -ExternalUrl 'https://external.contoso.com/owa/' -Name 'OWA' -ExternalPreAuthentication ADFS -ADFSRelyingPartyName 'Outlook Web App'
+```
 
 Il seguente cmdlet PowerShell Windows esegue le stesse attività della procedura precedente per EAC.
 
+```powershell
     Add-WebApplicationProxyApplication -BackendServerUrl 'https://mail.contoso.com/ecp/' -ExternalCertificateThumbprint 'E9D5F6CDEA243E6E62090B96EC6DE873AF821983' -ExternalUrl 'https://external.contoso.com/ecp/' -Name 'EAC' -ExternalPreAuthentication ADFS -ADFSRelyingPartyName 'Exchange Admin Center'
+```
 
 Dopo aver completato questi passaggi, Proxy applicazione Web eseguire l'autenticazione ADFS per i client Outlook Web App ed EAC e, verrà inoltre proxy le connessioni a Exchange per loro conto. Non è necessario configurare Exchange direttamente per l'autenticazione ADFS, in modo che procedere al passaggio 10 per testare la configurazione.
 
