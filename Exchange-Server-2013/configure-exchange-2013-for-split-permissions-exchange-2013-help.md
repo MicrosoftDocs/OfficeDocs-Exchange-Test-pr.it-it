@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Configurare Exchange 2013 per le autorizzazioni diviso: Exchange 2013 Help'
 TOCTitle: Configurare Exchange 2013 per le autorizzazioni diviso
 ms:assetid: 8c74f893-a6f3-4869-8571-3bc0f662cc87
@@ -112,6 +112,7 @@ Per configurare le autorizzazioni suddivise RBAC, effettuare le seguenti operazi
 2.  Eseguire le seguenti operazioni da Exchange Management Shell:
     
     1.  Creare un gruppo di ruoli per gli amministratori di Active Directory. Oltre a creare il gruppo di ruoli, il comando crea assegnazioni di ruolo regolari tra il nuovo gruppo di ruoli e il ruolo Creazione destinatario di posta elettronica e Creazione e appartenenza a un gruppo di sicurezza.
+        
         ```powershell
             New-RoleGroup "Active Directory Administrators" -Roles "Mail Recipient Creation", "Security Group Creation and Membership"
         ```
@@ -144,8 +145,10 @@ Per configurare le autorizzazioni suddivise RBAC, effettuare le seguenti operazi
     
     5.  Individuare tutte le assegnazione di ruolo di delega e regolari per il ruolo Creazione destinatario di posta elettronica utilizzando il comando seguente. Il comando visualizza solo le proprietà **NameRole** e **RoleAssigneeName**.
         
+        ```powershell
             Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Format-Table Name, Role, RoleAssigneeName -Auto
-    
+        ```
+        
     6.  Rimuovere tutte le assegnazioni di ruolo di delega e regolari per il ruolo Creazione destinatario di posta elettronica non associate al nuovo gruppo di ruoli o a qualsiasi altro gruppo di ruoli o gruppo di protezione universale o le assegnazioni dirette che si desidera mantenere utilizzando il comando seguente.
         
         ```powershell
