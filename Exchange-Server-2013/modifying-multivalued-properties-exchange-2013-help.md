@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Modifica delle proprietà multivalore: Exchange 2013 Help'
 TOCTitle: Modifica delle proprietà multivalore
 ms:assetid: dc2c1062-ad79-404b-8da3-5b5798dbb73b
