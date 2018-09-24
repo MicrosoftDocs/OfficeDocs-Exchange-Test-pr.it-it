@@ -64,8 +64,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Resume-Publ
 Come parte del processo di migrazione, viene generato un file .csv (utilizzando lo script `publicfoldertomailboxmapgenerator.ps1`). Questo file contiene il mapping da cartella a cassetta postale per la nuova gerarchia. È possibile utilizzare il file .csv per creare cassette postali di cartelle pubbliche nella posizione geografica appropriata e modificare il file in modo da inserire le cartelle richieste nella cassetta postale appropriata affinché siano vicino agli utenti di destinazione.
 
 È possibile generare Il file .csv di input eseguendo lo script `AggregatePFData.ps1`, situato nella directory \<*Percorso di installazione di Exchange*\>\\V15\\Scripts. Eseguire lo script come segue:
-
+```powershell
     .\AggregatePFData.ps1 | Select-Object -property @{Name="FolderName"; Expression = {$_.Identity}}, @{Name="FolderSize"; Expression = {$_.TotalItemSize.Value.ToBytes()}} | Export-CSV -Path <Path followed by the name of the CSV>
+```
 
 ## Le autorizzazioni per le cartelle pubbliche esistenti migrano?
 

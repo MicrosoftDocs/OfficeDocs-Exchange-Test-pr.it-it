@@ -87,9 +87,7 @@ Per informazioni sulle altre attività di gestione che hanno per oggetto le copi
 
 4.  Nel riquadro Dettagli in **Copia di database** fare clic su **Aggiorna** sotto la copia di database passiva di cui si desidera eseguire il seeding.
 
-5.  
-    
-    Per impostazione predefinita, la copia attiva del database è utilizzata come database di origine per il seeding. Se si preferisce utilizzare una copia di database passiva per il seeding, fare clic su **Sfoglia…** per selezionare il server che contiene la copia di database passiva che si desidera utilizzare per l'origine.
+5.  Per impostazione predefinita, la copia attiva del database è utilizzata come database di origine per il seeding. Se si preferisce utilizzare una copia di database passiva per il seeding, fare clic su **Sfoglia…** per selezionare il server che contiene la copia di database passiva che si desidera utilizzare per l'origine.
 
 6.  Fare clic su **OK** per aggiornare la copia di database passiva.
 
@@ -124,36 +122,36 @@ Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
 1.  Se per il database è abilitata la registrazione circolare, disabilitarla prima di procedere. Per disabilitare la registrazione circolare per un database di cassette postali, utilizzare il cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb123971\(v=exchg.150\)), come mostrato in questo esempio.
     
     ```powershell
-Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
-```
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```
 
 2.  Disinstallare il database. È possibile utilizzare il cmdlet [Dismount-Database](https://technet.microsoft.com/it-it/library/bb124936\(v=exchg.150\)), come illustrato in questo esempio.
     
     ```powershell
-Dismount-Database DB1 -Confirm $false
-```
+    Dismount-Database DB1 -Confirm $false
+    ```
 
 3.  Copiare manualmente i file del database (il file del database e tutti i file di registro) in un'altra posizione, come ad esempio un'unità disco esterna o una condivisione di rete.
 
 4.  installare il database. È possibile utilizzare il cmdlet [Mount-Database](https://technet.microsoft.com/it-it/library/aa998871\(v=exchg.150\)), come illustrato in questo esempio.
     
     ```powershell
-Mount-Database DB1
-```
+    Mount-Database DB1
+    ```
 
 5.  Sul server che ospiterà la copia, copiare i file del database dall'unità esterna o dalla condivisione di rete nello stesso percorso della copia del database attivo. Ad esempio, se il percorso del database della copia attiva è D:\\DB1\\DB1.edb e il percorso del file di registro è D:\\DB1, copiare i file del database in D:\\DB1 sul server che ospiterà la copia.
 
 6.  Aggiungere la copia del database delle cassette postali utilizzando il cmlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd298105\(v=exchg.150\)) con il parametro *SeedingPostponed*, come mostrato nell'esempio.
     
     ```powershell
-Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
-```
+    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
+    ```
 
 7.  Se la registrazione circolare è abilitata per il database, abilitarla nuovamente utilizzando il cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb123971\(v=exchg.150\)), come mostrato in questo esempio.
     
     ```powershell
-Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
-```
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -164,8 +162,8 @@ Per verificare il seeding corretto di una copia di database delle cassette posta
   - In Shell eseguire il comando riportato di seguito per verificare che il seeding della copia del database delle cassette postali sia stato eseguito correttamente e che la copia sia integra.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```
     
     I campi Stato e Stato indice contenuto devono essere entrambi integri.
 

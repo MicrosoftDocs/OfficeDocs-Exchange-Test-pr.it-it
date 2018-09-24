@@ -68,8 +68,8 @@ Per verificare che la relazione di trust federativa sia stata rimossa correttame
   - Nella shell, eseguire il comando riportato di seguito per verificare che non siano restituite le informazioni sulla relazione di trust federativa per l'organizzazione Exchange.
     
     ```powershell
-Get-FederationTrust
-```
+    Get-FederationTrust
+    ```
     
     Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-FederationTrust](https://technet.microsoft.com/it-it/library/dd351262\(v=exchg.150\)).
 

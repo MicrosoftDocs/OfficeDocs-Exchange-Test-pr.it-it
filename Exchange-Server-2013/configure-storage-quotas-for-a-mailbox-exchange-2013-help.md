@@ -79,13 +79,13 @@ In questo esempio vengono impostati i limiti di avviso, di invio non consentito 
 > Per assicurarsi che vengano utilizzate le impostazioni personalizzate per la cassetta postale, anziché i valori predefiniti del database delle cassette postali, è necessario impostare il parametro <EM>UseDatabaseQuotaDefaults</EM> su <CODE>$false</CODE>.
 
 
-
+```powershell
     Set-Mailbox -Identity "Joe Healy" -IssueWarningQuota 24.5gb -ProhibitSendQuota 24.75gb -ProhibitSendReceiveQuota 25gb -UseDatabaseQuotaDefaults $false
-
+```
 In questo esempio viene impostata la quota minima per l'emissione di un avviso, di invio non consentito e di invio e ricezione quote non consentiti per la cassetta postale di Ayla Kol rispettivamente a 900 MB, 950 MB e 1 GB e viene configurata la cassetta postale per utilizzare le impostazioni personalizzate.
-
+```powershell
     Set-Mailbox -Identity "Ayla Kol" -IssueWarningQuota 900mb -ProhibitSendQuota 950mb -ProhibitSendReceiveQuota 1gb -UseDatabaseQuotaDefaults $false
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo?
@@ -105,6 +105,6 @@ Per verificare che le quote di archiviazione della cassetta postale siano state 
 Oppure
 
 Eseguire il seguente comando in Shell.
-
+```powershell
     Get-Mailbox <identity> | fl IssueWarningQuota,ProhibitSendQuota,ProhibitSendReceiveQuota,UseDatabaseQuotaDefaults
-
+```

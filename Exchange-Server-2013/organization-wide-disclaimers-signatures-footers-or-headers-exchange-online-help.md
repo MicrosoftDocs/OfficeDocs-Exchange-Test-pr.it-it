@@ -195,7 +195,7 @@ Per un elenco completo delle condizioni per le regole di trasporto che è possib
 
 
 Di seguito è riportato un esempio di una dichiarazione di non responsabilità HTML che include una firma, un tag `IMG` e CSS incorporato.
-
+```css
     <div style="font-size:9pt;  font-family: 'Calibri',sans-serif;">
     %%displayname%%</br>
     %%title%%</br>
@@ -209,6 +209,7 @@ Di seguito è riportato un esempio di una dichiarazione di non responsabilità H
     <p style="font-size:8pt; line-height:10pt; font-family: 'Cambria','times roman',serif;">This message contains confidential information and is intended only for the individual(s) addressed in the message. If you are not the named addressee, you should not disseminate, distribute, or copy this e-mail. If you are not the intended recipient, you are notified that disclosing, distributing, or copying this e-mail is strictly prohibited.  </p>
     <span style="padding-top:10px; font-weight:bold; color:#CC0000; font-size:10pt; font-family: 'Calibri',Arial,sans-serif; "><a href="http://www.fabrikam.com">Fabrikam, Inc. </a></span></br></br>
     </div>
+```
 
 ## Opzioni di fallback se non è possibile aggiungere la dichiarazione di non responsabilità
 

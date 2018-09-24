@@ -87,8 +87,9 @@ Con questo esempio viene creata la cassetta postale condivisa Sales Department e
 > In questo esempio si presuppone che sia già stato creato il gruppo di sicurezza MarketingSG e che tale gruppo sia abilitato all'utilizzo della posta. Vedere <A href="https://docs.microsoft.com/it-it/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups">Gestire gruppi di sicurezza abilitati alla posta elettronica</A>.
 
 
-
+```powershell
     New-Mailbox -Shared -Name "Sales Department" -DisplayName "Sales Department" -Alias Sales | Set-Mailbox -GrantSendOnBehalfTo MarketingSG | Add-MailboxPermission -User MarketingSG -AccessRights FullAccess -InheritanceType All
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-Mailbox](https://technet.microsoft.com/it-it/library/aa997663\(v=exchg.150\)).
 

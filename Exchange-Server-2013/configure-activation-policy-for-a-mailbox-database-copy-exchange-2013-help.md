@@ -98,12 +98,12 @@ Per verificare che il criterio di attivazione sia stato configurato correttament
   - In Shell, utilizzare il seguente comando per visualizzare le impostazioni di attivazione per una copia del database.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
+    ```
 
   - In Shell, utilizzare il seguente comando per visualizzare le impostazioni di attivazione per un membro del gruppo di disponibilità del database.
     
     ```powershell
-Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
-```
+    Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
+    ```
 

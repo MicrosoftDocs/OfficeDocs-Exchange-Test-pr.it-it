@@ -52,11 +52,12 @@ Per altre attività di gestione relative ai dial plan di messaggistica unificata
 ## Rimozione del server Cassette postali dal dial plan URI SIP tramite Shell
 
 Con questo esempio viene rimosso il server Cassette postali `MyMailboxServer` dal dial plan URI SIP `MySIPDialPlan`.
-
+```powershell
     $dp= Get-UMDialPlan "MySIPDialPlan"
     $s=Get-UMService MyMailboxServer
     $s.dialplans-=$dp.identity
     Set-UMService -id MyMailboxServer -dialplans:$s.dialplans
+```
 
 In questo esempio, sono presenti tre dial plan URI SIP: SipDP1, SipDP2 e SipDP3. Con questo esempio viene rimosso il server Cassette postali `MyMailboxServer` dal dial plan SipDP3.
 
@@ -90,10 +91,12 @@ Set-UMService -id MyUMServer -DialPlans $null
 
 Con questo esempio viene rimosso il server Accesso client `MyClientAccessServer` dal dial plan URI SIP `MySIPDialPlan`.
 
+```powershell
     $dp= Get-UMDialPlan "MySIPDialPlan"
     $s=Get-UMCallRouterSettings MyClientAccessServer
     $s.dialplans-=$dp.identity
     Set-UMCallRouterSettings -id MyClientAccessServer -dialplans:$s.dialplans
+```
 
 In questo esempio, sono presenti tre dial plan URI SIP: SipDP1, SipDP2 e SipDP3. Con questo esempio viene rimosso il server Accesso client `MyClientAccessServer` dal dial plan SipDP3.
 

@@ -74,26 +74,26 @@ Dopo aver rimosso la sottoscrizione Edge, la sincronizzazione delle informazioni
 1.  Per rimuovere la sottoscrizione Edge dal server Trasporto Edge, utilizzare la seguente sintassi.
     
     ```powershell
-Remove-EdgeSubscription <EdgeTransportServerIdentity>
-```
+      Remove-EdgeSubscription <EdgeTransportServerIdentity>
+    ```
     
     Ad esempio, per rimuovere la sottoscrizione Edge nel server Trasporto Edge di nome Edge01, eseguire il seguente comando.
     
     ```powershell
-Remove-EdgeSubscription Edge01
-```
+      Remove-EdgeSubscription Edge01
+    ```
 
 2.  Per rimuovere la sottoscrizione Edge dal server Cassette postali, utilizzare la seguente sintassi.
     
     ```powershell
-Remove-EdgeSubscription <MailboxServerIdentity>
-```
+      Remove-EdgeSubscription <MailboxServerIdentity>
+    ```
     
     Ad esempio, per rimuovere la sottoscrizione Edge nel server Cassette postali di nome Mailbox01, eseguire il seguente comando.
     
     ```powershell
-Remove-EdgeSubscription Mailbox01
-```
+      Remove-EdgeSubscription Mailbox01
+    ```
 
 È necessario rimuovere la sottoscrizione Edge se:
 
@@ -150,8 +150,9 @@ Si potrebbe voler eseguire EdgeSync manualmente se sono state apportate modifich
 Una sincronizzazione EdgeSync manuale reimposta la pianificazione della sincronizzazione EdgeSync. La successiva sincronizzazione automatica si basa su quando è stata eseguita la sincronizzazione manuale.
 
 Per eseguire manualmente EdgeSync, utilizzare la seguente sintassi.
-
+```powershell
     Start-EdgeSynchronization [-Server <MailboxServerIdentity>] [-TargetServer <EdgeTransportServerIdentity> [-ForceFullSync]
+```
 
 Nell'esempio riportato di seguito viene avviata la sincronizzazione EdgeSync con le seguenti opzioni:
 

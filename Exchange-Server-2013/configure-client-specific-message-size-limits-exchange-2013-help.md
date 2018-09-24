@@ -253,8 +253,8 @@ Per tutti i limiti di dimensione dei messaggi, è necessario impostare valori ma
 4.  Riavviare IIS utilizzando il seguente comando:
     
     ```powershell
-IISReset /noforce
-```
+    IISReset /noforce
+    ```
 
 ## Configurare la dimensione massima dei messaggi specifici del client dalla riga di comando
 
@@ -267,15 +267,15 @@ Anziché utilizzare il blocco note, è inoltre possibile configurare la dimensio
   - Prestare attenzione alla indica se il valore in byte o kilobyte.
 
 **ActiveSync**
-
+```powershell
     %windir%\system32\inetsrv\appcmd.exe set config "Default Web Site/Microsoft-Server-ActiveSync/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:30000000
     %windir%\system32\inetsrv\appcmd.exe set config "Default Web Site/Microsoft-Server-ActiveSync/" -section:system.web/httpRuntime /maxRequestLength:10240
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/Microsoft-Server-ActiveSync/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:30000000
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/Microsoft-Server-ActiveSync/" -section:system.web/httpRuntime /maxRequestLength:10240
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/Microsoft-Server-ActiveSync/" -section:appSettings /[key='MaxDocumentDataSize'].value:10240000
-
+```
 **Servizi Web Exchange**
-
+```powershell
     %windir%\system32\inetsrv\appcmd.exe set config "Default Web Site/ews/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:67108864
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/ews/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:67108864
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/ews/" -section:system.serviceModel/bindings /customBinding.[name='EWSAnonymousHttpsBinding'].httpsTransport.maxReceivedMessageSize:67108864
@@ -292,9 +292,9 @@ Anziché utilizzare il blocco note, è inoltre possibile configurare la dimensio
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/ews/" -section:system.serviceModel/bindings /customBinding.[name='EWSWSSecurityX509CertHttpBinding'].httpTransport.maxReceivedMessageSize:67108864
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/ews/" -section:system.serviceModel/bindings /webHttpBinding.[name='EWSStreamingNegotiateHttpsBinding'].maxReceivedMessageSize:67108864
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/ews/" -section:system.serviceModel/bindings /webHttpBinding.[name='EWSStreamingNegotiateHttpBinding'].maxReceivedMessageSize:67108864
-
+```
 **Outlook Web App**
-
+```powershell
     %windir%\system32\inetsrv\appcmd.exe set config "Default Web Site/owa/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:35000000
     %windir%\system32\inetsrv\appcmd.exe set config "Default Web Site/owa/" -section:system.web/httpRuntime /maxRequestLength:35000
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/owa/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:35000000
@@ -303,7 +303,7 @@ Anziché utilizzare il blocco note, è inoltre possibile configurare la dimensio
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/owa/" -section:system.serviceModel/bindings /webHttpBinding.[name='httpBinding'].maxReceivedMessageSize:35000000
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/owa/" -section:system.serviceModel/bindings /webHttpBinding.[name='httpsBinding'].readerQuotas.maxStringContentLength:35000000
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/owa/" -section:system.serviceModel/bindings /webHttpBinding.[name='httpBinding'].readerQuotas.maxStringContentLength:35000000
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare di aver correttamente configurato la dimensione massima dei messaggi specifici del client, è necessario inviare un messaggio di prova a e da una cassetta postale di cui si accede dal client interessati. È possibile provare gli allegati di dimensioni inferiori alcuni o uno degli allegati di grandi dimensioni in modo che i messaggi di prova vengono 33% circa rispetto al valore che è stato configurato. Ad esempio, un valore configurato MB 85 determina una dimensione massima dei messaggi realistico di circa 64 MB.

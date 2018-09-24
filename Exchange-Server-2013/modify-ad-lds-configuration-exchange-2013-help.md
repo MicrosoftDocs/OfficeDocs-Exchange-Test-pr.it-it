@@ -84,9 +84,9 @@ I parametri nella seguente tabella sono disponibili per lo script **ConfigureAda
 ## Modificare la configurazione di AD LDS in un server Trasporto Edge
 
 In questo esempio viene modifica la porta LDAP utilizzata da AD LDS su 5000. La e commerciale (&) fa parte della sintassi del comando.
-
+```powershell
     & $env:ExchangeInstallPath\Scripts\ConfigureAdam.ps1 -LdapPort:5000
-
+```
 In questo esempio vengono apportate le seguenti modifiche alla configurazione di AD LDS. La e commerciale (&) fa parte della sintassi del comando. Notare i due punti (:) tra ogni parametro e il relativo valore:
 
   - Imposta la porta 5000 come porta LDAP
@@ -98,6 +98,6 @@ In questo esempio vengono apportate le seguenti modifiche alla configurazione di
   - Imposta il percorso dei dati su D:\\Exchange Server\\Data\\ADLDS
 
 <!-- end list -->
-
+```powershell
     & $env:ExchangeInstallPath\Scripts\ConfigureAdam.ps1 -LdapPort:5000 -SslPort:5001 -LogPath:"D:\Exchange Server\Data\ADLDS" -DataPath:"D:\Exchange Server\Data\ADLDS"
-
+```

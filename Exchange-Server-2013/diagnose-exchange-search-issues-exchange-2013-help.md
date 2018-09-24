@@ -58,8 +58,8 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 2.  **Controllare la configurazione del database di cassette postali**   Il parametro *IndexEnabled* è impostato su true per il database di cassette postali dell'utente? Se sì, andare al passo 3. Altrimenti, verificare che il flag *IndexEnabled* sia impostato su True utilizzando il seguente comando in Shell.
     
     ```powershell
-Get-MailboxDatabase | Format-Table Name,IndexEnabled
-```
+        Get-MailboxDatabase | Format-Table Name,IndexEnabled
+    ```
     
     Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Get-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb124924\(v=exchg.150\)).
 
@@ -86,16 +86,16 @@ Get-MailboxDatabase | Format-Table Name,IndexEnabled
     Per informazioni sull'utilizzo di Performance Monitor, vedere [delle prestazioni e affidabilità Monitoring Guida introduttiva Guida di Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkid=178005)
 
 4.  **Controllare l'integrità dell'indicizzazione della copia del database**   L'indice di contenuto è integro? Usare il cmdlet **Get-MailboxDatabaseCopyStatus** per controllare l'integrità dell'indicizzazione del contenuto per una copia del database.
-    
+    ```powershell
         Get-MailboxDatabaseCopyStatus -Server $env:ComputerName | Format-Table Name,Status,ContentIndex* -Auto
-    
+    ```
     Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Get-MailboxDatabaseCopyStatus](https://technet.microsoft.com/it-it/library/dd298044\(v=exchg.150\)).
 
 5.  **Eseguire il cmdlet Test-ExchangeSearch**   Se è già stata eseguita la ricerca per indicizzazione del database delle cassette postali è possibile eseguire il cmdlet **Test-ExchangeSearch** per l'intero database o per una specifica cassetta posatale.
     
     ```powershell
-Test-ExchangeSearch -Identity AlanBrewer@contoso.com
-```
+    Test-ExchangeSearch -Identity AlanBrewer@contoso.com
+    ```
     
     Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Test-ExchangeSearch](https://technet.microsoft.com/it-it/library/bb124733\(v=exchg.150\)).
 

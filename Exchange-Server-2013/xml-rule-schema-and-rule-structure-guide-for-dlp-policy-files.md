@@ -87,7 +87,7 @@ I modelli di criteri DLP sono rappresentati come documenti XML. Un singolo schem
 ## Definizione del formato dei modelli di criteri
 
 I modelli di criteri DLP sono rappresentati come documenti XML che aderiscono al seguente schema. L'XML distingue tra maiuscole e minuscole. Ad esempio, `dlpPolicyTemplates` funzionerà, al contrario di `DlpPolicyTemplates`.
-
+```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <dlpPolicyTemplates>
       <dlpPolicyTemplate id="F7C29AEC-A52D-4502-9670-141424A83FAB" mode="Audit" state="Enabled" version="15.0.2.0">
@@ -114,10 +114,11 @@ I modelli di criteri DLP sono rappresentati come documenti XML che aderiscono al
         <policyCommandsResources></policyCommandsResources>
       </dlpPolicyTemplate>
     </dlpPolicyTemplates>
-
+```
 Se un elemento nel parametro incluso nel file XML include uno spazio, il parametro deve essere messo tra virgolette, altrimenti non funzionerà. Nell'esempio riportato di seguito, il parametro che segue `-SentToScope` è accettabile e non include le virgolette perché è una stringa di caratteri continua senza spazi. Tuttavia, il parametro fornito per `Comments`, non verrà visualizzato nell'interfaccia di amministrazione di Exchange perché include spazi e non sono presenti virgolette.
-
+```command line
     <CommandBlock><![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Within" -DlpPolicy "PCI-DSS" -Comments Monitors payment card information sent inside the organization -SentToScope InOrganization -SetAuditSeverity Low -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } ]]> </CommandBlock>
+```
 
 ## Elemento LocalizedString
 
@@ -224,16 +225,16 @@ Gli elementi figlio includono la seguente sequenza di elementi.
 ## Modello di criteri DLP: PolicyCommands
 
 Questa parte del modello di criteri contiene l'elenco dei comandi di Exchange Management Shell utilizzati per creare un'istanza della definizione dei criteri. Il processo di importazione eseguirà tutti i comandi come parte del processo di creazione dell'istanza. Comandi di criteri di esempio vengono forniti qui.
-
+```command line
     <PolicyCommands>
         <!-- The contents below are applied/executed as rules directly in PS - -->
           <CommandBlock> <![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Outside" -DlpPolicy "PCI-DSS" -SentToScope NotInOrganization -SetAuditSeverity High -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } -Comments "Monitors payment card information sent to outside the organization as part of the PCI-DSS DLP policy."]]></CommandBlock>
           <CommandBlock><![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Within" -DlpPolicy "PCI-DSS" -Comments "Monitors payment card information sent inside the organization as part of the PCI-DSS DLP policy." -SentToScope InOrganization -SetAuditSeverity Low -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } ]]> </CommandBlock>
       </PolicyCommands> 
-
+```
 Il formato dei cmdlet è la sintassi dei cmdlet di Exchange Management Shell standard per i cmdlet utilizzati. I comandi vengono eseguiti in sequenza. Tutti i nodi dei comandi possono contenere un blocco di script che sarebbe composto da più comandi. Di seguito, è riportato un esempio che spiega come incorporare il pacchetto di regole di classificazione all'interno di un modello di criteri DLP, installando il pacchetto di regole come parte del processo di creazione dei criteri. Il pacchetto di regole di classificazione viene incorporato nel modello di criteri e, quindi, passato come parametro al cmdlet all'interno del modello:
 
-``` 
+```command line
 <CommandBlock>
   <![CDATA[
 $rulePack = [system.Text.Encoding]::Unicode.GetBytes('<?xml version="1.0" encoding="utf-16"?>

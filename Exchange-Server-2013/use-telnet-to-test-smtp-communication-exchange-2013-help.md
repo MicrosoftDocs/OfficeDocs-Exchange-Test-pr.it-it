@@ -69,12 +69,14 @@ Per connettersi a un server SMTP di destinazione utilizzando Telnet sulla porta 
 
     
     L'output del comando sarà simile al seguente:
-    
+
+    ```powershell
         fabrikam.com mx preference=10, mail exchanger = mail1.fabrikam.com
         fabrikam.com mx preference=20, mail exchanger = mail2.fabrikam.com
         mail1.fabrikam.com internet address = 192.168.1.10
         mail2 fabrikam.com internet address = 192.168.1.20
-    
+    ```
+
     Come server di destinazione è possibile utilizzare qualsiasi nome host o indirizzo IP associato ai record MX. Un valore di preferenza più basso indica un server SMTP preferenziale. È possibile utilizzare più record MX e valori di preferenza diversi per il bilanciamento del carico e la tolleranza d'errore.
 
 5.  Quando si è pronti a terminare la sessione Nslookup, digitare **exit** e premere INVIO.
@@ -128,8 +130,8 @@ Nell'esempio riportato vengono utilizzati i seguenti valori:
 8.  Digitare **DATA**, quindi premere INVIO. Si riceverà una risposta simile alla seguente:
     
     ```powershell
-354 Start mail input; end with <CLRF>.<CLRF>
-```
+    354 Start mail input; end with <CLRF>.<CLRF>
+    ```
 
 9.  Digitare **Oggetto: Test Contoso** e quindi premere INVIO.
 
@@ -140,14 +142,14 @@ Nell'esempio riportato vengono utilizzati i seguenti valori:
 12. Premere INVIO, digitare un punto ( **.** ) e premere INVIO. Si riceverà una risposta simile alla seguente:
     
     ```powershell
-250 2.6.0 <GUID> Queued mail for delivery
-```
+    250 2.6.0 <GUID> Queued mail for delivery
+    ```
 
 13. Per disconnettersi dal server SMTP di destinazione, digitare **QUIT** e premere INVIO. Si riceverà una risposta simile alla seguente:
     
     ```powershell
-221 2.0.0 Service closing transmission channel
-```
+    221 2.0.0 Service closing transmission channel
+    ```
 
 14. Per chiudere la sessione Telnet, digitare **quit** e premere INVIO.
 

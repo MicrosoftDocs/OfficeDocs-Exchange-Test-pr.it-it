@@ -66,9 +66,9 @@ Si modifica un criterio cassetta postale per il dispositivo mobile di un singolo
 È possibile modificare criterio cassetta postale di dispositivo mobile un singolo utente utilizzando il cmdlet **Set-CASMailbox** in Shell.
 
 1.  In Shell, utilizzare il seguente comando.
-    
+    ```powershell
         Set-CASMailbox -Identity tony@contoso.com -ActiveSyncMailboxPolicy "Sales" 
-
+    ```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che sia stato cambiato un criterio cassetta postale per il dispositivo mobile di un utente, eseguire una di queste operazioni:
@@ -76,9 +76,9 @@ Per verificare che sia stato cambiato un criterio cassetta postale per il dispos
 1.  Nell'interfaccia di amministrazione di Exchange, fare clic su **Destinatari** \> **Cassette postali** e quindi selezionare un destinatario specifico. Nel riquadro Dettagli, scorrere verso il basso fino a **Funzionalità telefono e messaggistica vocale** e fare clic su **Visualizza dettagli**.
 
 2.  In Shell, utilizzare il seguente comando.
-    
-        Get-CASMailbox -Identity tony@contoso.com 
-
+    ```powershell
+        Get-CASMailbox -Identity tony@contoso.com
+    ```
 ## Modifica dei criteri delle cassette postali del dispositivo mobile per più utenti allo stesso tempo
 
 Se si desidera modificare i criteri delle cassette postali del dispositivo mobile per più utenti allo stesso tempo, è possibile utilizzare la funzionalità di modifica in blocco nell'interfaccia di amministrazione di Exchange o utilizzare Shell per modificare i criteri delle cassette postali del dispositivo mobile per un insieme filtrato di utenti.
@@ -102,10 +102,10 @@ Se si desidera modificare i criteri delle cassette postali del dispositivo mobil
 È possibile utilizzare Shell per modificare i criteri delle cassette postali del dispositivo mobile per un gruppo di utenti filtrati. È possibile filtrare gli utenti su una varietà di attributi.
 
 1.  In Shell, utilizzare il seguente comando.
-    
+    ```powershell
         Get-Mailbox | where { $_.CustomAttribute1 -match "Manager"
          } | Set-CASMailbox -activesyncmailboxpolicy(Get-ActiveSyncMailboxPolicy "Contoso").Identity
-    
+    ```
 
     > [!NOTE]
     > È possibile sostituire <CODE>CustomAttribute1</CODE> per le proprietà dell'oggetto <STRONG>Get-Mailbox</STRONG>. Per visualizzare l'elenco completo, digitare quanto segue: <CODE>Get-Mailbox username |fl</CODE>.
@@ -121,6 +121,6 @@ Per verificare che sia stato cambiato un criterio cassetta postale per il dispos
 2.  In Shell, utilizzare il seguente comando.
     
     ```powershell
-Get-CASMailbox -Identity tony@contoso.com
-```
+        Get-CASMailbox -Identity tony@contoso.com
+    ```
 

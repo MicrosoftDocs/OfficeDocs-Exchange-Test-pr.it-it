@@ -131,9 +131,9 @@ Per l'abilitazione della messaggistica unificata per crittografare i dati inviat
 
     
     Creazione di un certificato autofirmato di Exchange eseguendo il seguente comando in Shell.
-    
+    ```powershell
         New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
-    
+    ```
 
     > [!TIP]
     > Se si specificano i servizi che si intende attivare utilizzando il parametro <EM>Services</EM>, viene richiesto di abilitare i servizi per il certificato creato. In questo esempio viene richiesto di abilitare il certificato per la messaggistica unificata e per i servizi di routing per le chiamate di messaggistica unificata. Per ulteriori informazioni su come abilitare un certificato per i servizi, vedere <A href="assign-a-certificate-to-the-um-and-um-call-router-services-exchange-2013-help.md">Assegnare un certificato per i servizi di messaggistica unificata e routing delle chiamate di messaggistica unificata</A>.
@@ -151,9 +151,9 @@ Per l'abilitazione della messaggistica unificata per crittografare i dati inviat
     2.  Nella pagina **Procedura** selezionare **Servizi**, scegliere **Messaggistica unificata**, quindi selezionare **Routing di chiamata di messaggistica unificata**.
     
     Abilitare un certificato auto-firmato eseguendo il seguente comando in Shell.
-    
+    ```powershell
         Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
-
+    ```
   - Configurare eventuali nuovi o esistenti dial plan di messaggistica unificata come protetti con SIP o protetti.
 
   - Configurare la modalità di avvio di messaggistica unificata in TLS o Dual su server Accesso client e Cassette postali nell'organizzazione.
@@ -215,8 +215,9 @@ Configurare la modalità di avvio di messaggistica unificata su un server Casset
 5.  Dopo aver selezionato la modalità di avvio di messaggistica unificata, fare clic su **Salva**.
 
 Configurare la modalità di avvio di messaggistica unificata su un server Cassette postali di Exchange 2013 tramite l'esecuzione del seguente comando in Shell.
-
+```powershell
     Set-UMService -Identity MyUMServer -ExternalHostFqdn host.external.contoso.com -IPAddressFamily Any -UMStartupMode Dual
+```
 
 ## Passaggio 6: Creare o configurare i dial plan di messaggistica unificata esistenti
 
@@ -263,8 +264,9 @@ Se necessario, è possibile configurare un dial plan di messaggistica unificata 
 3.  Nella pagina **Nuovo dial plan di messaggistica unificata** fare clic su **Configura**. Utilizzare le opzioni di configurazione per visualizzare le impostazioni specifiche di dial plan e per abilitare o disabilitare le funzionalità.
 
 Se necessario, è possibile configurare un dial plan di messaggistica unificata esistente tramite l'esecuzione del seguente comando in Shell.
-
+```powershell
     Set-UMDialplan -Identity MyDialPlan -AccessTelephoneNumbers 4255551234 -AudioCodec Wma -CallAnsweringRulesEnabled $false -OutsideLineAccessCode 9 -VoIPSecurity SIPSecured
+```
 
 Quando veniva distribuita la messaggistica unificata di Exchange 2007, era richiesto di aggiungere un server di messaggistica unificata a un dial plan di messaggistica unificata per rispondere alle chiamate in entrata. Ciò non è più necessario. In Exchange 2013, i server Accesso client e Cassette postali non possono essere collegati a un interno telefonico o un dial plan E.164, ma è necessario collegarli ai dial plan URI SIP. I server Accesso client e Cassette postali risponderanno alle chiamate in arrivo per tutti i tipi di dial plan.
 
@@ -307,9 +309,9 @@ Se necessario, è possibile configurare un gateway IP di messaggistica unificata
 2.  Nella pagina **Gateway IP di messaggistica unificata** fare clic su **Configura**. Utilizzare le opzioni di configurazione per visualizzare le impostazioni specifiche del gateway IP di messaggistica unificata e per abilitare o disabilitare le funzionalità.
 
 Se necessario, è possibile configurare un gateway IP di messaggistica unificata esistente, eseguendo il seguente comando in Shell.
-
+```powershell
     Set-UMIPGateway -Identity MyUMIPGateway -Address fe80::39bd:88f7:6969:d223%11 -IPAddressFamily Any -Status Disabled -OutcallsAllowed $false
-
+```
 ## Passaggio 8: Creare un gruppo di risposta di messaggistica unificata
 
 A seconda della distribuzione di Exchange 2007 esistente, potrebbe essere necessario creare nuovi gruppi di risposta di messaggistica unificata. Un gruppo di risposta telefonico consente di distribuire le chiamate telefoniche da un singolo numero a più numeri di interno o di telefono. Nella messaggistica unificata, un gruppo di risposta di messaggistica unificata è una rappresentazione logica di un gruppo di risposta telefonico e collega un gateway IP di messaggistica unificata a un dial plan di messaggistica unificata.
@@ -333,9 +335,9 @@ Se necessario, è possibile creare un gruppo di risposta di messaggistica unific
 4.  Fare clic su **Salva**.
 
 Se necessario, è possibile creare un gruppo di risposta di messaggistica unificata eseguendo il seguente comando in Shell.
-
+```powershell
     New-UMHuntGroup -Name MyUMHuntGroup -PilotIdentifier 5551234,55555 -UMDialPlan MyUMDialPlan -UMIPGateway MyUMIPGateway
-
+```
 
 > [!TIP]
 > Non è possibile configurare o modificare le impostazioni per un gruppo di risposta di messaggistica unificata. Per modificare le impostazioni di configurazione per un gruppo di risposta di messaggistica unificata, è necessario eliminarlo e aggiungere un nuovo gruppo di risposta di messaggistica unificata con le impostazioni corrette.
@@ -371,9 +373,9 @@ Se necessario, è possibile creare un operatore automatico di messaggistica unif
 4.  Fare clic su **Salva**.
 
 Se necessario, è possibile creare un operatore automatico di messaggistica unificata eseguendo il seguente comando in Shell.
-
+```powershell
     New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
-
+```
 Se necessario, è possibile configurare un operatore automatico esistente utilizzando l'interfaccia di amministrazione di Exchange:
 
 1.  Nell'interfaccia di amministrazione di Exchange accedere a **Messaggistica unificata** \> **Dial plan di messaggistica unificata**, quindi fare clic su **Modifica**![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica").
@@ -381,9 +383,9 @@ Se necessario, è possibile configurare un operatore automatico esistente utiliz
 2.  Nella pagina **Dial plan di messaggistica unificata** in **Operatori automatici di messaggistica unificata**, selezionare l'operatore automatico di messaggistica unificata che si intende modificare, quindi fare clic su **Modifica**![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica"). Utilizzare le opzioni di configurazione per visualizzare le impostazioni specifiche dell'operatore automatico e per abilitare o disabilitare la funzionalità.
 
 Se necessario, è possibile configurare un operatore automatico esistente eseguendo il seguente comando in Shell.
-
+```powershell
     Set-UMAutoAttendant -Identity MySpeechEnabledAA -DTMFFallbackAutoAttendant MyDTMFAA -OperatorExtension 50100 -AfterHoursTransferToOperatorEnabled $true -StaroutToDialPlanEnabled $true
-
+```
 ## Passaggio 10: Creare o configurare criteri cassetta postale di messaggistica unificata
 
 A seconda della distribuzione di Exchange 2007 esistente, potrebbe essere necessario creare nuovi criteri cassetta postale di messaggistica unificata o configurare criteri cassetta postale di messaggistica unificata esistente. I criteri cassetta postale di messaggistica unificata sono necessari quando si abilitano utenti per la messaggistica unificata. La cassetta postale di ogni utente abilitato alla messaggistica unificata deve essere collegata a un singolo criterio cassetta postale di messaggistica unificata. Una volta creato un criterio cassetta postale di messaggistica unificata, è possibile associare una o più cassette postali abilitate alla messaggistica unificata al criterio. In questo modo è possibile controllare le impostazioni di protezione del PIN quali il numero minimo di cifre in un PIN o il numero massimo di tentativi di accesso per gli utenti collegati al criterio cassetta postale di messaggistica unificata. Per ulteriori informazioni, vedere [Criteri cassetta postale di messaggistica unificata](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies).
@@ -423,9 +425,9 @@ Se necessario, è possibile configurare un criterio cassetta postale di messaggi
 2.  Nella pagina **Dial plan di messaggistica unificata**, in **Criteri cassetta postale di messaggistica unificata**, selezionare il criterio cassetta postale di messaggistica unificata che si intende modificare, quindi fare clic su **Modifica**![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica"). Utilizzare le opzioni di configurazione per visualizzare le impostazioni specifiche del criterio cassetta postale di messaggistica unificata e per abilitare o disabilitare la funzionalità.
 
 Se necessario, è possibile configurare un criterio di messaggistica unificata esistente, eseguendo il seguente comando in Shell.
-
+```powershell
     Set-UMMailboxPolicy -Identity MyUMMailboxPolicy -LogonFailuresBeforePINReset 8 -MaxLogonAttempts 12 -MinPINLength 8 -PINHistoryCount 10 -PINLifetime 60 -ResetPINText "The PIN used to allow you access to your mailbox using Outlook Voice Access has been reset."
-
+```
 ## Passaggio 11: Spostare le cassette postali esistenti abilitate alla messaggistica unificata in Exchange 2013
 
 Nella messaggistica unificata di Exchange 2007, dopo aver abilitato gli utenti all'interno dell'organizzazione alla casella vocale, un insieme di proprietà di messaggistica unificata predefinito viene applicato all'utente in modo da poter utilizzare le funzionalità di messaggistica unificata. Per ulteriori informazioni, vedere [Segreteria telefonica per gli utenti](https://docs.microsoft.com/it-it/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users).
@@ -491,9 +493,9 @@ Per abilitare un utente alla messaggistica unificata utilizzando l'interfaccia d
 6.  Esaminare le impostazioni nella pagina **Abilita cassetta postale di messaggistica unificata**. Fare clic su **Fine** per abilitare gli utenti alla messaggistica unificata. Fare clic su **Indietro** per modificare la configurazione.
 
 Per abilitare un utente per la messaggistica unificata in Shell, eseguire il seguente comando.
-
+```powershell
     Enable-UMMailbox -Identity tonysmith@contoso.com -UMMailboxPolicy MyUMMailboxPolicy -Extensions 51234 -PIN 5643892 -NotifyEmail administrator@contoso.com -PINExpired $true
-
+````
 Se necessario, è possibile configurare un utente che è stato abilitato per la messaggistica unificata utilizzando l'interfaccia di amministrazione di Exchange:
 
 1.  In EAC, selezionare **Destinatari** \> **Cassette postali**.
@@ -521,9 +523,9 @@ Se necessario, è possibile configurare un utente che è stato abilitato per la 
 6.  Se si apportano modifiche, fare clic su **Salvai**.
 
 Se necessario, è possibile configurare un utente abilitato per la messaggistica unificata in Shell eseguendo il comando seguente.
-
+```powershell
     Set-UMMailbox -Identity tony@contoso.com -CallAnsweringAudioCodec Wma -CallAnsweringRulesEnabled $false -FaxEnabled $false -UMSMSNotificationOption VoiceMail
-
+```
 ## Passaggio 13: Configurare i gateway VoIP, IP PBX e PBX per SIP al fine di inviare tutte le chiamate in entrata ai server Accesso client di Exchange 2013
 
 Quando i server Accesso client e Cassette postali di Exchange 2013 vengono installati, sono automaticamente abilitati alla funzione di risposta alle chiamate vocali in entrata e in uscita e all'instradamento dei messaggi di casella vocale verso i destinatari. Quando vengono installati i server Accesso client e Cassette postali di Exchange 2013 e distribuita la messaggistica unificata, non è necessario collegare o aggiungere tali server ai dial plan di messaggistica unificata. I server Accesso client e Cassette postali di Exchange 2013 rispondono a tutte le chiamate in entrata e utilizzano i dial plan di messaggistica unificata per individuare gli utenti.
@@ -589,12 +591,12 @@ Per rimuovere un server di messaggistica unificata di Exchange 2007 da un dial p
 6.  Fare clic su **OK** per chiudere la finestra delle proprietà.
 
 Per rimuovere un server di messaggistica unificata di Exchange 2007 da un dial plan utilizzando Shell, eseguire il seguente comando.
-
+```powershell
     $dp= Get-UMDialPlan "MySIPDialPlan"
     $s=Get-UMServer -id MyUMServer
     $s.dialplans-=$dp.identity
     Set-UMServer -id MyUMServer -dialplans:$s.dialplans
-
+```
 In questo esempio vengono mostrati tre dial plan di URI SIP: SipDP1, SipDP2 e SipDP3. Con questo esempio viene rimosso il server di messaggistica unificata denominato `MyUMServer` dal dial plan denominato SipDP3.
 
 ```powershell

@@ -94,8 +94,8 @@ Oppure
 1.  Eseguire il seguente comando in Shell.
     
     ```powershell
-Get-PopSettings | format-list
-```
+    Get-PopSettings | format-list
+    ```
 
 2.  Verificare che le impostazioni di connessione siano corrette.
 

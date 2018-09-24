@@ -91,7 +91,9 @@ Quando l'applicazione del criterio del ciclo di vita in SharePoint chiude una ca
 
 Utilizzando il seguente comando è possibile cercare e rimuovere le cassette postali del sito contrassegnate per l'eliminazione.
 
+```powershell
     Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailbox -Confirm:$false
+```
 
 Le cassette postali del sito non supportano la conservazione a livello di elemento. Per le cassette postali del sito la conservazione funziona solo a livello di progetto e quindi, quando la cassetta del sito viene eliminata, anche gli elementi conservati vengono eliminati.
 

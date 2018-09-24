@@ -64,13 +64,13 @@ Per creare un gruppo legato al ruolo e assegnare ruoli di gestione per il gruppo
 1.  Archiviare le credenziali della foresta esterna di Active Directory in una variabile.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 2.  Creare il gruppo di ruoli collegato utilizzando la sintassi seguente.
-    
+    ```powershell
         New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles <role1, role2, role3...>
-
+    ```
 3.  Aggiungere o rimuovere i membri dal gruppo di protezione universale esterno utilizzando Utenti e computer di Active Directory su un computer nella foresta esterna di Active Directory.
 
 Con questo esempio viene effettuato quanto segue:
@@ -88,8 +88,9 @@ Con questo esempio viene effettuato quanto segue:
 ```powershell
 $ForeignCredential = Get-Credential
 ```
+```powershell
     New-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles "Transport Rules", "Journaling"
-
+```
 ## Utilizzo di Shell per creare un gruppo legato al ruolo con ambito di gestione personalizzato
 
 È possibile creare gruppi legati al ruolo con ambiti di gestione del destinatario personalizzato, ambiti di gestione di configurazione personalizzata o entrambi. Per creare un gruppo legato al ruolo e assegnare ad esso ruoli di gestione con ambiti personalizzati, fare quanto segue:
@@ -97,13 +98,13 @@ $ForeignCredential = Get-Credential
 1.  Archiviare le credenziali della foresta esterna di Active Directory in una variabile.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 2.  Creare il gruppo di ruoli collegato utilizzando la sintassi seguente.
-    
+    ```powershell
         New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -CustomConfigWriteScope <name of configuration scope> -CustomRecipientWriteScope <name of recipient scope> -LinkedCredential $ForeignCredential -Roles <role1, role2, role3...>
-
+    ```
 3.  Aggiungere o rimuovere i membri dal gruppo di protezione universale esterno utilizzando Utenti e computer di Active Directory su un computer nella foresta esterna di Active Directory.
 
 Con questo esempio viene effettuato quanto segue:
@@ -121,8 +122,9 @@ Con questo esempio viene effettuato quanto segue:
 ```powershell
 $ForeignCredential = Get-Credential
 ```
+```powershell
     New-RoleGroup "Seattle Compliance Role Group" -LinkedForeignGroup "Seattle Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -CustomRecipientWriteScope "Seattle Recipients" -Roles "Transport Rules", "Journaling"
-
+```
 Per ulteriori informazioni sugli ambiti di gestione, vedere [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md).
 
 ## Utilizzo di Shell per creare un gruppo legato al ruolo con ambito di unità organizzativa
@@ -132,13 +134,13 @@ Per ulteriori informazioni sugli ambiti di gestione, vedere [Comprensione degli 
 1.  Archiviare le credenziali della foresta esterna di Active Directory in una variabile.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 2.  Creare il gruppo di ruoli collegato utilizzando la sintassi seguente.
-    
+    ```powershell
         New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope <OU name> -Roles <role1, role2, role3...>
-
+    ```
 3.  Aggiungere o rimuovere i membri dal gruppo di protezione universale esterno utilizzando Utenti e computer di Active Directory su un computer nella foresta esterna di Active Directory.
 
 Con questo esempio viene effettuato quanto segue:
@@ -156,8 +158,9 @@ Con questo esempio viene effettuato quanto segue:
 ```powershell
 $ForeignCredential = Get-Credential
 ```
+```powershell
     New-RoleGroup "Executives Compliance Role Group" -LinkedForeignGroup "Executives Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope "Executives OU" -Roles "Transport Rules", "Journaling"
-
+```
 Per ulteriori informazioni sugli ambiti di gestione, vedere [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md).
 
 ## Modifica del gruppo di protezione universale in un gruppo legato al ruolo
@@ -169,13 +172,13 @@ Per modificare il gruppo di protezione universale esterno associato a un gruppo 
 1.  Archiviare le credenziali della foresta esterna di Active Directory in una variabile.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 2.  Modificare il gruppo di protezione universale nel gruppo legato al ruolo esistente utilizzando la seguente sintassi.
-    
+    ```powershell
         Set-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential 
-
+    ```
 Con questo esempio viene effettuato quanto segue:
 
   - Vengono recuperate le credenziali per la foresta esterna di Active Directory users.contoso.com. Queste credenziali vengono utilizzate per collegarsi al controller di dominio DC01.users.contoso.com nella foresta esterna.
@@ -187,5 +190,6 @@ Con questo esempio viene effettuato quanto segue:
 ```powershell
 $ForeignCredential = Get-Credential
 ```
+```powershell
     Set-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Regulatory Compliance Officers" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential
-
+```

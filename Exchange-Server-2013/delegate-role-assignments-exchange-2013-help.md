@@ -68,12 +68,12 @@ Per informazioni sulle altre attività di gestione relative alla gestione delle 
 
 
 Con questo esempio viene creata un'assegnazione di ruolo di delega per consentire ai membri del gruppo di ruolo Senior Admins di assegnare il ruolo Destinatari posta a qualsiasi utente nell'organizzazione di Exchange.
-
+```powershell
     New-ManagementRoleAssignment -Role "Mail Recipients" -SecurityGroup "Senior Admins" -Name "Mail Recipients_Senior Admin - Delegate" -Delegating
-
+```
 Con questo esempio viene creata un'assegnazione di ruolo di delega per consentire ai membri del gruppo di ruolo Senior Admins di assegnare il ruolo Destinatari posta solo agli utenti nell'unità organizzativa Sales/Users OU del dominio contoso.com.
-
+```powershell
     New-ManagementRoleAssignment -Role "Mail Recipients" -SecurityGroup "Senior Admins" -Name "Mail Recipients_Senior Admins - Delegate" -RecipientOrganizationalUnitScope contoso.com/sales/users -Delegating
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 

@@ -52,13 +52,13 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 
 Questo comando disabilita Ricerca di Exchange per il database di una cassetta postale denominata EXCH01:
-
+```powershell
     Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $false
-
+```
 Questo comando abilita Ricerca di Exchange per il database di una cassetta postale di nome EXCH01.
-
+```powershell
     Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $true
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb123971\(v=exchg.150\)).
 
 ## Disabilitazione/abilitazione di Ricerca di Exchange per un server Cassette postali
@@ -88,17 +88,17 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 **Utilizzo di Shell**
 
 Utilizzare i seguenti comandi per arrestare e disabilitare il servizio Ricerca di Microsoft Exchange.
-```
+```powershell
 Stop-Service MSExchangeFastSearch
 ```
-```
+```powershell
 Set-Service MSExchangeFastSearch -StartupType Disabled
 ```
 
 Utilizzare i seguenti comandi per configurare il servizio Ricerca di Microsoft Exchange per l'avvio automatico e quindi avviare il servizio.
-```
+```powershell
 Set-Service MSExchangeFastSearch -StartupType Automatic
 ```
-```
+```powershell
 Start-Service MSExchangeFastSearch
 ```

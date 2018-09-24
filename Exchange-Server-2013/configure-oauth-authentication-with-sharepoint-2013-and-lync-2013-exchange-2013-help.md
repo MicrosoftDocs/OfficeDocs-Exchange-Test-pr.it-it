@@ -50,15 +50,15 @@ In questa procedura viene utilizzato lo script `Configure-EntepririseApplication
 Dopo la configurazione dell'autenticazione OAuth da Exchange, l'applicazione partner può utilizzare le risorse Exchange 2013. Se anche Exchange 2013 necessita dell'accesso alle risorse offerte dall'applicazione partner, è necessario configurare anche l'autenticazione OAuth nell'applicazione partner.
 
 In questo esempio viene configurata l'autenticazione OAuth per SharePoint 2013.
-
+```powershell
     Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
     Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://sharepoint.contoso.com/_layouts/15/metadata/json/1 -ApplicationType SharePoint
-
+```
 In questo esempio viene configurata l'autenticazione OAuth per Lync Server 2013.
-
+```powershell
     Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
     Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://lync.contoso.com/metadata/json/1 -ApplicationType Lync
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare di aver configurato correttamente un'applicazione partner aziendale per l'autenticazione in Exchange 2013, eseguire il cmdlet [Get-PartnerApplication](https://technet.microsoft.com/it-it/library/jj218721\(v=exchg.150\)) in Shell per recuperare la configurazione. È inoltre possibile eseguire il cmdlet [Test-OAuthConnectivity](https://technet.microsoft.com/it-it/library/jj218623\(v=exchg.150\)) per verificare la connettività OAuth con un'applicazione partner per un utente.

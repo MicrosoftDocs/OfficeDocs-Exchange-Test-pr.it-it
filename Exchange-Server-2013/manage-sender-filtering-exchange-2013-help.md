@@ -68,25 +68,25 @@ Per verificare la corretta abilitazione o disabilitazione del filtro mittente, a
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-SenderFilterConfig | Format-List Enabled
-```
+    Get-SenderFilterConfig | Format-List Enabled
+    ```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 
 ## Utilizzare Shell per configurare i domini e i mittenti bloccati
 
 Per sostituire i valori esistenti, eseguire questo comando:
-
+```powershell
     Set-SenderFilterConfig -BlockedSenders <sender1,sender2...> -BlockedDomains <domain1,domain2...> -BlockedDomainsAndSubdomains <domain1,domain2...>
-
+```
 In questo esempio l'agente Filtro mittente viene configurato per bloccare i messaggi da kim@contoso.com e john@contoso.com, i messaggi dal dominio fabrikam.com e i messaggi da northwindtraders.com e tutti i relativi sottodomini.
-
+```powershell
     Set-SenderFilterConfig -BlockedSenders kim@contoso.com,john@contoso.com -BlockedDomains fabrikam.com -BlockedDomainsAndSubdomains northwindtraders.com
-
+```
 Per aggiungere o rimuovere le voci senza modificare i valori esistenti, eseguire questo comando:
-
+```powershell
     Set-SenderFilterConfig -BlockedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BlockedDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...} -BlockedDomainsAndSubdomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
-
+```
 In questo esempio l'agente Filtro mittente viene configurato con le seguenti informazioni:
 
   - Aggiunta di chris@contoso.com e michelle@contoso.com all'elenco dei mittenti esistenti bloccati.
@@ -96,9 +96,9 @@ In questo esempio l'agente Filtro mittente viene configurato con le seguenti inf
   - Aggiunta di blueyonderairlines.com all'elenco dei domini e sottodomini mittente esistenti bloccati.
 
 <!-- end list -->
-
+```powershell
     Set-SenderFilterConfig -BlockedSenders @{Add="chris@contoso.com","michelle@contoso.com"} -BlockedDomains @{Remove="tailspintoys.com"} -BlockedDomainsAndSubdomains @{Add="blueyonderairlines.com"}
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta configurazione dei mittenti bloccati, procedere come segue:
@@ -106,8 +106,8 @@ Per verificare la corretta configurazione dei mittenti bloccati, procedere come 
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
-```
+    Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+    ```
 
 2.  Verificare che i valori visualizzati siano quelli configurati.
 
@@ -132,8 +132,8 @@ Per verificare la corretta abilitazione o disabilitazione del blocco dei messagg
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
-```
+    Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+    ```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 

@@ -42,9 +42,9 @@ Per informazioni sulle altre attività di gestione relative a Outlook Anywhere, 
 Per utilizzare Shell per verificare la connettività di Outlook Anywhere, utilizzare il cmdlet **Test-OutlookConnectivity**.
 
 Eseguire il comando riportato di seguito.
-
+```powershell
     Test-OutlookConnectivity -ProbeIdentity 'OutlookMailboxDeepTestProbe' -MailboxId tony@contoso.com -Hostname contoso.com
-
+```
 
 > [!NOTE]
 > Il valore del parametro <EM>OutlookMailboxDeepTestProbe</EM> consente di verificare la connettività dal server Cassette postali. Per verificare la connettività dal server Accesso client, utilizzare <EM>OutlookMailboxCTPProbe</EM> come valore del parametro <EM>ProbeIdentity</EM>.

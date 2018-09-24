@@ -82,8 +82,8 @@ Per verificare la corretta eliminazione definitiva di una cassetta postale attiv
 3.  Eseguire il comando riportato di seguito per verificare che la cassetta postale sia stata eliminata correttamente dal database delle cassette postali di Exchange.
     
     ```powershell
-Get-MailboxDatabase | Get-MailboxStatistics | Where {         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
-```
+        Get-MailboxDatabase | Get-MailboxStatistics | Where {         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+    ```
     
     Se la cassetta postale è stata eliminata correttamente, il comando non restituirà alcun risultato. Se la cassetta postale non è stata eliminata, il comando restituirà le informazioni relative alla cassetta postale.
 
@@ -94,15 +94,16 @@ Get-MailboxDatabase | Get-MailboxStatistics | Where {         Get-MailboxDatabas
 Esistono due tipi di cassette postali disconnesse: disabilitate e con eliminazione reversibile. Quando si esegue il cmdlet per eliminare definitivamente la cassetta postale, è necessario specificare uno di questi tipi. Se il tipo specificato non corrisponde al tipo effettivo della cassetta postale disconnessa, il comando non viene completato.
 
 Eseguire il comando riportato di seguito per determinare se la cassetta postale disconnessa è disabilitata o eliminata in maniera reversibile.
-
+```powershell
     Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,MailboxGuid,Database,DisconnectReason
+```
 
 Il valore della proprietà *DisconnectReason* per le cassette postali disconnesse sarà `Disabled` o `SoftDeleted`.
 
 È possibile eseguire il comando seguente per visualizzare il tipo di tutte le cassette postali disconnesse nell'organizzazione.
-
+```powershell
     Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -ne $null } | fl DisplayName,MailboxGuid,Database,DisconnectReason
-
+```
 
 > [!WARNING]
 > Quando si utilizza il cmdlet <STRONG>Remove-StoreMailbox</STRONG> per eliminare definitivamente una cassetta postale disconnessa, tutto il contenuto viene eliminato dal database delle cassette postali e la perdita dei dati è permanente.
@@ -110,8 +111,9 @@ Il valore della proprietà *DisconnectReason* per le cassette postali disconness
 
 
 In questo esempio viene eliminata permanentemente la cassetta postale disabilitata con GUID 2ab32ce3-fae1-4402-9489-c67e3ae173d3 dal database delle cassette postali MBD01.
-
+```powershell
     Remove-StoreMailbox -Database MBD01 -Identity "2ab32ce3-fae1-4402-9489-c67e3ae173d3" -MailboxState Disabled
+```
 
 Con questo esempio viene eliminata permanentemente la cassetta postale con eliminazione reversibile di Dan Jump dal database delle cassette postali MBD01.
 
@@ -120,8 +122,9 @@ Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDelet
 ```
 
 In questo esempio vengono eliminate permanentemente tutte le cassette postali con eliminazione reversibile dal database delle cassette postali MBD01.
-
+```powershell
     Get-MailboxStatistics -Database MBD01 | where {$_.DisconnectReason -eq "SoftDeleted"} | ForEach {Remove-StoreMailbox -Database $_.Database -Identity $_.MailboxGuid -MailboxState SoftDeleted}
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-StoreMailbox](https://technet.microsoft.com/it-it/library/ff829913\(v=exchg.150\)) e [Get-MailboxStatistics](https://technet.microsoft.com/it-it/library/bb124612\(v=exchg.150\)).
 

@@ -175,7 +175,7 @@ Di seguito è riportato un esempio di voce standard del registro di controllo. D
   - L'operazione è stata completata senza errori.
 
 <!-- end list -->
-
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <SearchResults>
     
@@ -189,4 +189,4 @@ Di seguito è riportato un esempio di voce standard del registro di controllo. D
         </ModifiedProperties>
       </Event>
     </SearchResults>
-
+```

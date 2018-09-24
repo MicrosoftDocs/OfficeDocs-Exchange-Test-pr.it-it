@@ -60,28 +60,28 @@ Per avviare i servizi POP3:
 1.  Sul computer che esegue il ruolo del server Accesso client, da Shell, utilizzare il seguente comando per avviare il servizio Microsoft Exchange POP3.
     
     ```powershell
-Start-service MSExchangePOP3
-```
+    Start-service MSExchangePOP3
+    ```
 
 2.  Sul computer che esegue il ruolo del server Cassette postali, da Shell, utilizzare il seguente comando per avviare il servizio back-end POP3 di Microsoft Exchange.
     
     ```powershell
-Start-service MSExchangePOP3BE
-```
+    Start-service MSExchangePOP3BE
+    ```
 
 Per interrompere i servizi POP3:
 
 1.  Sul computer che esegue il ruolo del server Accesso client, da Shell, utilizzare il seguente comando per arrestare il servizio Microsoft Exchange POP3.
     
     ```powershell
-Stop-service MSExchangePOP3
-```
+    Stop-service MSExchangePOP3
+    ```
 
 2.  Sul computer che esegue il ruolo del server Cassette postali, da Shell, utilizzare il seguente comando per arrestare il servizio back-end POP3 di Microsoft Exchange.
     
     ```powershell
-Stop-service MSExchangePOP3BE
-```
+    Stop-service MSExchangePOP3BE
+    ```
 
 ## Utilizzo del comando net start per avviare o arrestare i servizi POP3
 
@@ -90,28 +90,28 @@ Per avviare i servizi POP3:
 1.  Sul computer che esegue il ruolo del server Accesso client, al prompt dei comandi, utilizzare il seguente comando per avviare il servizio Microsoft Exchange POP3.
     
     ```powershell
-Net Start msExchangePOP3
-```
+    Net Start msExchangePOP3
+    ```
 
 2.  Sul computer che esegue il ruolo del server Cassette postali, al prompt dei comandi, utilizzare il seguente comando per avviare il servizio back-end POP3 di Microsoft Exchange.
     
     ```powershell
-Net Start msExchangePOP3BE
-```
+    Net Start msExchangePOP3BE
+    ```
 
 Per interrompere i servizi POP3:
 
 1.  Sul computer che esegue il ruolo del server Accesso client, al prompt dei comandi, utilizzare il seguente comando per arrestare il servizio Microsoft Exchange POP3.
     
     ```powershell
-Net Stop MSExchangePOP3
-```
+    Net Stop MSExchangePOP3
+    ```
 
 2.  Sul computer che esegue il ruolo del server Cassette postali, al prompt dei comandi, utilizzare il seguente comando per arrestare il servizio back-end POP3 di Microsoft Exchange.
     
     ```powershell
-Net Stop MSExchangePOP3BE
-```
+    Net Stop MSExchangePOP3BE
+    ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

@@ -40,15 +40,18 @@ Per ulteriori informazioni sulle cassette postali eliminate in maniera reversibi
   - Le procedure descritte in questo argomento possono essere eseguite solo in Shell. Non è possibile utilizzare l'interfaccia di amministrazione di Exchange per ripristinare cassette postali eliminate in maniera reversibile.
 
   - Eseguire il comando riportato qui di seguito per verificare che la cassetta postale eliminata in maniera reversibile che si desidera collegare a un account utente esista ancora nel database delle cassette postali e non è una cassetta postale disattivata.
-    
+
+    ```powershell
         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,DisconnectReason,DisconnectDate
-    
+    ```
+
     La cassetta postale eliminata in maniera reversibile deve esistere nel database delle cassette postali e il valore per la proprietà *DisconnectReason* deve essere `SoftDeleted`. Se la cassetta postale è stata eliminata dal database, il comando non restituirà nessun risultato.
     
     In alternativa, eseguire il comando riportato qui di seguito per visualizzare tutte le cassette postali eliminate in maniera reversibile nell'organizzazione.
-    
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | fl DisplayName,DisconnectReason,DisconnectDate
 
+    ```powershell
+        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | fl DisplayName,DisconnectReason,DisconnectDate
+    ```
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
   - Problemi? È possibile richiedere supporto nei forum di Exchange. I forum sono disponibili sui seguenti siti: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542) o [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351)..
@@ -61,15 +64,21 @@ Dopo che la cassetta postale eliminata in maniera reversibile sarà stata ripris
 
 Per creare una richiesta di ripristino di una cassetta postale, è necessario utilizzare il nome visualizzato, il GUID della cassetta postale o il nome distinto legacy (DN) della cassetta postale eliminata in maniera reversibile. Utilizzare il cmdlet **Get-MailboxStatistics** per visualizzare i valori del **DisplayName**, **MailboxGuid** e le proprietà **LegacyDN** per la casella postale eliminata in maniera non reversibile che si desidera ripristinare. Ad esempio, eseguire il comando riportato qui di seguito per restituire queste informazioni per tutte le caselle postali eliminate in maniera reversibile nell'organizzazione.
 
+```powershell
     Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "SoftDeleted"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```
 
 In questo esempio viene ripristinata una cassetta postale eliminata in maniera reversibile, che viene eliminata con il nome visualizzato nel parametro *SourceStoreMailbox* e si trova nel database della cassetta postale MBXDB01, sulla cassetta postale destinazione denominata Debra Garcia. Il parametro *AllowLegacyDNMismatch* viene utilizzato in modo che la cassetta postale di origine possa essere ripristinata su una cassetta postale che non ha lo stesso valore nome distinto legacy (DN) della cassetta postale eliminata in maniera reversibile.
 
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox "Debra Garcia" -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```
 
 In questo esempio, la cassetta postale di archiviazione di Pilar Pinilla eliminata in maniera reversibile, che è identificata dal GUID della cassetta postale, viene ripristinata sulla sua attuale cassetta postale di archiviazione. Il parametro *AllowLegacyDNMismatch* non è necessario perché una cassetta postale primaria e la corrispondente cassetta postale di archiviazione hanno lo stesso nome distinto legacy (DN).
 
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox dc35895a-a628-4bba-9aa9-650f5cdb9ae7 -SourceDatabase MBXDB02 -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829875\(v=exchg.150\)).
 

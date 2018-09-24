@@ -83,8 +83,10 @@ Archiviazione sul posto consente di riprendere il controllo dei dati di messaggi
 
 In questo esempio, vengono creati l'utente Chris Ashton in Active Directory e una cassetta postale nel database di cassette postali DB01 e viene abilitato un archivio. La password deve essere reimpostata all'accesso successivo. In questo esempio, viene creata una variabile ($password), viene richiesta l'immissione della password che viene poi assegnata alla variabile come un oggetto SecureString per l'impostazione del valore iniziale della password.
 
+```powershell
     $password = Read-Host "Enter password" -AsSecureString
     New-Mailbox -UserPrincipalName chris@contoso.com -Alias chris -Archive -Database "DB01" -Name ChrisAshton -OrganizationalUnit Users -Password $password -FirstName Chris -LastName Ashton -DisplayName "Chris Ashton" 
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-Mailbox](https://technet.microsoft.com/it-it/library/aa997663\(v=exchg.150\)).
 
@@ -95,9 +97,9 @@ Per verificare la corretta creazione della cassetta postale utente con un archiv
   - Nell'interfaccia di amministrazione di Exchange, accedere a **Destinatari** \> **Cassette postali**, quindi selezionare la nuova cassetta postale utente nell'elenco. Nel riquadro dei dettagli, in **Archiviazione in locale**, confermare che sia impostato su **Abilitato**. Fare clic su **Visualizza dettagli** per visualizzare le proprietà dell'archivio, incluso il suo stato e il database delle cassette postali in cui è stato creato.
 
   - In Shell, eseguire il comando riportato di seguito per visualizzare le informazioni sulla nuova cassetta postale utente e sul nuovo archivio.
-    
+    ```powershell
         Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress,*Archive*
-
+    ```
   - In Shell, utilizzare il cmdlet **Test-ArchiveConnectivity** per verificare la connessione dell'archivio. Per un esempio di come verificare la connessione dell'archivio, vedere la sezione relativa agli esempi in [Test-ArchiveConnectivity](https://technet.microsoft.com/it-it/library/hh529914\(v=exchg.150\)).
 
 ## Abilitazione di un archivio locale per la cassetta postale esistente
@@ -129,9 +131,9 @@ Enable-Mailbox "Tony Smith" -Archive
 ```
 
 In questo esempio vengono recuperate le cassette postali nel database DB01 che non dispone di un archivio locale o basato su cloud abilitato e di un nome che inizia per DiscoverySearchMailbox. Viene eseguito il piping dei risultati nel cmdlet **Enable-Mailbox** per abilitare l'archivio per tutte le cassette postali sul database di cassette postali DB01.
-
+```powershell
     Get-Mailbox -Database DB01 -Filter {ArchiveGuid -Eq $null -AND ArchiveDomain -eq $null -AND Name -NotLike "DiscoverySearchMailbox*"} | Enable-Mailbox -Archive
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Enable-Mailbox](https://technet.microsoft.com/it-it/library/aa998251\(v=exchg.150\)) e [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo
@@ -141,9 +143,9 @@ Per verificare l'avvenuta abilitazione di un archivio locale per una cassetta po
   - Nell'interfaccia di amministrazione di Exchange, accedere a **Destinatari** \> **Cassette postali**, quindi selezionare la cassetta postale nell'elenco. Nel riquadro dei dettagli, in **Archiviazione in locale**, confermare che sia impostato su **Abilitato**. Fare clic su **Visualizza dettagli** per visualizzare le proprietà dell'archivio, incluso il suo stato e il database delle cassette postali in cui è stato creato.
 
   - In Shell, eseguire il comando riportato di seguito per visualizzare le informazioni sul nuovo archivio.
-    
+    ```powershell
         Get-Mailbox <Name> | FL Name,*Archive*
-
+    ```
   - In Shell, utilizzare il cmdlet **Test-ArchiveConnectivity** per verificare la connessione dell'archivio. Per un esempio di come verificare la connessione dell'archivio, vedere gli esempi in [Test-ArchiveConnectivity](https://technet.microsoft.com/it-it/library/hh529914\(v=exchg.150\)).
 
 ## Disabilitazione di un archivio locale
@@ -189,9 +191,9 @@ Per verificare l'avvenuta disabilitazione di un archivio, procedere come segue:
   - Nell'interfaccia di amministrazione di Exchange, selezionare la cassetta postale. Nel riquadro dei dettagli verificare lo stato dell'archivio in **Archiviazione in locale**.
 
   - In Shell, eseguire il comando seguente per verificare le proprietà dell'archivio per l'utente della cassetta postale.
-    
+    ```powershell
         Get-Mailbox -Identity "Chris Ashton" | Format-List *Archive*
-    
+    ```
     Se l'archivio è disabilitato, vengono restituiti i seguenti valori per le proprietà relative all'archivio.
     
     
@@ -246,13 +248,13 @@ Quando si disabilita una cassetta postale di archiviazione, questa viene disconn
 ## Utilizzo di Shell
 
 1.  Se non si conosce il nome dell'archivio, è possibile visualizzarlo in Shell utilizzando il comando riportato di seguito. In questo esempio viene recuperato il database delle cassette postali DB01; ne viene eseguito il piping al cmdlet **Get-MailboxStatistics** per recuperare le statistiche sulle cassette postali per tutte le cassette postali del database, quindi, viene utilizzato il cmdle **Where-Object** per filtrare i risultati e recuperare un elenco di archivi disconnessi. Il comando visualizza ulteriori informazioni sugli archivi, quali il GUID e il conteggio degli elementi.
-    
+    ```powershell
         Get-MailboxDatabase "DB01" | Get-MailboxStatistics | Where {($_.DisconnectDate -ne $null) -and ($_.IsArchiveMailbox -eq $true)} | Format-List
-
+    ```
 2.  Connettere l'archivio alla cassetta postale principale. In questo esempio, l'archivio di Chris Ashton viene connesso alla cassetta postale principale di Chris Ashton e viene utilizzato il GUID come identità dell'archivio.
-    
+    ```powershell
         Enable-Mailbox -ArchiveGuid "8734c04e-981e-4ccf-a547-1c1ac7ebf3e2" -ArchiveDatabase "DB01" -Identity "Chris Ashton"
-
+    ```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere:
 
   - [Get-MailboxDatabase](https://technet.microsoft.com/it-it/library/bb124924\(v=exchg.150\))
@@ -264,6 +266,6 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere:
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare l'avvenuta disconnessione di un archivio per un utente della cassetta postale, eseguire il seguente comando Shell per recuperare le proprietà dell'archivio dell'utente della cassetta postale e verificare i valori restituiti per le proprietà *ArchiveGuid* e *ArchiveDatabase*.
-
+```powershell
     Get-Mailbox -Identity "Chris Ashton" | Format-List *Archive*
-
+```

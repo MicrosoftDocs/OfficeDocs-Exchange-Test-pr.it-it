@@ -66,9 +66,9 @@ Per ulteriori attività relative alla gestione dei certificati per la messaggist
 ## Utilizzo di Shell per esportare un certificato
 
 In questo esempio il certificato con Identificazione personale A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC viene esportato in un file dopo la richiesta di immissione di nome utente e password.
-
+```powershell
     $file = Export-ExchangeCertificate -Thumbprint A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC -BinaryEncoded:$true -Password (Get-Credential).password
-
+```
 Con questo esempio viene effettuato quanto segue:
 
 1.  Utilizza il cmdlet **Get-ExchangeCertificate** per trovare il certificato da esportare.
@@ -78,10 +78,10 @@ Con questo esempio viene effettuato quanto segue:
 3.  Emette il certificato in un file dopo che sono stati immessi nome utente e password.
 
 <!-- end list -->
-```
+```powershell
 $file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
 ```
-```
+```powershell
 Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
 ```
 
@@ -96,6 +96,6 @@ Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding By
 ## Importazione di un certificato tramite Shell
 
 In questo esempio un certificato viene importato dal file del certificato d:\\certificates\\exchange\\SelfSignedUMCert.pfx dopo aver immesso nome utente e password.
-
+```powershell
     Import-ExchangeCertificate -FileData ([Byte[]]$(Get-Content -Path d:\certificates\exchange\SelfSignedUMCert.pfx -Encoding Byte -ReadCount 0)) -Password:(Get-Credential).password
-
+```

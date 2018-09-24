@@ -273,8 +273,9 @@ Cd $env:ExchangeInstallPath\Scripts
 ```
 
 Per eseguire lo script nella cartella Script, utilizzare la seguente sintassi:
-
+```powershell
     .\Get-AntiSpamFilteringReport.ps1 -report <ReportValue> [<OptionalParameters>]
+```
 
 Per i dettagli sull'uso dello script, utilizzare il seguente comando:
 

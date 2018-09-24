@@ -84,8 +84,8 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
@@ -111,10 +111,10 @@ Accedere all'interfaccia di amministrazione di Exchange e attenersi alla procedu
 
 Con questo esempio viene creato un batch di migrazione per uno spostamento locale in cui le cassette postali presenti nel file .csv specificato vengono spostate in un altro database delle cassette postali. Nel file .csv è contenuta una singola colonna con l'indirizzo di posta elettronica per ciascuna delle cassette postali che verrà spostata. L'intestazione di questa colonna deve essere denominata **EmailAddress**. Il batch di migrazione dell'esempio deve essere avviato manualmente utilizzando il cmdlet **Start-MigrationBatch** oppure tramite l'interfaccia di amministrazione di Exchange. In alternativa è possibile utilizzare il parametro *AutoStart* per avviare automaticamente il batch di migrazione.
 
-```
+```powershell
 New-MigrationBatch -Local -Name LocalMove1 -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\LocalMove1.csv")) -TargetDatabases MBXDB2 -TimeZone "Pacific Standard Time"
 ```
-```
+```powershell
 Start-MigrationBatch -Identity LocalMove1
 ```
 
@@ -129,8 +129,8 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
@@ -167,20 +167,21 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
 ## Creazione di uno spostamento tra foreste utilizzando un file batch. csv
 
 Questo esempio configura l'endpoint di migrazione, quindi crea uno spostamento di batch tra foreste dalla foresta di origine alla foresta di destinazione utilizzando un file .csv.
-
+```powershell
     New-MigrationEndpoint -Name Fabrikam -ExchangeRemote -Autodiscover -EmailAddress tonysmith@fabrikam.com -Credentials (Get-Credential fabrikam\tonysmith) 
-    
+```
+```powershell
     $csvData=[System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\batch.csv")
     New-MigrationBatch -CSVData $csvData -Timezone "Pacific Standard Time" -Name FabrikamMerger -SourceEndpoint Fabrikam -TargetDeliveryDomain "mail.contoso.com"
-
+```
 Per ulteriori informazioni sulla preparazione della foresta per gli spostamenti tra foreste, vedere i seguenti argomenti:
 
   - [Preparare le cassette postali per le richieste di spostamento tra foreste](prepare-mailboxes-for-cross-forest-move-requests-exchange-2013-help.md)
@@ -198,8 +199,8 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
@@ -230,17 +231,17 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
 ## Spostamento di una cassetta postale principale dell'utente e di una cassetta postale di archivio in database separati
 
 Con questo esempio la cassetta postale principale e la cassetta postale di archivio di Ayla vengono spostati in database separati. Il database principale viene spostato in DB01 e l'archivio viene spostato in DB03.
-
+```powershell
     New-MoveRequest -Identity 'ayla@humongousinsurance.com' -TargetDatabase DB01 -ArchiveTargetDatabase -DB03
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MigrationBatch](https://technet.microsoft.com/it-it/library/jj219166\(v=exchg.150\)) e [New-MoveRequest](https://technet.microsoft.com/it-it/library/dd351123\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo
@@ -250,8 +251,8 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 
@@ -270,8 +271,9 @@ Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet
 ## Utilizzo di Shell per spostare una cassetta postale principale dell'utente e consentire un limite di elementi non validi elevato
 
 In questo esempio viene spostata la cassetta postale principale di Lisa nel database della cassetta postale DB01 e viene impostato il limite di elementi non validi su `100`. Per impostare un limite di elementi non validi elevato, è necessario utilizzare il parametro *AcceptLargeDataLoss*.
-
+```powershell
     New-MoveRequest -Identity 'Lisa' -PrimaryOnly -TargetDatabase "DB01" -BadItemLimit 100 -AcceptLargeDataLoss
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MigrationBatch](https://technet.microsoft.com/it-it/library/jj219166\(v=exchg.150\)) e [New-MoveRequest](https://technet.microsoft.com/it-it/library/dd351123\(v=exchg.150\)).
 
@@ -282,8 +284,8 @@ Per verificare che la migrazione sia stata eseguita correttamente, procedere com
   - Da Shell immettere il comando seguente per recuperare informazioni sullo spostamento delle cassette postali.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Per ulteriori informazioni, vedere [Get-MigrationUserStatistics](https://technet.microsoft.com/it-it/library/jj218695\(v=exchg.150\)).
 

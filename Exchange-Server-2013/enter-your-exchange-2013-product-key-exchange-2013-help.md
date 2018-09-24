@@ -113,10 +113,10 @@ Per verificare tramite Shell di aver ottenuto la licenza del server come Standar
 1.  Aprire Shell.
 
 2.  Utilizzare il seguente comando per visualizzare lo stato di licenza di uno specifico server Exchange
-    
+    ```powershell
         Get-ExchangeServer ExServer01 | Format-Table Edition,*Trial*
-
+    ```
 3.  (Facoltativo) Utilizzare il seguente comando per visualizzare lo stato di licenza di tutti i server Exchange dell'organizzazione.
-    
+    ```powershell
         Get-ExchangeServer | Format-Table Name, Edition, *Trial* -Auto
-
+    ```

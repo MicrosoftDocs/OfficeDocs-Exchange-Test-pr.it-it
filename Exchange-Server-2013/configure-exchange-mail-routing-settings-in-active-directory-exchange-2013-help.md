@@ -43,7 +43,7 @@ Determinare il nome del collegamento del sito IP di Active Directory per cui si 
 
 Per impostare un costo specifico per Exchange in un collegamento del sito di Active Directory, eseguire il comando riportato di seguito:
 
-``` 
+```powershell 
  Set-AdSiteLink <ADSiteLinkIdentity> -ExchangeCost <Integer | $null>
 ```
 
@@ -66,8 +66,8 @@ Per verificare l'impostazione corretta del costo per Exchange su un collegamento
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-AdSiteLink | Format-List Name,ExchangeCost
-```
+    Get-AdSiteLink | Format-List Name,ExchangeCost
+    ```
 
 2.  Verificare che il costo di Exchange sia configurato sul collegamento del sito di Active Directory.
 
@@ -100,8 +100,8 @@ Per verificare la configurazione corretta di un sito di Active Directory come si
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-AdSite | Format-List Name,HubSiteEnabled
-```
+    Get-AdSite | Format-List Name,HubSiteEnabled
+    ```
 
 2.  Verificare che il valore *HubSiteEnabled* sia `True` per il sito di Active Directory.
 

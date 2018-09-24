@@ -56,8 +56,9 @@ Oltre a collegare gli assegnatari dei ruoli ai ruoli, le assegnazioni dei ruoli 
 Questo ruolo viene assegnato a uno o più gruppi di ruoli per impostazione predefinita. Per altre informazioni, vedere la sezione "Assegnazioni predefinite del ruolo di gestione" più avanti in questo argomento.
 
 Se si desidera visualizzare un elenco di gruppi di ruoli, utenti o gruppi di protezione universale assegnati a questo ruolo, usare il comando seguente.
-
+```powershell
     Get-ManagementRoleAssignment -Role "<role name>"
+```
 
 ## Assegnazioni di ruolo regolare e di delega
 

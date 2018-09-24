@@ -66,8 +66,8 @@ Per verificare la corretta abilitazione o disabilitazione del filtro contenuto, 
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-ContentFilterConfig | Format-List Enabled
-```
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 2.  Verificare il valore della proprietà *Enabled* visualizzata.
 
@@ -94,8 +94,8 @@ Per verificare la corretta abilitazione o disabilitazione del filtro contenuto p
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-ContentFilterConfig | Format-List ExternalMailEnabled
-```
+    Get-ContentFilterConfig | Format-List ExternalMailEnabled
+    ```
 
 2.  Verificare il valore della proprietà *ExternalMailEnabled* visualizzata.
 
@@ -122,17 +122,17 @@ Per verificare la corretta abilitazione o disabilitazione del filtro contenuto p
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-ContentFilterConfig | Format-List InternalMailEnabled
-```
+    Get-ContentFilterConfig | Format-List InternalMailEnabled
+    ```
 
 2.  Verificare il valore della proprietà *InternalMailEnabled* visualizzata.
 
 ## Utilizzare la shell per configurare le eccezioni di mittente e destinatario
 
 Per sostituire i valori esistenti, eseguire questo comando:
-
+```powershell
     Set-ContentFilterConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenders <sender1,sender2...> -BypassedSenderDomains <domain1,domain2...>
-
+```
 Questo esempio consente di configurare le seguenti eccezioni nel filtro contenuto:
 
   - I destinatari laura@contoso.com e julia@contoso.com non sono controllati dal filtro contenuto.
@@ -142,13 +142,13 @@ Questo esempio consente di configurare le seguenti eccezioni nel filtro contenut
   - Tutti i mittenti nel dominio nwtraders.com e in tutti i sottodomini non sono controllati dal filtro contenuto.
 
 <!-- end list -->
-
+```powershell
     Set-ContentFilterConfig -BypassedRecipients laura@contoso.com,julia@contoso.com -BypassedSenders steve@fabrikam.com,cindy@fabrikam.com -BypassedSenderDomains *.nwtraders.com
-
+```
 Per aggiungere o rimuovere le voci senza modificare i valori esistenti, eseguire questo comando:
-
+```powershell
     Set-ContentFilterConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
-
+```
 Questo esempio consente di configurare le seguenti eccezioni nel filtro contenuto:
 
   - Aggiungere tiffany@contoso.com e chris@contoso.com all'elenco dei destinatari esistenti che non vengono controllati dal filtro contenuto.
@@ -160,25 +160,25 @@ Questo esempio consente di configurare le seguenti eccezioni nel filtro contenut
   - Rimuovere il dominio woodgrovebank.com e tutti i sottodomini dall'elenco dei domini esistenti i cui mittenti non sono controllati dal filtro contenuto.
 
 <!-- end list -->
-
+```powershell
     Set-ContentFilterConfig -BypassedRecipients @{Add="tiffany@contoso.com","chris@contoso.com"} -BypassedSenders @{Add="joe@fabrikam.com","michelle@fabrikam.com"} -BypassedSenderDomains @{Add="blueyonderairlines.com"; Remove="*.woodgrovebank.com"}
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta configurazione delle eccezioni relative a destinatari e mittenti, effettuare le seguenti operazioni:
 
 1.  Eseguire il comando indicato di seguito:
-    
+    ```powershell
         Get-ContentFilterConfig | Format-List Bypassed*
-
+    ```
 2.  Verificare che i valori visualizzati corrispondano alle impostazioni specificate.
 
 ## Utilizzare la shell per configurare le frasi consentite e bloccate
 
 Per aggiungere frasi e parole consentite e bloccate, eseguire il seguente comando:
-
+```powershell
     Add-ContentFilterPhrase -Influence GoodWord -Phrase <Phrase> -Influence BadWord -Phrase <Phrase>
-
+```
 In questo esempio vengono autorizzati tutti i messaggi che contengono la frase "feedback dei clienti".
 
 ```powershell
@@ -210,17 +210,17 @@ Per verificare la corretta configurazione delle frasi consentite e bloccate, eff
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-ContentFilterPhrase | Format-List Influence,Phrase
-```
+        Get-ContentFilterPhrase | Format-List Influence,Phrase
+    ```
 
 2.  Verificare che i valori visualizzati corrispondano alle impostazioni specificate.
 
 ## Utilizzare la shell per configurare le soglie SCL
 
 Per configurare le soglie e le azioni del livello di probabilità di posta indesiderata (SCL), eseguire il seguente comando:
-
+```powershell
     Set-ContentFilterConfig -SCLDeleteEnabled <$true | $false> -SCLDeleteThreshold <Value> -SCLRejectEnabled <$true | $false> -SCLRejectThreshold <Value> -SCLQuarantineEnabled <$true | $false> -SCLQuarantineThreshold <Value>
-
+```
 
 > [!NOTE]
 > L'azione di eliminazione ha precedenza sull'azione di rifiuto, che a sua volta ha precedenza sull'azione di quarantena. Quindi, la soglia del livello di probabilità di posta indesiderata per l'azione di eliminazione deve essere maggiore della soglia del livello di probabilità di posta indesiderata per l'azione di rifiuto, che a sua volta deve essere maggiore della soglia del livello di probabilità di posta indesiderata per l'azione di quarantena. Solo l'azione di rifiuto è abilitata per impostazione predefinita e presenta un valore di soglia del livello di probabilità di posta indesiderata pari a 7.
@@ -236,17 +236,17 @@ Questo esempio consente di configurare i seguenti valori per le soglie del livel
   - L'azione di quarantena è abilitata e la corrispondente soglia del livello di probabilità di posta indesiderata è impostata su 7.
 
 <!-- end list -->
-
+```powershell
     Set-ContentFilterConfig -SCLDeleteEnabled $true -SCLDeleteThreshold 9 -SCLRejectEnabled $true -SCLRejectThreshold 8 -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta configurazione delle soglie del livello di probabilità di posta indesiderata, effettuare le seguenti operazioni:
 
 1.  Eseguire il comando indicato di seguito:
-    
+    ```powershell
         Get-ContentFilterConfig | Format-List SCL*
-
+    ```
 2.  Verificare che i valori visualizzati corrispondano alle impostazioni specificate.
 
 ## Utilizzare la shell per configurare la risposta di rifiuto
@@ -260,17 +260,17 @@ Set-ContentFilterConfig -RejectionResponse "<Custom Text>"
 ```
 
 In questo esempio l'agente filtro contenuto viene configurato per inviare una risposta di rifiuto personalizzata.
-
+```powershell
     Set-ContentFilterConfig -RejectionResponse "Your message was rejected because it appears to be SPAM."
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta configurazione della risposta di rifiuto, effettuare le seguenti operazioni:
 
 1.  Eseguire il comando indicato di seguito:
-    
+    ```powershell
         Get-ContentFilterConfig | Format-List *Reject*
-
+    ```
 2.  Verificare che i valori visualizzati corrispondano alle impostazioni specificate.
 
 ## Abilitazione o disabilitazione del timbro posta elettronica Outlook tramite Shell
@@ -296,8 +296,8 @@ Per verificare la corretta configurazione del timbro posta elettronica Outlook, 
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
-```
+    Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
+    ```
 
 2.  Verificare che il valore visualizzato corrisponda all'impostazione specificata.
 

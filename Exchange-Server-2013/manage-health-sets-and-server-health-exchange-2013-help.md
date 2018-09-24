@@ -48,22 +48,22 @@ _**Ultima modifica dell'argomento:** 2013-12-02_
 ## Utilizzare Shell per visualizzare l'integrità dei server
 
 Eseguire uno dei seguenti comandi per visualizzare le informazioni sui set di integrità e sull'integrità in un server che esegue Exchange 2013.
-```
+```powershell
 Get-HealthReport -Identity <ServerName>
 ```
-```
+```powershell
 Get-ServerHealth -Identity <ServerName> | Format-Table Server,CurrentHealthSetState,Name,HealthSetName,AlertValue,HealthGroupName -Auto
 ```
 
 Eseguire uno dei seguenti comandi per visualizzare i set di integrità in un server o gruppo di disponibilità del database che esegue Exchange 2013.
 
-```
+```powershell
 Get-ExchangeServer | Get-HealthReport -RollupGroup
 ```
-```
+```powershell
 Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
 ```
-```
+```powershell
 (Get-DatabaseAvailabiltyGroup <DAGName>).Servers | Get-HealthReport -RollupGroup
 ```
 
@@ -86,8 +86,9 @@ Un set di integrità è un gruppo di strumenti di monitoraggio, probe e rispondi
 ## Utilizzare Shell per visualizzare probe, strumenti di monitoraggio e risponditori per un set di integrità
 
 Eseguire il seguente comando per visualizzare probe, strumenti di monitoraggio e risponditori associati a un set di integrità in un server che esegue Exchange 2013.
-
+```powershell
     Get-MonitoringItemIdentity -Server <ServerName> -Identity <HealthSetName> | Format-Table Identity,ItemType,Name -Auto
+```
 
 ## Visualizzare un elenco di strumenti di monitoraggio e la relativa integrità corrente
 
@@ -96,6 +97,7 @@ L'integrità di uno strumento di monitoraggio viene determinata mediante l'utili
 ## Utilizzare Shell per visualizzare un elenco di strumenti di monitoraggio e la relativa integrità corrente
 
 Eseguire il seguente comando per visualizzare un elenco di strumenti di monitoraggio e la relativa integrità in un server che esegue Exchange 2013.
-
+```powershell
     Get-ServerHealth -HealthSet <HealthSetName> -Server <ServerName> | Format-Table Name, AlertValue -Auto
+```
 

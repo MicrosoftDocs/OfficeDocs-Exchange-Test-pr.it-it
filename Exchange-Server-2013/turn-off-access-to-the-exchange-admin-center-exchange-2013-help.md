@@ -50,8 +50,9 @@ Per motivi di sicurezza, alcune organizzazioni potrebbero voler limitare l'acces
 ## Utilizzo di Shell per la disattivazione dell'accesso tramite Internet all'interfaccia di amministrazione di Exchange
 
 In questo esempio viene disattivato l'accesso a EAC sul server CAS01.
-
+```powershell
     Set-ECPVirtualDirectory -Identity "CAS01\ecp (default web site)" -AdminEnabled $false
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-EcpVirtualDirectory](https://technet.microsoft.com/it-it/library/dd297991\(v=exchg.150\)).
 

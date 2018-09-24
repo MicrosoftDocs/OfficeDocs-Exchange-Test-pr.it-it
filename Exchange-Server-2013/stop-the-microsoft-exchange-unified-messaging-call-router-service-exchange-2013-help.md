@@ -56,6 +56,6 @@ Per le attività di gestione aggiuntive relative ai server Accesso client, veder
 2.  Nella casella **Apri** digitare il seguente comando e premere INVIO.
     
     ```powershell
-net stop MSExchangeUMCR
-```
+    net stop MSExchangeUMCR
+    ```
 

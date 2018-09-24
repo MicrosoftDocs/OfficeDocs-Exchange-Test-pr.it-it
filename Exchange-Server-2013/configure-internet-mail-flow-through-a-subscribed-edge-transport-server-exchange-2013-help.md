@@ -46,25 +46,25 @@ Se non si desidera la sottoscrizione del server Trasporto Edge a un sito di Acti
 ## Configurazione del flusso della posta Internet tramite un server Trasporto Edge sottoscritto
 
 1.  Nel server Trasporto Edge, creare il file di sottoscrizione a Edge utilizzando la sintassi seguente.
-    
+    ```powershell
         New-EdgeSubscription -FileName <FileName>.xml [-Force]
-    
+    ```
     Nell'esempio riportato di seguito, viene creato un fil di sottoscrizione a Edge denominato EdgeSubscriptionInfo.xml e che si trova nella cartella C:\\Documenti. Il parametro *Force* annulla i comandi di conferma del prompt che verranno disabilitati e avvisa sulla sovrascrittura dei dati di configurazione sul server Trasporto Edge.
     
     ```powershell
-New-EdgeSubscription -FileName "C:\My Documents\EdgeSubscriptionInfo.xml" -Force
-```
+    New-EdgeSubscription -FileName "C:\My Documents\EdgeSubscriptionInfo.xml" -Force
+    ```
 
 2.  Copiare il file di sottoscrizione a Edge creato in un server di cassetta postale del sito Active Directory al quale si sta sottoscrivendo il server Trasporto Edge.
 
 3.  Sul server di cassetta postale, utilizzare la seguente sintassi per importare il file di sottoscrizione a Edge.
-    
+    ```powershell
         New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "<FileName>.xml" -Encoding Byte -ReadCount 0)) -Site <SiteName>
-    
+    ```
     In questo esempio viene importato il file di sottoscrizione a Edge denominato EdgeSubscriptionInfo.xml dalla cartella D:\\Dati e viene sottoscritto il server Trasporto Edge nel sito Active Directory denominato "Default-First-Site-Name".
-    
+    ```powershell
         New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "D:\Data\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -Site "Default-First-Site-Name"
-    
+    ```
 
     > [!NOTE]
     > È possibile utilizzare il parametro <EM>CreateInternetSendConnector</EM> o <EM>CreateInboundSendConnector</EM> per impedire la creazione automatica di uno o di entrambi i connettori di invio necessari. Per ulteriori informazioni, vedere <A href="edge-subscriptions-exchange-2013-help.md">Sottoscrizioni Edge</A>.
@@ -74,8 +74,8 @@ New-EdgeSubscription -FileName "C:\My Documents\EdgeSubscriptionInfo.xml" -Force
 4.  Sul server di cassetta postale, eseguire il seguente comando per avviare la prima sincronizzazione di EdgeSync.
     
     ```powershell
-Start-EdgeSynchronization
-```
+    Start-EdgeSynchronization
+    ```
 
 5.  Al termine dell'operazione, si consiglia di eliminare il file di sottoscrizione a Edge sia del server Trasporto Edge che da quello di cassetta postale. Tale file comprende informazioni relative alle credenziali utilizzate per il processo di comunicazione LDAP.
 

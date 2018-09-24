@@ -116,9 +116,9 @@ Il servizio EdgeSync di Microsoft Exchange in esecuzione nei server Cassette pos
 Per ulteriori informazioni sugli account ESRA e su come utilizzarli per rendere più sicuro il processo di sincronizzazione EdgeSync, vedere [Credenziali della sottoscrizione Edge](edge-subscription-credentials-exchange-2013-help.md).
 
 In questo esempio, viene sottoscritto un server Trasporto Edge al sito specificato e viene creato il connettore di invio Internet e il connettore di invio dal server Trasporto Edge ai server Cassette postali.
-
+```powershell
     New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -CreateInternetSendConnector $true -CreateInboundSendConnector $true -Site "Default-First-Site-Name" 
-
+```
 
 > [!NOTE]
 > Se i valori predefiniti dei parametri <EM>CreateInternetSendConnector</EM> e <EM>CreateInboundSendConnector</EM> sono entrambi <CODE>$true</CODE>. Sono riportati solamente a scopo dimostrativo.

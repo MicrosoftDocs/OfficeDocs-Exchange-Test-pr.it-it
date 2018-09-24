@@ -91,16 +91,16 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Update-Mailbo
 Se è presente solo una copia del database delle cassette postali, è necessario effettuare il reseeding manuale del catalogo di ricerca tramite la ricreazione del catalogo di indicizzazione del contenuto.
 
 1.  Eseguire i seguenti comandi per arrestare i servizi Microsoft Exchange Search e Microsoft Exchange Search Host Controller.
-    ```
+   
 ```powershell
 Stop-Service MSExchangeFastSearch
 ```
-    ```
-    ```
+   
+   
 ```powershell
 Stop-Service HostControllerService
 ```
-    ```
+   
 
 2.  Eliminare, spostare o rinominare la cartella che contiene il catalogo di indicizzazione del contenuto di Exchange. La cartella è denominata `%ExchangeInstallPath\Mailbox\<name of mailbox database>_Catalog\<GUID>12.1.Single`. Ad esempio, è possibile rinominare la cartella `C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\Mailbox Database 0657134726_Catalog\F0627A72-9F1D-494A-839A-D7C915C279DB12.1.Single_OLD`.
     
@@ -111,23 +111,23 @@ Stop-Service HostControllerService
 
 
 3.  Eseguire i seguenti comandi per riavviare i servizi Microsoft Exchange Search e Microsoft Exchange Search Host Controller.
-    ```
+    
 ```powershell
 Start-Service MSExchangeFastSearch
 ```
-    ```
-    ```
+    
 ```powershell
 Start-Service HostControllerService
 ```
-    ```
+  ```powershell 
     Dopo il riavvio di questi servizi, Exchange Search eseguirà la ricostruzione del catalogo di indicizzazione del contenuto.
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Potrebbe richiedere del tempo ad Exchange Search per effettuare il reseeding del catalogo di indicizzazione del contenuto. Eseguire questo comando per visualizzare lo stato del processo di reseeding.
-
+```powershell
     Get-MailboxDatabaseCopyStatus | FL Name,*Index*
-
+```
 Quando il reseeding del catalogo di ricerca è in corso, il valore della proprietà *ContentIndexState* è **Ricerca per indicizzazione in corso**. Quando il reseeding è completo, questo valore viene modificato in **Integro**.
 

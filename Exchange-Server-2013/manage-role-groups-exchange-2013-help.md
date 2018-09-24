@@ -98,18 +98,18 @@ Se si dispone di un gruppo di ruoli contenente le autorizzazioni che si desidera
 1.  Archiviare il gruppo di ruoli che si desidera copiare in una variabile utilizzando la sintassi seguente.
     
     ```powershell
-$RoleGroup = Get-RoleGroup <name of role group to copy>
-```
+        $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```
 
 2.  Utilizzare la seguente sintassi per creare il nuovo gruppo di ruoli, aggiungere membri al gruppo di ruoli e specificare gli utenti che possono delegare il gruppo di ruoli ad altri utenti.
-    
+    ```powershell
         New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -Members <member1, member2, member3...> -ManagedBy <user1, user2, user3...>
-
+    ```
 Ad esempio, i seguenti comandi copiano il gruppo di ruoli Gestione organizzazione e denominano il nuovo gruppo di ruoli "Gestione organizzazione limitata". Vengono aggiunti i membri Isabelle, Carter e Lukas che possono essere delegati da Jenny e Katie.
-
+```powershell
     $RoleGroup = Get-RoleGroup "Organization Management"
     New-RoleGroup "Limited Organization Management" -Roles $RoleGroup.Roles -Members Isabelle, Carter, Lukas -ManagedBy Jenny, Katie
-
+```
 Una volta creato il nuovo gruppo di ruoli, è possibile aggiungere o rimuovere ruoli, modificare l'ambito delle assegnazioni dei ruoli per il ruolo e altro ancora.
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-RoleGroup](https://technet.microsoft.com/it-it/library/dd638115\(v=exchg.150\)) e [New-RoleGroup](https://technet.microsoft.com/it-it/library/dd638181\(v=exchg.150\)).
@@ -119,18 +119,18 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-RoleGro
 1.  Archiviare il gruppo di ruoli che si desidera copiare in una variabile utilizzando la sintassi seguente.
     
     ```powershell
-$RoleGroup = Get-RoleGroup <name of role group to copy>
-```
+    $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```
 
 2.  Creare il nuovo gruppo di ruoli con un ambito personalizzato utilizzando la sintassi seguente.
-    
+    ```powershell
         New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuraiton scope name>
-
+    ```
 Ad esempio, i seguenti comandi copiano il gruppo di ruoli Gestione organizzazione e creano un nuovo gruppo di ruoli denominato Gestione organizzazione di Vancouver con l'ambito del destinatario Utenti di Vancouver e l'ambito di configurazione Server di Vancouver.
-
+```powershell
     $RoleGroup = Get-RoleGroup "Organization Management"
     New-RoleGroup "Vancouver Organization Management" -Roles $RoleGroup.Roles -CustomRecipientWriteScope "Vancouver Users" -CustomConfigWriteScope "Vancouver Servers"
-
+```
 È possibile anche aggiungere membri al gruppo di ruoli quando ne viene creato uno utilizzando il parametro *Members* come illustrato nella sezione Copia di un gruppo di ruoli senza ambito tramite Shell descritta in precedenza in questo argomento. Per ulteriori informazioni sugli ambiti di gestione, vedere [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md).
 
 Una volta creato il nuovo gruppo di ruoli, è possibile aggiungere o rimuovere ruoli, modificare l'ambito delle assegnazioni dei ruoli per il ruolo ed eseguire altre attività.
@@ -142,18 +142,18 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-RoleGro
 1.  Archiviare il gruppo di ruoli che si desidera copiare in una variabile utilizzando la sintassi seguente.
     
     ```powershell
-$RoleGroup = Get-RoleGroup <name of role group to copy>
-```
+    $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```
 
 2.  Creare il nuovo gruppo di ruoli con un ambito personalizzato utilizzando la sintassi seguente.
-    
+    ```powershell
         New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -RecipientOrganizationalUnitScope <OU name>
-
+    ```
 Ad esempio, i seguenti comandi copiano il gruppo di ruoli Gestione destinatari e creare un nuovo gruppo di ruoli denominato Gestione organizzazione di Toronto che consente di gestire solo gli utenti nell'unità organizzativa Utenti di Toronto.
-
+```powershell
     $RoleGroup = Get-RoleGroup "Recipient Management"
     New-RoleGroup "Toronto Recipient Management" -Roles $RoleGroup.Roles -RecipientOrganizationalUnitScope "contoso.com/Toronto Users"
-
+```
 È possibile anche aggiungere membri al gruppo di ruoli quando ne viene creato uno utilizzando il parametro *Members* come illustrato nella sezione Copia di un gruppo di ruoli senza ambito tramite Shell descritta in precedenza in questo argomento. Per ulteriori informazioni sugli ambiti di gestione, vedere [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md).
 
 Una volta creato il nuovo gruppo di ruoli, è possibile aggiungere o rimuovere ruoli, modificare l'ambito delle assegnazioni dei ruoli per il ruolo e altro ancora.
@@ -245,13 +245,13 @@ Se un ambito predefinito consente di soddisfare i requisiti aziendali, è possib
 Per ulteriori informazioni sulle assegnazioni di ruolo, vedere [Informazioni sulle assegnazioni dei ruoli di gestione](understanding-management-role-assignments-exchange-2013-help.md).
 
 Utilizzare la seguente sintassi per assegnare un ruolo a un gruppo di ruolo con un ambito predefinito. Se non si specifica un nome per l'assegnazione di ruolo, ne verrà creato uno automaticamente.
-
+```powershell
     New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -RecipientRelativeWriteScope < MyGAL | MyDistributionGroups | Organization | Self >
-
+```
 Con questo esempio viene assegnato il ruolo Message Tracking al gruppo di ruolo Enterprise Support e viene applicato l'ambito predefinito Organization.
-
+```powershell
     New-ManagementRoleAssignment -SecurityGroup "Enterprise Support" -Role "Message Tracking" -RecipientRelativeWriteScope Organization
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
 ## Creazione di un'assegnazione di ruolo con un ambito basato su un filtro destinatari tramite Shell
@@ -267,13 +267,13 @@ Per ulteriori informazioni sulle assegnazioni dei ruoli e sugli ambiti, vedere i
   - [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md)
 
 Utilizzare la seguente sintassi per assegnare un ruolo a un gruppo di ruolo con un ambito basato su un filtro destinatari. Se non si specifica un nome per l'assegnazione di ruolo, ne verrà creato uno automaticamente.
-
+```powershell
     New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomRecipientWriteScope <role scope name>
-
+```
 Con questo esempio viene assegnato il ruolo Message Tracking al gruppo di ruolo Seattle Recipient Admins e viene applicato l'ambito Seattle Recipients.
-
+```powershell
     New-ManagementRoleAssignment -SecurityGroup "Seattle Recipient Admins" -Role "Message Tracking" -CustomRecipientWriteScope "Seattle Recipients"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
 ## Creazione di un'assegnazione di ruolo con un ambito di configurazione tramite Shell
@@ -289,13 +289,13 @@ Per ulteriori informazioni sulle assegnazioni dei ruoli e sugli ambiti di gestio
   - [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md)
 
 Per assegnare un ruolo a un gruppo di ruoli con un ambito di configurazione, utilizzare la sintassi seguente. Se non si specifica un nome per l'assegnazione di ruolo, ne verrà creato uno automaticamente.
-
+```powershell
     New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomConfigWriteScope <role scope name>
-
+```
 Con questo esempio viene assegnato il ruolo Databases al gruppo di ruolo Seattle Server Admins e viene applicato l'ambito Seattle Servers.
-
+```powershell
     New-ManagementRoleAssignment -SecurityGroup "Seattle Server Admins" -Role "Databases" -CustomConfigWriteScope "Seattle Servers"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
 ## Creazione di un'assegnazione di ruolo con un ambito OU tramite Shell
@@ -309,13 +309,13 @@ Per ulteriori informazioni sulle assegnazioni dei ruoli e sugli ambiti di gestio
   - [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md)
 
 Utilizzare il seguente comando per assegnare un ruolo a un gruppo di ruolo e limitare l'ambito di scrittura del ruolo a un'unità organizzativa specifica. Se non si specifica un nome per l'assegnazione di ruolo, ne verrà creato uno automaticamente.
-
+```powershell
     New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -RecipientOrganizationalUnitScope <OU>
-
+```
 Con questo esempio viene assegnato il ruolo Mail Recipients al gruppo di ruolo Seattle Recipient Admins e viene applicato l'ambito all'assegnazione Sales\\Users OU nel dominio Contoso.com.
-
+```powershell
     New-ManagementRoleAssignment -SecurityGroup "Seattle Recipient Admins" -Role "Mail Recipients" -RecipientOrganizationalUnitScope contoso.com/sales/users
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo
@@ -361,13 +361,13 @@ Per ulteriori informazioni sulle assegnazioni del ruolo di delega, vedere [Infor
 Questa procedura utilizza il pipelining. Per ulteriori informazioni sull'esecuzione del piping, vedere [Pipelining](https://technet.microsoft.com/it-it/library/aa998260\(v=exchg.150\)).
 
 Per rimuovere un ruolo da un gruppo di ruoli, utilizzare la seguente sintassi.
-
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <role group name> -Role <role name> -Delegating <$true | $false> | Remove-ManagementRoleAssignment
-
+```
 In questo esempio viene rimosso il ruolo Distribution Groups, che consente agli amministratori di gestire i gruppi di distribuzione, dal gruppo di ruoli Seattle Recipient Administrators. Dal momento che si desidera rimuovere l'assegnazione del ruolo che concede le autorizzazioni necessarie per la gestione dei gruppi di distribuzione, il parametro *Delegating* è impostato su `$False`, in modo da restituire solo le assegnazioni dei ruoli regolari.
-
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee "Seattle Recipient Administrators" -Role "Distribution Groups" -Delegating $false | Remove-ManagementRoleAssignment
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351205\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo
@@ -427,13 +427,13 @@ Questa procedura utilizza i concetti di pipeline e l'opzione *WhatIf*. Per ulter
   - [Opzioni WhatIf, Confirm e ValidateOnly](whatif-confirm-and-validateonly-switches-exchange-2013-help.md)
 
 Per configurare contemporaneamente l'ambito su tutte le assegnazioni di ruolo su un gruppo di ruoli, utilizzare la sintassi seguente.
-
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <name of role group> | Set-ManagementRoleAssignment -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuration scope name> -RecipientRelativeScopeWriteScope < MyDistributionGroups | Organization | Self> -ExclusiveRecipientWriteScope <exclusive recipient scope name> -ExclusiveConfigWriteScope <exclusive configuration scope name> -RecipientOrganizationalUnitScope <organizational unit>
-
+```
 Utilizzare solo i parametri necessari per la configurazione dell'ambito desiderato. Ad esempio, se si desidera modificare l'ambito destinatari per tutte le assegnazioni di ruolo sul gruppo di ruoli Sales Recipient Management in Direct Sales Employees, utilizzare il comando seguente.
-
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee "Sales Recipient Management" | Set-ManagementRoleAssignment -CustomRecipientWriteScope "Direct Sales Employees"
-
+```
 
 > [!NOTE]
 > È possibile utilizzare l'opzione <EM>WhatIf</EM> per verificare di aver modificato solo le assegnazioni di ruolo desiderate. Eseguire il comando precedente con l'opzione <EM>WhatIf</EM> per verificare i risultati, quindi rimuovere l'opzione <EM>WhatIf</EM> per applicare le modifiche.
@@ -461,19 +461,19 @@ Per modificare l'ambito su un'assegnazione di ruolo tra un gruppo di ruoli e un 
 1.  Per individuare i nomi di tutte le assegnazioni di ruolo su un gruppo di ruoli, utilizzare il comando seguente. Eseguendo il pipelining delle assegnazioni del ruolo di gestione al cmdlet **Format-List**, è possibile visualizzare il nome completo dell'assegnazione.
     
     ```powershell
-Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-List Name
-```
+    Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-List Name
+    ```
 
 2.  Trovare il nome dell'assegnazione di ruolo che si desidera modificare. Utilizzare il nome dell'assegnazione di ruolo nel passo successivo.
 
 3.  Per configurare l'ambito su una singola assegnazione, utilizzare la sintassi seguente.
-    
+    ```powershell
         Set-ManagementRoleAssignment <role assignment name> -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuration scope name> -RecipientRelativeScopeWriteScope < MyDistributionGroups | Organization | Self> -ExclusiveRecipientWriteScope <exclusive recipient scope name> -ExclusiveConfigWriteScope <exclusive configuration scope name> -RecipientOrganizationalUnitScope <organizational unit>
-
+    ```
 Utilizzare solo i parametri necessari per la configurazione dell'ambito desiderato. Ad esempio, se si desidera modificare l'ambito destinatari per l'assegnazione di ruolo Mail Recipients\_Sales Recipient Management in All Sales Employees, utilizzare il comando seguente.
-
+```powershell
     Set-ManagementRoleAssignment "Mail Recipients_Sales Recipient Management" -CustomRecipientWriteScope "All Sales Employees"
-
+```
 Per ulteriori informazioni sulla modifica delle assegnazioni del ruolo di gestione, vedere [Modificare un'assegnazione di ruolo](change-a-role-assignment-exchange-2013-help.md).
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335173\(v=exchg.150\)).
@@ -491,9 +491,9 @@ Per verificare la corretta modifica dell'ambito di un'assegnazione di ruolo in u
   - Se è stata utilizzata Shell per configurare l'ambito nel gruppo di ruoli, procedere come segue:
     
     1.  Eseguire il seguente comando in Shell.
-        
+        ```powershell
             Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-Table *WriteScope
-    
+        ```
     2.  Verificare che l'ambito di scrittura nelle assegnazioni di ruolo sia stato cambiato nell'ambito specificato.
 
 ## Aggiungere o rimuovere un delegato del gruppo di ruoli
@@ -519,13 +519,13 @@ Per modificare l'elenco dei delegati su un gruppo di ruoli, utilizzare il parame
 1.  Archiviare il gruppo di ruoli in una variabile utilizzando il comando seguente.
     
     ```powershell
-$RoleGroup = Get-RoleGroup <role group name>
-```
+    $RoleGroup = Get-RoleGroup <role group name>
+    ```
 
 2.  Aggiungere il delegato al gruppo di ruolo memorizzato nella variabile utilizzando il seguente comando.
-    
+    ```powershell
         $RoleGroup.ManagedBy += (Get-User <user to add>).Identity
-    
+    ```
 
     > [!NOTE]
     > Utilizzare il cmdlet di <STRONG>Get-Group</STRONG> se si desidera aggiungere un gruppo di protezione universale.
@@ -537,15 +537,15 @@ $RoleGroup = Get-RoleGroup <role group name>
 4.  Applicare il nuovo elenco di delegati al gruppo di ruoli attuale utilizzando il comando seguente.
     
     ```powershell
-Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
-```
+    Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```
 
 In questo esempio viene aggiunto l'utente David Strome come delegato al gruppo di ruolo Gestione organizzazione.
-
+```powershell
     $RoleGroup = Get-RoleGroup "Organization Management"
     $RoleGroup.ManagedBy += (Get-User "David Strome").Identity
     Set-RoleGroup "Organization Management" -ManagedBy $RoleGroup.ManagedBy
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-RoleGroup](https://technet.microsoft.com/it-it/library/dd638182\(v=exchg.150\)).
 
 ## Utilizzo di Shell per rimuovere un delegato da un gruppo di ruolo
@@ -555,13 +555,13 @@ Per modificare l'elenco dei delegati su un gruppo di ruoli, utilizzare il parame
 1.  Archiviare il gruppo di ruoli in una variabile utilizzando il comando seguente.
     
     ```powershell
-$RoleGroup = Get-RoleGroup <role group name>
-```
+    $RoleGroup = Get-RoleGroup <role group name>
+    ```
 
 2.  Rimuovere il delegato dal gruppo di ruolo memorizzato nella variabile utilizzando il seguente comando.
-    
+    ```powershell
         $RoleGroup.ManagedBy -= (Get-User <user to remove>).Identity
-    
+    ```
 
     > [!NOTE]
     > Utilizzare il cmdlet di <STRONG>Get-Group</STRONG> se si desidera rimuovere un gruppo di protezione universale.
@@ -573,15 +573,15 @@ $RoleGroup = Get-RoleGroup <role group name>
 4.  Applicare il nuovo elenco di delegati al gruppo di ruoli attuale utilizzando il comando seguente.
     
     ```powershell
-Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
-```
+    Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```
 
 In questo esempio viene rimosso l'utente David Strome come delegato al gruppo di ruolo Gestione organizzazione.
-
+```powershell
     $RoleGroup = Get-RoleGroup "Organization Management"
     $RoleGroup.ManagedBy -= (Get-User "David Strome").Identity
     Set-RoleGroup "Organization Management" -ManagedBy $RoleGroup.ManagedBy
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-RoleGroup](https://technet.microsoft.com/it-it/library/dd638182\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo
@@ -591,8 +591,8 @@ Per verificare la corretta modifica dell'elenco dei delegati in un gruppo di ruo
 1.  In Shell, utilizzare il seguente comando.
     
     ```powershell
-Get-RoleGroup <role group name> | Format-List ManagedBy
-```
+    Get-RoleGroup <role group name> | Format-List ManagedBy
+    ```
 
 2.  Verificare che i delegati elencati nella proprietà *ManagedBy* includano solo i delegati che dovrebbero essere in grado di gestire il gruppo di ruoli.
 

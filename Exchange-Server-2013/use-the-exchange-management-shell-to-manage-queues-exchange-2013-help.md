@@ -516,12 +516,12 @@ Quando si crea una coda o un'espressione del filtro messaggi utilizzando il para
 È possibile specificare un filtro che valuti più espressioni utilizzando l'operatore di confronto **-and**. Per essere inclusi nei risultati, è necessario che le code e i messaggi soddisfino tutte le condizioni del filtro.
 
 In questo esempio viene visualizzato un elenco di code con destinazioni all'interno di un qualsiasi nome di dominio SMTP che termina con Contoso.com e che contiene più di 500 messaggi.
-
+```powershell
     Get-Queue -Filter {Identity -like "*contoso.com*" -and MessageCount -gt 500}
-
-In questo esempio viene visualizzato un elenco di messaggi inviati da un qualsiasi indirizzo di posta elettronica del dominio contoso.com il cui valore SCL è maggiore di 5.
-
+```
+In questo esempio viene visualizzato un elenco di messaggi inviati da un qualsiasi indirizzo di posta elettronica del dominio contoso.com il cui valore SCL è maggiore di 5. ```powershell
     Get-Message -Filter {FromAddress -like "*Contoso.com*" -and SCL -gt 5}
+    ```
 
 Inizio pagina
 
@@ -595,16 +595,16 @@ Per visualizzare le pagine successive, è possibile impostare un segnalibro per 
 Nell'esempio riportato di seguito viene utilizzato lo scripting per recuperare la prima pagina di risultati, impostare l'oggetto segnalibro, escludere l'oggetto segnalibro dall'insieme di risultati e recuperare i 500 oggetti successivi sul server specificato.
 
 1.  Aprire Shell e digitare il seguente comando per recuperare la prima pagina di risultati:
-    
+    ```powershell
         $Results=Get-message -Server mailbox01.contoso.com -ResultSize 500 -SortOrder +FromAddress,-Size
-
+    ```
 2.  Per impostare l'oggetto segnalibro, digitare il seguente comando per salvare l'ultimo elemento della prima pagina in una variabile:
-    
+    ```powershell
         $temp=$results[$results.length-1]
-
+    ```
 3.  Per recuperare i 500 oggetti successivi sul server specificato e per escludere l'oggetto segnalibro, digitare il seguente comando:
-    
+    ```powershell
         Get-message -Server mailbox01.contoso.com -BookmarkObject:$temp -IncludeBookmark $False -ResultSize 500 -SortOrder +FromAddress,-Size
-
+    ```
 Inizio pagina
 

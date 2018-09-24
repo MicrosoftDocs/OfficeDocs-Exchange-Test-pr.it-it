@@ -84,14 +84,14 @@ Per altre attività di gestione relative alla federazione, vedere [Procedure di 
 1.  In questo esempio, viene rimosso il dominio service.contoso.com dalla relazione di trust federativa.
     
     ```powershell
-Remove-FederatedDomain -DomainName service.contoso.com
-```
+    Remove-FederatedDomain -DomainName service.contoso.com
+    ```
 
 2.  In questo esempio, viene aggiunto il dominio marketing.contoso.com alla relazione di trust federativa esistente.
     
     ```powershell
-Add-FederatedDomain -DomainName marketing.contoso.com
-```
+    Add-FederatedDomain -DomainName marketing.contoso.com
+    ```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-FederatedDomain](https://technet.microsoft.com/it-it/library/dd298128\(v=exchg.150\)) e [Add-FederatedDomain](https://technet.microsoft.com/it-it/library/dd351208\(v=exchg.150\)).
 
@@ -102,38 +102,38 @@ Eseguire i seguenti comandi Shell per gestire altri aspetti di una relazione di 
     In questo esempio, vengono visualizzati l'OrgID federato di un'organizzazione di Exchange e le relative informazioni, inclusi lo stato e i domini federati.
     
     ```powershell
-Get-FederatedOrganizationIdentifier
-```
+    Get-FederatedOrganizationIdentifier
+    ```
 
 2.  **Visualizzazione dei certificati della relazione di trust federativa**
     
     In questo esempio vengono visualizzati i certificati precedente, corrente e successivo utilizzati dalla relazione di trust federativa "autenticazione Azure AD".
-    
+    ```powershell
         Get-FederationTrust "Azure AD authentication" | Select Org*certificate
-
+    ```
 3.  **Controllo dello stato dei certificati federativi**
     
     In questo esempio, viene visualizzato lo stato dei certificati federativi su tutti i server Cassette postali e Accesso client dell'organizzazione.
     
     ```powershell
-Test-FederationTrustCertificate
-```
+    Test-FederationTrustCertificate
+    ```
 
 4.  **Configurazione della relazione di trust federativa per utilizzare un certificato come certificato successivo**
     
     In questo esempio viene configurata la relazione di trust federativa "autenticazione Azure AD" per utilizzare il certificato con l'identificazione personale fornita come certificato successivo. Una volta distribuito il certificato in tutti i server di Exchange all'interno dell'organizzazione, è possibile utilizzare l'opzione *PublishCertificate* per configurare la relazione di trust federativa che consente di utilizzare questo certificato come certificato corrente.
     
     ```powershell
-Set-FederationTrust "Azure AD authentication" -Thumbprint AC00F35CBA8359953F4126E0984B5CCAFA2F4F17
-```
+    Set-FederationTrust "Azure AD authentication" -Thumbprint AC00F35CBA8359953F4126E0984B5CCAFA2F4F17
+    ```
 
 5.  **Configurazione della relazione di trust federativa per utilizzare il certificato successivo come certificato corrente**
     
     In questo esempio consente di configurare l'autenticazione di protezione Azure Active Directory federation per utilizzare il certificato successivo come certificato corrente e pubblicarlo nel sistema di autenticazione Azure AD.
     
     ```powershell
-Set-FederationTrust "Azure AD authentication" -PublishFederationCertificate
-```
+    Set-FederationTrust "Azure AD authentication" -PublishFederationCertificate
+    ```
     
 
     > [!WARNING]
@@ -146,8 +146,8 @@ Set-FederationTrust "Azure AD authentication" -PublishFederationCertificate
     Questo esempio vengono aggiornati i metadati di federazione e il certificato del sistema di autenticazione Azure AD per l'autenticazione di Azure Active Directory federation trust.
     
     ```powershell
-Set-FederationTrust "Azure AD authentication" -RefreshMetadata
-```
+    Set-FederationTrust "Azure AD authentication" -RefreshMetadata
+    ```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere:
 
@@ -168,14 +168,14 @@ Per un ulteriore verifica, effettuare le seguenti operazioni:
 1.  Eseguire questo comando Shell per verificare le informazioni di attendibilità del trust federativo.
     
     ```powershell
-Get-FederationTrust | format-list
-```
+    Get-FederationTrust | format-list
+    ```
 
 2.  Eseguire questo comando Shell per verificare che le informazioni sulla Federazione possano essere recuperate dalla propria organizzazione. Ad esempio, verificare che i domini sales.contoso.com e marketing.contoso.com vengano restituiti nel parametro *DomainNames*.
     
     ```powershell
-Get-FederationInformation -DomainName <your primary sharing domain>
-```
+    Get-FederationInformation -DomainName <your primary sharing domain>
+    ```
 
 
 > [!TIP]

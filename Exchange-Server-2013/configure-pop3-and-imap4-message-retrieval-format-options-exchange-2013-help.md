@@ -70,9 +70,9 @@ Dopo avere impostato le impostazioni del formato di recupero dei messaggi per PO
 ## Impostazione del formato di recupero messaggi POP3 al livello di server tramite Shell
 
 In questo esempio viene impostata l'opzione formato recupero messaggi solo di testo per tutti gli utenti POP3 sul server CAS01.
-
+```powershell
     Set-PopSettings -Identity CAS01 -MessageRetrievalMimeFormat TextOnly
-
+```
 È possibile scegliere una delle seguenti impostazioni. È possibile specificare il valore per il parametro *MessageRetrievalMimeFormat* utilizzando un valore numerico o una stringa di testo.
 
 
@@ -127,9 +127,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-PopSettin
 Effettuare le seguenti operazioni per verificare di aver impostato correttamente le impostazioni di recupero messaggi POP3 su un server.
 
 1.  Eseguire il seguente comando in Shell.
-    
+    ```powershell
         Get-PopSettings | format-list
-
+    ```
 2.  Verificare che l'impostazione *MessageRetrievalMimeFormat* sia corretta.
 
 ## Impostazione del formato di recupero messaggi IMAP4 al livello di server
@@ -165,9 +165,9 @@ Dopo avere impostato le impostazioni del formato di recupero dei messaggi per IM
 ## Impostazione del formato di recupero messaggi IMAP4 al livello di server tramite Shell
 
 In questo esempio viene impostata l'opzione formato recupero messaggi solo di testo per tutti gli utenti IMAP4 sul server CAS01.
-
+```powershell
     Set-ImapSettings -Identity CAS01 -MessageRetrievalMimeFormat TextOnly
-
+```
 È possibile scegliere una delle seguenti impostazioni. È possibile specificare il valore per il parametro *MessageRetrievalMimeFormat* utilizzando un valore numerico o una stringa di testo.
 
 
@@ -222,9 +222,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-ImapSetti
 Effettuare le seguenti operazioni per verificare di aver impostato correttamente le impostazioni di recupero messaggi IMAP4 su un server.
 
 1.  Eseguire il seguente comando in Shell.
-    
+    ```powershell
         Get-ImapSettings | format-list
-
+    ```
 2.  Verificare che l'impostazione *MessageRetrievalMimeFormat* sia corretta.
 
 ## Impostazione del formato di recupero messaggi POP3 per un utente
@@ -232,9 +232,9 @@ Effettuare le seguenti operazioni per verificare di aver impostato correttamente
 ## Impostazione del formato di recupero di messaggi POP3 per un utente tramite Shell
 
 In questo esempio viene impostato il formato di recupero dei messaggi solo di testo per l'accesso POP3 per `USER01`.
-
+```powershell
     Set-CASMailbox -Identity USER01 -PopMessagesRetrievalMimeFormat TextOnly
-
+```
 È possibile scegliere una delle seguenti impostazioni. È possibile specificare il valore per il parametro *PopMessagesRetrievalMimeFormat* utilizzando un valore numerico o una stringa di testo.
 
 
@@ -289,9 +289,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-CASMailbo
 Effettuare le seguenti operazioni per verificare di aver impostato correttamente le opzioni di formato recupero messaggi POP3 per un utente.
 
 1.  Eseguire il seguente comando in Shell.
-    
+    ```powershell
         Get-CAS Mailbox <identity> | format-list
-
+    ```
 2.  Verificare che il valore per *PopMessagesRetrievalMimeFormat* sia corretto.
 
 ## Impostazione del formato di recupero messaggi IMAP4 per un utente
@@ -299,9 +299,9 @@ Effettuare le seguenti operazioni per verificare di aver impostato correttamente
 ## Impostazione del formato di recupero di messaggi IMAP4 per un utente tramite Shell
 
 In questo esempio viene impostato il formato di recupero dei messaggi solo di testo per l'accesso IMAP4 per `USER01`.
-
+```powershell
     Set-CASMailbox -Identity USER01 -ImapMessagesRetrievalMimeFormat TextOnly
-
+```
 È possibile specificare il valore per il parametro *ImapMessagesRetrievalMimeFormat* utilizzando un valore numerico o una stringa di testo.
 
 
@@ -356,9 +356,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-CASMailbo
 Effettuare le seguenti operazioni per verificare di aver impostato correttamente le opzioni di formato recupero messaggi IMAP4 per un utente.
 
 1.  Eseguire il seguente comando in Shell.
-    
+    ```powershell
         Get-CAS Mailbox <identity> | format-list
-
+    ```
 2.  Verificare che il valore per *ImapMessagesRetrievalMimeFormat* sia corretto.
 
 ## Ulteriori informazioni

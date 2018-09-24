@@ -46,9 +46,9 @@ La registrazione controlli dell'amministratore in Microsoft Exchange Server 2013
 ## Scelta dei cmdlet da sottoporre a controllo
 
 Per impostazione predefinita, la registrazione controlli crea una voce di registro per ogni cmdlet eseguito. Se si abilita la registrazione controlli per la prima volta e si desidera che questa operazione venga eseguita, non è necessario modificare l'elenco di controllo dei cmdlet. Se sono stati specificati dei cmdlet ma si desidera controllare tutti i cmdlet, è possibile eseguire l'operazione specificando il carattere jolly asterisco (\*) con il parametro *AdminAuditLogCmdlets* del cmdlet **Set-AdminAuditLogConfig**, come mostrato nel comando seguente.
-
+```powershell
     Set-AdminAuditLogConfig -AdminAuditLogCmdlets *
-
+```
 È possibile specificare quali cmdlet controllare fornendo un elenco di cmdlet utilizzando il parametro *AdminAuditLogCmdlets*. Quando viene fornito l'elenco dei cmdlet da controllare, è possibile specificare singoli cmdlet, cmdlet con caratteri jolly asterisco (\*) o entrambi. Ogni voce dell'elenco viene separata da una virgola. Sono validi i seguenti valori:
 
   - `New-Mailbox`
@@ -60,16 +60,18 @@ Per impostazione predefinita, la registrazione controlli crea una voce di regist
   - `Set-Transport*`
 
 In questo esempio vengono controllati i cmdlet specificati nell'elenco precedente.
-
+```powershell
     Set-AdminAuditLogConfig -AdminAuditLogCmdlets New-Mailbox, *TransportRule, *Management*, Set-Transport*
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-AdminAuditLogConfig](https://technet.microsoft.com/it-it/library/dd298169\(v=exchg.150\)).
 
 ## Scelta dei parametri da sottoporre a controllo
 
 Per impostazione predefinita, la registrazione di controllo crea una voce di registro per ogni cmdlet eseguito, indipendentemente dai parametri specificati. Se si abilita la registrazione controlli per la prima volta e si desidera che questa operazione venga eseguita, non è necessario modificare l'elenco di controllo dei parametri. Se in precedenza sono stati specificati dei parametri ma ora si desidera controllare tutti i parametri, è possibile eseguire l'operazione specificando il carattere jolly asterisco (\*) con il parametro *AdminAuditLogParameters* del cmdlet **Set-AdminAuditLogConfig**, come mostrato nel comando seguente.
-
+```powershell
     Set-AdminAuditLogConfig -AdminAuditLogParameters *
+```
 
 È possibile specificare i parametri che si desidera controllare utilizzando il parametro *AdminAuditLogParameters*. Quando viene fornito l'elenco dei parametri da controllare, è possibile specificare singoli parametri, parametri con caratteri jolly asterisco(\*) o entrambi. Ogni voce dell'elenco viene separata da una virgola. Sono validi i seguenti valori:
 
@@ -88,8 +90,9 @@ Per impostazione predefinita, la registrazione di controllo crea una voce di reg
 
 
 In questo esempio vengono controllati i parametri specificati nell'elenco precedente.
-
+```powershell
     Set-AdminAuditLogConfig -AdminAuditLogParameters Database, *Address*, Custom*, *Region
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-AdminAuditLogConfig](https://technet.microsoft.com/it-it/library/dd298169\(v=exchg.150\)).
 

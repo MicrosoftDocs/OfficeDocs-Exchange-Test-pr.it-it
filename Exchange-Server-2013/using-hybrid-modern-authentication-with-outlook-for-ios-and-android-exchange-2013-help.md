@@ -176,8 +176,8 @@ Per impedire che altri client di dispositivi mobili (come il client di posta ele
 1.  È possibile utilizzare le regole di accesso ai dispositivi mobili per Exchange integrate e impedire a tutti i dispositivi mobili di connettersi tramite l'impostazione seguente in Exchange Management Shell:
     
     ```powershell
-Set-ActiveSyncOrganizationSettings -DefaultAccessLevel Block
-```
+            Set-ActiveSyncOrganizationSettings -DefaultAccessLevel Block
+    ```
 
 2.  Dopo aver installato il connettore di Exchange locale, è possibile utilizzare un criterio di accesso condizionale locale con Intune. Per ulteriori informazioni, vedere [Creare criteri di accesso condizionale per Exchange locale ed Exchange Online dedicato legacy](https://docs.microsoft.com/intune/conditional-access-exchange-create#configure-exchange-on-premises-access).
 
@@ -220,15 +220,15 @@ Se non è stata abilitata l'autenticazione moderna ibrida, consultare e seguire 
 Se è già stata abilitata l'autenticazione moderna ibrida per supportare altre versioni di Outlook, tra cui Outlook per Mac, per gli utenti locali come descritto in [Come configurare Exchange Server locale per utilizzare l'autenticazione moderna ibrida](https://support.office.com/article/how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication-cef3044d-d4cb-4586-8e82-ee97bd3b14ad?), there are only a few additional steps you must take:
 
 1.  Creare una regola di accesso a un dispositivo Exchange per consentire a Exchange Online di connettersi all'ambiente locale utilizzando il protocollo ActiveSync:
-    
+    ```powershell
         If ((Get-ActiveSyncOrganizationSettings).DefaultAccessLevel -ne "Allow") {New-ActiveSyncDeviceAccessRule -Characteristic DeviceType -QueryString "OutlookService" -AccessLevel Allow}
-    
+    ```
     La gestione dei dispositivi tramite l'interfaccia di amministrazione di Exchange locale non è possibile. È necessario disporre di Intune per gestire i dispositivi mobili.
 
 2.  Creare una regola di accesso per i dispositivi Exchange che impedisca agli utenti di connettersi all'ambiente locale con Outlook per iOS e Android tramite l'autenticazione di base con il protocollo Exchange ActiveSync:
-    
+    ```powershell
         New-ActiveSyncDeviceAccessRule -Characteristic DeviceModel -QueryString "Outlook for iOS and Android" -AccessLevel Block
-    
+    ```
 
     > [!NOTE]
     > Dopo aver creato la regola, gli utenti che usano Outlook per iOS e Android con l'autenticazione di base vengono bloccati.

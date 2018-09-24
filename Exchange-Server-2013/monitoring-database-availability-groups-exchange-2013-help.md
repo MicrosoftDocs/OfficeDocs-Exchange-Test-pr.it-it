@@ -368,15 +368,15 @@ Lo script supporta parametri che consentono di personalizzarne il comportamento 
 ## Esempi di CollectOverMetrics.ps1
 
 Con questo esempio vengono raccolte le metriche per tutti i database corrispondenti a DB\* (che include un carattere jolly) nel gruppo di disponibilità del database DAG1. Dopo la raccolta delle metriche, viene generato e visualizzato un report in formato HTML.
-
+```powershell
     CollectOverMetrics.ps1 -DatabaseAvailabilityGroup DAG1 -Database:"DB*" -GenerateHTMLReport -ShowHTMLReport
-
+```
 Negli esempi seguenti vengono dimostrate le modalità di filtraggio del rapporto HTML di riepilogo. Nel primo viene utilizzato il parametro *Database*, che prende un elenco di nomi dal database. Il rapporto di riepilogo contiene quindi solo i dati relativi a questi database. Nei due esempi successivi viene utilizzata l'opzione *ReportFilter*. Nell'ultimo esempio vengono filtrati tutti i database predefiniti.
-
+```powershell
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -Database MailboxDatabase123,MailboxDatabase456
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { $_.DatabaseName -notlike "Mailbox Database*" }
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { ($_.ActiveOnStart -like "ServerXYZ*") -and ($_.ActiveOnEnd -notlike "ServerXYZ*") }
-
+```
 ## Script CollectReplicationMetrics.ps1
 
 CollectReplicationMetrics.ps1 è un altro script per le metriche di integrità incluso in Exchange 2013. Questo script fornisce una forma attiva di monitoraggio, in quanto raccoglie le metriche in tempo reale durante l'esecuzione dello script. CollectReplicationMetrics.ps1 raccoglie i dati dai contatori di prestazioni relativi alla replica del database. Lo script raccoglie i dati relativi ai contatori da più server Cassette postali, scrive tutti i dati del server in un file CSV e può riportare diverse statistiche per tutti i dati (ad esempio, il periodo di tempo in cui una copia non è riuscita o è stata sospesa, la lunghezza media della coda di riesecuzione o di copia o la quantità di tempo in cui le copie non soddisfacevano i criteri di failover).
@@ -461,6 +461,6 @@ CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:
 ```
 
 Nell'esempio seguente vengono letti i dati da tutti i file che corrispondono a CounterData\* e viene quindi generato il rapporto di riepilogo.
-
+```powershell
     CollectReplicationMetrics.ps1 -SummariseFiles (dir CounterData*) -Mode ProcessOnly -ReportPath
-
+```

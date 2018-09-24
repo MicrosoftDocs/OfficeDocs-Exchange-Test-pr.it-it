@@ -76,16 +76,16 @@ Per verificare la corretta disabilitazione della posta elettronica per un contat
 3.  In Shell, utilizzare il seguente comando.
     
     ```powershell
-Get-MailContact
-```
+        Get-MailContact
+    ```
     
     Il contatto per cui è stata disabilitata la posta non verrà restituito nei risultati poiché il cmdlet restituisce solo i contatti abilitati alla posta.
 
 4.  In Shell, utilizzare il seguente comando.
     
     ```powershell
-Get-Contact
-```
+        Get-Contact
+    ```
     
     Il contatto per cui è stata disabilitata la posta elettronica viene restituito nei risultati poiché il cmdlet restituisce tutti gli oggetti contatto di Active Directory.
 
@@ -106,11 +106,11 @@ Enable-MailContact -Identity "Rene Valdes" -ExternalEmailAddress renev@tailspint
 Quando si abilitano in blocco i contatti alla posta, si esporta innanzitutto l'elenco dei contatti non abilitati alla posta in un file CSV (valori delimitati da virgole), quindi si aggiungono gli indirizzi di posta elettronica esterni al file CSV utilizzando un editor di testo quale Notepad oppure un'applicazione per fogli di calcolo come Microsoft Excel. Il file CSV aggiornato viene poi utilizzato nel comando Shell per abilitare alla posta i contatti elencati nel file.
 
 1.  Eseguire il comando seguente per esportare un elenco di contatti esistenti non abilitati alla posta in un file sul desktop dell'amministratore denominato Contacts.csv.
-    
+    ```powershell
         Get-Contact | Where { $_.RecipientType -eq "Contact" } | Out-File "C:\Users\Administrator\Desktop\Contacts.csv"
-    
+    ```
     Il file risultante sarà simile al seguente.
-    
+    ```powershell
         Name
         Walter Harp
         James Alvord
@@ -118,9 +118,9 @@ Quando si abilitano in blocco i contatti alla posta, si esporta innanzitutto l'e
         Susan Burk
         Ian Tien
         ...
-
+    ```
 2.  Aggiungere l'intestazione di colonna denominata **EmailAddress**, quindi aggiungere un indirizzo di posta elettronica per ciascun contatto nel file. Il nome e l'indirizzo di posta elettronica esterno per ciascun contatto devono essere separati da una virgola. Il file CSV aggiornato dovrebbe essere simile al seguente.
-    
+    ```powershell
         Name,EmailAddress
         James Alvord,james@contoso.com
         Susan Burk,sburk@tailspintoys.com
@@ -128,11 +128,11 @@ Quando si abilitano in blocco i contatti alla posta, si esporta innanzitutto l'e
         Ian Tien,iant@tailspintoys.com
         Rainer Witt,rainerw@fourthcoffee.com
         ...
-
+    ```
 3.  Eseguire il comando seguente per utilizzare i dati nel file CSV per abilitare alla posta i contatti elencati nel file.
-    
+    ```powershell
         Import-CSV C:\Users\Administrator\Desktop\Contacts.csv | ForEach-Object {Enable-MailContact -Identity $_.Name -ExternalEmailAddress $_.EmailAddress}
-    
+    ```
     Nei risultati del comando vengono visualizzate le informazioni relative ai nuovi contatti abilitati alla posta elettronica.
 
 ## Come verificare se l'operazione ha avuto esito positivo?
@@ -150,6 +150,6 @@ Per verificare la corretta abilitazione alla posta dei contatti di Active Direct
   - In Shell, eseguire il seguente comando per visualizzare le informazioni relative ai nuovi contatti di posta.
     
     ```powershell
-Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
-```
+        Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```
 

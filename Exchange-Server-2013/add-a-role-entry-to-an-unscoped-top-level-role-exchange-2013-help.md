@@ -60,13 +60,13 @@ Per aggiungere uno script di Windows PowerShell a un ruolo di primo livello senz
 Lo script deve risiedere nella directory Script nel percorso di installazione di Microsoft Exchange Server 2013 su ogni server con Exchange 2013 a cui gli utenti potrebbero connettersi per eseguire lo script. Se un utente ha accesso all'esecuzione di uno script, ma lo script non si trova sul server Exchange 2013 a cui è connesso l'utente, si verifica un errore. Per impostazione predefinita, il percorso della directory Scripts è C:\\Programmi\\Microsoft\\Server Exchange\\V14\\Scripts.
 
 Una volta copiato lo script nei server Exchange 2013 appropriati e decisi i parametri da utilizzare, creare la voce di ruolo utilizzando la seguente sintassi.
-
+```powershell
     Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
-
+```
 In questo esempio viene aggiunto lo script BulkProvisionUsers.ps1 al ruolo IT Scripts con i parametri *Name* e *Location*.
-
+```powershell
     Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
-
+```
 
 > [!NOTE]
 > Il cmdlet <STRONG>Add-ManagementRoleEntry</STRONG> consente di eseguire la convalida di base per assicurarsi di aggiungere solo i parametri esistenti nello script. Tuttavia, una volta aggiunta la voce di ruolo, non vengono effettuate altre convalide. Se i parametri vengono aggiunti o rimossi in seguito, è necessario aggiornare manualmente le voci di ruolo contenenti lo script.
@@ -82,13 +82,13 @@ Per aggiungere un cmdlet non di Exchange a un ruolo di primo livello senza ambit
 Se vengono aggiunti cmdlet non di Exchange al nuovo ruolo, i cmdlet devono essere installati su ogni server Exchange 2013 a cui potrebbero connettersi gli utenti per l'esecuzione dei cmdlet. Per informazioni sulla corretta installazione e registrazione degli snap-in di Windows PowerShell contenenti i cmdlet desiderati, consultare la documentazione del prodotto.
 
 Una volta installato lo snap-in Windows PowerShell contenente i cmdlet sui server Exchange 2013 appropriati e stabiliti i parametri da utilizzare, creare la voce di ruolo usando la seguente sintassi.
-
+```powershell
     Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
-
+```
 In questo esempio viene aggiunto il cmdlet **Set-WidgetConfiguration** dello snap-in Contoso.Admin.Cmdlets al ruolo Widget Cmdlets con i parametri *Database* e *Size*.
-
+```powershell
     Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
-
+```
 
 > [!NOTE]
 > Il cmdlet <STRONG>Add-ManagementRoleEntry</STRONG> consente di eseguire la convalida di base per assicurarsi di aggiungere solo i parametri esistenti nello cmdlet. Tuttavia, una volta aggiunta la voce di ruolo, non vengono effettuate altre convalide. Se il cmdlet viene modificato in seguito e i parametri vengono aggiunti o rimossi in seguito, è necessario aggiornare manualmente le voci di ruolo contenenti il cmdlet.

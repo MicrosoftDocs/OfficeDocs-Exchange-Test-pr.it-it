@@ -34,8 +34,9 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 Per ulteriori informazioni su come utilizzare e scrivere script, vedere [Scripting con Exchange Management Shell](https://technet.microsoft.com/it-it/library/bb123798\(v=exchg.150\)).
 
 ## Sintassi
-
+```powershell
     RollAlternateServiceAccountPassword.ps1 -Scope <Object> -Identity <Object> -Source <Object> -
+```
 
 ## Descrizione dettagliata
 
@@ -91,7 +92,9 @@ Lo script non gestire i nomi SPN della credenziale ASA o consentono di rimuovere
 
 L'output dello script quando si esegue in modo interattivo con il livello di dettaglio flag - deve indicare quali operazioni di script sono state completate. Per verificare che siano stati aggiornati i server Accesso Client, è possibile verificare l'ora ultima modifica alla credenziale ASA. Nell'esempio seguente viene generato un elenco di server Accesso Client e l'ultima volta in cui è stato aggiornato l'account di servizio alternativo.
 
+```powershell
     Get-ClientAccessServer -IncludeAlternateServiceAccountCredentialstatus |Fl Name, AlternateServiceAccountConfiguration
+```
 
 È anche possibile esaminare il registro eventi nel computer in cui viene eseguito lo script. Le voci del registro eventi per lo script vengono registrati nel registro eventi applicazioni e sono compresi l' origine *MSExchange Management Application*. Nella tabella seguente sono elencati gli eventi che vengono registrati e il significato gli eventi.
 
@@ -250,14 +253,16 @@ In questo esempio viene generata una nuova password per una credenziale ASA dell
 ## Esempio 3
 
 In questo esempio viene pianifica un'attività di pianificata (in inglese) una sola volta un mese automatica password denominata "Exchange RollAsa". Le credenziali ASA per tutti i server Accesso Client nell'intera foresta verranno aggiornati con una nuova password generata script. L'operazione pianificata viene creato, ma non è possibile eseguire lo script. Quando viene eseguita l'operazione pianificata, lo script viene eseguito in modalità automatica.
-
+```powershell
     .\RollAlternateServiceAccountPassword.ps1 -CreateScheduledTask "Exchange-RollAsa" -ToEntireForest -GenerateNewPasswordFor 'contoso\computerAccount$'
+```
 
 ## Esempio 4
 
 Questo esempio viene aggiornata la credenziale ASA per tutti i server Accesso Client dell'array di server Accesso Client denominato CAS01. Ottiene le credenziali dall'account del computer Active Directory ServiceAc1 nel dominio Contoso.
-
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers "CAS01" -GenerateNewPasswordFor "CONTOSO\ServiceAc1$" 
+```
 
 ## Esempio 5
 

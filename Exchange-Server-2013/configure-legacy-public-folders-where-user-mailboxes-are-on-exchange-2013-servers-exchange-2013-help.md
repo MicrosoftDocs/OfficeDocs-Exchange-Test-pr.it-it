@@ -42,14 +42,14 @@ Gli utenti le cui cassette postali si trovano in Exchange Server 2013 o Exchange
 2.  Creare un database delle cassette postali vuoto su ogni server di cartelle pubbliche.
     
     Per Exchange 2010, utilizzare il seguente comando. Questo comando esclude il database delle cassette postali dal sistema di bilanciamento del carico di provisioning delle cassette postali. In tal modo si impedisce l'aggiunta automatica di nuove cassette postali a questo database.
-    
+    ```powershell
         New-MailboxDatabase -Server <PFServerName_with_CASRole> -Name <NewMDBforPFs> -IsExcludedFromProvisioning $true 
-    
+    ```
     Per Exchange 2007, utilizzare il seguente comando:
     
     ```powershell
-New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
-```
+    New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+    ```
     
 
     > [!NOTE]
@@ -58,20 +58,20 @@ New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBfo
 
 
 3.  Creare una cassetta postale proxy nel nuovo database delle cassette postali e nascondere la cassetta postale dalla rubrica. L'SMTP di questa cassetta postale sarà restituito da Individuazione automatica come SMTP di *DefaultPublicFolderMailbox*, cosicché risolvendo questo SMTP il client può raggiungere il server Exchange legacy per l'accesso alle cartelle pubbliche.
-    ```
+    ```powershell
     New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
     ```
+    
+    ```powershell
+    Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
     ```
-```powershell
-Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
-```
-    ```
+
 
 4.  Per Exchange 2010, abilitare Individuazione automatica per la restituzione delle cassette postali delle cartelle pubbliche proxy. Questo passaggio non è necessario per Exchange 2007.
     
     ```powershell
-Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
-```
+    Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```
 
 5.  Ripetere la procedura precedente per ogni server di cartelle pubbliche dell'organizzazione.
 
@@ -80,9 +80,9 @@ Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CAS
 Il passaggio finale di questa procedura prevede la configurazione delle cassette postali degli utenti per consentire l'accesso alle cartelle pubbliche locali legacy.
 
 Consentire agli utenti locali di Exchange Server 2013 di accedere alle cartelle pubbliche legacy. Puntare a tutte le cassette postali delle cartelle pubbliche proxy create in [Step 2: Make remote public folders discoverable](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders). Lanciare il seguente comando da un server Exchange 2013 con aggiornamento CU5 o successivo.
-
+```powershell
     Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
-
+```
 
 > [!NOTE]
 > Per visualizzare le modifiche è necessario attendere che la sincronizzazione di ActiveDirectory sia completa. Questo processo potrebbe richiedere diverse ore.

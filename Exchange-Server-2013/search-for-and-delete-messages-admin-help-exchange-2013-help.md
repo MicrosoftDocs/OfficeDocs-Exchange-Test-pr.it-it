@@ -48,12 +48,13 @@ Come ulteriore salvaguardia, è possibile prima copiare i messaggi su un'altra c
 ## Ricerca di messaggi e registrazione dei risultati della ricerca
 
 Con questo esempio viene effettuata una ricerca nella cassetta postale di April Stewart per individuare i messaggi contenenti la frase "Your bank statement" nell'oggetto e il risultato viene registrato nella cartella SearchAndDeleteLog della cassetta postale dell'amministratore. I messaggi non vengono copiati né eliminati nella cassetta postale di destinazione.
-
+```powershell
     Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -TargetMailbox administrator -TargetFolder "SearchAndDeleteLog" -LogOnly -LogLevel Full
-
+```
 Nell'esempio seguente in tutte le cassette postali dell'organizzazione si cercano i messaggi con qualsiasi tipo di file allegato contenente la parola "Trojan" nel nome file e viene inviato un messaggio del registro alla cassetta postale dell'amministratore.
-
+```powershell
     Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery attachment:trojan* -TargetMailbox administrator -TargetFolder "SearchAndDeleteLog" -LogOnly -LogLevel Full
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Search-Mailbox](https://technet.microsoft.com/it-it/library/dd298173\(v=exchg.150\)).
 
@@ -74,12 +75,13 @@ Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statem
 ```
 
 Con questo esempio viene effettuata una ricerca nella cassetta postale di April Stewart per individuare i messaggi contenenti la frase "Your bank statement" nell'oggetto. Il risultato viene copiato nella cartella AprilStewart-DeletedMessages nella cassetta postale BackupMailbox e i messaggi vengono eliminati dalla cassetta postale di April.
-
+```powershell
     Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -TargetMailbox "BackupMailbox" -TargetFolder "AprilStewart-DeletedMessages" -LogLevel Full -DeleteContent
-
+```
 In questo esempio si cercano in tutte le cassette postali dell'organizzazione i messaggi con la riga di oggetto "Download this file" e quindi li si elimina in modo definitivo.
-
+```powershell
     Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery 'Subject:"Download this file"' -DeleteContent
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Search-Mailbox](https://technet.microsoft.com/it-it/library/dd298173\(v=exchg.150\)).
 

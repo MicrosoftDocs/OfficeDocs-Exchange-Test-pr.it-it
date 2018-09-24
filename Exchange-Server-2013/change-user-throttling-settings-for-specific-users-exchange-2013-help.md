@@ -55,11 +55,11 @@ Set-ThrottlingPolicyAssociation -Identity tonysmith -ThrottlingPolicy ITStaffPol
 
 Non è necessario utilizzare il cmdlet **Set-ThrottlingPolicyAssociation** per associare un utente a un criterio. Il comando seguente mostra un altro modo per associare il criterio di limitazione ITStaffPolicy tonysmith.
 
-```
+```powershell
 $b = Get-ThrottlingPolicy ITStaffPolicy
 ```
 
-```
+```powershell
 Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
 ```
 
@@ -72,24 +72,24 @@ Per verificare di aver creato correttamente alle normali criterio di limitazione
 1.  Eseguire il comando riportato di seguito.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+        Get-ThrottlingPolicy | Format-List
+    ```
 
 2.  Verificare che nella colonna che mostra l'oggetto GlobalThrottlingPolicy sia elencato regolari limitazione criterio che appena creato.
 
 3.  Eseguire il comando riportato di seguito.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+      Get-ThrottlingPolicy | Format-List
+    ```
 
 4.  Verificare che le proprietà per il nuovo criterio regolare corrispondano i valori configurati.
 
 5.  Eseguire il comando riportato di seguito.
     
     ```powershell
-Get-ThrottlingPolicyAssociation
-```
+    Get-ThrottlingPolicyAssociation
+    ```
 
 6.  Verificare che il nuovo criterio regolare sia associato all'utente o gli utenti si a esso associati.
 

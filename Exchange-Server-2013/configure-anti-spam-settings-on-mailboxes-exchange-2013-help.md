@@ -50,8 +50,9 @@ _**Ultima modifica dell'argomento:** 2016-11-17_
 ## Utilizzo di Shell per configurare le funzionalità di protezione da posta indesiderata su una singola cassetta postale
 
 Per configurare le impostazioni di protezione dalla posta indesiderata su una singola cassetta postale, utilizzare la seguente sintassi.
-
+```powershell
     Set-Mailbox <MailboxIdentity> -AntispamBypassEnabled <$true | $false> -RequireSenderAuthenticationEnabled <$true | $false> -SCLDeleteEnabled <$true | $false | $null> -SCLDeleteThreshold <0-9 | $null> -SCLJunkEnabled <$true | $false | $null > -SCLJunkThreshold <0-9 | $null> -SCLQuarantineEnabled <$true | $false | $null > -SCLQuarantineThreshold <0-9 | $null> -SCLRejectEnabled <$true | $false | $null > -SCLRejectThreshold <0-9 | $null>
+```
 
 In questo esempio la cassetta postale dell'utente Jeff Phillips viene configurata per ignorare tutti i filtri di protezione dalla posta indesiderata e per ottenere il recapito nella sua cartella Posta indesiderata in Microsoft Outlook dei messaggi che corrispondono o superano la soglia 5 del livello di probabilità di posta indesiderata per la cartella Posta indesiderata.
 
@@ -64,29 +65,32 @@ Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -
 Per verificare la corretta configurazione delle funzionalità di protezione dalla posta indesiderata su una singola cassetta postale, attenersi alla procedura seguente:
 
 1.  Eseguire il comando indicato di seguito:
-    
+    ```powershell
         Get-Mailbox <MailboxIdentity> | Format-List SCL*,Bypass*,*SenderAuth*
+    ```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 
 ## Utilizzare Shell per configurare le funzionalità di protezione dalla posta indesiderata per più cassette postali
 
 Per configurare tutte le impostazioni di protezione dalla posta indesiderata su più cassette postali, utilizzare la seguente sintassi.
-
+```powershell
     Get-Mailbox [<Filter>]| Set-Mailbox <Anti-Spam Settings>
+```
 
 In questo esempio viene abilitata la soglia di quarantena SCL con un valore pari a 7 in tutte le cassette postali nel contenitore Utenti del dominio Contoso.com.
-
+```powershell
     Get-Mailbox -OrganizationalUnit Contoso.com/Users | Set-Mailbox -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+````
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta configurazione delle funzionalità di protezione dalla posta indesiderata su più cassette postali, attenersi alla procedura seguente:
 
 1.  Eseguire il comando indicato di seguito:
-    
+    ```powershell
         Get-Mailbox [<Filter>] | Format-List Name,SCL*,*SenderAuth*
-
+    ```
 2.  Verificare che i valori visualizzati siano quelli configurati.
 
 ## Utilizzare Shell per configurare la soglia di posta indesiderata per tutte le cassette postali della propria organizzazione
@@ -110,8 +114,8 @@ Per verificare la corretta configurazione della soglia di posta indesiderata per
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-OrganizationConfig | Format-List SCLJunkThreshold
-```
+        Get-OrganizationConfig | Format-List SCLJunkThreshold
+    ```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 

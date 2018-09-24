@@ -64,8 +64,8 @@ Per verificare l'avvenuta eliminazione del gruppo di disponibilità del database
   - In Shell, utilizzare il seguente comando per vedere se il gruppo di disponibilità del database esiste ancora:
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName>
-```
+    Get-DatabaseAvailabilityGroup <DAGName>
+    ```
     
     Se l'eliminazione del gruppo di disponibilità del database è riuscita, il precedente comando produrrà un messaggio di errore in cui è indicato che non è stato possibile trovare l'oggetto.
 

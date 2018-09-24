@@ -43,8 +43,8 @@ Tuttavia, se la cassetta postale del sistema di individuazione viene accidentalm
     Per ricreare la cassetta postale del sistema Discovery, eseguire il comando seguente:
     
     ```powershell
-.\Setup /preparead /IAcceptExchangeServerLicenseTerms
-```
+    .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

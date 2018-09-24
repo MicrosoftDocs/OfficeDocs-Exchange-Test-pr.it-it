@@ -55,20 +55,26 @@ Per ulteriori informazioni sull'aggiunta di regole a un criterio DLP, vedere la 
 
 DLP usa i pacchetti di regole di classificazione per individuare il contenuto riservato nei messaggi. Per creare un pacchetto di regole di classificazione in base a un impronta digitale del documento, utilizzare i cmdlet **New-Fingerprint** e **New-DataClassification**. Poiché i risultati di **New-Fingerprint** non vengono archiviati al di fuori della regola di classificazione dei dati, eseguire sempre **New-Fingerprint** e **New-DataClassification** o **Set-DataClassification** nella stessa sessione di PowerShell. In questo esempio viene creata una nuova impronta digitale di documento in base al file C:\\Documenti\\Contoso Employee Template.docx. La nuova impronta digitale viene archiviata come variabile e potrà essere quindi utilizzata con il cmdlet **New-DataClassification** nella stessa sessione di PowerShell.
 
+```powershell
     $Employee_Template = Get-Content "C:\My Documents\Contoso Employee Template.docx" -Encoding byte
     $Employee_Fingerprint = New-Fingerprint -FileData $Employee_Template -Description "Contoso Employee Template"
+```
 
 A questo punto, passiamo alla creazione di una nuova regola di classificazione dati denominata "Contoso Employee Confidential" che utilizza l'impronta digitale del documento del file C:\\Documenti\\Contoso Customer Information Form.docx.
 
+```powershell
     $Employee_Template = Get-Content "C:\My Documents\Contoso Customer Information Form.docx" -Encoding byte
     $Customer_Fingerprint = New-Fingerprint -FileData $Customer_Form -Description "Contoso Customer Information Form"
     New-DataClassification -Name "Contoso Customer Confidential" -Fingerprints $Customer_Fingerprint -Description "Message contains Contoso customer information." 
+```
 
 È ora possibile utilizzare il cmdlet **Get-DataClassification** per trovare tutti i pacchetti di regole di classificazione dei dati DLP e, in questo esempio, "Contoso Customer Confidential" fa parte dell'elenco dei pacchetti di regole di classificazione dei dati.
 
 Infine, aggiungere il pacchetto di regole di classificazione dati "Contoso Customer Confidential" a un criterio DLP.
 
+```powershell
     New-TransportRule -Name "Notify :External Recipient Contoso confidential" -NotifySender NotifyOnly -Mode Enforce -SentToScope NotInOrganization -MessageContainsDataClassification @{Name=" Contoso Customer Confidential"}
+```
 
 L'agente DLP rileva ora i documenti che soddisfano l'impronta digitale del documento Contoso Customer Form.docx.
 

@@ -58,8 +58,8 @@ Per verificare che la relazione organizzativa sia stata rimossa correttamente, e
   - Eseguire il comando di Shell riportato di seguito per verificare che le informazioni sulla relazione organizzativa siano state rimosse.
     
     ```powershell
-Get-OrganizationRelationship | Format-List
-```
+    Get-OrganizationRelationship | Format-List
+    ```
 
 
 > [!TIP]

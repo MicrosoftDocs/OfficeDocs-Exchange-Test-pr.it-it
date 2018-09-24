@@ -69,7 +69,7 @@ Al fine di configurare l'autenticazione tra server per un'implementazione locale
     > [!WARNING]
     > Se si copia e incolla il codice all'interno di un editor di testo, ad esempio Blocco note, e lo si salva con estensione ps1, l'esecuzione degli script nella shell risulta più facile.
 
-    
+    ```powershell
         # Make sure to update the following $tenantDomain with your Office 365 tenant domain.
         
         $tenantDomain = "Fabrikam.com"
@@ -129,13 +129,13 @@ Al fine di configurare l'autenticazione tra server per un'implementazione locale
             Write-Host "AuthServer Config already exists."
         }
         Write-Host "Complete."
-    
+    ```
     Il risultato previsto dovrebbe avere un aspetto analogo al seguente.
-    
+    ```powershell
         Configured Certificate Thumbprint is: 7595DBDEA83DACB5757441D44899BCDB9911253C
         Exporting certificate...
         Complete.
-    
+    ```
 
     > [!WARNING]
     > Prima di continuare, è necessario disporre dei cmdlet di Azure Active Directory Module per Windows PowerShell. Se i cmdlet di Azure Active Directory Module per Windows PowerShell (in precedenza noto come modulo dei Microsoft Online Services per Windows PowerShell) non sono stati installati, è possibile farlo accedendo a <A href="http://aka.ms/aadposh">Gestione di Azure AD tramite Windows PowerShell</A>.
@@ -143,7 +143,7 @@ Al fine di configurare l'autenticazione tra server per un'implementazione locale
 
 
   - **Passaggio 2: configurare Office 365 affinché comunichi con Exchange 2013 locale.** Configurare il server di Office 365 con cui comunica Exchange Server 2013 affinché sia un'applicazione partner. Ad esempio, se Exchange Server 2013 locale deve comunicare con Office 365, è necessario configurare Exchange locale affinché sia un'applicazione partner. Un'applicazione partner rappresenta qualsiasi applicazione con la quale Exchange 2013 può scambiare token di sicurezza in modo diretto, senza necessità di passare attraverso un server di token di sicurezza di terze parti. Un amministratore di Exchange 2013 locale deve utilizzare il seguente script di Exchange Management Shell per configurare il tenant di Office 365 con il quale comunica Exchange 2013 affinché sia un'applicazione partner. Durante l'esecuzione, verrà visualizzato un prompt per inserire il nome utente e la password dell'amministratore del dominio tenant di Office 365, ad esempio administrator@fabrikam.com. Assicurarsi di aggiornare il valore di *$CertFile* sul percorso del certificato, se non è stato creato dallo script precedente. A tale scopo, copiare e incollare il codice seguente.
-    
+    ```powershell
         # Make sure to update the following $CertFile with the path to the cert if not using the previous script.
         
         $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -174,22 +174,22 @@ Al fine di configurare l'autenticazione tra server per un'implementazione locale
         {
             Write-Error "Cannot find certificate."
         } 
-    
+    ```
     Il risultato previsto dovrebbe avere un aspetto analogo al seguente.
-    
+    ```powershell
         Please enter the administrator user name and password of the Office 365 tenant domain...
         Adding a key to Service Principal...
         Complete.
-
+    ```
 ## Abilitare l'inoltro delle notifiche push
 
 Dopo aver effettuato la procedura precedente e dopo aver configurato l'autenticazione OAuth, un amministratore locale deve attivare l'inoltro della notifica push utilizzando lo script seguente. Assicurarsi di aggiornare il valore di *$tenantDomain* sul nome del proprio dominio. A tale scopo, copiare e incollare il codice seguente.
-
+```powershell
     $tenantDomain = "Fabrikam.com"
     Enable-PushNotificationProxy -Organization:$tenantDomain
-
+```
 Il risultato previsto dovrebbe avere un aspetto analogo al seguente.
-
+```powershell
     RunspaceId        : 4f2eb5cc-b696-482f-92bb-5b254cd19d60
     DisplayName       : On Premises Proxy app
     Enabled           : True
@@ -211,7 +211,7 @@ Il risultato previsto dovrebbe avere un aspetto analogo al seguente.
     OrganizationId    :
     OriginatingServer : server.fabrikam.com
     ObjectState       : Unchanged
-
+```
 ## Verificare che le notifiche push funzionino
 
 Dopo aver effettuato la procedura precedente, le notifiche push devono essere provate in questo modo:
@@ -227,7 +227,7 @@ Dopo aver effettuato la procedura precedente, le notifiche push devono essere pr
     4.  Si dovrebbe ottenere un conteggio nascosto che viene indicato sull'icona dell'app in pochi minuti.
 
   - **Abilitazione del monitoraggio.** Un metodo alternativo per testare le notifiche push o per capire il motivo del mancato funzionamento delle notifiche consiste nel monitoraggio di un server di cassette postali nell'organizzazione dell'utente. L'amministratore di un server di Exchange 2013 locale deve richiamare il monitoraggio di inoltro delle notifiche push utilizzando il seguente script. A tale scopo, copiare e incollare il codice seguente.
-    
+    ```powershell
         # Send a push notification to verify connectivity.
         
         $s = Get-ExchangeServer | ?{$_.ServerRole -match "Mailbox"}
@@ -249,10 +249,10 @@ Dopo aver effettuato la procedura precedente, le notifiche push devono essere pr
         {
             Write-Error "Cannot find a Mailbox server in the current site."
         }
-    
+    ```
     Il risultato previsto dovrebbe avere un aspetto analogo al seguente.
-    
+    ```powershell
         ResultType : Succeeded
         Error      :
         Exception  :
-
+    ```

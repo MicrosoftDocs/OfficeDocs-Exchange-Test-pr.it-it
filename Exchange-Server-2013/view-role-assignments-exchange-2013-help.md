@@ -48,9 +48,9 @@ Per informazioni sulle altre attività di gestione relative ai ruoli, vedere [Au
 ## Visualizzazione di un elenco di tutte le assegnazioni di ruolo
 
 È possibile visualizzare un elenco di tutte le assegnazioni di ruolo configurate per l'organizzazione eseguendo il cmdlet **Get-ManagementRoleAssignment**. Se si desidera recuperare un elenco delle assegnazioni di ruolo corrispondenti a una stringa parziale specificata, utilizzare i caratteri jolly (\*). In questo esempio viene recuperato un elenco di tutte le assegnazioni di ruolo che iniziano con la stringa "Tier 1".
-
+```powershell
     Get-ManagementRoleAssignment "Tier 1*"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)).
 
 ## Visualizzazione dei dettagli di una specifica assegnazione di ruolo
@@ -106,9 +106,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 ## Visualizzazione di un elenco delle assegnazioni di ruolo che utilizzano uno specifico ambito predefinito
 
 Per visualizzare un elenco delle assegnazioni di ruolo che utilizzano uno specifico ambito predefinito, utilizzare la seguente sintassi.
-
+```powershell
     Get-ManagementRoleAssignment -RecipientWriteScope < MyGAL | MyDistributionGroups | Organization | Self | CustomRecipientScope | ExecutiveRecipientScope >
-
+```
 In questo esempio vengono recuperate tutte le assegnazioni di ruolo che utilizzano l'ambito predefinito Organization.
 
 ```powershell
@@ -126,9 +126,9 @@ Get-ManagementRoleAssignment -RecipientOrganizationalUnitScope <OU>
 ```
 
 In questo esempio vengono recuperate tutte le assegnazioni di ruolo inserite nell'ambito dell'unità organizzativa North America\\Engineering\\Users nel dominio contoso.com.
-
+```powershell
     Get-ManagementRoleAssignment -RecipientOrganizationalUnitScope "contoso.com/North America/Engineering/Users"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)).
 
 ## Visualizzazione di un elenco delle assegnazioni che utilizzano uno specifico ambito personalizzato
@@ -192,9 +192,9 @@ Get-ManagementRoleAssignment -WritableRecipient "Brian"
 ```
 
 I parametri *WritableRecipient* e *WritableServer* possono essere combinati con altri parametri, come il parametro *RoleAssignee* e l'opzione *GetEffectiveUsers* per rifinire la query ed espandere i gruppi di ruolo o i gruppi di protezione universale. In questo esempio vengono recuperati tutti gli utenti che possono modificare il server EX02 e a cui viene assegnato il gruppo di ruolo Server Management.
-
+```powershell
     Get-ManagementRoleAssignment -WritableServer EX02 -RoleAssignee "Server Management" -GetEffectiveUsers
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)).
 
 ## Visualizzazione degli utenti che ricevono le autorizzazioni da un'assegnazione tramite un gruppo di ruolo o un gruppo di protezione universale

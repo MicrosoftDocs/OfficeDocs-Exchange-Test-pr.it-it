@@ -190,8 +190,8 @@ Completare la procedura seguente per configurare MAPI su HTTP per l'organizzazio
     Eseguire il comando indicato di seguito:
     
     ```powershell
-Set-OrganizationConfig -MapiHttpEnabled $true
-```
+        Set-OrganizationConfig -MapiHttpEnabled $true
+    ```
 
 ## Verificare MAPI su connessioni HTTP
 
@@ -204,11 +204,11 @@ Test-OutlookConnectivity -RunFromServerId ContosoMail -ProbeIdentity OutlookMapi
 ```
 
 Un test riuscito restituisce un output simile all'esempio seguente:
-
+```powershell
     MonitorIdentity                                          StartTime              EndTime                Result      Error     Exception
     ---------------                                          ---------              -------                ------      -----     ---------
     OutlookMapiHttp.Protocol\OutlookMapiHttpSelfTestProbe    2/14/2014 7:15:00 AM   2/14/2014 7:15:10 AM   Succeeded
-
+```
 Per ulteriori informazioni, vedere [Test-OutlookConnectivity](https://technet.microsoft.com/it-it/library/dd638082\(v=exchg.150\)).
 
 I registri per MAPI su attività HTTP si trovano nelle posizioni seguenti:

@@ -94,8 +94,9 @@ Completare la procedura in [Configurare la condivisione federata](configure-fede
         Creare uno spazio degli indirizzi di disponibilità per l'organizzazione di Exchange 2013 remota, che indirizzi le richieste di disponibilità degli utenti delle cassette postali di Exchange 2007 al server Accesso client di Exchange 2010 SP2 nell'organizzazione di Exchange 2007. Questa impostazione consente di abilitare il proxy delle richieste di disponibilità degli utenti di Exchange 2007 per gli utenti dell'organizzazione di Exchange 2013 remota tramite il server Accesso client di Exchange 20120 nell'organizzazione di Exchange 2007. Il server Accesso client di Exchange 20120 nell'organizzazione di Exchange 2007 utilizza la relazione di trust federativa e la relazione dell'organizzazione per inviare le richieste di disponibilità all'endpoint di disponibilità della foresta dell'organizzazione di Exchange 2013 remota.
         
         Per configurare lo spazio degli indirizzi di disponibilità, eseguire il comando seguente in Exchange Management Shell sul server Accesso client di Exchange 2010 nell'organizzazione di Exchange 2007:
-        
+        ```powershell
             Add-AvailabilityAddressSpace -AccessMethod InternalProxy -ProxyUrl https://<Exchange 2010 CAS server name>/ews/exchange.asmx -ForestName <SMTP domain of the remote Exchange organization> -UseServiceAccount $True
+        ```
         
         Per informazioni dettagliate sulla sintassi e sui parametri, vedere Add-AvailabilityAddressSpace[](https://go.microsoft.com/fwlink/p/?linkid=268413)
 

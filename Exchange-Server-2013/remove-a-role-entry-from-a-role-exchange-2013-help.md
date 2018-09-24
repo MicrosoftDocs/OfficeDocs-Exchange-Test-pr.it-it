@@ -62,17 +62,17 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Remove-Manage
 Quando si eliminao più voci di ruolo da un ruolo, gli utenti assegnati a quel ruolo non sono più in grado di accedere ai cmdlet o agli script associati.
 
 Per eliminare più voci di ruolo da un ruolo è necessario recuperare l'elenco delle voci di ruolo da rimuovere utilizzando il cmdlet **Get-ManagementRoleEntry**. Successivamente, è necessario inviare l'output al cmdlet **Remove-ManagementRoleEntry**. È possibile utilizzare i caratteri jolly insieme al cmdlet **Get-ManagementRoleEntry** per trovare più voci di ruolo. È buona norma utilizzare l'opzione *WhatIf* per verificare che le voci di ruolo in fase di eliminazione siano quelle corrette. Utilizzare la seguente sintassi.
-
+```powershell
     Get-ManagementRoleEntry <management role>\<role entry with wildcard character> | Remove-ManagementRoleEntry -WhatIf
-
+```
 Con questo esempio vengono eliminate tutte le voci di ruolo contenenti la parola journal dal ruolo Seattle Server Administrators.
-
+```powershell
     Get-ManagementRoleEntry "Seattle Server Administrators\*Journal*" | Remove-ManagementRoleEntry -WhatIf
-
+```
 Quando si esegue il comando con l'opzione *WhatIf*, il cmdlet restituisce un elenco di tutte le voci di ruolo da eliminare. Se l'elenco è corretto, eseguire di nuovo il comando senza l'opzione *WhatIf* per eliminare le voci di ruolo.
-
+```powershell
     Get-ManagementRoleEntry "Seattle Server Administrators\*Journal*" | Remove-ManagementRoleEntry
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Get-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd335210\(v=exchg.150\)) e [Remove-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351187\(v=exchg.150\)).
 
 ## Eliminazione dei parametri da una voce di ruolo in un ruolo
@@ -80,12 +80,12 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Get-Managemen
 Se si eliminano i parametri da una voce di ruolo in un ruolo, i parametri non sono più a disposizione degli utenti assegnati al ruolo.
 
 Utilizzare la seguente sintassi per eliminare i parametri da una voce di ruolo.
-
+```powershell
     Set-ManagementRoleEntry <management role>\<role entry> -Parameters <parameter 1>,<parameter 2...> -RemoveParameter
-
+```
 Con questo esempio vengono eliminati i parametri *MaxSafeSenders*, *MaxSendSize*, *SecondaryAddress* e *UseDatabaseQuotaDefaults* dalla voce di ruolo **Set-Mailbox** nel ruolo Seattle Server Administrators.
-
+```powershell
     Set-ManagementRoleEntry "Seattle Server Administrators\Set-Mailbox" -Parameters MaxSafeSenders,MaxSendSize,SecondaryAddress,UseDatabaseQuotaDefaults -RemoveParameter
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd351162\(v=exchg.150\)).
 

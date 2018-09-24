@@ -80,9 +80,9 @@ Per le altre attività di gestione relative alla gestione dei certificati per la
 ## Creazione di una richiesta di certificato tramite Shell
 
 In questo esempio viene creata una nuova richiesta di certificato in Exchange per un server Cassette postali denominato `MyMailboxServer` con un nome descrittivo di `CertUM`.
-
+```powershell
     New-ExchangeCertificate -FriendlyName 'CertUM' -GenerateRequest -PrivateKeyExportable $true -KeySize '2048' -DomainName '*.northwindtraders.com' -SubjectName 'C=US,S=wa,L=redmond,O=northwindtraders,OU=servers,CN= northwindtraders.com' -Server 'MyMailboxServer'
-
+```
 ## Creazione di un certificato autofirmato per messaggistica unificata tramite l'interfaccia di amministrazione di Exchange
 
 1.  Nell'interfaccia di amministrazione di Exchange, accedere a **Server** \> **Certificati**, quindi fare clic su **Aggiungi**![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi").
@@ -106,9 +106,9 @@ In questo esempio viene creata una nuova richiesta di certificato in Exchange pe
 ## Creazione di un certificato autofirmato per messaggistica unificata tramite Shell
 
 In questo esempio viene creato un nuovo certificato autofirmato di Exchange per un server Cassette postali denominato `MyMailboxServer` con un nome descrittivo di `UMCert`.
-
+```powershell
     New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
-
+```
 
 > [!TIP]
 > Quando si specificano i servizi che si intende attivare utilizzando il parametro <EM>Services</EM>, viene richiesto di assegnare tali servizi. In questo esempio, viene richiesto di attivare il certificato per la messaggistica unificata e i servizi Router chiamate della stessa. Per ulteriori informazioni sull'attivazione di un certificato per i servizi, vedere <A href="assign-a-certificate-to-the-um-and-um-call-router-services-exchange-2013-help.md">Assegnare un certificato per i servizi di messaggistica unificata e routing delle chiamate di messaggistica unificata</A>.

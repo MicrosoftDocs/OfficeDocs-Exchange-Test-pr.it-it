@@ -40,18 +40,21 @@ Microsoft gli amministratori Exchange Server 2013 possono scaricare manualmente 
 ## Utilizzare Shell per scaricare manualmente gli aggiornamenti al motore e alle definizioni
 
 Per scaricare gli aggiornamenti al motore e alle definizioni, eseguire il seguente comando:
-
+```powershell
     & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity <FQDN of server>
+```
 
 In questo esempio vengono scaricati manualmente gli aggiornamenti motore e alle definizioni sul server Exchange denominato mailbox01. contoso.com:
-
+```powershell
     & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity mailbox01.contoso.com
+```
 
 Facoltativamente, è possibile utilizzare il parametro *EngineUpdatePath* per scaricare gli aggiornamenti di in una posizione diversa il percorso predefinito dei `http://forefrontdl.microsoft.com/server/scanengineupdate`. È possibile utilizzare questo parametro per specificare un indirizzo HTTP alternativo o un percorso UNC. Se si specifica un percorso UNC, il servizio di rete deve avere accesso al percorso.
 
 In questo esempio vengono scaricati manualmente motore e alle definizioni degli aggiornamenti nel server Exchange denominato mailbox01. contoso.com dal percorso UNC `\\FileServer01\Data\MalwareUpdates`:
-
+```powershell
     & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity mailbox01.contoso.com -EngineUpdatePath \\FileServer01\Data\MalwareUpdates
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -88,18 +91,18 @@ Per configurare le impostazioni del server proxy per gli aggiornamenti di anti-m
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Add-PsSnapin Microsoft.Forefront.Filtering.Management.Powershell
-```
+        Add-PsSnapin Microsoft.Forefront.Filtering.Management.Powershell
+    ```
 
 2.  Utilizzare i cmdlet **Get-ProxySettings** e **Set-ProxySettings** per visualizzare e configurare le impostazioni del server proxy che vengono utilizzati per scaricare gli aggiornamenti di anti-malware. Il cmdlet **Set-ProxySettings** utilizza la sintassi seguente:
-    
+    ```powershell
         Set-ProxySettings -Enabled <$true | $false> -Server <Name or IP address of proxy server> -Port <TCP port of proxy server>
-    
+    ```
     Ad esempio, per configurare gli aggiornamenti di anti-malware per utilizzare il server proxy all'indirizzo 172.17.17.10 sulla porta TCP 80, eseguire il comando seguente.
     
     ```powershell
-Set-ProxySettings -Enabled $true -Server 172.17.17.10 -Port 80
-```
+    Set-ProxySettings -Enabled $true -Server 172.17.17.10 -Port 80
+    ```
     
     Per verificare le impostazioni del server proxy, eseguire il cmdlet **Get-ProxySettings** .
 

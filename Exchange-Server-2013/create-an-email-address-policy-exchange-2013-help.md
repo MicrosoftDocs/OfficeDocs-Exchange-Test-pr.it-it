@@ -134,9 +134,7 @@ Per istruzioni dettagliate sulla creazione di criteri degli indirizzi di posta e
     
       - **Specificare i tipi di destinatari a cui verrà applicato questo indirizzo di posta elettronica**
 
-3.  
-    
-    Fare clic su **Aggiungi una regola** per limitare ulteriormente i destinatari a cui verrà applicato il criterio. In questo modo verrà creata un'istruzione booleana **And**.
+3. Fare clic su **Aggiungi una regola** per limitare ulteriormente i destinatari a cui verrà applicato il criterio. In questo modo verrà creata un'istruzione booleana **And**.
     
 
     > [!Caution]
@@ -146,17 +144,15 @@ Per istruzioni dettagliate sulla creazione di criteri degli indirizzi di posta e
 
 4.  Fare clic su **Visualizza un'anteprima dei destinatari a cui si applica il criterio** per visualizzare i destinatari a cui verrà applicato il criterio.
 
-5.  
-    
-    Fare clic su **Salva** per salvare le modifiche e creare il criterio.
+5.  Fare clic su **Salva** per salvare le modifiche e creare il criterio.
 
 6.  L'utente riceverà un messaggio di avviso con la comunicazione che il criterio dell'indirizzo di posta elettronica non verrà applicato fino all'aggiornamento. Una volta creato, selezionarlo e fare clic su **Applica** nel riquadro dei dettagli.
 
 ## Creazione di un criterio dell'indirizzo di posta elettronica tramite Shell
 
 In questo esempio viene creato un criterio dell'indirizzo di posta elettronica che include gli utenti di cassette postali che lavorano presso le sedi sudorientali della società i cui indirizzi di posta elettronica sono formati dal cognome seguito dalle prime due lettere del nome.
-
+```powershell
     New-EmailAddressPolicy -Name "southeast offices" -IncludedRecipients MailboxUsers -ConditionalStateorProvince "Georgia","Alabama","Louisiana" -EnabledEmailAddressTemplates "SMTP:%s%2g@southeast.contoso.com"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-EmailAddressPolicy](https://technet.microsoft.com/it-it/library/aa996800\(v=exchg.150\)).
 

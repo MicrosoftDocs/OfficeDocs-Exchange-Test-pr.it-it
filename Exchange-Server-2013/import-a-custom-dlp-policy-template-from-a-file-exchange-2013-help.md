@@ -64,8 +64,9 @@ Utilizzare la procedura seguente per importare un modello di criteri DLP persona
 ## Utilizzo della Shell per importare un modello di criteri DLP personalizzato da un file
 
 In questo esempio consente di importare un file modello dei criteri DLP personalizzato nel file C:\\My Documents\\DLP la. Importazione di un insieme di criteri DLP da un file XML consente di rimuovere o sovrascrive tutti i criteri DLP esistenti che sono stati definiti all'interno dell'organizzazione. Assicurarsi di avere una copia di backup della raccolta di criteri DLP corrente prima di importare e sovrascrivere i criteri DLP correnti.
-
+```powershell
     Import-DlpPolicyCollection -FileData ([Byte[]]$(Get-Content -Path " C:\My Documents\DLP Backup.xml " -Encoding Byte -ReadCount 0))
+```
 
 ## Ulteriori informazioni
 
