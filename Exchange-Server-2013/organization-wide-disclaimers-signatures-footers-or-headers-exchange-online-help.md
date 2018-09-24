@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Intest./piè di pagina/firme/dichiar. non respons. per org.:Exchange 2013 Help'
 TOCTitle: Intestazioni, piè di pagina, firme o dichiarazioni di non responsabilità per tutta l'organizzazione
 ms:assetid: e45e33c9-e53b-427c-ada5-70901bc399b8
@@ -116,24 +116,40 @@ Di seguito sono riportati alcuni esempi delle condizioni ed eccezioni che è pos
 <td><p>All'esterno dell'organizzazione, se il messaggio originale non include il testo della dichiarazione di non responsabilità, come &quot;CONTOSO LEGAL NOTICE&quot; (Note legali Contoso)</p></td>
 <td><p>Condizione: <strong>Il destinatario si trova</strong> &gt; <strong>Al di fuori dell'organizzazione</strong>.</p>
 <p>Eccezione: <strong>L'oggetto o il corpo</strong> &gt; <strong>l'oggetto o il corpo del messaggio corrisponde a questi modelli di testo</strong> &gt; <strong>CONTOSO LEGAL NOTICE</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -ExceptIf -SubjectOrBodyMatches &quot;CONTOSO LEGAL NOTICE&quot;</code></pre></td>
+<td>
+  ```powershell
+      -FromScope NotInOrganization -ExceptIf -SubjectOrBodyMatches &quot;CONTOSO LEGAL NOTICE&quot;
+  ```
+  </td>
 </tr>
 <tr class="even">
 <td><p>Messaggi in arrivo con allegati eseguibili</p></td>
 <td><p>Condizione 1: <strong>Il mittente si trova</strong> &gt; <strong>Al di fuori dell'organizzazione</strong></p>
 <p>Condizione 2: <strong>L'allegato</strong> &gt; <strong>ha contenuto eseguibile</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -AttachmentHasExecutableContent</code></pre></td>
+<td>
+  ```powershell
+      -FromScope NotInOrganization -AttachmentHasExecutableContent
+  ```
+  </td>
 </tr>
 <tr class="odd">
 <td><p>Il mittente è del reparto Marketing</p></td>
 <td><p>Condizione: <strong>Il mittente</strong> &gt; <strong>è un membro del gruppo</strong> &gt; <strong>nome gruppo</strong></p></td>
-<td><pre><code>-FromMemberOf &quot;Marketing Team&quot;</code></pre></td>
+<td>
+  ```powershell
+      -FromMemberOf &quot;Marketing Team&quot;
+  ```
+  </td>
 </tr>
 <tr class="even">
 <td><p>Tutti i messaggi provenienti da un mittente esterno destinati al gruppo di discussione Vendite</p></td>
 <td><p>Condizione 1: <strong>Il mittente si trova</strong> &gt; <strong>Al di fuori dell'organizzazione</strong></p>
 <p>Condizione 2: <strong>Il messaggio</strong> &gt; <strong>contiene questa persona nella casella A o Cc</strong> &gt; <strong>nome gruppo</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -SentTo &quot;Sales Discussion Group&quot; -PrependSubject &quot;Sent to Sales Discussion Group: &quot;</code></pre></td>
+<td>
+  ```powershell
+      -FromScope NotInOrganization -SentTo &quot;Sales Discussion Group&quot; -PrependSubject &quot;Sent to Sales Discussion Group: &quot;
+  ```
+  </td>
 </tr>
 <tr class="odd">
 <td><p>Anteporre un annuncio ai messaggi in uscita per un mese</p></td>
