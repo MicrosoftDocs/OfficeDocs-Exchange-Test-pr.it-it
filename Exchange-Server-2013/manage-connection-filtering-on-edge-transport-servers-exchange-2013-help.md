@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Gestire il filtro connessioni su server Trasporto Edge: Exchange 2013 Help'
 TOCTitle: Gestire il filtro connessioni su server Trasporto Edge
 ms:assetid: baebc865-ec3e-48ca-ac48-7aac8b34c003
@@ -417,7 +417,9 @@ Utilizzare i cmdlet **IPAllowListConfig** per visualizzare e configurare il modo
 
 Per visualizzare la configurazione dell'elenco indirizzi IP consentiti, eseguire il seguente comando:
 
+```powershell
     Get-IPAllowListConfig | Format-List *Enabled
+```
 
 ## Utilizzo della Shell per abilitare o disabilitare l'elenco indirizzi IP consentiti
 
