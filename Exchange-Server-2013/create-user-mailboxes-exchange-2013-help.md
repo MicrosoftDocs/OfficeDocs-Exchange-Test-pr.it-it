@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Creazione di cassette postali utente: Exchange 2013 Help'
 TOCTitle: Creazione di cassette postali utente
 ms:assetid: 51a8b4c6-a53e-41c5-8bb1-ea4c0eaa0174
@@ -141,7 +141,9 @@ In questo esempio vengono creati un account utente e una cassetta postale per l'
 
 <!-- end list -->
 
+```powershell
     New-Mailbox -Alias pilarp -Name "Pilar Pinilla" -FirstName Pilar -LastName Pinilla -DisplayName "Pilar Pinilla" -UserPrincipalName pilarp@contoso.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force)
+```
 
 Per informazioni sulla sintassi e sui parametri, vedere [New-Mailbox](https://technet.microsoft.com/it-it/library/aa997663\(v=exchg.150\)).
 
