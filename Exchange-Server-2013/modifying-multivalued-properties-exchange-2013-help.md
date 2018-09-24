@@ -77,11 +77,19 @@ La modifica delle proprietà multivalore è simile alla modifica delle propriet�
 <tbody>
 <tr class="odd">
 <td><p>Aggiungere uno o più valori a una proprietà multivalore</p></td>
-<td><pre><code>@{Add=&quot;&lt;value1&gt;&quot;, &quot;&lt;value2&gt;&quot;, &quot;&lt;value3&gt;&quot;}</code></pre></td>
+<td>
+  ```powershell
+      @{Add="<value1>", "<value2>", "<value3>"}
+  ```
+  </td>
 </tr>
 <tr class="even">
 <td><p>Rimuovere uno o più valori da una proprietà multivalore</p></td>
-<td><pre><code>@{Remove=&quot;&lt;value1&gt;&quot;, &quot;&lt;value2&gt;&quot;, &quot;&lt;value3&gt;&quot;}</code></pre></td>
+<td>
+  ```powershell
+      @{Remove="<value1>", "<value2>", "<value3>"}
+  ```
+  </td>
 </tr>
 </tbody>
 </table>
