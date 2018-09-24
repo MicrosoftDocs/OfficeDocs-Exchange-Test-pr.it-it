@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Configurare le metriche di gruppo: Exchange 2013 Help'
 TOCTitle: Configurare le metriche di gruppo
 ms:assetid: 76ccd6a7-e2ec-42f4-9ab3-e8cc257ac896
