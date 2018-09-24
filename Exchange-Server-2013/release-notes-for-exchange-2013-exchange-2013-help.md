@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Note sulla versione di Exchange 2013: Exchange 2013 Help'
 TOCTitle: Note sulla versione di Exchange 2013
 ms:assetid: 1879fd5e-3d63-4264-9cc2-9c050c6ab3c5
@@ -132,8 +132,8 @@ Per ulteriori informazioni su come installare i Exchange 2013, vedere [Pianifica
     2.  Eseguire il comando riportato di seguito.
         
         ```powershell
-Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
-```
+            Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+        ```
     
     3.  Eseguire normalmente le attività di gestione degli agenti.
     
@@ -162,9 +162,10 @@ Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
       - **Descrizione** Autenticazione in ingresso non riuscita con errore `IllegalMessage` per il connettore di ricezione front-end client \<*nome server*\>. Il meccanismo di autenticazione è Gssapi. L'indirizzo IP di origine del client che ha tentato l'autenticazione per Exchange è \[\<*indirizzo IP client*\>\].
     
     Per risolvere questo problema, è necessario rimuovere il metodo di autenticazione `Integrated` dal connettore di ricezione client sui server Accesso client di Exchange 2013. Per rimuovere il metodo di autenticazione `Integrated` da un connettore di ricezione client, eseguire il seguente comando su ciascun server Accesso client di Exchange 2013 che può ricevere le connessioni da computer che eseguono il cmdlet **Send-MailMessage**:
-    
+    ```powershell
         Set-ReceiveConnector "<server name>\Client Frontend <server name>" -AuthMechanism Tls, BasicAuth, BasicAuthRequireTLS
-
+    ```
+    
   - **Le prestazioni di MAPI tramite HTTP potrebbero essere ridotte quando si esegue l'aggiornamento a Exchange 2013 SP1**   Se si esegue l'aggiornamento da un aggiornamento cumulativo di Exchange 2013 a Exchange 2013 SP1 e si attiva MAPI tramite HTTP, i client che si connettono a un server di Exchange 2013 SP1 usando il protocollo potrebbero rilevare un peggioramento delle prestazioni. Questo perché le impostazioni necessarie non vengono configurate durante un aggiornamento da un aggiornamento cumulativo a Exchange 2013 SP1. Questo problema non si verifica se si esegue l'aggiornamento a Exchange 2013 SP1 da Exchange 2013 RTM o se si installa un nuovo server di Exchange 2013 SP1 o versione successiva.
     
 
@@ -176,14 +177,16 @@ Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
     
     1.  Nei server che eseguono il ruolo del server Accesso client, eseguire i seguenti comandi in un prompt dei comandi di Windows:
         
+        ```powershell
             set AppCmdLocation=%windir%\System32\inetsrv
             set ExchangeLocation=%ProgramFiles%\Microsoft\Exchange Server\V15
             
             %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiFrontEndAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiFrontEndAppPool_CLRConfig.config"
             %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiFrontEndAppPool"
-    
+        ```
     2.  Nei server che eseguono il ruolo del server Cassette postali, eseguire i seguenti comandi in un prompt dei comandi di Windows:
         
+        ```powershell
             set AppCmdLocation=%windir%\System32\inetsrv
             set ExchangeLocation=%ProgramFiles%\Microsoft\Exchange Server\V15
             
@@ -192,7 +195,8 @@ Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
             
             %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiAddressBookAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiAddressBookAppPool_CLRConfig.config"
             %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiAddressBookAppPool"
-
+        ```
+        
 ## Coesistenza di Exchange 2010
 
   - **La richiesta di accesso alle cassette postali di Exchange 2010 potrebbe non funzionare quando è proxy attraverso i server Accesso client di Exchange 2013**   In alcune situazioni, la richiesta proxy tra i server Accesso client di Exchange 2013 e Exchange 2010 Service Pack 3 (SP3) senza pacchetti di aggiornamento cumulativo installati potrebbero non funzionare correttamente e viene visualizzato un errore. Questo problema si verifica in presenza di tutte le seguenti condizioni:
