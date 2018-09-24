@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Creare un gruppo di disponibilità del database: Exchange 2013 Help'
 TOCTitle: Creare un gruppo di disponibilità del database
 ms:assetid: d6b98299-e203-488b-af73-50753fe152c8
@@ -98,7 +98,9 @@ New-DatabaseAvailabilityGroup -Name DAG2 -DatabaseAvailabilityGroupIPAddresses 1
 
 Questo esempio crea un DAG denominato DAG3. DAG3 è configurato per utilizzare un server di controllo MBX2 e una directory locale C:\\DAG3. A DAG3 vengono assegnati più indirizzi IP statici, perché le reti MAPI dei relativi membri DAG si trovano in subnet diverse.
 
+```powershell
     New-DatabaseAvailabilityGroup -Name DAG3 -WitnessServer MBX2 -WitnessDirectory C:\DAG3 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,192.168.0.8
+```
 
 Con questo esempio viene creato il DAG DAG4 configurato per utilizzare DHCP. Inoltre, il server di controllo verrà selezionato automaticamente dal sistema e verrà creata la directory predefinita del server di controllo.
 
@@ -108,7 +110,9 @@ New-DatabaseAvailabilityGroup -Name DAG4
 
 In questo esempio viene creato il DAG DAG5 che non avrà un punto di accesso amministrativo (valido solo per i DAG di Windows Server 2012 R2). Inoltre, MBX4 verrà utilizzato come server di controllo per il DAG e verrà creata la directory di controllo predefinita.
 
+```powershell
     New-DatabaseAvailabilityGroup -Name DAG5 -DatabaseAvailabilityGroupIPAddresses ([System.Net.IPAddress]::None) -WitnessServer MBX4
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -119,8 +123,8 @@ Per verificare la creazione corretta di un DAG, effettuare una delle operazioni 
   - In Shell eseguire il comando seguente per verificare la creazione del DAG e visualizzare le informazioni sulle proprietà relative.
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName> | Format-List
-```
+        Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```
 
 ## Ulteriori informazioni
 
