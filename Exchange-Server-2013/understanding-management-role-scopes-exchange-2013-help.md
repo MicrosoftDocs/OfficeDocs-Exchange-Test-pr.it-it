@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Comprensione degli ambiti di gestione dei ruoli: Exchange 2013 Help'
 TOCTitle: Comprensione degli ambiti di gestione dei ruoli
 ms:assetid: 24ed4a38-438a-4223-9f9c-5d4dea4b046b
@@ -964,7 +964,8 @@ Alcuni cmdlet può utilizzare gli ambiti di configurazione non immediatamente ev
 
 Gli ambiti dei database prima introdotti in Microsoft Exchange 2010 Service Pack 1 (SP1) e continuano a essere supportato in Exchange 2013. Versioni di Exchange prima Exchange 2010 SP1 supportano solo gli ambiti dei destinatari e gli ambiti di configurazione di server. Quando si crea un nuovo ambito di database in un Exchange 2010 SP1 o versione successiva, si riceverà il messaggio di avviso seguente:
 
-    WARNING: Database management scopes will only be applied when a user connects to a server running Exchange 2010 SP1 or later. Servers running a version of Exchange prior to Exchange 2010 SP1 won't apply any roles from a role assignment linked to a database scope. Database management scopes also won't be visible to the Get-ManagementScope cmdlet when it's run from a pre-Exchange 2010 SP1 server.
+> [!WARNING
+> Database management scopes will only be applied when a user connects to a server running Exchange 2010 SP1 or later. Servers running a version of Exchange prior to Exchange 2010 SP1 won't apply any roles from a role assignment linked to a database scope. Database management scopes also won't be visible to the Get-ManagementScope cmdlet when it's run from a pre-Exchange 2010 SP1 server.
 
 Quando si crea un ambito di database, viene applicata solo agli utenti che si connettono al server che eseguono Exchange 2010 SP1 o versione successiva. Gli utenti che si connettono al server di pre-Exchange 2010 SP1 non dispongono di tutte le assegnazioni di ruolo associate applicati a tali ambiti di database. Ciò significa che le autorizzazioni fornite da queste assegnazioni di ruolo non vengono concesse agli utenti quando si connettono al server di pre-Exchange 2010 SP1. Impossibile creare, rimuovere, modificare o visualizzati dai server di pre-Exchange 2010 SP1 gli ambiti dei database.
 
