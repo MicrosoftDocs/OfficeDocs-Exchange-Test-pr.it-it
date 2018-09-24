@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Requisiti di sistema di Exchange 2013: Exchange 2013 Help'
 TOCTitle: Requisiti di sistema di Exchange 2013
 ms:assetid: 1e80857c-b870-4a6d-a0f4-ff7b3a7be037
