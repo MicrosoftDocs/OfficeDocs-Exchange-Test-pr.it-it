@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Config. periodo mantenimento eliminati e ripristinabili: Exchange 2013 Help'
 TOCTitle: Configurare il periodo di mantenimento degli elementi eliminati e delle quote di elementi ripristinabili
 ms:assetid: de7d667a-1c93-4364-a4f9-2aa5e3678b12
@@ -83,8 +83,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox
 
 Con questo esempio vengono configurate la quota di avviso degli elementi recuperabili e la quota degli elementi recuperabili della cassetta postale di April Stewart rispettivamente su 12 GB e 15 GB.
 
+```powershell
     Set-Mailbox -Identity "April Stewart" -RecoverableItemsWarningQuota 12GB -RecoverableItemsQuota 15GB -UseDatabaseQuotaDefaults $false
-
+```
 
 > [!NOTE]
 > Per configurare una cassetta postale in modo da utilizzare quote per gli elementi recuperabili diverse da quella del database delle cassette postali in cui risiede, è necessario impostare il parametro <EM>UseDatabaseQuotaDefaults</EM> su <CODE>$false</CODE>.
