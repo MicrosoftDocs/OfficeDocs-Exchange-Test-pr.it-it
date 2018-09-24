@@ -66,8 +66,8 @@ Per verificare di aver correttamente abilitato o disabilitato la generazione del
 1.  Eseguire il comando indicato di seguito:
     
     ```powershell
-Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
-```
+        Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+    ```
 
 2.  Verificare che l'impostazione visualizzata sia quella che è stata configurata.
 
