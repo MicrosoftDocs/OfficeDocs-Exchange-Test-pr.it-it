@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Configurazione del flusso di posta e di Accesso client: Exchange 2013 Help'
 TOCTitle: Configurazione del flusso di posta e di Accesso client
 ms:assetid: 4acc7f2a-93ce-468c-9ace-d5f7eecbd8d4
@@ -337,13 +337,14 @@ Per ulteriori informazioni relative agli URL interni ed esterni sulle directory 
 2.  Archiviare il nome host del server Accesso client in una variabile che verrà utilizzata nel passaggio successivo. Ad esempio, Ex2013CAS.
     
     ```powershell
-$HostName = "Ex2013CAS"
-```
+        $HostName = "Ex2013CAS"
+    ```
 
 3.  Utilizzare i seguenti comandi in Shell per configurare ciascun URL interno in modo che sia uguale all'URL esterno della directory virtuale.
     
+    ```powershell
         Set-EcpVirtualDirectory "$HostName\ECP (Default Web Site)" -InternalUrl ((Get-EcpVirtualDirectory "$HostName\ECP (Default Web Site)").ExternalUrl)
-        
+                
         Set-WebServicesVirtualDirectory "$HostName\EWS (Default Web Site)" -InternalUrl ((get-WebServicesVirtualDirectory "$HostName\EWS (Default Web Site)").ExternalUrl)
         
         Set-ActiveSyncVirtualDirectory "$HostName\Microsoft-Server-ActiveSync (Default Web Site)" -InternalUrl ((Get-ActiveSyncVirtualDirectory "$HostName\Microsoft-Server-ActiveSync (Default Web Site)").ExternalUrl)
@@ -353,11 +354,14 @@ $HostName = "Ex2013CAS"
         Set-OwaVirtualDirectory "$HostName\OWA (Default Web Site)" -InternalUrl ((Get-OwaVirtualDirectory "$HostName\OWA (Default Web Site)").ExternalUrl)
         
         Set-PowerShellVirtualDirectory "$HostName\PowerShell (Default Web Site)" -InternalUrl ((Get-PowerShellVirtualDirectory "$HostName\PowerShell (Default Web Site)").ExternalUrl)
+    ```
 
 4.  Durante l'utilizzo di Shell, è possibile configurare anche la rubrica offline (OAB) per consentire all'individuazione automatica di selezionare la directory virtuale corretta per distribuire la rubrica offline. A tale scopo, eseguire i comandi riportati di seguito.
     
+    ```powershell
         Get-OfflineAddressBook | Set-OfflineAddressBook -GlobalWebDistributionEnabled $True -VirtualDirectories $Null
-
+    ```
+    
 Dopo aver configurato l'URL interno sulle directory virtuali del server Accesso client, è necessario configurare i record DNS privati per Outlook Web App e altri sistemi di connettività. In base alla configurazione, sarà necessario configurare i record DNS privati in modo che puntino all'indirizzo IP interno o esterno o al nome di dominio completo del server Accesso client. Di seguito sono riportati alcuni esempi di record DNS di cui si consiglia la creazione per abilitare la connettività dei client interni.
 
 
@@ -477,9 +481,10 @@ Per verificare che i record DNS privati siano stati configurati correttamente, f
 
 
 8.  Infine, è necessario aprire Shell e configurare la rubrica offline (OAB) per consentire all'individuazione automatica di selezionare la directory virtuale corretta per distribuire la rubrica offline. A tale scopo, eseguire i comandi riportati di seguito.
-    
+    ```powershell
         Get-OfflineAddressBook | Set-OfflineAddressBook -GlobalWebDistributionEnabled $True -VirtualDirectories $Null
-
+    ```
+    
 Dopo aver configurato l'URL interno sulle directory virtuali del server Accesso client, è necessario configurare i record DNS privati per Outlook Web App e altri sistemi di connettività. In base alla configurazione, sarà necessario configurare i record DNS privati in modo che puntino all'indirizzo IP interno o esterno o al nome di dominio completo del server Accesso client. Di seguito viene fornito un esempio di un record DNS che è consigliabile creare per abilitare la connettività client interna se gli URL interni delle directory virtuali utilizzano internal.contoso.com.
 
 
