@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Esecuzione di un ripristino del segnale: Exchange 2013 Help'
 TOCTitle: Esecuzione di un ripristino del segnale
 ms:assetid: 158817fa-4b17-4fa9-8341-a86609e6a388
@@ -71,8 +71,6 @@ La portabilità consente agli utenti di disporre di una cassetta postale tempora
     
     ```powershell
         Mount-Database -Identity RDB1
-    ```
-    ```powershell
         Dismount-Database -Identity RDB1
     ```
 8.  Dopo che l'RDB sarà stato smontato, spostare il database e i file di registro correnti all'interno della cartella dell'RDB in una posizione più sicura. Ciò viene fatto in preparazione dello scambio del database ripristinato con il database del segnale di linea.
@@ -112,9 +110,11 @@ La portabilità consente agli utenti di disporre di una cassetta postale tempora
 
 14. Quando l'operazione di ripristino sarà stata completata, sarà possibile disinstallare e rimuovere l'RDB, come mostrato nell'esempio seguente.
     
+    ```powershell
         Dismount-Database -Identity RDB1
         Remove-MailboxDatabase -Identity RDB1
-
+    ```
+    
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti seguenti:
 
   - [New-MailboxDatabase](https://technet.microsoft.com/it-it/library/aa997976\(v=exchg.150\))
