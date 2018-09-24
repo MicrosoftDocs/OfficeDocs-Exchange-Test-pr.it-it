@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Configurazione Offload di SSL in Exchange 2013: Exchange 2013 Help'
 TOCTitle: Configurazione Offload di SSL in Exchange 2013
 ms:assetid: 654cc2c2-918b-48fc-9532-9c8e3012810d
@@ -255,9 +255,10 @@ Per abilitare la ripartizione del carico di lavoro SSL per Exchange ActiveSync (
       - Utilizzando Gestione Internet Information Services (IIS), espandere **Siti** \> **Sito Web predefinito**, quindi selezionare la directory virtuale **Microsoft-Server-ActiveSync**. Nel riquadro dei risultati, in **IIS**, fare doppio clic su **Impostazioni SSL**. Nel riquadro dei risultati **Impostazioni SSL**, deselezionare la casella di controllo **Richiesta SSL**, quindi fare clic su **Applica** nel riquadro **Azioni**.
     
       - Utilizzando la riga di comando, digitare quanto segue e premere Invio.
-        
+        ```powershell
             appcmd set config "Default Web Site/MSExchangeSyncAppPool" /section:access /sslFlags:None /commit:APPHOST
-
+        ```
+        
   - **Passaggio 2**   È necessario riavviare il pool di applicazioni corretto o Internet Information Services adottando uno dei metodi seguenti:
     
       - Utilizzo di una riga di comando: Andare a **Start** \> **Esegui**, digitare **cmd** e premere Invio. Nella finestra del prompt dei comandi, digitare quanto segue e premere Invio.
@@ -449,9 +450,7 @@ iisreset /noforce
     &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/Microsoft-Server-ActiveSync" /section:access /sslFlags:None /commit:APPHOST
     &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
     &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
-```
-```powershell
-iisreset /noforce
+    iisreset /noforce
 ```
 
 Torna all'inizio
