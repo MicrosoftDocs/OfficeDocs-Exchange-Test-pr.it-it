@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Visualizzazione voci di ruolo: Exchange 2013 Help'
 TOCTitle: Visualizzazione voci di ruolo
 ms:assetid: d9bb0d14-db59-456c-8f50-a8d7f7323df9
@@ -59,11 +59,15 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Get-Managemen
 
 Per visualizzare un elenco delle voci di ruolo in un ruolo specifico, utilizzare la seguente sintassi.
 
+```powershell
     Get-ManagementRoleEntry <role name>\*
+```
 
 Con questo esempio vengono recuperate tutte le voci di ruolo nel ruolo `Recipient Administrators`.
 
+```powershell
     Get-ManagementRole "Recipient Administrators\*"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd335210\(v=exchg.150\)).
 
@@ -71,11 +75,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per visualizzare un elenco di tutti i ruoli che contengono una voce di ruolo specifica, utilizzare la seguente sintassi.
 
+```powershell
     Get-ManagementRoleEntry *\<cmdlet name>
+```
 
 Con questo esempio vengono recuperati tutti i ruoli contenenti la voce di ruolo **Set-Mailbox**.
 
+```powershell
     Get-ManagementRoleEntry *\Set-Mailbox
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleEntry](https://technet.microsoft.com/it-it/library/dd335210\(v=exchg.150\)).
 
