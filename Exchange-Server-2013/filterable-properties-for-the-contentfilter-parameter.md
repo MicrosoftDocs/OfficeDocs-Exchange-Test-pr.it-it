@@ -48,7 +48,11 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>String</p>
 <p>Wildcard</p></td>
 <td>
-<code>-ContentFilter {All -like '*Ayla*'}</code>
+  
+```powershell
+   -ContentFilter {All -like '*Ayla*'}
+```
+  
 </td>
 </tr>
 <tr class="even">
@@ -57,7 +61,10 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>Stringa</p>
 <p>Wildcard</p></td>
 <td>
-<code>-ContentFilter {Attachment -like '*.jpg'}</code>
+```powershell
+   -ContentFilter {Attachment -like '*.jpg'}
+```
+  
 </td>
 </tr>
 <tr class="odd">
@@ -69,7 +76,11 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>LegacyDN</p>
 <p>Wildcard</p></td>
 <td>
-<code>-ContentFilter {(BCC -eq 'ayla@contoso.com') -or (BCC -eq 'tony@contoso.com')}</code>
+  
+```powershell
+    -ContentFilter {(BCC -eq 'ayla@contoso.com') -or (BCC -eq 'tony@contoso.com')}
+```
+  
 </td>
 </tr>
 <tr class="even">
@@ -78,7 +89,9 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>Stringa</p>
 <p>Wildcard</p></td>
 <td>
-<code>-ContentFilter {Body -like '*prospectus*'}</code>
+```powershell
+    -ContentFilter {Body -like '*prospectus*'}
+```
 </td>
 </tr>
 <tr class="odd">
@@ -87,7 +100,9 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>Stringa</p>
 <p>Wildcard</p></td>
 <td>
-<code>-ContentFilter {Category -like '*Blue*'}</code>
+```powershell
+    -ContentFilter {Category -like '*Blue*'}
+```
   
 </td>
 </tr>
@@ -100,7 +115,12 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>LegacyDN</p>
 <p>Wildcard</p></td>
 <td>
-<code>-ContentFilter {(CC -eq 'ayla@contoso.com') -or (CC -eq 'tony@contoso.com')}</code></td>
+  
+```powershell
+    -ContentFilter {(CC -eq 'ayla@contoso.com') -or (CC -eq 'tony@contoso.com')}
+```
+  
+</td>
 </tr>
 <tr class="odd">
 <td><p>Expires</p></td>
@@ -108,7 +128,9 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>Indicatore data e ora</p></td>
 <td>
 
-<code>-ContentFilter {Expires -lt '01/01/2013'}</code>
+```powershell
+    -ContentFilter {Expires -lt '01/01/2013'}
+```
 
 </td>
 </tr>
@@ -117,8 +139,11 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>Questa proprietà restituisce messaggi con o senza allegati.</p></td>
 <td><p>Booleano</p>
 <p><code>$true</code> o <code>$false</code></p></td>
-<td
-<code>-ContentFilter {HasAttachment -eq $true}</code>
+<td>
+
+```powershell
+    -ContentFilter {HasAttachment -eq $true}
+```
 
 </td>
 </tr>
@@ -129,9 +154,14 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>1 o &quot;Normale&quot;</p>
 <p>2 o &quot;Alta&quot;</p></td>
 <td>
-<code>-ContentFilter {Importance -eq 'high'}</code>
 
-<code>-ContentFilter {Importance -eq 2}</code>
+```powershell
+    -ContentFilter {Importance -eq 'high'}
+```
+
+```powershell
+    -ContentFilter {Importance -eq 2}
+```
 
 </td>
 </tr>
@@ -142,7 +172,9 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p><code>$true</code> oppure <code>$false</code></p></td>
 <td>
 
-<code>-ContentFilter {IsFlagged -eq $true}</code>
+```powershell
+   -ContentFilter {IsFlagged -eq $true}
+```
 
 </td>
 </tr>
@@ -152,7 +184,9 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>Booleano</p>
 <p><code>$true</code> oppure <code>$false</code></p></td>
 <td>
-<code>-ContentFilter {IsRead -eq $true}</code>
+```powershell
+   -ContentFilter {IsRead -eq $true}
+```
 
 </td>
 </tr>
@@ -173,10 +207,14 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Segreteria telefonica</p></td>
 <td>
 
-<code>-ContentFilter {MessageKind -eq 'Calendar'}</code>
+```powershell
+   -ContentFilter {MessageKind -eq 'Calendar'}
+```
 
 
-<code>-ContentFilter {MessageKind -ne 'Email'}</code>
+```powershell
+   -ContentFilter {MessageKind -ne 'Email'}
+```
 
 </td>
 </tr>
@@ -186,9 +224,13 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>CultureInfo</p></td>
 <td>
 
-<code>-ContentFilter {MessageLocale -ne 'en-US'}</code>
+```powershell
+   -ContentFilter {MessageLocale -ne 'en-US'}
+```
 
-<code>-ContentFilter {MessageLocale -eq 'tr-TR'}</code>
+```powershell
+   -ContentFilter {MessageLocale -eq 'tr-TR'}
+```
 
 </td>
 </tr>
@@ -202,7 +244,9 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Wildcard</p></td>
 <td>
 
-<code>-ContentFilter {(Participants -eq 'ayla@contoso.com') -or (Participants -eq 'tony@contoso.com')}</code>
+```powershell
+   -ContentFilter {(Participants -eq 'ayla@contoso.com') -or (Participants -eq 'tony@contoso.com')}
+```
 
 </td>
 </tr>
@@ -214,7 +258,9 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Wildcard</p></td>
 <td>
 
-<code>-ContentFilter {PolicyTag -ne '00000000-0000-0000-0000-000000000000'}</code>
+```powershell
+   -ContentFilter {PolicyTag -ne '00000000-0000-0000-0000-000000000000'}
+```
 
 </td>
 </tr>
@@ -224,9 +270,13 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>Indicatore data e ora</p></td>
 <td>
 
-<code>-ContentFilter {Received -lt '01/01/2013 9:00'}</code>
+```powershell
+   -ContentFilter {Received -lt '01/01/2013 9:00'}
+```
 
-<code>-ContentFilter {(Received -lt '01/01/2013') -and (Received -gt '01/01/2012')}</code>
+```powershell
+   -ContentFilter {(Received -lt '01/01/2013') -and (Received -gt '01/01/2012')}
+```
 
 </td>
 </tr>
@@ -240,7 +290,9 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Wildcard</p></td>
 <td>
 
-<code>-ContentFilter ContentFilter {Sender -eq 'tony'}</code>
+```powershell
+   -ContentFilter ContentFilter {Sender -eq 'tony'}
+```
 
 </td>
 </tr>
@@ -250,9 +302,14 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>Indicatore data e ora</p></td>
 <td>
 
-<code>-ContentFilter {Sent -lt '01/01/2013 9:00'}</code>
+```powershell
+   -ContentFilter {Sent -lt '01/01/2013 9:00'}
+```
 
-<code>-ContentFilter {(Sent -lt '01/01/2013') -and (Sent -gt '01/01/2012')}</code>
+```powershell
+   -ContentFilter {(Sent -lt '01/01/2013') -and (Sent -gt '01/01/2012')}
+```
+
 </td>
 </tr>
 <tr class="odd">
@@ -263,7 +320,9 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>MB (megabyte)</p></td>
 <td>
 
-<code>-ContentFilter {Size -gt '10KB'}</code>
+```powershell
+   -ContentFilter {Size -gt '10KB'}
+```
 
 </td>
 </tr>
@@ -274,7 +333,10 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Wildcard</p></td>
 <td>
 
-<code>-ContentFilter {Subject -like '*meeting*'}</code>
+```powershell
+   -ContentFilter {Subject -like '*meeting*'}
+```
+
 </td></tr>
 <tr class="odd">
 <td><p>To</p></td>
@@ -285,7 +347,11 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>LegacyDN</p>
 <p>Wildcard</p></td>
 <td>
-<code> -ContentFilter {To -eq 'aylakol'}</code>
+
+```powershell
+   -ContentFilter {To -eq 'aylakol'}
+```
+  
 </td>
 </tr>
 </tbody>
