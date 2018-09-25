@@ -258,9 +258,10 @@ Configurare la modalità di avvio della messaggistica unificata su un server Cas
 5.  Dopo aver selezionato la modalità di avvio della messaggistica unificata, fare clic su **Salva**.
 
 Configurare la modalità di avvio della messaggistica unificata su un server Cassette postali di Exchange 2013 eseguendo in Shell il comando riportato di seguito.
-
+    ```powershell
     Set-UMService -Identity MyUMServer -ExternalHostFqdn host.external.contoso.com -IPAddressFamily Any -UMStartupMode Dual
-
+    ```
+    
 ## Passaggio 7: Creare o configurare i dial plan di messaggistica unificata esistenti
 
 In base alla distribuzione di Exchange 2010 corrente, è possibile che venga richiesto di creare nuovi dial plan di messaggistica unificata o configurare i dial plan esistenti. Un dial plan di messaggistica unificata rappresenta un insieme di sistemi PBX (Private Branch eXchange) abilitati al SIP tradizionali o IP PBX che condividono i numeri di interni comuni degli utenti. Gli interni di tutti gli utenti ospitati sui PBX abilitati al SIP tradizionali o IP PBX in un dial plan contengono lo stesso numero di cifre. Gli utenti possono chiamarsi digitando l'interno telefonico senza aggiungere un numero particolare o digitare un numero di telefono completo.
@@ -414,9 +415,10 @@ Se necessario, è possibile creare un operatore automatico di messaggistica unif
 4.  Fare clic su **Salva**.
 
 Se necessario, è possibile creare un operatore automatico di messaggistica unificata eseguendo nella shell il comando riportato di seguito.
-    ```powershell
+
+```powershell
         New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
-    ```
+```
 
 Se necessario, è possibile configurare un operatore automatico di messaggistica unificata esistente utilizzando l'interfaccia di amministrazione di Exchange, nel modo riportato di seguito:
 
