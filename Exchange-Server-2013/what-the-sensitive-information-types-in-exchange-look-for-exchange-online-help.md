@@ -66,7 +66,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_ABA_Routing" />
       </Pattern>
  </Entity>
-
 ```
 
 </td>
@@ -156,7 +155,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
       <Match idRef="Keyword_argentina_national_id"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -248,7 +246,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_australia_bank_account_number" />
   </Pattern>
  </Entity>
-
 ```
 
 </td>
@@ -341,7 +338,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -526,7 +522,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      </Any>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -604,7 +599,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
    </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -729,7 +723,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -843,7 +836,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_belgium_national_number"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -950,7 +942,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_brazil_cnpj"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -1057,7 +1048,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_brazil_cpf"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -1165,7 +1155,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_brazil_rg"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -1260,7 +1249,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_canada_bank_account_number" />
    </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -1394,7 +1382,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_canada_drivers_license" />
       </Pattern>
     </Entity>
-
 ```
 
 </td>
@@ -1596,7 +1583,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -1674,7 +1660,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -1771,7 +1756,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -1899,7 +1883,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_sin" />
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -2006,7 +1989,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_chile_id_card"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -2099,7 +2081,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_china_resident_id"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -2193,7 +2174,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <IdMatch idRef="Func_credit_card" />
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -2452,7 +2432,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_croatia_id_card"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -2533,7 +2512,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_croatia_oib_number"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -2608,7 +2586,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_czech_id_card"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -2682,7 +2659,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_denmark_id"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -2756,7 +2732,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_dea_number"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -2819,7 +2794,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
       </Pattern>
     </Entity>
-
 ```
 
 </td>
@@ -3194,7 +3168,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
           <Match idRef="Keyword_finnish_national_id" />
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -3268,7 +3241,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_finland_passport_number"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -3343,7 +3315,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -3416,7 +3387,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <IdMatch idRef="Regex_france_cni" />
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -3470,7 +3440,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_passport" />
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -3575,7 +3544,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -3679,7 +3647,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -3857,7 +3824,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_germany_id_card"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -3959,7 +3925,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4059,7 +4024,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_greece_id_card"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4143,7 +4107,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_hong_kong_id_card"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4220,7 +4183,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_india_permanent_account_number"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4304,7 +4266,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_india_aadhaar"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4391,7 +4352,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Regex_indonesia_id_card"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4469,7 +4429,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <IdMatch idRef="Func_iban" />
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4549,7 +4508,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
       </Pattern>
     </Entity>
-
 ```
 
 </td>
@@ -4655,7 +4613,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_ireland_pps"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4745,7 +4702,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4818,7 +4774,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4894,7 +4849,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -4991,7 +4945,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_jp_bank_account" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5117,7 +5070,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef ="Keyword_jp_drivers_license_number" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5212,7 +5164,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_jp_passport" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5282,7 +5233,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef ="Keyword_jp_resident_registration_number" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5375,7 +5325,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_jp_sin" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5455,7 +5404,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
             <Match idRef="Keyword_malaysia_id_card_number" />
         </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5538,7 +5486,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
        <Match idRef="Func_eu_date2" /> 
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5613,7 +5560,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5697,7 +5643,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_norway_id_number"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5776,7 +5721,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_philippines_id"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5847,7 +5791,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
           <Match idRef="Keyword_polish_national_id_passport_number" />
       </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -5917,7 +5860,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
           <Match idRef="Keyword_pesel_identification_number" />
       </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6056,7 +5998,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_portugal_citizen_card"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6129,7 +6070,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6213,7 +6153,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Regex_singapore_nric"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6295,7 +6234,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_south_africa_identification_number"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6381,7 +6319,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <IdMatch idRef="Func_south_korea_resident_number"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6458,7 +6395,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <IdMatch idRef="Func_spanish_social_security_number" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6512,7 +6448,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <IdMatch idRef="Func_swedish_national_identifier" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6568,7 +6503,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6672,7 +6606,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_swift" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6775,7 +6708,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
           <Match idRef="Keyword_taiwanese_national_id" />
       </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6872,7 +6804,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_taiwan_passport"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -6950,7 +6881,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
      <Match idRef="Keyword_taiwan_resident_certificate"/>
   </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -7035,7 +6965,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_uk_drivers_license" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -7118,7 +7047,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -7205,7 +7133,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -7321,7 +7248,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -7398,7 +7324,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_passport" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -7482,7 +7407,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         <Match idRef="Keyword_usa_Bank_Account" />
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -7805,7 +7729,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
     </Pattern>
 </Entity>
-
 ```
 
 </td>
@@ -7940,7 +7863,6 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
         </Any>
       </Pattern>
     </Entity>
-
 ```
 
 </td>
