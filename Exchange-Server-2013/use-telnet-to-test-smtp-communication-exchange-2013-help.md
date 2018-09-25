@@ -109,8 +109,12 @@ Nell'esempio riportato vengono utilizzati i seguenti valori:
 > <LI>
 > <P>I comandi nel client Telnet non rilevano la distinzione tra maiuscole e minuscole. I verbi dei comandi SMTP sono resi al maiuscolo per maggiore chiarezza.</P>
 > <LI>
-> <P>Non è possibile utilizzare BACKSPACE dopo essersi connessi al server SMTP di destinazione durante la sessione di Telnet. Se si commette un errore durante la digitazione di un comando SMTP, è necessario premere INVIO e digitare nuovamente il comando. I comandi SMTP non riconosciuti e gli errori di sintassi causano la visualizzazione di un messaggio di errore simile al seguente:</P> <code>
-  500 5.3.3 Unrecognized command</code> </LI></UL>
+> <P>Non è possibile utilizzare BACKSPACE dopo essersi connessi al server SMTP di destinazione durante la sessione di Telnet. Se si commette un errore durante la digitazione di un comando SMTP, è necessario premere INVIO e digitare nuovamente il comando. I comandi SMTP non riconosciuti e gli errori di sintassi causano la visualizzazione di un messaggio di errore simile al seguente:</P>
+> 
+> ```powershell
+> 500 5.3.3 Unrecognized command
+> ```
+> </LI></UL>
 
 
 
