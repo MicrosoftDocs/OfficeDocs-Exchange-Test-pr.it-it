@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Proprietà filtrabili per il parametro - ContentFilter: Exchange 2013 Help'
 TOCTitle: Proprietà filtrabili per il parametro - ContentFilter
 ms:assetid: cf504a59-1938-489c-bb48-b27b2ac3234e
@@ -47,14 +47,22 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>Questa proprietà restituisce tutti i messaggi con una stringa particolare in una delle proprietà indicizzate. Ad esempio, questa proprietà viene utilizzata per esportare tutti i messaggi con &quot;Ayla&quot; come destinatario, come mittente o con tale nome indicato nel corpo del messaggio.</p></td>
 <td><p>String</p>
 <p>Wildcard</p></td>
-<td><pre><code>-ContentFilter {All -like &#39;*Ayla*&#39;}</code></pre></td>
+<td>
+```powershell
+    -ContentFilter {All -like &#39;*Ayla*&#39;}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Attachment</p></td>
 <td><p>Questa proprietà restituisce i messaggi che contengono la stringa specificata nel contenuto di un allegato o nel nome file di un allegato.</p></td>
 <td><p>Stringa</p>
 <p>Wildcard</p></td>
-<td><pre><code>-ContentFilter {Attachment -like &#39;*.jpg&#39;}</code></pre></td>
+<td>
+```powershell
+    -ContentFilter {Attachment -like &#39;*.jpg&#39;}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Ccn</p></td>
@@ -64,21 +72,34 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Indirizzo SMTP</p>
 <p>LegacyDN</p>
 <p>Wildcard</p></td>
-<td><pre><code>-ContentFilter {(BCC -eq &#39;ayla@contoso.com&#39;) -or (BCC -eq &#39;tony@contoso.com&#39;)}</code></pre></td>
+<td>
+```powershell
+    -ContentFilter {(BCC -eq &#39;ayla@contoso.com&#39;) -or (BCC -eq &#39;tony@contoso.com&#39;)}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Corpo</p></td>
 <td><p>Questa proprietà restituisce i messaggi che contengono la stringa specificata nel corpo del messaggio.</p></td>
 <td><p>Stringa</p>
 <p>Wildcard</p></td>
-<td><pre><code>-ContentFilter {Body -like &#39;*prospectus*&#39;}</code></pre></td>
+<td>
+```powershell
+    -ContentFilter {Body -like &#39;*prospectus*&#39;}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Category</p></td>
 <td><p>Questa proprietà restituisce i messaggi con una categoria corrispondente. Le categorie vengono impostate dagli utenti o dalle regole della Posta in arrivo.</p></td>
 <td><p>Stringa</p>
 <p>Wildcard</p></td>
-<td><pre><code>-ContentFilter {Category -like &#39;*Blue*&#39;}</code></pre></td>
+<td>
+```powershell
+    -ContentFilter {Category -like &#39;*Blue*&#39;}
+```
+  
+</td>
 </tr>
 <tr class="even">
 <td><p>Cc</p></td>
@@ -88,20 +109,33 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Indirizzo SMTP</p>
 <p>LegacyDN</p>
 <p>Wildcard</p></td>
-<td><pre><code>-ContentFilter {(CC -eq &#39;ayla@contoso.com&#39;) -or (CC -eq &#39;tony@contoso.com&#39;)}</code></pre></td>
+<td>
+```powershell
+    -ContentFilter {(CC -eq &#39;ayla@contoso.com&#39;) -or (CC -eq &#39;tony@contoso.com&#39;)}</code></pre></td>
 </tr>
 <tr class="odd">
 <td><p>Expires</p></td>
 <td><p>Questa proprietà restituisce i messaggi che presentano un timestamp con la scadenza specificata.</p></td>
 <td><p>Indicatore data e ora</p></td>
-<td><pre><code>-ContentFilter {Expires -lt &#39;01/01/2013&#39;}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter {Expires -lt &#39;01/01/2013&#39;}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>HasAttachment</p></td>
 <td><p>Questa proprietà restituisce messaggi con o senza allegati.</p></td>
 <td><p>Booleano</p>
 <p><code>$true</code> o <code>$false</code></p></td>
-<td><pre><code>-ContentFilter {HasAttachment -eq $true}</code></pre></td>
+<td
+```powershell
+    -ContentFilter {HasAttachment -eq $true}
+```
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Importance</p></td>
@@ -109,22 +143,41 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>0 o &quot;Bassa&quot;</p>
 <p>1 o &quot;Normale&quot;</p>
 <p>2 o &quot;Alta&quot;</p></td>
-<td><pre><code>-ContentFilter {Importance -eq &#39;high&#39;}</code></pre>
-<pre><code>-ContentFilter {Importance -eq 2}</code></pre></td>
+<td>
+```powershell
+    -ContentFilter -ContentFilter {Importance -eq &#39;high&#39;}
+```
+
+```powershell
+    -ContentFilter -ContentFilter {Importance -eq 2}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>IsFlagged</p></td>
 <td><p>Questa proprietà restituisce i messaggi contrassegnati dall'utente o dalla regola della Posta in arrivo.</p></td>
 <td><p>Booleano</p>
 <p><code>$true</code> oppure <code>$false</code></p></td>
-<td><pre><code>-ContentFilter {IsFlagged -eq $true}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter -ContentFilter {IsFlagged -eq $true}
+```
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>IsRead</p></td>
 <td><p>Questa proprietà restituisce i messaggi letti o non letti dall'utente.</p></td>
 <td><p>Booleano</p>
 <p><code>$true</code> oppure <code>$false</code></p></td>
-<td><pre><code>-ContentFilter {IsRead -eq $true}</code></pre></td>
+<td>
+```powershell
+    -ContentFilter -ContentFilter {IsRead -eq $true}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>MessageKind</p></td>
@@ -141,15 +194,33 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>RSSFeed</p>
 <p>Attività</p>
 <p>Segreteria telefonica</p></td>
-<td><pre><code>-ContentFilter {MessageKind -eq &#39;Calendar&#39;}</code></pre>
-<pre><code>-ContentFilter {MessageKind -ne &#39;Email&#39;}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter -ContentFilter {MessageKind -eq &#39;Calendar&#39;}</code></pre>
+```
+
+```powershell
+    -ContentFilter -ContentFilter {MessageKind -ne &#39;Email&#39;}
+```
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>MessageLocalee</p></td>
 <td><p>Questa proprietà restituisce i messaggi con le impostazioni locali specificate.</p></td>
 <td><p>CultureInfo</p></td>
-<td><pre><code>-ContentFilter {MessageLocale -ne &#39;en-US&#39;}</code></pre>
-<pre><code>-ContentFilter {MessageLocale -eq &#39;tr-TR&#39;}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter -ContentFilter {MessageLocale -ne &#39;en-US&#39;}
+```
+
+```powershell
+    -ContentFilter -ContentFilter {MessageLocale -eq &#39;tr-TR&#39;}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Participants</p></td>
@@ -159,7 +230,13 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Indirizzo SMTP</p>
 <p>LegacyDN</p>
 <p>Wildcard</p></td>
-<td><pre><code>-ContentFilter {(Participants -eq &#39;ayla@contoso.com&#39;) -or (Participants -eq &#39;tony@contoso.com&#39;)}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter -ContentFilter {(Participants -eq &#39;ayla@contoso.com&#39;) -or (Participants -eq &#39;tony@contoso.com&#39;)}
+```
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>PolicyTag</p></td>
@@ -167,14 +244,29 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Se il valore fornito non è un valore GUID, il comando utilizzerà le informazioni di Active Directory per risolvere i nomi nei GUID.</p></td>
 <td><p>Stringa</p>
 <p>Wildcard</p></td>
-<td><pre><code>-ContentFilter {PolicyTag -ne &#39;00000000-0000-0000-0000-000000000000&#39;}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter -ContentFilter {PolicyTag -ne &#39;00000000-0000-0000-0000-000000000000&#39;}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Received</p></td>
 <td><p>Questa proprietà restituisce i messaggi ricevuti con il timestamp Received specificato.</p></td>
 <td><p>Indicatore data e ora</p></td>
-<td><pre><code>-ContentFilter {Received -lt &#39;01/01/2013 9:00&#39;}</code></pre>
-<pre><code>-ContentFilter {(Received -lt &#39;01/01/2013&#39;) -and (Received -gt &#39;01/01/2012&#39;)}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter -ContentFilter {Received -lt &#39;01/01/2013 9:00&#39;}</code></pre>
+```
+
+```powershell
+    -ContentFilter -ContentFilter {(Received -lt &#39;01/01/2013&#39;) -and (Received -gt &#39;01/01/2012&#39;)}
+```
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Mittente</p></td>
@@ -184,14 +276,28 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Indirizzo SMTP</p>
 <p>LegacyDN</p>
 <p>Wildcard</p></td>
-<td><pre><code>ContentFilter {Sender -eq &#39;tony&#39;}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter ContentFilter {Sender -eq &#39;tony&#39;}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Sent</p></td>
 <td><p>Questa proprietà restituisce i messaggi inviati con il timestamp Sent specificato.</p></td>
 <td><p>Indicatore data e ora</p></td>
-<td><pre><code>-ContentFilter {Sent -lt &#39;01/01/2013 9:00&#39;}</code></pre>
-<pre><code>-ContentFilter {(Sent -lt &#39;01/01/2013&#39;) -and (Sent -gt &#39;01/01/2012&#39;)}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter -ContentFilter {Sent -lt &#39;01/01/2013 9:00&#39;}</code></pre>
+```
+
+```powershell
+    -ContentFilter -ContentFilter {(Sent -lt &#39;01/01/2013&#39;) -and (Sent -gt &#39;01/01/2012&#39;)}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Size</p></td>
@@ -199,15 +305,25 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <td><p>B (byte)</p>
 <p>KB (kilobyte)</p>
 <p>MB (megabyte)</p></td>
-<td><pre><code>-ContentFilter {Size -gt &#39;10KB&#39;}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter -ContentFilter {Size -gt &#39;10KB&#39;}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Oggetto</p></td>
 <td><p>Questa proprietà restituisce i messaggi che contengono la stringa specificata nell'oggetto del messaggio.</p></td>
 <td><p>Stringa</p>
 <p>Wildcard</p></td>
-<td><pre><code>-ContentFilter {Subject -like &#39;*meeting*&#39;}</code></pre></td>
-</tr>
+<td>
+
+```powershell
+    -ContentFilter -ContentFilter {Subject -like &#39;*meeting*&#39;}
+```
+</td></tr>
 <tr class="odd">
 <td><p>To</p></td>
 <td><p>Questa proprietà restituisce i messaggi che contengono il destinatario specificato nel campo A.</p></td>
@@ -216,7 +332,12 @@ La tabella seguente contiene un elenco delle proprietà filtrabili del parametro
 <p>Indirizzo SMTP</p>
 <p>LegacyDN</p>
 <p>Wildcard</p></td>
-<td><pre><code>-ContentFilter {To -eq &#39;aylakol&#39;}</code></pre></td>
+<td>
+
+```powershell
+    -ContentFilter -ContentFilter {To -eq &#39;aylakol&#39;}
+```
+</td>
 </tr>
 </tbody>
 </table>
