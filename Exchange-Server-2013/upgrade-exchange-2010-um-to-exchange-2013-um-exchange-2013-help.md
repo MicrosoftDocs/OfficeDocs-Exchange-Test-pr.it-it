@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Aggiorna messagg. unificata Exchange 2007 a Exchange 2010: Exchange 2013 Help'
 TOCTitle: Aggiornamento dalla messaggistica unificata di Exchange 2007 alla messaggistica unificata di Exchange 2010
 ms:assetid: 01aa5dab-689b-4738-afab-0d2f11a60b39
@@ -414,8 +414,9 @@ Se necessario, è possibile creare un operatore automatico di messaggistica unif
 4.  Fare clic su **Salva**.
 
 Se necessario, è possibile creare un operatore automatico di messaggistica unificata eseguendo nella shell il comando riportato di seguito.
-
-    New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
+    ```powershell
+        New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
+    ```
 
 Se necessario, è possibile configurare un operatore automatico di messaggistica unificata esistente utilizzando l'interfaccia di amministrazione di Exchange, nel modo riportato di seguito:
 
@@ -656,7 +657,10 @@ Set-UMServer -id MyUMServer -DialPlans SipDP1
 
 
 > [!TIP]
-> È possibile utilizzare il cmdlet <STRONG>Set-UMServer</STRONG>in Shell su un server di messaggistica unificata di Exchange 2010 o il cmdlet <STRONG>Set-UMService</STRONG> su un server per cassette postali di Exchange 2013 per l'eliminazione di un server di messaggistica unificata di Exchange 2010 da uno o più dial plan. Ad esempio, per rimuovere il server di messaggistica unificata da tutti i dial plan, eseguire il seguente comando: <CODE>Set-UMServer -identity MyUMServer -DialPlans $null</CODE>
+> È possibile utilizzare il cmdlet <STRONG>Set-UMServer</STRONG>in Shell su un server di messaggistica unificata di Exchange 2010 o il cmdlet <STRONG>Set-UMService</STRONG> su un server per cassette postali di Exchange 2013 per l'eliminazione di un server di messaggistica unificata di Exchange 2010 da uno o più dial plan. Ad esempio, per rimuovere il server di messaggistica unificata da tutti i dial plan, eseguire il seguente comando: 
+> ```powershell
+>     Set-UMServer -identity MyUMServer -DialPlans $null
+> ```
 
 
 
