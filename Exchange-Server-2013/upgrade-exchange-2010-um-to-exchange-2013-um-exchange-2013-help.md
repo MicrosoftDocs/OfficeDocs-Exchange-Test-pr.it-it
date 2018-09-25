@@ -258,9 +258,10 @@ Configurare la modalità di avvio della messaggistica unificata su un server Cas
 5.  Dopo aver selezionato la modalità di avvio della messaggistica unificata, fare clic su **Salva**.
 
 Configurare la modalità di avvio della messaggistica unificata su un server Cassette postali di Exchange 2013 eseguendo in Shell il comando riportato di seguito.
-    ```powershell
+    
+ ```powershell
     Set-UMService -Identity MyUMServer -ExternalHostFqdn host.external.contoso.com -IPAddressFamily Any -UMStartupMode Dual
-    ```
+ ```
     
 ## Passaggio 7: Creare o configurare i dial plan di messaggistica unificata esistenti
 
