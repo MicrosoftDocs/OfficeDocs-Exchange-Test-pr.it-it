@@ -373,9 +373,10 @@ Prima di associare gli SPN alla credenziale ASA, è necessario verificare che gl
 1.  Aprire Exchange Management Shell su un server Exchange 2013.
 
 2.  Per abilitare l'autenticazione Kerberos per i client Outlook via Internet, eseguire il comando seguente nel server Accesso client:
-    
+    ```powershell
         Get-OutlookAnywhere -server CAS-1 | Set-OutlookAnywhere -InternalClientAuthenticationMethod  Negotiate
-
+    ```
+    
 3.  Per abilitare l'autenticazione Kerberos per i client MAPI su HTTP, eseguire il comando seguente nel server Accesso client di Exchange 2013:
     
     ```powershell
