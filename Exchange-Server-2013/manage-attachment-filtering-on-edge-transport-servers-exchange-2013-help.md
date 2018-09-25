@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Gestione filtro allegati in server Trasporto Edge: Exchange 2013 Help'
 TOCTitle: Gestione di filtro degli allegati nei server Trasporto Edge
 ms:assetid: 2ec91cc6-6ade-48ee-88bb-66153874393d
@@ -103,7 +103,9 @@ Get-AttachmentFilteringEntry FileName:<FileName or FileNameExtension>
 
 Ad esempio, per visualizzare la voce dell'estensione del nome file per gli allegati JPEG, è possibile eseguire il comando riportato di seguito:
 
-    Get-AttachmentFilteringEntry FileName:*.jpg
+```powershell
+Get-AttachmentFilteringEntry FileName:*.jpg
+```
 
 ## Aggiunta delle voci del filtro degli allegati tramite Shell
 
