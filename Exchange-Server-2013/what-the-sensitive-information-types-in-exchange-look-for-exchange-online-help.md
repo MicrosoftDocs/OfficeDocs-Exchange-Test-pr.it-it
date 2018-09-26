@@ -58,6 +58,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_aba_routing</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_ABA_Routing</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- ABA Routing Number -->
 <Entity id="cb353f78-2b72-4c3c-8827-92ebe4f69fdf" patternsProximity="300" recommendedConfidence="75">
@@ -147,6 +148,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L' espressione regolare <code>Regex_argentina_national_id</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>È possibile trovare una parola chiave da <code>Keyword_argentina_national_id</code> .</p></li>
 </ul>
+
 ```powershell
 <!-- Argentina National Identity (DNI) Number -->
 <Entity id="eefbb00e-8282-433c-8620-8f1da3bffdb2" recommendedConfidence="75" patternsProximity="300">
@@ -233,6 +235,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_australia_bank_account_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_australia_bank_account_number</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Australia Bank Account Number -->
 <Entity id="74a54de9-2a30-4aa0-a8aa-3d9327fc07c7" patternsProximity="300" recommendedConfidence="75">
@@ -327,6 +330,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_australia_drivers_license_number</code>.</p></li>
 <li><p>Non vengono trovate parole chiava da <code>Keyword_australia_drivers_license_number_exclusions</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Australia Drivers License Number -->
 <Entity id="1cbbc8f5-9216-4392-9eb5-5ac2298d1356" patternsProximity="300" recommendedConfidence="75">
@@ -506,6 +510,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_australian_medical_account_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Australia Medical Account Number -->
 <Entity id="104a99a0-3d3b-4542-a40d-ab0b9e1efe63" recommendedConfidence="85" patternsProximity="300">
@@ -588,6 +593,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_australia_passport_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_passport</code> o da <code>Keyword_australia_passport_number</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Australia Passport Number -->
 <Entity id="29869db6-602d-4853-ab93-3484f905df50" patternsProximity="300" recommendedConfidence="75">
@@ -703,6 +709,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Non vengono trovate parole chiave da <code>Keyword_Australia_Tax_File_Number</code> o da <code>Keyword_number_exclusions</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Australia Tax File Number -->
 <Entity id="e29bc95f-ff70-4a37-aa01-04d17360a4c5" patternsProximity="300" recommendedConfidence="85">
@@ -828,6 +835,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>È possibile trovare una parola chiave da <code>Keyword_belgium_national_number</code> .</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Belgium National Number -->
   <Entity id="fb969c9e-0fd1-4b18-8091-a2123c5e6a54" recommendedConfidence="75" patternsProximity="300">
@@ -931,6 +939,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_brazil_cnpj</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Brazil Legal Entity Number (CNPJ) -->
 <Entity id="9b58b5cd-5e90-4df6-b34f-1ebcc88ceae4" recommendedConfidence="85" patternsProximity="300">
@@ -1037,6 +1046,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_brazil_cpf</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Brazil CPF Number -->
 <Entity id="78e09124-f2c3-4656-b32a-c1a132cd2711" recommendedConfidence="85" patternsProximity="300">
@@ -1144,6 +1154,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_brazil_rg</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Brazil National ID Card (RG) -->
 <Entity id="486de900-db70-41b3-a886-abdf25af119c" recommendedConfidence="85" patternsProximity="300">
@@ -1236,6 +1247,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_canada_bank_account_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_canada_bank_account_number</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Canada Bank Account Number -->
 <Entity id="552e814c-cb50-4d94-bbaa-bb1d1ffb34de" patternsProximity="300" recommendedConfidence="75">
@@ -1328,6 +1340,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_[province_name]_drivers_license_name</code>.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_canada_drivers_license</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Canada Driver&#39;s License Number -->
     <Entity id="37186abb-8e48-4800-ad3c-e3d1610b3db0" patternsProximity="300" recommendedConfidence="75">
@@ -1573,6 +1586,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_canada_health_service_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_canada_health_service_number</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Canada Health Service Number -->
 <Entity id="59c0bf39-7fab-482c-af25-00faa4384c94" patternsProximity="300" recommendedConfidence="75">
@@ -1649,6 +1663,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_canada_passport_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_canada_passport_number</code> o da <code>Keyword_passport</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Canada Passport Number -->
 <Entity id="14d0db8b-498a-43ed-9fca-f6097ae687eb" patternsProximity="300" recommendedConfidence="75">
@@ -1745,6 +1760,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_canada_phin</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Vengono trovate almeno due parole chiave da <code>Keyword_canada_phin</code> o da <code>Keyword_canada_provinces</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Canada PHIN -->
 <Entity id="722e12ac-c89a-4ec8-a1b7-fea3469f89db" patternsProximity="300" recommendedConfidence="75">
@@ -1867,6 +1883,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_sin</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Canada Social Insurance Number -->
 <Entity id="a2f29c85-ecb8-4514-a610-364790c0773e" patternsProximity="300" recommendedConfidence="75">
@@ -1978,6 +1995,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_chile_id_card</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Chile Identity Card Number -->
 <Entity id="4e979794-49a0-407e-a0b9-2c536937b925" recommendedConfidence="85" patternsProximity="300">
@@ -2070,6 +2088,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_china_resident_id</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- China Resident Identity Card (PRC) Number -->
 <Entity id="c92daa86-2d16-4871-901f-816b3f554fc1" recommendedConfidence="85" patternsProximity="300">
@@ -2159,6 +2178,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_credit_card</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Credit Card Number -->
 <Entity id="50842eb7-edc8-4019-85dd-5a5c1f2bb085" patternsProximity="300" recommendedConfidence="85">
@@ -2424,6 +2444,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_croatia_id_card</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>È possibile trovare una parola chiave da <code>Keyword_croatia_id_card</code> .</p></li>
 </ul>
+
 ```powershell
 <!--Croatia Identity Card Number-->
 <Entity id="ff12f884-c20a-4189-b185-34c8e7258d47" recommendedConfidence="75" patternsProximity="300">
@@ -2501,6 +2522,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_croatia_oib_number</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Croatia Personal Identification (OIB) Number -->
 <Entity id="31983b6d-db95-4eb2-a630-b44bd091968d" recommendedConfidence="85" patternsProximity="300">
@@ -2578,6 +2600,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>È possibile trovare una parola chiave da <code>Keyword_czech_id_card</code> .</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Czech National Identity Card Number -->
 <Entity id="60c0725a-4eb6-455b-9dda-05d8a7396497" recommendedConfidence="85" patternsProximity="300">
@@ -2651,6 +2674,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>È possibile trovare una parola chiave da <code>Keyword_denmark_id</code> .</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Denmark Personal Identification Number -->
 <Entity id="6c4f2fef-56e1-4c00-8093-88d7a01cf460" recommendedConfidence="75" patternsProximity="300">
@@ -2725,6 +2749,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_dea_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- DEA Number -->
 <Entity id="9a5445ad-406e-43eb-8bd7-cac17ab6d0e4" recommendedConfidence="85" patternsProximity="300">
@@ -2780,6 +2805,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 </ul></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- EU Debit Card Number -->
     <Entity id="0e9b3178-9678-47dd-a509-37222ca96b42" patternsProximity="300" recommendedConfidence="85">
@@ -3160,6 +3186,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_finnish_national_id</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Finnish National ID-->
 <Entity id="338FD995-4CB5-4F87-AD35-79BD1DD926C1" patternsProximity="300" recommendedConfidence="85">
@@ -3233,6 +3260,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L' espressione regolare <code>Regex_finland_passport_number</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>È possibile trovare una parola chiave da <code>Keyword_finland_passport_number</code> .</p></li>
 </ul>
+
 ```powershell
 <!-- Finland Passport Number -->
 <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300">
@@ -3304,6 +3332,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_eu_date</code> rileva una data nel formato corretto.</p></li>
 </ul></li>
 </ul>
+
 ```powershell
 <!-- France Driver's License Number -->
 <Entity id="18e55a36-a01b-4b0f-943d-dc10282a1824" patternsProximity="300" recommendedConfidence="75">
@@ -3380,6 +3409,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <ul>
 <li><p>L'espressione regolare <code>Regex_france_cni</code> restituisce contenuti che corrispondono al modello.</p></li>
 </ul>
+
 ```powershell
 <!-- France CNI -->
 <Entity id="f741ac74-1bc0-4665-b69b-f0c7f927c0c4" patternsProximity="300" recommendedConfidence="65">
@@ -3432,6 +3462,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_fr_passport</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_passport</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- France Passport Number -->
 <Entity id="3008b884-8c8c-4cd8-a289-99f34fc7ff5d" patternsProximity="300" recommendedConfidence="75">
@@ -3526,6 +3557,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Non vengono trovate parole chiave da <code>Keyword_fr_insee</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- France INSEE -->
 <Entity id="71f62b97-efe0-4aa1-aa49-e14de253619d" patternsProximity="300" recommendedConfidence="85">
@@ -3635,6 +3667,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 </ul></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- German Driver's License Number -->
 <Entity id="91da9335-1edb-45b7-a95f-5fe41a16c63c" patternsProximity="300" recommendedConfidence="75">
@@ -3816,6 +3849,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L' espressione regolare <code>Regex_germany_id_card</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>È possibile trovare una parola chiave da <code>Keyword_germany_id_card</code> .</p></li>
 </ul>
+
 ```powershell
 <!-- Germany Identity Card Number -->
 <Entity id="e577372f-c42e-47a0-9d85-bebed1c237d4" recommendedConfidence="65" patternsProximity="300">
@@ -3901,6 +3935,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave fra le cinque elencate.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- German Passport Number -->
 <Entity id="2e3da144-d42b-47ed-b123-fbf78604e52c" patternsProximity="300" recommendedConfidence="75">
@@ -4016,6 +4051,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L' espressione regolare <code>Regex_greece_id_card</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>È possibile trovare una parola chiave da <code>Keyword_greece_id_card</code> .</p></li>
 </ul>
+
 ```powershell
 <!-- Greece National ID Card -->
 <Entity id="82568215-1da1-46d3-874a-d2294d81b5ac" recommendedConfidence="85" patternsProximity="300">
@@ -4096,6 +4132,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_hong_kong_id_card</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Hong Kong Identity Card (HKID) number -->
 <Entity id="e63c28a7-ad29-4c17-a41a-3d2a0b70fd9c" recommendedConfidence="75" patternsProximity="300">
@@ -4175,6 +4212,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>È possibile trovare una parola chiave da <code>Keyword_india_permanent_account_number</code> .</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- India Permanent Account Number -->
 <Entity id="2602bfee-9bb0-47a5-a7a6-2bf3053e2804" recommendedConfidence="85" patternsProximity="300">
@@ -4255,6 +4293,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_india_aadhaar</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- India Unique Identification (Aadhaar) number -->
 <Entity id="1ca46b29-76f5-4f46-9383-cfa15e91048f" recommendedConfidence="85" patternsProximity="300">
@@ -4341,6 +4380,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <ul>
 <li><p>L' espressione regolare <code>Regex_indonesia_id_card</code> consente di trovare contenuto corrispondente al formato.</p></li>
 </ul>
+
 ```powershell
 <!-- Indonesia Identity Card (KTP) Number -->
 <Entity id="da68fdb0-f383-4981-8c86-82689d3b7d55" recommendedConfidence="85" patternsProximity="300">
@@ -4423,6 +4463,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_iban</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <Entity id="e7dc4711-11b7-4cb0-b88b-2c394a771f0e" patternsProximity="300" recommendedConfidence="85">
   <Pattern confidenceLevel="85">
@@ -4486,6 +4527,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_ipv6_address</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Non vengono trovate parole chiave da <code>Keyword_ipaddress</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- IP Address -->
     <Entity id="1daa4ad5-e2dd-4ca4-a788-54722c09efb2" patternsProximity="300" recommendedConfidence="85">
@@ -4599,6 +4641,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_ireland_pps</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Ireland Personal Public Service (PPS) Number -->
 <Entity id="1cdb674d-c19a-4fcf-9f4b-7f56cc87345a" recommendedConfidence="85" patternsProximity="300">
@@ -4692,6 +4735,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_israel_bank_account_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_israel_bank_account_number</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Israel Bank Account Number -->
 <Entity id="7d08b2ff-a0b9-437f-957c-aeddbf9b2b25" patternsProximity="300" recommendedConfidence="75">
@@ -4764,6 +4808,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_Israel_National_ID</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Israel National ID Number -->
 <Entity id="e05881f5-1db1-418c-89aa-a3ac5c5277ee" patternsProximity="300" recommendedConfidence="75">
@@ -4839,6 +4884,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_italy_drivers_license_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_italy_drivers_license_number</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Italy Driver's license Number -->
 <Entity id="97d6244f-9157-41bd-8e0c-9d669a5c4d71" patternsProximity="300" recommendedConfidence="75">
@@ -4927,6 +4973,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_jp_bank_account</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_jp_bank_account</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Japan Bank Account Number -->
 <Entity id="d354f95b-96ee-4b80-80bc-4377312b55bc" patternsProximity="300" recommendedConfidence="75">
@@ -5062,6 +5109,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_jp_drivers_license_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_jp_drivers_license_number</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Japan Driver's License Number -->
 <Entity id="c6011143-d087-451c-8313-7f6d4aed2270" patternsProximity="300" recommendedConfidence="75">
@@ -5156,6 +5204,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_jp_passport</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_jp_passport</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Japan Passport Number -->
 <Entity id="75177310-1a09-4613-bf6d-833aae3743f8" patternsProximity="300" recommendedConfidence="75">
@@ -5225,6 +5274,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_jp_resident_registration_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_jp_resident_registration_number</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Japan Resident Registration Number -->
 <Entity id="01c1209b-6389-4faf-a5f8-3f7e13899652" patternsProximity="300" recommendedConfidence="75">
@@ -5313,6 +5363,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_jp_sin_pre_1997</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_jp_sin</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Japan Social Insurance Number -->
 <Entity id="c840e719-0896-45bb-84fd-1ed5c95e45ff" patternsProximity="300" recommendedConfidence="75">
@@ -5395,6 +5446,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L' espressione regolare <code>Regex_malaysia_id_card_number</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>È possibile trovare una parola chiave da <code>Keyword_malaysia_id_card_number</code> .</p></li>
 </ul>
+
 ```powershell
 <!-- Malaysia ID Card Number -->
 </Entity>
@@ -5477,6 +5529,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_eu_date2</code> rileva una data nel formato corretto.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Netherlands Citizen's Service (BSN) Number -->
 <Entity id="c5f54253-ef7e-44f6-a578-440ed67e946d" patternsProximity="300" recommendedConfidence="85">
@@ -5550,6 +5603,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_nz_terms</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- New Zealand Health Number -->
 <Entity id="2b71c1c8-d14e-4430-82dc-fd1ed6bf05c7" patternsProximity="300" recommendedConfidence="85">
@@ -5632,6 +5686,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_norway_id_numbe</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Norway Identification Number -->
 <Entity id="d4c8a798-e9f2-4bd3-9652-500d24080fc3" recommendedConfidence="85" patternsProximity="300">
@@ -5713,6 +5768,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L' espressione regolare <code>Regex_philippines_unified_id</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>È possibile trovare una parola chiave da <code>Keyword_philippines_id</code> .</p></li>
 </ul>
+
 ```powershell
 <!-- Philippines Unified Multi-Purpose ID number -->
 <Entity id="019b39dd-8c25-4765-91a3-d9c6baf3c3b3" recommendedConfidence="75" patternsProximity="300">
@@ -5783,6 +5839,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_polish_national_id_passport_number</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Poland Identity Card-->
 <Entity id="25E64989-ED5D-40CA-A939-6C14183BB7BF" patternsProximity="300" recommendedConfidence="85">
@@ -5852,6 +5909,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_pesel_identification_number</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Poland National ID (PESEL) -->      
 <Entity id="E3AAF206-4297-412F-9E06-BA8487E22456" patternsProximity="300" recommendedConfidence="85">
@@ -5920,6 +5978,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_polish_national_id_passport_number</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Poland Passport Number -->
 <Entity id="03937FB5-D2B6-4487-B61F-0F8BFF7C3517" patternsProximity="300" recommendedConfidence="85">
@@ -5990,6 +6049,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L' espressione regolare <code>Regex_portugal_citizen_card</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>È possibile trovare una parola chiave da <code>Keyword_portugal_citizen_card</code> .</p></li>
 </ul>
+
 ```powershell
 <!-- Portugal Citizen Card Number -->
 <Entity id="91a7ece2-add4-4986-9a15-c84544d81ecd" recommendedConfidence="85" patternsProximity="300">
@@ -6060,6 +6120,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_saudi_arabia_national_id</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_saudi_arabia_national_id</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- Saudi Arabia National ID -->
 <Entity id="8c5a0ba8-404a-41a3-8871-746aa21ee6c0" patternsProximity="300" recommendedConfidence="75">
@@ -6142,6 +6203,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L' espressione regolare <code>Regex_singapore_nric</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Singapore National Registration Identity Card (NRIC) Number -->
 <Entity id="cead390a-dd83-4856-9751-fb6dc98c34da" recommendedConfidence="75" patternsProximity="300">
@@ -6226,6 +6288,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>È possibile trovare una parola chiave da <code>Keyword_south_africa_identification_number</code> .</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- South Africa Identification Number -->
 <Entity id="e2adf7cb-8ea6-4048-a2ed-d89eb65f2780" recommendedConfidence="85" patternsProximity="300">
@@ -6308,6 +6371,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_south_korea_resident_number</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- South Korea Resident Registration Number -->
 <Entity id="5b802e18-ba80-44c4-bc83-bf2ad36ae36a" recommendedConfidence="85" patternsProximity="300">
@@ -6388,6 +6452,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_spanish_social_security_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Spain SSN -->
 <Entity id="5df987c0-8eae-4bce-ace7-b316347f3070" patternsProximity="300" recommendedConfidence="85">
@@ -6441,6 +6506,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_swedish_national_identifier</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Sweden National ID -->
 <Entity id="f69aaf40-79be-4fac-8f05-fd1910d272c8" patternsProximity="300" recommendedConfidence="85">
@@ -6492,6 +6558,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_sweden_passport</code>.</p></li>
 </ul></li>
 </ul>
+
 ```powershell
 <!-- Sweden Passport Number -->
 <Entity id="ba4e7456-55a9-4d89-9140-c33673553526" patternsProximity="300" recommendedConfidence="75">
@@ -6599,6 +6666,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_swift</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_swift</code>.</p></li>
 </ul>
+
 ```powershell
 <Entity id="cb2ab58c-9cb8-4c81-baf8-a4e106791df4" patternsProximity="300" recommendedConfidence="75">
 <Pattern confidenceLevel="75">
@@ -6700,6 +6768,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_taiwanese_national_id</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- Taiwanese National ID -->
 <Entity id="4C7BFC34-8DD1-421D-8FB7-6C6182C2AF03" patternsProximity="300" recommendedConfidence="85">
@@ -6796,6 +6865,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L' espressione regolare <code>Regex_taiwan_passport</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>È possibile trovare una parola chiave da <code>Keyword_taiwan_passport</code> .</p></li>
 </ul>
+
 ```powershell
 <!-- Taiwan Passport Number -->
 <Entity id="e7251cb4-4c2c-41df-963e-924eb3dae04a" recommendedConfidence="75" patternsProximity="300">
@@ -6873,6 +6943,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L' espressione regolare <code>Regex_taiwan_resident_certificate</code> consente di trovare contenuto corrispondente al formato.</p></li>
 <li><p>È possibile trovare una parola chiave da <code>Keyword_taiwan_resident_certificate</code> .</p></li>
 </ul>
+
 ```powershell
 <!-- Taiwan Resident Certificate (ARC/TARC) -->
 <Entity id="48269fec-05ea-46ea-b326-f5623a58c6e9" recommendedConfidence="75" patternsProximity="300">
@@ -6957,6 +7028,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_uk_drivers_license</code>.</p></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- U.K. Driver's License Number -->
 <Entity id="f93de4be-d94c-40df-a8be-461738047551" patternsProximity="300" recommendedConfidence="75">
@@ -7037,6 +7109,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_uk_electoral</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_uk_electoral</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- U.K. Electoral Number -->
 <Entity id="a3eea206-dc0c-4f06-9e22-aa1be3059963" patternsProximity="300" recommendedConfidence="75">
@@ -7121,6 +7194,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 </ul></li>
 <li><p>Il checksum ha esito positivo.</p></li>
 </ul>
+
 ```powershell
 <!-- U.K. NHS Number -->
 <Entity id="3192014e-2a16-44e9-aa69-4b20375c9a78" patternsProximity="300" recommendedConfidence="85">
@@ -7232,6 +7306,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_uk_nino</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Non vengono trovate parole chiave da <code>Keyword_uk_nino</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- U.K. NINO -->
 <Entity id="16c07343-c26f-49d2-a987-3daf717e94cc" patternsProximity="300" recommendedConfidence="75">
@@ -7317,6 +7392,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_usa_uk_passport</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_passport</code>.</p></li>
 </ul>
+
 ```powershell
 <Entity id="178ec42a-18b4-47cc-85c7-d62c92fd67f8" patternsProximity="300" recommendedConfidence="75">
     <Pattern confidenceLevel="75">
@@ -7399,6 +7475,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>L'espressione regolare <code>Regex_usa_bank_account_number</code> restituisce contenuti che corrispondono al modello.</p></li>
 <li><p>Viene trovata una parola chiave da <code>Keyword_usa_Bank_Account</code>.</p></li>
 </ul>
+
 ```powershell
 <!-- U.S. Bank Account Number -->
 <Entity id="a2ce32a8-f935-4bb6-8e96-2a5157672e2c" patternsProximity="300" recommendedConfidence="75">
@@ -7503,6 +7580,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_us_drivers_license_abbreviations</code>.</p></li>
 <li><p>Non vengono trovate parole chiave da <code>Keyword_us_drivers_license</code>.</p></li>
 </ul>
+
 ```powershell
 <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_new_york_drivers_license_number" />
@@ -7707,6 +7785,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>La funzione <code>Func_us_date</code> rileva una data nel formato corretto.</p></li>
 </ul></li>
 </ul>
+
 ```powershell
 <!-- U.S. Individual Taxpayer Identification Number (ITIN) -->
 <Entity id="e55e2a32-f92d-4985-a35d-a0b269eb687b" patternsProximity="300" recommendedConfidence="75">
@@ -7837,6 +7916,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 <li><p>Viene trovata una parola chiave da <code>Keyword_ssn</code>.</p></li>
 <li><p>La funzione <code>Func_unformatted_ssn</code> non trovare contenuti che corrispondono al modello.</p></li>
 </ul>
+
 ```powershell
 <!-- U.S. Social Security Number (SSN) -->
     <Entity id="a44669fe-0d48-453d-a9b1-2cc83f2cba77" patternsProximity="300" recommendedConfidence="75">
