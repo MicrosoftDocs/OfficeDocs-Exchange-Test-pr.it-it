@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Riprist. cart. pubbl./cass. post. da spost. non riusciti: Exchange 2013 Help'
 TOCTitle: Ripristinare le cartelle pubbliche e cassette postali delle cartelle pubbliche da spostamenti non riusciti
 ms:assetid: 2ade83c9-5f9b-4945-bf32-48fa8185b515
@@ -55,7 +55,9 @@ Per informazioni sulle altre attività di gestione relative alle cartelle pubbli
 
 In questo esempio viene ripristinata la cartella pubblica \\Dev\\CustomerEnagagements nella cassetta postale della cartella pubblica di destinazione Development01.
 
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox Development -SourceDatabase MBX_DB01 -TargetMailbox Development01 -AllowLegacyDNMismatch -IncludeFolders \Dev\CustomerEngagements
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829875\(v=exchg.150\)).
 
@@ -63,7 +65,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-Mailbox
 
 In questo esempio viene ripristinata la cassetta postale della cartella pubblica PF\_Singapore in una nuova cassetta postale della cartella pubblica PF\_Singapore\_Restore.
 
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox PF_Singapore -SourceDatabase MBX_DB01 -TargetMailbox PF_Singapore_Restore -AllowLegacyDNMismatch
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829875\(v=exchg.150\)).
 

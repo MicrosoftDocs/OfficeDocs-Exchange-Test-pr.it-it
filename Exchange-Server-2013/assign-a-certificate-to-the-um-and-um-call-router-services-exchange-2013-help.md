@@ -58,6 +58,6 @@ Per informazioni sulle altre attività di gestione relative alla gestione dei ce
 ## Assegnazione di un certificato ai servizi di Messaggistica unificata e di routing delle chiamate di messaggistica unificata tramite Shell
 
 Nell'esempio riportato viene assegnato un certificato ai servizi di Messaggistica unificata e di routing delle chiamate di messaggistica unificata.
-
+```powershell
     Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
-
+```

@@ -38,12 +38,14 @@ Le opzioni *WhatIf*, *Confirm* e *ValidateOnly* sono particolarmente utili quand
 L'opzione *WhatIf* consente l'esecuzione del comando a cui è applicato solo per visualizzare gli oggetti interessati dall'esecuzione del comando e le eventuali modifiche apportate a tali oggetti. Il parametro non modifica effettivamente alcun oggetto. Utilizzando l'opzione *WhatIf* è possibile vedere se le eventuali modifiche agli oggetti soddisfano le proprie aspettative, senza preoccuparsi di modificare gli oggetti.
 
 Quando si esegue un comando insieme all'opzione *WhatIf*, inserire l'opzione *WhatIf* alla fine del comando, come nell'esempio seguente:
-
+```powershell
     New-AcceptedDomain -Name "Contoso Domain" -DomainName "contoso.com" -WhatIf 
-
+```
 Quando si esegue questo comando di esempio, Shell visualizza il testo seguente:
 
-    What if: Creating Accepted Domain "Contoso Domain" with domain name "contoso.com".
+```powershell
+What if: Creating Accepted Domain "Contoso Domain" with domain name "contoso.com".
+```
 
 ## Opzione Confirm
 
@@ -71,15 +73,18 @@ Quando viene eseguito un cmdlet con uno di questi verbi, Shell interrompe automa
 
 Quando si applica manualmente l'opzione *Confirm* a un comando, inserire l'opzione *Confirm* alla fine del comando, come nell'esempio seguente:
 
-    Get-JournalRule | Enable-JournalRule -Confirm
+```powershell
+Get-JournalRule | Enable-JournalRule -Confirm
+```
 
 Quando si esegue questo comando di esempio, Shell visualizza la seguente richiesta di conferma:
-
+```powershell
     Confirm
     Are you sure you want to perform this action?
     Enabling journal rule "Litigation Journal Rule".
     [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
     (default is "Y"):
+```
 
 La richiesta di conferma consente di scegliere tra le seguenti possibilità:
 
@@ -97,7 +102,9 @@ La richiesta di conferma consente di scegliere tra le seguenti possibilità:
 
 Per sostituire l'impostazione predefinita di Shell ed eliminare la richiesta di conferma per i cmdlet a cui è applicata automaticamente, è possibile includere l'opzione *Confirm* con il valore `$False`, come nell'esempio seguente:
 
-    Get-JournalRule | Disable-JournalRule -Confirm:$False
+```powershell
+Get-JournalRule | Disable-JournalRule -Confirm:$False
+```
 
 In questo caso non saranno visualizzate richieste di conferma.
 

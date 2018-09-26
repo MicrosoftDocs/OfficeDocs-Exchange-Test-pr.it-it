@@ -256,8 +256,9 @@ Per ulteriori informazioni su come gestire l'appartenenza ai gruppi di ruoli, ve
 ## Flusso di lavoro Creazione gruppi di ruoli
 
 Come accennato in precedenza, un gruppo di ruolo è costituito da numerosi livelli. Per comprendere cosa succede quando un gruppo di ruolo viene creato, vedere il seguente esempio, in cui viene creato un nuovo gruppo.
-
+```powershell
     New-RoleGroup -Name "Seattle Recipient Management" -Roles "Mail Recipients", "Distribution Groups", "Move Mailboxes", "UM Mailboxes" -CustomRecipientWriteScope "Seattle Users", -ManagedBy "Brian", "David", "Katie" -Members "Ray", "Jenn", "Maria", "Chris", "Maija", "Carter", "Jenny", "Sam", "Lukas", "Isabel", "Katie"
+```
 
 Quando viene eseguito il precedente comando, si verifica quanto segue:
 

@@ -67,9 +67,13 @@ Per informazioni sulle altre attività di gestione relative ai server Cassette p
 
 In questo esempio viene imposta la modalità di avvio per un server Cassette postali denominato `MyUMServer1` per la modalità dual.
 
-    Set-UMService -Identity MyUMServer1 -UMStartUpMode Dual
+```powershell
+Set-UMService -Identity MyUMServer1 -UMStartUpMode Dual
+```
 
 In questo esempio viene imposta la modalità di avvio per un server Cassette postali denominato `MyUMServer1` per la modalità TLS.
 
-    Set-UMService -Identity MyUMServer1 -UMStartUpMode TLS
+```powershell
+Set-UMService -Identity MyUMServer1 -UMStartUpMode TLS
+```
 

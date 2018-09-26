@@ -41,9 +41,13 @@ Il cmdlet **Set-RemoteDomain** consente di configurare le proprietà di un domin
 
 In questo esempio vengono disabilitati i messaggi di fuori sede per il dominio remoto Contoso.
 
-    Set-RemoteDomain Contoso -AllowedOOFType None
+```powershell
+Set-RemoteDomain Contoso -AllowedOOFType None
+```
 
 In questo esempio sono consentiti solo i messaggi fuori sede esterni.
 
-    Set-RemoteDomain Contoso -AllowedOOFType External
+```powershell
+Set-RemoteDomain Contoso -AllowedOOFType External
+```
 

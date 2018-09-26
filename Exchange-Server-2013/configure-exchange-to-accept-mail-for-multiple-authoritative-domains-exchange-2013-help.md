@@ -72,12 +72,14 @@ Nei seguenti esempi vengono descritti scenari in cui è possibile che l'organizz
 ## Utilizzare Shell per creare un dominio attendibile
 
 Per creare un nuovo dominio attendibile, utilizzare la seguente sintassi.
-
+```powershell
     New-AcceptedDomain -Name "<Unique Name>" -DomainName <SMTP domain> -DomainType Authoritative
+```
 
 Ad esempio, per creare un nuovo dominio attendibile denominato "Fourth Coffee secondario" per il dominio fourthcoffee.com, eseguire il seguente comando:
-
+```powershell
     New-AcceptedDomain -Name "Fourth Coffee subsidiary" -DomainName fourthcoffee.com -DomainType Authoritative
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -118,12 +120,14 @@ Per modificare l'indirizzo di posta elettronica (di risposta) primario assegnato
 In Shell, utilizzare due comandi separati: un comando per modificare il criterio dell'indirizzo di posta elettronica esistente e un altro comando per applicare il criterio aggiornato ai destinatari dell'organizzazione.
 
 Per modificare l'indirizzo di posta elettronica principale esistente e trasformare quello precedente in un indirizzo proxy, eseguire il seguente comando:
-
+```powershell
     Set-EmailAddressPolicy <EmailAddressPolicyIdentity> -EnabledEmailAddressTemplates SMTP:<NewPrimaryEmailAddress>,smtp:<OldPrimaryEmailAddress>
+```
 
 Ad esempio, supponiamo che il criterio dell'indirizzo di posta elettronica nell'organizzazione utilizzi il formato di indirizzo di posta elettronica *useralias*`@contoso.com`. In questo esempio viene cambiato il dominio dell'indirizzo principale (di risposta) nel criterio dell'indirizzo di posta elettronica denominato "Criterio predefinito" in `@fourthcoffee.com` e viene conservato l'indirizzo di risposta principale nel dominio `@contoso.com` come indirizzo proxy (secondario).
-
+```powershell
     Set-EmailAddressPolicy "Default Policy" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com,smtp:@contoso.com
+```
 
 
 > [!NOTE]
@@ -133,11 +137,15 @@ Ad esempio, supponiamo che il criterio dell'indirizzo di posta elettronica nell'
 
 Per applicare il criterio dell'indirizzo di posta elettronica aggiornato ai destinatari, utilizzare la seguente sintassi.
 
-    Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```powershell
+Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```
 
 Ad esempio, per aggiornare un criterio dell'indirizzo di posta elettronica denominato "Criterio predefinito", eseguire il comando riportato di seguito:
 
-    Update-EmailAddressPolicy "Default Policy"
+```powershell
+Update-EmailAddressPolicy "Default Policy"
+```
 
 ## Sostituire l'indirizzo di posta elettronica principale esistente per un set di destinatari filtrato
 
@@ -179,25 +187,25 @@ Per creare indirizzi di posta elettronica aggiuntivi da utilizzare come indirizz
 
 6.  Fare clic su **Visualizza un'anteprima dei destinatari a cui si applica il criterio** per visualizzare i destinatari a cui verrà applicato il criterio.
 
-7.  
-    
-    Fare clic su **Salva** per salvare le modifiche e creare il criterio.
+7.  Fare clic su **Salva** per salvare le modifiche e creare il criterio.
 
 8.  L'utente riceverà un messaggio di avviso con la comunicazione che il criterio dell'indirizzo di posta elettronica non verrà applicato fino all'aggiornamento. Una volta creato, selezionarlo e fare clic su **Applica** nel riquadro dei dettagli.
 
 ## Utilizzare Shell per sostituire l'indirizzo di posta elettronica principale esistente per un set di destinatari filtrato
 
 Per sostituire l'indirizzo di posta elettronica principale per un set filtrato di destinatari, utilizzare il seguente comando:
-
+```powershell
     New-EmailAddressPolicy -Name <Policy Name> -Priority <Integer> -IncludedRecipients <RecipientTypes> <Conditional Recipient Properties> -EnabledEmailAddressTemplates SMTP:@<NewPrimaryEmailAddress>
-
+```
 In questo esempio viene creato un criterio dell'indirizzo di posta elettronica denominato "Destinatari Fourth Coffee", viene assegnato tale criterio agli utenti della cassetta postale nel reparto di Fourth Coffee e impostata la priorità massima per tale criterio in modo che venga applicato per primo. Osservare che l'indirizzo di posta elettronica non viene conservato per questi destinatari, pertanto non potranno ricevere posta al loro indirizzo principale di posta elettronica precedente.
-
+```powershell
     New-EmailAddressPolicy -Name "Fourth Coffee Recipients" -Priority 1 -IncludedRecipients MailboxUsers -ConditionalDepartment "Fourth Coffee" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com
-
+```
 Per applicare il nuovo criterio indirizzo di posta elettronica ai destinatari interessati, eseguire il seguente comando:
 
-    Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```powershell
+Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 

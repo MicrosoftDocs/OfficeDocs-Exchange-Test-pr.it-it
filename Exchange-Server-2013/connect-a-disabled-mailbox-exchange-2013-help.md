@@ -42,9 +42,10 @@ Per ulteriori informazioni sulle cassette postali disconnesse e per eseguire alt
     Per le organizzazioni di Exchange on-premises è inoltre possibile verificare le informazioni in Utenti e computer di Active Directory.
 
   - Per verificare che la cassetta postale disabilitata che si desidera connettere a un account utente esista nel database delle cassette postali e che non sia una cassetta postale eliminata in maniera reversibile, eseguire il comando seguente.
-    
+    ```powershell
         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
-    
+    ```
+
     Per connettere una cassetta postale disabilitata, è necessario che esista nel database delle cassette postali e che il valore della proprietà *DisconnectReason* sia `Disabled`. Se la cassetta postale è stata eliminata definitivamente dal database, il comando non restituirà alcun risultato.
 
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
@@ -85,15 +86,19 @@ Utilizzare il cmdlet **Connect-Mailbox** in Shell per connettere un account uten
 
 Con questo esempio viene connessa una cassetta postale utente. Il parametro *Identity* consente di specificare la cassetta postale disconnessa nel database di Exchange. Il parametro *User* consente di specificare l'account utente di Active Directory a cui riconnettere la cassetta postale.
 
-    Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```powershell
+Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```
 
 In questo esempio viene connessa una cassetta postale collegata. Il parametro *Identity* consente di specificare la cassetta postale disconnessa nel database di Exchange. Il parametro *LinkedMasterAccount* consente di specificare l'account utente di Active Directory nella foresta di account a cui si desidera riconnettere la cassetta postale. Il parametro *Alias* consente di specificare l'alias, ovvero la parte dell'indirizzo di posta elettronica a sinistra del simbolo di chiocciola (@), per la cassetta postale riconnessa.
-
+```powershell
     Connect-Mailbox -Identity "Kai Axford" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount kai.axford@fabrikam.com -Alias kaia
+```
 
 Con questo esempio viene connessa una cassetta postale condivisa.
-
+```powershell
     Connect-Mailbox -Identity "Corporate Shared Mailbox" -Database "Mailbox Database 03" -User "Corporate Shared Mailbox" -Alias corpshared -Shared
+```
 
 
 > [!NOTE]
@@ -113,7 +118,9 @@ Per verificare la corretta connessione della cassetta postale disabilitata a un 
 
   - In Shell, utilizzare il seguente comando.
     
+    ```powershell
         Get-User <identity>
+    ```
     
     Il valore **UserMailbox** per la proprietà *RecipientType* indica che l'account utente e la cassetta postale sono connessi. È inoltre possibile eseguire il comando **Get-Mailbox** per verificare che la cassetta postale esista.
 

@@ -97,11 +97,15 @@ Per ricreare la cassetta postale di arbitrato FederatedEmail.4c1f4d8b-8179-4148-
 
 1.  Se non sono presenti delle cassette postali di arbitrato, eseguire il comando seguente:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 2.  In Exchange Management Shell, eseguire le operazioni seguenti:
     
+    ```powershell
         Enable-Mailbox -Arbitration -Identity "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+    ```
 
 ## Ricreare la cassetta postale Approvazione guidata di Microsoft Exchange
 
@@ -109,11 +113,14 @@ Per ricreare la cassetta postale di arbitrato SystemMailbox{1f05a927-9350-4efe-a
 
 1.  Se non sono presenti delle cassette postali di arbitrato, eseguire il comando seguente:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 2.  In Exchange Management Shell, eseguire le operazioni seguenti:
-    
+    ```powershell
         Get-User | Where-Object {$_.Name -like "SystemMailbox{1f05a927-7709-4e35-9dbe-d0f608fb781a}"} | Enable-Mailbox -Arbitration
+    ```
 
 ## Ricreare la cassetta postale Migrazione di Microsoft Exchange
 
@@ -121,15 +128,21 @@ Per ricreare la cassetta postale di arbitrato Migration.8f3e7716-2011-43e4-96b1-
 
 1.  Se non sono presenti delle cassette postali di arbitrato, eseguire il comando seguente:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 2.  In Exchange Management Shell, eseguire le operazioni seguenti:
     
+    ```powershell
         Enable-Mailbox -Arbitration -Identity "Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+    ```
 
 3.  In Exchange Management Shell, impostare le capacità persistenti (msExchCapabilityIdentifiers) eseguendo il comando seguente:
     
+    ```powershell
         Set-Mailbox "Migration.8f3e7716-2011-43e4-96b1-aba62d229136" -Arbitration -Management:$True -Force
+    ```
 
 ## Ricreare la cassetta postale del sistema Discovery di Microsoft Exchange
 
@@ -137,7 +150,9 @@ Per ricreare la cassetta postale di arbitrato SystemMailbox{e0dc1c29-89c3-4034-b
 
 1.  Eseguire il comando seguente:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 ## Ricreare la cassetta postale dell'organizzazione di Microsoft Exchange per rubriche offline
 
@@ -145,25 +160,31 @@ Per ricreare la cassetta postale SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc9
 
 1.  Se non sono presenti delle cassette postali di arbitrato, eseguire il comando seguente:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 2.  In Exchange Management Shell, eseguire le operazioni seguenti:
     
+    ```powershell
         Enable-Mailbox -Arbitration -Identity "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}"
+    ```
 
 3.  In Exchange Management Shell, impostare le capacità persistenti (msExchCapabilityIdentifiers) eseguendo il comando seguente:
-    
+    ```powershell
         Get-Mailbox "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}" -Arbitration | Set-Mailbox -Arbitration -UMGrammar:$True -OABGen:$True -GMGen:$True -ClientExtensions:$True -MessageTracking:$True -PstProvider:$True -MaxSendSize 1GB -Force
-
+    ```
 Al termine, eseguendo il comando `$OABMBX = Get-Mailbox "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}" -Arbitration (Get-ADUser $OABMBX.SamAccountName -Properties *).msExchCapabilityIdentifiers` si vedrà che 46, 47 e 51 non sono presenti. Eseguire il comando seguente per riaggiungere tutte le funzionalità:
-
-    Set-ADUser $OABMBX.SamAccountName -Add @{"msExchCapabilityIdentifiers"="40","42","43","44","47","51","52","46"}
-
+    ```powershell
+        Set-ADUser $OABMBX.SamAccountName -Add @{"msExchCapabilityIdentifiers"="40","42","43","44","47","51","52","46"}
+    ```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare di aver correttamente ricreato la cassetta postale di arbitratoe, utilizzare il cmdlet **Get-Mailbox** con l'opzione *Arbitration* per visualizzare le cassette postali del sistema.
 
-    Get-Mailbox -Arbitration | Format-Table Name, DisplayName
+```powershell
+Get-Mailbox -Arbitration | Format-Table Name, DisplayName
+```
 
 Visualizzare i risultati del comando per verificare che sia stata creata la cassetta postale di sistema appropriata, cercando tramite Nome o Nome visualizzato nella tabella di cui sopra.
 

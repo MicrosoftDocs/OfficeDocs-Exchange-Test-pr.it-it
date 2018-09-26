@@ -268,15 +268,20 @@ Inizio pagina
 
 Lo script **Get-AntiSpamFilteringReport.ps1** si trova in `%ExchangeInstallPath%Scripts`. È necessario eseguire lo script in Shell dalla cartella Script. Per accedere alla cartella Script di Shell, utilizzare il seguente comando:
 
-    Cd $env:ExchangeInstallPath\Scripts
+```powershell
+Cd $env:ExchangeInstallPath\Scripts
+```
 
 Per eseguire lo script nella cartella Script, utilizzare la seguente sintassi:
-
+```powershell
     .\Get-AntiSpamFilteringReport.ps1 -report <ReportValue> [<OptionalParameters>]
+```
 
 Per i dettagli sull'uso dello script, utilizzare il seguente comando:
 
-    Get-Help -Detailed .\Get-AntiSpamFilteringReport.ps1
+```powershell
+Get-Help -Detailed .\Get-AntiSpamFilteringReport.ps1
+```
 
 Inizio pagina
 

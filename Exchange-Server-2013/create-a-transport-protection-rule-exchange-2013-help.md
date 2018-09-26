@@ -76,7 +76,9 @@ Per altre attività di gestione relative a Information Rights Management (IRM), 
 
   - Per creare una regola di protezione del trasporto, è necessario disporre dei modelli RMS esistenti nella distribuzione AD RMS. In questo esempio vengono recuperati i modelli disponibili dal cluster AD RMS.
     
-        Get-RMSTemplate | format-list
+    ```powershell
+    Get-RMSTemplate | format-list
+    ```
     
     Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-RMSTemplate](https://technet.microsoft.com/it-it/library/dd297960\(v=exchg.150\)).
 
@@ -86,9 +88,9 @@ Per altre attività di gestione relative a Information Rights Management (IRM), 
     > [!NOTE]
     > Il predicato <CODE>SubjectContainsWords</CODE> viene utilizzato in questo esempio. È possibile utilizzare qualsiasi combinazione dei predicati della regola di trasporto per formare le condizioni e le eccezioni per la regola. Per informazioni sui predicati disponibili, vedere <A href="mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md">Condizioni delle regole di trasporto (predicati)</A>.
 
-    
+    ```powershell
         New-TransportRule -Name "Protect-BusinessCriticalProject" -SubjectContainsWords "Business Critical" -ApplyRightsProtectionTemplate "Do Not Forward"
-    
+    ```
     Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-TransportRule](https://technet.microsoft.com/it-it/library/bb125138\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo?

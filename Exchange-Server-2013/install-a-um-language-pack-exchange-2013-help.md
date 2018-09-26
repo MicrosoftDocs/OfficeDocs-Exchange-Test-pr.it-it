@@ -53,13 +53,9 @@ Per ulteriori attività relative alle lingue di messaggistica unificata, vedere 
 
 2.  Fare doppio clic sul UMLanguagePack. file *\<CultureCode\>.exe* . Ad esempio, per il tedesco UM language pack, si può scaricare il file denominato UMLanguagePack.de DE.exe.
 
-3.  
-    
-    Exchange 2013 Nell'Installazione guidata, nella pagina **Contratto** di licenza, leggere le condizioni del contratto, selezionare **accetto i termini del contratto di licenza** e quindi fare clic su **Avanti**.
+3.  Exchange 2013 Nell'Installazione guidata, nella pagina **Contratto** di licenza, leggere le condizioni del contratto, selezionare **accetto i termini del contratto di licenza** e quindi fare clic su **Avanti**.
 
-4.  
-    
-    Nella pagina **Language Pack di messaggistica unificata**, verificare che sia elencata la lingua corretta nella finestra **Verranno installati i seguenti Language Pack di messaggistica unificata**, quindi scegliere **Installa**.
+4.  Nella pagina **Language Pack di messaggistica unificata**, verificare che sia elencata la lingua corretta nella finestra **Verranno installati i seguenti Language Pack di messaggistica unificata**, quindi scegliere **Installa**.
 
 5.  Fare clic su **Fine** per completare l'installazione del supporto lingua della messaggistica unificata.
 
@@ -67,12 +63,15 @@ Per ulteriori attività relative alle lingue di messaggistica unificata, vedere 
 
 In questo esempio consente di installare il giapponese (ja-JP) alla messaggistica UNIFICATA language pack che è stato scaricato nella cartella D:\\Exchange\\UMLanguagePacks in un server cassette postali.
 
-    setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```powershell
+setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 In questo esempio consente di installare il Messico Spagnolo (es-MX) e tedesco (de-DE) alla messaggistica UNIFICATA language pack sono stati scaricati nella cartella D:\\Exchange\\UMLanguagePacks su un server cassette postali.
 
+```powershell
     setup.exe /AddUmLanguagePack:es-MX,de-DE /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
-
+```
 
 > [!WARNING]
 > Se non si utilizza il parametro /IAcceptExchangeServerLicenseTerms, verrà visualizzato l'errore seguente: Benvenuti installazione automatica di Microsoft Exchange Server 2013. Si desidera accettare le condizioni di licenza per installare Microsoft Exchange Server 2013. Per leggere il contratto di licenza, visitare http://go.microsoft.com/fwlink/p/?LinkId=150127. Accettare il contratto di licenza, aggiungere il parametro /IAcceptExchangeServerLicenseTerms al comando che è in esecuzione. Per ulteriori informazioni, eseguire il programma di installazione /?.

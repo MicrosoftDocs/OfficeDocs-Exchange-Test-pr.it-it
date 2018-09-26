@@ -62,8 +62,7 @@ _**Ultima modifica dell'argomento:** 2014-06-24_
     
       - **Configura la rete dei gruppi di database manualmente**   Selezionare questa casella se si desidera configurare tutte le reti dei DAG manualmente. Quando la casella di controllo viene lasciata deselezionata, il sistema configura automaticamente le reti del gruppo di disponibilità del database sulla base della configurazione dell''interfaccia della rete. Se la casella di spunta è deselezionata, i cmdlet **Set-DatabaseAvailabilityGroupNetwork** e **New-DatabaseAvailabilityGroupNetwork** sono disabilitati per l'uso amministrativo rispetto al gruppo di disponibilità del database.
 
-4.      
-    Utilizzare la pagina **Indirizzi IP** per visualizzare e modificare gli indirizzi IP assegnati al DAG:
+4.  Utilizzare la pagina **Indirizzi IP** per visualizzare e modificare gli indirizzi IP assegnati al DAG:
     
       - Selezionare un indirizzo IP esistente e fare clic su ![Icona Modifica](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icona Modifica") per modificarlo.
     
@@ -71,38 +70,49 @@ _**Ultima modifica dell'argomento:** 2014-06-24_
     
       - Immettere un indirizzo IP e fare clic su ![Icona Aggiungi](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Icona Aggiungi") per aggiungerlo al DAG.
 
-5.      
-    Fare clic su **Salva** per salvare le modifiche apportate.
+5.  Fare clic su **Salva** per salvare le modifiche apportate.
 
 ## Configurazione delle proprietà del gruppo di disponibilità del database tramite Shell
 
 Con questo esempio la directory di controllo per il gruppo di disponibilità del database DAG1 viene impostata su C:\\DAG1DIR.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessDirectory C:\DAG1DIR
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessDirectory C:\DAG1DIR
+```
 
 In questo esempio viene preconfigurato un server di controllo alternativo CAS3 e una directory di controllo alternativa C:\\DAGFileShareWitnesses\\DAG1.contoso.com per il gruppo di disponibilità del database DAG1.
-
+```powershell
     Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGFileShareWitnesses\DAG1.contoso.com -AlternateWitnessServer CAS3
-
+```
 In questo esempio il gruppo di disponibilità del database DAG1 viene configurato per utilizzare DHCP (Dynamic Host Configuration Protocol) per ottenere un indirizzo IP.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 0.0.0.0
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 0.0.0.0
+```
 
 In questo esempio il gruppo di disponibilità del database DAG1 viene configurato per utilizzare l'indirizzo IP statico 10.0.0.8.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```
 
 Con questo esempio il gruppo di disponibilità del database su più subnet DAG1 viene configurato con più indirizzi IP statici.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,10.0.1.8
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,10.0.1.8
+```
 
 In questo esempio il gruppo di disponibilità del database DAG1 viene configurato per la modalità di coordinamento dell'attivazione del data center.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```
 
 In questo esempio, la porta per la replica per un un gruppo di disponibilità del database DAG1 viene configurata in modo da corrispondere a 63132.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
+```
 
 
 > [!NOTE]  
@@ -116,7 +126,9 @@ Per verificare che il gruppo di disponibilità del database sia stato configurat
 
   - In Shell, utilizzare il comando seguente per visualizzare le impostazioni di configurazione del DAG e verificare che sia stato configurato correttamente.
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```powershell
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```
 
 ## Ulteriori informazioni
 

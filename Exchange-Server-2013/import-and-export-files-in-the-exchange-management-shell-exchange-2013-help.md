@@ -48,13 +48,13 @@ L'importazione e l'esportazione di file richiedono una sintassi specifica in qua
 La sintassi per l'importazione di file in Exchange 2013 viene utilizzata ogni volta che si desidera inviare un file a un cmdlet in esecuzione in un server Exchange 2013 dal computer o dal server locale. I cmdlet che accettano dati da un file nel computer locale avranno un parametro denominato *FileData* (o nome simile). Per determinare il parametro corretto da utilizzare, vedere le informazioni della Guida relative al cmdlet che si utilizza.
 
 È necessario comunicare alla Shell quale file si desidera inviare al Exchange 2013 e quale parametro accetterà i dati. A tal fine, utilizzare la sintassi seguente.
-
+```powershell
     <Cmdlet> -FileData ([Byte[]]$(Get-Content -Path <local path to file> -Encoding Byte -ReadCount 0))
-
+```
 Il comando seguente, ad esempio, consente di importare il file C:\\MyData.dat nel parametro *FileData* sul cmdlet fittizio **Import-SomeData**.
-
+```powershell
     Import-SomeData -FileData (Byte[]]$(Get-Content -Path "C:\MyData.dat" -Encoding Byte -ReadCount 0))
-
+```
 Quando viene eseguito il comando, vengono effettuate le seguenti operazioni:
 
 1.  Il comando viene accettato dalla Shell remota.
@@ -70,10 +70,10 @@ Quando viene eseguito il comando, vengono effettuate le seguenti operazioni:
 6.  Nel server Exchange 2013 remoto, viene eseguito il cmdlet **Import-SomeData** e i dati archiviati nell'oggetto temporaneo creato dal cmdlet **Get-Content** vengono passati al parametro *FileData*. Il cmdlet **Import-SomeData** elabora l'input ed esegue le operazioni richieste.
 
 Alcuni cmdlet utilizzano la seguente sintassi alternativa che consente di effettuare le stesse operazioni della sintassi precedente.
-
+```powershell
     [Byte[]]$Data = Get-Content -Path <local path to file> -Encoding Byte -ReadCount 0
     Import-SomeData -FileData $Data
-
+```
 Con questa sintassi alternativa viene effettuato lo stesso processo. L'unica differenza è che, invece di esegue l'intera operazione in una sola volta, i dati recuperati dal file locale vengono archiviati in una variabile a cui è possibile fare riferimento dopo sua la creazione. La variabile viene quindi utilizzata nel comando di importazione per passare il contenuto del file locale al cmdlet **Import-SomeData**. L'utilizzo di questo processo in due passaggi è utile quando si desidera utilizzare i dati dal file locale in più comandi.
 
 Vi sono alcune limitazioni di cui è necessario tenere conto quando si importano file. Per ulteriori informazioni, vedere "Limitazioni sull'importazione di file" più avanti in questo argomento.
@@ -142,7 +142,9 @@ La sintassi per l'esportazione di file in Exchange 2013 viene utilizzata ogni vo
 
 È necessario comunicare alla Shell che si intende salvare nel computer locale i dati archiviati nella proprietà **FileData**. A tal fine, utilizzare la sintassi seguente.
 
-    <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }
+```command line
+<cmdlet> | ForEach {     <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }.FileData | Add-Content <local path to file> -Encoding Byte }
+```
 
 Il comando seguente, ad esempio, consente di esportare i dati archiviati nella proprietà **FileData** sull'oggetto creato dal cmdlet fittizio **Export-SomeData**. I dati esportati vengono archiviati in un file specificato nel computer locale, in questo caso MyData.dat.
 
@@ -152,7 +154,9 @@ Il comando seguente, ad esempio, consente di esportare i dati archiviati nella p
 
 
 
-    Export-SomeData | ForEach { $_.FileData | Add-Content C:\MyData.dat -Encoding Byte }
+```powershell
+Export-SomeData | ForEach {     Export-SomeData | ForEach { $_.FileData | Add-Content C:\MyData.dat -Encoding Byte }.FileData | Add-Content C:\MyData.dat -Encoding Byte }
+```
 
 Quando viene eseguito il comando, vengono effettuate le seguenti operazioni:
 

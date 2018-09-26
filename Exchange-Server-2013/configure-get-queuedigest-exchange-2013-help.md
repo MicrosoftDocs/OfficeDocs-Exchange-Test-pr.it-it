@@ -61,31 +61,37 @@ Per impostazione predefinita, le code di recapito con stato Attivo, In fase di c
 
 1.  In una finestra del prompt dei comandi, aprire il file EdgeTransport.exe.config in Blocco note utilizzando il seguente comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Aggiungere una o più delle seguenti chiavi nella sezione `<appSettings>`.
-    
+    ```powershell
         <add key="QueueLoggingThreshold" value="<integer>" />
         <add key="QueueLoggingInterval" value="<hh:mm:ss>" />
-    
+    ```
     Ad esempio, per impostare il valore di **QueueLoggingThreshold** su 1 e il valore di **QueueLoggingInterval** su 30 secondi, utilizzare i seguenti valori:
-    
+    ```powershell
         <add key="QueueLoggingThreshold" value="1" />
         <add key="QueueLoggingInterval" value="00:00:30" />
-
+    ```
 3.  Al termine, salvare e chiudere il file EdgeTransport.exe.config.
 
 4.  Riavviare il servizio di trasporto di Microsoft Exchange utilizzando il seguente comando:
-    
+    ```powershell
         net stop MSExchangeTransport && net start MSExchangeTransport
-
+    ```
 5.  Per modificare il valore del parametro *QueueDiagnosticsAggregationInterval* in Exchange Management Shell, utilizzare la seguente sintassi:
     
-        Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+    ```powershell
+    Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+    ```
     
     Per modificare il valore in 30 secondi, ad esempio, eseguire il comando seguente:
     
-        Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+    ```powershell
+    Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+    ```
 
 ## Verifica dell'esito positivo dell'operazione
 
@@ -94,6 +100,6 @@ Per verificare che **Get-QueueDigest** sia stato configurato correttamente, proc
 1.  Verificare i valori delle chiavi **QueueLoggingThreshold** e **QueueLoggingInterval** nel file EdgeTransport.exe.config. Se le chiavi non sono presenti, vengono utilizzati i valori predefiniti.
 
 2.  Verificare il valore del parametro *QueueDiagnosticsAggregationInterval* eseguendo il comando riportato di seguito:
-    
+    ```powershell
         Get-TransportConfig | Format-List *queue*
-
+    ```

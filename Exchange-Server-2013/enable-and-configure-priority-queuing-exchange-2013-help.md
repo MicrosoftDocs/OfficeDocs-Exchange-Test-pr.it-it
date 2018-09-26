@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Attivare e configurare Accodamento prioritario: Exchange 2013 Help'
 TOCTitle: Attivare e configurare Accodamento prioritario
 ms:assetid: 1975d85d-2f1d-4852-8d19-e74ba4ba3853
@@ -43,10 +43,12 @@ _**Ultima modifica dell'argomento:** 2014-12-16_
 
 1.  In una finestra del prompt dei comandi, utilizzare il seguente comando per aprire il file di configurazione dell'applicazione EdgeTransport.exe.config in Blocco note:
     
+    ```powershell
         Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Trovare le seguenti chiavi nella sezione `<appSettings>`.
-    
+    ```powershell
         <add key="PriorityQueuingEnabled" value="false" />
         <add key="MaxPerDomainHighPriorityConnections" value="3" />
         <add key="MaxPerDomainNormalPriorityConnections" value="15" />
@@ -58,19 +60,23 @@ _**Ultima modifica dell'argomento:** 2014-12-16_
         <add key="NormalPriorityDelayNotificationTimeout" value="4:00:00" />
         <add key="LowPriorityDelayNotificationTimeout" value="8:00:00" />
         <add key="MaxHighPriorityMessageSize" value="250KB" />
+    ```
     
     Per abilitare l'accodamento priorità nel servizio di trasporto nel server Cassette postali, utilizzare il seguente valore:
     
+    ```command line
         <add key="PriorityQueuingEnabled" value="true" />
+    ```
     
     Configurare i rimanenti valori dell'accodamento prorità o lasciarli con i valori predefiniti.
 
 3.  Al termine, salvare e chiudere il file EdgeTransport.exe.config.
 
 4.  Riavviare il servizio di trasporto di Microsoft Exchange utilizzando il seguente comando:
-    
+    ```powershell
         net stop MSExchangeTransport && net start MSExchangeTransport
-
+    ```
+    
 ## Come verificare se l'operazione ha avuto esito positivo?
 
 Per verificare la corretta abilitazione e configurazione dell'accodamento priorità, effettuare le seguenti operazioni:

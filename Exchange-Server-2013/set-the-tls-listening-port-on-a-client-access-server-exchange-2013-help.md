@@ -67,5 +67,7 @@ Per ulteriori attività relative ai server Messaggistica unificata e Accesso cli
 
 Con questo esempio la porta di ascolto TLS sul server Accesso client `MyClientAccessServer` viene impostata su 5561.
 
-    Set-UMCallRouterSettings -Server MyClientAccessServer -SipTlsListeningPort 5561
+```powershell
+Set-UMCallRouterSettings -Server MyClientAccessServer -SipTlsListeningPort 5561
+```
 

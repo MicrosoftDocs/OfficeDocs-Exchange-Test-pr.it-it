@@ -48,9 +48,9 @@ Ulteriori informazioni sugli scenari in cui si utilizza questa procedura Vedere 
 ## Passaggio 1: Utilizzare Shell per creare un connettore esterno che invii i messaggi a un server gateway non SMTP
 
 1.  Utilizzare il seguente comando per creare il connettore esterno:
-    
+    ```powershell
         New-ForeignConnector -Name "Contoso Foreign Connector" -AddressSpaces "X400:c=US;a=Fabrikam;P=Contoso;5" -SourceTransportServers Hub01,Hub02
-    
+    ```
     In questo esempio, Hub01 e Hub02 sono i server di origine nell'organizzazione scelti per recapitare i messaggi al sistema esterno. L'utilizzo di più server di origine determina la tolleranza di errore.
 
 Una volta creato il connettore esterno, è possibile configurare le directory di destinazione, di prelievo e di riesecuzione, in base ai requisiti dell'organizzazione.
@@ -59,7 +59,9 @@ Una volta creato il connettore esterno, è possibile configurare le directory di
 
 Per verificare che il connettore esterno sia stato creato correttamente, utilizzare il seguente comando:
 
-    Get-ForeignConnector | Format-List Name
+```powershell
+Get-ForeignConnector | Format-List Name
+```
 
 Verificare che sia visualizzato il nome del connettore esterno creato.
 
@@ -71,13 +73,17 @@ Creare una directory da utilizzare come directory di destinazione sul file syste
 
 1.  Utilizzare il seguente script per specificare la directory di destinazione per il connettore esterno (impostare il parametro *DropDirectory* sul percorso appropriato nel proprio ambiente):
     
-        Set-ForeignConnector "Contoso Foreign Connector" -DropDirectory "C:\Drop Directory"
+    ```powershell
+    Set-ForeignConnector "Contoso Foreign Connector" -DropDirectory "C:\Drop Directory"
+    ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che la directory di destinazione sia stata impostata correttamente, utilizzare il seguente script di cmdlet e controllare il valore del parametro *DropDirectory*:
 
-    Get-ForeignConnector "Contoso Foreign Connector" | Format-List
+```powershell
+Get-ForeignConnector "Contoso Foreign Connector" | Format-List
+```
 
 Una volta creato il connettore esterno e specificata la directory di destinazione, è possibile inviare un messaggio utilizzando il server Cassette postali in cui è stato creato il connettore esterno e verificare che il file venga recapitato nella directory di destinazione.
 
@@ -91,7 +97,9 @@ Per istruzioni dettagliate sulla configurazione della directory di prelievo, ved
 
 Per verificare che la directory di prelievo sia stata impostata correttamente, utilizzare il seguente comando e controllare il valore del parametro *PickupDirectoryPath*:
 
-    Get-TransportService | Format-List PickupDirectoryPath
+```powershell
+Get-TransportService | Format-List PickupDirectoryPath
+```
 
 ## Passaggio 4: Utilizzare Shell per configurare la directory di riesecuzione per il servizio di trasporto su un server Cassette postali
 
@@ -103,7 +111,9 @@ Per istruzioni dettagliate sulla configurazione della directory di prelievo, ved
 
 Per verificare che la directory di riesecuzione sia stata impostata correttamente, utilizzare il seguente comando e controllare il valore del parametro *ReplayDirectoryPath*:
 
-    Get-TransportService | Format-List ReplayDirectoryPath
+```powershell
+Get-TransportService | Format-List ReplayDirectoryPath
+```
 
 ## Ulteriori informazioni
 

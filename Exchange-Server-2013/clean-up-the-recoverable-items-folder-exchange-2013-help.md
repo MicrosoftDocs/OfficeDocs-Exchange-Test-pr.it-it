@@ -52,9 +52,9 @@ Problemi? È possibile richiedere supporto nei forum di Exchange. I forum sono d
 ## Utilizzo della Shell per eliminare gli elementi dalla cartella elementi recuperabili per le cassette postali che non sono messa in attesa o non è stato abilitato il ripristino di un singolo elemento
 
 In questo esempio consente di eliminare definitivamente gli elementi dalla cartella elementi recuperabili di Gurinder Singh inoltre copiati gli elementi nella cartella GurinderSingh RecoverableItems la cassetta postale di individuazione (una cassetta postale di individuazione creata da Exchange il programma di installazione).
-
+```powershell
     Search-Mailbox -Identity "Gurinder Singh" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
-
+```
 
 > [!NOTE]
 > Per eliminare gli elementi dalla cassetta postale senza vengono copiati in un'altra cassetta postale, utilizzare il comando precedente senza parametri <EM>TargetMailbox</EM> e <EM>TargetFolder</EM> .
@@ -91,32 +91,36 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
     > [!NOTE]
     > Se il parametro <EM>UseDatabaseQuotaDefaults</EM> è impostato su <CODE>$true</CODE>, non vengono applicate le impostazioni relative alle quote precedente. Vengono applicate le impostazioni di quote corrispondenti configurate nel database delle cassette postali, anche se vengono specificate le impostazioni di singole cassette postali.
 
-    
+    ```powershell
         Get-Mailbox "Gurinder Singh" | Format-List RecoverableItemsQuota, RecoverableItemsWarningQuota, ProhibitSendQuota, ProhibitSendReceiveQuota, UseDatabaseQuotaDefaults, RetainDeletedItemsFor, UseDatabaseRetentionDefaults
-
+    ```
 2.  Recuperare le impostazioni di accesso della cassetta postale per la cassetta postale. Prendere nota di queste impostazioni per utilizzi successivi.
-    
+    ```powershell
         Get-CASMailbox "Gurinder Singh" | Format-List EwsEnabled, ActiveSyncEnabled, MAPIEnabled, OWAEnabled, ImapEnabled, PopEnabled
-
+    ```
 3.  Recuperare la dimensione corrente della cartella elementi recuperabili. Si noti la dimensione in modo che è possibile elevare le quote nel passaggio 6.
-    
+    ```powershell
         Get-MailboxFolderStatistics "Gurinder Singh" -FolderScope RecoverableItems | Format-List Name,FolderAndSubfolderSize
-
+    ```
 4.  Recuperare la configurazione corrente del ciclo di lavoro Assistente cartelle gestite. Assicurarsi di prendere nota dell'impostazione per utilizzi successivi.
     
+    ```powershell
         Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+    ```
 
 5.  Disabilitare l'accesso client per la cassetta postale per assicurarsi che nessun modifiche ai dati delle cassette postali per la durata di questa procedura.
-    
+    ```powershell
         Set-CASMailbox "Gurinder Singh" -EwsEnabled $false -ActiveSyncEnabled $false -MAPIEnabled $false -OWAEnabled $false -ImapEnabled $false -PopEnabled $false
-
+    ```
 6.  Per assicurarsi che nessun elemento viene eliminato dalla cartella elementi ripristinabili, aumentare la quota degli elementi recuperabili, aumentare la quota di avviso relativo agli elementi ripristinabili e impostare il periodo di mantenimento elementi eliminati su un valore superiore a quella corrente della cartella elementi ripristinabili dell'utente. Ciò è particolarmente importante per conservare i messaggi per le cassette postali inserite nella conservazione In locale o conservazione per controversia legale. Si consiglia la generazione di queste impostazioni a due volte alle dimensioni correnti.
-    
+    ```powershell
         Set-Mailbox "Gurinder Singh" -RecoverableItemsQuota 50Gb -RecoverableItemsWarningQuota 50Gb -RetainDeletedItemsFor 3650 -ProhibitSendQuota 50Gb -ProhibitSendRecieveQuota 50Gb -UseDatabaseQuotaDefaults $false -UseDatabaseRetentionDefaults $false
-
+    ```
 7.  Disattivare l'Assistente cartelle gestite sul server cassette postali.
     
+    ```powershell
         Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+    ```
     
 
     > [!IMPORTANT]
@@ -126,7 +130,9 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
 
 8.  Disabilitare il ripristino di singoli elementi e rimuovere la cassetta postale di conservazione per controversia legale.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+    ```powershell
+    Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+    ```
     
 
     > [!IMPORTANT]
@@ -135,13 +141,13 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
 
 
 9.  Copiare gli elementi dalla cartella elementi ripristinabili in una cartella nella cassetta postale di ricerca di individuazione ed eliminare il contenuto dalla cassetta postale di origine.
-    
+    ```powershell
         Search-Mailbox -Identity "Gurinder Singh" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
-    
+    ```
     Se si desidera eliminare solo i messaggi che soddisfano le condizioni specificate, utilizzare il parametro *SearchQuery* per specificare le condizioni. In questo esempio consente di eliminare i messaggi che contengono la stringa "Your bank statement" nel campo **oggetto**.
-    
+    ```powershell
         Search-Mailbox -Identity "Gurinder Singh" -SearchQuery "Subject:'Your bank statement'" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
-    
+    ```
 
     > [!NOTE]
     > Non è necessario copiare gli elementi per la cassetta postale di individuazione. È possibile copiare i messaggi a qualsiasi cassetta postale. Tuttavia, per impedire l'accesso ai dati delle cassette postali riservate, è consigliabile copiare messaggi in una cassetta postale che dispone dell'accesso con restrizioni per i responsabili dei record autorizzato. Per impostazione predefinita, l'accesso per la cassetta postale di individuazione predefinita è limitato ai membri del gruppo di ruoli gestione individuazione. Per ulteriori informazioni, vedere <A href="https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">eDiscovery sul posto</A>.
@@ -150,7 +156,9 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
 
 10. Se la cassetta postale è stata inserita nella conservazione per controversia legale oppure non dispone di ripristino di singoli elementi è abilitato in precedenza, abilitare queste funzionalità nuovamente.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+    ```powershell
+    Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+    ```
     
 
     > [!IMPORTANT]
@@ -175,17 +183,19 @@ Questa procedura consente di copiare gli elementi dalla cartella elementi recupe
       - *UseDatabaseRetentionDefaults*
     
     In questo esempio la cassetta postale viene rimosso dal mantenimento, il periodo di mantenimento elementi eliminati viene reimpostato sul valore predefinito di 14 giorni e la quota degli elementi ripristinabili è configurata per utilizzare lo stesso valore del database delle cassette postali. Se i valori annotato al passaggio 1 sono diversi, è necessario utilizzare i parametri precedenti per specificare ogni valore e impostare il parametro *UseDatabaseQuotaDefaults* su `$false`. I parametri*and UseDatabaseRetentionDefaultsRetainDeletedItemsFor*precedentemente impostati su un valore diverso, deve inoltre ripristinare tali valori indicato nel passaggio 1.
-    
+    ```powershell
         Set-Mailbox "Gurinder Singh" -RetentionHoldEnabled $false -RetainDeletedItemsFor 14 -RecoverableItemsQuota unlimited -UseDatabaseQuotaDefaults $true
-
+    ``` 
 12. Attivare l'Assistente cartelle gestite, impostando il ciclo di lavoro valore annotato al passaggio 4. In questo esempio viene impostato il ciclo di lavoro su un giorno.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+    ```powershell
+    Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+    ```
 
 13. Attivare l'accesso client.
-    
+    ```powershell
         Set-CASMailbox -ActiveSyncEnabled $true -EwsEnabled $true -MAPIEnabled $true -OWAEnabled $true -ImapEnabled $true -PopEnabled $true
-
+    ```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti seguenti:
 
   - [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\))
@@ -209,6 +219,6 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti 
 Per verificare che sono correttamente pulire la cartella elementi recuperabili di una cassetta postale, utilizzare il cmdlet [Get-MailboxFolderStatistics](https://technet.microsoft.com/it-it/library/aa996762\(v=exchg.150\)) controllo le dimensioni della cartella elementi ripristinabili.
 
 Questo esempio vengono recuperate le dimensioni della cartella elementi recuperabili e contare le sottocartelle e un elemento nella cartella e alle sottocartelle.
-
+```powershell
     Get-MailboxFolderStatistics -Identity "Gurinder Singh" -FolderScope RecoverableItems | Format-Table Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders -Auto
-
+```

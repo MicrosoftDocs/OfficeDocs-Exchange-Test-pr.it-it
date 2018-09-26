@@ -56,9 +56,9 @@ Ulteriori informazioni sulle copie del database delle cassette postali ritardate
 
 
 1.  In questo esempio, viene sospesa la replica per la copia ritardata attivata utilizzando il cmdlet [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd351074\(v=exchg.150\)).
-    
+    ```powershell
         Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
-
+    ```
 2.  Facoltativamente, se si desidera mantenere una copia ritardata, fare una copia della copia del database e dei relativi file di registro.
     
 
@@ -73,7 +73,9 @@ Ulteriori informazioni sulle copie del database delle cassette postali ritardate
 
 5.  In questo esempio, viene utilizzato Eseutil per eseguire l'operazione di recupero.
     
-        Eseutil.exe /r eXX /a
+    ```powershell
+    Eseutil.exe /r eXX /a
+    ```
     
 
     > [!NOTE]
@@ -90,7 +92,9 @@ Ulteriori informazioni sulle copie del database delle cassette postali ritardate
 
 7.  Una volta completato il processo di recupero, viene ripresa la replica per il database utilizzato come parte del processo di recupero, come illustrato in questo esempio.
     
-        Resume-MailboxDatabaseCopy DB1\EX3
+    ```powershell
+    Resume-MailboxDatabaseCopy DB1\EX3
+    ```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd351074\(v=exchg.150\)) o [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd335220\(v=exchg.150\)).
 
@@ -99,9 +103,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Suspend-Mai
 1.  Facoltativamente, se si desidera mantenere una copia ritardata, fare una copia della copia del database e dei relativi file di registro.
     
     1.  In questo esempio, viene sospesa la replica per la copia ritardata attivata utilizzando il cmdlet [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd351074\(v=exchg.150\)).
-        
+        ```powershell
             Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
-    
+        ```
     2.  Facoltativamente, se si desidera mantenere una copia ritardata, fare una copia della copia del database e dei relativi file di registro.
         
 
@@ -112,16 +116,18 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Suspend-Mai
 
 2.  In questo esempio, viene attivata la copia ritardata del database delle cassette postali utilizzando il cmdlet [Move-ActiveMailboxDatabase](https://technet.microsoft.com/it-it/library/dd298068\(v=exchg.150\)) con il parametro *SkipLagChecks*.
     
-        Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+    ```powershell
+    Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+    ```
 
 ## Attivazione di una copia ritardata del database delle cassette postali con il recupero SafetyNet tramite Shell
 
 1.  Facoltativamente, se si desidera mantenere una copia ritardata è possibile creare uno snapshot di Servizio Copia Shadow del volume (VSS) basato su file system (che non riconosce Exchange) per i volumi che contengono la copia del database e i relativi file di registro.
     
     1.  In questo esempio, viene sospesa la replica per la copia ritardata attivata utilizzando il cmdlet [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/it-it/library/dd351074\(v=exchg.150\)).
-        
+        ```powershell
             Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
-    
+        ```
     2.  Facoltativamente, se si desidera mantenere una copia ritardata, fare una copia della copia del database e dei relativi file di registro.
         
 
@@ -132,16 +138,18 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Suspend-Mai
 
 2.  Stabilire i registri necessari per la copia ritardata del database cercando il "Registro necessario": valore dell'output di intestazione del database in ESEUTIL
     
-        Eseutil /mh <DBPath> | findstr /c:"Log Required"
+    ```powershell
+    Eseutil /mh <DBPath> | findstr /c:"Log Required"
+    ```
     
     Prendere nota dei numeri esadecimali tra parentesi. Il primo numero è la generazione più bassa (definita LowGeneration) e il secondo è il numero della generazione più alta (definita HighGeneration). Spostare tutti i file di generazione del registro che hanno una sequenza di generazione più grande di HighGeneration in una posizione diversa, in modo che non vengano riprodotti nel database.
 
 3.  Sul server che ospita la copia attiva del database, eliminare i file di registro della copia ritardata attivata dalla copia attiva oppure arrestare il servizio Replica di Microsoft Exchange.
 
 4.  Eseguire lo switchover del database e attivare la copia ritardata. In questo esempio viene attivato il database utilizzando il cmdlet [Move-ActiveMailboxDatabase](https://technet.microsoft.com/it-it/library/dd298068\(v=exchg.150\)) con diversi parametri.
-    
+    ```powershell
         Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -MountDialOverride BestEffort -SkipActiveCopyChecks -SkipClientExperienceChecks -SkipHealthChecks -SkipLagChecks
-
+    ```
 5.  A questo punto, il database verrà montato automaticamente e verrà richiesto un nuovo recapito dei messaggi mancanti da SafetyNet.
 
 ## Come verificare se l'operazione ha avuto esito positivo
@@ -152,5 +160,7 @@ Per verificare la corretta attivazione di una copia ritardata del database delle
 
   - In Shell, utilizzare il seguente comando per visualizzare le informazioni sulla stato per una copia del database.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 

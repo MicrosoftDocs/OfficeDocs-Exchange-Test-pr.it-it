@@ -47,11 +47,15 @@ _**Ultima modifica dell'argomento:** 2015-04-08_
 
 Per utilizzare Shell per visualizzare un elenco di agenti di trasporto nella pipeline di trasporto su un server Exchange, utilizzare il seguente comando:
 
-    Get-TransportPipeline | Format-List
+```powershell
+Get-TransportPipeline | Format-List
+```
 
 Per esportare i risultati in un file di testo denominato C:\\Documenti\\Transport Agents.txt, utilizzare il seguente comando:
 
-    Get-TransportPipeline | Format-List > "C:\My Documents\Transport Agents.txt"
+```powershell
+Get-TransportPipeline | Format-List > "C:\My Documents\Transport Agents.txt"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

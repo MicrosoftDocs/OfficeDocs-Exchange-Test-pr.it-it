@@ -61,7 +61,9 @@ Per ulteriori informazioni sugli archivi locali, vedere [Archiviazione sul posto
 
 Con questo esempio la quota di archiviazione della cassetta postale di Chris Ashton viene impostata sul valore di 10 GB, raggiunto il quale l'utente riceverà un messaggio di avviso che indica che l'archivio locale è pieno e che non sarà più possibile trasferire messaggi nell'archivio. Con questo esempio, inoltre, la quota di avviso di archiviazione viene impostata sul valore di 9,5 GB, raggiunto il quale l'utente riceverà un messaggio di avviso che indica che l'archivio locale è quasi pieno.
 
-    Set-Mailbox -Identity "Chris Ashton" -ArchiveQuota 10GB -ArchiveWarningQuota 9.5GB
+```powershell
+Set-Mailbox -Identity "Chris Ashton" -ArchiveQuota 10GB -ArchiveWarningQuota 9.5GB
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)).
 
@@ -72,6 +74,6 @@ Per verificare l'avvenuta abilitazione di un archivio locale per una cassetta po
   - In Interfaccia di amministrazione di Exchange accedere a **Destinatari** \> **Cassette postali** e selezionare la cassetta postale desiderata. Nel riquadro dei dettagli, sotto **Archivio locale**, fare clic **Visualizza dettagli** e verificare le impostazioni della quota di archiviazione.
 
   - In Shell, eseguire il comando riportato di seguito per visualizzare le informazioni sulla quota di archiviazione.
-    
+    ```powershell
         Get-Mailbox <Name> | FL Name,Archive*Quota
-
+    ```

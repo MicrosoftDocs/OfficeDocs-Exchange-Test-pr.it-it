@@ -61,19 +61,27 @@ Sul computer che esegue il ruolo del server Cassette postali:
 
 1.  Impostare il servizio POP3 di Microsoft Exchange per l'avvio automatico.
     
+    ```powershell
         Set-service msExchangePOP3 -startuptype automatic
+    ```
 
 2.  Avviare il servizio Microsoft Exchange POP3.
     
+    ```powershell
         Start-service msExchangePOP3
+    ```
 
 3.  Impostare il servizio Backend POP3 di Microsoft Exchange per l'avvio automatico.
     
+    ```powershell
         Set-service msExchangePOP3BE -startuptype automatic
+    ```
 
 4.  Avviare il servizio Backend POP3 di Microsoft Exchange.
     
+    ```powershell
         Start-service msExchangePOP3BE
+    ```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

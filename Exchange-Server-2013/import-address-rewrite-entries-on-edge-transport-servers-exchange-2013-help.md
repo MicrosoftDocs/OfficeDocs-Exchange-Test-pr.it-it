@@ -115,22 +115,22 @@ Quando si crea il file CSV, è necessario considerare i seguenti aspetti:
   - Se il file CSV contiene caratteri non ASCII, assicurarsi di salvare il file CSV utilizzando la codifica UTF-8. A seconda dell'applicazione, il salvataggio del file CSV con codifica UTF-8 o Unicode potrebbe risultare più agevole se le impostazioni locali del sistema del computer corrispondono alla lingua utilizzata nel file CSV.
 
 Nel seguente esempio viene mostrato come popolare un file CSV con i parametri facoltativi *ExceptionList* e *OutboundOnly* compresi:
-
+```powershell
     Name,InternalAddress,ExternalAddress,ExceptionList,OutboundOnly
     "Wingtip UK",*.wingtiptoys.co.uk,tailspintoys.com,"legal.wingtiptoys.co.uk,finance.wingtiptoys.co.uk,support.wingtiptoys.co.uk",True
     "Wingtip USA",*.wingtiptoys.com,tailspintoys.com,"legal.wingtiptoys.com,finance.wingtiptoys.com,support.wingtiptoys.com,corp.wingtiptoys.com",True
     "Wingtip Canada",*.wingtiptoys.ca,tailspintoys.com,"legal.wingtiptoys.ca,finance.wingtiptoys.ca,support.wingtiptoys.ca",True
-
+```
 ## Passo 2: Importare il file di importazione CSV
 
 Per importare il file CSV, utilizzare la seguente sintassi:
-
+```powershell
     Import-Csv <FileNameAndPath> | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
-
+```
 In questo esempio, vengono importate le voci di riscrittura degli indirizzi da C:\\Documenti\\ImportAddressRewriteEntries.csv.
-
+```powershell
     Import-Csv "C:\My Documents\ImportAddressRewriteEntries.csv" | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo?
 
 Per controllare di aver importato correttamente le voci di riscrittura degli indirizzi da un file CSV, effettuare una delle seguenti operazioni:

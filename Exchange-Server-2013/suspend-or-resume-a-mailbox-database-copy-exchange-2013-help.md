@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Sospende/riprende copia database cassette postali: Exchange 2013 Help'
 TOCTitle: Sospendere o riprendere una copia del database delle cassette postali
 ms:assetid: 96aa1b82-3e15-4215-843e-3d583af9504b
@@ -65,21 +65,29 @@ Per informazioni sulle altre attività di gestione correlate alle copie del data
 
 In questo esempio viene sospesa la replica continua di una copia del database DB1 ospitata sul server MBX1. È stato, inoltre, specificato un commento opzionale.
 
-    Suspend-MailboxDatabaseCopy -Identity DB1\MBX1 -SuspendComment "Maintenance on MBX1" -Confirm:$False
+```powershell
+Suspend-MailboxDatabaseCopy -Identity DB1\MBX1 -SuspendComment "Maintenance on MBX1" -Confirm:$False
+```
 
 In questo esempio viene sospesa l'attivazione di una copia del database DB2 ospitata sul server MBX2.
 
-    Suspend-MailboxDatabaseCopy -Identity DB2\MBX2 -ActivationOnly -Confirm:$False
+```powershell
+Suspend-MailboxDatabaseCopy -Identity DB2\MBX2 -ActivationOnly -Confirm:$False
+```
 
 ## Ripresa di una copia del database delle cassette postali tramite Shell
 
 In questo esempio viene ripresa una copia del database DB1 sul server MBX1.
 
-    Resume-MailboxDatabaseCopy -Identity DB1\MBX1
+```powershell
+Resume-MailboxDatabaseCopy -Identity DB1\MBX1
+```
 
 In questo esempio viene ripresa una copia del database DB2 sul server MBX2 solo per la replica.
 
-    Resume-MailboxDatabaseCopy -Identity DB2\MBX2 -ReplicationOnly
+```powershell
+Resume-MailboxDatabaseCopy -Identity DB2\MBX2 -ReplicationOnly
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -89,5 +97,6 @@ Per verificare la corretta sospensione o ripresa di una copia del database delle
 
   - Nella shell, eseguire il comando riportato di seguito per visualizzare le informazioni sullo stato per una copia del database.
     
+    ```powershell
         Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
-
+    ```

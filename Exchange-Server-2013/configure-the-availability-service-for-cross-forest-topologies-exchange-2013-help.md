@@ -58,14 +58,14 @@ Per abilitare la funzionalità di sincronizzazione degli elenchi indirizzi globa
 ## Configurazione delle informazioni sulla disponibilità in base ai singoli utenti in una topologia con più foreste trusted tramite Shell
 
 Con questo esempio il Servizio Disponibilità viene configurato per recuperare le informazioni sulla disponibilità in base ai singoli utenti su un server Cassette postali nella foresta di destinazione.
-
+```powershell
     Get-MailboxServer | Add-ADPermission -Accessrights Extendedright -Extendedrights "ms-Exch-
     EPI-Token-Serialization" -User "<Remote Forest Domain>\Exchange servers"
-
+```
 Con questo esempio viene definito il metodo di accesso alle informazioni sulla disponibilità utilizzato dal Servizio Disponibilità sul server Cassette postali locale nella foresta di origine. Il server Cassette postali locale è configurato per accedere alle informazioni sulla disponibilità dalla foresta ContosoForest.com in base ai singoli utenti. In questo esempio viene utilizzato l'account di servizio per recuperare le informazioni sulla disponibilità.
-
+```powershell
     Add-AvailabilityAddressSpace -Forestname ContosoForest.com -AccessMethod PerUserFB -UseServiceAccount:$true
-
+```
 
 > [!NOTE]
 > Per configurare la disponibilità per più foreste bidirezionali, ripetere questi passaggi nella foresta di destinazione.
@@ -77,9 +77,9 @@ Se si sceglie di configurare la disponibilità tra foreste con trust e di utiliz
 ## Configurazione della disponibilità tra foreste trusted con un account di servizio tramite Shell
 
 Con questo esempio viene configurata la disponibilità tra foreste trusted con un account di servizio.
-
+```powershell
     Get-MailboxServer | Add-ADPermission -Accessrights Extendedright -Extendedright "ms-Exch-EPI-Token-Serialization" -User "<Remote Forest Domain>\Exchange servers"
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti seguenti:
 
   - [Get-MailboxServer](https://technet.microsoft.com/it-it/library/bb123539\(v=exchg.150\))
@@ -94,10 +94,12 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti 
 
 Con questo esempio l'account a livello di organizzazione viene impostato sull'oggetto di configurazione della disponibilità per configurare il livello di accesso alle informazioni sulla disponibilità nella foresta di destinazione.
 
-    Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```powershell
+Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```
 
 Con questo esempio viene aggiunto l'oggetto di configurazione dello spazio di indirizzi Disponibilità per la foresta di origine.
-
+```powershell
     $a = Get-Credential (Enter the credentials for organization-wide user in Contoso.com domain)
     Add-AvailabilityAddressspace -Forestname Contoso.com -Accessmethod OrgWideFB -Credential:$a
-
+```

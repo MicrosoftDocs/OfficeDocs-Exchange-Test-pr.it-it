@@ -44,9 +44,9 @@ Per le attività di gestione aggiuntive correlate a IRM, vedere [Procedure di In
 ## Creazione di una regola di protezione di Outlook tramite Shell
 
 Con questo esempio viene creata la regola di protezione di Outlook Project Contoso. La regola consente di proteggere i messaggi inviati al gruppo di distribuzione ContosoPMs utilizzando il modello di AD RMS Business Critical.
-
+```powershell
     New-OutlookProtectionRule -Name "Project Contoso" -SentTo "DL-ContosoPMs@contoso.com" -ApplyRightsProtectionTemplate "Business Critical"
-
+```
 
 > [!NOTE]
 > Quando si utilizza il predicato <CODE>SentTo</CODE> per una regola di protezione di Outlook e si specifica un gruppo di distribuzione, vengono protetti tramite IRM solo i messaggi indirizzati al gruppo di distribuzione nei campi A, Cc o Ccn. La protezione IRM non viene applicata ai messaggi indirizzati ai singoli membri del gruppo di distribuzione.

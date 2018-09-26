@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'MAPI su HTTP: Exchange 2013 Help'
 TOCTitle: MAPI su HTTP
 ms:assetid: 4663b5db-5b30-4a5a-a302-be6fef7fe5da
@@ -179,8 +179,10 @@ Completare la procedura seguente per configurare MAPI su HTTP per l'organizzazio
     
     Ad esempio, per configurare la directory virtuale MAPI predefinita sul server Exchange locale impostando un valore URL interno su https://contoso.com/mapi e il metodo di autenticazione su `Negotiate`, eseguire il seguente comando:
     
+    ```powershell
         Set-MapiVirtualDirectory -Identity "Contoso\mapi (Default Web Site)" -InternalUrl https://Contoso.com/mapi -IISAuthenticationMethods Negotiate
-
+    ```
+    
 2.  **Configurazione certificato**   Il certificato digitale utilizzato dall'ambiente Exchange deve includere gli stessi valori *InternalURL* e *ExternalURL* definiti sulla directory virtuale MAPI. Per ulteriori informazioni sulla gestione certificati Exchange 2013, vedere [Certificati digitali e SSL](digital-certificates-and-ssl-exchange-2013-help.md). Assicurarsi che il certificato Exchange sia affidabile sulla workstation client Outlook e che non vi siano errori del certificato, in particolar modo quando si accede agli URL configurati sulla directory virtuale MAPI.
 
 3.  **Aggiornamento regole server**   Verificare che i bilanciamenti del carico, i proxy inversi e i firewall siano configurati per consentire l'accesso a MAPI su directory virtuale HTTP.
@@ -189,7 +191,9 @@ Completare la procedura seguente per configurare MAPI su HTTP per l'organizzazio
     
     Eseguire il comando indicato di seguito:
     
+    ```powershell
         Set-OrganizationConfig -MapiHttpEnabled $true
+    ```
 
 ## Verificare MAPI su connessioni HTTP
 
@@ -197,14 +201,16 @@ Completare la procedura seguente per configurare MAPI su HTTP per l'organizzazio
 
 L'esempio seguente prova l'interfaccia MAPI su connessione HTTP dal server di Exchange denominato ContosoMail.
 
-    Test-OutlookConnectivity -RunFromServerId ContosoMail -ProbeIdentity OutlookMapiHttpSelfTestProbe
+```powershell
+Test-OutlookConnectivity -RunFromServerId ContosoMail -ProbeIdentity OutlookMapiHttpSelfTestProbe
+```
 
 Un test riuscito restituisce un output simile all'esempio seguente:
-
+```powershell
     MonitorIdentity                                          StartTime              EndTime                Result      Error     Exception
     ---------------                                          ---------              -------                ------      -----     ---------
     OutlookMapiHttp.Protocol\OutlookMapiHttpSelfTestProbe    2/14/2014 7:15:00 AM   2/14/2014 7:15:10 AM   Succeeded
-
+```
 Per ulteriori informazioni, vedere [Test-OutlookConnectivity](https://technet.microsoft.com/it-it/library/dd638082\(v=exchg.150\)).
 
 I registri per MAPI su attività HTTP si trovano nelle posizioni seguenti:

@@ -112,38 +112,42 @@ Utilizzare la seguente procedura per abilitare il supporto per gli agenti di tra
 
 1.  Nella finestra del prompt dei comandi, sul server di Exchange 2013 dove si desidera configurare il supporto dell'agente di trasporto legacy, aprire il file di configurazione dell'applicazione appropriato nel Blocco note utilizzando il comando seguente:
     
-        Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+    ```
     
     Ad esempio, per aprire il file EdgeTransport.exe.config su un server Cassette postali, utilizzare il comando seguente:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Posizionare la chiave *\</configuration\>* alla fine del file e incollare le chiavi seguenti prima della chiave *\</configuration\>*:
-    
+    ```powershell
         <startup useLegacyV2RuntimeActivationPolicy="true">
            <supportedRuntime version="v4.0" />
            <supportedRuntime version="v3.5" />
            <supportedRuntime version="v3.0" />
            <supportedRuntime version="v2.0" />
         </startup>
-
+    ````
 3.  Al termine, salvare e chiudere il file di configurazione dell'applicazione.
 
 4.  Ripetere i passaggi 1-3 per modificare gli altri file di configurazione dell'applicazione.
 
 5.  Riavviare il servizio Windows associato eseguendo il comando riportato di seguito:
-    
+    ```powershell
         net stop <service> && net start <service>
-    
+    ```
     Ad esempio, se il file EdgeTransport.exe.config è stato modificato, è necessario riavviare il servizio Trasporto utilizzando il comando seguente:
-    
+    ```powershell
         net stop MSExchangeTransport && net start MSExchangeTransport
-
+    ```
 6.  Ripetere il passaggio 5 per riavviare i servizi associati agli altri file di configurazione dell'applicazione modificati.
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Se gli agenti di trasporto legacy vengono installati correttamente questa procedura avrà avuto esito positivo. Se si tenta di installare un agente di trasporto legacy senza eseguire le procedure in questo argomento, si riceverà un messaggio di errore simile a quello riportato di seguito:
 
-    Mixed mode assembly is built against version '<version>' of the runtime and cannot be loaded in the 4.0 runtime without additional configuration information.
+Mixed mode assembly is built against version '<version>' of the runtime and cannot be loaded in the 4.0 runtime without additional configuration information.
 

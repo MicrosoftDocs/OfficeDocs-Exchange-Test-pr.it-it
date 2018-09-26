@@ -84,18 +84,24 @@ Per altre attività di gestione relative alla federazione, vedere [Procedure di 
 ## Utilizzo di Shell per la modifica della relazione organizzativa
 
   - In questo esempio, il dominio service.contoso.com viene aggiunto alla relazione organizzativa Contoso.
-    
+  
+    ```powershell
         $domains = (Get-OrganizationRelationship Contoso).DomainNames
         $domains += 'service.contoso.com'
         Set-OrganizationRelationship -Identity Contoso -DomainNames $domains
+    ```
 
   - In questo esempio viene disabilitata la relazione organizzativa Contoso.
     
-        Set-OrganizationRelationship -Identity Contoso -Enabled $false
+    ```powershell
+    Set-OrganizationRelationship -Identity Contoso -Enabled $false
+    ```
 
   - In questo esempio, viene abilitato l'accesso alle informazioni sulla disponibilità del calendario per la relazione organizzativa WoodgroveBank e viene impostato il livello di accesso a `AvailabilityOnly` (informazioni sulla disponibilità del calendario solo con l'ora).
-    
+
+    ```powershell
         Set-OrganizationRelationship -Identity Contoso -FreeBusyAccessEnabled $true -FreeBusyAccessLevel AvailabilityOnly
+    ```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-OrganizationRelationship](https://technet.microsoft.com/it-it/library/ee332343\(v=exchg.150\)) e [Set-OrganizationRelationship](https://technet.microsoft.com/it-it/library/ee332326\(v=exchg.150\)).
 
@@ -103,7 +109,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Organiz
 
 Per verificare la corretta esecuzione dell'aggiornamento della relazione organizzativa, utilizzare il seguente comando Shell e verificare le informazioni sulla relazione organizzativa.
 
-    Get-OrganizationRelationship | format-list
+```powershell
+Get-OrganizationRelationship | format-list
+```
 
 
 > [!TIP]

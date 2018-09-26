@@ -35,15 +35,15 @@ Una *cassetta postale disconnessa* è un oggetto cassetta postale nel database d
 
     
     Per identificare le cassette postali disabilitate nella propria organizzazione, utilizzare il seguente comando in Shell.
-    
+    ```powershell
         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "Disabled" } | ft DisplayName,Database,DisconnectDate
-
+    ```
   - **Cassette postali eliminate temporaneamente**   Quando una cassetta postale viene spostata in un database delle cassette postali diverso, Exchange non elimina completamente la cassetta postale dal database delle cassette postali di origine al termine dello spostamento. Al contrario, la cassetta postale nel database di origine delle cassette postali passa allo stato di *eliminazione reversibile*. Come nel caso delle cassette postali disabilitate, le cassette postali con eliminazione reversibile vengono mantenute nel database di origine fino alla scadenza del periodo di conservazione della cassetta postale eliminata o fino a quando non si utilizza il cmdlet **Remove-StoreMailbox** per eliminare la cassetta postale.
     
     Utilizzare il seguente comando per identificare le cassette postali con eliminazione reversibile nell'organizzazione.
-    
+    ```powershell
         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | ft DisplayName,Database,DisconnectDate
-
+    ```
 **Sommario**
 
 Utilizzo delle cassette postali disabilitate

@@ -42,11 +42,11 @@ _**Ultima modifica dell'argomento:** 2012-10-03_
 2.  Nella sezione **Tag** della barra multifunzione fare clic sull'icona **Opzioni** per visualizzare la finestra di dialogo **Proprietà** del messaggio.
 
 3.  Nella finestra di dialogo **Proprietà**, nella sezione **Intestazioni Internet** utilizzare la barra di scorrimento per visualizzare gli indicatori di protezione da posta indesiderata, come mostrato nell'esempio seguente.
-    
+    ```powershell
         X-MS-Exchange-Organization-PCL:7
         X-MS-Exchange-Organization-SCL:6
         X-MS-Exchange-Organization-Antispam-Report: DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures
-
+    ```
 ## Visualizzazione degli indicatori filtro di posta indesiderata tramite Outlook 2007
 
 1.  In Outlook 2007, su un computer client, nella schermata **Posta**, fare doppio clic su un messaggio per aprirlo.
@@ -54,8 +54,8 @@ _**Ultima modifica dell'argomento:** 2012-10-03_
 2.  Nella scheda **Messaggio**, fare clic su **Opzioni messaggio** nel gruppo **Opzioni**.
 
 3.  Nella finestra di dialogo **Opzioni messaggio**, nella sezione **Intestazioni Internet**, usare la barra di scorrimento per visualizzare i contrassegni filtro posta indesiderata come mostrato nell'esempio seguente.
-    
+    ```powershell
         X-MS-Exchange-Organization-PCL:7
         X-MS-Exchange-Organization-SCL:6
         X-MS-Exchange-Organization-Antispam-Report: DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures
-
+    ```

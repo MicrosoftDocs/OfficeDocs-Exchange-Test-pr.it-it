@@ -45,15 +45,21 @@ Per altre attività di gestione relative alla risoluzione dei problemi di messag
 
 In questo esempio viene verificata l'abilità del gateway IP di messaggistica unificata per l'ascolto delle richieste SIP in ingresso sulla porta TCP 5060.
 
-    Test-UMConnectivity -ListenPort 5060 -UMIPGateway MyIPGateway
+```powershell
+Test-UMConnectivity -ListenPort 5060 -UMIPGateway MyIPGateway
+```
 
 In questo esempio viene verificata la capacità del server Cassette postali locale di utilizzare una connessione TCP non protetta al posto di una connessione TLS reciproca protetta per effettuare una chiamata tramite il gateway IP di messaggistica unificata denominato `MyUMIPGateway` utilizzando il numero di telefono 56780.
 
-    Test-UMConnectivity -UMIPGateway MyUMIPGateway -Phone 56780 -Secured $false
+```powershell
+Test-UMConnectivity -UMIPGateway MyUMIPGateway -Phone 56780 -Secured $false
+```
 
 In questo esempio viene verificato il numero di Outlook Voice Access in un dial plan mediante un URI SIP. È possibile utilizzare l'esempio in un ambiente che include Lync Server.
 
-    Test-UMConnectivity -UMIPGateway OCSGateway1 -Phone "sip:SIPdialplan.contoso.com@contoso.com"
+```powershell
+Test-UMConnectivity -UMIPGateway OCSGateway1 -Phone "sip:SIPdialplan.contoso.com@contoso.com"
+```
 
 
 > [!NOTE]

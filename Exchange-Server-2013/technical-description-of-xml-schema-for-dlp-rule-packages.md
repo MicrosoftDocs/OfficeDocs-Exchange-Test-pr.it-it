@@ -62,7 +62,7 @@ La definizione delle regole è costituita da tre componenti principali:
 3.  **Stringhe localizzate**   localizzazione per nomi di regole e descrizioni relative
 
 Vengono utilizzati tre elementi di supporto aggiuntivi per definire i dettagli dell'elaborazione e con riferimento all'interno dei componenti principali: parola chiave, regex e funzione. L'utilizzo dei riferimenti consente di servirsi di una singola definizione degli elementi di supporto, come il codice fiscale, in più regole di entità o affinità. La struttura di base delle regole in formato XML può essere considerata come segue.
-
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
     
@@ -111,6 +111,7 @@ Vengono utilizzati tre elementi di supporto aggiuntivi per definire i dettagli d
         </LocalizedStrings>
       </Rules>
     </RulePackage>
+```
 
 ## Regole dell'entità
 
@@ -135,7 +136,7 @@ Un elemento Pattern deve avere esattamente un elemento IdMatch. IdMatch rapprese
 Un altro elemento secondaria facoltativo dell'elemento del modello è l'elemento di corrispondenza che rappresenta l'elemento avvalorante necessari per far corrispondere per supportare la ricerca di elemento IdMatch. Ad esempio, la regola confidenza superiore può richiedere che, oltre a trovare un numero di carta di credito, gli elementi aggiuntivi siano presenti nel documento, in una finestra di prossimità di carta di credito, quali indirizzo e il nome. Questi elementi aggiuntivi sarebbe rappresentati tramite l'elemento di corrispondenza o qualsiasi elemento (descritti in dettaglio nella sezione Matching Methods and Techniques). Più elementi corrispondenti possono essere inclusi nella definizione di un motivo che può essere inclusi direttamente nell'elemento motivo o combinati utilizzando qualsiasi elemento per definire la semantica corrispondente. Restituisce true se viene trovata una corrispondenza nella finestra di prossimità ancorata intorno al contenuto IdMatch.
 
 Entrambi gli elementi IdMatch e Match non definiscono i dettagli del contenuto che deve essere soddisfatto ma vi fanno riferimento tramite l'attributo idRef. In questo modo viene favorita la possibilità di riutilizzo delle definizioni in più costrutti del modello.
-
+```powershell
     <Entity id="..." patternsProximity="300" > 
         <Pattern confidenceLevel="85">
             <IdMatch idRef="FormattedSSN" />
@@ -156,6 +157,7 @@ Entrambi gli elementi IdMatch e Match non definiscono i dettagli del contenuto c
             </Any>
         </Pattern>
     </Entity> 
+```
 
 L'elemento dell'id entità, rappresentato nell'XML precedente da "..." deve essere un GUID e viene indicato nella sezione Stringhe localizzate.
 
@@ -210,7 +212,7 @@ Le regole dell'affinità contengono l'attributo id per l'identificatore univoco 
 Ciascuna regola dell'affinità contiene uno o più elementi Evidence figlio che definiscono la prova che deve essere trovata e il livello di sicurezza che contribuisce alla regola dell'affinità. L'affinità non viene considerata trovata se il livello di sicurezza risultante è al di sotto del livello di soglia. Ciascuna prova rappresenta logicamente la prova convalidante per questo "tipo" di documento e l'attributo confidenceLevel è la precisione per la prova nel set di dati di prova.
 
 Gli elementi Evidence hanno uno o più elementi figlio Match e Any. Se tutti gli elementi figlio Match e Any vengono soddisfatti, viene trovata la prova e il livello di sicurezza contribuisce al calcolo del livello di sicurezza delle regole. La stessa descrizione si applica agli elementi Match e Any per le regole di affinità e per le regole di entità.
-
+```powershell
     <Affinity id="..." 
               evidencesProximity="1000"
               thresholdConfidenceLevel="65">
@@ -231,6 +233,7 @@ Gli elementi Evidence hanno uno o più elementi figlio Match e Any. Se tutti gli
             </Any> 
         </Evidence>
     </Affinity>
+```
 
 ## Finestra di prossimità di affinità
 
@@ -326,7 +329,7 @@ Quindi, regolare il livello di sicurezza per ciascuno schema o prova nelle regol
 ## Utilizzo delle lingue locali nel file XML
 
 Lo schema delle regole supporta l'archiviazione del nome e delle descrizione localizzati per ciascun elemento Entity e Affinity. Ciascun elemento Entity e Affinity deve contenere un elemento corrispondente nella sezione LocalizedStrings. Per localizzare ciascun elemento, includere un elemento Resource come figlio dell'elemento LocalizedStrings per archiviare nome e descrizioni per più impostazioni locali per ciascun elemento. L'elemento Resource include un attributo idRef obbligatorio che corrisponde all'attributo idRef per ciascun elemento localizzato. Gli elementi figlio Locale dell'elemento Resource contengono il nome e le descrizioni localizzati per ciascuna impostazione locale specificata.
-
+```powershell
     <LocalizedStrings>
         <Resource idRef="guid">
             <Locale langcode="en-US" default="true"> 
@@ -343,9 +346,9 @@ Lo schema delle regole supporta l'archiviazione del nome e delle descrizione loc
             </Locale> 
         </Resource>
     </LocalizedStrings>
-
+```
 ## Definizione dello schema XML per il pacchetto delle regole di classificazione
-
+```powershell
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema xmlns:mce="http://schemas.microsoft.com/office/2011/mce"
                targetNamespace="http://schemas.microsoft.com/office/2011/mce" 
@@ -621,7 +624,7 @@ Lo schema delle regole supporta l'archiviazione del nome e delle descrizione loc
         </xs:simpleContent>
       </xs:complexType>
     </xs:schema>
-
+```
 ## Ulteriori informazioni
 
 [Prevenzione della perdita di dati](https://docs.microsoft.com/it-it/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Script RollAlternateserviceAccountCredential.ps1 in Shell: Exchange 2013 Help'
 TOCTitle: Utilizzando lo Script RollAlternateserviceAccountCredential.ps1 in Shell
 ms:assetid: 6ac55aae-472a-4ed6-83df-2d0e7b48e05c
@@ -34,8 +34,9 @@ _**Ultima modifica dell'argomento:** 2015-03-09_
 Per ulteriori informazioni su come utilizzare e scrivere script, vedere [Scripting con Exchange Management Shell](https://technet.microsoft.com/it-it/library/bb123798\(v=exchg.150\)).
 
 ## Sintassi
-
+```powershell
     RollAlternateServiceAccountPassword.ps1 -Scope <Object> -Identity <Object> -Source <Object> -
+```
 
 ## Descrizione dettagliata
 
@@ -91,7 +92,9 @@ Lo script non gestire i nomi SPN della credenziale ASA o consentono di rimuovere
 
 L'output dello script quando si esegue in modo interattivo con il livello di dettaglio flag - deve indicare quali operazioni di script sono state completate. Per verificare che siano stati aggiornati i server Accesso Client, è possibile verificare l'ora ultima modifica alla credenziale ASA. Nell'esempio seguente viene generato un elenco di server Accesso Client e l'ultima volta in cui è stato aggiornato l'account di servizio alternativo.
 
+```powershell
     Get-ClientAccessServer -IncludeAlternateServiceAccountCredentialstatus |Fl Name, AlternateServiceAccountConfiguration
+```
 
 È anche possibile esaminare il registro eventi nel computer in cui viene eseguito lo script. Le voci del registro eventi per lo script vengono registrati nel registro eventi applicazioni e sono compresi l' origine *MSExchange Management Application*. Nella tabella seguente sono elencati gli eventi che vengono registrati e il significato gli eventi.
 
@@ -239,25 +242,31 @@ Se lo script viene eseguito come attività pianificata, nella cartella di **regi
 
 Questo esempio viene utilizzato lo script per estrarre le credenziali per tutti i server Accesso Client nell'insieme di strutture per la prima installazione.
 
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToEntireForest -GenerateNewPasswordFor "Contoso\ComputerAccount$" -Verbose
+```
 
 ## Esempio 2
 
 In questo esempio viene generata una nuova password per una credenziale ASA dell'account utente e le distribuisce la password per tutti i membri di array di server Accesso Client in cui il nome corrisponde \* \* cassetta postale.
 
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers *mailbox* -GenerateNewPasswordFor "Contoso\UserAccount" -Verbose
+```
 
 ## Esempio 3
 
 In questo esempio viene pianifica un'attività di pianificata (in inglese) una sola volta un mese automatica password denominata "Exchange RollAsa". Le credenziali ASA per tutti i server Accesso Client nell'intera foresta verranno aggiornati con una nuova password generata script. L'operazione pianificata viene creato, ma non è possibile eseguire lo script. Quando viene eseguita l'operazione pianificata, lo script viene eseguito in modalità automatica.
-
+```powershell
     .\RollAlternateServiceAccountPassword.ps1 -CreateScheduledTask "Exchange-RollAsa" -ToEntireForest -GenerateNewPasswordFor 'contoso\computerAccount$'
+```
 
 ## Esempio 4
 
 Questo esempio viene aggiornata la credenziale ASA per tutti i server Accesso Client dell'array di server Accesso Client denominato CAS01. Ottiene le credenziali dall'account del computer Active Directory ServiceAc1 nel dominio Contoso.
-
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers "CAS01" -GenerateNewPasswordFor "CONTOSO\ServiceAc1$" 
+```
 
 ## Esempio 5
 
@@ -265,5 +274,7 @@ In questo esempio viene illustrato come è possibile utilizzare lo script per di
 
 È necessario aggiornare le credenziali ASA prima che il server Accesso Client riceve il traffico. Copiare la credenziale ASA condivisa da qualsiasi server Accesso Client è già stato configurato correttamente. Ad esempio, se un Server attualmente è una credenziale ASA lavorative e Server B appena aggiunta nella matrice, è possibile utilizzare lo script per copiare la credenziale (compresa la password) dal Server al Server B. Ciò è utile se il Server B è stato premuto o non è ancora un membro della matrice quando la password è stato eseguito il rollback l'ultima volta.
 
-    .\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
+```powershell
+.\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
+```
 

@@ -43,17 +43,21 @@ Determinare il nome del collegamento del sito IP di Active Directory per cui si 
 
 Per impostare un costo specifico per Exchange in un collegamento del sito di Active Directory, eseguire il comando riportato di seguito:
 
-``` 
+```powershell 
  Set-AdSiteLink <ADSiteLinkIdentity> -ExchangeCost <Integer | $null>
 ```
 
 Con questo esempio viene impostato un costo specifico di Exchange pari a 10 per il collegamento del sito IP denominato IPSiteLinkAB.
 
-    Set-AdSiteLink IPSiteLinkAB -ExchangeCost 10
+```powershell
+Set-AdSiteLink IPSiteLinkAB -ExchangeCost 10
+```
 
 Con questo esempio viene eliminato il costo specifico di Exchange dal collegamento del sito IP denominato IPSiteLinkAB.
 
-    Set-AdSiteLink IPSiteLinkAB -ExchangeCost $null
+```powershell
+Set-AdSiteLink IPSiteLinkAB -ExchangeCost $null
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -61,7 +65,9 @@ Per verificare l'impostazione corretta del costo per Exchange su un collegamento
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-AdSiteLink | Format-List Name,ExchangeCost
+    ```powershell
+    Get-AdSiteLink | Format-List Name,ExchangeCost
+    ```
 
 2.  Verificare che il costo di Exchange sia configurato sul collegamento del sito di Active Directory.
 
@@ -71,15 +77,21 @@ Se il sito hub è presente lungo il percorso di routing più conveniente, il mes
 
 Per configurare un sito di Active Directory come sito hub, eseguire il comando riportato di seguito:
 
-    Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```powershell
+Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```
 
 Con questo esempio il sito di Active Directory denominato Site A viene configurato come sito hub.
 
-    Set-AdSite "Site A" -HubSiteEnabled $true
+```powershell
+Set-AdSite "Site A" -HubSiteEnabled $true
+```
 
 Con questo esempio viene rimosso l'attributo del sito hub dal sito di Active Directory denominato Site B.
 
-    Set-AdSite "Site B" -HubSiteEnabled $false
+```powershell
+Set-AdSite "Site B" -HubSiteEnabled $false
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -87,7 +99,9 @@ Per verificare la configurazione corretta di un sito di Active Directory come si
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-AdSite | Format-List Name,HubSiteEnabled
+    ```powershell
+    Get-AdSite | Format-List Name,HubSiteEnabled
+    ```
 
 2.  Verificare che il valore *HubSiteEnabled* sia `True` per il sito di Active Directory.
 

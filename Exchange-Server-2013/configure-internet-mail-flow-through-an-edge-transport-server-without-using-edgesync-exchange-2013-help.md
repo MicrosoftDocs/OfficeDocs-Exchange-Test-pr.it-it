@@ -74,9 +74,9 @@ Il connettore di invio richiede la seguente configurazione:
   - **Impostazioni di rete**   Utilizzare i record DNS MX per instradare automaticamente la posta. A seconda della configurazione di rete, è anche possibile instradare la posta attraverso uno SmartHost. Lo SmartHost instrada quindi la posta in Internet.
 
 Per creare un connettore di invio configurato per l'invio di messaggi a Internet, eseguire il seguente comando.
-
+```powershell
     New-SendConnector -Name "To Internet" -AddressSpaces * -Usage Internet -DNSRoutingEnabled $true
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [New-SendConnector](https://technet.microsoft.com/it-it/library/aa998936\(v=exchg.150\)).
 
 ## Passo 2: creare un connettore di invio configurato per l'invio di messaggi all'organizzazione Exchange
@@ -106,10 +106,10 @@ Il connettore di invio richiede la seguente configurazione:
   - **Credenziali di autenticazione Smart host** Credenziali per l'account utente nel dominio interno. È necessario innanzitutto salvare nome utente e password in una variabile temporale, perché il cmdlet **New-SendConnector** non accetterà le credenziali utente nel testo normale.
 
 Per creare un connettore di invio configurato per l'invio di messaggi all'organizzazione di Exchange, eseguire i seguenti comandi.
-
+```powershell
     $MailboxCredentials = Get-Credential
     New-SendConnector -Name "To Internal Org" -Usage Internal -AddressSpaces *.contoso.com -DNSRoutingEnabled $false -SmartHosts mbxserver01.contoso.com,mbxserver02.contoso.com -SmartHostAuthMechanism BasicAuthRequireTLS -AuthenticationCredential $MailboxCredentials
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-SendConnector](https://technet.microsoft.com/it-it/library/aa998936\(v=exchg.150\)).
 
 ## Passo 3: modificare il connettore di ricezione predefinito per accettare solo i messaggi provenienti da Internet
@@ -121,9 +121,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-SendCon
   - Modificare i binding di rete per accettare solo i messaggi provenienti dalla scheda di rete accessibile da Internet. Ad esempio, 10.1.1.1 e il valore della porta standard SMTP TCP pari a 25.
 
 Per modificare il connettore di ricezione predefinito solo per accettare messaggi da Internet, eseguire il seguente comando.
-
+```powershell
     Set-ReceiveConnector "Default internal Receive connector Edge01" -Name "From Internet" -Bindings 10.1.1.1:25
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-ReceiveConnector](https://technet.microsoft.com/it-it/library/bb125140\(v=exchg.150\)).
 
 ## Passo 4: creare un connettore di ricezione configurato per accettare solo i messaggi provenienti dall'organizzazione Exchange
@@ -141,18 +141,18 @@ Nel connettore di ricezione è necessario impostare la seguente configurazione:
   - **Metodi di autenticazione** TLS, autenticazione di base, autenticazione di base tramite TLS e autenticazione di Exchange Server.
 
 Per creare un connettore di ricezione configurato per la sola accettazione di messaggi all'organizzazione di Exchange, eseguire i seguenti comandi.
-
+```powershell
     New-ReceiveConnector -Name "From Internal Org" -Usage Internal -AuthMechanism TLS,BasicAuth,BasicAuthRequireTLS,ExchangeServer -Bindings 10.1.1.2:25 -RemoteIPRanges 192.168.5.10,192.168.5.20
-
+```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [New-ReceiveConnector](https://technet.microsoft.com/it-it/library/bb125139\(v=exchg.150\)).
 
 ## Come verificare se la procedura ha avuto esito positivo?
 
 Per verificare di aver configurato correttamente i connettori di invio e ricezione richiesti, eseguire i seguenti comandi sul server di Trasporto Edge e verificare che i valori visualizzati siano uguali a quelli configurati.
-
+```powershell
     Get-SendConnector | Format-List Name,Usage,AddressSpaces,SourceTransportServers,DSNRoutingEnabled,SmartHosts,SmartHostAuthMechanism
     Get-ReceiveConnector | Format-List Name,Usage,AuthMechanism,Bindings,RemoteIPRanges
-
+```
 ## Procedure del server cassette postali
 
 I server cassette postali nell'organizzazione, richiedono un connettore di invio configurato per l'invio di messaggi al server Trasporto Edge per l'inoltro su Internet.
@@ -180,15 +180,16 @@ Il connettore di invio richiede la seguente configurazione:
   - **Credenziali di autenticazione Smarthost** Credenziali per l'account utente del server Trasporto Edge. È necessario innanzitutto salvare nome utente e password in una variabile temporale, perché il cmdlet **New-SendConnector** non accetterà le credenziali utente nel testo normale.
 
 Per creare un connettore di invio configurato per l'invio di messaggi in uscita al server di Trasporto Edge, eseguire i seguenti comandi.
-
+```powershell
     $EdgeCredentials = Get-Credential
     New-SendConnector -Name "To Edge" -Usage Internal -AddressSpaces * -DNSRoutingEnabled $false -SmartHosts edge01.contoso.com -SourceTransportServers mbxserver01.contoso.com,mbxserver02.contoso.com -SmartHostAuthMechanism BasicAuthRequireTLS -AuthenticationCredential $EdgeCredentials
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-SendConnector](https://technet.microsoft.com/it-it/library/aa998936\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
 Per verificare di aver correttamente creato un connettore di invio configurato per l'invio di messaggi in uscita al server di Trasporto Edge, eseguire il seguente comando su un server cassette postali e verificare che i valori visualizzati siano uguali a quelli configurati.
-
+```powershell
     Get-SendConnector | Format-List Name,Usage,AddressSpaces,DSNRoutingEnabled,SmartHosts,SourceTransportServers,SmartHostAuthMechanism
-
+```

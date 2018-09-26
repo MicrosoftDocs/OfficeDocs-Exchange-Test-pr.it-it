@@ -56,9 +56,9 @@ Per altre attività di gestione relative ai dial plan di messaggistica unificata
 ## Utilizzare l'interfaccia di amministrazione di Shell per aggiungere un server Cassette postali a un dial plan URI SIP
 
 In questo esempio viene aggiunto il server Cassette postali denominato `MyMailboxServer` a un dial plan URI SIP denominato `MySIPDialPlan` e gli impedisce di accettare nuove chiamate. Inoltre, la modalità di avvio viene impostata su Dual per consentire al server Cassette postali di accettare le richieste TCP e TLS.
-
+```powershell
     Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan -Status Disabled -UMStartupMode Dual
-
+```
 In questo esempio viene aggiunto il server Cassette postali denominato `MyMailboxServer` a due dial plan SIP, denominati `MySIPDialPlan` and `MySIPDialPlan2`, e configura le seguenti opzioni:
 
   - Consente gli indirizzi IPv4 e IPv6.
@@ -68,9 +68,9 @@ In questo esempio viene aggiunto il server Cassette postali denominato `MyMailbo
   - Configura il servizio di accesso SIP per Lync Server.
 
 <!-- end list -->
-
+```powershell
     Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -MaxCallsAllowed 50 -SipAccessService northamerica.lyncpoolna.contoso.com
-
+```
 ## Utilizzare l'interfaccia di amministrazione di Exchange per aggiungere un server Accesso client a un dial plan URI SIP
 
 1.  Nell'interfaccia di amministrazione di Exchange, accedere a **Server** \> **Server**.
@@ -87,9 +87,11 @@ In questo esempio viene aggiunto il server Cassette postali denominato `MyMailbo
 
 In questo esempio viene aggiunto il server Accesso client denominato `MyClientAccessServer` a un dial plan URI SIP denominato `MySIPDialPlan`. Inoltre, la modalità di avvio viene impostata su Dual per consentire al server Accesso client di accettare le richieste TCP e TLS.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```
 
 In questo esempio viene aggiunto il server Accesso client denominato `MyClientAccessServer` a due dial plan SIP, denominati `MySIPDialPlan` e `MySIPDialPlan2` e viene consentito al server di utilizzare sia indirizzi IPv4 che IPv6.
-
+```powershell
     Set-UMCallRouterSettings -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -Server MyClientAccessServer
-
+```

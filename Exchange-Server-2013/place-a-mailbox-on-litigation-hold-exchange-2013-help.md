@@ -71,7 +71,9 @@ Torna all'inizio
 
 In questo esempio viene attivato il blocco per controversia legale nella cassetta postale bsuneja@contoso.com. Gli elementi nella cassetta postale vengono conservati a tempo indeterminato o finché non viene rimosso il blocco.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
+```
 
 
 > [!NOTE]
@@ -83,16 +85,18 @@ In questo esempio viene attivato il blocco per controversia legale nella cassett
 
 In questo esempio viene attivato il blocco per controversia legale nella cassetta postale bsuneja@contoso.com e gli elementi vengono conservati per 2555 giorni (circa 7 anni):
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```
 
 ## Utilizzo della shell per attivare il blocco per controversia legale in tutte le cassette postali per una durata specifica
 
 L'organizzazione può richiedere che tutti i dati delle cassette postali siano conservati per un periodo di tempo specifico. Prima di attivare il blocco per controversia legale per tutte le cassette postali nell'organizzazione, considerare quanto segue:
 
 In questo esempio viene attivato il blocco per controversia legale in tutte le cassette postali utente di un anno (365 giorni).
-
+```powershell
     Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -LitigationHoldEnabled $true -LitigationHoldDuration 365
-
+```
 In questo esempio viene utilizzato il cmdlet [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) per recuperare tutte le cassette postali nell'organizzazione, si specifica un filtro destinatari per includere tutte le cassette postali utente e viene trasmesso un elenco di cassette postali al cmdlet [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)) per attivare il blocco per controversia legale e impostarne la durata.
 
 Per impostare un blocco indefinito in tutte le cassette postali utente, eseguire il comando precedente senza includere il parametro *LitigationHoldDuration*.
@@ -103,7 +107,9 @@ Vedere la sezione Ulteriori informazioni per esempi relativi all'utilizzo di alt
 
 In questo esempio, viene rimosso un blocco per controversia legale dalla cassetta postale bsuneja@contoso.com.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
+```
 
 Torna all'inizio
 
@@ -124,13 +130,13 @@ Per verificare la corretta attivazione di un blocco per controversia legale in u
     5.  Fare clic su **Visualizza dettagli** per verificare quando è stato attivato il blocco per controversia legale e da chi. È inoltre possibile verificare o modificare i valori nelle caselle facoltative **Durata del blocco per controversia legale (giorni)**, **Nota** e **URL**.
 
   - In Shell, utilizzare uno dei seguenti comandi:
-    
+    ```powershell
         Get-Mailbox <name of mailbox> | FL LitigationHold*
-    
+    ```
     oppure
-    
+    ```powershell
         Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | FL Name,LitigationHold*
-    
+    ```
     Se si attiva un blocco per controversia legale per un tempo indefinito, il valore della proprietà *LitigationHoldDuration* è impostato su `Unlimited`.
 
 ## Ulteriori informazioni
@@ -148,21 +154,25 @@ Per verificare la corretta attivazione di un blocco per controversia legale in u
   - Il comando precedente per attivare un blocco in tutte e cassette postali utilizza un filtro destinatario che restituisce tutte le cassette postali utente. È possibile utilizzare altre proprietà dei destinatari per un elenco delle cassette postali specifiche che è quindi possibile restituire al cmdlet **Set-Mailbox** per attivare un blocco per controversia legale in tali cassette postali.
     
     Ecco alcuni esempi sull'utilizzo dei cmdlet **Get-Mailbox** e **Get-Recipient** per restituire un set secondario di cassette postali in base alle proprietà comuni di utenti o cassette postali. Tali esempi presumono che le proprietà della cassetta postale rilevante (ad esempio, *CustomAttributeN* o *Department*) siano state popolate.
-    ```
+    ```powershell
     Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
     ```
-    ```
+    
+    ```powershell
     Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
     ```
-    ```
+    
+    ```powershell
     Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
     ```
-    ```
+    ```powershell
     Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
     ```
-    ```
+    
+    ```powershell
     Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
     ```
+    
 
     È possibile utilizzare altre proprietà della cassetta postale utente in un filtro per escludere o includere le cassette postali. Per ulteriori dettagli, vedere [Proprietà filtrabili per il parametro - Filter](https://technet.microsoft.com/it-it/library/bb738155\(v=exchg.150\)).
 

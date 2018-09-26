@@ -86,15 +86,15 @@ Un file dei messaggi copiato nella directory di prelievo deve soddisfare i segue
   - Tra l'intestazione e il corpo del messaggio deve essere presente una riga vuota.
 
 Con questo esempio viene mostrato un messaggio di testo normale che utilizza una formattazione accettabile per la directory di prelievo.
-
+```powershell
     To: mary@contoso.com
     From: bob@fabrikam.com
     Subject: Message subject
     
     This is the body of the message.
-
+```
 Il contenuto MIME è supportato anche nei file dei messaggi della directory di prelievo. MIME definisce un'ampia gamma di contenuti di messaggi comprendenti lingue che non possono essere rappresentate in testo ASCII a 7 bit, HTML e altro contenuto multimediale. Una descrizione completa e i requisiti di MIME esulano dall'ambito di questo argomento. Con questo esempio viene mostrato un messaggio MIME semplice che utilizza una formattazione accettabile per la directory di prelievo.
-
+```powershell
     To: mary@contoso.com
     From: bob@fabrikam.com
     Subject: Message subject
@@ -109,7 +109,7 @@ Il contenuto MIME è supportato anche nei file dei messaggi della directory di p
     </TABLE>
 
     </BODY></HTML>
-
+```
 Inizio pagina
 
 ## Modifiche all'intestazione del messaggio nella directory di prelievo
@@ -129,8 +129,9 @@ La directory di prelievo rimuove uno dei seguenti campi di intestazione del mess
 
 
 La directory di prelievo aggiunge il proprio campo di intestazione `Received` al messaggio come parte del processo di inoltro del messaggio. Il campo di intestazione `Received` viene applicato nel seguente formato.
-
+```powershell
     Received: from localhost by Pickup with Microsoft SMTP Server id <ExchangeServerVersion><datetime>
+```
 
 La directory di prelievo modifica i seguenti campi di intestazione del messaggio se mancanti o non corretti:
 
@@ -160,7 +161,9 @@ I campi X-Header descritti nell'elenco seguente sono necessari per i messaggi ne
 
   - **X-Sender**   Questo campo X-Header sostituisce il campo di intestazione `From` in un messaggio SMTP standard. Deve essere presente un campo `X-Sender` contenente un indirizzo di posta elettronica. La directory di riesecuzione ignora il campo di intestazione `From`, se presente, anche se il client di posta elettronica del destinatario visualizza il valore del campo di intestazione `From` come mittente del messaggio. Di norma sono presenti altri parametri nel campo `X-Sender` come illustrato nell'esempio seguente.
     
-        X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+    ```powershell
+      X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+    ```
     
 
     > [!NOTE]
@@ -170,7 +173,9 @@ I campi X-Header descritti nell'elenco seguente sono necessari per i messaggi ne
 
   - **X-Receiver**   Questo campo X-Header sostituisce il requisito del campo di intestazione `To` in un messaggio SMTP standard. Deve essere presente almeno un campo `X-Receiver` contenente un indirizzo di posta elettronica. Sono consentiti più campi `X-Receiver` per più destinatari. La directory di riesecuzione ignora i campi di intestazione `To`, se presenti, anche se il client di posta elettronica del destinatario visualizza i valori dei campi di intestazione `To` come destinatari del messaggio. Di norma sono presenti altri parametri facoltativi nei campi `X-Receiver` come illustrato nell'esempio seguente.
     
+    ```powershell
         X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+    ```
     
 
     > [!NOTE]
@@ -194,15 +199,21 @@ I campi X-Header descritti nell'elenco seguente sono facoltativi per i file di m
 
 Con questo esempio viene mostrato un messaggio di testo normale che utilizza una formattazione accettabile per la directory di riesecuzione.
 
-    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
+```powershell
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345AB auth=<someAuth>
     Subject: Optional message subject
     
     This is the body of the message.
-
+```
 Il contenuto MIME è supportato anche nei file dei messaggi della directory di riesecuzione. MIME definisce un'ampia gamma di contenuti di messaggi comprendenti lingue che non possono essere rappresentate in testo ASCII a 7 bit, HTML e altro contenuto multimediale. Una descrizione completa e i requisiti di MIME esulano dall'ambito di questo argomento. Con questo esempio viene mostrato un messaggio MIME semplice che utilizza una formattazione accettabile per la directory di riesecuzione.
 
-    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
+```powershell
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345ABCD auth=<someAuth>
     To: mary@contoso.com
     From: bob@fabrikam.com
@@ -218,7 +229,7 @@ Il contenuto MIME è supportato anche nei file dei messaggi della directory di r
     </TABLE>
 
     </BODY></HTML>
-
+```
 Inizio pagina
 
 ## Modifiche all'intestazione del messaggio nella directory di riesecuzione
@@ -226,8 +237,9 @@ Inizio pagina
 La directory di riesecuzione elimina il campo di intestazione `Bcc` dal file di messaggio.
 
 La directory di riesecuzione aggiunge il proprio campo di intestazione `Received` al messaggio come parte del processo di invio del messaggio. Il campo di intestazione del messaggio Ricevuto viene applicato nel seguente formato.
-
+```powershell
     Received: from <ReceivingServerName> by Replay with <ExchangeServerVersion><DateTime>
+```
 
 La directory di riesecuzione modifica i campi di intestazione seguenti nell'intestazione di messaggio:
 

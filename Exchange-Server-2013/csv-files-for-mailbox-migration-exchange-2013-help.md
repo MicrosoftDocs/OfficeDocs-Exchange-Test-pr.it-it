@@ -390,8 +390,9 @@ I valori di attributo nel file CSV per ignorare il valore del parametro corrispo
 
 Ad esempio, aggiungere creiamo un batch in Exchange Management Shell per il primario degli utenti da spostare un'organizzazione tra foreste e cassette postali di archiviazione alla foresta di destinazione utilizzando il seguente comando Exchange Management Shell.
 
+```powershell
     New-MigrationBatch -Name CrossForestBatch1 -SourceEndpoint ForestEndpoint1 -TargetDeliveryDomain forest2.contoso.com -TargetDatabases @(EXCH-MBX-02,EXCH-MBX-03) -TargetArchiveDatabases @(EXCH-MBX-A02,EXCH-MBX-A03) -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\CrossForestBatch1.csv")) -AutoStart
-
+```
 
 > [!NOTE]
 > Poiché il valore predefinito è spostare primario e cassette postali di archiviazione, non è necessario specificare in modo esplicito nel comando Exchange Management Shell.
@@ -400,26 +401,32 @@ Ad esempio, aggiungere creiamo un batch in Exchange Management Shell per il prim
 
 Una parte del file CrossForestBatch1.csv per questo batch di migrazione appare simile alla seguente:
 
+```powershell
     EmailAddress,TargetDatabase,TargetArchiveDatabase
     user1@contoso.com,EXCH-MBX-01,EXCH-MBX-A01
     user2@contoso.com,,
     user3@contoso.com,EXCH-MBX-01,
     ...
+```
 
 Poiché i valori del file CSV sovrascrivono i valori per il batch di migrazione, le cassette postali primaria e di archivio per user1 saranno spostate in EXCH-MBX-01 e EXCH-MBX-A01 rispettivamente nella foresta di destinazione. Le cassette postali principale e di archivio per user2 vengono spostate in EXCH-MBX-02 o EXCH-MBX-03. La cassetta postale primaria per user3 viene spostata in EXCH-MBX-01 e la cassetta postale di archivio in EXCH-MBX-A02 o EXCH-MBX-A03
 
 In un altro esempio, si supponga che si crea un batch di una migrazione di spostamento remoto onboarding in una distribuzione ibrida per spostare le cassette postali di archiviazione in Exchange Online con il comando seguente.
 
+```powershell
     New-MigrationBatch -Name OnBoarding1 -SourceEndpoint RemoteEndpoint1 -TargetDeliveryDomain cloud.contoso.com -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\OnBoarding1.csv")) -MailboxType ArchiveOnly -AutoStart
+```
 
 Poiché si desidera spostare le cassette postali primarie per utenti selezionati, una parte del file OnBoarding1.csv per questo batch di migrazione apparirà simile alla seguente:
 
+```powershell
     EmailAddress,MailboxType
     user1@contoso.com,
     user2@contoso.com,
     user3@cloud.contoso.com,PrimaryAndArchive
     user4@cloud.contoso.com,PrimaryAndArchive
     ...
+```
 
 Poiché il valore del tipo di cassetta postale nel file CSV sovrascrive i valori per il parametro *MailboxType* nel comando per creare il batch, solo la cassetta postale di archivio per user1 e user2 viene migrata a Exchange Online. Le cassette postali primarie e di archivio per user3 e user4 vengono spostate in Exchange Online.
 

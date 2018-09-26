@@ -55,11 +55,15 @@ Per informazioni sulle altre attività di gestione relative ai ruoli, vedere [Au
 
 È possibile aggiungere una voce di ruolo a un ruolo non appena viene visualizzata sul ruolo padre utilizzando la sintassi seguente.
 
-    Add-ManagementRoleEntry <child role name>\<cmdlet>
+```powershell
+Add-ManagementRoleEntry <child role name>\<cmdlet>
+```
 
 In questo esempio viene aggiunto il cmdlet **Set-Mailbox** al ruolo Amministratori destinatario.
 
-    Add-ManagementRoleEntry "Recipient Administrators\Set-Mailbox"
+```powershell
+Add-ManagementRoleEntry "Recipient Administrators\Set-Mailbox"
+```
 
 Questo comando consente di controllare il ruolo padre e, se la voce di ruolo esiste, consente di aggiungerla al ruolo figlio. Se la voce di ruolo esiste già nel ruolo figlio, è possibile includere il parametro *Overwrite* per sovrascrivere la voce di ruolo esistente.
 
@@ -68,12 +72,14 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Add-Managem
 ## Aggiunta di una singola voce di ruolo da un ruolo padre e inclusione dei parametri specifici
 
 Se si desidera aggiungere una voce di ruolo da un ruolo padre, ma si desidera includere solo i parametri specifici nella voce sul ruolo figlio, utilizzare la sintassi seguente.
-
+```powershell
     Add-ManagementRoleEntry <child role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...>
-
+```
 In questo esempio viene aggiunto il cmdlet **Set-Mailbox** al ruolo Assistenza, ma nella voce sul ruolo figlio vengono inclusi solo i parametri *DisplayName* e *EmailAddresses*.
 
-    Add-ManagementRoleEntry "Help Desk\Set-Mailbox" -Parameters DisplayName, EmailAddresses
+```powershell
+Add-ManagementRoleEntry "Help Desk\Set-Mailbox" -Parameters DisplayName, EmailAddresses
+```
 
 Questo comando consente di controllare il ruolo padre e, se la voce di ruolo esiste, consente di aggiungerla al ruolo figlio. Se la voce di ruolo esiste già nel ruolo figlio, è possibile includere il parametro *Overwrite* per sovrascrivere la voce di ruolo esistente.
 
@@ -84,13 +90,13 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Add-Managem
 Se si desidera aggiungere più voci di ruolo a un ruolo, è necessario recuperare un elenco di voci di ruolo presenti sul ruolo padre che si desidera aggiungere al ruolo figlio, quindi aggiungerle al ruolo figlio. Per eseguire l'operazione, è necessario recuperare l'elenco di voci di ruolo su un ruolo padre utilizzando il cmdlet **Get-ManagementRoleEntry**. Quindi, eseguire il piping dell'output del cmdlet **Get-ManagementRoleEntry** al cmdlet **Add-ManagementRoleEntry**. Per recuperare più voci di ruolo, è necessario utilizzare i caratteri jolly (\*).
 
 Per aggiungere più voci da un ruolo padre a un ruolo figlio, utilizzare la sintassi seguente.
-
+```powershell
     Get-ManagementRoleEntry <parent role name>\*<partial cmdlet name>* | Add-ManagementRoleEntry -Role <child role name>
-
+```
 In questo esempio vengono aggiunte tutte le voci di ruolo che contengono la stringa `Mailbox` nel nome del cmdlet sul ruolo padre Destinatari posta nel ruolo figlio Destinatari posta Seattle.
-
+```powershell
     Get-ManagementRoleEntry "Mail Recipients\*Mailbox*" | Add-ManagementRoleEntry -Role "Seattle Mail Recipients"
-
+```
 Se le voci di ruolo esistono già nel ruolo figlio, è possibile includere il parametro *Overwrite* per sovrascrivere la voci di ruolo esistenti.
 
 Per ulteriori informazioni sul recupero di un elenco di voci del ruolo di gestione, vedere [Visualizzazione voci di ruolo](view-role-entries-exchange-2013-help.md).

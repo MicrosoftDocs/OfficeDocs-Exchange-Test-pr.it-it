@@ -49,15 +49,11 @@ Per informazioni sulle altre attività di gestione che hanno per oggetto le copi
 
 ## Aggiunta di una copia del database delle cassette postali tramite l'interfaccia di amministrazione di Exchange
 
-1.  
-    
-    Nell'interfaccia di amministrazione di Exchange, andare a **Server** \> **Database**.
+1.  Nell'interfaccia di amministrazione di Exchange, andare a **Server** \> **Database**.
 
 2.  Selezionare il database che si desidera copiare e fare clic su ![Aggiunta di una copia del database](images/Dd298080.435c15ff-abf2-4de8-b280-f053db1afa13(EXCHG.150).gif "Aggiunta di una copia del database").
 
-3.  
-    
-    Nella pagina **Aggiungi copia del database delle cassette postali**, fare clic su **Sfoglia...**, selezionare il server cassette postali che ospiterà la copia del database, quindi fare clic su **OK**.
+3.   Nella pagina **Aggiungi copia del database delle cassette postali**, fare clic su **Sfoglia...**, selezionare il server cassette postali che ospiterà la copia del database, quindi fare clic su **OK**.
 
 4.  Facoltativamente, configurare il **Numero di preferenza di attivazione** per la copia del database.
 
@@ -71,15 +67,20 @@ Per informazioni sulle altre attività di gestione che hanno per oggetto le copi
 
 In questo esempio, una copia del database delle cassette postali DB1 viene aggiunta al server Cassette postali MBX3. L'intervallo di riesecuzione e l'intervallo di troncamento rimangono sul valore predefinito pari a zero e la preferenza di attivazione viene configurata su un valore pari 2.
 
-    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ActivationPreference 2
+```powershell
+Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ActivationPreference 2
+```
 
 In questo esempio, una copia del database delle cassette postali DB2 viene aggiunta al server Cassette postali MBX4. L'intervallo di riesecuzione e l'intervallo di troncamento rimangono sul valore predefinito pari a zero e la preferenza di attivazione viene configurata sul valore `5`. Inoltre, il seeding viene rimandato per questa copia in modo che possa essere sottoposta a seeding utilizzando un server di origine locale anziché la copia di database attiva corrente, geograficamente distante da MBX4.
 
-    Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 5 -SeedingPostponed
+```powershell
+Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 5 -SeedingPostponed
+```
 
 In questo esempio, una copia del database delle cassette postali DB3 viene aggiunta al server Cassette postali MBX5. L'intervallo di riesecuzione è impostato su 3 giorni mentre l'intervallo di troncamento rimane sul valore predefinito pari a zero e la preferenza di attivazione viene configurata sul valore `4`.
-
+```powershell
     Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX5 -ReplayLagTime 3.00:00:00 -ActivationPreference 4
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -89,7 +90,9 @@ Per verificare la corretta creazione di una copia del database delle cassette po
 
   - Nella shell eseguire il comando riportato di seguito per verificare che la copia del database delle cassette postali sia stata creata e che sia integra.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```powershell
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```
     
     I campi Stato e Stato indice contenuto devono essere entrambi integri.
 

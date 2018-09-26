@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Utilizzare Telnet per testare le comunicazioni SMTP: Exchange 2013 Help'
 TOCTitle: Utilizzare Telnet per testare le comunicazioni SMTP
 ms:assetid: 8a5f6715-baa4-48dd-8600-02c6b3d1aa9d
@@ -69,12 +69,14 @@ Per connettersi a un server SMTP di destinazione utilizzando Telnet sulla porta 
 
     
     L'output del comando sarà simile al seguente:
-    
+
+    ```powershell
         fabrikam.com mx preference=10, mail exchanger = mail1.fabrikam.com
         fabrikam.com mx preference=20, mail exchanger = mail2.fabrikam.com
         mail1.fabrikam.com internet address = 192.168.1.10
         mail2 fabrikam.com internet address = 192.168.1.20
-    
+    ```
+
     Come server di destinazione è possibile utilizzare qualsiasi nome host o indirizzo IP associato ai record MX. Un valore di preferenza più basso indica un server SMTP preferenziale. È possibile utilizzare più record MX e valori di preferenza diversi per il bilanciamento del carico e la tolleranza d'errore.
 
 5.  Quando si è pronti a terminare la sessione Nslookup, digitare **exit** e premere INVIO.
@@ -107,7 +109,12 @@ Nell'esempio riportato vengono utilizzati i seguenti valori:
 > <LI>
 > <P>I comandi nel client Telnet non rilevano la distinzione tra maiuscole e minuscole. I verbi dei comandi SMTP sono resi al maiuscolo per maggiore chiarezza.</P>
 > <LI>
-> <P>Non è possibile utilizzare BACKSPACE dopo essersi connessi al server SMTP di destinazione durante la sessione di Telnet. Se si commette un errore durante la digitazione di un comando SMTP, è necessario premere INVIO e digitare nuovamente il comando. I comandi SMTP non riconosciuti e gli errori di sintassi causano la visualizzazione di un messaggio di errore simile al seguente:</P><PRE><CODE>500 5.3.3 Unrecognized command</CODE></PRE></LI></UL>
+> <P>Non è possibile utilizzare BACKSPACE dopo essersi connessi al server SMTP di destinazione durante la sessione di Telnet. Se si commette un errore durante la digitazione di un comando SMTP, è necessario premere INVIO e digitare nuovamente il comando. I comandi SMTP non riconosciuti e gli errori di sintassi causano la visualizzazione di un messaggio di errore simile al seguente:</P>
+> 
+> ```powershell
+> 500 5.3.3 Unrecognized command
+> ```
+> </LI></UL>
 
 
 
@@ -127,7 +134,9 @@ Nell'esempio riportato vengono utilizzati i seguenti valori:
 
 8.  Digitare **DATA**, quindi premere INVIO. Si riceverà una risposta simile alla seguente:
     
-        354 Start mail input; end with <CLRF>.<CLRF>
+    ```powershell
+    354 Start mail input; end with <CLRF>.<CLRF>
+    ```
 
 9.  Digitare **Oggetto: Test Contoso** e quindi premere INVIO.
 
@@ -137,11 +146,15 @@ Nell'esempio riportato vengono utilizzati i seguenti valori:
 
 12. Premere INVIO, digitare un punto ( **.** ) e premere INVIO. Si riceverà una risposta simile alla seguente:
     
-        250 2.6.0 <GUID> Queued mail for delivery
+    ```powershell
+    250 2.6.0 <GUID> Queued mail for delivery
+    ```
 
 13. Per disconnettersi dal server SMTP di destinazione, digitare **QUIT** e premere INVIO. Si riceverà una risposta simile alla seguente:
     
-        221 2.0.0 Service closing transmission channel
+    ```powershell
+    221 2.0.0 Service closing transmission channel
+    ```
 
 14. Per chiudere la sessione Telnet, digitare **quit** e premere INVIO.
 

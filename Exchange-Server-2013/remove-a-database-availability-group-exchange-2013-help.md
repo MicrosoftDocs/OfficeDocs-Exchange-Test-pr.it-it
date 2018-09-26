@@ -51,7 +51,9 @@ Per informazioni sulle altre attività di gestione relative ai gruppi di disponi
 
 In questo esempio viene eliminato il gruppo di disponibilità del database DAG1.
 
-    Remove-DatabaseAvailabilityGroup -Identity DAG1
+```powershell
+Remove-DatabaseAvailabilityGroup -Identity DAG1
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -61,7 +63,9 @@ Per verificare l'avvenuta eliminazione del gruppo di disponibilità del database
 
   - In Shell, utilizzare il seguente comando per vedere se il gruppo di disponibilità del database esiste ancora:
     
-        Get-DatabaseAvailabilityGroup <DAGName>
+    ```powershell
+    Get-DatabaseAvailabilityGroup <DAGName>
+    ```
     
     Se l'eliminazione del gruppo di disponibilità del database è riuscita, il precedente comando produrrà un messaggio di errore in cui è indicato che non è stato possibile trovare l'oggetto.
 

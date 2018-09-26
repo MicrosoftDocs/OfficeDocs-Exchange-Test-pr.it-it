@@ -68,13 +68,13 @@ Per informazioni sulle altre attività di gestione relative ai ruoli, vedere [Au
 È possibile creare un'assegnazione di ruolo senza alcun ambito. Quando si esegue questa operazione, vengono applicati gli ambiti di scrittura e di lettura impliciti del ruolo.
 
 Utilizzare la seguente sintassi per assegnare un ruolo a un gruppo di protezione universale senza alcun ambito.
-
+```powershell
     New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name>
-
+```
 In questo esempio viene assegnato il ruolo dei server Exchange al gruppo di protezione universale SeattleAdmins.
-
+```powershell
     New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
 ## Creazione di un'assegnazione di ruolo con un ambito relativo predefinito
@@ -82,13 +82,13 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-Managem
 Se un ambito relativo predefinito consente di soddisfare i requisiti aziendali, è possibile applicare tale ambito all'assegnazione di ruolo anziché creare un ambito personalizzato. Per un elenco degli ambiti predefiniti e le relative descrizioni, vedere [Comprensione degli ambiti di gestione dei ruoli](understanding-management-role-scopes-exchange-2013-help.md).
 
 Utilizzare la seguente sintassi per assegnare un ruolo a un gruppo di protezione universale con un ambito predefinito:
-
+```powershell
     New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
-
+```
 In questo esempio viene assegnato il ruolo dei server Exchange al gruppo di protezione universale SeattleAdmins e viene applicato l'ambito predefinito Organization.
-
+```powershell
     New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers" -RecipientRelativeWriteScope Organization
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
 ## Creazione di un'assegnazione di ruolo con un ambito basato su un filtro destinatari
@@ -98,13 +98,13 @@ Se è stato creato un ambito basato su un filtro destinatari e si desidera utili
 Prima di poter aggiungere un ambito ad un'assegnazione del ruolo, è necessario crearne uno. Per ulteriori informazioni, vedere [Creare un ambito normale o esclusivo](create-a-regular-or-exclusive-scope-exchange-2013-help.md).
 
 Utilizzare la seguente sintassi per assegnare un ruolo a un gruppo di protezione universale con un ambito basato su un filtro destinatari.
-
+```powershell
     New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -CustomRecipientWriteScope <role scope name>
-
+```
 In questo esempio viene assegnato il ruolo Mail Recipients al gruppo di protezione universale Seattle Recipient Admins e viene applicato l'ambito Seattle Recipients.
-
+```powershell
     New-ManagementRoleAssignment -Name "Mail Recipients_Seattle Recipient Admins" -SecurityGroup "Seattle Recipient Admins" -Role "Mail Recipients" -CustomRecipientWriteScope "Seattle Recipients"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
 ## Creazione di un'assegnazione di ruolo con un ambito di configurazione basato su un elenco o su un filtro server o database
@@ -114,13 +114,13 @@ Se è stato creato un ambito basato su un elenco o su un filtro server o databas
 Prima di poter aggiungere un ambito ad un'assegnazione del ruolo, è necessario crearne uno. Per ulteriori informazioni, vedere [Creare un ambito normale o esclusivo](create-a-regular-or-exclusive-scope-exchange-2013-help.md).
 
 Utilizzare la seguente sintassi per assegnare un ruolo a un gruppo di protezione universale con un ambito di configurazione.
-
+```powershell
     New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -CustomConfigWriteScope <role scope name>
-
+```
 In questo esempio viene assegnato il ruolo dei server Exchange al gruppo di protezione universale MailboxAdmins e viene applicato l'ambito Mailbox Servers.
-
+```powershell
     New-ManagementRoleAssignment -Name "Exchange Servers_MailboxAdmins" -SecurityGroup MailboxAdmins -Role "Exchange Servers" -CustomConfigWriteScope "Mailbox Servers"
-
+```
 Nell'esempio precedente viene descritto come aggiungere un'assegnazione di ruolo con un ambito di configurazione server. La sintassi per aggiungere un ambito di configurazione di database è identica. Viene specificato il nome di un ambito di database anziché di un ambito server.
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
@@ -130,12 +130,14 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-Managem
 Se si desidera applicare l'ambito di scrittura di un ruolo a un'unità organizzativa (OU), è possibile specificare l'unità organizzativa direttamente nel parametro *RecipientOrganizationalUnitScope*. Se si utilizza il parametro *RecipientOrganizationalUnitScope*, non è possibile utilizzare il parametro *CustomRecipientWriteScope*.
 
 Utilizzare la sintassi seguente per assegnare un ruolo a un gruppo di protezione universale e limitare l'ambito di scrittura di un ruolo a un'unità organizzativa specifica.
-
+```powershell
     New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -RecipientOrganizationalUnitScope <OU>
+```
 
 In questo esempio viene assegnato il ruolo Mail Recipients al gruppo di protezione universale SalesRecipientAdmins e viene esaminata l'assegnazione all'unità organizzativa sales/users OU del dominio contoso.com.
-
+```powershell
     New-ManagementRoleAssignment -Name "Mail Recipients_SalesRecipientAdmins" -SecurityGroup SalesRecipientAdmins -Role "Mail Recipients" -RecipientOrganizationalUnitScope contoso.com/sales/users
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
@@ -152,8 +154,8 @@ Quando si esegue questa procedura, gli utenti a cui è assegnato il ruolo posson
 Non è possibile creare un'assegnazione di ruolo utilizzando sia ambiti esclusivi sia ambiti regolari.
 
 In questo esempio viene assegnato il ruolo Mail Recipients al gruppo di protezione universale Protected User Admins e viene applicato l'ambito esclusivo Protected Users.
-
+```powershell
     New-ManagementRoleAssignment -Name "Mail Recipients_Protected User Admins" -SecurityGroup "Protected User Admins" -Role "Mail Recipients" -ExclusiveRecipientWriteScope "Protected Users"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 

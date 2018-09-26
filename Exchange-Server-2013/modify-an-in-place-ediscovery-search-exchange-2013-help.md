@@ -78,7 +78,9 @@ Dopo aver creato una ricerca eDiscovery In locale, è possibile modificare in mo
 
 Questo esempio viene modificata la ricerca di eDiscovery In locale ricerca Project Contoso per la ricerca di cassette postali appartenenti ai membri del gruppo di distribuzione DG-mondo.
 
-    Set-MailboxSearch -Identity "Search-Project Contoso" -SourceMailboxes "DG-ProjectManagers"
+```powershell
+Set-MailboxSearch -Identity "Search-Project Contoso" -SourceMailboxes "DG-ProjectManagers"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

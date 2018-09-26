@@ -63,7 +63,9 @@ Per altre attività di gestione relative alla federazione, vedere [Procedure di 
     
     È consigliabile che tutte le organizzazioni di Exchange utilizzino l'istanza business del sistema di autenticazione di Azure AD per le relazioni di trust federative. Prima di configurare la condivisione federata tra due organizzazioni Exchange, è necessario verificare quale istanza del sistema di autenticazione di Azure AD sta utilizzando ciascuna organizzazione Exchange per tutte le relazioni di trust federativa. Per determinare quale istanza del sistema di autenticazione di Azure AD una organizzazione Exchange sta utilizzando per una relazione di trust federativa, eseguire il seguente comando Shell.
     
-        Get-FederationInformation -DomainName <hosted Exchange domain namespace>
+    ```powershell
+    Get-FederationInformation -DomainName <hosted Exchange domain namespace>
+    ```
     
     L'istanza business restituisce un valore di `<uri:federation:MicrosoftOnline>` per il parametro *TokenIssuerURIs*.
     
@@ -116,32 +118,36 @@ Per altre attività di gestione relative alla federazione, vedere [Procedure di 
 ## Utilizzo di Shell per creare e configurare una relazione di trust federativa
 
 1.  Eseguire questo comando per creare un identificatore della chiave del soggetto univoco per il certificato della relazione di trust federativa:
-    
+    ```powershell
         $ski = [System.Guid]::NewGuid().ToString("N")
-
+    ```
 2.  Utilizzare questa sintassi per creare un certificato autofirmato per questo tipo di relazione di trust:
-    
+    ```powershell
         New-ExchangeCertificate -FriendlyName "<Descriptive Name>" -DomainName <domain> -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
-    
+    ```
     In questo esempio viene creato un certificato autofirmato per la relazione di trust federativa con il sistema di autenticazione di Azure AD. Il certificato utilizza il valore del nome descrittivo di Condivisione federata di Exchange e il valore del dominio è recuperato dalla variabile dell'ambiente di **USERDNSDOMAIN**.
-    
+    ```powershell
         New-ExchangeCertificate -FriendlyName "Exchange Federated Sharing" -DomainName $env:USERDNSDOMAIN -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
-
+    ```
 3.  Per creare la relazione di trust federativa e distribuire automaticamente il certificato autofirmato creato nel passaggio precedente ai server Exchange nell'organizzazione, usare questa sintassi:
-    
+    ```powershell
         Get-ExchangeCertificate | ?{$_.FriendlyName -eq "<FriendlyName>"} | New-FederationTrust -Name "<Descriptive Name>"
-    
+    ```
     In questo esempio viene creata la relazione di trust federativa denominata Autenticazione di Azure AD e viene distribuito il certificato autofirmato denominato Condivisione federata di Exchange.
-    
+    ```powershell
         Get-ExchangeCertificate | ?{$_.FriendlyName -eq "Exchange Federated Sharing"} | New-FederationTrust -Name "Azure AD Authentication"
-
+    ```
 4.  Utilizzare questa sintassi per ottenere la prova del record TXT della proprietà del dominio necessaria per qualsiasi dominio che si configura per la relazione di trust federativa.
     
+    ```powershell
         Get-FederatedDomainProof -DomainName <domain>
+    ```
     
     In questo esempio viene restituita la prova del record TXT della proprietà del dominio necessaria per il dominio condiviso principale contoso.com.
     
-        Get-FederatedDomainProof -DomainName contoso.com
+    ```powershell
+    Get-FederatedDomainProof -DomainName contoso.com
+    ```
     
     **Note**:
     
@@ -153,23 +159,29 @@ Per altre attività di gestione relative alla federazione, vedere [Procedure di 
 
 6.  Eseguire questo comando per recuperare i metadati e il certificato da Azure AD:
     
-        Set-FederationTrust -RefreshMetadata -Identity "Azure AD authentication"
+    ```powershell
+    Set-FederationTrust -RefreshMetadata -Identity "Azure AD authentication"
+    ```
 
 7.  Utilizzare questa sintassi per configurare il dominio condiviso principale per la relazione di trust federativa creata nel passaggio 3. Il dominio specificato verrà utilizzato per configurare l'identificatore dell'organizzazione (OrgID) per la relazione di trust federativa. Per ulteriori informazioni sull'OrgID, vedere [Federated organization identifier](federation-exchange-2013-help.md).
-    
+    ```powershell
         Set-FederatedOrganizationIdentifier -DelegationFederationTrust "<Federation Trust Name>" -AccountNamespace <Accepted Domain> -Enabled $true
-    
+    ```
     In questo esempio viene configurato il dominio accettato contoso.com come dominio condiviso principale per la relazione di trust federativa denominata Autenticazione di Azure AD.
-    
+    ```powershell
         Set-FederatedOrganizationIdentifier -DelegationFederationTrust "Azure AD authentication" -AccountNamespace contoso.com -Enabled $true
-
+    ```
 8.  Per aggiungere altri domini alla relazione di trust federativa, utilizzare questa sintassi:
     
-        Add-FederatedDomain -DomainName <AdditionalDomain>
+    ```powershell
+    Add-FederatedDomain -DomainName <AdditionalDomain>
+    ```
     
     In questo esempio viene aggiunto il sottodominio sales.contoso.com alla relazione di trust federativa, poiché gli utenti con indirizzi e-mail nel dominio sales.contoso.com richiedono funzionalità di condivisione federata.
     
+    ```powershell
         Add-FederatedDomain -DomainName sales.contoso.com
+    ```
     
     Tenere presente che qualsiasi dominio o sottodominio aggiunto alla relazione di trust federativa richiede una prova del record TXT della proprietà del dominio.
 
@@ -183,11 +195,15 @@ Per ulteriori verifiche della corretta creazione e configurazione della relazion
 
 1.  Eseguire questo comando Shell per verificare le informazioni di attendibilità del trust federativo.
     
-        Get-FederationTrust | Format-List
+    ```powershell
+    Get-FederationTrust | Format-List
+    ```
 
 2.  Sostituire *\<PrimarySharedDomain\>* con il dominio condiviso principale ed eseguire questo comando Shell per verificare che le informazioni sulla Federazione possano essere recuperate dalla propria organizzazione.
     
-        Get-FederationInformation -DomainName <PrimarySharedDomain>
+    ```powershell
+    Get-FederationInformation -DomainName <PrimarySharedDomain>
+    ```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-FederationTrust](https://technet.microsoft.com/it-it/library/dd351262\(v=exchg.150\)) e [Get-FederationInformation](https://technet.microsoft.com/it-it/library/dd351221\(v=exchg.150\)).
 

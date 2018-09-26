@@ -53,11 +53,15 @@ Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le p
 
 In questo esempio, viene applicato l'elenco indirizzi Washington State.
 
-    Update-AddressList "Washington State"
+```powershell
+Update-AddressList "Washington State"
+```
 
 Se si dispone di più elenchi di indirizzi con lo stesso nome, è necessario specificare il percorso completo per l'elenco di indirizzi che si desidera aggiornare. Ad esempio, se si desidera aggiornare l'elenco di indirizzi Vendite sotto Nord America, ma è presente un elenco di indirizzi Vendite anche sotto Europa, utilizzare il seguente comando:
 
-    Update-AddressList "North America\Sales"
+```powershell
+Update-AddressList "North America\Sales"
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Update-AddressList](https://technet.microsoft.com/it-it/library/aa997982\(v=exchg.150\)).
 

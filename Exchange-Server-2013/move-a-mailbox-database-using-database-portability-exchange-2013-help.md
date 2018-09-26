@@ -44,7 +44,9 @@ _**Ultima modifica dell'argomento:** 2014-06-16_
     
     Per salvare tutti i file di registro non salvati nel database, da un prompt dei comandi, utilizzare il seguente comando:
     
-        ESEUTIL /R <Enn>
+    ```powershell
+    ESEUTIL /R <Enn>
+    ```
     
 
     > [!NOTE]
@@ -53,26 +55,35 @@ _**Ultima modifica dell'argomento:** 2014-06-16_
 
 
 2.  Creare un database su un server utilizzando la seguente sintassi:
-    
+
+    ```powershell
         New-MailboxDatabase -Name <DatabaseName> -Server <ServerName> -EdbFilePath <DatabaseFileNameandPath> -LogFolderPath <LogFilesPath>
+    ```
 
 3.  Impostare l'attributo *This database can be over written by restore* utilizzando la seguente sintassi:
     
-        Set-MailboxDatabase <DatabaseName> -AllowFileRestore $true
+    ```powershell
+    Set-MailboxDatabase <DatabaseName> -AllowFileRestore $true
+    ```
 
 4.  Spostare i file del database originale (file EDB, file di registro e catalogo di ricerca di Exchange) nella cartella del database specificata al momento della creazione del nuovo database.
 
 5.  Installare il database utilizzando la seguente sintassi:
     
-        Mount-Database <DatabaseName>
+    ```powershell
+    Mount-Database <DatabaseName>
+    ```
 
-6.  Una volta installato il database, modificare le impostazioni dell'account utente con il cmdlet [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)) in modo che l'account faccia riferimento alla cassetta postale sul nuovo server delle cassette postali. Per spostare tutti gli utenti dal database precedente nel nuovo database, utilizzare la seguente sintassi.
-    
+6.  Una volta installato il database, modificare le impostazioni dell'account utente con il cmdlet [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)) in modo che l'account faccia riferimento alla cassetta postale sul nuovo server delle cassette postali. Per spostare tutti gli utenti dal database precedente nel nuovo database, utilizzare la seguente sintassi. 
+
+    ```powershell
         Get-Mailbox -Database <SourceDatabase> |where {$_.ObjectClass -NotMatch '(SystemAttendantMailbox|ExOleDbSystemMailbox)'}| Set-Mailbox -Database <TargetDatabase>
-
+    ```
 7.  Attivare il recapito dei messaggi che restano nelle code utilizzando la seguente sintassi.
     
-        Get-Queue <QueueName> | Retry-Queue -Resubmit $true
+    ```powershell
+    Get-Queue <QueueName> | Retry-Queue -Resubmit $true
+    ```
 
 Una volta completata la replica di Active Directory, tutti gli utenti potranno accedere alle proprie cassette postali sul nuovo server Exchange. La maggior parte dei client viene reindirizzata tramite Individuazione automatica. Gli utenti di Microsoft Office Outlook Web App vengono reindirizzati automaticamente.
 

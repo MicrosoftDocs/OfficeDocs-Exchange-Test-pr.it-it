@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Requisiti di sistema di Exchange 2013: Exchange 2013 Help'
 TOCTitle: Requisiti di sistema di Exchange 2013
 ms:assetid: 1e80857c-b870-4a6d-a0f4-ff7b3a7be037
@@ -283,7 +283,11 @@ Nella tabella seguente sono elencati i sistemi operativi supportati per Exchange
 > <LI>
 > <P><STRONG>Windows Server 2008 R2</STRONG>&nbsp;&nbsp;&nbsp;Reinstallare Windows Server e selezionare l'opzione <STRONG>Installazione completa</STRONG>.</P>
 > <LI>
-> <P><STRONG>Windows Server 2012 R2</STRONG> o <STRONG>Windows Server 2012</STRONG>&nbsp;&nbsp;&nbsp;Convertire il server con modalità Windows Server Core in un'installazione completa eseguendo il comando riportato di seguito.</P><PRE><CODE>Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart</CODE></PRE></LI></UL>
+> <P><STRONG>Windows Server 2012 R2</STRONG> o <STRONG>Windows Server 2012</STRONG>&nbsp;&nbsp;&nbsp;Convertire il server con modalità Windows Server Core in un'installazione completa eseguendo il comando riportato di seguito.</P>
+> ```powershell
+>         Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart
+> ```
+> </LI></UL>
 
 
 

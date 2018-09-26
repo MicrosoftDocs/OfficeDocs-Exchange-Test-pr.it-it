@@ -41,9 +41,13 @@ Il cmdlet **Set-RemoteDomain** consente di configurare le proprietà di un domin
 
 In questo esempio vengono disabilitati i rapporti di recapito al dominio remoto Contoso. Questa impostazione è abilitata per impostazione predefinita.
 
-    Set-RemoteDomain Contoso -DeliveryReportEnabled $false
+```powershell
+Set-RemoteDomain Contoso -DeliveryReportEnabled $false
+```
 
 In questo esempio vengono disabilitati i rapporti di mancato recapito per il dominio remoto. Questa impostazione è abilitata per impostazione predefinita.
 
-    Set-RemoteDomain Contoso -NDREnabled $false
+```powershell
+Set-RemoteDomain Contoso -NDREnabled $false
+```
 

@@ -67,9 +67,13 @@ Per ulteriori attività di gestione relative ai server Messaggistica unificata e
 
 In questo esempio viene imposta la modalità di avvio per il server Accesso client `UMCallRouter1` in modalità Dual.
 
-    Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode Dual
+```powershell
+Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode Dual
+```
 
 In questo esempio viene imposta la modalità di avvio per il server Accesso client `UMCallRouter1` in modalità TLS.
 
-    Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode TLS
+```powershell
+Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode TLS
+```
 

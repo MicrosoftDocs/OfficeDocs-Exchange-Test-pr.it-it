@@ -43,7 +43,9 @@ Per le attività di gestione aggiuntive relative alle cassette postali disconnes
 
   - Per visualizzare il valore della proprietà *Identity* per tutte le richieste di ripristino delle cassette postali, eseguire il comando riportato di seguito.
     
+    ```powershell
         Get-MailboxRestoreRequest | Format-Table Identity
+    ```
     
     È possibile utilizzare il valore Identity per specificare la richiesta di ripristino di una specifica cassetta postale quando si eseguono le procedure descritte nel presente argomento.
 
@@ -63,31 +65,43 @@ Per le attività di gestione aggiuntive relative alle cassette postali disconnes
 
 Per visualizzare l'elenco e il valore della proprietà *Identity* per tutte le richieste di ripristino della cassetta postale, eseguire il comando riportato di seguito.
 
-    Get-MailboxRestoreRequest | Format-Table Identity
+```powershell
+Get-MailboxRestoreRequest | Format-Table Identity
+```
 
 Per ottenere informazioni sulle richieste di ripristino di una determinata cassetta postale, è possibile utilizzare l'identità.
 
 In questo esempio viene restituito lo stato della richiesta di ripristino "Pilar Pinilla \\MailboxRestore" utilizzando il parametro *Identity*.
 
-    Get-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore"
+```powershell
+Get-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore"
+```
 
 In questo esempio vengono restituite tutte le informazioni relative alla seconda richiesta di ripristino della cassetta postale di destinazione Pilar Pinilla.
 
-    Get-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1" | Format-List
+```powershell
+Get-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1" | Format-List
+```
 
 In questo esempio viene restituito lo stato delle richieste di ripristino in corso dal database di origine MBD01.
 
-    Get-MailboxRestoreRequest -SourceDatabase MBD01
+```powershell
+Get-MailboxRestoreRequest -SourceDatabase MBD01
+```
 
 In questo esempio vengono restituite tutte le richieste di ripristino attualmente in corso.
 
-    Get-MailboxRestoreRequest -Status InProgress
+```powershell
+Get-MailboxRestoreRequest -Status InProgress
+```
 
 Sono disponibili altre utili informazioni sullo stato, tra cui `Queued`, `Completed`, `Suspended` e `Failed`.
 
 In questo esempio vengono restituite tutte le richieste di ripristino sospese.
 
-    Get-MailboxRestoreRequest -Suspend $true
+```powershell
+Get-MailboxRestoreRequest -Suspend $true
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829907\(v=exchg.150\)).
 
@@ -150,20 +164,22 @@ Eseguire il cmdlet **Get-MailboxRestoreRequest** per verificare se sia possibile
 
 In questo esempio vengono restituite le statistiche predefinite per la richiesta di ripristino danp\\MailboxRestore1. Per impostazione predefinita, le informazioni restituite includono nome, cassetta postale, stato e percentuale di completamento.
 
-    Get-MailboxRestoreRequestStatistics -Identity danp\MailboxRestore1
+```powershell
+Get-MailboxRestoreRequestStatistics -Identity danp\MailboxRestore1
+```
 
 In questo esempio vengono restituite le statistiche per la cassetta postale di Dan Park e il report viene esportato in un file CSV.
-
+```powershell
     Get-MailboxRestoreRequestStatistics -Identity "Dan Park\MailboxRestore" | Export-CSV \\SERVER01\RestoreRequest_Reports\DanPark_Restorestats.csv
-
+```
 In questo esempio vengono restituite informazioni aggiuntive sulla richiesta di ripristino per la cassetta postale di Pilar Pinilla utilizzando il parametro *IncludeReport* ed eseguendo il pipelining dei risultati mediante il cmdlet **Format-List**.
-
+```powershell
     Get-MailboxRestoreRequestStatistics -Identity "Pilar Pinilla\MailboxRestore" -IncludeReport | Format-List 
-
+```
 In questo esempio vengono restituite informazioni aggiuntive per tutte le richieste di ripristino con stato `Failed` utilizzando il parametro *IncludeReport*. Le informazioni vengono quindi salvate nel file AllRestoreReports.txt nella posizione in cui viene eseguito il comando.
-
+```powershell
     Get-MailboxRestoreRequest -Status Failed | Get-MailboxRestoreRequestStatistics -IncludeReport | Format-List > AllRestoreReports.txt
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-MailboxRestoreRequestStatistics](https://technet.microsoft.com/it-it/library/ff829912\(v=exchg.150\)) e [Get-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829907\(v=exchg.150\)).
 
 ## Output di MailboxRestoreRequestStatistics
@@ -401,12 +417,14 @@ Se una richiesta di ripristino non va a buon fine, è possibile utilizzare il cm
 
 In questo esempio viene specificato che la richiesta di ripristino MailboxRestore1 per la cassetta postale di Debra Garcia ignora 10 elementi danneggiati di cassette postali.
 
-    Set-MailboxRestoreRequest -Identity "Debra Garcia\MailboxRestore1" -BadItemLimit 10
+```powershell
+Set-MailboxRestoreRequest -Identity "Debra Garcia\MailboxRestore1" -BadItemLimit 10
+```
 
 In questo esempio viene specificato che la richiesta di ripristino MailboxRestore1 per la cassetta postale di Florence Flipo ignora 100 elementi danneggiati di cassette postali. Poiché il valore *BadItemLimit* è maggiore di 50, è necessario specificare il parametro *AcceptLargeDataLoss*.
-
+```powershell
     Set-MailboxRestoreRequest -Identity "Florence Flipo\MailboxRestore1" -BadItemLimit 100 -AcceptLargeDataLoss
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829909\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo?
@@ -421,19 +439,23 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Mailbox
 
 In questo esempio viene sospesa la richiesta di ripristino MailboxRestore1 della cassetta postale di Pilar Pinilla.
 
-    Suspend-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1"
+```powershell
+Suspend-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1"
+```
 
 In questo esempio vengono sospese tutte le richieste di ripristino in corso. A tale scopo, tutte le richieste di ripristino con stato `InProgress` vengono recuperate e quindi inviate tramite pipeline al cmdlet **Suspend-MailboxRestoreRequest** con il commento di sospensione "Resume after FY13Q2 Maintenance."
-
+```powershell
     Get-MailboxRestoreRequest -Status InProgress | Suspend-MailboxRestoreRequest -SuspendComment "Resume after FY13Q2 Maintenance"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Suspend-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829906\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
 Per verificare la corretta sospensione della richiesta di ripristino di una cassetta postale, eseguire il comando riportato di seguito.
 
-    Get-MailboxRestoreRequest <identity> | Format-List Suspend,Status
+```powershell
+Get-MailboxRestoreRequest <identity> | Format-List Suspend,Status
+```
 
 Se il valore della proprietà *Suspend* è uguale a `True`, la richiesta di ripristino è stata sospesa correttamente. Inoltre, il valore `Suspended` della proprietà *Status* indica che la richiesta di ripristino è stata sospesa.
 
@@ -443,11 +465,15 @@ Utilizzare il cmdlet **Resume-MailboxRestoreRequest** per riprendere una richies
 
 In questo esempio viene ripresa la richiesta di ripristino Pilar Pinilla\\MailboxRestore1.
 
-    Resume-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1"
+```powershell
+Resume-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1"
+```
 
 In questo esempio vengono riprese tutte le richieste di ripristino con stato Non riuscito.
 
-    Get-MailboxRestoreRequest -Status Failed | Resume-MailboxRestoreRequest
+```powershell
+Get-MailboxRestoreRequest -Status Failed | Resume-MailboxRestoreRequest
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Resume-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829908\(v=exchg.150\)).
 
@@ -455,7 +481,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Resume-Mail
 
 Per verificare che una richiesta di ripristino sia stata ripresa correttamente, eseguire il comando riportato di seguito.
 
-    Get-MailboxRestoreRequest <identity> | Format-List Suspend,Status
+```powershell
+Get-MailboxRestoreRequest <identity> | Format-List Suspend,Status
+```
 
 Se il valore della proprietà *Suspend* è uguale a `False`, la richiesta di ripristino è stata ripresa correttamente. Inoltre, il valore `InProgress` della proprietà *Status* indica che la richiesta di ripristino è stata ripresa.
 
@@ -471,15 +499,21 @@ Utilizzare il cmdlet **Remove-MailboxRestoreRequest** per rimuovere le richieste
 
 In questo esempio viene eliminata la richiesta di ripristino Pilar Pinilla\\MailboxRestore1.
 
-    Remove-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1"
+```powershell
+Remove-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1"
+```
 
 In questo esempio vengono rimosse tutte le richieste di ripristino con stato Completato.
 
-    Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+```powershell
+Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+```
 
 In questo esempio viene annullata la richiesta di ripristino utilizzando il parametro *RequestGuid* per una richiesta memorizzata in MBXDB01. L'impostazione del parametro che richiede i parametri *RequestGuid* e *RequestQueue* viene utilizzata unicamente a scopo di debug di MRS. Utilizzare questo parametro soltanto se è stato richiesto dal Servizio assistenza e supporto tecnico Microsoft.
 
-    Remove-MailboxRestoreRequest -RequestQueue MBXDB01 -RequestGuid 25e0eaf2-6cc2-4353-b83e-5cb7b72d441f
+```powershell
+Remove-MailboxRestoreRequest -RequestQueue MBXDB01 -RequestGuid 25e0eaf2-6cc2-4353-b83e-5cb7b72d441f
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829910\(v=exchg.150\)).
 
@@ -487,7 +521,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-Mail
 
 Per verificare la corretta eliminazione della richiesta di ripristino di una cassetta postale, eseguire il comando riportato di seguito.
 
-    Get-MailboxRestoreRequest -Identity <identity of removed restore request>
+```powershell
+Get-MailboxRestoreRequest -Identity <identity of removed restore request>
+```
 
 Il comando restituirà un errore con la segnalazione che la richiesta di ripristino non esiste.
 

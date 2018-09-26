@@ -53,7 +53,9 @@ Il file .csv viene utilizzato per stabilire il mapping tra la gerarchia di origi
 
 È possibile far sì che una sincronizzazione delta venga sincronizzata prima della finalizzazione (prima del blocco dell'origine) utilizzando il seguente comando Shell:
 
-    Resume-PublicFolderMigrationRequest \PublicFolderMigration
+```powershell
+Resume-PublicFolderMigrationRequest \PublicFolderMigration
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Resume-PublicFolderMigrationRequest](https://technet.microsoft.com/it-it/library/jj218689\(v=exchg.150\)).
 
@@ -62,8 +64,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Resume-Publ
 Come parte del processo di migrazione, viene generato un file .csv (utilizzando lo script `publicfoldertomailboxmapgenerator.ps1`). Questo file contiene il mapping da cartella a cassetta postale per la nuova gerarchia. È possibile utilizzare il file .csv per creare cassette postali di cartelle pubbliche nella posizione geografica appropriata e modificare il file in modo da inserire le cartelle richieste nella cassetta postale appropriata affinché siano vicino agli utenti di destinazione.
 
 È possibile generare Il file .csv di input eseguendo lo script `AggregatePFData.ps1`, situato nella directory \<*Percorso di installazione di Exchange*\>\\V15\\Scripts. Eseguire lo script come segue:
-
+```powershell
     .\AggregatePFData.ps1 | Select-Object -property @{Name="FolderName"; Expression = {$_.Identity}}, @{Name="FolderSize"; Expression = {$_.TotalItemSize.Value.ToBytes()}} | Export-CSV -Path <Path followed by the name of the CSV>
+```
 
 ## Le autorizzazioni per le cartelle pubbliche esistenti migrano?
 
@@ -103,7 +106,9 @@ Per ulteriori informazioni sui limiti di archiviazione delle cartelle pubbliche,
 
 Eseguire il comando indicato di seguito:
 
-    Get-OrganizationConfig | Format-List RootPublicFolderMailbox
+```powershell
+Get-OrganizationConfig | Format-List RootPublicFolderMailbox
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-OrganizationConfig](https://technet.microsoft.com/it-it/library/aa997571\(v=exchg.150\)).
 
@@ -111,7 +116,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Organiz
 
 Utilizzare i seguenti comandi per creare la prima cassetta postale di cartelle pubbliche della gerarchia master e le cassette postali della gerarchia secondaria.
 
-    New-Mailbox -PublicFolder -Name <name of public folder>
+```powershell
+New-Mailbox -PublicFolder -Name <name of public folder>
+```
 
 Per ulteriori dettagli, vedere [Creare una cartella pubblica](https://docs.microsoft.com/it-it/exchange/collaboration-exo/public-folders/create-public-folder).
 
@@ -147,7 +154,9 @@ Proprio come nelle versioni precedenti di Exchange, è possibile impostare limit
 
 In Exchange 2007 ed Exchange 2010, era possibile specificare quali utenti avrebbero avuto accesso a determinate cartelle pubbliche. In Exchange 2013, è possibile impostare la cassetta postale di cartelle pubbliche per utente. A tale scopo, utilizzare il cmdlet [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)) con il parametro *DefaultPublicFolderMailbox*.
 
-    Set-Mailbox -Identity kweku@contoso.com -DefaultPublicFolderMailbox "PF_Administration"
+```powershell
+Set-Mailbox -Identity kweku@contoso.com -DefaultPublicFolderMailbox "PF_Administration"
+```
 
 ## Se la gerarchia master subisce un calo, qual è l'impatto dell'utente?
 

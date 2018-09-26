@@ -45,8 +45,9 @@ La registrazione nella tabella di routing registra periodicamente un'istantanea 
 
 Eseguire il comando indicato di seguito:
 
+```powershell
     Set-TransportService <ServerIdentity> -RoutingTableLogMaxAge <dd.hh:mm:ss> -RoutingTableLogMaxDirectorySize <Size>  -RoutingTableLogPath <LocalFilePath>
-
+```
 In questo esempio vengono impostate le seguenti impostazioni per la registrazione nella tabella di routing sul server Cassette postali Mailbox01:
 
   - Imposta il percorso dei file di registro della tabella di routing su D:\\Routing Table Log. Notare che se la cartella non esiste, verrà creata automaticamente.
@@ -56,9 +57,9 @@ In questo esempio vengono impostate le seguenti impostazioni per la registrazion
   - Imposta la durata massima di un file di registro della tabella di routing su 45 giorni.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Mailbox01 -RoutingTableLogPath "D:\Routing Table Log" -RoutingTableLogMaxDirectorySize 70MB -RoutingTableLogMaxAge 45.00:00:00
-
+```
 
 > [!NOTE]
 > Se il parametro <EM>RoutingTableLogMaxAge</EM> viene impostato su <CODE>00:00:00</CODE>, si evita che i file di registro della tabella di routing vengano rimossi automaticamente dopo un determinato periodo di tempo.
@@ -70,31 +71,38 @@ In questo esempio vengono impostate le seguenti impostazioni per la registrazion
 Per verificare di aver correttamente configurato la registrazione nella tabella di routing, fare quanto segue:
 
 1.  In Shell, utilizzare il seguente comando:
-    
-        Get-TransportService <ServerIdentity> | Format-List RoutingTableLog*
 
+    ```powershell
+        Get-TransportService <ServerIdentity> | Format-List RoutingTableLog*
+    ```
 2.  Verificare che i valori visualizzati siano quelli configurati.
 
 ## Utilizzo del prompt dei comandi per la configurazione dell'intervallo per il ricalcolo automatico della tabella di routing nel file EdgeTransport.exe.config
 
 1.  In una finestra del prompt dei comandi, utilizzare il seguente comando per aprire il file di configurazione dell'applicazione EdgeTransport.exe.config in Blocco note:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Modificare la seguente chiave nella sezione `<appSettings>`.
     
-        <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+    ```command line
+    <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+    ```
     
     Ad esempio, per impostare l'intervallo per il ricalcolo automatico della tabella di routing su 10 ore, utilizzare il seguente valore:
     
-        <add key="RoutingConfigReloadInterval" value="10:00:00" />
+    ```command line
+    <add key="RoutingConfigReloadInterval" value="10:00:00" />
+    ```
 
 3.  Al termine, salvare e chiudere il file EdgeTransport.exe.config.
 
 4.  Riavviare il servizio di trasporto di Microsoft Exchange utilizzando il seguente comando:
-    
+    ```powershell
         net stop MSExchangeTransport && net start MSExchangeTransport
-
+    ```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare di aver correttamente configurato l'intervallo per il ricalcolo automatico della tabella di routing, controllare che il registro di detta tabella venga aggiornato durante l'intervallo di tempo specificato.

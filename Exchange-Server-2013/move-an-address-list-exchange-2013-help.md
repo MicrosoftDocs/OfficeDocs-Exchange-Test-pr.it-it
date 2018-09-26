@@ -41,7 +41,9 @@ Per altre attività di gestione relative agli elenchi di indirizzi, vedere [Proc
 
 In questo esempio viene utilizzato il GUID di un elenco indirizzi per spostare l'elenco indirizzi nel contenitore Building4, situato all'interno del contenitore All Users\\Sales.
 
-    Move-AddressList -Identity c3fffd8e-026b-41b9-88c4-8c21697ac8ac -Target "\All Users\Sales\Building4"
+```powershell
+Move-AddressList -Identity c3fffd8e-026b-41b9-88c4-8c21697ac8ac -Target "\All Users\Sales\Building4"
+```
 
 Digitare **S** per confermare lo spostamento dell'elenco di indirizzi, quindi premere INVIO.
 

@@ -191,7 +191,9 @@ Lo strumento per la risoluzione dei problemi di messaggistica unificata può ess
 
 Nell'esempio seguente la modalità Gateway viene utilizzata per testare il flusso delle chiamate in un ambiente che non include Office Communications Server 2007 R2 o Lync Server. Nell'esempio viene testata l'apparecchiatura telefonica, inclusi i gateway VoIP, i sistemi PBX e IP PBX e i componenti di messaggistica unificata. In questo esempio viene impostata la modalità di sicurezza VoIP (Voice over IP) su Non protetta, viene utilizzato l'indirizzo IP 10.1.1.1 come hop successivo e viene incluso un numero di interno nelle informazioni sulla deviazione.
 
-    Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```powershell
+Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```
 
 Inizio pagina
 
@@ -199,7 +201,9 @@ Inizio pagina
 
 È possibile utilizzare lo strumento per la risoluzione dei problemi di messaggistica unificata nelle distribuzioni locali e cross-premise che includono Office Communications Server 2007 R2 o Microsoft Lync Server, quando è impostata la modalità SIPClient. In questo esempio viene utilizzata la modalità SIPClient e viene testato il flusso delle chiamate con un dial plan di messaggistica unificata protetto in un ambiente con server Office Communications Server 2007 R2 o Lync Server. Per impostazione predefinita, quando si utilizza lo strumento di risoluzione dei problemi di messaggistica unificata, vengono utilizzate le credenziali dell'utente attualmente connesso al computer. Quando si esegue l'esempio sotto riportato, all'utente viene richiesto di specificare le credenziali che desidera utilizzare per l'esecuzione dello strumento per la risoluzione dei problemi di messaggistica unificata. Per ulteriori informazioni, vedere [Impostare le credenziali da utilizzare con la messaggistica UNIFICATA di risoluzione dei problemi di strumento di Exchange](set-the-credentials-to-use-with-the-exchange-um-troubleshooting-tool-exchange-2013-help.md).
 
+```powershell
     Test-ExchangeUMCallFlow -Mode SIPClient -VoIPSecurity Secured -CallingParty tony@contoso.com -CalledParty david@contoso.com -Credential $get
+```
 
 ## Installazione dello strumento di risoluzione dei problemi di messaggistica unificata
 

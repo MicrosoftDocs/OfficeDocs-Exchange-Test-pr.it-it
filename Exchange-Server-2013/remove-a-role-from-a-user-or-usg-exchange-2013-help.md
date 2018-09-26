@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Rimozione ruolo da utente/gruppo protezione universale: Exchange 2013 Help'
 TOCTitle: Rimozione di un ruolo da un utente o gruppo di protezione universale
 ms:assetid: df3510ef-e0c2-4d3c-81b0-7dc3e70c01a0
@@ -41,17 +41,24 @@ Per informazioni sulle altre attività di gestione relative ai ruoli, vedere [Au
 
 Se si conosce il nome dell'assegnazione di ruolo da rimuovere, utilizzare la sintassi seguente:
 
-    Remove-ManagementRoleAssignment <assignment name>
+```powershell
+Remove-ManagementRoleAssignment <assignment name>
+```
 
 Ad esempio, per rimuovere l'assegnazione del ruolo "Tier 2 Help Desk Assignment", eseguire il comando riportato di seguito:
 
-    Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
+```powershell
+Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
+```
 
 Se non si conosce il nome dell'assegnazione di ruolo da rimuovere, utilizzare la sintassi seguente:
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <user or USG> -Role <role name> -Delegating <$true | $false> | Remove-ManagementRoleAssignment 
+```
 
 Se ad esempio si desidera rimuovere dall'utente Davids l'assegnazione del ruolo regolare per Mail Recipients, utilizzare il comando seguente:
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee davids -Role "Mail Recipients" -Delegating $false | Remove-ManagementRoleAssignment
-
+```

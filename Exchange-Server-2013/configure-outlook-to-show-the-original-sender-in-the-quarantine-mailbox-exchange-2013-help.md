@@ -46,7 +46,7 @@ Per impostazione predefinita, non è possibile selezionare questi campi in Micro
 ## Passaggio 1: Utilizzare Blocco note per creare un modulo Outlook personalizzato
 
 1.  Aprire Blocco note e copiare il codice riportato di seguito nel documento.
-    
+    ```powershell
         [Description]
         MessageClass=IPM.Note
         CLSID={00020D31-0000-0000-C000-000000000046}
@@ -117,7 +117,7 @@ Per impostazione predefinita, non è possibile selezionare questi campi in Micro
         NmidPropset={00020D0C-0000-0000-C000-000000000046}
         NmidInteger=1
         Value=1000000000000000
-
+    ```powershell
 2.  Salvare il file nella cartella Forms di Office utilizzando i seguenti valori:
     
       - **Percorso**   *\<Percorso di installazione di Office\>*\\\<*VersioneOffice\>*\\Forms\\*\<LCID\>*
@@ -131,9 +131,9 @@ Per impostazione predefinita, non è possibile selezionare questi campi in Micro
       - **Nome**   Nel resto della procedura si presumerà che il file sia denominato `QTNE.cfg`. Il nome del file non è importante, ma occorre assicurarsi di racchiudere il valore tra virgolette in modo che il file venga salvato come QTNE.cfg e non come QTNE.cfg.txt.
     
     Ad esempio, per la versione Inglese (Stati Uniti) a a 32 bit di Outlook 2013 installata su una versione a 64 bit di Windows, il file deve essere salvato come:
-    
+    ```powershell
         "C:\Program Files (x86)\Microsoft Office\Office15\Forms\1033\QTNE.cfg"
-    
+    ```
 
     > [!NOTE]
     > Se Windows controllo accesso (utente) impedisce il salvataggio del file nella posizione corretta, salvarla prima in un percorso temporaneo e quindi copiarlo.

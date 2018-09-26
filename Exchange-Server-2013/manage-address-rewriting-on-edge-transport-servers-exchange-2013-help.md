@@ -58,22 +58,25 @@ Si usa Exchange Management Shell in un server Trasporto Edge per tutte le attivi
 Per attivare o disattivare completamente la riscrittura degli indirizzi, è possibile attivare o disattivare gli agenti di riscrittura. Per impostazione predefinita, gli agenti di riscrittura degli indirizzi in un server Trasporto Edge sono abilitati.
 
 Per disabilitare la riscrittura degli indirizzi, eseguire i seguenti comandi:
-
+```powershell
     Disable-TransportAgent "Address Rewriting Inbound Agent"
     Disable-TransportAgent "Address Rewriting Outbound Agent"
+```
 
 Per attivare la riscrittura degli indirizzi, eseguire i seguenti comandi:
-
+```powershell
     Enable-TransportAgent "Address Rewriting Inbound Agent"
     Enable-TransportAgent "Address Rewriting Outbound Agent"
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che la riscrittura degli indirizzi sia stata abilitata o disabilitata correttamente, procedere come segue:
 
 1.  Eseguire il comando indicato di seguito:
     
+    ```powershell
         Get-TransportAgent
+    ```
 
 2.  Verificare che i valori della proprietà **Attivata** dell'agente di riscrittura degli indirizzi in entrata e in uscita siano i valori configurati.
 
@@ -81,15 +84,21 @@ Per verificare che la riscrittura degli indirizzi sia stata abilitata o disabili
 
 Per visualizzare un elenco riepilogativo di tutte le voci di riscrittura degli indirizzi, eseguire il seguente comando.
 
-    Get-AddressRewriteEntry
+```powershell
+Get-AddressRewriteEntry
+```
 
 Per visualizzare i dettagli di una voce di riscrittura degli indirizzi, utilizzare la seguente sintassi.
 
-    Get-AddressRewriteEntry <AddressRewriteEntryIdentity> | Format-List
+```powershell
+Get-AddressRewriteEntry <AddressRewriteEntryIdentity> | Format-List
+```
 
 Il seguente esempio visualizza i dettagli della voce di riscrittura degli indirizzi da Rewrite Contoso.com a Northwindtraders.com:
 
-    Get-AddressRewriteEntry "Rewrite Contoso.com to Northwindtraders.com" | Format-List
+```powershell
+Get-AddressRewriteEntry "Rewrite Contoso.com to Northwindtraders.com" | Format-List
+```
 
 ## Creazione delle voci di riscrittura degli indirizzi tramite Shell
 
@@ -97,39 +106,48 @@ Il seguente esempio visualizza i dettagli della voce di riscrittura degli indiri
 
 Per riscrivere l'indirizzo di posta elettronica di un singolo destinatario, utilizzare la sintassi seguente:
 
+```powershell
     New-AddressRewriteEntry -Name "<Descriptive Name>" -InternalAddress <internal email address> -ExternalAddress <external email address> [-OutboundOnly <$true | $false>]
+```
 
 Nel seguente esempio viene riscritto l'indirizzo di posta elettronica di tutti i messaggi in entrata e in uscita dall'organizzazione di Exchange per il destinatario joe@contoso.com. I messaggi in uscita vengono riscritti in modo che sembrino provenire da support@nortwindtraders.com. I messaggi in entrata inviati a support@northwindtraders.com vengono riscritti in joe@contoso.com per il recapito al destinatario (il parametro *OutboundOnly* é `$false` per impostazione predefinita).
-
+```powershell
     New-AddressRewriteEntry -Name "joe@contoso.com to support@northwindtraders.com" -InternalAddress joe@contoso.com -ExternalAddress support@northwindtraders.com
+```
 
 ## Riscrivere gli indirizzi di posta elettronica per destinatari in un solo dominio o sottodominio
 
 Per riscrivere l'indirizzo di posta elettronica di destinatari in un solo dominio o sottodominio, utilizzare la sintassi seguente:
-
+```powershell
     New-AddressRewriteEntry -Name "<Descriptive Name>" -InternalAddress <domain or subdomain> -ExternalAddress <domain> [-OutboundOnly <$true | $false>]
+```
 
 Nel seguente esempio vengono riscritti gli indirizzi di posta elettronica di tutti i messaggi in entrata e in uscita dall'organizzazione di Exchange per destinatari nel dominio contoso.com. I messaggi in uscita vengono riscritti in modo che sembrino provenire dal dominio fabrikam.com. Gli indirizzi di posta elettronica dei messaggi in entrata inviati a fabrikam.com vengono riscritti come contoso.com per il recapito ai destinatari (il parametro *OutboundOnly* è `$false` per impostazione predefinita).
-
+```powershell
     New-AddressRewriteEntry -Name "Contoso to Fabrikam" -InternalAddress contoso.com -ExternalAddress fabrikam.com
+```
 
 Nel seguente esempio vengono riscritti gli indirizzi di posta elettronica di tutti i messaggi in uscita dall'organizzazione di Exchange inviati dai destinatari nel sottodominio sales.contoso.com. I messaggi in uscita vengono riscritti in modo che sembrino provenire dal dominio contoso.com. Non vengono riscritti i messaggi in entrata inviati agli indirizzi di posta elettronica contoso.com.
-
+```powershell
     New-AddressRewriteEntry -Name "sales.contoso.com to contoso.com" -InternalAddress sales.contoso.com -ExternalAddress contoso.com -OutboundOnly $true
+```
 
 ## Riscrivere gli indirizzi di posta elettronica per i destinatari in più sottodomini
 
 Per riscrivere l'indirizzo di posta elettronica di destinatari in un dominio e in tutti i sottodomini, utilizzare la sintassi seguente:
-
+```powershell
     New-AddressRewriteEntry -Name "<Descriptive Name>" -InternalAddress *.<domain> -ExternalAddress <domain> -OutboundOnly $true [-ExceptionList <domain1,domain2...>]
+```
 
 Nel seguente esempio vengono riscritti gli indirizzi di posta elettronica di tutti i messaggi in uscita dall'organizzazione di Exchange inviati dai destinatari nel dominio contoso.com e in tutti i sottodomini. I messaggi in uscita vengono riscritti in modo che sembrino provenire dal dominio contoso.com. I messaggi in entrata inviati ai destinatari di contoso.com non possono essere riscritti perché nel parametro *InternalAddress* viene usato un carattere jolly.
-
+```powershell
     New-AddressRewriteEntry -Name "Rewrite all contoso.com subdomains" -InternalAddress *.contoso.com -ExternalAddress contoso.com -OutboundOnly $true
+```
 
 L'esempio seguente è identico a quello precedente, tranne che in questo i messaggi inviati dai destinatari nei sottodomini legal.contoso.com e corp.contoso.com non vengono mai riscritti:
-
+```powershell
     New-AddressRewriteEntry -Name "Rewrite all contoso.com subdomains except legal.contoso.com and corp.contoso.com" -InternalAddress *.contoso.com -ExternalAddress contoso.com -OutboundOnly $true -ExceptionList legal.contoso.com,corp.contoso.com
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -148,8 +166,9 @@ Le opzioni di configurazione disponibili quando si modifica una voce di riscritt
 ## Modificare voci di riscrittura degli indirizzi per destinatari singoli
 
 Per modificare una voce di riscrittura degli indirizzi che riscrive l'indirizzo di posta elettronica di un solo destinatario, utilizzare la seguente sintassi:
-
+```powershell
     Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress <internal email address> -ExternalAddress <external email address> -OutboundOnly <$true | $false>
+```
 
 Nel seguente esempio vengono modificate le seguenti proprietà della voce di riscrittura del singolo destinatario "joe@contoso.com in support@nortwindtraders.com":
 
@@ -160,40 +179,45 @@ Nel seguente esempio vengono modificate le seguenti proprietà della voce di ris
   - Il valore di *OutboundOnly* viene modificato in `$true`. Tenere presente che questa modifica richiede la configurazione di support@northwindtraders.net come indirizzo proxy nella cassetta postale di Joe.
 
 <!-- end list -->
-
+```powershell
     Set-AddressRewriteEntry "joe@contoso.com to support@nortwindtraders.com" -Name "joe@contoso.com to support@northwindtraders.net" -ExternalAddress support@northwindtraders.net -OutboundOnly $true
+```
 
 ## Modificare le voci di riscrittura degli indirizzi per destinatari in singoli domini o sottodomini
 
 Per modificare una voce di riscrittura degli indirizzi che riscrive l'indirizzo di posta elettronica di destinatari di un solo dominio o sottodominio, utilizzare la seguente sintassi.
-
+```powershell
     Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress <domain or subdomain> -ExternalAddress <domain> -OutboundOnly <$true | $false>
+```
 
 Nel seguente esempio il valore dell'indirizzo interno della voce di riscrittura degli indirizzi del singolo dominio viene modificata da "Northwind Traders a Contoso".
 
-    Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```powershell
+Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```
 
 ## Modificare voci di riscrittura degli indirizzi per destinatari in più sottodomini
 
 Per modificare una voce di riscrittura degli indirizzi che riscrive l'indirizzo di posta elettronica di destinatari in un un dominio e in tutti i sottodomini, utilizzare la seguente sintassi.
-
+```powershell
     Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress *.<domain> -ExternalAddress <domain> -ExceptionList <list of domains>
-
+```
 Per sostituire il valore dell'elenco delle eccezioni esistente di una voce di riscrittura degli indirizzi di più sottodomini, utilizzare la seguente sintassi:
-
+```powershell
     Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -ExceptionList <domain1,domain2,...>
-
+```
 Nel seguente esempio l'elenco di eccezioni esistente per la voce di riscrittura degli indirizzi di più sottodomini Contoso to Northwind Traders viene sostituito con i valori marketing.contoso.com e legal.contoso.com:
-
+```powershell
     Set-AddressRewriteEntry "Contoso to Northwind Traders" -ExceptionList sales.contoso.com,legal.contoso.com
-
+```
 Per aggiungere o rimuovere valori dall'elenco delle eccezioni in modo selettivo dalla voce di riscrittura degli indirizzi di più sottodomini senza modificare i valori dell'elenco delle eccezioni esistente, utilizzare la seguente sintassi:
-
+```powershell
     Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -ExceptionList @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
-
+```
 Nel seguente esempio viene aggiunto finanace.contoso.com e rimosso marketing.contoso.com dall'elenco delle eccezioni della voce di riscrittura degli indirizzi di più sottodomini Contoso to Northwind Traders:
-
+```powershell
     Set-AddressRewriteEntry "Contoso to Northwind Traders" -ExceptionList @{Add="finanace.contoso.com"; Remove="marketing.contoso.com"}
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -209,27 +233,36 @@ Per verificare che la voce di riscrittura degli indirizzi sia stata modificata c
 
 Per rimuovere una voce di riscrittura degli indirizzi, utilizzare la seguente sintassi.
 
-    Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```powershell
+Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```
 
 Nell'esempio riportato di seguito viene rimossa la voce di riscrittura degli indirizzi "Contoso.com to Northwindtraders.com":
 
-    Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```powershell
+Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```
 
 Per rimuovere più voci di riscrittura degli indirizzi, utilizzare la seguente sintassi:
-
+```powershell
     Get-AddressRewriteEntry [<search criteria>] | Remove-AddressRewriteEntry [-WhatIf]
+```
 
 Nell'esempio riportato di seguito vengono rimosse tutte le voci di riscrittura degli indirizzi:
 
-    Get-AddressRewriteEntry | Remove-AddressRewriteEntry
+```powershell
+Get-AddressRewriteEntry | Remove-AddressRewriteEntry
+```
 
 Il seguente esempio simula la rimozione delle voci di riscrittura degli indirizzi che contengono nel nome il testo "to contoso.com". Lo switch *WhatIf* consente di visualizzare in anteprima il risultato senza apportare modifiche.
-
+```powershell
     Get-AddressRewriteEntry "*to contoso.com" | Remove-AddressRewriteEntry -WhatIf
+```
 
 Se si è soddisfatti del risultato, eseguire nuovamente il comando senza lo switch *WhatIf* per rimuovere le voci di riscrittura degli indirizzi.
-
+```powershell
     Get-AddressRewriteEntry "*to contoso.com" | Remove-AddressRewriteEntry
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

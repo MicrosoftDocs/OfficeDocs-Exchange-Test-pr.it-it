@@ -111,43 +111,53 @@ Eseguire i passaggi prerequisiti di seguito riportati prima di iniziare la migra
     
       - Utilizzare il seguente comando per scattare un'istantanea della struttura delle cartelle di origine:
         
-            Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Legacy_PFStructure.xml
+        ```powershell
+        Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Legacy_PFStructure.xml
+        ```
     
       - Utilizzare il seguente comando per scattare un'istantanea delle statistiche sulle cartelle pubbliche, quali proprietario, dimensioni e conteggio degli elementi:
         
-            Get-PublicFolderStatistics | Export-CliXML C:\PFMigration\Legacy_PFStatistics.xml
+        ```powershell
+        Get-PublicFolderStatistics | Export-CliXML C:\PFMigration\Legacy_PFStatistics.xml
+        ```
     
       - Utilizzare il seguente comando per scattare un'istantanea delle autorizzazioni:
-        
+        ```powershell
             Get-PublicFolder -Recurse | Get-PublicFolderClientPermission | Select-Object Identity,User -ExpandProperty AccessRights | Export-CliXML C:\PFMigration\Legacy_PFPerms.xml
-    
+        ```
     Salvare le informazioni ottenute con i precedenti comandi per confrontarle al termine della migrazione.
 
 2.  Se il nome di una cartella pubblica contiene una barra rovesciata **\\**, in fase di migrazione le cartelle pubbliche saranno create nella cartella pubblica padre. Prima della migrazione, si consiglia di rinominare tutte le cartelle pubbliche il cui nome contiene la barra rovesciata.
     
     1.  In Exchange 2010, per individuare le cartelle pubbliche il cui nome contiene una barra rovesciata, utilizzare il comando seguente:
-        
+        ```powershell
             Get-PublicFolderStatistics -ResultSize Unlimited | Where {($_.Name -like "*\*") -or ($_.Name -like "*/*") } | Format-List Name, Identity
-    
+        ```
     2.  In Exchange 2007, per individuare le cartelle pubbliche il cui nome contiene una barra rovesciata, utilizzare il comando seguente:
-        
+        ```powershell
             Get-PublicFolderDatabase | ForEach {Get-PublicFolderStatistics -Server $_.Server | Where {$_.Name -like "*\*"}}
-    
+        ```
     3.  Se vengono restituite cartelle, è possibile rinominarle con il comando seguente:
         
-            Set-PublicFolder -Identity <public folder identity> -Name <new public folder name>
+        ```powershell
+        Set-PublicFolder -Identity <public folder identity> -Name <new public folder name>
+         ```
 
 3.  Accertarsi che non vi sia un precedente record di una migrazione riuscita.
     
     1.  Nell'esempio seguente, viene controllato lo stato di migrazione delle cartelle pubbliche.
         
-            Get-OrganizationConfig | Format-List PublicFoldersLockedforMigration, PublicFolderMigrationComplete
+        ```powershell
+        Get-OrganizationConfig | Format-List PublicFoldersLockedforMigration, PublicFolderMigrationComplete
+        ```
         
         Se è già stata completata una migrazione, il valore delle proprietà *PublicFoldersLockedforMigration* o *PublicFolderMigrationComplete* è `$true`. Utilizzare il comando indicato nel passaggio 3b per impostare il valore su `$false`. Se il valore è impostato su `$true`, la richiesta di migrazione avrà esito negativo.
     
     2.  Se lo stato della proprietà *PublicFoldersLockedforMigration* o *PublicFolderMigrationComplete* è impostato su `$true`, utilizzare il seguente comando per impostare il valore su `$false`.
         
-            Set-OrganizationConfig -PublicFoldersLockedforMigration:$false -PublicFolderMigrationComplete:$false
+        ```powershell
+        Set-OrganizationConfig -PublicFoldersLockedforMigration:$false -PublicFolderMigrationComplete:$false
+        ```
     
 
     > [!WARNING]
@@ -183,30 +193,36 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere:
 
     
     Nell'esempio seguente vengono rilevate le eventuali richieste di migrazione seriale esistenti.
-    
+    ```powershell
         Get-PublicFolderMigrationRequest | Get-PublicFolderMigrationRequestStatistics -IncludeReport | Format-List
-    
+    ```
     Nell'esempio seguente vengono rimosse tutte le richieste di migrazione seriale di cartelle pubbliche esistenti.
     
-        Get-PublicFolderMigrationRequest | Remove-PublicFolderMigrationRequest
+    ```powershell
+    Get-PublicFolderMigrationRequest | Remove-PublicFolderMigrationRequest
+    ```
     
     Nell'esempio seguente vengono rilevate le eventuali richieste di migrazione batch esistenti.
-    
+    ```powershell
         $batch = Get-MigrationBatch | ?{$_.MigrationType.ToString() -eq "PublicFolder"}
-    
+    ```
     Nell'esempio seguente vengono rimosse tutte le richieste di migrazione batch di cartelle pubbliche esistenti.
     
-        $batch | Remove-MigrationBatch -Confirm:$false
+    ```powershell
+    $batch | Remove-MigrationBatch -Confirm:$false
+    ```
 
 2.  Accertarsi che non esistano cartelle pubbliche o cassette postali di cartelle pubbliche nei server Exchange 2013.
     
     1.  Eseguire il seguente comando per controllare se esistono cassette postali di cartelle pubbliche.
-        
+        ```powershell
             Get-Mailbox -PublicFolder 
-    
+        ```
     2.  Se il comando non restituisce cassette postali di cartelle pubbliche, procedere con Passaggio 3: Generazione di file CSV. Se il comando ha restituito cartelle pubbliche, utilizzare il seguente comando per controllare se esistono cartelle pubbliche:
         
-            Get-PublicFolder
+        ```powershell
+        Get-PublicFolder
+        ```
     
     3.  Se sono presenti cartelle pubbliche, eseguire i seguenti comandi di PowerShell per rimuoverle. Accertarsi di aver salvato tutte le informazioni contenute nelle cartelle pubbliche.
         
@@ -214,12 +230,14 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere:
         > [!NOTE]
         > Quando vengono rimosse le cartelle pubbliche, tutte le informazioni in esse contenute verranno eliminate definitivamente.
 
-        ```
+        ```powershell
         Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
         ```
-        ```
+        
+        ```powershell
         Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
         ```
+        
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti seguenti:
 
@@ -244,9 +262,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti 
 ## Passaggio 3: Generazione di file csv
 
 1.  Sul server Exchange legacy, eseguire lo script `Export-PublicFolderStatistics.ps1` per creare il file di mapping Nome cartella-Dimensione cartella. Questo script deve essere eseguito da un amministratore locale. Il file conterrà due colonne: **Nomecartella** e **Dimensionicartella**. I valori della colonna **Dimensionicartella** saranno visualizzati in byte. Ad esempio, **\\PublicFolder01,10000**.
-    
+    ```powershell
         .\Export-PublicFolderStatistics.ps1  <Folder to size map path> <FQDN of source server>
-    
+    ```
       - *FQDN of source server* corrisponde al nome di dominio completo del server Cassette postali che ospita la gerarchia delle cartelle pubbliche.
     
       - *Folder to size map path* corrisponde al nome file e al percorso su una cartella condivisa in rete in cui si desidera salvare il file CSV. Più avanti in questo argomento sarà necessario accedere a questo file mediante il server Exchange 2013. Se si specifica solo il nome del file, il file sarà creato nella directory PowerShell corrente sul computer locale.
@@ -257,9 +275,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti 
     > [!NOTE]
     > Se il nome di una cartella pubblica contiene una barra rovesciata \, in fase di migrazione le cartelle pubbliche saranno create nella cartella pubblica padre. Si consiglia di esaminare il file CSV e modificare i nomi che contengono una barra rovesciata.
 
-    
+    ```powershell
         .\PublicFolderToMailboxMapGenerator.ps1 <Maximum mailbox size in bytes> <Folder to size map path> <Folder to mailbox map path>
-    
+    ```
       - *Maximum mailbox size in bytes* corrisponde alle dimensioni massime che si desidera impostare per le nuove cassette postali di cartelle pubbliche. Quando si specifica tale impostazione, è necessario consentire l'espansione in modo che la cassetta postale di cartelle pubbliche abbia lo spazio per crescere.
     
       - *Folder to size map path* corrisponde al percorso file del file CSV creato con lo script `Export-PublicFolderStatistics.ps1`.
@@ -269,9 +287,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti 
 ## Passaggio 4: Creazione delle cassette postali di cartelle pubbliche in Exchange 2013
 
 1.  Eseguire il seguente comando per creare le nuove cassette postali delle cartelle pubbliche di destinazione. Lo script crea una cassetta postale di destinazione per ogni cassetta postale nel file CSV generata nel passaggio 3, eseguendo lo script PublicFoldertoMailboxMapGenerator.ps1.
-    
+    ```powershell
         .\Create-PublicFolderMailboxesForMigration.ps1 -FolderMappingCsv Mapping.csv -EstimatedNumberOfConcurrentUsers:<estimate>
-    
+    ```
     *Mapping.csv* è il file generato dallo script PublicFoldertoMailboxMapGenerator.ps1 nel passaggio 3. In genere, il numero stimato di connessioni utente simultanee per l'esplorazione di una gerarchia di cartelle pubbliche è inferiore al numero totale di utenti in un'organizzazione.
 
 ## Passaggio 5: avvio della richiesta di migrazione
@@ -288,32 +306,36 @@ I passaggi per la migrazione delle cartelle pubbliche di Exchange 2007 sono dive
 
 1.  Le cartelle pubbliche dei sistemi legacy come OWAScratchPad e la sottostruttura di cartelle schema-root in Exchange 2007 non saranno riconosciute da Exchange 2013 e saranno trattate come elementi "non validi", causando il fallimento della migrazione. Nell'ambito della richiesta di migrazione, è necessario specificare un valore per il parametro `BadItemLimit`. Questo valore varia a seconda del numero di database delle cartelle pubbliche presenti. I seguenti comandi consentono di stabilire il numero di database delle cartelle pubbliche e di calcolare il valore del parametro `BadItemLimit` per la richiesta di migrazione.
 
-```        
+```powershell       
 $PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
 ```
-```
+```powershell
 $BadItemLimitCount = 5 + ($PublicFolderDatabasesInOrg.Count -1)
 ```
 
 2.  Sul server Exchange 2013, eseguire il comando riportato di seguito:
-    
+    ```powershell
         New-MigrationBatch -Name PFMigration -SourcePublicFolderDatabase (Get-PublicFolderDatabase -Server <Source server name>) -CSVData (Get-Content <Folder to mailbox map path> -Encoding Byte) -NotificationEmails <email addresses for migration notifications> -BadItemLimit $BadItemLimitCount 
-
+    ```
 3.  Avviare la migrazione utilizzando il comando seguente:
     
+    ```powershell
         Start-MigrationBatch PFMigration
+    ```
 
 **Migrazione delle cartelle pubbliche di Exchange 2010**
 
 1.  Sul server Exchange 2013, eseguire il comando riportato di seguito.
-    
+    ```powershell
         New-MigrationBatch -Name PFMigration -SourcePublicFolderDatabase (Get-PublicFolderDatabase -Server <Source server name>) -CSVData (Get-Content <Folder to mailbox map path> -Encoding Byte) -NotificationEmails <email addresses for migration notifications> 
-    
+    ```
     Il parametro `NotificationEmails` è facoltativo.
 
 2.  Avviare la migrazione utilizzando il comando seguente:
     
-        Start-MigrationBatch PFMigration
+    ```powershell
+    Start-MigrationBatch PFMigration
+    ```
     
     Oppure:
     
@@ -353,7 +375,9 @@ Prima di eseguire il comando `PublicFoldersLockedForMigration` come descritto di
 
 Sul server Exchange legacy, eseguire il comando di seguito riportato per bloccare le cartelle pubbliche legacy per la finalizzazione.
 
-    Set-OrganizationConfig -PublicFoldersLockedForMigration:$true
+```powershell
+Set-OrganizationConfig -PublicFoldersLockedForMigration:$true
+```
 
 
 > [!NOTE]
@@ -369,11 +393,15 @@ Se l'organizzazione dispone di più database delle cartelle pubbliche, sarà nec
 
 Per modificare il tipo di distribuzione di Exchange 2013 in **Remoto**, eseguire il comando riportato di seguito:
 
-    Set-OrganizationConfig -PublicFoldersEnabled Remote
+```powershell
+Set-OrganizationConfig -PublicFoldersEnabled Remote
+```
 
 Al termine dell'operazione, è possibile completare la migrazione delle cartelle pubbliche eseguendo il comando riportato di seguito:
 
-    Complete-MigrationBatch PublicFolderMigration
+```powershell
+Complete-MigrationBatch PublicFolderMigration
+```
 
 In alternativa, nell'Interfaccia di amministrazione di Exchange, è possibile completare la migrazione facendo clic su **Completa il batch di migrazione**.
 
@@ -384,9 +412,9 @@ Al termine della migrazione, Exchange eseguirà una sincronizzazione finale tra 
 Dopo aver finalizzato la migrazione delle cartelle pubbliche, è necessario effettuare il test seguente per accertarsi che la migrazione sia avvenuta correttamente. In tal modo è possibile verificare la gerarchia delle cartelle pubbliche migrate prima di passare all'uso delle cartelle pubbliche di Exchange 2013.
 
 1.  In PowerShell, eseguire il comando riportato di seguito per assegnare alcune cassette postali di prova per utilizzare una cassetta postale di cassette pubbliche migrata come cassetta postale di cartelle pubbliche predefinita.
-    
+    ```powershell
         Set-Mailbox -Identity <Test User> -DefaultPublicFolderMailbox <Public Folder Mailbox Identity>
-
+    ```
 2.  Accedere a Outlook 2007 o versione successiva con l'utente di prova identificato nel passaggio precedente, quindi effettuare i seguenti test delle cartelle pubbliche:
     
       - Visualizzare la gerarchia.
@@ -399,7 +427,9 @@ Dopo aver finalizzato la migrazione delle cartelle pubbliche, è necessario effe
 
 3.  In caso di problemi, vedere Roll back the migration più avanti in questo argomento. Se il contenuto e la gerarchia delle cartelle pubbliche sono accettabili e funzionano nel modo previsto, eseguire il comando di seguito riportato per sbloccare le cartelle pubbliche per tutti gli altri utenti.
     
-        Get-Mailbox -PublicFolder | Set-Mailbox -PublicFolder -IsExcludedFromServingHierarchy $false
+    ```powershell
+    Get-Mailbox -PublicFolder | Set-Mailbox -PublicFolder -IsExcludedFromServingHierarchy $false
+    ```
     
 
     > [!IMPORTANT]
@@ -409,11 +439,15 @@ Dopo aver finalizzato la migrazione delle cartelle pubbliche, è necessario effe
 
 4.  Sul server Exchange legacy, eseguire il comando di seguito riportato per indicare che la migrazione delle cartelle pubbliche è stata completata.
     
-        Set-OrganizationConfig -PublicFolderMigrationComplete:$true
+    ```powershell
+    Set-OrganizationConfig -PublicFolderMigrationComplete:$true
+    ```
 
 5.  Dopo aver verificato che è stata completata la migrazione, eseguire il seguente comando:
     
-        Set-OrganizationConfig -PublicFoldersEnabled Local
+    ```powershell
+    Set-OrganizationConfig -PublicFoldersEnabled Local
+    ```
 
 6.  Infine, se si desidera che i mittenti esterni inviino posta elettronica alle cartelle pubbliche abilitate alla posta migrata, è necessario concedere all’utente **Anonimo** almeno l’autorizzazione a **creare elementi**. Se non si esegue questa operazione, i mittenti esterni riceveranno una notifica di errore di recapito e i messaggi non verranno recapitati alla cartella pubblica abilitata alla posta migrata.
     
@@ -425,16 +459,18 @@ In Step 2: Prepare for the migration era stato suggerito di scattare istantanee 
 
 1.  Eseguire il seguente comando per scattare un'istantanea della nuova struttura delle cartelle.
     
-        Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Cloud_PFStructure.xml
+    ```powershell
+    Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Cloud_PFStructure.xml
+    ```
 
 2.  Utilizzare il seguente comando per scattare un'istantanea delle statistiche sulle cartelle pubbliche, quali proprietario, dimensioni e conteggio degli elementi.
-    
+    ```powershell
         Get-PublicFolderStatistics -ResultSize Unlimited | Export-CliXML C:\PFMigration\Cloud_PFStatistics.xml
-
+    ```
 3.  Utilizzare il seguente comando per scattare un'istantanea delle autorizzazioni.
-    
+    ```powershell
         Get-PublicFolder -Recurse | Get-PublicFolderClientPermission | Select-Object Identity,User -ExpandProperty AccessRights | Export-CliXML  C:\PFMigration\Cloud_PFPerms.xml
-
+    ```
 ## Rimozione dei database delle cartelle pubbliche dai server Exchange legacy
 
 Al termine della migrazione, dopo aver verificato che le cartelle pubbliche di Exchange 2013 funzionano nel modo previsto, rimuovere i database delle cartelle pubbliche sui server Exchange legacy.
@@ -455,15 +491,21 @@ Se si riscontrano problemi con la migrazione e si ha la necessità di riattivare
 
 1.  Sul server Exchange legacy, eseguire il comando di seguito riportato per sbloccare le cartelle pubbliche legacy. Questo processo potrebbe richiedere diverse ore.
     
-        Set-OrganizationConfig -PublicFoldersLockedForMigration:$False
+    ```powershell
+    Set-OrganizationConfig -PublicFoldersLockedForMigration:$False
+    ```
 
 2.  Sul server Exchange 2013, eseguire il comando riportato di seguito per rimuovere le cassette postali delle cartelle pubbliche.
-    
+    ```powershell
         Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
-        
-        Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+    ```    
+    ```powershell
+    Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+    ```
 
 3.  Sul server Exchange legacy, eseguire il comando di seguito riportato per impostare il flag `PublicFolderMigrationComplete` su `$false`.
     
-        Set-OrganizationConfig -PublicFolderMigrationComplete:$False
+    ```powershell
+    Set-OrganizationConfig -PublicFolderMigrationComplete:$False
+    ```
 

@@ -63,12 +63,14 @@ In questo passo, decidere quali database si desidera includere nell'ambito del d
 
 Utilizzare un elenco di database se si desidera definire un elenco statico dei database delle cassette postali che devono essere incluse in questo ambito. Utilizzare la sintassi seguente per creare un ambito basato su un elenco di database.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 In questo esempio viene creato un ambito che si applica unicamente ai database Database 1, Database 2 e Database 3.
-
+```powershell
     New-ManagementScope -Name "Accounting databases" -DatabaseList "Database 1", "Database 2", "Database 3"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementScope](https://technet.microsoft.com/it-it/library/dd335137\(v=exchg.150\)).
 
 ## Utilizzo di un ambito del filtro dei database
@@ -79,12 +81,14 @@ Per ottenere un elenco delle proprietà filtrabili del database, vedere [Informa
 
 Utilizzare la sintassi seguente per creare un ambito basato su un filtro dei database.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 In questo esempio viene creato un ambito che include tutti i database contenenti la stringa "ACCT" nella proprietà **Name** del database.
-
+```powershell
     New-ManagementScope -Name "Accounting Databases" -DatabaseRestrictionFilter { Name -Like '*ACCT*' }
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementScope](https://technet.microsoft.com/it-it/library/dd335137\(v=exchg.150\)).
 
 ## Passo 2: Aggiungere l'ambito del database ad un'assegnazione dei ruoli di gestione
@@ -100,14 +104,14 @@ Per un elenco dei ruoli incorporati che è possibile assegnare a gruppi di ruoli
 Utilizzare questa procedura se si è appena creato un gruppo di ruoli ed è necessario aggiungervi dei ruoli.
 
 Utilizzare la seguente sintassi per creare un'assegnazione di ruolo tra il ruolo di gestione che si desidera assegnare e il nuovo gruppo di ruolo, con il nuovo ambito di database.
-
+```powershell
     New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomConfigWriteScope <database scope name>
-
+```
 Questo esempio crea un'assegnazione di ruolo tra i ruoli dei destinari dei messaggi di posta elettronica e della creazione dei destinatari e il gruppo dei ruoli di amministratori contabili, utilizzando l'ambito dei database contabili.
-
+```powershell
     New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipients" -CustomConfigWriteScope "Accounting Databases"
     New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipient Creation" -CustomConfigWriteScope "Accounting Databases"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
 ## Modificare un'assegnazione di ruolo esistente
@@ -117,14 +121,14 @@ Utilizzare questa procedura se si ha un gruppo di ruoli esistente che già ha de
 Questa procedura utilizza il pipelining. Per ulteriori informazioni, vedere [Pipelining](https://technet.microsoft.com/it-it/library/aa998260\(v=exchg.150\)).
 
 Utilizzare la seguente sintassi per modificare un'assegnazione di ruolo tra il ruolo di gestione al quale si desidera applicare l'ambito del database e un gruppo di ruoli esistente.
-
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <role group name> -Role <role name> | Set-ManagementRoleAssignment -CustomConfigWriteScope <database scope name>
-
+```
 Questo esempio aggiunge l'ambito di database dei database contabili ai ruoli dei destinatari dei messaggi e di creazione dei destinatari dei messaggi assegnati al gruppo dei ruoli degli amministratori contabili.
-
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipients" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
     Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipient Creation" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351024\(v=exchg.150\)) o [Set-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335173\(v=exchg.150\)).
 
 ## Passo 3: Aggiungere i membri ad un gruppo di ruoli (se applicabile)

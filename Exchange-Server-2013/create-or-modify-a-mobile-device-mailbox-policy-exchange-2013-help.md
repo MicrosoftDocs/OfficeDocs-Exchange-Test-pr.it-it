@@ -76,9 +76,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 
 1.  In Shell, utilizzare il seguente comando.
-    
+     ```powershell   
         New-MobileDeviceMailboxPolicy -Name:"Management" -AllowBluetooth:$true -AllowBrowser:$true -AllowCamera:$true -AllowPOPIMAPEmail:$false -PasswordEnabled:$true -AlphanumericPasswordRequired:$true -PasswordRecoveryEnabled:$true -MaxEmailAgeFilter:10 -AllowWiFi:$true -AllowStorageCard:$true -AllowPOPIMAPEmail:$false
-
+    ```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta creazione del criterio cassetta postale per il dispositivo mobile, utilizzare una delle seguenti opzioni:
@@ -86,9 +86,9 @@ Per verificare la corretta creazione del criterio cassetta postale per il dispos
 1.  In Interfaccia di amministrazione di Exchange fare clic su **Mobile** \> **Criteri cassetta postale per dispositivo mobile** e verificare che il nuovo criterio sia presente nella visualizzazione Elenco.
 
 2.  In Shell, utilizzare il seguente comando.
-    
+    ```powershell
         Get-MobileDeviceMailboxPolicy -Identity <PolicyName> 
-
+    ```
 ## Modifica di un criterio cassetta postale per il dispositivo mobile esistente
 
 Per modificare un criterio cassetta postale per il dispositivo mobile, è possibile utilizzare Interfaccia di amministrazione di Exchange oppure Shell.
@@ -124,9 +124,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 
 1.  In Shell, utilizzare il seguente comando.
-    
+    ```powershell
         Set-MobileDeviceMailboxPolicy -Identity:Default -DevicePasswordEnabled:$true -AlphanumericDevicePasswordRequired:$true -PasswordRecoveryEnabled:$true -MaxEmailAgeFilter:ThreeDays -AllowWiFi:$false -AllowStorageCard:$true -AllowPOPIMAPEmail:$false -IsDefault:$true -AllowTextMessaging:$true -Confirm:$true
-
+    ```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta modifica del criterio cassetta postale per il dispositivo mobile, effettuare una delle seguenti operazioni:
@@ -135,5 +135,7 @@ Per verificare la corretta modifica del criterio cassetta postale per il disposi
 
 2.  In Shell, utilizzare il seguente comando.
     
+    ```powershell
         Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+    ```
 

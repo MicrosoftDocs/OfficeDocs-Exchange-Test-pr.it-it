@@ -71,7 +71,9 @@ Potrebbe essere necessario visualizzare le regole e le azioni di un criterio DLP
 
 Questo esempio vengono restituite informazioni sul criterio DLP fittizia denominato Employee Numbers. Il comando viene inviata tramite pipe al cmdlet **Format-List** per visualizzare informazioni dettagliate sulla configurazione dei criteri DLP specificato.
 
-    Get-DlpPolicy "Employee Numbers" | Format-List
+```powershell
+Get-DlpPolicy "Employee Numbers" | Format-List
+```
 
 Per informazioni di sintassi e sui parametri, vedere [Get-DlpPolicy](https://technet.microsoft.com/it-it/library/jj215752\(v=exchg.150\)).
 
@@ -101,7 +103,9 @@ Per informazioni di sintassi e sui parametri, vedere [Get-DlpPolicy](https://tec
 
 È possibile specificare il livello di azione e le notifiche di un criterio utilizzando Exchange Management Shell. In questo esempio viene impostata la modalità di un criterio DLP fittizia denominato Employee Numbers in modo che non vengono applicate le azioni e non vengono visualizzati messaggi di notifica.
 
-    Set-DlpPolicy "Employee Numbers" -Mode Audit
+```powershell
+Set-DlpPolicy "Employee Numbers" -Mode Audit
+```
 
 Per informazioni di sintassi e sui parametri, vedere [Set-DlpPolicy](https://technet.microsoft.com/it-it/library/jj215778\(v=exchg.150\)).
 
@@ -121,7 +125,9 @@ In alternativa, è possibile impostare lo stato operativo o la modalità di un c
 
 In questo esempio viene rimosso il criterio DLP fittizio denominato Employee Numbers.
 
-    Remove-DlpPolicy "Employee Numbers"
+```powershell
+Remove-DlpPolicy "Employee Numbers"
+```
 
 Per informazioni di sintassi e sui parametri, vedere [Remove-DlpPolicy](https://technet.microsoft.com/it-it/library/jj215677\(v=exchg.150\)).
 

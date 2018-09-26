@@ -41,41 +41,49 @@ Microsoft Exchange Server 2013 utilizza le notifiche dello stato del recapito pe
 
 Per visualizzare un elenco riepilogativo di tutti i messaggi predefiniti per la notifica dello stato del recapito inclusi con Exchange 2013, utilizzare il seguente comando:
 
-    Get-SystemMessage -Original
+```powershell
+Get-SystemMessage -Original
+```
 
 Per visualizzare un elenco riepilogativo di tutti i messaggi personalizzati per la notifica dello stato del recapito presenti nell'organizzazione, utilizzare il seguente comando:
 
-    Get-SystemMessage
+```powershell
+Get-SystemMessage
+```
 
 Per visualizzare informazioni dettagliate sul messaggio per la notifica dello stato del recapito per il codice 5.1.2 inviato ai mittenti interni in inglese, utilizzare il seguente comando:
 
-    Get-SystemMessage En\Internal\5.1.2 | Format-List
+```powershell
+Get-SystemMessage En\Internal\5.1.2 | Format-List
+```
 
 ## Utilizzo di Shell per creare un messaggio personalizzato per la notifica dello stato del recapito
 
 Eseguire il comando indicato di seguito:
-
+```powershell
     New-SystemMessage -Internal <$true | $false> -Language <Locale> -DSNCode <x.y.z> -Text "<DSN text>"
-
+```
 In questo esempio viene creato un messaggio personalizzato per la notifica dello stato del recapito in formato testo normale per il codice 5.1.2; questo messaggio viene inviato ai mittenti interni in inglese.
-
+```powershell
     New-SystemMessage -Internal $true -Language En -DSNCode 5.1.2 -Text "You tried to send a message to a disabled mailbox that's no longer accepting messages. Please contact the Help Desk at extension 123 for assistance."
-
+```
 In questo esempio viene creato un messaggio personalizzato per la notifica dello stato del recapito in formato testo normale per il codice 5.1.2; questo messaggio viene inviato ai mittenti esterni in inglese.
-
+```powershell
     New-SystemMessage -Internal $false -Language En -DSNCode 5.1.2 -Text "You tried to send a message to a disabled mailbox that's no longer accepting messages. Please contact your System Administrator for more information."
-
+```
 In questo esempio viene creato un messaggio personalizzato per la notifica dello stato del recapito in formato HTML per il codice 5.1.2; questo messaggio viene inviato ai mittenti interni in inglese.
-
+```powershell
     New-SystemMessage -DSNCode 5.1.2 -Internal $true -Language En -Text 'You tried to send a message to a <B>disabled</B> mailbox. Please visit <A HREF="http://it.contoso.com">Internal Support</A> or contact &quot;InfoSec&quot; for more information.'
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che il messaggio personalizzato per la notifica dello stato del recapito sia stato creato correttamente, fare quanto segue:
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
+    ```powershell
+    Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
+    ```
 
 2.  Verificare che i valori visualizzati siano quelli configurati.
 
@@ -84,20 +92,22 @@ Per verificare che il messaggio personalizzato per la notifica dello stato del r
 ## Modifica del testo di un messaggio DSN personalizzato tramite Shell
 
 Per modificare il testo di un messaggio personalizzato per la notifica dello stato del recapito, utilizzare il seguente comando:
-
+```powershell
     Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> -Text "<DSN text>"
-
+```
 In questo esempio viene modificato il testo assegnato al messaggio personalizzato per la notifica dello stato del recapito per il codice 5.1.2; questo messaggio viene inviato ai mittenti interni in inglese.
-
+```powershell
     Set-SystemMessage En\Internal\5.1.2 -Text "The mailbox you tried to send an e-mail message to is disabled and is no longer accepting messages. Please contact the Help Desk at extension 123 for assistance."
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che il testo del messaggio personalizzato per la notifica dello stato del recapito sia stato modificato correttamente, fare quanto segue:
 
 1.  Eseguire il comando indicato di seguito: `Get-SystemMessage`.
     
-        Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> | Format-List -Text
+    ```powershell
+    Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> | Format-List -Text
+    ```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 
@@ -105,11 +115,15 @@ Per verificare che il testo del messaggio personalizzato per la notifica dello s
 
 Eseguire il comando indicato di seguito:
 
-    Remove-SystemMessage <Local>\<Internal | External>\<DSNcode>
+```powershell
+Remove-SystemMessage <Local>\<Internal | External>\<DSNcode>
+```
 
 In questo esempio viene rimosso il messaggio personalizzato per la notifica dello stato del recapito per il codice 5.1.2; questo messaggio viene inviato ai mittenti interni in inglese.
 
-    Remove-SystemMessage En\Internal\5.1.2
+```powershell
+Remove-SystemMessage En\Internal\5.1.2
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -131,11 +145,15 @@ Per assegnare una cassetta postale al destinatario di Exchange, fare quanto segu
 
 2.  Eseguire il comando indicato di seguito:
     
-        Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
+    ```powershell
+    Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
+    ```
     
     Ad esempio, per assegnare al destinatario di Exchange la cassetta postale esistente denominata "Contoso System Mailbox", utilizzare il seguente comando:
     
-        Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
+    ```powershell
+    Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
+    ```
 
 ## Passaggio 2: Specificare i codici per le notifiche dello stato del recapito che si desidera monitorare
 
@@ -149,19 +167,25 @@ Per assegnare una cassetta postale al destinatario di Exchange, fare quanto segu
 
 Per sostituire i valori esistenti, eseguire questo comando:
 
-    Set-TransportConfig -GenerateCopyOfDSNFor <x.y.z>,<x.y.z>...
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor <x.y.z>,<x.y.z>...
+```
 
 In questo esempio, l'organizzazione Exchange viene configurata per l'inoltro all'account di posta elettronica postmaster di tutti i messaggi per la notifica dello stato del recapito con codice 5.7.1, 5.7.2 e 5.7.3.
 
-    Set-TransportConfig -GenerateCopyOfDSNFor 5.7.1,5.7.2,5.7.3
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor 5.7.1,5.7.2,5.7.3
+```
 
 Per aggiungere o rimuovere le voci senza modificare i valori esistenti, eseguire questo comando:
-
+```powershell
     Set-TransportConfig -GenerateCopyOfDSNFor @{Add="<x.y.z>","<x.y.z>"...; Remove="<x.y.z>","<x.y.z>"...}
-
+```
 In questo esempio, il codice 5.7.5 viene aggiunto e il codice 5.7.1 viene rimosso dall'elenco esistente di messaggi per la notifica dello stato del recapito inoltrati al destinatario Exchange.
 
-    Set-TransportConfig -GenerateCopyOfDSNFor @{Add="5.7.5"; Remove="5.7.1"}
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor @{Add="5.7.5"; Remove="5.7.1"}
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

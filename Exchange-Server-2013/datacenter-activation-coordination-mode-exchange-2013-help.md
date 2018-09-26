@@ -63,7 +63,9 @@ L'esecuzione di un passaggio di datacenter per i DAG che non sono in modalità D
 
 La modalità DAC può essere abilitata solo con Exchange Management Shell. In particolare, è possibile utilizzare il cmdlet [Set-DatabaseAvailabilityGroup](https://technet.microsoft.com/it-it/library/dd297934\(v=exchg.150\)) per abilitare la modalità DAC, come illustrato nell'esempio seguente.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG2 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG2 -DatacenterActivationMode DagOnly
+```
 
 Nell'esempio precedente, il gruppo DAG2 è stato abilitato per la modalità DAC.
 

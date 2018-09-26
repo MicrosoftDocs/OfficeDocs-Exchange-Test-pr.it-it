@@ -57,5 +57,7 @@ Per ulteriori attività relative ai server Messaggistica unificata e Accesso cli
 
 In questo esempio imposta la porta di attesa TCP su un server Accesso Client denominato `MyClientAccessServer` a 5566.
 
-    Set-UMCallRouterSettings -Server MyClientAccessServer -SipTCPListeningPort 5566
+```powershell
+Set-UMCallRouterSettings -Server MyClientAccessServer -SipTCPListeningPort 5566
+```
 

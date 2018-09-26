@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Configurare Exchange 2013 per le autorizzazioni diviso: Exchange 2013 Help'
 TOCTitle: Configurare Exchange 2013 per le autorizzazioni diviso
 ms:assetid: 8c74f893-a6f3-4869-8571-3bc0f662cc87
@@ -97,7 +97,9 @@ Per configurare le autorizzazioni suddivise RBAC, effettuare le seguenti operazi
     
     1.  Disabilitare le autorizzazioni divise di Active Directory eseguendo il comando riportato di seguito dal supporto di installazione di Exchange 2013.
         
-            setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+        ```powershell
+        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+        ```
     
     2.  Riavviare i server Exchange 2013 dell'organizzazione o attendere il token di accesso di Active Directory per la replica su tutti i server Exchange 2013.
         
@@ -111,25 +113,30 @@ Per configurare le autorizzazioni suddivise RBAC, effettuare le seguenti operazi
     
     1.  Creare un gruppo di ruoli per gli amministratori di Active Directory. Oltre a creare il gruppo di ruoli, il comando crea assegnazioni di ruolo regolari tra il nuovo gruppo di ruoli e il ruolo Creazione destinatario di posta elettronica e Creazione e appartenenza a un gruppo di sicurezza.
         
+        ```powershell
             New-RoleGroup "Active Directory Administrators" -Roles "Mail Recipient Creation", "Security Group Creation and Membership"
-        
+        ```
 
         > [!NOTE]
         > Se si desidera consentire la creazione delle assegnazioni di ruolo da parte dei membri di questo gruppo di ruoli, includere il ruolo Gestione ruoli. Non è necessario aggiungere il ruolo in questa fase. Tuttavia, se si desidera assegnare il ruolo Creazione destinatario di posta elettronica o il ruolo Creazione e appartenenza a un gruppo di sicurezza ad altri assegnatari, il ruolo Gestione ruoli deve essere assegnato a questo nuovo gruppo di ruoli. La procedura seguente consente di configurare il gruppo di ruoli Administrators di Active Directory come l'unico gruppo di ruoli che può delegare questi ruoli.
 
     
     2.  Creare le assegnazioni del ruolo di delega tra il nuovo gruppo di ruoli e il ruolo Creazione destinatario di posta elettronica e il ruolo Creazione e appartenenza a un gruppo di sicurezza utilizzando i comandi seguenti.
-        
+        ```powershell
             New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Active Directory Administrators" -Delegating
             New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Active Directory Administrators" -Delegating
-    
+        ```
     3.  Aggiungere membri al nuovo gruppo di ruoli utilizzando il comando seguente.
         
-            Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+        ```powershell
+        Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+        ```
     
     4.  Sostituire l'elenco di delegati sul nuovo gruppo di ruoli in modo che solo i membri del gruppo possono aggiungere o rimuovere i membri.
         
-            Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+        ```powershell
+        Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+        ```
         
 
         > [!IMPORTANT]
@@ -138,34 +145,38 @@ Per configurare le autorizzazioni suddivise RBAC, effettuare le seguenti operazi
     
     5.  Individuare tutte le assegnazione di ruolo di delega e regolari per il ruolo Creazione destinatario di posta elettronica utilizzando il comando seguente. Il comando visualizza solo le proprietà **NameRole** e **RoleAssigneeName**.
         
+        ```powershell
             Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Format-Table Name, Role, RoleAssigneeName -Auto
-    
+        ```
+        
     6.  Rimuovere tutte le assegnazioni di ruolo di delega e regolari per il ruolo Creazione destinatario di posta elettronica non associate al nuovo gruppo di ruoli o a qualsiasi altro gruppo di ruoli o gruppo di protezione universale o le assegnazioni dirette che si desidera mantenere utilizzando il comando seguente.
         
-            Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+        ```powershell
+        Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+        ```
         
 
         > [!NOTE]
         > Se si desidera rimuovere tutte le assegnazioni di ruolo regolari e di delega al ruolo Creazione destinatario di posta elettronica per ogni assegnatario diverso dal gruppo di ruoli Administrators di Active Directory, utilizzare il comando seguente. L'opzione <EM>WhatIf</EM> consente di visualizzare le assegnazioni di ruolo che verranno rimosse. Rimuovere l'opzione <EM>WhatIf</EM> ed eseguire di nuovo il comando per rimuovere le assegnazioni di ruolo.
 
-        
+        ```powershell
             Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Where { $_.RoleAssigneeName -NE "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
-    
+        ```
     7.  Individuare tutte le assegnazioni di ruolo regolari e di delega al ruolo Creazione e appartenenza a un gruppo di sicurezza utilizzando il comando seguente. Il comando visualizza solo le proprietà **NameRole** e **RoleAssigneeName**.
-        
+        ```powershell
             Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Format-Table Name, Role, RoleAssigneeName -Auto
-    
+        ```
     8.  Rimuovere tutte le assegnazioni di ruolo regolari e di delega al ruolo Creazione e appartenenza a un gruppo di sicurezza non associate al nuovo gruppo di ruoli o a qualsiasi altro gruppo di ruoli, gruppo di sicurezza universale o assegnazione diretta che si desidera mantenere utilizzando il comando seguente.
-        
+        ```powershell
             Remove-ManagementRoleAssignment <Security Group Creation and Membership role assignment to remove>
-        
+        ```
 
         > [!NOTE]
         > È possibile utilizzare lo stesso comando della nota precedente per rimuovere tutte le assegnazioni di ruolo regolari e di delega al ruolo Creazione e appartenenza a un gruppo di sicurezza per qualsiasi assegnatario diverso dal gruppo di ruoli Administrators di Active Directory, come illustrato in questo esempio.
 
-        
+        ```powershell
             Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Where { $_.RoleAssigneeName -NE "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
-
+        ```
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti seguenti:
 
   - [New-RoleGroup](https://technet.microsoft.com/it-it/library/dd638181\(v=exchg.150\))
@@ -222,7 +233,9 @@ Per passare dalle autorizzazioni suddivise RBAC o condivise alle autorizzazioni 
 
 1.  Da una shell comandi di Windows, eseguire il comando riportato di seguito dal supporto di installazione di Exchange 2013 per abilitare le autorizzazioni divise di Active Directory.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+    ```powershell
+    setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+    ```
 
 2.  Se l'organizzazione dispone di più domini di Active Directory, è necessario eseguire `setup.exe /PrepareDomain` in ciascun dominio figlio che contiene oggetti o server di Exchange oppure eseguire `setup.exe /PrepareAllDomains` da un sito che dispone di un server Active Directory da ogni dominio.
 

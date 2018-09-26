@@ -51,11 +51,15 @@ Per informazioni sulle altre attività di gestione relative agli ambiti di ruolo
 
 Per modificare il nome di un ambito, utilizzare la seguente sintassi.
 
-    Set-ManagementScope <current scope name> -Name <new scope name>
+```powershell
+Set-ManagementScope <current scope name> -Name <new scope name>
+```
 
 In questo esempio l'ambito Seattle Servers viene modificato in Seattle Exchange Servers.
 
-    Set-ManagementScope "Seattle Servers" -Name "Seattle Exchange Servers"
+```powershell
+Set-ManagementScope "Seattle Servers" -Name "Seattle Exchange Servers"
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-ManagementScope](https://technet.microsoft.com/it-it/library/dd297996\(v=exchg.150\)).
 
@@ -63,11 +67,15 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-Managemen
 
 Per modificare il filtro destinatario su un ambito, utilizzare la sintassi seguente.
 
-    Set-ManagementScope <scope name> -RecipientRestrictionFilter { <new recipient filter> }
+```powershell
+Set-ManagementScope <scope name> -RecipientRestrictionFilter { <new recipient filter> }
+```
 
 In questo esempio viene modificato il filtro destinatario per far corrispondere tutti gli oggetti destinatario in cui la proprietà **Company** è impostata su Contoso.
 
-    Set-ManagementScope "Company Scope" -RecipientRestrictionFilter { Company -eq 'contoso' }
+```powershell
+Set-ManagementScope "Company Scope" -RecipientRestrictionFilter { Company -eq 'contoso' }
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementScope](https://technet.microsoft.com/it-it/library/dd297996\(v=exchg.150\)).
 
@@ -77,11 +85,15 @@ Per ulteriori informazioni sui filtri destinatario e per visualizzare un elenco 
 
 Per modificare la radice dell'unità organizzativa per un ambito, utilizzare la seguente sintassi.
 
-    Set-ManagementScope <scope name> -RecipientRoot <OU>
+```powershell
+Set-ManagementScope <scope name> -RecipientRoot <OU>
+```
 
 In questo esempio, la radice dell'unità organizzativa Sales Users viene modificata in North America/Sales nel dominio contoso.com.
 
-    Set-ManagementScope "Sales Users" -RecipientRoot "contoso.com/North America/Sales"
+```powershell
+Set-ManagementScope "Sales Users" -RecipientRoot "contoso.com/North America/Sales"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementScope](https://technet.microsoft.com/it-it/library/dd297996\(v=exchg.150\)).
 
@@ -89,11 +101,14 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-Managem
 
 Per modificare il filtro server su un ambito, utilizzare la sintassi seguente.
 
-    Set-ManagementScope <scope name> -ServerRestrictionFilter { <new server filter> }
+```powershell
+Set-ManagementScope <scope name> -ServerRestrictionFilter { <new server filter> }
+```
 
 In questo esempio viene modificato il filtro del server per ottenere la corrispondenza con tutti gli oggetti server in cui la proprietà **ServerSite** è impostata su 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com'.
-
+```powershell
     Set-ManagementScope "Company Scope" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementScope](https://technet.microsoft.com/it-it/library/dd297996\(v=exchg.150\)).
 
@@ -115,11 +130,14 @@ Non è possibile modificare l'elenco dei server per un ambito. Se l'elenco dei s
 
 Per modificare il filtro del database in un ambito, utilizzare la sintassi seguente.
 
-    Set-ManagementScope <scope name> -DatabaseRestrictionFilter { <new database filter> }
+```powershell
+Set-ManagementScope <scope name> -DatabaseRestrictionFilter { <new database filter> }
+```
 
 In questo esempio viene modificato il filtro del database per far corrispondere tutti gli oggetti del database in cui la proprietà **Name** contiene la stringa "Executive".
-
+```powershell
     Set-ManagementScope "Database Executive Scope" -DatabaseRestrictionFilter { Name -Like "*Executive*" }
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ManagementScope](https://technet.microsoft.com/it-it/library/dd297996\(v=exchg.150\)).
 

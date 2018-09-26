@@ -43,19 +43,23 @@ Per personalizzare le impostazioni di limitazione da applicare solo a specifici 
 
 In questo esempio viene creato un utente non predefinito denominato ITStaffPolicy che può essere associata a utenti specifici di criteri di limitazione. Qualsiasi parametro che si omette eredita i valori dal criterio GlobalThrottlingPolicy di limitazione predefinito. Dopo aver creato il criterio, è necessario associarlo a utenti specifici.
 
-    New-ThrottlingPolicy -Name ITStaffPolicy -EwsMaxConcurrency 4 -ThrottlingPolicyScope Regular
+```powershell
+New-ThrottlingPolicy -Name ITStaffPolicy -EwsMaxConcurrency 4 -ThrottlingPolicyScope Regular
+```
 
 In questo esempio consente di associare un utente con il nome di utente tonysmith con il criterio di limitazione ITStaffPolicy (che con limiti più).
 
-    Set-ThrottlingPolicyAssociation -Identity tonysmith -ThrottlingPolicy ITStaffPolicy
+```powershell
+Set-ThrottlingPolicyAssociation -Identity tonysmith -ThrottlingPolicy ITStaffPolicy
+```
 
 Non è necessario utilizzare il cmdlet **Set-ThrottlingPolicyAssociation** per associare un utente a un criterio. Il comando seguente mostra un altro modo per associare il criterio di limitazione ITStaffPolicy tonysmith.
 
-```
+```powershell
 $b = Get-ThrottlingPolicy ITStaffPolicy
 ```
 
-```
+```powershell
 Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
 ```
 
@@ -67,19 +71,25 @@ Per verificare di aver creato correttamente alle normali criterio di limitazione
 
 1.  Eseguire il comando riportato di seguito.
     
+    ```powershell
         Get-ThrottlingPolicy | Format-List
+    ```
 
 2.  Verificare che nella colonna che mostra l'oggetto GlobalThrottlingPolicy sia elencato regolari limitazione criterio che appena creato.
 
 3.  Eseguire il comando riportato di seguito.
     
-        Get-ThrottlingPolicy | Format-List
+    ```powershell
+      Get-ThrottlingPolicy | Format-List
+    ```
 
 4.  Verificare che le proprietà per il nuovo criterio regolare corrispondano i valori configurati.
 
 5.  Eseguire il comando riportato di seguito.
     
-        Get-ThrottlingPolicyAssociation
+    ```powershell
+    Get-ThrottlingPolicyAssociation
+    ```
 
 6.  Verificare che il nuovo criterio regolare sia associato all'utente o gli utenti si a esso associati.
 

@@ -73,20 +73,22 @@ In molte distribuzioni di Exchange, la creazione di un criterio degli indirizzi 
 
 Se i destinatari di tale unità organizzativa non condividono alcuna proprietà comune che è possibile filtrare, come il reparto o il percorso, è possibile compilare uno degli attributi personalizzati con un valore comune, come mostrato in questo esempio.
 
-    Get-Mailbox -OrganizationalUnit Sales | Set-Mailbox CustomAttribute1 "SalesOU"
+```powershell
+Get-Mailbox -OrganizationalUnit Sales | Set-Mailbox CustomAttribute1 "SalesOU"
+```
 
 Ora è possibile creare un criterio degli indirizzi di posta elettronica per tutti i destinatari che dispongono della proprietà *CustomAttribute1* equivalente a SalesOU, come mostrato in questo esempio.
-
+```powershell
     New-EmailAddressPolicy -Name "Sales" -RecipientFilter { CustomAttribute1 -eq "SalesOU"} -EnabledEmailAddressTemplates "SMTP:%s%2g@sales.contoso.com"
-
+```
 ## Esempio di attributo personalizzato con il parametro ConditionalCustomAttributes
 
 Durante la creazione dei gruppi di distribuzione dinamici, dei criteri degli indirizzi di posta elettronica o degli elenchi indirizzi, non è necessario utilizzare il parametro *RecipeintFilter* per specificare gli attributi personalizzati. È invece possibile utilizzare i parametri da *ConditionalCustomAttribute1* a *ConditionalCustomAttribute15*.
 
 In questo esempio viene creato un gruppo di distribuzione dinamico basato sui destinatari il cui parametro *CustomAttribute1* è impostato su SalesOU.
-
+```powershell
     New-DynamicDistributionGroup -Name "Sales Users and Contacts" -IncludedRecipients "MailboxUsers,MailContacts" -ConditionalCustomAttribute1 "SalesOU"
-
+```
 
 > [!NOTE]
 > È necessario utilizzare il parametro <EM>IncludedRecipients</EM> se si utilizza un parametro <EM>Conditional</EM>. Inoltre, non è possibile utilizzare i parametri <EM>Conditional</EM> se si utilizza il parametro <EM>RecipientFilter</EM>. Se si desidera includere altri filtri per creare il gruppo di distribuzione dinamico, i criteri degli indirizzi di posta elettronica o gli elenchi indirizzi, è necessario utilizzare il parametro <EM>RecipientFilter</EM>.
@@ -97,13 +99,17 @@ In questo esempio viene creato un gruppo di distribuzione dinamico basato sui de
 
 In questo esempio, il parametro *ExtensionCustomAttribute1* della cassetta postale di Kweku verrà aggiornato a indicare che si è iscritto ai seguenti corsi: MATH307, ECON202, ENGL300.
 
-    Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 MATH307,ECON202,ENGL300
+```powershell
+Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 MATH307,ECON202,ENGL300
+```
 
 Quindi, utilizzando il parametro *RecipientFilter* in cui *ExtensionCustomAttribute1* è uguale a MATH307, verrà creato un gruppo di distribuzione dinamico per tutti gli studenti iscritti a MATH307. Quando si utilizzano i parametri *ExtentionCustomAttributes*, è possibile utilizzare l'operatore `-eq` invece dell'operatore `-like`.
-
+```powershell
     New-DynamicDistributionGroup -Name Students_MATH307 -RecipientFilter {ExtensionCustomAttribute1 -eq "MATH307"}
-
+```
 In questo esempio, i valori dell'attributo *ExtensionCustomAttribute1* per Kweku vengono aggiornati a indicare che si è iscritto al corso ENGL210 e ha abbandonato il corso ECON202.
 
-    Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 @{Add="ENGL210"; Remove="ECON202"}
+```powershell
+Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 @{Add="ENGL210"; Remove="ECON202"}
+```
 

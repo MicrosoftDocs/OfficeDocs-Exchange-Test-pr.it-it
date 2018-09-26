@@ -47,7 +47,9 @@ Per le attività di gestione aggiuntive correlate a IRM, vedere [Procedure di In
 
 In questo esempio, IRM viene abilitato per i messaggi interni per l'organizzazione di Exchange.
 
-    Set-IRMConfiguration -InternalLicensingEnabled $true
+```powershell
+Set-IRMConfiguration -InternalLicensingEnabled $true
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-IRMConfiguration](https://technet.microsoft.com/it-it/library/dd979792\(v=exchg.150\)).
 
@@ -55,7 +57,9 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-IRMConfig
 
 Questo esempio disabilita IRM per i messaggi interni per l'organizzazione di Exchange.
 
-    Set-IRMConfiguration -InternalLicensingEnabled $false
+```powershell
+Set-IRMConfiguration -InternalLicensingEnabled $false
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-IRMConfiguration](https://technet.microsoft.com/it-it/library/dd979792\(v=exchg.150\)).
 

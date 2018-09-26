@@ -77,7 +77,9 @@ Dopo aver creato il connettore di invio, creare un connettore di invio nella sec
 
 In questo esempio viene utilizzato lo script Enable-CrossForestConnector.ps1 in Shell per impostare le autorizzazioni sul connettore di invio per l'utilizzo in una topologia con più foreste.
 
-    .\Enable-CrossForestConnector.ps1 -Connector "Cross-Forest" -user "ANONYMOUS LOGON"
+```powershell
+.\Enable-CrossForestConnector.ps1 -Connector "Cross-Forest" -user "ANONYMOUS LOGON"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 

@@ -40,8 +40,9 @@ La registrazione agente consente di registrare le azioni eseguite da specifici a
 ## Configurazione della registrazione degli agenti di protezione da posta indesiderata tramite Shell
 
 Eseguire il comando indicato di seguito:
-
+```powershell
     Set-TransportService <ServerIdentity> -AgentLogEnabled <$true | $false> -AgentLogMaxAge <dd.hh:mm:ss> -AgentLogMaxDirectorySize <Size> -AgentLogMaxFileSize <Size> -AgentLogPath <LocalFilePath>
+```
 
 In questo esempio vengono realizzate le seguenti impostazioni dei registri degli agenti sul server Cassette postali Mailbox01:
 
@@ -54,9 +55,9 @@ In questo esempio vengono realizzate le seguenti impostazioni dei registri degli
   -  Il limite massimo di validità dei file di registro degli agenti viene impostato su 14 giorni.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Mailbox01 -AgentLogPath "D:\Anti-Spam Agent Log" -AgentLogMaxFileSize 20MB -AgentLogMaxDirectorySize 400MB -AgentLogMaxAge 14.00:00:00
-
+```
 
 > [!NOTE]
 > <UL>
@@ -74,8 +75,8 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere i parametri 
 Per verificare che la registrazione degli agenti di protezione dalla posta indesiderata sia stata configurata correttamente, procedere come segue:
 
 1.  In Shell, utilizzare il seguente comando:
-    
+    ```powershell
         Get-TransportService <ServerIdentity> | Format-List AgentLog*
-
+    ```
 2.  Verificare che i valori visualizzati siano quelli configurati.
 

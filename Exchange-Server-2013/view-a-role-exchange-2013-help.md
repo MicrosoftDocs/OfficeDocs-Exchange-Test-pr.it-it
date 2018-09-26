@@ -53,11 +53,15 @@ Per informazioni sulle altre attività di gestione relative ai ruoli, vedere [Au
 
 Per visualizzare i dettagli di un ruolo specifico, utilizzare la seguente sintassi.
 
-    Get-ManagementRole <role name> | Format-List
+```powershell
+Get-ManagementRole <role name> | Format-List
+```
 
 In questo esempio vengono recuperati i dettagli sul ruolo di gestione dei Destinatari posta elettronica.
 
-    Get-ManagementRole "Mail Recipients" | Format-List
+```powershell
+Get-ManagementRole "Mail Recipients" | Format-List
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRole](https://technet.microsoft.com/it-it/library/dd351125\(v=exchg.150\)).
 
@@ -67,15 +71,20 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 In questo esempio viene restituito un elenco di tutti i ruoli nell'organizzazione.
 
-    Get-ManagementRole
+```powershell
+Get-ManagementRole
+```
 
 Per restituire un elenco delle proprietà specifiche per tutti i ruoli nell'organizzazione, è possibile eseguire il piping dei risultati del cmdlet **Format-Table** e specificare le proprietà che si desidera nell'elenco dei risultati. Utilizzare la seguente sintassi.
 
-    Get-ManagementRole | Format-Table <property 1>, <property 2...>
+```powershell
+Get-ManagementRole | Format-Table <property 1>, <property 2...>
+```
 
 In questo esempio viene restituito un elenco di tutti i ruoli nell'organizzazione e inclusa la proprietà **Name** e ogni proprietà con la parola **Implicit** all'inizio del nome della proprietà.
-
+```powershell
     Get-ManagementRole | Format-Table Name, Implicit*
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRole](https://technet.microsoft.com/it-it/library/dd351125\(v=exchg.150\)).
 
@@ -85,11 +94,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per restituire un elenco dei ruoli che contengono il cmdlet che può essere specificato, utilizzare la seguente sintassi.
 
-    Get-ManagementRole -Cmdlet <cmdlet>
+```powershell
+Get-ManagementRole -Cmdlet <cmdlet>
+```
 
 In questo esempio viene restituito un elenco di ruoli che contengono il cmdlet **New-Mailbox**.
 
-    Get-ManagementRole -Cmdlet New-Mailbox
+```powershell
+Get-ManagementRole -Cmdlet New-Mailbox
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRole](https://technet.microsoft.com/it-it/library/dd351125\(v=exchg.150\)).
 
@@ -100,16 +113,21 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 Quando si utilizza il parametro *CmdletParameters*, è possibile scegliere di includere il parametro *Cmdlet*. Se si include il parametro *Cmdlet*, vengono restituiti solo i ruoli che contengono i parametri specificati nel cmdlet scelto. Se non viene incluso il parametro *Cmdlet*, vengono restituiti i ruoli che contengono i parametri specificati indipendentemente dal cmdlet.
 
 Per restituire un elenco dei ruoli che contengono i parametri specificati, utilizzare la seguente sintassi.
-
+```powershell
     Get-ManagementRole [-Cmdlet <cmdlet>] -CmdletParameters <parameter 1>, <parameter 2...>
+```
 
 In questo esempio viene restituito un elenco di ruoli che contiene i parametri *Database* e *Server*, indipendentemente dai cmdlet esistenti.
 
-    Get-ManagementRole -CmdletParameters Database, Server
+```powershell
+Get-ManagementRole -CmdletParameters Database, Server
+```
 
 In questo esempio viene restituito un elenco di ruoli in cui il parametro *EmailAddresses* esiste solo nel cmdlet **Set-Mailbox**.
 
-    Get-ManagementRole -Cmdlet Set-Mailbox -CmdletParameters EmailAddresses
+```powershell
+Get-ManagementRole -Cmdlet Set-Mailbox -CmdletParameters EmailAddresses
+```
 
 È possibile utilizzare anche il carattere jolly (\*) con il parametro *Cmdlet* o *CmdletParameters* per individuare nomi parziali di cmdlet o parametri.
 
@@ -121,11 +139,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per restituire un elenco dei ruoli che corrispondono al tipo di ruolo si specificato, utilizzare la seguente sintassi.
 
-    Get-ManagementRole -RoleType <roletype>
+```powershell
+Get-ManagementRole -RoleType <roletype>
+```
 
 In questo esempio viene restituito un elenco di ruoli basato sul tipo di ruolo `UmMailboxes`.
 
-    Get-ManagementRole -RoleType UmMailboxes
+```powershell
+Get-ManagementRole -RoleType UmMailboxes
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRole](https://technet.microsoft.com/it-it/library/dd351125\(v=exchg.150\)).
 
@@ -135,11 +157,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per restituire un elenco dei ruoli che sono figli diretti di un ruolo padre, utilizzare la seguente sintassi.
 
-    Get-ManagementRole <parent role name> -GetChildren
+```powershell
+Get-ManagementRole <parent role name> -GetChildren
+```
 
 In questo esempio viene restituito un elenco dei ruoli che sono figli diretti del ruolo Ripristino d'emergenza.
 
-    Get-ManagementRole "Disaster Recovery" -GetChildren
+```powershell
+Get-ManagementRole "Disaster Recovery" -GetChildren
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRole](https://technet.microsoft.com/it-it/library/dd351125\(v=exchg.150\)).
 
@@ -149,11 +175,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 In questo esempio viene restituito un elenco di tutti i ruoli figlio di un ruolo padre.
 
-    Get-ManagementRole <parent role name> -Recurse
+```powershell
+Get-ManagementRole <parent role name> -Recurse
+```
 
 In questo esempio vengono restituiti tutti i ruoli figlio del ruolo Destinatari di posta.
 
-    Get-ManagementRole "Mail Recipients" -Recurse
+```powershell
+Get-ManagementRole "Mail Recipients" -Recurse
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementRole](https://technet.microsoft.com/it-it/library/dd351125\(v=exchg.150\)).
 

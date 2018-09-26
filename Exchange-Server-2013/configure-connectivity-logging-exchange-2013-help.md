@@ -56,8 +56,9 @@ La registrazione della connettività registra l'attività di connessione in usci
 ## Utilizzo di Shell per la configurazione della registrazione della connettività
 
 Per configurare la registrazione della connettività, utilizzare il seguente comando:
-
+```powershell
     <Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ConnectivityLogEnabled <$true | $false> -ConnectivityLogMaxAge <dd.hh:mm:ss> -ConnectivityLogMaxDirectorySize <Size> -ConnectivityLogMaxFileSize <Size> -ConnectivityLogPath <LocalFilePath>
+```
 
 In questo esempio vengono definite le impostazioni per il registro della connettività nel servizio di trasporto sul server Cassette postali Mailbox01:
 
@@ -70,9 +71,9 @@ In questo esempio vengono definite le impostazioni per il registro della connett
   -  Imposta la durata massima di un file di registro della connettività su 45 giorni.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Mailbox01 -ConnectivityLogPath "D:\Hub Connectivity Log" -ConnectivityLogMaxFileSize 20MB -ConnectivityLogMaxDirectorySize 1.5GB -ConnectivityLogMaxAge 45.00:00:00
-
+```
 
 > [!NOTE]
 > <UL>
@@ -90,8 +91,8 @@ In questo esempio vengono definite le impostazioni per il registro della connett
 Per verificare di aver correttamente configurato la registrazione della connettività, fare quanto segue:
 
 1.  In Shell, utilizzare il seguente comando:
-    
+    ```powershell
         <Get-TransportService | Get-FrontEndTransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List ConnectivityLog*
-
+    ```
 2.  Verificare che i valori visualizzati siano quelli configurati.
 

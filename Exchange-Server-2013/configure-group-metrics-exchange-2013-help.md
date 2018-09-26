@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Configurare le metriche di gruppo: Exchange 2013 Help'
 TOCTitle: Configurare le metriche di gruppo
 ms:assetid: 76ccd6a7-e2ec-42f4-9ab3-e8cc257ac896
@@ -49,11 +49,15 @@ I suggerimenti messaggio che forniscono informazioni sulla dimensione dei gruppi
 
 Per abilitare o disabilitare la generazione della metrica di gruppo su un server Cassette postali, utilizzare il seguente comando:
 
-    Set-MailboxServer <ServerIdentity> -ForceGroupMetricsGeneration <$true | $false>
+```powershell
+Set-MailboxServer <ServerIdentity> -ForceGroupMetricsGeneration <$true | $false>
+```
 
 In questo esempio viene abilitata la generazione della metrica di gruppo sul server Cassette postali denominato MBX1.
 
-    Set-MailboxServer MBX1 -ForceGroupMetricsGeneration $true
+```powershell
+Set-MailboxServer MBX1 -ForceGroupMetricsGeneration $true
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -61,7 +65,9 @@ Per verificare di aver correttamente abilitato o disabilitato la generazione del
 
 1.  Eseguire il comando indicato di seguito:
     
+    ```powershell
         Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+    ```
 
 2.  Verificare che l'impostazione visualizzata sia quella che è stata configurata.
 

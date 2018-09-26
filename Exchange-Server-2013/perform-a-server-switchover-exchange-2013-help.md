@@ -53,11 +53,15 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 In questo esempio viene eseguito un passaggio di server per il server MBX1. Il sistema seleziona automaticamente il server Cassette postali migliore per ogni database attivo su MBX1.
 
-    Move-ActiveMailboxDatabase -Server MBX1
+```powershell
+Move-ActiveMailboxDatabase -Server MBX1
+```
 
 In questo esempio viene eseguito un passaggio di server per il server Cassette postali MBX4. Al termine dell'operazione, il server MBX5 ospita la copia attiva dei database precedentemente attivi sul server MBX4.
 
-    Move-ActiveMailboxDatabase -Server MBX4 -ActivateOnServer MBX5
+```powershell
+Move-ActiveMailboxDatabase -Server MBX4 -ActivateOnServer MBX5
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Move-ActiveMailboxDatabase](https://technet.microsoft.com/it-it/library/dd298068\(v=exchg.150\)).
 

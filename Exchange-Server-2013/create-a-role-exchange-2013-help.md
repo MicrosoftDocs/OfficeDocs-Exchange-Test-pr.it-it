@@ -53,11 +53,15 @@ I nuovi ruoli di gestione sono basati sui ruoli esistenti. Quando si crea un ruo
 
 Per creare un nuovo ruolo, utilizzare la seguente sintassi.
 
-    New-ManagementRole -Parent <existing role to copy> -Name <name of new role>
+```powershell
+New-ManagementRole -Parent <existing role to copy> -Name <name of new role>
+```
 
 Con questo esempio viene copiato il ruolo Mail Recipients e le relative voci del ruolo di gestione nel ruolo Seattle Mail Recipients.
 
-    New-ManagementRole -Parent "Mail Recipients" -Name "Seattle Mail Recipients"
+```powershell
+New-ManagementRole -Parent "Mail Recipients" -Name "Seattle Mail Recipients"
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [New-ManagementRole](https://technet.microsoft.com/it-it/library/dd298073\(v=exchg.150\)).
 

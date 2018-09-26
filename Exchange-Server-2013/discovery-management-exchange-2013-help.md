@@ -37,7 +37,9 @@ Per impostazione predefinita, solo i membri del gruppo di ruoli Gestione organiz
 
 È possibile utilizzare il seguente comando per visualizzare un elenco degli utenti o dei gruppi di protezione universali membri di questo gruppo di ruoli.
 
-    Get-RoleGroupMember "Discovery Management"
+```powershell
+Get-RoleGroupMember "Discovery Management"
+```
 
 Per ulteriori informazioni sui membri di un gruppo di ruolo, vedere [View the members of a role group](manage-role-group-members-exchange-2013-help.md) in [Gestire i membri del gruppo di ruolo](manage-role-group-members-exchange-2013-help.md).
 

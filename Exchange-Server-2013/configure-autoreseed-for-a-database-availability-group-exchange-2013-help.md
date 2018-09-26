@@ -53,17 +53,22 @@ Il primo passaggio implica la configurazione delle directory radice per i databa
 
 In questo esempio, viene illustrato come configurare il percorso principale per i database.
 
-    Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabasesRootFolderPath "C:\ExchDbs"
+```powershell
+Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabasesRootFolderPath "C:\ExchDbs"
+```
 
 In questo esempio, viene illustrato come configurare il percorso principale per i volumi di archiviazione.
 
-    Set-DatabaseAvailabilityGroup DAG1 -AutoDagVolumesRootFolderPath "C:\ExchVols"
+```powershell
+Set-DatabaseAvailabilityGroup DAG1 -AutoDagVolumesRootFolderPath "C:\ExchVols"
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta configurazione dei percorsi principali per database e volumi, utilizzare il seguente comando.
-
+```powershell
     Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+```
 
 L'output per *AutoDagDatabasesRootFolderPath* e *AutoDagVolumesRootFolderPath* deve corrispondere ai percorsi configurati.
 
@@ -73,28 +78,34 @@ Successivamente, configurare il numero di database per ciascun volume (*AutoDagD
 
 In questo esempio, viene illustrato come configurare l'impostazione Reseeding automatico per un gruppo di disponibilità del database dotato di 4 database per volume.
 
-    Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabaseCopiesPerVolume 4
+```powershell
+Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabaseCopiesPerVolume 4
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta configurazione del numero di database per ciascun volume, utilizzare il seguente comando.
-
+```powershell
     Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+```
 
 L'output per *AutoDagDatabaseCopiesPerVolume* deve corrispondere al valore configurato.
 
 ## Passaggio 3: Creazione delle directory radice per database e volumi
 
 Quindi, creare le directory che corrispondono alle directory radice configurate nel passaggio 1. In questo esempio, viene illustrato come creare le directory predefinite utilizzando il prompt dei comandi.
-
+```powershell
     md C:\ExchangeDatabases
     md C:\ExchangeVolumes
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta configurazione delle directory radice per database e volumi, utilizzare il seguente comando.
 
-    Dir C:\
+```powershell
+Dir C:\
+```
 
 Le directory create devono apparire nell'elenco di output.
 
@@ -114,7 +125,9 @@ I nomi delle cartelle installate possono essere il nome della cartella o delle c
 
 Per verificare il corretto montaggio delle cartelle di volume, utilizzare il seguente comando.
 
-    Dir C:\
+```powershell
+Dir C:\
+```
 
 I volumi montati devono essere visualizzati nell'elenco di output.
 
@@ -122,16 +135,16 @@ I volumi montati devono essere visualizzati nell'elenco di output.
 
 Successivamente, creare le directory di database nel percorso radice C:\\ExchangeDatabases. In questo esempio viene illustrato come creare directory per la configurazione di archiviazione con 4 database su ogni volume.
 
-```
+```powershell
 md c:\ExchangeDatabases\db001
 ```
-```
+```powershell
 md c:\ExchangeDatabases\db002
 ```
-```
+```powershell
 md c:\ExchangeDatabases\db003
 ```
-```
+```powershell
 md c:\ExchangeDatabases\db004
 ```
 
@@ -139,7 +152,9 @@ md c:\ExchangeDatabases\db004
 
 Per verificare il corretto montaggio delle cartelle di database, utilizzare il seguente comando.
 
-    Dir C:\ExchangeDatabases
+```powershell
+Dir C:\ExchangeDatabases
+```
 
 Le directory create devono apparire nell'elenco di output.
 
@@ -147,13 +162,17 @@ Le directory create devono apparire nell'elenco di output.
 
 Creare i punti di montaggio per ciascun database e collegare il punto di montaggio al volume corretto. Ad esempio, la cartella montata per db001 di deve trovare in C:\\ExchangeDatabases\\db001. Per eseguire questa operazione, è possibile utilizzare diskmgmt.msc o mountvol.exe. In questo esempio, viene illustrato come montare db001 in C:\\ExchangeDatabases\\db001 utilizzando mountvol.exe.
 
+```powershell
     Mountvol.exe c:\ExchangeDatabases\db001 \\?\Volume (GUID)
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta creazione dei punti di montaggio per il database, utilizzare il seguente comando.
 
-    Mountvol.exe C:\ExchangeDatabases\db001 /L
+```powershell
+Mountvol.exe C:\ExchangeDatabases\db001 /L
+```
 
 Il volume montato deve essere visualizzato nell'elenco dei punti di montaggio.
 
@@ -166,28 +185,28 @@ C:\\\< *NomeCartellaDatabase*\>\\*NomeDatabase*\\\<*NomeDatabase*\>.db
 C:\\\< *NomeCartellaDatabase*\>\\*NomeDatabase*\\\<*NomeDatabase*\>.log
 
 In questo esempio, viene illustrato come creare le directory per 4 database che verranno archiviati sul volume 1:
-```
+```powershell
 md c:\ExchangeDatabases\db001\db001.db
 ```
-```
+```powershell
 md c:\ExchangeDatabases\db001\db001.log
 ```
-```
+```powershell
 md c:\ExchangeDatabases\db002\db002.db
 ```
-```
+```powershell
 md c:\ExchangeDatabases\db002\db002.log
 ```
-```
+```powershell
 md c:\ExchangeDatabases\db003\db003.db
 ```
-```
+```powershell
 md c:\ExchangeDatabases\db003\db003.log
 ```
-```
+```powershell
 md c:\ExchangeDatabases\db004\db004.db
 ```
-```
+```powershell
 md c:\ExchangeDatabases\db004\db004.log
 ```
 
@@ -197,21 +216,25 @@ Ripetere i comandi precedenti per i database su ogni volume.
 
 Per verificare la corretta creazione della struttura della directory del database, utilizzare il seguente comando.
 
-    Dir C:\ExchangeDatabases /s
+```powershell
+Dir c:\ExchangeDatabases /s
+```
 
 Le directory create devono apparire nell'elenco di output.
 
 ## Passaggio 8: Creazione dei database
 
 Creazione di database con registro e percorsi del database configurati con le cartelle appropriate. In questo esempio, viene illustrato come creare un database archiviato nella directory e nella struttura dei punti di montaggio appena create.
-
+```powershell
     New-MailboxDatabase -Name db001 -Server MBX1 -LogFolderPath C:\ExchangeDatabases\db001\db001.log -EdbFilePath C:\ExchangeDatabases\db001\db001.db\db001.edb
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la corretta creazione dei database nella cartella appropriata, utilizzare il seguente comando.
-
+```powershell
     Get-MailboxDatabase db001 | Format List *path*
+```
 
 Le proprietà del database restituite devono indicare che il file del database e i file di registro sono archiviati nelle cartelle precedenti.
 
@@ -220,13 +243,16 @@ Le proprietà del database restituite devono indicare che il file del database e
 Per verificare la corretta configurazione del reseeding automatico per un gruppo di disponibilità del database, effettuare le seguenti operazioni:
 
 1.  Utilizzare il seguente comando per verificare la corretta configurazione del gruppo di disponibilità del database.
-    
+    ```powershell
         Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
-
+    ```
 2.  Utilizzare il seguente comando per verificare la corretta configurazione della struttura della directory (di seguito, sono riportati i percorsi predefiniti; se necessario, sostituirli con i percorsi utilizzati).
+    
+    ```powershell
+        Dir c:\ExchangeDatabases /s
     ```
-    Dir c:\ExchangeDatabases /s
+    
+    ```powershell
+        Dir c:\ExchangeVolumes /s
     ```
-    ```
-    Dir c:\ExchangeVolumes /s
-    ```
+    

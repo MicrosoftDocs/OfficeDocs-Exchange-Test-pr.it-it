@@ -115,9 +115,9 @@ Nella figura seguente è illustrata la relazione tra l'account utente collegato 
 ## Creazione di una cassetta postale collegata tramite Shell
 
 In questo esempio viene creata una cassetta postale collegata per Ayla Kol nella foresta risorse Exchange CONTOSO. Il dominio di FABRIKAM è la foresta account. L'account di amministratore FABRIKAM \\administrator è utilizzato per accedere al controller di dominio collegato.
-
+```powershell
     New-Mailbox -Name "Ayla Kol" -LinkedDomainController "DC1_FABRIKAM" -LinkedMasterAccount " FABRIKAM\aylak" -OrganizationalUnit Users -UserPrincipalName aylak@contoso.com -LinkedCredential:(Get-Credential FABRIKAM\administrator)
-
+```
 Per informazioni sulla sintassi e sui parametri, vedere [New-Mailbox](https://technet.microsoft.com/it-it/library/aa997663\(v=exchg.150\)).
 
 ## Come verificare se l'operazione ha avuto esito positivo?
@@ -128,7 +128,9 @@ Per verificare la corretta creazione della cassetta postale collegata, effettuar
 
   - In Shell, eseguire il seguente comando per visualizzare le informazioni relative alla nuova cassetta postale collegata.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```powershell
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```
 
 ## Modifica delle proprietà della cassetta postale collegata
 
@@ -375,17 +377,17 @@ Utilizzare i cmdlet **Get-Mailbox** e **Set-Mailbox** per visualizzare e modific
 Di seguito vengono forniti alcuni esempio dell'utilizzo di Shell per modificare le proprietà delle cassette postali collegate.
 
 In questo esempio viene utilizzato il comando **Get-Mailbox** per trovare tutte le cassette postali collegate nell'organizzazione.
-
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')}
-
+```
 In questo esempio viene utilizzato il comando **Set-Mailbox** per limitare il numero di destinatari ammessi per i campi A: Cc: e Ccn: di un messaggio di posta elettronica a 500. Questo limite si applica a tutte le cassette postali collegate nell'organizzazione.
-
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | Set-Mailbox -RecipientLimits 500
-
+```
 In questo esempio viene modificato l'account master collegato nella foresta account fabrikam.com associato a una cassetta postale collegata in una foresta Exchange.
-
+```powershell
     Set-Mailbox -Identity "Ayla Kol" -LinkedDomainController DC1.fabrikam.com -LinkedMasterAccount "fabrikam\robinw" -LinkedCredential:(Get-Credential fabrikam\administrator)
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo?
 
 Per verificare di aver correttamente modificato le proprietà per una cassetta postale collegata, fare quanto segue:
@@ -393,10 +395,12 @@ Per verificare di aver correttamente modificato le proprietà per una cassetta p
   - Nell'interfaccia di amministrazione Exchange selezionare la cassetta postale e quindi fare clic su **Modifica** per visualizzare le proprietà o le funzionalità modificate. A seconda della proprietà modificata, la proprietà potrebbe essere visualizzata nel riquadro Dettagli per la cassetta postale selezionata.
 
   - In Shell, utilizzare il cmdlet **Get-Mailbox** per verificare le modifiche. Uno dei vantaggi dell'utilizzo di Shell è che è possibile visualizzare più proprietà per più cassette postali collegate. Nell'esempio precedente, in cui è stato modificato il numero massimo di destinatari, eseguendo questo comando viene verificato il nuovo valore.
-    
+    ```powershell
         Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | fl Name,RecipientLimits
-    
+    ```
     Nell'esempio precedente, in cui è stato modificato l'account master collegato, eseguire questo comando per verificare il nuovo valore.
     
-        Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```powershell
+    Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```
 

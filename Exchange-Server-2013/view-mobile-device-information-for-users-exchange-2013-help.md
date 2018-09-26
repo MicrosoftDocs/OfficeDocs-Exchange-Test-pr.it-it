@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Visualizza info. su dispos. mobili per utenti: Exchange 2013 Help'
 TOCTitle: Visualizzare informazioni sui dispositivi mobili per gli utenti
 ms:assetid: 4fd263c0-ad61-416c-bd68-339bf66605cf
@@ -51,5 +51,7 @@ L'interfaccia di amministrazione di Exchange visualizza l'elenco dei dispositivi
 
 1.  Eseguire il comando riportato di seguito.
     
+    ```powershell
         Get-MobileDevice -Mailbox useralias
+    ```
 

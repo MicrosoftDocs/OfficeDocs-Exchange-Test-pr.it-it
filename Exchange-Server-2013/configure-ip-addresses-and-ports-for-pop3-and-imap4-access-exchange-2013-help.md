@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Configura indirizzi IP/porte accesso POP3 e IMAP4: Exchange 2013 Help'
 TOCTitle: Configurare gli indirizzi IP e porte per l'accesso POP3 e IMAP4
 ms:assetid: 8292747b-6626-4d7f-ba73-1e17f5d99fa4
@@ -73,11 +73,15 @@ Dopo aver configurato l'indirizzo IP e le impostazioni della porta per POP3, è 
 
 Con questo esempio vengono impostati l'indirizzo IP e la porta per la comunicazione con Exchange utilizzando POP3 con SSL (SSL, Secure Sockets Layer).
 
-    Set-PopSettings -SSLBindings: IPaddress:Port
+```powershell
+Set-PopSettings -SSLBindings: IPaddress:Port
+```
 
 Con questo esempio vengono impostati l'indirizzo IP e la porta per la comunicazione con Exchange utilizzando POP3 senza alcuna crittografia o con la crittografia TLS (TLS, Transport Layer Security).
 
-    Set-PopSettings -UnencryptedOrTLSBindings IPaddress:Port
+```powershell
+Set-PopSettings -UnencryptedOrTLSBindings IPaddress:Port
+```
 
 Dopo aver configurato l'indirizzo IP e le impostazioni della porta per POP3, è necessario riavviare il servizio POP3 per rendere effettive le impostazioni. Per informazioni su come riavviare il servizio POP3, vedere[Avviare e arrestare i servizi POP3](start-and-stop-the-pop3-services-exchange-2013-help.md).
 
@@ -89,7 +93,9 @@ Per verificare che l'indirizzo IP POP 3 e le impostazioni della porta siano stat
 
 1.  Eseguire il seguente comando in Shell.
     
+    ```powershell
         Get-PopSettings | format-list
+    ```
 
 2.  Verificare che le impostazioni di *UnencryptedOrTLSBindings* e *SSLBindings* siano corrette.
 
@@ -123,11 +129,15 @@ Dopo aver configurato l'indirizzo IP e le impostazioni della porta per IMAP4, è
 
 Con questo esempio vengono impostati l'indirizzo IP e la porta per la comunicazione con Exchange utilizzando IMAP4.
 
-    Set-ImapSettings -SSLBindings: IPaddress:Port
+```powershell
+Set-ImapSettings -SSLBindings: IPaddress:Port
+```
 
 Con questo esempio vengono impostati l'indirizzo IP e la porta per la comunicazione con Exchange utilizzando IMAP4 senza alcuna crittografia o con la crittografia TLS (Transport Layer Security).
 
+```powershell
     Set-ImapSettings -UnencryptedOrTLSBindings IPaddress:Port 
+```
 
 Dopo aver configurato l'indirizzo IP e le impostazioni della porta per IMAP4, è necessario riavviare il servizio IMAP4 per rendere effettive le impostazioni. Per informazioni su come riavviare il servizio IMAP4, vedere [Avviare e arrestare i servizi IMAP4](start-and-stop-the-imap4-services-exchange-2013-help.md).
 
@@ -139,7 +149,9 @@ Per verificare che l'indirizzo IP IMAP4 e le impostazioni della porta siano stat
 
 1.  Eseguire il seguente comando in Shell.
     
+    ```powershell
         Get-ImapSettings | format-list
+    ```
 
 2.  Verificare che le impostazioni di *UnencryptedOrTLSBindings* e *SSLBindings* siano corrette.
 

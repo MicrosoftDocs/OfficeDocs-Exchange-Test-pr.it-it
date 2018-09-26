@@ -62,7 +62,7 @@ I cmdlet sopra esportata l'intera *raccolta di regole*, contenente le regole 51 
 2.  Scorrimento verso il basso per il tag **\<Rules\>** , che corrisponde all'inizio della sezione contenente regole DLP. (Dal momento che questo file XML contiene le informazioni per l'insieme di regole intera, contenga altre informazioni nella parte superiore che è necessario scorrere per ottenere le regole precedenti.)
 
 3.  Cercare **Func\_credit\_card** trovare la definizione della regola il numero di carta di credito. (Nel file XML, i nomi delle regole non possono contenere spazi, in modo che gli spazi in genere vengono sostituiti con caratteri di sottolineatura e i nomi delle regole vengono abbreviati in alcuni casi. Un esempio di questo oggetto è regola numerica di previdenza sociale statunitense, ovvero abbreviato "SSN." La regola di carta di credito XML dovrebbe essere simile nell'esempio di codice.
-    
+    ```xml
         <Entity id="50842eb7-edc8-4019-85dd-5a5c1f2bb085"
                patternsProximity="300" recommendedConfidence="85">
               <Pattern confidenceLevel="85">
@@ -74,7 +74,7 @@ I cmdlet sopra esportata l'intera *raccolta di regole*, contenente le regole 51 
                 </Any>
               </Pattern>
             </Entity>
-
+    ```
 Dopo aver individuato la definizione della regola il numero di carta di credito nel file XML, è possibile personalizzare il XML della regola per soddisfare le esigenze. (Per un aggiornamento per le definizioni XML, vedere Glossario di termini alla fine di questo argomento).
 
 ## Modificare il codice XML e creare un nuovo tipo di informazioni riservate
@@ -82,7 +82,7 @@ Dopo aver individuato la definizione della regola il numero di carta di credito 
 È necessario innanzitutto creare un nuovo tipo di informazioni riservate, in quanto non è possibile modificare direttamente le regole predefinite. È possibile eseguire un'ampia gamma di operazioni con tipi di informazioni riservate personalizzate, come descritto nella [Sviluppo di pacchetti di regole di informazioni riservate](technical-description-of-xml-schema-for-dlp-rule-packages.md). In questo esempio, è sarà mantenere semplice e solo rimuovere l'elemento avvalorante e aggiungere parole chiave per la regola di numero di carta di credito.
 
 Tutte le definizioni di regole XML sono basate sul modello generale seguente. È necessario copiare e incollare la definizione del numero di carta di credito XML nel modello di modificare alcuni valori (si noti i segnaposto "..." nell'esempio seguente) e quindi caricare il codice XML modificato come una nuova regola che può essere utilizzata nei criteri.
-
+```xml
     <?xml version="1.0" encoding="utf-16"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
       <RulePack id=". . .">
@@ -109,9 +109,9 @@ Tutte le definizioni di regole XML sono basate sul modello generale seguente. È
     
        </Rules>
     </RulePackage>
-
+```
 A questo punto, è necessario qualcosa di simile al seguente XML. Poiché i pacchetti di regole e le regole vengono identificate in base al GUID univoco, è necessario generare due GUID: una per il pacchetto di regole e una per sostituire il GUID della regola di numero di carta di credito. (Il GUID per l'ID di entità nell'esempio di codice seguente è quella per la definizione della regola incorporata, che si desidera sostituire con uno nuovo). Esistono diversi modi per generare i GUID, ma è possibile procede facilmente in PowerShell digitando **\[guid\]::NewGuid()**.
-
+```xml
     <?xml version="1.0" encoding="utf-16"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
       <RulePack id="8aac8390-e99f-4487-8d16-7f0cdee8defc">
@@ -149,21 +149,22 @@ A questo punto, è necessario qualcosa di simile al seguente XML. Poiché i pacc
     
        </Rules>
     </RulePackage>
-
+```
 ## Rimuovere il requisito di elemento avvalorante da un tipo di informazioni riservate
 
 Dopo aver creato un nuovo tipo di informazioni riservate che si è in grado di caricare all'ambiente Exchange, il passaggio successivo consiste per rendere più specifica la regola. Modificare la regola in modo che esegua solo per un numero di 16 cifre che passa il valore di checksum ma che non richiede ulteriori prove (avvalorante) (ad esempio le parole chiave). A tale scopo, è necessario rimuovere la parte di codice XML Cerca elemento avvalorante. Elemento avvalorante è molto utile per ridurre i falsi positivi in quanto in genere non esistono alcune parole chiave o una data di scadenza trova vicino il numero di carta di credito. Se si rimuovono tale prove, è opportuno modificare la modalità che si è trovato un numero di carta di credito abbassando **confidenceLevel**, ovvero 85 nell'esempio.
-
+```xml
     <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="300"
           <Pattern confidenceLevel="85">
             <IdMatch idRef="Func_credit_card" />
           </Pattern>
         </Entity>
+```
 
 ## Cercare parole chiave specifiche dell'organizzazione
 
 È possibile richiedere l'elemento avvalorante ma si desidera che le parole chiave diverse o aggiuntive, e magari che si desidera modificare la posizione in cui cercare di prova. È possibile modificare **patternsProximity** per espandere o ridurre la finestra per l'elemento avvalorante intorno al numero di 16 cifre. Per aggiungere le parole chiave, è necessario definire un elenco delle parole chiave e farvi riferimento all'interno della regola. Il codice XML seguente aggiunge le parole chiave "scheda società" e "Contoso scheda" in modo che i messaggi che contengono le frasi all'interno di 150 caratteri di un numero di carta di credito verranno identificato come un numero di carta di credito.
-
+```xml
     <Rules>
     <! -- Modify the patternsProximity to be "150" rather than "300." -->
         <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="150" recommendedConfidence="85">
@@ -185,7 +186,7 @@ Dopo aver creato un nuovo tipo di informazioni riservate che si è in grado di c
             <Term caseSensitive="false">Contoso card</Term>
           </Group>
         </Keyword>
-
+```
 ## Caricare la regola
 
 Per caricare la regola, è necessario eseguire le operazioni seguenti.

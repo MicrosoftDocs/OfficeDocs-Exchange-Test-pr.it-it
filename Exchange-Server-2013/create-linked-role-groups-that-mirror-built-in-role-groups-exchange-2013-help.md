@@ -67,24 +67,26 @@ Per creare nuovamente il gruppo di ruoli Gestione organizzazione gruppo di ruoli
 
 2.  Archiviare le credenziali della foresta esterna di Active Directory in una variabile.
     
+    ```powershell
         $ForeignCredential = Get-Credential
+    ```
 
 3.  Archiviare tutti i ruoli assegnati al gruppo di ruoli Gestione organizzazione in una variabile.
-    
+    ```powershell
         $OrgMgmt  = Get-RoleGroup "Organization Management"
-
+    ```
 4.  Creare il gruppo di ruoli collegato Gestione organizzazione e aggiungere i ruoli assegnati al gruppo di ruoli incorporati Gestione organizzazione.
-    
+    ```powershell
         New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
-
+    ```
 5.  Rimuovere tutte le assegnazioni regolari tra il nuovo gruppo di ruoli collegato Gestione organizzazione e il personale \* ruoli dell'utente finale.
-    
+    ```powershell
         Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
-
+    ```
 6.  Aggiungere la delega le assegnazioni di ruolo tra il nuovo gruppo di ruoli collegato Gestione organizzazione e tutti i ruoli di gestione.
-    
+    ```powershell
         Get-ManagementRole | New-ManagementRoleAssignment -SecurityGroup "Organization Management - Linked" -Delegating
-
+    ```
 In questo esempio si presuppone che per ogni parametro vengono utilizzati i valori seguenti:
 
   - **LinkedForeignGroup**   `Organization Management Administrators`
@@ -93,11 +95,15 @@ In questo esempio si presuppone che per ogni parametro vengono utilizzati i valo
 
 Utilizza valori precedenti, in questo esempio viene creato nuovamente il gruppo di ruolo Gestione organizzazione un gruppo di ruoli collegato.
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
+```powershell
     $OrgMgmt  = Get-RoleGroup "Organization Management"
     New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup "Organization Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
     Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
     Get-ManagementRole | New-ManagementRoleAssignment -SecurityGroup "Organization Management - Linked" -Delegating
+```
 
 ## Creare tutti gli altri gruppi di ruoli collegato
 
@@ -107,17 +113,21 @@ Per ricreare i gruppi di ruoli incorporati (escluso il gruppo di ruoli Gestione 
 
 2.  Archiviare le credenziali di foresta esterna Active Directory in una variabile. È sufficiente eseguire questa operazione una sola volta.
     
+    ```powershell
         $ForeignCredential = Get-Credential
+    ```
 
 3.  Recuperare un elenco dei gruppi di ruolo utilizzando il cmdlet seguente.
     
+    ```powershell
         Get-RoleGroup
+    ```
 
 4.  Per ogni gruppo di ruoli, oltre al gruppo di ruolo Gestione organizzazione, eseguire le operazioni seguenti.
-    
+    ```powershell
         $RoleGroup = Get-RoleGroup <name of role group to re-create>
         New-RoleGroup "<role group name> - Linked" -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
-
+    ```
 5.  Ripetere il passaggio precedente per ogni gruppo di ruoli incorporati che si desidera creare di nuovo gruppo di ruoli collegato.
 
 In questo esempio si presuppone che per ogni parametro vengono utilizzati i valori seguenti:
@@ -132,12 +142,18 @@ In questo esempio si presuppone che per ogni parametro vengono utilizzati i valo
 
 Utilizza valori precedenti, in questo esempio viene ricreato il Gestione destinatari e i gruppi di ruoli di gestione dei Server come gruppi di ruoli collegato.
 
-    $ForeignCredential = Get-Credential
-    Get-RoleGroup
+```powershell
+$ForeignCredential = Get-Credential
+```
+```powershell
+Get-RoleGroup
+```
+```powershell
     $RoleGroup = Get-RoleGroup "Recipient Management"
     New-RoleGroup "Recipient Management - Linked" -LinkedForeignGroup "Recipient Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
     $RoleGroup = Get-RoleGroup "Server Management"
     New-RoleGroup "Server Management - Linked" -LinkedForeignGroup "Server Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
+```
 
 ## Altre attività
 

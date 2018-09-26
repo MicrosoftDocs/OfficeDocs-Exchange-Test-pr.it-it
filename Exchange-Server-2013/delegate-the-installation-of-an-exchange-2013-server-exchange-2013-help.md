@@ -67,17 +67,23 @@ Il comando che si desidera utilizzare per eseguire il provisioning del server va
 
 3.  Passare alla directory in cui è stato scaricato ed espansi i file di installazione Exchange 2013. Se i file di installazione si trovano in `C:\Downloads\Exchange 2013`, utilizzare il seguente comando.
     
-        CD "C:\Downloads\Exchange 2013"
+    ```powershell
+    CD "C:\Downloads\Exchange 2013"
+    ```
 
 4.  Scegliere il comando genera una corrispondenza per cui si esegue il programma di installazione:
     
       - **Se si sta eseguendo il programma di installazione nel computer in cui viene eseguito il provisioning**, eseguire il comando seguente:
         
-            Setup.exe /NewProvisionedServer /IAcceptExchangeServerLicenseTerms
+        ```powershell
+        Setup.exe /NewProvisionedServer /IAcceptExchangeServerLicenseTerms
+        ```
     
       - **Se si sta eseguendo il programma di installazione in un altro computer**, eseguire il comando seguente:
         
-            Setup.exe /NewProvisionedServer:<ComputerName> /IAcceptExchangeServerLicenseTerms
+        ```powershell
+        Setup.exe /NewProvisionedServer:<ComputerName> /IAcceptExchangeServerLicenseTerms
+        ```
 
 5.  Dopo che si effettua il provisioning del server, è necessario assicurarsi che si sono aggiunti gli utenti che devono essere in grado di installare Exchange nei server di provisioning al gruppo di ruoli configurazione delegata. Per informazioni su come aggiungere utenti a un gruppo di ruoli, vedere [Add members to a role group](manage-role-group-members-exchange-2013-help.md).
 

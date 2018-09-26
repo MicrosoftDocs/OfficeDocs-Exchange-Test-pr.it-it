@@ -61,11 +61,15 @@ Dopo aver creato il nuovo criterio di assegnazione, è possibile assegnare gli u
 
 Per creare un criterio di assegnazione esplicito che può essere assegnato manualmente alle cassette postali, utilizzare la seguente sintassi.
 
-    New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
+```powershell
+New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
+```
 
 In questo esempio, viene creato il criterio di assegnazione esplicito Limited Mailbox Configuration a cui vengono assegnati i ruoli `MyBaseOptions`, `MyAddressInformation` e `MyDisplayName`.
 
+```powershell
     New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-RoleAssignmentPolicy](https://technet.microsoft.com/it-it/library/dd638101\(v=exchg.150\)).
 
@@ -73,11 +77,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-RoleAss
 
 Per creare un criterio di assegnazione predefinito assegnato alle nuove cassette postali, utilizzare la seguente sintassi.
 
-    New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDefault
+```powershell
+New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDefault
+```
 
 In questo esempio, viene creato il criterio di assegnazione predefinito Limited Mailbox Configuration a cui vengono assegnati i ruoli `MyBaseOptions`, `MyAddressInformation` e `MyDisplayName`.
 
+```powershell
     New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName -IsDefault
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-RoleAssignmentPolicy](https://technet.microsoft.com/it-it/library/dd638101\(v=exchg.150\)).
 
@@ -103,11 +111,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-RoleAss
 
 Per rimuovere un criterio di assegnazione, utilizzare la seguente sintassi.
 
-    Remove-RoleAssignmentPolicy <role assignment policy>
+```powershell
+Remove-RoleAssignmentPolicy <role assignment policy>
+```
 
 Con questo esempio viene rimosso il criterio di assegnazione New York Temporary Users.
 
-    Remove-RoleAssignmentPolicy "New York Temporary Users"
+```powershell
+Remove-RoleAssignmentPolicy "New York Temporary Users"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-RoleAssignmentPolicy](https://technet.microsoft.com/it-it/library/dd638190\(v=exchg.150\)).
 
@@ -135,15 +147,21 @@ Questa procedura utilizza il pipelining e il cmdlet **Format-Table**. Per ulteri
 
 Per restituire un elenco di tutti i criteri di assegnazione nell'organizzazione, utilizzare il comando seguente.
 
-    Get-RoleAssignmentPolicy
+```powershell
+Get-RoleAssignmentPolicy
+```
 
 Per restituire un elenco delle proprietà specifiche per tutti i criteri di assegnazione nell'organizzazione, è possibile eseguire il piping dei risultati al cmdlet **Format-Table** e specificare le proprietà che si desidera nell'elenco dei risultati. Utilizzare la seguente sintassi.
 
-    Get-RoleAssignmentPolicy | Format-Table <property 1>, <property 2...>
+```powershell
+Get-RoleAssignmentPolicy | Format-Table <property 1>, <property 2...>
+```
 
 In questo esempio viene restituito un elenco di tutti i criteri di assegnazione nell'organizzazione e vengono incluse le proprietà **Name** e **IsDefault**.
 
-    Get-RoleAssignmentPolicy | Format-Table Name, IsDefault
+```powershell
+Get-RoleAssignmentPolicy | Format-Table Name, IsDefault
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) o [Get-RoleAssignmentPolicy](https://technet.microsoft.com/it-it/library/dd638195\(v=exchg.150\)).
 
@@ -159,11 +177,15 @@ Questa procedura utilizza il pipelining e il cmdlet **Format-List**. Per ulterio
 
 Per visualizzare i dettagli di un criterio di assegnazione specifico, utilizzare la sintassi seguente.
 
-    Get-RoleAssignmentPolicy <assignment policy name> | Format-List
+```powershell
+Get-RoleAssignmentPolicy <assignment policy name> | Format-List
+```
 
 In questo esempio vengono visualizzati i dettagli relativi al criterio di assegnazione Redmond Users - no Text Messaging.
 
-    Get-RoleAssignmentPolicy "Redmond Users - no Text Messaging" | Format-List
+```powershell
+Get-RoleAssignmentPolicy "Redmond Users - no Text Messaging" | Format-List
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) o [Get-RoleAssignmentPolicy](https://technet.microsoft.com/it-it/library/dd638195\(v=exchg.150\)).
 
@@ -179,7 +201,9 @@ In questa procedura viene utilizzato il pipelining e il cmdlet **Where**. Per ul
 
 In questo esempio viene restituito il criterio di assegnazione predefinito.
 
-    Get-RoleAssignmentPolicy | Where { $_.IsDefault -eq $True }
+```powershell
+Get-RoleAssignmentPolicy | Where {     Get-RoleAssignmentPolicy | Where { $_.IsDefault -eq $True }.IsDefault -eq $True }
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) o [Get-RoleAssignmentPolicy](https://technet.microsoft.com/it-it/library/dd638195\(v=exchg.150\)).
 
@@ -195,11 +219,15 @@ In questa procedura viene utilizzato il pipelining e il cmdlet **Where**. Per ul
 
 Utilizzare la seguente sintassi.
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<role assignment policy>" }
+```powershell
+Get-Mailbox | Where {     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<role assignment policy>" }.RoleAssignmentPolicy -Eq "<role assignment policy>" }
+```
 
 In questo esempio vengono individuate tutte le cassette postali assegnate al criterio Vancouver End Users.
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Vancouver End Users" }
+```powershell
+Get-Mailbox | Where {     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Vancouver End Users" }.RoleAssignmentPolicy -Eq "Vancouver End Users" }
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) o [Get-RoleAssignmentPolicy](https://technet.microsoft.com/it-it/library/dd638195\(v=exchg.150\)).
 
@@ -217,11 +245,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Mailbox
 
 Per cambiare i criteri di assegnazione predefiniti, utilizzare la seguente sintassi.
 
-    Set-RoleAssignmentPolicy <assignment policy name> -IsDefault
+```powershell
+Set-RoleAssignmentPolicy <assignment policy name> -IsDefault
+```
 
 Con questo esempio i criteri di assegnazione Vancouver End Users vengono impostati come criteri di assegnazione predefiniti.
 
-    Set-RoleAssignmentPolicy "Vancouver End Users" -IsDefault
+```powershell
+Set-RoleAssignmentPolicy "Vancouver End Users" -IsDefault
+```
 
 
 > [!IMPORTANT]
@@ -247,11 +279,15 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-RoleAss
 
 Per creare un'assegnazione dei ruoli di gestione tra un ruolo e un criterio di assegnazione, utilizzare la seguente sintassi.
 
+```powershell
     New-ManagementRoleAssignment -Name <role assignment name> -Role <role name> -Policy <assignment policy name>
+```
 
 In questo esempio, viene creata l'assegnazione del ruolo Utenti di Roma - Messaggi vocali tra il ruolo MyVoicemail e il criterio di assegnazione degli utenti di Seattle.
 
+```powershell
     New-ManagementRoleAssignment -Name "Seattle Users - Voicemail" -Role MyVoicemail -Policy "Seattle Users"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd335193\(v=exchg.150\)).
 
@@ -279,11 +315,13 @@ Questa procedura utilizza il pipelining. Per ulteriori informazioni sull'esecuzi
 
 Per rimuovere un ruolo da un criterio di assegnazione, utilizzare la sintassi seguente.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <assignment policy name> -Role <role name> | Remove-ManagementRoleAssignment
-
+```
 In questo esempio viene rimosso il ruolo di gestione MyVoicemail, che consente agli utenti di gestire le opzioni del sistema di caselle vocali dal criterio di assegnazione degli utenti di Seattle.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee "Seattle Users" -Role MyVoicemail | Remove-ManagementRoleAssignment
-
+```
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-ManagementRoleAssignment](https://technet.microsoft.com/it-it/library/dd351205\(v=exchg.150\)).
 

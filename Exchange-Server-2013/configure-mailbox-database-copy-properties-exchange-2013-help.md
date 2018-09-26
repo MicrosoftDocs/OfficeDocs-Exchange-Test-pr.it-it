@@ -73,12 +73,14 @@ Ogni copia del database delle cassette postali dispone di proprietà configurabi
 
 In questo esempio viene configurata la copia di un database delle cassette postali con numero della preferenza di attivazione pari a 3.
 
-    Set-MailboxDatabaseCopy -Identity DB3\EX3 -ActivationPreference 3
+```powershell
+Set-MailboxDatabaseCopy -Identity DB3\EX3 -ActivationPreference 3
+```
 
 In questo esempio viene configurata una copia del database DB1 e ospitata su Server1 con un intervallo di riesecuzione e troncamento di un giorno e un numero della preferenza di attivazione pari a 2.
-
+```powershell
     Set-MailboxDatabaseCopy -Identity DB1\Server1 -ReplayLagTime 1.0:0:0 -TruncationLagTime 1.0:0:0 -ActivationPreference 2
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo?
 
 Per verificare la configurazione corretta di una copia di database delle cassette postali, effettuare una delle seguenti operazioni:
@@ -87,7 +89,9 @@ Per verificare la configurazione corretta di una copia di database delle cassett
 
   - In Shell eseguire il comando riportato di seguito per visualizzare le informazioni di configurazione per una copia del database.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 
 ## Ulteriori informazioni
 

@@ -253,7 +253,9 @@ In Exchange 2010, l'applicazione di patch alla pagina non era disponibile per l
 
 Il comportamento di riproduzione delle copie ritardate è disabilitato per impostazione predefinita e può essere abilitato utilizzando il comando seguente.
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```
 
 Una volta abilitata, la riproduzione avviene quando ci sono meno di tre copie. È possibile modificare il valore predefinito di 3, modificando il seguente valore di registro DWORD.
 

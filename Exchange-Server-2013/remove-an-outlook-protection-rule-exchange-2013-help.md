@@ -43,7 +43,9 @@ Per le attività di gestione aggiuntive correlate a IRM, vedere [Procedure di In
 
 In questo esempio viene rimossa la regola di protezione di Outlook OPR-DG-Finance.
 
-    Remove-OutlookProtectionRule -Identity "OPR-DG-Finance"
+```powershell
+Remove-OutlookProtectionRule -Identity "OPR-DG-Finance"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-OutlookProtectionRule](https://technet.microsoft.com/it-it/library/dd297961\(v=exchg.150\)).
 
@@ -51,7 +53,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Remove-Outl
 
 In questo esempio vengono rimosse tutte le regole di protezione di Outlook nell'organizzazione Exchange.
 
-    Get-OutlookProtectionRule | Remove-OutlookProtectionRule
+```powershell
+Get-OutlookProtectionRule | Remove-OutlookProtectionRule
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-OutlookProtectionRule](https://technet.microsoft.com/it-it/library/dd298004\(v=exchg.150\)) e [Remove-OutlookProtectionRule](https://technet.microsoft.com/it-it/library/dd297961\(v=exchg.150\)).
 

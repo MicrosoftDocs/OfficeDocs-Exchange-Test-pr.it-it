@@ -61,8 +61,7 @@ Se si utilizza EAC per visualizzare le proprietà di una directory virtuale di O
 
 2.  Nel riquadro dei risultati, selezionare la directory virtuale da visualizzare o modificare, quindi fare clic su **Modifica**.
 
-3.      
-    Nella scheda **Generale** è possibile visualizzare le proprietà del sito Web predefinito di Outlook Web App e specificare un URL esterno e uno interno. Visualizzare o selezionare le seguenti opzioni:
+3.  Nella scheda **Generale** è possibile visualizzare le proprietà del sito Web predefinito di Outlook Web App e specificare un URL esterno e uno interno. Visualizzare o selezionare le seguenti opzioni:
     
       - **Server**   (Di sola lettura.) **Server** visualizza il nome del server che ospita la directory virtuale di Outlook Web App.
     
@@ -78,8 +77,7 @@ Se si utilizza EAC per visualizzare le proprietà di una directory virtuale di O
     
       - **URL esterno**   Utilizzare questa casella di testo per specificare l'URL utilizzato per accedere al sito Web da Internet. Per impostazione predefinita, **URL esterno** è vuoto. Per i server Accesso client connessi a Internet, **URL esterno** deve essere impostato sul valore pubblicato nel DNS per quel sito Active Directory. Per i server di Exchange 2013 non connessi a Internet, l'impostazione **URL esterno** deve restare vuota.
 
-4.      
-    Sulla scheda **Autenticazione**, specificare i metodi di autenticazione, il formato di accesso e il dominio di accesso.
+4.  Sulla scheda **Autenticazione**, specificare i metodi di autenticazione, il formato di accesso e il dominio di accesso.
     
       - **Utilizza uno o più metodi di autenticazione standard**   Selezionare tale opzione per utilizzare uno o più dei seguenti metodi di autenticazione standard:
         
@@ -120,8 +118,7 @@ Se si utilizza EAC per visualizzare le proprietà di una directory virtuale di O
 
 
 
-6.      
-    Nella scheda **Accesso ai file**, utilizzare le caselle di controllo per configurare le opzioni di visualizzazione e accesso ai file per gli utenti. L'accesso ai file consente a un utente di aprire o visualizzare il contenuto dei file allegati a un messaggio di posta elettronica.
+6.  Nella scheda **Accesso ai file**, utilizzare le caselle di controllo per configurare le opzioni di visualizzazione e accesso ai file per gli utenti. L'accesso ai file consente a un utente di aprire o visualizzare il contenuto dei file allegati a un messaggio di posta elettronica.
     
     L'accesso ai file può essere controllato valutando se un utente ha effettuato l'accesso su un computer pubblico o privato. L'opzione destinata agli utenti per l'accesso a un computer privato o pubblico è disponibile solo se si utilizza l'autenticazione basata su moduli. Tutte le altre forme di autenticazione corrispondono, per impostazione predefinita, all'accesso a un computer privato.
     
@@ -136,8 +133,9 @@ Se si utilizza EAC per visualizzare le proprietà di una directory virtuale di O
 ## Configurazione delle proprietà della directory virtuale di Outlook Web App tramite Shell
 
 In questo esempio, viene abilitata l'autenticazione basata sui moduli nella directory virtuale predefinita di Outlook Web App nel server Contoso.
-
+```powershell
     set-OwaVirtualDirectory -Identity "Contoso\owa (default web site)" -FormsAuthentication $true
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-OwaVirtualDirectory](https://technet.microsoft.com/it-it/library/bb123515\(v=exchg.150\)).
 
@@ -145,19 +143,25 @@ Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-OwaVirtua
 
 Questo esempio consente di visualizzare le proprietà di tutte le directory virtuali di Outlook Web App in tutti i siti Web di Internet Information Services (IIS) su tutti i computer in cui è installato il ruolo del server Accesso client in un'organizzazione di Exchange.
 
-    Get-OWAVirtualDirectory
+```powershell
+Get-OWAVirtualDirectory
+```
 
 In questo esempio, è possibile visualizzare le proprietà di una directory virtuale di Outlook Web App sul sito Web IIS predefinito sul server Exchange locale.
-
+```powershell
     Get-OWAVirtualDirectory -identity "<Exchange Server Name>\owa (default web site)"
-
+```
 In questo esempio, è possibile visualizzare le proprietà di tutte le directory virtuali di Outlook Web App su un sito Web IIS su un determinato server di Exchange.
 
-    Get-OWAVirtualDirectory -server <Exchange Server Name>
+```powershell
+Get-OWAVirtualDirectory -server <Exchange Server Name>
+```
 
 In questo esempio, è possibile visualizzare i valori delle proprietà per ogni directory virtuale di Outlook Web App in tutti i siti Web di IIS su tutti i server Accesso client di un'organizzazione di Exchange.
 
-    Get-OWAVirtualDirectory | format-list
+```powershell
+Get-OWAVirtualDirectory | format-list
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Get-OwaVirtualDirectory](https://technet.microsoft.com/it-it/library/aa998588\(v=exchg.150\)).
 

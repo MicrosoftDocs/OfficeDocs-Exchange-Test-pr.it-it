@@ -73,19 +73,27 @@ Dopo aver rimosso la sottoscrizione Edge, la sincronizzazione delle informazioni
 
 1.  Per rimuovere la sottoscrizione Edge dal server Trasporto Edge, utilizzare la seguente sintassi.
     
-        Remove-EdgeSubscription <EdgeTransportServerIdentity>
+    ```powershell
+      Remove-EdgeSubscription <EdgeTransportServerIdentity>
+    ```
     
     Ad esempio, per rimuovere la sottoscrizione Edge nel server Trasporto Edge di nome Edge01, eseguire il seguente comando.
     
-        Remove-EdgeSubscription Edge01
+    ```powershell
+      Remove-EdgeSubscription Edge01
+    ```
 
 2.  Per rimuovere la sottoscrizione Edge dal server Cassette postali, utilizzare la seguente sintassi.
     
-        Remove-EdgeSubscription <MailboxServerIdentity>
+    ```powershell
+      Remove-EdgeSubscription <MailboxServerIdentity>
+    ```
     
     Ad esempio, per rimuovere la sottoscrizione Edge nel server Cassette postali di nome Mailbox01, eseguire il seguente comando.
     
-        Remove-EdgeSubscription Mailbox01
+    ```powershell
+      Remove-EdgeSubscription Mailbox01
+    ```
 
 È necessario rimuovere la sottoscrizione Edge se:
 
@@ -142,8 +150,9 @@ Si potrebbe voler eseguire EdgeSync manualmente se sono state apportate modifich
 Una sincronizzazione EdgeSync manuale reimposta la pianificazione della sincronizzazione EdgeSync. La successiva sincronizzazione automatica si basa su quando è stata eseguita la sincronizzazione manuale.
 
 Per eseguire manualmente EdgeSync, utilizzare la seguente sintassi.
-
+```powershell
     Start-EdgeSynchronization [-Server <MailboxServerIdentity>] [-TargetServer <EdgeTransportServerIdentity> [-ForceFullSync]
+```
 
 Nell'esempio riportato di seguito viene avviata la sincronizzazione EdgeSync con le seguenti opzioni:
 
@@ -155,7 +164,9 @@ Nell'esempio riportato di seguito viene avviata la sincronizzazione EdgeSync con
 
 <!-- end list -->
 
-    Start-EdgeSynchronization -Server Mailbox01
+```powershell
+Start-EdgeSynchronization -Server Mailbox01
+```
 
 In questo esempio viene avviata la sincronizzazione EdgeSync con le opzioni seguenti:
 
@@ -167,7 +178,9 @@ In questo esempio viene avviata la sincronizzazione EdgeSync con le opzioni segu
 
 <!-- end list -->
 
-    Start-EdgeSynchronization -TargetServer Edge03 -ForceFullSync
+```powershell
+Start-EdgeSynchronization -TargetServer Edge03 -ForceFullSync
+```
 
 ## Verifica dei risultati di EdgeSync
 
@@ -181,11 +194,15 @@ L'output di questo cmdlet consente di visualizzare gli oggetti non sincronizzati
 
 Per verificare i risultati di EdgeSync relativi a un solo destinatario, utilizzare la seguente sintassi in un server Cassette postali nel sito di Active Directory sottoscritto.
 
-    Test-EdgeSynchronization -VerifyRecipient <emailaddress>
+```powershell
+Test-EdgeSynchronization -VerifyRecipient <emailaddress>
+```
 
 Questo esempio verifica i risultati di EdgeSync per l'utente kate@contoso.com.
 
-    Test-EdgeSynchronization -VerifyRecipient kate@contoso.com
+```powershell
+Test-EdgeSynchronization -VerifyRecipient kate@contoso.com
+```
 
 Inizio pagina
 

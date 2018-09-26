@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Contrassegni filtro posta indesiderata: Exchange 2013 Help'
 TOCTitle: Contrassegni filtro posta indesiderata
 ms:assetid: 28d3a5c2-8509-4b25-9876-763536e77c27
@@ -28,9 +28,9 @@ Gli indicatori di protezione da posta indesiderata permettono di effettuare una 
 ## Informazioni sui rapporti di protezione da posta indesiderata
 
 Il rapporto protezione posta indesiderata è un rapporto riepilogativo dei risultati del filtro protezione da posta indesiderata applicato a un messaggio di posta elettronica. L'agente Filtro contenuti applica questo indicatore alla busta del messaggio nel formato X-header nel modo seguente:
-
+```powershell
     X-MS-Exchange-Organization-Antispam-Report: DV:<DATVersion>;CW:CustomList;PCL:PhishingVerdict <verdict>;P100:PhishingBlock;PP:Presolve;SID:SenderIDStatus <status>;TIME:<SendReceiveDelta>;MIME:MimeCompliance 
-
+```
 La tabella seguente descrive le informazioni di filtro che possono apparire nel rapporto di protezione da posta indesiderata.
 
 
@@ -66,7 +66,9 @@ La tabella seguente descrive le informazioni di filtro che possono apparire nel 
 <li><p><strong>PermError</strong>   Il record DNS non è valido, ad esempio un errore nel formato del record.</p></li>
 </ul>
 <p>L'indicatore SID viene visualizzato come X-Header nella busta del messaggio nel modo seguente:</p>
-<pre><code>X-MS-Exchange-Organization-SenderIdResult:&lt;status&gt;</code></pre>
+```powershell
+    X-MS-Exchange-Organization-SenderIdResult:<status>
+```                                                  
 <p>Per ulteriori informazioni sull'ID mittente, vedere <a href="sender-id-exchange-2013-help.md">ID mittente</a>.</p></td>
 </tr>
 <tr class="even">
@@ -91,13 +93,18 @@ La tabella seguente descrive le informazioni di filtro che possono apparire nel 
 <p>Il valore PCL può essere compreso tra 1 e 8. Il livello PCL compreso tra 1 e 3 restituisce lo stato <code>Neutral</code>. Ciò significa che è probabile che il contenuto del messaggio non sia phishing. Il livello PCL compreso tra 4 e 8 restituisce lo stato <code>Suspicious</code>. Ciò significa che è probabile che il contenuto del messaggio sia phishing.</p>
 <p>I valori vengono utilizzati per determinare quale azione viene eseguita da Outlook sui messaggi. Outlook utilizza l'indicatore PCL per bloccare il contenuto dei messaggi sospetti.</p>
 <p>L'indicatore PCL viene visualizzato come X-header nella busta del messaggio nel modo seguente:</p>
-<pre><code>X-MS-Exchange-Organization-PCL:&lt;status&gt;</code></pre></td>
+```powershell
+    X-MS-Exchange-Organization-PCL:<status>
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>SCL</p></td>
 <td><p>L'indicatore del livello di probabilità di posta indesiderata (SCL) del messaggio indica la classificazione del messaggio in base al contenuto. L'agente Filtro contenuto utilizza la tecnologia Microsoft SmartScreen per valutare il contenuto di un messaggio e per assegnare un livello SCL a ciascun messaggio. Il valore SCL è compreso tra 0 e 9, dove 0 rappresenta il numero minore di probabilità che il messaggio sia posta indesiderata e 9 il numero maggiore di probabilità che il messaggio sia posta indesiderata. Le azioni eseguite da Exchange e da Outlook dipendono dalle impostazioni della soglia SCL.</p>
 <p>L'indicatore SCL viene visualizzato come X-header nella busta del messaggio nel modo seguente:</p>
-<pre><code>X-MS-Exchange-Organization-SCL:&lt;status&gt;</code></pre>
+```powershell
+    X-MS-Exchange-Organization-SCL:<status>
+```
 <p>Per ulteriori informazioni sulle soglie SCL e sulle azioni, vedere <a href="spam-confidence-level-threshold-exchange-2013-help.md">Soglia del livello di probabilità di posta indesiderata</a>.</p></td>
 </tr>
 <tr class="odd">

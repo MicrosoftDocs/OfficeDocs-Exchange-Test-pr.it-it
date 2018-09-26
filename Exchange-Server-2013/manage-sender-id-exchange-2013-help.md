@@ -43,11 +43,15 @@ La funzionalità deIl'ID mittente è fornita dall'agente dell'ID mittente. L'ID 
 
 Per disabilitare l'ID mittente, eseguire il comando riportato di seguito:
 
-    Set-SenderIDConfig -Enabled $false
+```powershell
+Set-SenderIDConfig -Enabled $false
+```
 
 Per abilitare l'ID mittente, eseguire il comando riportato di seguito:
 
-    Set-SenderIDConfig -Enabled $true
+```powershell
+Set-SenderIDConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -61,7 +65,9 @@ Per verificare che l'ID mittente sia stato abilitato o disabilitato con successo
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderIDConfig | Format-List Enabled
+    ```powershell
+    Get-SenderIDConfig | Format-List Enabled
+    ```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 
@@ -69,11 +75,15 @@ Per verificare che l'ID mittente sia stato abilitato o disabilitato con successo
 
 Per configurare l'azione dell'ID mittente per i messaggi falsificati, utilizzare il seguente comando:
 
-    Set-SenderIDConfig -SpoofedDomainAction <StampStatus | Reject | Delete>
+```powershell
+Set-SenderIDConfig -SpoofedDomainAction <StampStatus | Reject | Delete>
+```
 
 Questo esempio configura l'agente dell'ID mittente per rifiutare tutti i messaggi in cui l'indirizzo IP del server di invio non è elencato come un server mittente SMTP autorevole nel record SPF del DNS per il dominio specificato.
 
-    Set-SenderIDConfig -SpoofedDomainAction Reject
+```powershell
+Set-SenderIDConfig -SpoofedDomainAction Reject
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -81,7 +91,9 @@ Per verificare che l'ID mittente sia stato configurato con successo per i messag
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderIDConfig | Format-List SpoofedDomainAction
+    ```powershell
+    Get-SenderIDConfig | Format-List SpoofedDomainAction
+    ```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 
@@ -89,11 +101,15 @@ Per verificare che l'ID mittente sia stato configurato con successo per i messag
 
 Per configurare l'azione dell'ID mittente per gli errori temporanei, utilizzare il seguente comando:
 
-    Set-SenderIDConfig -TempErrorAction <StampStatus | Reject | Delete>
+```powershell
+Set-SenderIDConfig -TempErrorAction <StampStatus | Reject | Delete>
+```
 
 In questo esempio l'agente ID mittente viene configurato per contrassegnare i messaggi per cui non è possibile determinare lo stato dell'ID mittente a causa di un errore temporaneo del server DNS. Il messaggio sarà elaborato da altri agenti di posta indesiderata e l'agente Filtro contenuto utilizzerà il contrassegno per determinare il valore SCL per il messaggio.
 
-    Set-SenderIDConfig -TempErrorAction StampStatus
+```powershell
+Set-SenderIDConfig -TempErrorAction StampStatus
+```
 
 Si noti che `StampStatus` è il valore predefinito per il parametro *TempErrorAction*.
 
@@ -103,24 +119,27 @@ Per verificare che l'ID mittente sia stato configurato con successo per gli erro
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderIDConfig | Format-List TempErrorAction
+    ```powershell
+    Get-SenderIDConfig | Format-List TempErrorAction
+    ```
 
 2.  Verificare che il valore visualizzato sia quello configurato.
 
 ## Utilizzare la shell per configurare le eccezioni di dominio del mittente e del destinatario
 
 Per sostituire i valori esistenti, eseguire questo comando:
-
+```powershell
     Set-SenderIDConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenderDomains <domain1,domain2...>
+```
 
 Questo esempio configura l'agente dell'ID mittente per ignorare il controllo dell'ID mittente per i messaggi inviati a kim@contoso.com e john@contoso.com e per ignorare il controllo dell'ID mittente per i messaggi inviati dal dominio fabrikam.com.
-
+```powershell
     Set-SenderIDConfig -BypassedRecipients kim@contoso.com,john@contoso.com -BypassedSenderDomains fabrikam.com
-
+```
 Per aggiungere o rimuovere le voci senza modificare i valori esistenti, eseguire questo comando:
-
+```powershell
     Set-SenderIDConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
-
+```
 Questo esempio consente di configurare l'agente ID mittente con le seguenti informazioni:
 
   - Aggiungere chris@contoso.com e michelle@contoso.com all'elenco dei destinatari esistenti che ignorano il controllo dell'ID mittente.
@@ -128,16 +147,18 @@ Questo esempio consente di configurare l'agente ID mittente con le seguenti info
   - Eliminare tailspintoys.com dall'elenco dei domini esistenti che ignorano il controllo dell'ID mittente.
 
 <!-- end list -->
-
+```powershell
     Set-SenderIDConfig -BypassedRecipients @{Add="chris@contoso.com","michelle@contoso.com"} -BypassedSenderDomains @{Remove="tailspintoys.com"}
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che le eccezioni del dominio del mittente e del destinarlo siano state configurate con successo, fare quanto segue:
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+    ```powershell
+    Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+    ```
 
 2.  Verificare che i valori visualizzati siano quelli configurati.
 

@@ -51,7 +51,9 @@ Per ulteriori informazioni sui modelli di informazioni, vedere [Modelli di infor
 
 In questo esempio viene ripristinato il modello di informazioni dei contatti Inglese (Stati Uniti).
 
-    Restore-DetailsTemplate -Identity "en-US\Contact"
+```powershell
+Restore-DetailsTemplate -Identity "en-US\Contact"
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Restore-DetailsTemplate](https://technet.microsoft.com/it-it/library/bb125188\(v=exchg.150\)).
 

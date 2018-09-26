@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Gestione filtro allegati in server Trasporto Edge: Exchange 2013 Help'
 TOCTitle: Gestione di filtro degli allegati nei server Trasporto Edge
 ms:assetid: 2ec91cc6-6ade-48ee-88bb-66153874393d
@@ -47,15 +47,21 @@ Quando si attiva o disattiva l'agente filtro allegati, la modifica viene applica
 
 Per disabilitare il filtro degli allegati, eseguire il seguente comando:
 
-    Disable-TransportAgent "Attachment Filtering Agent"
+```powershell
+Disable-TransportAgent "Attachment Filtering Agent"
+```
 
 Per abilitare il filtro degli allegati, eseguire questo comando:
 
-    Enable-TransportAgent "Attachment Filtering Agent"
+```powershell
+Enable-TransportAgent "Attachment Filtering Agent"
+```
 
 Dopo aver attivato o disattivato il filtro degli allegati, riavviare il servizio di trasporto di Microsoft Exchange eseguendo il seguente comando:
 
-    Restart-Service MSExchangeTransport
+```powershell
+Restart-Service MSExchangeTransport
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -63,7 +69,9 @@ Per verificare la corretta abilitazione o disabilitazione del filtro degli alleg
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-TransportAgent "Attachment Filtering Agent"
+    ```powershell
+    Get-TransportAgent "Attachment Filtering Agent"
+    ```
 
 2.  Se il valore **Enabled** è `True`, il filtro degli allegati è attivato. Se il valore è `False`, il filtro degli allegati è disattivato.
 
@@ -71,49 +79,68 @@ Per verificare la corretta abilitazione o disabilitazione del filtro degli alleg
 
 Le voci del filtro degli allegati definiscono gli allegati dei messaggi da tenere fuori dall'organizzazione. Per visualizzare le voci del filtro degli allegati utilizzate dall'agente filtro allegati, eseguire il comando seguente:
 
-    Get-AttachmentFilterEntry | Format-Table
+```powershell
+Get-AttachmentFilterEntry | Format-Table
+```
 
 Per visualizzare una voce specifica del tipo di contenuto MIME, è possibile utilizzare la sintassi seguente:
 
-    Get-AttachmentFilteringEntry ContentType:<MIMEContentType>
+```powershell
+Get-AttachmentFilteringEntry ContentType:<MIMEContentType>
+```
 
 Ad esempio, per visualizzare la voce del tipo di contenuto per le immagini JPEG, è possibile eseguire il comando riportato di seguito:
 
-    Get-AttachmentFilteringEntry ContentType:image/jpeg
+```powershell
+Get-AttachmentFilteringEntry ContentType:image/jpeg
+```
 
 Per visualizzare un nome di file specifico o la voce di estensione del nome di file, utilizzare la sintassi seguente:
 
-    Get-AttachmentFilteringEntry FileName:<FileName or FileNameExtension>
+```powershell
+Get-AttachmentFilteringEntry FileName:<FileName or FileNameExtension>
+```
 
 Ad esempio, per visualizzare la voce dell'estensione del nome file per gli allegati JPEG, è possibile eseguire il comando riportato di seguito:
 
-    Get-AttachmentFilteringEntry FileName:*.jpg
+```powershell
+Get-AttachmentFilteringEntry FileName:*.jpg
+```
 
 ## Aggiunta delle voci del filtro degli allegati tramite Shell
 
 Per aggiungere una voce del filtro degli allegati che filtra gli allegati per tipo di contenuto MIME, utilizzare la sintassi seguente:
 
-    Add-AttachmentFilterEntry -Name <MIMEContentType> -Type ContentType
+```powershell
+Add-AttachmentFilterEntry -Name <MIMEContentType> -Type ContentType
+```
 
 Nell'esempio seguente viene aggiunta una voce del tipo di contenuto MIME che filtra le immagini JPEG.
 
-    Add-AttachmentFilterEntry -Name image/jpeg -Type ContentType
+```powershell
+Add-AttachmentFilterEntry -Name image/jpeg -Type ContentType
+```
 
 Per aggiungere una voce del filtro degli allegati che filtra gli allegati per nome file o estensione del nome file, utilizzare la sintassi seguente:
 
-    Add-AttachmentFilterEntry -Name <FileName or FileNameExtension> -Type FileName
+```powershell
+Add-AttachmentFilterEntry -Name <FileName or FileNameExtension> -Type FileName
+```
 
 Nell'esempio riportato di seguito vengono filtrati gli allegati con estensione del nome file .jpg.
 
+```powershell
     Add-AttachmentFilterEntry -Name *.jpg -Type FileName
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che la voce del filtro degli allegati sia stata aggiunta correttamente, attenersi alla seguente procedura:
 
 1.  Eseguire il comando seguente per verificare che sia presente la voce del filtro.
     
-        Get-AttachmentFilterEntry | Format-Table
+    ```powershell
+    Get-AttachmentFilterEntry | Format-Table
+    ```
 
 2.  Inviar un messaggio di prova contenente un allegato proibito da una cassetta postale esterna a un destinatario interno e verificare che il messaggio venga rifiutato, rimosso o eliminato.
 
@@ -121,27 +148,36 @@ Per verificare che la voce del filtro degli allegati sia stata aggiunta corretta
 
 Per rimuovere una voce del filtro degli allegati che filtra gli allegati per tipo di contenuto MIME, utilizzare la sintassi seguente:
 
-    Remove-AttachmentFilterEntry ContentType:<ContentType>
+```powershell
+Remove-AttachmentFilterEntry ContentType:<ContentType>
+```
 
 Nell'esempio riportato di seguito viene rimossa la voce del tipo di contenuto MIME per le immagini JPEG.
 
-    Remove-AttachmentFilterEntry ContentType:image/jpeg
+```powershell
+Remove-AttachmentFilterEntry ContentType:image/jpeg
+```
 
 Per rimuovere una voce del filtro degli allegati che filtra gli allegati per nome file o estensione del nome file, utilizzare la sintassi seguente:
 
-    Remove-AttachmentFilterEntry FileName:<FileName or FileNameExtension>
+```powershell
+Remove-AttachmentFilterEntry FileName:<FileName or FileNameExtension>
+```
 
 Nell'esempio riportato di seguito viene rimossa la voce del nome file per l'estensione. jpg.
 
+```powershell
     Remove-AttachmentFilterEntry FileName:*.jpg
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che la voce del filtro degli allegati sia stata rimossa correttamente, attenersi alla seguente procedura:
 
 1.  Eseguire il comando seguente per verificare che la voce del filtro sia stata rimossa.
     
-        Get-AttachmentFilterEntry | Format-Table
+    ```powershell
+    Get-AttachmentFilterEntry | Format-Table
+    ```
 
 2.  Inviar un messaggio di prova contenente un allegato consentito da una cassetta postale esterna a un destinatario interno e verificare che il messaggio venga recapitato correttamente con l'allegato.
 
@@ -149,13 +185,17 @@ Per verificare che la voce del filtro degli allegati sia stata rimossa correttam
 
 Per visualizzare l'azione del filtro degli allegati utilizzata quando viene individuato un allegato proibito in un messaggio, eseguire il seguente comando:
 
-    Get-AttachmentFilterListConfig
+```powershell
+Get-AttachmentFilterListConfig
+```
 
 ## Utilizzare Shell per configurare l'azione del filtro degli allegati
 
 Per configurare l'azione del filtro degli allegati utilizzata quando viene individuato un allegato proibito in un messaggio, utilizzare la seguente sintassi:
 
+```powershell
     Set-AttachmentFilterListConfig [-Action <Reject | Strip | SilentDelete>] [-RejectResponse "<Message text>"] [-AdminMessage "<Replacement file text>"] [-ExceptionConnectors <ConnectorGUID>]
+```
 
 In questo esempio vengono apportate le seguenti modifiche alla configurazione dell'agente filtro allegati:
 
@@ -164,8 +204,9 @@ In questo esempio vengono apportate le seguenti modifiche alla configurazione de
   - Utilizzare una risposta personalizzata per i messaggi rifiutati.
 
 <!-- end list -->
-
+```powershell
     Set-AttachmentFilterListConfig -Action Reject -RejectResponse "This message contains a prohibited attachment. Your message can't be delivered. Please resend the message without the attachment."
+```
 
 Per ulteriori informazioni, vedere [Set-AttachmentFilterListConfig](https://technet.microsoft.com/it-it/library/bb123483\(v=exchg.150\)).
 

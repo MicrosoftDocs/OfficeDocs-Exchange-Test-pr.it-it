@@ -61,11 +61,15 @@ Dopo aver impostato i limiti di timeout delle connessioni per POP3, è necessari
 
 In questo esempio viene impostato il limite di timeout per connessioni autenticate inattive.
 
-    Set -PopSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -PopSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```
 
 In questo esempio viene impostato il limite di timeout per connessioni non autenticate inattive.
 
-    Set -PopSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -PopSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```
 
 Dopo avere impostato i limiti di timeout delle connessioni per POP3, è necessario riavviare i servizi POP3 affinché le impostazioni abbiano effetto. Per informazioni su come riavviare i servizi POP3, vedere [Avviare e arrestare i servizi POP3](start-and-stop-the-pop3-services-exchange-2013-help.md).
 
@@ -89,7 +93,9 @@ Oppure
 
 1.  Eseguire il seguente comando in Shell.
     
-        Get-PopSettings | format-list
+    ```powershell
+    Get-PopSettings | format-list
+    ```
 
 2.  Verificare che le impostazioni di connessione siano corrette.
 

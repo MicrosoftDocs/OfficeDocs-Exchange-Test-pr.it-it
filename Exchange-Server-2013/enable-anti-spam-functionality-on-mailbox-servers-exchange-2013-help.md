@@ -58,9 +58,9 @@ Può capitare, però, che gli agenti di protezione da posta indesiderata disponi
 ## Passaggio 1: Utilizzare Shell per eseguire lo script Install-AntispamAgents.ps1
 
 Eseguire il comando indicato di seguito:
-
+```powershell
     & $env:ExchangeInstallPath\Scripts\Install-AntiSpamAgents.ps1
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Questa operazione è stata eseguita correttamente se lo script viene eseguito senza errori e chiede di riavviare il servizio di trasporto di Microsoft Exchange.
@@ -69,7 +69,9 @@ Questa operazione è stata eseguita correttamente se lo script viene eseguito se
 
 Eseguire il comando indicato di seguito:
 
-    Restart-Service MSExchangeTransport
+```powershell
+Restart-Service MSExchangeTransport
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -81,11 +83,15 @@ Questa operazione è stata eseguita correttamente se il servizio di trasporto di
 
 Per aggiungere gli indirizzi IP dei server SMTP interni senza modificare i valori esistenti, utilizzare il seguente comando:
 
-    Set-TransportConfig -InternalSMTPServers @{Add="<ip address1>","<ip address2>"...}
+```powershell
+Set-TransportConfig -InternalSMTPServers @{Add="<ip address1>","<ip address2>"...}
+```
 
 In questo esempio, gli indirizzi del server SMTP interno 10.0.1.10 e 10.0.1.11 vengono aggiunti alla configurazione di trasporto dell'organizzazione.
 
-    Set-TransportConfig -InternalSMTPServers @{Add="10.0.1.10","10.0.1.11"}
+```powershell
+Set-TransportConfig -InternalSMTPServers @{Add="10.0.1.10","10.0.1.11"}
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -93,7 +99,9 @@ Per verificare di aver correttamente specificato l'indirizzo IP di almeno un ser
 
 1.  Eseguire il comando indicato di seguito:
     
-        Get-TransportConfig | Format-List InternalSMTPServers
+    ```powershell
+    Get-TransportConfig | Format-List InternalSMTPServers
+    ```
 
 2.  Verificare che sia visualizzato l'indirizzo IP di almeno un server SMTP interno valido.
 

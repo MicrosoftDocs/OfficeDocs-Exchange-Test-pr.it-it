@@ -33,7 +33,9 @@ Reinstallare il ruolo del server non riuscito dalla riga di comando
 
 2.  Eseguire il comando indicato di seguito:
     
-        Setup /roles:<Failed Server Role>
+    ```powershell
+    Setup /roles:<Failed Server Role>
+    ```
     
     Selezionare uno o più dei seguenti ruoli, in un elenco separato da virgole:
     

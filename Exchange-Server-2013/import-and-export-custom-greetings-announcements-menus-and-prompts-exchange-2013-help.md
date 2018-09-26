@@ -62,24 +62,27 @@ Per altre attività di gestione relative agli operatori automatici di messaggist
 ## Utilizzo di Shell per importare messaggi di saluto, annunci, menu e istruzioni personalizzate per i dial plan e gli operatori automatici di messaggistica unificata
 
 Con questo esempio il file della formula di benvenuto welcomegreeting.wav viene importato dalla directory d:\\UMPrompts nel dial plan di messaggistica unificata `MyUMDialPlan`.
-
+```powershell
     [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
     Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 Con questo esempio il file della formula di benvenuto welcomegreeting.wav viene importato dalla directory d:\\UMPrompts nell'operatore automatico di messaggistica unificata `MyUMAutoAttendant`.
-
+```powershell
     [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
     Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 ## Utilizzo di Shell per esportare messaggi di saluto, annunci, menu e istruzioni personalizzate dai dial plan e dagli operatori automatici di messaggistica unificata
 
 Con questo esempio la formula di benvenuto per il dial plan di messaggistica unificata `MyUMDialPlan` viene esportata e salvata con il nome welcomegreeting.mp3.
-
+```powershell
     $prompt = Export-UMPrompt -PromptFileName "customgreeting.wav�? -UMDialPlan MyUMDialPlan
     set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```
 
 Con questo esempio la formula di benvenuto per l'orario di ufficio utilizzata per l'operatore automatico di messaggistica unificata `MYUMAutoAttendant` viene esportata e file salvata con il nome BusinessHoursWelcomeGreeting.mp3.
-
+```powershell
     $prompt = Export-UMPrompt -BusinessHoursWelcomeGreeting -UMAutoAttendant MyUMAutoAttendant
     set-content -Path "d:\UMPrompts\BusinessHoursWelcomeGreeting.wav" -Value $prompt.AudioData -Encoding Byte
-
+```

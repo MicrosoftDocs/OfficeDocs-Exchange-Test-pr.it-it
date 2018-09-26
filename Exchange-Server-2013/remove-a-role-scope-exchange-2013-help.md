@@ -41,9 +41,13 @@ Gli ambiti del ruolo di gestione determinano gli oggetti messi a disposizione di
 
 Per eliminare un ambito, utilizzare la seguente sintassi:
 
-    Remove-ManagementScope <scope name>
+```powershell
+Remove-ManagementScope <scope name>
+```
 
 Ad esempio, per eliminare l'ambito "Dublin Servers", utilizzare il comando riportato di seguito.
 
-    Remove-ManagementScope "Dublin Servers"
+```powershell
+Remove-ManagementScope "Dublin Servers"
+```
 

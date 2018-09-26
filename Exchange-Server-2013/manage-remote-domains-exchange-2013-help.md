@@ -47,16 +47,20 @@ Se si elimina una voce del dominio remoto, le impostazioni per il trasferimento 
 
 Per creare una nuova voce di dominio remoto, utilizzare la seguente sintassi.
 
-    New-RemoteDomain -Name <Descriptive Name> -DomainName <SMTP address space>
+```powershell
+New-RemoteDomain -Name <Descriptive Name> -DomainName <SMTP address space>
+```
 
 In questo esempio viene creata una voce di dominio remoto per i messaggi inviati al dominio contoso.com.
 
-    New-RemoteDomain -Name Contoso -DomainName contoso.com
+```powershell
+New-RemoteDomain -Name Contoso -DomainName contoso.com
+```
 
 In questo esempio viene creata una voce di dominio remoto per i messaggi inviati al dominio fabrikam.com e a tutti i sottodomini.
-
+```powershell
     New-RemoteDomain -Name Fabrikam -DomainName *.fabrikam.com
-
+```
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare che la creazione del dominio remoto sia stata eseguita correttamente, procedere come segue:
@@ -81,11 +85,15 @@ Per configurare domini remoti in scenari specifici, consultare i seguenti argome
 
 Per rimuovere una voce di dominio remoto, utilizzare la seguente sintassi.
 
-    Remove-RemoteDomain <RemoteDomainName>
+```powershell
+Remove-RemoteDomain <RemoteDomainName>
+```
 
 In questo esempio viene rimossa la voce di dominio remoto denominato Contoso
 
-    Remove-RemoteDomain Contoso
+```powershell
+Remove-RemoteDomain Contoso
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 

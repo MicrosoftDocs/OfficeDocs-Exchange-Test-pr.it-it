@@ -85,11 +85,15 @@ Per verificare di aver utilizzato correttamente EAC per configurare le impostazi
 
 Per abilitare o disabilitare la registrazione protocollo su un connettore di invio o ricezione, utilizzare il comando seguente:
 
+```powershell
     <Set-SendConnector |Set-ReceiveConnector> <ConnectorIdentity> -ProtocolLoggingLevel <Verbose | None>
+```
 
 Con questo esempio viene abilitata la registrazione protocollo per il connettore di ricezione denominato Connection da Contoso.com.
 
-    Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```powershell
+Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
@@ -97,7 +101,9 @@ Per verificare di aver abilitato o disabilitato correttamente la registrazione p
 
 1.  In Shell, utilizzare il seguente comando:
     
-        <Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+    ```powershell
+    <Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+    ```
 
 2.  Verificare che i valori visualizzati siano quelli configurati.
 
@@ -105,47 +111,57 @@ Per verificare di aver abilitato o disabilitato correttamente la registrazione p
 
 Per abilitare o disabilitare la registrazione protocollo sul connettore di invio implicito e invisibile tra organizzazioni presente nel servizio di trasporto su un server Cassette postali e nel servizio DI Torto front-end su un server Accesso client, utilizzare il comando seguente:
 
+```powershell
     <Set-TransportService | Set-FrontEndTransportService> -IntraOrgConnectorProtocolLoggingLevel <Verbose | None>
-
+```
 Con questo esempio viene abilitata la registrazione protocollo sul connettore di invio tra organizzazioni nel servizio di trasporto su un server Cassette postali denominato Mailbox01.
 
-    Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare di aver abilitato o disabilitato correttamente la registrazione protocollo sul connettore di invio tra organizzazioni, procedere come segue:
 
 1.  In Shell, utilizzare il seguente comando:
-    
+    ```powershell
         <Get-TransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List IntraOrgConnectorProtocolLoggingLevel
-
+    ```
 2.  Verificare che il valore visualizzato sia quello configurato.
 
 ## Utilizzo di Shell per abilitare o disabilitare la registrazione protocollo sul connettore di invio per il recapito delle cassette postali
 
 Per abilitare o disabilitare la registrazione protocollo sul connettore di invio per il recapito delle cassette postali implicito e invisibile presente nel servizio di trasporto cassette postali su un server Cassette postali, utilizzare il comando seguente:
 
-    Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```powershell
+Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```
 
 Con questo esempio viene abilitata la registrazione protocollo sul connettore di ricezione per il recapito delle cassette postali nel servizio di trasporto cassette postali su un server Cassette postali denominato Mailbox01.
 
-    Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare di aver abilitato o disabilitato correttamente la registrazione protocollo sul connettore di recapito delle cassette postali, procedere come segue:
 
 1.  In Shell, utilizzare il seguente comando:
-    
-        Get-MailboxTransportService <ServerIdentity> | Format-List MailboxDeliveryConnectorProtocolLoggingLevel
 
+    ```powershell
+        Get-MailboxTransportService <ServerIdentity> | Format-List MailboxDeliveryConnectorProtocolLoggingLevel
+    ```
 2.  Verificare che il valore visualizzato sia quello configurato.
 
 ## Configurazione delle impostazioni di registrazione protocollo tramite Shell
 
 Per configurare le impostazioni di registrazione protocollo, utilizzare il comando seguente:
 
+```powershell
     <Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ReceiveProtocolLogPath <LocalFilePath> -SendProtocolLogPath <LocalFilePath> -ReceiveProtocolLogMaxFileSize <Size> -SendProtocolLogMaxFileSize <Size> -ReceiveProtocolLogMaxDirectorySize <Size> -SendProtocolLogMaxDirectorySize <Size> -ReceiveProtocolLogMaxAge <dd.hh:mm:ss> -SendProtocolLogMaxAge <dd.hh:mm:ss>
+```
 
 Con questo esempio vengono configurate le impostazioni del registro di protocollo seguenti nel servizio di trasporto sul server Cassette postali denominato Mailbox01:
 
@@ -158,9 +174,9 @@ Con questo esempio vengono configurate le impostazioni del registro di protocoll
   -  Imposta la validità massima di un file di registro di protocollo del connettore di ricezione e di invio su 45 giorni.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Mailbox01 -ReceiveProtocolLogPath "D:\Hub Receive SMTP Log" -SendProtocolLogPath "D:\Hub Send SMTP Log" -ReceiveProtocolLogMaxFileSize 20MB -SendProtocolLogMaxFileSize 20MB -ReceiveProtocolLogMaxDirectorySize 400MB -SendProtocolLogMaxDirectorySize 400MB -ReceiveProtocolLogMaxAge 45.00:00:00 -SendProtocolLogMaxAge 45.00:00:00
-
+```
 
 > [!NOTE]
 > <UL>
@@ -178,8 +194,9 @@ Con questo esempio vengono configurate le impostazioni del registro di protocoll
 Per verificare di aver configurato correttamente le impostazioni dei registri di protocollo, effettuare le operazioni seguenti:
 
 1.  In Shell, utilizzare il seguente comando:
-    
-        <Get-TransportService | Get-MailboxTransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List SendConnectorProtocolLog*,ReceiveConnectorProtocolLog*
 
+    ```powershell
+        <Get-TransportService | Get-MailboxTransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List SendConnectorProtocolLog*,ReceiveConnectorProtocolLog*
+    ```
 2.  Verificare che i valori visualizzati siano quelli configurati.
 

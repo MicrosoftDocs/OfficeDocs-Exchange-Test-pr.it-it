@@ -45,18 +45,23 @@ Si consiglia di non modificare l'impostazione predefinita nella maggior parte de
 
 1.  In una finestra del prompt dei comandi, aprire il file MSExchangeMailboxAssistants.exe.config in Blocco note utilizzando il seguente comando:
     
+    ```powershell
         Notepad %ExchangeInstallPath%Bin\MSExchangeMailboxAssistants.exe.config
+    ```
 
 2.  Posizionare la chiave *\</appsettings\>* alla fine del file e incollare la chiave seguente prima della chiave *\</appsettings\>*:
     
+    ```command line
         <add key="IncludeSafeDomains" value="true" />
+    ```
 
 3.  Al termine, salvare e chiudere il file MSExchangeMailboxAssistants.exe.config.
 
 4.  Riavviare il servizio Assistenti cassette postali di Microsoft Exchange utilizzando il seguente comando:
-    
+    ```powershell
         net stop MSExchangeMailboxAssistants && net start MSExchangeMailboxAssistants
-
+    ```
+    
 ## Come verificare se l'operazione ha avuto esito positivo
 
 Per verificare la configurazione del filtro contenuti per usare dati dei domini attendibili, effettuare le seguenti operazioni:

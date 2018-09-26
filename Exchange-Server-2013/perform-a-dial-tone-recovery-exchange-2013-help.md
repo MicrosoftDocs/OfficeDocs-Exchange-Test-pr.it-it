@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Esecuzione di un ripristino del segnale: Exchange 2013 Help'
 TOCTitle: Esecuzione di un ripristino del segnale
 ms:assetid: 158817fa-4b17-4fa9-8341-a86609e6a388
@@ -47,15 +47,21 @@ La portabilità consente agli utenti di disporre di una cassetta postale tempora
 
 2.  Utilizzare il cmdlet [New-MailboxDatabase](https://technet.microsoft.com/it-it/library/aa997976\(v=exchg.150\)) per creare un database del segnale di linea, come mostrato in questo esempio.
     
+    ```powershell
         New-MailboxDatabase -Name DTDB1 -EdbFilePath D:\DialTone\DTDB1.EDB
+    ```
 
 3.  Utilizzare il cmdlet [Set-Mailbox](https://technet.microsoft.com/it-it/library/bb123981\(v=exchg.150\)) per ricollocare in sede le cassette postali degli utenti ospitate sul database in fase di ripristino, come mostrato nell'esempio seguente.
     
+    ```powershell
         Get-Mailbox -Database DB1 | Set-Mailbox -Database DTDB1
+    ```
 
 4.  Utilizzare il cmdlet [Mount-Database](https://technet.microsoft.com/it-it/library/aa998871\(v=exchg.150\)) per installare il database in modo che i computer dei client possano accedere al database e inviare e ricevere messaggi, come mostrato nell'esempio seguente.
     
+    ```powershell
         Mount-Database -Identity DTDB1
+    ```
 
 5.  Creare un RDB (database di ripristino) e ripristinare o copiare il database e i file di registro contenenti i dati che si desidera ripristinare nell'RDB. Per la procedura dettagliata, vedere [Creare un database di ripristino](create-a-recovery-database-exchange-2013-help.md).
 
@@ -63,41 +69,52 @@ La portabilità consente agli utenti di disporre di una cassetta postale tempora
 
 7.  Montare l'RDB, quindi utilizzare il cmdlet [Dismount-Database](https://technet.microsoft.com/it-it/library/bb124936\(v=exchg.150\)) per smontarlo, come mostrato nell'esempio seguente.
     
+    ```powershell
         Mount-Database -Identity RDB1
         Dismount-Database -Identity RDB1
-
+    ```
 8.  Dopo che l'RDB sarà stato smontato, spostare il database e i file di registro correnti all'interno della cartella dell'RDB in una posizione più sicura. Ciò viene fatto in preparazione dello scambio del database ripristinato con il database del segnale di linea.
 
 9.  Disinstallare il database del segnale di linea, come illustrato in questo esempio. Si noti che gli utenti finali avranno un'interruzione del servizio quando questo database verrà disinstallato.
     
-        Dismount-Database -Identity DTDB1
+    ```powershell
+    Dismount-Database -Identity DTDB1
+    ```
 
 10. Spostare il database e i file di registro dalla cartella del database del segnale di linea nella cartella dell'RDB.
 
 11. Spostare il database e i file di registro dalla posizione sicura contenente il database ripristinato nella cartella del database del segnale di linea, quindi installare il database, come mostrato nell'esempio seguente.
     
-        Mount-Database -Identity DTDB1
+    ```powershell
+    Mount-Database -Identity DTDB1
+    ```
     
     Questo termina l'interruzione del servizio per gli utenti finali. Gli utenti saranno in grado di accedere al database di produzione originale e inviare e ricevere messaggi.
 
 12. Installare l'RDB come illustrato in questo esempio.
     
-        Mount-Database -Identity RDB1
+    ```powershell
+    Mount-Database -Identity RDB1
+    ```
 
 13. Utilizzare i cmdlet [Get-Mailbox](https://technet.microsoft.com/it-it/library/bb123685\(v=exchg.150\)) e [New-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829875\(v=exchg.150\)) per esportare i dati dall'RDB e importarli nel database ripristinato, come mostrato in questo esempio. In questo modo tutti i messaggi inviati e ricevuti verranno importati utilizzando il database del segnale di linea nel database di produzione.
 
-       ```
-        $mailboxes = Get-Mailbox -Database DTDB1
-       ```
-       ```
+    
+    ```powershell
+    $mailboxes = Get-Mailbox -Database DTDB1
+    ```
+    
+    ```powershell
         $mailboxes | %{ New-MailboxRestoreRequest -SourceStoreMailbox $_.ExchangeGuid -SourceDatabase RDB1 -TargetMailbox $_ }
-       ```
+    ```
 
 14. Quando l'operazione di ripristino sarà stata completata, sarà possibile disinstallare e rimuovere l'RDB, come mostrato nell'esempio seguente.
     
+    ```powershell
         Dismount-Database -Identity RDB1
         Remove-MailboxDatabase -Identity RDB1
-
+    ```
+    
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere gli argomenti seguenti:
 
   - [New-MailboxDatabase](https://technet.microsoft.com/it-it/library/aa997976\(v=exchg.150\))

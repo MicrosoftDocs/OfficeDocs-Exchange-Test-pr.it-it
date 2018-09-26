@@ -48,9 +48,11 @@ Per ulteriori informazioni sulle cassette postali disconnesse e per eseguire alt
 
 
   - Per verificare che la cassetta postale eliminata che si desidera connettere a un account utente esista nel database delle cassette postali e che non sia una cassetta postale eliminata in maniera reversibile, eseguire il comando seguente.
-    
+
+    ```powershell
         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
-    
+    ```
+
     La cassetta postale eliminata deve essere presente nel database delle cassette postali e il valore della proprietà *DisconnectReason* deve essere `Disabled`. Se la cassetta postale è stata eliminata definitivamente dal database, il comando non restituirà alcun risultato.
 
   - Per informazioni sui tasti di scelta rapida che è possibile utilizzare con le procedure in questo argomento, vedere [Tasti di scelta rapida nell'interfaccia di amministrazione di Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
@@ -101,7 +103,9 @@ Utilizzare il cmdlet **Connect-Mailbox** in Shell per connettere una cassetta po
 
 Con questo esempio viene connessa una cassetta postale utente. Il parametro *Identity* consente di specificare il nome visualizzato della cassetta postale eliminata conservata nel database delle cassette postali denominato MBXDB01. Il parametro *User* consente di specificare l'account utente di Active Directory a cui connettere la cassetta postale.
 
-    Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```powershell
+Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```
 
 
 > [!NOTE]
@@ -109,21 +113,28 @@ Con questo esempio viene connessa una cassetta postale utente. Il parametro *Ide
 
 
 
-In questo esempio viene connessa una cassetta postale collegata. Il parametro *Identity* consente di specificare la cassetta postale eliminata sul database delle cassette postali denominato MBXDB02. Il parametro *LinkedMasterAccount* consente di specificare l'account utente di Active Directory nella foresta di account a cui si desidera connettere la cassetta postale. Il parametro *LinkedDomainController* consente di specificare un controller di dominio nella foresta di account.
+In questo esempio viene connessa una cassetta postale collegata. Il parametro *Identity* consente di specificare la cassetta postale eliminata sul database delle cassette postali denominato MBXDB02. Il parametro *LinkedMasterAccount* consente di specificare l'account utente di Active Directory nella foresta di account a cui si desidera connettere la cassetta postale. Il parametro *LinkedDomainController* consente di specificare un controller di dominio nella foresta di account. 
 
+```powershell
     Connect-Mailbox -Identity "Temp User" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount danpark@fabrikam.com -Alias dpark
+```
 
-In questo esempio viene connessa una cassetta postale sala.
+In questo esempio viene connessa una cassetta postale sala. 
 
+```powershell
     Connect-Mailbox -Identity "rm2121" -Database "MBXResourceDB" -User "Conference Room 2121" -Alias ConfRm2121 -Room
+```
 
-In questo esempio viene connessa una cassetta postale per apparecchiatura.
+In questo esempio viene connessa una cassetta postale per apparecchiatura. 
 
+```powershell
     Connect-Mailbox -Identity "MotorPool01" -Database "MBXResourceDB" -User "Van01 (12 passengers)" -Alias van01 -Equipment
-
+```
 Con questo esempio viene connessa una cassetta postale condivisa.
 
+```powershell
     Connect-Mailbox -Identity "Printer Support" -Database MBXDB01 -User "Corp Printer Support" -Alias corpprint -Shared
+```
 
 
 > [!NOTE]
@@ -143,7 +154,9 @@ Per verificare la corretta connessione della cassetta postale eliminata a un acc
 
   - In Shell, utilizzare il seguente comando.
     
-        Get-User <identity>
+    ```powershell
+    Get-User <identity>
+    ```
     
     Il valore **UserMailbox** per la proprietà *RecipientType* indica che l'account utente e la cassetta postale sono connessi. È inoltre possibile eseguire il comando **Get-Mailbox \<identity\>** per verificare che la cassetta postale sia stata connessa.
 
@@ -163,15 +176,21 @@ Una volta completata la richiesta di ripristino della cassetta postale, per impo
 
 Per creare una richiesta di ripristino delle cassette postali, è necessario utilizzare il nome visualizzato, il nome distinto legacy (DN) oppure il GUID della cassetta postale eliminata. Utilizzare il cmdlet **Get-MailboxStatistics** per visualizzare i valori delle proprietà `DisplayName`, `MailboxGuid` e `LegacyDN` per la cassetta postale eliminata che si desidera ripristinare. Ad esempio, utilizzare il comando seguente per restituire le informazioni di tutte le cassette postali disabilitate ed eliminate nell'organizzazione.
 
+```powershell
     Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "Disabled"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```
 
 Con questo esempio viene ripristinata la cassetta postale eliminata, identificata dal parametro *SourceStoreMailbox* e viene posizionata nel database delle cassette postali MBXDB01, nella cassetta postale di destinazione Debra Garcia. Il parametro *AllowLegacyDNMismatch* viene utilizzato in modo che la cassetta postale di origine possa essere ripristinata in un'altra cassetta postale che non abbia lo stesso valore DN legacy.
 
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox e4890ee7-79a2-4f94-9569-91e61eac372b -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```
 
 Con questo esempio viene ripristinata la cassetta postale archivio eliminata di Pilar Pinilla nella cassetta postale archivio corrente. Il parametro *AllowLegacyDNMismatch* non è necessario poiché una cassetta postale principale e la cassetta postale archivio corrispondente dispongono dello stesso DN legacy.
 
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox "Personal Archive - Pilar Pinilla" -SourceDatabase "MDB01" -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [New-MailboxRestoreRequest](https://technet.microsoft.com/it-it/library/ff829875\(v=exchg.150\)).
 
@@ -183,7 +202,9 @@ Se viene eliminata una cassetta postale di cartelle pubbliche che si desidera ri
 
 1.  Ottenere il nome di dominio completo (FQDN) del controller di dominio e foresta di Active Directory eseguendo il cmdlet seguente:
     
-        Get-OrganizationConfig | fl OriginatingServer
+    ```powershell
+    Get-OrganizationConfig | fl OriginatingServer
+    ```
 
 2.  Con le informazioni restituite dal passaggio 1, ricerca contenitore degli oggetti eliminati in Active Directory per il GUID della cassetta postale di cartelle pubbliche e il GUID o il nome del database delle cassette postali in cui era contenuta la cassetta postale eliminata cartelle pubbliche.
     
@@ -196,17 +217,20 @@ Se viene eliminata una cassetta postale di cartelle pubbliche che si desidera ri
 Quando si conosce il GUID cassetta postale di cartelle pubbliche eliminata e il nome o il GUID della cassetta postale di database che contenuta la cassetta postale di cartelle pubbliche, eseguita i comandi seguenti per ripristinare la cassetta postale di cartelle pubbliche.
 
 1.  Creare un nuovo oggetto Active Directory eseguendo i comandi seguenti (è richiesto per fornire le credenziali appropriate):
-    
+
+    ```powershell
         New-MailUser <mailUserName> -ExternalEmailAddress <emailAddress> 
         
         Get-MailUser <mailUserName> | Disable-MailUser
-    
+    ```
+
     Dove `<mailUserName>`, `<emailAddress>`e `<mailUserName>` sono valori scegliere. È necessario utilizzare lo stesso valore `<mailUserName>` nel passaggio successivo.
 
 2.  Connettersi alla cassetta postale eliminata cartelle pubbliche per l'oggetto di Active Directory che appena creato eseguendo il comando seguente:
-    
+
+    ```powershell
         Connect-Mailbox -Identity <public folder mailbox GUID> -Database <database name or GUID> -User <mailUserName>
-    
+    ```
 
     > [!NOTE]
     > Il parametro <CODE>Identity</CODE> specifica l'oggetto cassetta postale nel database di Exchange per la connessione a un oggetto utente di Active Directory. Nell'esempio precedente consente di specificare il GUID della cassetta postale di cartelle pubbliche, ma è inoltre possibile utilizzare il valore del nome visualizzato o il valore LegacyExchangeDN.
@@ -214,9 +238,11 @@ Quando si conosce il GUID cassetta postale di cartelle pubbliche eliminata e il 
 
 
 3.  Eseguire `Update-StoreMailboxState` sulla cassetta postale di cartelle pubbliche, in base all'esempio seguente:
-    
+
+    ```powershell
         Update-StoreMailboxState -Identity <public folder mailbox GUID> -Database <database name or GUID>
-    
+    ```
+
     In passo 2, il parametro `Identity` accetta GUID, nome visualizzato o valori LegacyExchangeDN per la cassetta postale di cartelle pubbliche.
 
 ## Come verificare se l'operazione ha avuto esito positivo

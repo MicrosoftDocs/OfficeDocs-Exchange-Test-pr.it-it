@@ -67,16 +67,23 @@ Quando il gruppo di disponibilità del database non è in modalità di coordinaz
 
 1.  I membri del gruppo di disponibilità del database nel centro dati devono essere rimossi forzatamente dal cluster sottostante del gruppo di disponibilità del database eseguendo i comandi seguenti su ogni membro:
     
+    ```powershell
         net stop clussvc
+    ```
+    ```powershell
         cluster <DAGName> node <DAGMemberName> /forcecleanup
-
+    ```
 2.  I membri del gruppo di disponibilità del database nel secondo centro dati devono essere riavviati e utilizzati per completare il processo di rimozione dal secondo centro dati. Arrestare il servizio Cluster su ogni membro del gruppo di disponibilità del database nel secondo centro dati eseguendo il comando seguente su ogni membro:
     
+    ```powershell
         net stop clussvc
+    ```
 
 3.  Su un membro del gruppo di disponibilità del database nel secondo centro dati, forzare un avvio del quorum sul servizio Cluster eseguendo il comando seguente:
     
+    ```powershell
         net start clussvc /forcequorum
+    ```
 
 4.  Aprire lo strumento Gestione cluster di failover e connettersi al cluster sottostante del gruppo di disponibilità del database. Espandere il cluster, quindi espandere **Nodi**. Fare clic con il pulsante destro del mouse su ogni nodo nel centro dati, selezionare **Altre azioni**, quindi **Rimuovi**. Dopo aver effettuato la rimozione dei membri del gruppo di disponibilità del database nel centro dati principale, chiudere lo strumento Gestione cluster di failover.
 
@@ -106,23 +113,31 @@ Di seguito, è riportata la procedura per il completamento dell'attivazione dei 
     
     1.  Se è presente un numero dispari di membri del gruppo di disponibilità del database, modificare il modello di quorum del gruppo di disponibilità del database da maggioranza dei nodi e delle condivisioni file a maggioranza dei nodi eseguendo il comando seguente:
         
+        ```powershell
             cluster <DAGName> /quorum /nodemajority
+        ```
     
     2.  Se è presente un numero pari di membri del gruppo di disponibilità del database, riconfigurare il server e la directory di controllo eseguendo il comando seguente in Exchange Management Shell:
         
+        ```powershell
             Set-DatabaseAvailabilityGroup <DAGName> -WitnessServer <ServerName>
+        ```
 
 2.  Avviare il servizio Cluster su ogni membro del gruppo di disponibilità del database rimanente nel secondo centro dati eseguendo il comando seguente:
     
-        net start clussvc
+    ```powershell
+            net start clussvc
+    ```
 
 3.  Eseguire switchover del server per attivare i database delle cassette postali nel gruppo di disponibilità del database eseguendo il comando seguente per ogni membro del gruppo di disponibilità del database:
-    
+    ```powershell
         Move-ActiveMailboxDatabase -Server <DAGMemberinPrimarySite> -ActivateOnServer <DAGMemberinSecondSite>
-
+    ```
 4.  Montare i database delle cassette postali in ogni membro del gruppo di disponibilità del database eseguendo il comando seguente:
     
+    ```powershell
         Get-MailboxDatabase <DAGMemberinSecondSite> | Mount-Database
+    ```
 
 Inizio pagina
 

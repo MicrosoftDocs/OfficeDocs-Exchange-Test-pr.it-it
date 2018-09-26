@@ -37,7 +37,9 @@ Per un elenco delle versioni di Exchange 2013 e informazioni su come aggiornare 
 
 Per visualizzare il numero di build per la versione di Exchange 2013 in esecuzione, utilizzare il seguente comando in Exchange Management Shell.
 
-    Get-ExchangeServer | fl name,edition,admindisplayversion
+```powershell
+Get-ExchangeServer | fl name,edition,admindisplayversion
+```
 
 ## Tipi di licenze di Exchange 2013
 

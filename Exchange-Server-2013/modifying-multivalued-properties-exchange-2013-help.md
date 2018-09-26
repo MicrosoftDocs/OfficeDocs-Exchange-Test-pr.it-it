@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Modifica delle proprietà multivalore: Exchange 2013 Help'
 TOCTitle: Modifica delle proprietà multivalore
 ms:assetid: dc2c1062-ad79-404b-8da3-5b5798dbb73b
@@ -33,19 +33,27 @@ Per ulteriori informazioni sugli oggetti, vedere [Dati strutturati](https://tech
 
 Il metodo utilizzato per la modifica di una proprietà multivalore è leggermente diverso da quello che consente di modificare una proprietà che accetta un unico valore. Quando si modifica una proprietà che accetta un unico valore, è possibile assegnare un valore direttamente alla proprietà, come nel comando riportato di seguito.
 
-    Set-TransportConfig -MaxSendSize 12MB
+```powershell
+Set-TransportConfig -MaxSendSize 12MB
+```
 
 Quando si utilizza questo comando per fornire un nuovo valore alla proprietà **MaxSendSize**, il valore archiviato viene sovrascritto. Ciò non costituisce un problema con le proprietà che accettano un unico valore. Tuttavia, la situazione diventa problematica nel caso di proprietà multivalore. Si supponga ad esempio che la proprietà **BlockedRecipients** dell'oggetto **RecipientFilterConfig** sia configurata in modo da assumere i tre valori indicati nella sezione precedente. Quando si esegue il comando `Get-RecipientFilterConfig | Format-List BlockedRecipients`, vengono visualizzate le seguenti informazioni.
 
-    BlockedRecipients : {david@adatum.com, kim@northwindtraders.com, john@contoso.com}
+```powershell
+BlockedRecipients : {david@adatum.com, kim@northwindtraders.com, john@contoso.com}
+```
 
 Si supponga ora di aver ricevuto una richiesta per aggiungere un nuovo indirizzo SMTP all'elenco dei destinatari bloccati. Per aggiungere il nuovo indirizzo SMTP, viene eseguito il comando riportato di seguito.
 
-    Set-RecipientFilterConfig -BlockedRecipients chris@contoso.com
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients chris@contoso.com
+```
 
 Quando si esegue nuovamente il comando `Get-RecipientFilterConfig | Format-List BlockedRecipients`, vengono visualizzate le seguenti informazioni.
 
-    BlockedRecipients : {chris@contoso.com}
+```powershell
+BlockedRecipients : {chris@contoso.com}
+```
 
 Pertanto, non si ottengono i risultati previsti. Si desiderava aggiungere il nuovo indirizzo SMTP all'elenco di destinatari bloccati esistente, mentre invece tale elenco è stato sovrascritto dal nuovo indirizzo SMTP. Questo risultato imprevisto dimostra che la modifica di una proprietà multivalore è diversa dalla modifica di una proprietà che accetta un singolo valore. Quando si modifica una proprietà multivalore, è necessario accertarsi di aggiungere o rimuovere valori anziché sovrascrivere l'intero elenco di valori esistente. Nelle seguenti sezioni viene descritto come ottenere i risultati desiderati.
 
@@ -69,11 +77,19 @@ La modifica delle proprietà multivalore è simile alla modifica delle propriet�
 <tbody>
 <tr class="odd">
 <td><p>Aggiungere uno o più valori a una proprietà multivalore</p></td>
-<td><pre><code>@{Add=&quot;&lt;value1&gt;&quot;, &quot;&lt;value2&gt;&quot;, &quot;&lt;value3&gt;&quot;}</code></pre></td>
+<td>
+  ```powershell
+      @{Add="<value1>", "<value2>", "<value3>"}
+  ```
+  </td>
 </tr>
 <tr class="even">
 <td><p>Rimuovere uno o più valori da una proprietà multivalore</p></td>
-<td><pre><code>@{Remove=&quot;&lt;value1&gt;&quot;, &quot;&lt;value2&gt;&quot;, &quot;&lt;value3&gt;&quot;}</code></pre></td>
+<td>
+  ```powershell
+      @{Remove="<value1>", "<value2>", "<value3>"}
+  ```
+  </td>
 </tr>
 </tbody>
 </table>
@@ -81,21 +97,27 @@ La modifica delle proprietà multivalore è simile alla modifica delle propriet�
 
 La sintassi scelta nella tabella Sintassi per le proprietà multivalore è specificata come valore di un parametro per un cmdlet. Il comando che segue, ad esempio, aggiunge più valori a una proprietà multivalore:
 
-    Set-ExampleCmdlet -Parameter @{Add="Red", "Blue", "Green"}
+```powershell
+Set-ExampleCmdlet -Parameter @{Add="Red", "Blue", "Green"}
+```
 
 Quando si utilizzata tale sintassi, i valori specificati vengono aggiunti o rimossi nell'elenco dei valori già presenti nella proprietà. Nel caso del precedente esempio relativo a **BlockedRecipients**, è possibile aggiungere il valore chris@contoso.com senza sovrascrivere gli altri valori della proprietà, utilizzando il comando seguente:
 
-    Set-RecipientFilterConfig -BlockedRecipients @{Add="chris@contoso.com"}
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients @{Add="chris@contoso.com"}
+```
 
 Se si desidera rimuovere david@adatum.com dall'elenco dei valori, è necessario utilizzare il comando seguente:
 
-    Set-RecipientFilterConfig -BlockedRecipients @{Remove="david@adatum.com"}
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients @{Remove="david@adatum.com"}
+```
 
 È possibile utilizzare combinazioni più complesse, ad esempio per aggiungere e rimuovere contemporaneamente valori da una determinata proprietà. A tale scopo, inserire un punto e virgola (`;`) tra le azioni `Add` e `Remove`. Esempio:
-
+```powershell
     Set-RecipientFilterConfig -BlockedRecipients @{Add="carter@contoso.com", "sam@northwindtraders.com", "brian@adatum.com"; Remove="john@contoso.com"}
-
+```
 Se si utilizza di nuovo il comando `Get-RecipientFilterConfig | Format-List BlockedRecipients`, è possibile notare che gli indirizzi di posta elettronica per Carter, Sam e Brian sono stati aggiunti, mentre quello per John è stato rimosso.
-
+```powershell
     BlockedRecipients : {brian@adatum.com, sam@northwindtraders.com, carter@contoso.com, chris@contoso.com, kim@northwindtraders.com}
-
+```

@@ -54,10 +54,10 @@ Per le attività di gestione aggiuntive relative ai server Accesso client, veder
 ## Abilitazione o disabilitazione del risponditore automatico su un server Accesso client tramite Shell
 
 In questo esempio, a un server Accesso client di `UMCallRouter-05x.contoso.com` viene consentito di rispondere alle chiamate vocali, fax, dell'operatore automatico e di Outlook Voice Access provenienti da gateway VoIP, sistemi IP PBX, PBX abilitati per SIP e SBC. La modifica viene riportata nel registro sul server UMCallRouter-05x.
-
+```powershell
     Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
-
+```
 In questo esempio, a un server Accesso client di `UMCallRouter-05x.contoso.com` non viene consentito di rispondere alle chiamate vocali, fax, dell'operatore automatico e di Outlook Voice Access provenienti da gateway VoIP, sistemi IP PBX, PBX abilitati per SIP e SBC. La modifica viene riportata solo in Active Directory.
-
+```powershell
     Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
-
+```

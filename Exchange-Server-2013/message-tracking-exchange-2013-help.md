@@ -556,6 +556,7 @@ Un messaggio senza eventi inviato tra due utenti genera più voci nel registro d
 
 Questo è un esempio limitato delle voci del registro di verifica messaggi creato quando l'utente chris@contoso.com invia un messaggio di prova all'utente michelle@contoso.com. Entrambi gli utenti hanno cassette postali sullo stesso server.
 
+```powershell
     EventId    Source      Sender            Recipients             MessageSubject
     -------    ------      ------            ----------             --------------
     NOTIFYMAPI STOREDRIVER                   {}
@@ -566,6 +567,7 @@ Questo è un esempio limitato delle voci del registro di verifica messaggi creat
     AGENTINFO  AGENT       chris@contoso.com {michelle@contoso.com} test
     SEND       SMTP        chris@contoso.com {michelle@contoso.com} test
     DELIVER    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+```
 
 Inizio pagina
 

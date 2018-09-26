@@ -61,21 +61,13 @@ Per ulteriori informazioni sulla gestione di Exchange 2013, vedere [Interfaccia 
 
 4.  Nella pagina **Verifica disponibilità aggiornamenti** scegliere se includere nell'installazione il download tramite Internet degli aggiornamenti del prodotto e della sicurezza per Exchange 2013. Se si seleziona **Connettersi a Internet e verificare la disponibilità di aggiornamenti**, gli aggiornamenti verranno scaricati e applicati prima di continuare durante la procedura di installazione. Se si seleziona **Non verificare la disponibilità degli aggiornamenti adesso**, è possibile scaricare e installare manualmente gli aggiornamenti in un secondo momento. anche se è consigliabile scaricarli e installarli subito. Fare clic su **Avanti** per continuare.
 
-5.  
-    
-    Nella pagina **Introduzione** inizia il processo di installazione di Exchange nell'organizzazione. L'utente verrà guidato nel processo di installazione. Sono elencati diversi collegamenti a contenuti di distribuzione utili. Si consiglia di visitare tali collegamenti prima di continuare l'installazione. Fare clic su **Avanti** per continuare.
+5.  Nella pagina **Introduzione** inizia il processo di installazione di Exchange nell'organizzazione. L'utente verrà guidato nel processo di installazione. Sono elencati diversi collegamenti a contenuti di distribuzione utili. Si consiglia di visitare tali collegamenti prima di continuare l'installazione. Fare clic su **Avanti** per continuare.
 
-6.  
-    
-    Nella pagina **Contratto di licenza** leggere le condizioni di licenza software. Per accettare le condizioni, selezionare **Accetto i termini del contratto di licenza** e fare clic su **Avanti**.
+6.  Nella pagina **Contratto di licenza** leggere le condizioni di licenza software. Per accettare le condizioni, selezionare **Accetto i termini del contratto di licenza** e fare clic su **Avanti**.
 
-7.  
-    
-    Nella pagina **Impostazioni consigliate** scegliere se utilizzare o meno le impostazioni consigliate. Se si seleziona **Usa impostazioni consigliate**, Exchange invierà automaticamente a Microsoft segnalazioni di errori e informazioni sull'hardware del computer e sull'utilizzo di Exchange. Se si seleziona **Non utilizzare le impostazioni consigliate**, le impostazioni rimangono disabilitate ma sarà possibile abilitarle in qualsiasi momento una volta completata l'installazione. Per ulteriori informazioni su tali impostazioni e sull'utilizzo delle informazioni inviate a Microsoft, fare clic su **?**.
+7.  Nella pagina **Impostazioni consigliate** scegliere se utilizzare o meno le impostazioni consigliate. Se si seleziona **Usa impostazioni consigliate**, Exchange invierà automaticamente a Microsoft segnalazioni di errori e informazioni sull'hardware del computer e sull'utilizzo di Exchange. Se si seleziona **Non utilizzare le impostazioni consigliate**, le impostazioni rimangono disabilitate ma sarà possibile abilitarle in qualsiasi momento una volta completata l'installazione. Per ulteriori informazioni su tali impostazioni e sull'utilizzo delle informazioni inviate a Microsoft, fare clic su **?**.
 
-8.  
-    
-    Nella pagina **Selezione ruolo server** verificare che **Strumenti di gestione** sia selezionato.
+8.  Nella pagina **Selezione ruolo server** verificare che **Strumenti di gestione** sia selezionato.
     
     Selezionare **Installazione automatica dei ruoli e delle funzionalità di Windows Server necessari per installare Exchange Server** per includere nell'installazione guidata anche l'installazione dei prerequisiti di Windows. Per completare l'installazione di alcune funzionalità di Windows, è probabile che sia necessario riavviare il computer. Se questa opzione non viene selezionata, sarà necessario installare le funzionalità di Windows manualmente.
     
@@ -88,9 +80,7 @@ Per ulteriori informazioni sulla gestione di Exchange 2013, vedere [Interfaccia 
 
 9.  Nella pagina **Spazio e percorso di installazione** accettare il percorso di installazione predefinito o fare clic su **Sfoglia** per scegliere un percorso diverso. Assicurarsi di disporre di spazio sufficiente su disco nel percorso in cui si intende installare Exchange. Fare clic su **Avanti** per continuare.
 
-10. 
-    
-    Se si tratta della prima installazione di Exchange 2013 nell'organizzazione, nella pagina **Organizzazione di Exchange** digitare un nome per l'organizzazione di Exchange. Il nome dell'organizzazione di Exchange può contenere solo i seguenti caratteri:
+10. Se si tratta della prima installazione di Exchange 2013 nell'organizzazione, nella pagina **Organizzazione di Exchange** digitare un nome per l'organizzazione di Exchange. Il nome dell'organizzazione di Exchange può contenere solo i seguenti caratteri:
     
       - Dalla A alla Z
     
@@ -116,13 +106,9 @@ Per ulteriori informazioni sulla gestione di Exchange 2013, vedere [Interfaccia 
     
     Fare clic su **Avanti** per continuare.
 
-11. 
-    
-    Nella pagina **Controllo conformità** visualizzare lo stato per determinare se il controllo dei prerequisiti per l'organizzazione e per il ruolo del server è stato completato con esito positivo. Se non è stato completato correttamente, è necessario risolvere eventuali errori segnalati prima di installare Exchange 2013. Non è necessario uscire dal programma di installazione quando si risolvono alcuni errori relativi ai prerequisiti. Dopo aver risolto un errore segnalato, fare clic su **Indietro**, quindi scegliere **Avanti** per eseguire di nuovo il controllo dei prerequisiti. Esaminare inoltre tutti gli eventuali avvisi ricevuti. Se i controlli di conformità sono stati completati con esito positivo, fare clic su **Avanti** per installare Exchange 2013.
+11. Nella pagina **Controllo conformità** visualizzare lo stato per determinare se il controllo dei prerequisiti per l'organizzazione e per il ruolo del server è stato completato con esito positivo. Se non è stato completato correttamente, è necessario risolvere eventuali errori segnalati prima di installare Exchange 2013. Non è necessario uscire dal programma di installazione quando si risolvono alcuni errori relativi ai prerequisiti. Dopo aver risolto un errore segnalato, fare clic su **Indietro**, quindi scegliere **Avanti** per eseguire di nuovo il controllo dei prerequisiti. Esaminare inoltre tutti gli eventuali avvisi ricevuti. Se i controlli di conformità sono stati completati con esito positivo, fare clic su **Avanti** per installare Exchange 2013.
 
-12. 
-    
-    Nella pagina **Completamento** fare clic su **Fine**.
+12. Nella pagina **Completamento** fare clic su **Fine**.
 
 13. Riavviare il computer al termine dell'installazione di Exchange 2013.
 
@@ -139,7 +125,9 @@ Per ulteriori informazioni sulla gestione di Exchange 2013, vedere [Interfaccia 
     > Se è attivato un controllo di accesso utente, è necessario eseguire <CODE>Setup.exe</CODE> da un prompt dei comandi elevato.
 
     
+    ```powershell
         Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
+    ```
 
 Per ulteriori informazioni, vedere [Installare Exchange 2013 utilizzando la modalità automatica](ge-2013-using-unattended-mode-exchange-2013-help 
 Redirect to URL: https://review.docs.microsoft.com/zh-cn/office/exchange-server-2013/exchange-2013-client-access-server-configuration-exchange-2013-help).

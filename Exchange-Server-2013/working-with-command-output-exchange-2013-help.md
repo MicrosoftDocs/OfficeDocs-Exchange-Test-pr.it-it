@@ -50,34 +50,34 @@ Ad esempio, quando si esegue il cmdlet **Get-Mailbox**, è possibile visualizzar
 È inoltre possibile specificare un carattere jolly "\*" con un nome parziale della proprietà. Se si include un carattere jolly, è possibile applicare delle corrispondenze tra più proprietà senza che sia necessario digitare singolarmente tutti i nomi delle proprietà. Ad esempio, `Get-Mailbox | Format-List -Property Email* ` restituisce tutte le proprietà che iniziano con `Email`.
 
 Negli esempi seguenti sono illustrate le diverse modalità di visualizzazione degli stessi dati restituiti dal cmdlet **Get-Mailbox**.
-
+```powershell
     Get-Mailbox TestUser1
     
     Name                      Alias                ServerName       ProhibitSendQuo
                                                                     ta
     ----                      -----                ----------       ---------------
     TestUser1                 TestUser1            mbx              unlimited
-
+```
 Nel primo esempio, il cmdlet **Get-Mailbox** viene eseguito senza una specifica formattazione, pertanto l'output predefinito è in formato di tabella e contiene un insieme predeterminato di proprietà.
-
+```powershell
     Get-Mailbox TestUser1 | Format-List -Property Name,Alias,EmailAddresses
     
     Name           : TestUser1
     Alias          : TestUser1
     EmailAddresses : {SMTP:TestUser1@contoso.com}
-
+```
 Nel secondo esempio, l'output del cmdlet **Get-Mailbox** viene reindirizzato al cmdlet **Format-List** insieme a proprietà specifiche. È evidente che il formato e il contenuto dell'output sono significativamente diversi.
-
+```powershell
     Get-Mailbox TestUser1 | Format-List -Property Name, Alias, Email*
     Name                      : Test User
     Alias                     : TestUser1
     EmailAddresses            : {SMTP:TestUser1@contoso.com}
     EmailAddressPolicyEnabled : True
-
+```
 Nell'ultimo esempio, l'output del cmdlet **Get-Mailbox** è reindirizzato al cmdlet **Format-List** come nel secondo esempio, ma viene utilizzato un carattere jolly per applicare corrispondenze tra tutte le proprietà che iniziano con `Email`.
 
 Se più di un oggetto viene trasmesso al cmdlet **Format-List**, tutte le proprietà specificate per un oggetto sono visualizzate e raggruppate per oggetto. L'ordine di visualizzazione dipende dal parametro predefinito per il cmdlet. Il parametro predefinito corrisponde spesso al parametro *Name* o al parametro *Identity*. Ad esempio, quando si esegue il cmdlet **Get-Childitem**, l'ordine di visualizzazione predefinito restituisce i nomi file in ordine alfabetico. Per modificare questo comportamento, è necessario eseguire il cmdlet **Format-List**, insieme al parametro *GroupBy*, e il nome di un valore proprietà in base a cui si desidera raggruppare l'output. Ad esempio, il seguente comando consente di elencare tutti i file in una directory e poi di raggrupparli per estensione.
-
+```powershell
     Get-Childitem | Format-List Name,Length -GroupBy Extension
     
         Extension: .xml
@@ -105,6 +105,7 @@ Se più di un oggetto viene trasmesso al cmdlet **Format-List**, tutte le propri
     
     Name   : Text_02.txt
     Length : 9835
+```
 
 In questo esempio, il cmdlet **Format-List** ha raggruppato gli elementi in base alla proprietà *Extension* specificata dal parametro *GroupBy*. È possibile utilizzare il parametro *GroupBy* con qualsiasi proprietà valida per gli oggetti nel flusso della pipeline.
 
@@ -115,15 +116,15 @@ Il cmdlet **Format-Table** consente di visualizzare gli elementi dei dati propri
 Il cmdlet **Format-Table** usa anche il parametro *Wrap*, che consente la visualizzazione completa di righe lunghe di informazioni sulle proprietà invece di troncarle alla fine di una riga. Per l'utilizzo del parametro *Wrap* per la visualizzazione delle informazioni restituite, confrontare l'output del comando **Get-Command** nei due esempi seguenti.
 
 Nel primo esempio, quando si utilizza il cmdlet **Get-Command** per visualizzare le informazioni di comando sul cmdlet **Get-Process**, le informazioni relative alla proprietà *Definition* risultano troncate.
-
+```powershell
     Get-Command Get-Process | Format-Table Name,Definition
     
     Name                                    Definition
     ----                                    ----------
     get-process                             get-process [[-ProcessName] String[]...
-
+```
 Nel secondo esempio, è stato aggiunto il parametro *Wrap* al comando per ottenere la visualizzazione completa dei contenuti della proprietà *Definition*.
-
+```powershell
     Get-Command Get-Process | Format-Table Name,Definition -Wrap
     
     Get-Process                             Get-Process [[-Name] <String[]>] [-Comp
@@ -149,7 +150,7 @@ Nel secondo esempio, è stato aggiunto il parametro *Wrap* al comando per ottene
                                             ble <String>] [-WarningVariable <String
                                             >] [-OutVariable <String>] [-OutBuffer
                                             <Int32>]
-
+```
 Come nel cmdlet **Format-List**, è possibile inoltre specificare un carattere jolly "`*`" con un nome proprietà parziale. Se si include un carattere jolly, è possibile applicare delle corrispondenze tra più proprietà senza digitare singolarmente tutti i nomi delle proprietà.
 
 ## Format-Wide
@@ -157,7 +158,7 @@ Come nel cmdlet **Format-List**, è possibile inoltre specificare un carattere j
 Il cmdlet **Format-Wide** consente un controllo più semplice dell'output rispetto agli altri cmdlet di formattazione. Per impostazione predefinita, il cmdlet **Format-Wide** tenta di visualizzare in una riga di output quante più colonne possibili dei valori proprietà. L'aggiunta di parametri consente di controllare il numero di colonne e di stabilire come utilizzare lo spazio di output.
 
 Nell'utilizzo più basilare, l'esecuzione del cmdlet **Format-Wide** senza alcun parametro restituisce l'output in tutte le colonne che la pagina può contenere. Ad esempio, se si esegue il cmdlet **Get-Childitem** e si esegue il piping del relativo output al cmdlet **Format-Wide**, le informazioni verranno visualizzate come segue:
-
+```powershell
     Get-ChildItem | Format-Wide
     
         Directory: FileSystem::C:\WorkingFolder
@@ -176,9 +177,9 @@ Nell'utilizzo più basilare, l'esecuzione del cmdlet **Format-Wide** senza alcun
     Text_08.txt                             Text_09.txt
     Text_10.txt                             Text_11.txt
     Text_12.txt
-
+```
 In genere, l'esecuzione del cmdlet **Get-Childitem** senza alcun parametro comporta la visualizzazione dei nomi di tutti i file nella directory in una tabella di proprietà. In questo esempio, eseguendo il piping dell'output del cmdlet**Get-Childitem** al cmdlet **Format-Wide**, l'output viene visualizzato in due colonne di nomi. È importante notare che è possibile visualizzare solo un tipo di proprietà alla volta, specificato da un nome proprietà posto di seguito al cmdlet **Format-Wide**. Se si aggiunge il parametro *Autosize*, l'output viene visualizzato non più in due colonne, ma in tutte le colonne che la larghezza dello schermo può contenere.
-
+```powershell
     Get-ChildItem | Format-Wide -AutoSize
     
         Directory: FileSystem::C:\WorkingFolder
@@ -189,9 +190,9 @@ In genere, l'esecuzione del cmdlet **Get-Childitem** senza alcun parametro compo
     Text_01.txt     Text_02.txt     Text_03.txt     Text_04.txt     Text_05.txt
     Text_06.txt     Text_07.txt     Text_08.txt     Text_09.txt     Text_10.txt
     Text_11.txt     Text_12.txt
-
+```
 In questo esempio, la tabella è ordinata in cinque colonne invece che in due. Il parametro *Column* consente di specificare il numero massimo di colonne in cui visualizzare le informazioni, come illustrato di seguito:
-
+```powershell
     Get-ChildItem | Format-Wide -Column 4
     
         Directory: FileSystem::C:\WorkingFolder
@@ -203,7 +204,7 @@ In questo esempio, la tabella è ordinata in cinque colonne invece che in due. I
     Text_02.txt         Text_03.txt         Text_04.txt         Text_05.txt
     Text_06.txt         Text_07.txt         Text_08.txt         Text_09.txt
     Text_10.txt         Text_11.txt         Text_12.txt
-
+```
 In questo esempio, il numero di colonne è stato impostato su quattro utilizzando il parametro *Column*.
 
 ## Generazione dei dati
@@ -212,11 +213,15 @@ In questo esempio, il numero di colonne è stato impostato su quattro utilizzand
 
 Il cmdlet **Out-Host** è un cmdlet predefinito non visualizzato alla fine della pipeline. Dopo l'applicazione di tutte le formattazioni, il cmdlet **Out-Host** invia l'output finale alla finestra di console per la visualizzazione. Non è necessario eseguire esplicitamente il cmdlet **Out-Host** poiché rappresenta l'output predefinito. È possibile ignorare l'invio dell'output alla finestra di console eseguendo il cmdlet **Out-File** per ultimo nel comando. Il cmdlet **Out-File**, quindi, scrive l'output nel file specificato nel comando come nell'esempio illustrato di seguito:
 
-    Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```powershell
+Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```
 
 In questo esempio, il cmdlet **Out-File** consente di scrivere le informazioni visualizzate nel comando **Get-ChildItem | Format-Wide -Column 4** nel file denominato `OutputFile.txt`. È inoltre possibile reindirizzare l'output della pipeline a un file utilizzando l'operatore di reindirizzamento, rappresentato dalla parentesi angolata verso destra ( `>` ). Per aggiungere l'output della pipeline di un comando ad un file esistente senza sostituire il file originale, utilizzare le doppie parentesi angolate verso destra ( `>>` ), come nell'esempio illustrato di seguito:
 
-    Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```powershell
+Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```
 
 In questo esempio, l'output dal cmdlet **Get-Childitem** esegue il piping al cmdlet **Format-Wide** per la formattazione e quindi viene scritto alla fine del file `OutputFile.txt`. È importante notare che se il file `OutputFile.txt` non è disponibile, è possibile crearlo utilizzando le doppie parentesi angolate verso destra ( `>>` ).
 
@@ -229,7 +234,7 @@ Per ulteriori informazioni sulla sintassi utilizzata nell'esempio precedente, ve
 Per la flessibilità e la facilità dell'esecuzione script in Exchange Management Shell, è possibile prelevare i dati restituiti dai comandi e formattarli e generarli in moltissimi modi.
 
 Nell'esempio illustrato di seguito, è descritto come utilizzare uno script semplice per generare i dati restituiti da un comando e visualizzarli in Internet Explorer. Lo script preleva gli oggetti transitati tramite la pipeline, apre una finestra di Internet Explorer e visualizza i dati in Internet Explorer:
-
+```powershell
     $Ie = New-Object -Com InternetExplorer.Application
     $Ie.Navigate("about:blank")
     While ($Ie.Busy) { Sleep 1 }
@@ -238,7 +243,7 @@ Nell'esempio illustrato di seguito, è descritto come utilizzare uno script semp
     # If the previous line doesn't work on your system, uncomment the line below.
     # $Ie.Document.IHtmlDocument2_Write("$Input")
     $Ie
-
+```
 Per utilizzare lo script, salvarlo nella directory `C:\Program Files\Microsoft\Exchange Server\V15\Scripts` nel computer in cui eseguire lo script. Assegnare al file il nome `Out-Ie.ps1`. Dopo aver salvato il file, è possibile utilizzare lo script come un cmdlet normale.
 
 
@@ -249,7 +254,9 @@ Per utilizzare lo script, salvarlo nella directory `C:\Program Files\Microsoft\E
 
 Lo script `Out-Ie` presuppone che i dati ricevuti siano in codice HTML valido. Per convertire in HTML i dati che si desiderano visualizzare, è necessario eseguire il piping dei risultati del comando al cmdlet **ConvertTo-Html**. È possibile, quindi, eseguire il piping dei risultati del comando allo script `Out-Ie`. Nel seguente esempio viene descritto come visualizzare un elenco directory in una finestra di Internet Explorer:
 
-    Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```powershell
+Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```
 
 ## Filtro dei dati
 
@@ -328,14 +335,14 @@ L'implementazione del filtro sul lato server è specifica del cmdlet in cui è s
 Una volta che i dati passano attraverso la pipeline, il cmdlet **Where** li riceve dall'oggetto precedente, li filtra e li passa su un altro oggetto. Il filtro si basa su un blocco di script definito nel comando **Where**. Il blocco di script filtra i dati in base alle proprietà e ai valori dell'oggetto.
 
 Il cmdlet **Clear-Host** viene utilizzato per cancellare la finestra di console. In questo esempio, è possibile trovare tutti gli alias definiti per il cmdlet **Clear-Host** se si esegue il comando indicato di seguito:
-
+```powershell
     Get-Alias | Where {$_.Definition -eq "Clear-Host"}
     
     CommandType     Name                            Definition
     -----------     ----                            ----------
     Alias           clear                           clear-host
     Alias           cls                             clear-host
-
+```
 Il cmdlet **Get-Alias** e il comando **Where** operano insieme per restituire l'elenco di alias definiti solo per il cmdlet **Clear-Host**. Nella seguente tabella vengono descritti tutti gli elementi del comando **Where** utilizzato nell'esempio.
 
 ### Elementi del comando Where

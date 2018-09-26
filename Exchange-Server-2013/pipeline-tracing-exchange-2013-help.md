@@ -105,13 +105,13 @@ I file snapshot del messaggio creati sono descritti nel seguente elenco:
 È possibile aprire i file snapshot del messaggio utilizzando Notepad o altro editor di testo.
 
 Ogni file snapshot del messaggio inizia con le intestazioni che vengono aggiunte al contenuto del messaggio ed elenca l'agente di trasporto e l'evento SMTP a cui si collega il file snapshot del messaggio. Queste intestazioni iniziano con `X-CreatedBy: MessageSnapshot-Begin injected headers` e terminano con `X-EndOfInjectedXHeaders: MessageSnapshot-End injected headers`. Le intestazioni vengono sostituite nei singoli file snapshot del messaggio da ogni successivo agente di trasporto ed evento SMTP. Di seguito viene riportato un esempio delle intestazioni aggiunte a un file di messaggio di posta elettronica:
-
+```powershell
     X-CreatedBy: MessageSnapshot-Begin injected headers
     X-MessageSnapshot-UTC-Time: 2013-01-23T23:20:18.138Z
     X-MessageSnapshot-Record-Id: 21474836486
     X-MessageSnapshot-Source: OnSubmittedMessageX-Sender: michelle@nwtraders.com
     X-Receiver: chris@contoso.com
     X-EndOfInjectedXHeaders: MessageSnapshot-End injected headers
-
+```
 Dopo le intestazioni degli snapshot del messaggio il file presenta il contenuto del messaggio, comprese tutte le intestazioni del messaggio originale. Se un agente di trasporto modifica il contenuto del messaggio, le modifiche verranno integrate al messaggio. Man mano che il messaggio viene elaborato da ogni agente di trasporto, le modifiche apportate dai singoli agenti vengono applicate al contenuto dei messaggi. Se un agente di trasporto non apporta modifiche al contenuto del messaggio, lo snapshot del messaggio creato dall'agente sarà identico allo snapshot del messaggio creato dall'agente di trasporto precedente.
 

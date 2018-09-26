@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Consenti impostaz. di POP3, IMAP4, SMTP in Outlook Web App: Exchange 2013 Help'
 TOCTitle: Come consentire agli utenti finali di visualizzare le impostazioni dei server POP3, IMAP4 e SMTP in Outlook Web App
 ms:assetid: bd22bf7e-3bf7-45e6-8790-919b780166f6
@@ -49,19 +49,25 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 In questo esempio si consente agli utenti finali di visualizzare le impostazioni del server POP3 esterno.
 
-    Set-PopSettings -ExternalConnectionSettings {Dublin01.Contoso.com:995:SSL}
+```powershell
+Set-PopSettings -ExternalConnectionSettings {Dublin01.Contoso.com:995:SSL}
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-PopSettings](https://technet.microsoft.com/it-it/library/aa997154\(v=exchg.150\)).
 
 In questo esempio si consente agli utenti finali di visualizzare le impostazioni del server IMAP4 esterno.
 
-    Set-ImapSettings -ExternalConnectionSettings {Dublin01.Contoso.com:993:SSL}
+```powershell
+Set-ImapSettings -ExternalConnectionSettings {Dublin01.Contoso.com:993:SSL}
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Set-ImapSettings](https://technet.microsoft.com/it-it/library/aa998252\(v=exchg.150\)).
 
 Per applicare queste modifiche, è necessario riavviare IIS. Non è necessario riavviare i servizi POP3. Per riavviare IIS, da un prompt dei comandi, digitare quanto segue:
 
-    iisreset
+```powershell
+iisreset
+```
 
 ## Come verificare se l'operazione ha avuto esito positivo?
 
@@ -69,7 +75,9 @@ Per verificare di aver configurato Exchange per consentire agli utenti di visual
 
 1.  Eseguire il seguente comando in Shell.
     
+    ```powershell
         Get-PopSettings | format-list
+    ```
 
 2.  Verificare che sia impostata la proprietà *ExternalConnectionSettings*.
 
@@ -77,7 +85,9 @@ Per verificare di aver configurato Exchange per consentire agli utenti di visual
 
 1.  Eseguire il seguente comando in Shell.
     
+    ```powershell
         Get-ImapSettings | format-list
+    ```
 
 2.  Verificare che sia impostata la proprietà *ExternalConnectionSettings*.
 
@@ -87,7 +97,9 @@ Per eseguire queste procedure, è necessario disporre delle autorizzazioni appro
 
 Con questo esempio viene consentito agli utenti finali di visualizzare le impostazioni del server SMTP interno ed esterno utilizzando Outlook Web App.
 
+```powershell
     Get-ReceiveConnector "*Client Frontend*" | Set-ReceiveConnector -Fqdn Server.Contoso.com -AdvertiseClientSettings $true 
+```
 
 Per ulteriori informazioni sulla sintassi e sui parametri, vedere [Set-ReceiveConnector](https://technet.microsoft.com/it-it/library/bb125140\(v=exchg.150\)).
 
@@ -97,7 +109,9 @@ Per verificare di aver configurato Exchange per consentire agli utenti di visual
 
 1.  Eseguire il seguente comando in Shell.
     
+    ```powershell
         Get-ReceiveConnector | format-list
+    ```
 
 2.  Se la proprietà *AdvertiseClientSettings* è impostata su `true`, gli utenti possono visualizzare le impostazioni del server SMTP in Outlook Web App. Se *AdvertiseClientSettings* è impostata su `false`, gli utenti non possono visualizzare le impostazioni del server SMTP in Outlook Web App.
 

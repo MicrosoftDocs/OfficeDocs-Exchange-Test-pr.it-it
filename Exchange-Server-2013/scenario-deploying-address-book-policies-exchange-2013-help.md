@@ -230,8 +230,9 @@ Quando si utilizzano i criteri della rubrica nella propria organizzazione, è ne
   - Tutti i criteri della rubrica devono includere un elenco di indirizzi delle sale. Se tuttavia nell'organizzazione non viene utilizzato alcun elenco di indirizzi delle sale, è possibile creare un elenco di indirizzi delle sale predefinito vuoto.
 
   - La distribuzione dei criteri della rubrica non impedisce agli utenti di un'organizzazione virtuale di inviare messaggi di posta elettronica agli utenti di un'altra organizzazione virtuale. Se si desidera impedire agli utenti di scambiare messaggi di posta elettronica tra organizzazioni diverse, è consigliabile creare una regola di trasporto. Per creare ad esempio una regola di trasporto che impedisce agli utenti di Contoso di ricevere messaggi dagli utenti di Fabrikam, e al tempo stesso consentire al team degli alti dirigenti di Fabrikam di inviare messaggi agli utenti di Contoso, eseguire il seguente comando della Shell:
-    
+  ```powershell  
         New-TransportRule -Name "StopFabrikamtoContosoMail" -FromMemberOf "AllFabrikamEmployees" -SentToMemberOf "AllContosoEmployees" -DeleteMessage -ExceptIfFrom seniorleadership@fabrikam.com
+  ```
 
   - Se si desidera applicare una funzionalità simile al criterio della Rubrica nel client Lync, è possibile impostare l'attributo `msRTCSIP-GroupingID` per gli oggetti utente specifico. Per ulteriori informazioni, vedere l'argomento di [Partitionbyou con msRTCSIP-GroupingID](https://go.microsoft.com/fwlink/p/?linkid=232306) .
 
@@ -286,22 +287,26 @@ Durante la creazione del criterio della rubrica verranno inclusi più elenchi di
   - AL\_TAIL\_Contacts
 
 In questo esempio viene creato l'elenco di indirizzi AL\_TAIL\_Users\_DGs, L'elenco indirizzi contiene tutti gli utenti e gruppi di distribuzione in cui CustomAttribute15 è uguale a TAIL.
-
+```powershell 
     New-AddressList -Name "AL_TAIL_Users_DGs" -RecipientFilter {((RecipientType -eq 'UserMailbox') -or (RecipientType -eq "MailUniversalDistributionGroup") -or (RecipientType -eq "DynamicDistributionGroup")) -and (CustomAttribute15 -eq "TAIL")}
+```
 
 Per ulteriori informazioni sulla creazione di elenchi di indirizzi tramite i filtri destinatari, vedere [Creare un elenco di indirizzi utilizzando filtri destinatario](https://docs.microsoft.com/it-it/exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list).
 
 Per poter creare un criterio della rubrica è necessario fornire un elenco delle sale. Se nell'organizzazione non sono disponibili cassette postali per le risorse (ad esempio per le sale o le apparecchiature), è consigliabile creare un elenco delle sale vuoto. Nell'esempio seguente viene creato un elenco delle sale vuoto poiché nell'organizzazione non sono presenti cassette postali per le sale.
-
+```powershell 
     New-AddressList -Name AL_BlankRoom -RecipientFilter {(Alias -ne $null) -and ((RecipientDisplayType -eq 'ConferenceRoomMailbox') -or (RecipientDisplayType -eq 'SyncedConferenceRoomMailbox'))}
+```
 
 Tuttavia, in questo scenario Fabrikam e Contoso dispongono entrambe di cassette postali per le sale. In questo esempio viene creato un elenco delle sale per Fabrikam utilizzando un filtro destinatario dove CustomAttribute15 è uguale a FAB.
-
+```powershell
     New-AddressList -Name AL_FAB_Room -RecipientFilter {(Alias -ne $null) -and (CustomAttribute15 -eq "FAB")-and (RecipientDisplayType -eq 'ConferenceRoomMailbox') -or (RecipientDisplayType -eq 'SyncedConferenceRoomMailbox')}
+```
 
 L'elenco indirizzi globale utilizzato in un criterio della rubrica deve essere un soprainsieme dell'elenco indirizzi. Non creare un elenco indirizzi globale con un numero di oggetti inferiore a quello di alcuni o tutti gli elenchi di indirizzi nel criterio della rubrica. In questo esempio viene creato un elenco indirizzi globale per Tailspin Toys che comprende tutti i destinatari esistenti nell'elenco indirizzi e nell'elenco delle sale.
-
+```powershell
     New-GlobalAddressList -Name "GAL_TAIL" -RecipientFilter {(CustomAttribute15 -eq "TAIL")}
+```
 
 Per ulteriori informazioni, vedere [Creare un elenco indirizzi globale](https://docs.microsoft.com/it-it/exchange/address-books/address-lists/create-global-address-list).
 
@@ -309,16 +314,18 @@ Quando si crea una rubrica offline è necessario includere l'appropriato elenco 
 
 In questo esempio viene creata una rubrica offline per Fabrikam denominata OAB\_FAB.
 
-    New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```powershell
+New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```
 
 Per ulteriori informazioni, vedere [Creazione di una Rubrica fuori rete](https://docs.microsoft.com/it-it/exchange/address-books/offline-address-books/create-offline-address-book).
 
 ## Passaggio 4: Creare i criteri della rubrica
 
 Dopo aver creato tutti gli oggetti necessari è quindi possibile create il criterio della rubrica. In questo esempio viene rimosso il criterio della rubrica denominato ABP\_TAIL.
-
+```powershell
     New-AddressBookPolicy -Name "ABP_TAIL" -AddressLists "AL_TAIL_Users_DGs"," AL_TAIL_Contacts" -OfflineAddressBook "\OAB_TAIL" -GlobalAddressList "\GAL_TAIL" -RoomList "\AL_TAIL_Rooms"
-
+```
 Per ulteriori informazioni, vedere [Creare un criterio della Rubrica](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/create-an-address-book-policy).
 
 ## Passaggio 5: Assegnare i criteri della rubrica alle cassette postali
@@ -326,8 +333,8 @@ Per ulteriori informazioni, vedere [Creare un criterio della Rubrica](https://do
 L'assegnazione dei criteri della rubrica agli utenti è l'ultimo passaggio della procedura. I criteri della rubrica hanno effetto quando l'applicazione dell'utente si connette al servizio Rubrica di Microsoft Exchange nel server di accesso client. Se l'utente è già connesso a Outlook o Outlook Web App quando il criterio della rubrica viene applicato al proprio account, dovrà chiudere e riavviare l'applicazione client per poter visualizzare i nuovi elenchi di indirizzi e l'Elenco indirizzi globale.
 
 In questo esempio viene assegnato ABP\_FAB a tutte le cassette postali dove CustomAttribute15 è uguale a "FAB".
-
+```powershell
     Get-Mailbox -resultsize unlimited | where {$_.CustomAttribute15 -eq "TAIL"} | Set-Mailbox -AddressBookPolicy "ABP_TAIL"
-
+```
 Per ulteriori informazioni, vedere [Assegnare un criterio della Rubrica per gli utenti di posta](https://docs.microsoft.com/it-it/exchange/address-books/address-book-policies/assign-an-address-book-policy-to-mail-users).
 

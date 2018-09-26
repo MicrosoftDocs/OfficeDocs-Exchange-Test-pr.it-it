@@ -53,11 +53,15 @@ Per informazioni sulle altre attività di gestione relative agli ambiti di ruolo
 
 Per visualizzare i dettagli di uno specifico ambito, utilizzare la seguente sintassi.
 
-    Get-ManagementScope <scope name> | Format-List
+```powershell
+Get-ManagementScope <scope name> | Format-List
+```
 
 In questo esempio vengono recuperati i dettagli dell'ambito Seattle Servers.
 
-    Get-ManagementScope "Seattle Servers" | Format-List
+```powershell
+Get-ManagementScope "Seattle Servers" | Format-List
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementScope](https://technet.microsoft.com/it-it/library/dd298180\(v=exchg.150\)).
 
@@ -65,7 +69,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 In questo esempio viene recuperato un elenco degli ambiti nell'organizzazione.
 
-    Get-ManagementScope
+```powershell
+Get-ManagementScope
+```
 
 Questo cmdlet consente di recuperare gli ambiti esclusivi e regolari. Per la restituzione solo degli ambiti esclusivi o solo degli ambiti regolari, vedere "Elenco solo degli ambiti esclusivi o solo di quelli regolari" in questo argomento.
 
@@ -77,7 +83,9 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 In questo esempio viene recuperato un elenco di ambiti orfani.
 
-    Get-ManagementScope -Orphan
+```powershell
+Get-ManagementScope -Orphan
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementScope](https://technet.microsoft.com/it-it/library/dd298180\(v=exchg.150\)).
 
@@ -85,15 +93,21 @@ Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-Managem
 
 Per impostazione predefinita, il cmdlet **Get-ManagementScope** consente di restituire un elenco di ambiti contenente gli ambiti esclusivi e regolari. Se si desidera restituire solo gli ambiti esclusivi o solo quelli regolari, utilizzare la seguente sintassi.
 
-    Get-ManagementScope -Exclusive < $true | $false >
+```powershell
+Get-ManagementScope -Exclusive < $true | $false >
+```
 
 In questo esempio vengono restituiti solo gli ambiti esclusivi.
 
-    Get-ManagementScope -Exclusive $true
+```powershell
+Get-ManagementScope -Exclusive $true
+```
 
 In questo esempio viene restituito un elenco solo degli ambiti regolari.
 
-    Get-ManagementScope -Exclusive $false
+```powershell
+Get-ManagementScope -Exclusive $false
+```
 
 Per informazioni dettagliate sulla sintassi e sui parametri, vedere [Get-ManagementScope](https://technet.microsoft.com/it-it/library/dd298180\(v=exchg.150\)).
 

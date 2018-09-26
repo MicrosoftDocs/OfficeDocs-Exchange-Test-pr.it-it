@@ -54,10 +54,11 @@ Per informazioni sulle altre attività di gestione relative ai server Cassette p
 ## Attivazione o disattivazione della ricezione chiamata su un server Cassette postali tramite Shell
 
 In questo esempio, al server Cassette postali `UMMBXr-05x.contoso.com` viene consentito di rispondere alle chiamate vocali, fax, tramite operatore automatico e Outlook Voice Access in ingresso provenienti da gateway VoIP, IP PBX, PBX abilitati per SIP e session border controller e gli viene permesso di scrivere le modifiche nel Registro di sistema sul server UMMBX-05x.
-
+```powershell
     Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```
 
 In questo esempio, al server Cassette postali `UMMBX-05x.contoso.com` viene impedito di rispondere alle chiamate vocali, fax, tramite operatore automatico e Outlook Voice Access in ingresso provenienti da gateway VoIP, IP PBX, PBX abilitati per SIP e session border controller e gli viene permesso di scrivere le modifiche solo in Active Directory.
-
+```powershell
     Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
-
+```

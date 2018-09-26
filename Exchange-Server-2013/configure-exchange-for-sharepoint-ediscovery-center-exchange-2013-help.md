@@ -46,18 +46,18 @@ In questo argomento viene illustrato come configurare l'autenticazione da server
 ## Passaggio 1: Configurare l'autenticazione da server a server per Exchange 2013 su un server con SharePoint Server 2013
 
 Utilizzare il seguente comando per creare Exchange 2013 come emittente di token di sicurezza attendibile in SharePoint 2013.
-
+```powershell
     New-SPTrustedSecurityTokenIssuer -Name Exchange -MetadataEndPoint https://<Exchange Server Name or FQDN>/autodiscover/metadata/json/1
-
+```
 ## Passaggio 2: Configurare l'autenticazione da server a server per SharePoint 2013 su un server con Exchange 2013
 
 Eseguire questo passo su un server Exchange 2013. Per eseguire queste procedure, è necessario disporre delle autorizzazioni appropriate. Per sapere quali autorizzazioni sono necessarie, vedere "Applicazioni partner: configurazione" nell'argomento [Autorizzazioni di condivisione e collaborazione](sharing-and-collaboration-permissions-exchange-2013-help.md).
 
 Utilizzare il seguente comando per configurare l'applicazione partner di SharePoint.
-
+```powershell
     cd c:\'Program Files'\Microsoft\'Exchange Server'\V15\Scripts
     .\Configure-EnterprisePartnerApplication.ps1 -AuthMetadataUrl <path to SharePoint AuthMetadataUrl> -ApplicationType SharePoint
-
+```
 ## Passaggio 3: Aggiungere gli utenti autorizzati al gruppo di ruoli Gestione individuazione
 
 Aggiungere gli utenti che devono eseguire una ricerca eDiscovery utilizzando SharePoint 2013 al gruppo di ruoli Gestione individuazione in Exchange 2013. Per ulteriori informazioni, vedere [Assegnare le autorizzazioni di eDiscovery di Exchange](https://docs.microsoft.com/it-it/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
