@@ -1342,7 +1342,7 @@ Prevenzione perdita dati (DLP) in Exchange include 80 tipi di informazioni riser
 </ul>
 
 ```Command&nbsp;Line
-<!-- Canada Driver&#39;s License Number -->
+<!-- Canada Driver's License Number -->
     <Entity id="37186abb-8e48-4800-ad3c-e3d1610b3db0" patternsProximity="300" recommendedConfidence="75">
       <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_alberta_drivers_license_number" />
